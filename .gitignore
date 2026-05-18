@@ -1,0 +1,52 @@
+# Secretos y credenciales
+.env
+tokens_cuenta*.json
+ml_cookies*.json
+*_token*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Datos locales
+data/excel/*.xlsx
+data/excel/*.xls
+
+# Logs y temporales
+*.log
+temp_fotos/
+
+# Imágenes y capturas
+*.png
+*.jpg
+*.jpeg
+
+# Archivos grandes de datos
+ml_ads_*.json
+ml_billing_*.json
+meta_ads_completo.json
+meta_imagenes_hashes.json
+orders_analysis.json
+publicaciones.json
+publicaciones_activas.json
+calidad_fichas.json
+errores_atributos.json
+atributos_pendientes.json
+fotos_lavaplatos_meta.json
+mejora_fotos_c2.json
+mejorar_fotos_c1_c3.py
+meta_campanas_ids.json
+nuevo_item.json
+
+# Reportes generados
+*.html
+*.pdf
+reporte_noche.txt
