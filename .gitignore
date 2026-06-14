@@ -50,3 +50,6 @@ nuevo_item.json
 *.html
 *.pdf
 reporte_noche.txt
+
+# Repos de terceros clonados para revisión (no forman parte de este proyecto)
+open-carrusel/
