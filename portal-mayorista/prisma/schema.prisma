@@ -49,6 +49,8 @@ model Producto {
   fotoUrl     String?
   link1688    String?
   activo      Boolean      @default(true)
+  stock       Int?         // unidades disponibles en AlilaTop (lo actualiza el scraper; null = sin dato)
+  reservado   Int          @default(0) // unidades reservadas por pedidos con pago validado, aun no despachados
   items       PedidoItem[]
 }
 
