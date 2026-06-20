@@ -1,8 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
-
 generator client {
   provider = "prisma-client"
   output   = "../src/generated/prisma"
@@ -10,4 +5,86 @@ generator client {
 
 datasource db {
   provider = "postgresql"
+}
+
+enum EstadoComerciante {
+  pendiente
+  aprobado
+  rechazado
+}
+
+enum EstadoPedido {
+  pago_en_validacion
+  validado
+  oc_generada
+  despachado
+  entregado
+  rechazado
+}
+
+model Comerciante {
+  id         String            @id @default(cuid())
+  nombre     String
+  email      String            @unique
+  clave      String
+  rutEmpresa String
+  giro       String
+  telefono   String
+  estado     EstadoComerciante @default(pendiente)
+  pedidos    Pedido[]
+  createdAt  DateTime          @default(now())
+}
+
+model Producto {
+  id          String       @id @default(cuid())
+  codigoAlila String       @unique
+  nombre      String
+  categoria   String?
+  costo       Int?
+  precioT1    Int?
+  precioT2    Int?
+  precioT3    Int?
+  unidCaja    Int?
+  minCompra   Int          @default(1)
+  fotoUrl     String?
+  link1688    String?
+  activo      Boolean      @default(true)
+  items       PedidoItem[]
+}
+
+model Pedido {
+  id             String       @id @default(cuid())
+  comerciante    Comerciante  @relation(fields: [comercianteId], references: [id])
+  comercianteId  String
+  estado         EstadoPedido @default(pago_en_validacion)
+  total          Int
+  region         String
+  direccion      String
+  comprobanteUrl String?
+  transportista  String?
+  tracking       String?
+  items          PedidoItem[]
+  oc             OC?
+  createdAt      DateTime     @default(now())
+}
+
+model PedidoItem {
+  id             String   @id @default(cuid())
+  pedido         Pedido   @relation(fields: [pedidoId], references: [id])
+  pedidoId       String
+  producto       Producto @relation(fields: [productoId], references: [id])
+  productoId     String
+  cantidad       Int
+  precioAplicado Int
+  subtotal       Int
+}
+
+model OC {
+  id        String   @id @default(cuid())
+  pedido    Pedido   @relation(fields: [pedidoId], references: [id])
+  pedidoId  String   @unique
+  proveedor String   @default("AlilaTop")
+  numeroOc  String   @unique
+  estado    String   @default("emitida")
+  createdAt DateTime @default(now())
 }
