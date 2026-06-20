@@ -12,10 +12,12 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         const email = String(c?.email ?? "").toLowerCase();
         const pass = String(c?.password ?? "");
 
-        // Admin via env vars
+        // Admin via env vars. Clave en texto plano en el .env (almacén de
+        // secretos del servidor) para evitar la expansión de "$" de @next/env
+        // sobre un hash bcrypt. Las claves de comerciantes SÍ van hasheadas en la BD.
         if (email === process.env.ADMIN_EMAIL?.toLowerCase()) {
-          const hash = process.env.ADMIN_PASSWORD_HASH ?? "";
-          if (await bcrypt.compare(pass, hash))
+          const admPass = process.env.ADMIN_PASSWORD ?? "";
+          if (admPass && pass === admPass)
             return {
               id: "admin",
               email,
