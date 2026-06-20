@@ -689,6 +689,8 @@ export async function POST(req: Request) {
 }
 ```
 
+- [ ] **Step 1b: Reservar stock al validar** — cuando la transición es a `validado`, dentro de la MISMA transacción incrementar `Producto.reservado` por la cantidad de cada `PedidoItem` (usar `puedeReservar` de `src/lib/reserva.ts`; si algún producto tiene `stock` no-null y no alcanza, devolver 409 con el detalle para que el admin decida). Si `stock` es null, reservar igual (sin límite).
+
 - [ ] **Step 2: UI pagos** — lista de pedidos en `pago_en_validacion`, cada uno con link al comprobante (Blob) y botones **Validar** (→`validado`) / **Rechazar** (→`rechazado`).
 
 - [ ] **Step 3: Probar** — validar un pago → pasa a `validado`; intentar saltar a `despachado` da error 400.
@@ -720,13 +722,21 @@ export async function POST(req: Request) {
   const p = await prisma.pedido.findUnique({ where: { id: pedidoId } });
   if (!p || !puedeTransicionar(p.estado as any, "oc_generada")) return NextResponse.json({ error: "no válido" }, { status: 400 });
   const numeroOc = `OC-${Date.now().toString(36).toUpperCase()}`;
+  // ademas: por cada PedidoItem, descontar stock y liberar la reserva
+  const items = await prisma.pedidoItem.findMany({ where: { pedidoId } });
   await prisma.$transaction([
     prisma.oC.create({ data: { pedidoId, numeroOc } }),
     prisma.pedido.update({ where: { id: pedidoId }, data: { estado: "oc_generada" } }),
+    ...items.map((it) => prisma.producto.update({
+      where: { id: it.productoId },
+      data: { reservado: { decrement: it.cantidad }, stock: { decrement: it.cantidad } },
+    })),
   ]);
   return NextResponse.json({ ok: true, numeroOc });
 }
 ```
+
+> Nota: `decrement` sobre `stock` null falla. Para productos con `stock === null` (sin dato del scraper), NO descontar stock — solo liberar `reservado`. Filtrar esos items o leer el producto antes.
 
 - [ ] **Step 2: UI pedidos** — lista de pedidos `validado` con botón **Generar OC**; al generarla muestra el N° OC y el detalle (códigos Alila + cantidades) para comprar en AlilaTop.
 

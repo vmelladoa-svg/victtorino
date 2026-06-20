@@ -23,7 +23,7 @@ Portal B2B donde comerciantes aprobados ven precios mayoristas, hacen pedidos, p
 
 ## Modelo de datos (5 tablas)
 - **comerciantes**: nombre, email, clave (hash), rut_empresa, giro, telefono, estado (pendiente|aprobado|rechazado), created_at.
-- **productos**: codigo_alila, nombre, categoria, costo, precio_t1, precio_t2, precio_t3, unid_caja, min_compra, foto_url, link_1688, activo.
+- **productos**: codigo_alila, nombre, categoria, costo, precio_t1, precio_t2, precio_t3, unid_caja, min_compra, foto_url, link_1688, activo, **stock** (unidades en AlilaTop; null = sin dato), **reservado** (unidades reservadas por pagos validados sin despachar).
 - **pedidos**: comerciante_id, estado (pago_en_validacion|validado|oc_generada|despachado|entregado|rechazado), total, region, direccion, comprobante_url, transportista, tracking, created_at.
 - **pedido_items**: pedido_id, producto_id, cantidad, precio_aplicado, subtotal.
 - **ocs**: pedido_id, proveedor (AlilaTop), numero_oc, estado, created_at.
@@ -53,10 +53,15 @@ El precio de cada línea se calcula por la **cantidad de ESE producto**:
 
 ## Flujo
 1. Comerciante arma pedido → checkout → sube comprobante → estado **pago_en_validacion** → WhatsApp al admin.
-2. Admin valida pago → **validado**.
-3. Admin genera OC (compra a AlilaTop, llega ~1 día) → **oc_generada**.
+2. Admin valida pago → **validado** → **se RESERVA el stock** de cada producto (incrementa `reservado`). Si hay dato de stock y no alcanza, se avisa al admin.
+3. Admin genera OC (compra a AlilaTop, llega ~1 día) → **oc_generada** → **se descuenta `stock` y se libera la reserva** de esos productos.
 4. Admin marca despachado (transportista + tracking) → **despachado** (el comerciante lo ve).
 5. Entregado → **entregado**.
+
+### Stock y reserva
+- `disponible = stock - reservado` (si `stock` es null → sin límite; aún sin datos del scraper).
+- La reserva ocurre al validar el pago; se consume al generar la OC.
+- **Scraper de sincronización con AlilaTop (v2):** rutina que actualiza `precio`, `stock` y `activo` de los productos desde AlilaTop, reutilizando las herramientas Alila existentes (`alila_app_client.py`, `alila_scrape.py`, backend uniCloud). Permite agregar/pausar/reprecio automáticos.
 
 ## Seguridad
 - Auth.js + bcrypt. Dos roles (comerciante, admin); panel admin solo con rol admin.
