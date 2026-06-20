@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import BuscarCatalogo, { type ProductoRow } from "./buscar";
+import CartBadge from "./cart-badge";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -65,6 +66,9 @@ function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
 
         {/* Spacer */}
         <div style={{ flex: 1 }} />
+
+        {/* Carrito */}
+        <CartBadge />
 
         {/* Usuario + cerrar sesión */}
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>

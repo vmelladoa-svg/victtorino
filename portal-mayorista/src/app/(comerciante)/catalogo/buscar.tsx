@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Image from "next/image";
+import AgregarAlCarrito from "./agregar";
 
 /* ------------------------------------------------------------------ */
 /*  Tipos                                                               */
@@ -174,6 +175,8 @@ function ProductCard({ prod }: { prod: ProductoRow }) {
             <span className="badge badge-neutral">{prod.categoria}</span>
           </div>
         )}
+
+        <AgregarAlCarrito prod={prod} />
       </div>
     </article>
   );

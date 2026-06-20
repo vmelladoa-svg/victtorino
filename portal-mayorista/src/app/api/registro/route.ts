@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/db";
+import { avisarWhatsApp } from "@/lib/whatsapp";
 
 export async function POST(req: Request) {
   const b = await req.json();
@@ -22,8 +23,7 @@ export async function POST(req: Request) {
     },
   });
 
-  // aviso al admin "nuevo comerciante por aprobar" se conecta en Task 9
-  // (cuando exista src/lib/whatsapp.ts): await avisarWhatsApp(`Nuevo comerciante ${b.nombre} por aprobar.`)
+  await avisarWhatsApp(`Nuevo comerciante ${b.nombre} por aprobar.`);
 
   return NextResponse.json({ ok: true });
 }
