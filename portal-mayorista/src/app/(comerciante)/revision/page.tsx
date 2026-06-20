@@ -25,17 +25,17 @@ export default function RevisionPage() {
           <ClockIcon />
         </div>
 
-        <h1 style={styles.heading}>Tu cuenta esta en revision</h1>
+        <h1 style={styles.heading}>Tu cuenta está en revisión</h1>
 
         <p style={styles.body}>
-          Hemos recibido tu solicitud. Revisaremos tu informacion y te
+          Hemos recibido tu solicitud. Revisaremos tu información y te
           notificaremos cuando tu cuenta sea aprobada.
         </p>
 
         <div style={styles.infoBox}>
           <InfoIcon />
           <span>
-            El proceso de revision toma entre 24 y 48 horas habiles.
+            El proceso de revisión toma entre 24 y 48 horas hábiles.
             Si tienes dudas, contactanos en{" "}
             <a href="mailto:contacto@tradeglobalsolutions.cl" style={styles.emailLink}>
               contacto@tradeglobalsolutions.cl

@@ -77,6 +77,7 @@ function FilterIcon() {
 /* ------------------------------------------------------------------ */
 function ProductCard({ prod }: { prod: ProductoRow }) {
   const sinStock = !prod.stock || prod.stock <= 0;
+  const [imgError, setImgError] = useState(false);
 
   return (
     <article
@@ -85,7 +86,7 @@ function ProductCard({ prod }: { prod: ProductoRow }) {
     >
       {/* Imagen */}
       <div className="pcard-media">
-        {prod.fotoUrl ? (
+        {prod.fotoUrl && !imgError ? (
           <div
             style={{
               height: 168,
@@ -101,6 +102,7 @@ function ProductCard({ prod }: { prod: ProductoRow }) {
               sizes="(max-width: 720px) 50vw, (max-width: 1080px) 33vw, 25vw"
               style={{ objectFit: "cover" }}
               unoptimized
+              onError={() => setImgError(true)}
             />
           </div>
         ) : (

@@ -2,7 +2,7 @@
 
 import { useState, FormEvent } from "react";
 import { useRouter } from "next/navigation";
-import { signIn } from "next-auth/react";
+import { signIn, getSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -30,13 +30,21 @@ export default function LoginPage({
       });
 
       if (result?.error) {
-        setError("Credenciales incorrectas. Verifica tu email y contrasena.");
+        setError("Credenciales incorrectas. Verifica tu email y contraseña.");
         return;
       }
 
-      router.push("/dashboard");
+      const session = await getSession();
+      const user = session?.user as any;
+      if (user?.rol === "admin") {
+        router.push("/admin");
+      } else if (user?.estado === "aprobado") {
+        router.push("/catalogo");
+      } else {
+        router.push("/revision");
+      }
     } catch {
-      setError("Error de conexion. Intenta nuevamente.");
+      setError("Error de conexión. Intenta nuevamente.");
     } finally {
       setLoading(false);
     }
@@ -67,7 +75,7 @@ export default function LoginPage({
             <li style={styles.featItem}><CheckIcon /> Precios escalonados por volumen</li>
             <li style={styles.featItem}><CheckIcon /> Stock en tiempo real</li>
             <li style={styles.featItem}><CheckIcon /> Seguimiento de pedido completo</li>
-            <li style={styles.featItem}><CheckIcon /> Facturacion disponible</li>
+            <li style={styles.featItem}><CheckIcon /> Facturación disponible</li>
           </ul>
         </div>
         <footer style={styles.asideFoot}>2026 Trade Global Solutions SpA</footer>
@@ -75,10 +83,10 @@ export default function LoginPage({
 
       <div style={styles.formWrap}>
         <div style={styles.formCard}>
-          <h2 style={styles.formH2}>Iniciar sesion</h2>
+          <h2 style={styles.formH2}>Iniciar sesión</h2>
           <p style={styles.formSub}>
-            No tienes cuenta?{" "}
-            <Link href="/registro" style={styles.link}>Registrate aqui</Link>
+            ¿No tienes cuenta?{" "}
+            <Link href="/registro" style={styles.link}>Regístrate aquí</Link>
           </p>
 
           <form onSubmit={handleSubmit} noValidate>
@@ -100,14 +108,14 @@ export default function LoginPage({
             </div>
 
             <div style={styles.field}>
-              <label style={styles.label} htmlFor="clave">Contrasena</label>
+              <label style={styles.label} htmlFor="clave">Contraseña</label>
               <input
                 id="clave"
                 name="clave"
                 type="password"
                 autoComplete="current-password"
                 required
-                placeholder="Tu contrasena"
+                placeholder="Tu contraseña"
                 value={clave}
                 onChange={(e) => setClave(e.target.value)}
                 style={styles.input}
@@ -132,8 +140,8 @@ export default function LoginPage({
           </div>
 
           <p style={styles.registerNote}>
-            Si tu cuenta esta en revision, puedes revisar su estado en{" "}
-            <Link href="/revision" style={styles.link}>esta pagina</Link>.
+            Si tu cuenta está en revisión, puedes revisar su estado en{" "}
+            <Link href="/revision" style={styles.link}>esta página</Link>.
           </p>
         </div>
       </div>

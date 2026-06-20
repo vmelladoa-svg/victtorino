@@ -23,13 +23,13 @@
 .adm-brand-txt strong { font-size: 15px; font-weight: 800; }
 .adm-brand-txt small { font-size: 11px; color: rgba(255,255,255,.6); font-weight: 600; }
 .adm-nav { display: flex; flex-direction: column; gap: 3px; margin-top: 8px; }
-.adm-navi { display: flex; align-items: center; gap: 12px; padding: 11px 13px; border-radius: 10px; border: 0; background: none; color: rgba(255,255,255,.78); font-weight: 600; font-size: 14px; text-align: left; transition: background .15s, color .15s; }
-.adm-navi:hover { background: rgba(255,255,255,.08); color: #fff; }
-.adm-navi.is-on { background: rgba(255,255,255,.14); color: #fff; }
+.adm-navi { display: flex; align-items: center; gap: 12px; padding: 11px 13px; border-radius: 10px; border: 0; background: none; color: #fff; font-weight: 600; font-size: 14px; text-align: left; transition: background .15s, color .15s; }
+.adm-navi:hover { background: rgba(255,255,255,.10); color: #fff; }
+.adm-navi.is-on { background: rgba(255,255,255,.18); color: #fff; font-weight: 700; }
 .adm-navi span:not(.adm-navi-badge) { flex: 1; }
 .adm-navi-badge { background: var(--amber); color: #3b2700; font-size: 11px; font-weight: 800; min-width: 20px; height: 20px; padding: 0 6px; border-radius: 100px; display: grid; place-items: center; }
 .adm-side-foot { margin-top: auto; display: flex; flex-direction: column; gap: 12px; padding-top: 16px; }
-.adm-side-link { display: flex; align-items: center; gap: 10px; padding: 10px 13px; border-radius: 10px; color: rgba(255,255,255,.8); text-decoration: none; font-weight: 600; font-size: 13.5px; background: rgba(255,255,255,.06); }
+.adm-side-link { display: flex; align-items: center; gap: 10px; padding: 10px 13px; border-radius: 10px; color: rgba(255,255,255,.9); text-decoration: none; font-weight: 600; font-size: 13.5px; background: rgba(255,255,255,.06); }
 .adm-side-link:hover { background: rgba(255,255,255,.12); color: #fff; }
 .adm-side-user { display: flex; align-items: center; gap: 10px; padding: 6px 8px; border-top: 1px solid rgba(255,255,255,.12); padding-top: 14px; }
 .adm-side-avatar { width: 34px; height: 34px; border-radius: 9px; background: rgba(255,255,255,.16); display: grid; place-items: center; font-weight: 800; font-size: 13px; flex: none; }

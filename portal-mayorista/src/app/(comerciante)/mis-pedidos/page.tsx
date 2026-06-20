@@ -36,7 +36,7 @@ function formatDate(d: Date): string {
 type EstadoCfg = { label: string; bg: string; color: string };
 
 const ESTADOS: Record<EstadoPedido, EstadoCfg> = {
-  pago_en_validacion: { label: "Pago en validacion", bg: "var(--amber-t)", color: "var(--amber)" },
+  pago_en_validacion: { label: "Pago en validación", bg: "var(--amber-t)", color: "var(--amber)" },
   validado:           { label: "Validado",            bg: "var(--brand-soft)", color: "var(--brand-ink)" },
   oc_generada:        { label: "OC generada",         bg: "var(--blue-t)", color: "var(--blue)" },
   despachado:         { label: "Despachado",          bg: "var(--blue-t)", color: "var(--blue)" },
@@ -46,7 +46,7 @@ const ESTADOS: Record<EstadoPedido, EstadoCfg> = {
 
 // Human-readable with tildes (display only)
 const ESTADO_LABEL: Record<EstadoPedido, string> = {
-  pago_en_validacion: "Pago en validacion",
+  pago_en_validacion: "Pago en validación",
   validado:           "Validado",
   oc_generada:        "OC generada",
   despachado:         "Despachado",
@@ -194,9 +194,9 @@ function OrderTimeline({ estado }: { estado: EstadoPedido }) {
         const stepDescriptions: Record<EstadoPedido, string> = {
           pago_en_validacion: "Recibimos tu comprobante. Estamos verificando la transferencia.",
           validado:           "Transferencia validada. Compramos al importador y preparamos tu pedido.",
-          oc_generada:        "Orden de compra emitida al importador. Tu pedido esta en preparacion.",
-          despachado:         "Tu pedido salio a ruta con el transportista hacia tu region.",
-          entregado:          "Pedido entregado en la direccion indicada.",
+          oc_generada:        "Orden de compra emitida al importador. Tu pedido está en preparación.",
+          despachado:         "Tu pedido salió a ruta con el transportista hacia tu región.",
+          entregado:          "Pedido entregado en la dirección indicada.",
           rechazado:          "",
         };
 
@@ -254,7 +254,7 @@ function OrderTimeline({ estado }: { estado: EstadoPedido }) {
                   display: "inline-flex", alignItems: "center", gap: 6,
                   fontSize: 12, fontWeight: 600, color: "var(--brand-deep)", marginTop: 7,
                 }}>
-                  <IconClock size={13} /> Validacion estimada: 24-48h habiles
+                  <IconClock size={13} /> Validación estimada: 24–48h hábiles
                 </span>
               )}
             </div>
@@ -382,7 +382,7 @@ function OrderCard({ pedido }: { pedido: PedidoConItems }) {
                 display: "flex", alignItems: "flex-start", justifyContent: "space-between",
                 fontSize: 13, color: "var(--ink-2)", marginBottom: 7,
               }}>
-                <span style={{ color: "var(--ink-3)", flexShrink: 0, marginRight: 8 }}>Direccion</span>
+                <span style={{ color: "var(--ink-3)", flexShrink: 0, marginRight: 8 }}>Dirección</span>
                 <span style={{ textAlign: "right" }}>{pedido.direccion}</span>
               </div>
 
@@ -402,7 +402,7 @@ function OrderCard({ pedido }: { pedido: PedidoConItems }) {
                       display: "flex", justifyContent: "space-between",
                       fontSize: 13, color: "var(--ink-2)",
                     }}>
-                      <span style={{ color: "var(--ink-3)" }}>N de seguimiento</span>
+                      <span style={{ color: "var(--ink-3)" }}>N.° de seguimiento</span>
                       <strong style={{
                         color: "var(--brand-deep)", fontFamily: "var(--mono)",
                         letterSpacing: "-0.02em",
@@ -413,7 +413,7 @@ function OrderCard({ pedido }: { pedido: PedidoConItems }) {
                   )}
                   {!pedido.transportista && !pedido.tracking && (
                     <p style={{ fontSize: 12.5, color: "var(--ink-3)", margin: 0 }}>
-                      Informacion de seguimiento pendiente.
+                      Información de seguimiento pendiente.
                     </p>
                   )}
                 </div>
@@ -494,7 +494,7 @@ export default async function MisPedidosPage() {
             fontSize: 13.5, padding: "9px 11px", borderRadius: "var(--rs)",
             textDecoration: "none",
           }}>
-            <IconGrid /> Catalogo
+            <IconGrid /> Catálogo
           </Link>
         </div>
       </header>
@@ -519,13 +519,13 @@ export default async function MisPedidosPage() {
               <IconTruck size={34} />
             </div>
             <h2 style={{ fontSize: 22, fontWeight: 800, color: "var(--ink)", marginTop: 8 }}>
-              Aun no tienes pedidos
+              Aún no tienes pedidos
             </h2>
             <p style={{
               fontSize: 14.5, maxWidth: 380, marginBottom: 14,
               color: "var(--ink-2)", lineHeight: 1.6,
             }}>
-              Cuando completes una compra, aqui podras seguir su estado: validacion, despacho y entrega.
+              Cuando completes una compra, aquí podrás seguir su estado: validación, despacho y entrega.
             </p>
             <Link href="/catalogo" style={{
               display: "inline-flex", alignItems: "center", gap: 7,
@@ -533,7 +533,7 @@ export default async function MisPedidosPage() {
               borderRadius: "var(--rs)", fontWeight: 700, fontSize: 14,
               textDecoration: "none",
             }}>
-              <IconGrid /> Ir al catalogo
+              <IconGrid /> Ir al catálogo
             </Link>
           </div>
         ) : (

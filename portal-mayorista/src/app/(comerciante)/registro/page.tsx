@@ -30,11 +30,11 @@ export default function RegistroPage() {
     setError("");
 
     if (form.clave !== form.claveConfirm) {
-      setError("Las contrasenas no coinciden.");
+      setError("Las contraseñas no coinciden.");
       return;
     }
     if (form.clave.length < 8) {
-      setError("La contrasena debe tener al menos 8 caracteres.");
+      setError("La contraseña debe tener al menos 8 caracteres.");
       return;
     }
 
@@ -63,7 +63,7 @@ export default function RegistroPage() {
       setSuccess(true);
       setTimeout(() => router.push("/login?registrado=1"), 2000);
     } catch {
-      setError("Error de conexion. Intenta nuevamente.");
+      setError("Error de conexión. Intenta nuevamente.");
     } finally {
       setLoading(false);
     }
@@ -88,14 +88,14 @@ export default function RegistroPage() {
           </div>
           <h1 style={styles.asideH1}>Venta por Mayor para tu negocio</h1>
           <p style={styles.asideP}>
-            Registrate y accede a precios mayoristas, volumen por caja
+            Regístrate y accede a precios mayoristas, volumen por caja
             y despacho a todo Chile.
           </p>
           <ul style={styles.feats}>
             <li style={styles.featItem}><CheckIcon /> Precios escalonados por volumen</li>
             <li style={styles.featItem}><CheckIcon /> Stock en tiempo real</li>
             <li style={styles.featItem}><CheckIcon /> Seguimiento de pedido completo</li>
-            <li style={styles.featItem}><CheckIcon /> Facturacion disponible</li>
+            <li style={styles.featItem}><CheckIcon /> Facturación disponible</li>
           </ul>
         </div>
         <footer style={styles.asideFoot}>2026 Trade Global Solutions SpA</footer>
@@ -105,14 +105,14 @@ export default function RegistroPage() {
         <div style={styles.formCard}>
           <h2 style={styles.formH2}>Crear cuenta</h2>
           <p style={styles.formSub}>
-            Ya tienes cuenta?{" "}
-            <Link href="/login" style={styles.link}>Inicia sesion</Link>
+            ¿Ya tienes cuenta?{" "}
+            <Link href="/login" style={styles.link}>Inicia sesión</Link>
           </p>
 
           {success ? (
             <div style={styles.successBox}>
               <CheckIcon color="#1f9d57" />
-              <span>Tu cuenta fue creada. Quedara en revision. Redirigiendo...</span>
+              <span>Tu cuenta fue creada. Quedará en revisión. Redirigiendo...</span>
             </div>
           ) : (
             <form onSubmit={handleSubmit} noValidate>
@@ -132,15 +132,15 @@ export default function RegistroPage() {
                 </div>
 
                 <div style={styles.field}>
-                  <label style={styles.label} htmlFor="clave">Contrasena</label>
+                  <label style={styles.label} htmlFor="clave">Contraseña</label>
                   <input id="clave" name="clave" type="password" autoComplete="new-password" required
-                    placeholder="Minimo 8 caracteres" value={form.clave} onChange={handleChange} style={styles.input} />
+                    placeholder="Mínimo 8 caracteres" value={form.clave} onChange={handleChange} style={styles.input} />
                 </div>
 
                 <div style={styles.field}>
-                  <label style={styles.label} htmlFor="claveConfirm">Confirmar contrasena</label>
+                  <label style={styles.label} htmlFor="claveConfirm">Confirmar contraseña</label>
                   <input id="claveConfirm" name="claveConfirm" type="password" autoComplete="new-password" required
-                    placeholder="Repite tu contrasena" value={form.claveConfirm} onChange={handleChange} style={styles.input} />
+                    placeholder="Repite tu contraseña" value={form.claveConfirm} onChange={handleChange} style={styles.input} />
                 </div>
 
                 <div style={styles.field}>
@@ -157,7 +157,7 @@ export default function RegistroPage() {
 
                 <div style={{ ...styles.field, gridColumn: "1 / -1" }}>
                   <label style={styles.label} htmlFor="telefono">
-                    Telefono <span style={styles.optional}>(opcional)</span>
+                    Teléfono <span style={styles.optional}>(opcional)</span>
                   </label>
                   <input id="telefono" name="telefono" type="tel" autoComplete="tel"
                     placeholder="+56 9 1234 5678" value={form.telefono} onChange={handleChange} style={styles.input} />

@@ -68,7 +68,7 @@ export default async function PagosAdminPage() {
         </h2>
         <p style={{ fontSize: "13.5px", color: "var(--ink-2)", marginTop: "4px" }}>
           {pedidos.length > 0
-            ? pedidos.length + " comprobante" + (pedidos.length !== 1 ? "s" : "") + " esperando revision"
+            ? pedidos.length + " comprobante" + (pedidos.length !== 1 ? "s" : "") + " esperando revisión"
             : "No hay comprobantes pendientes"}
         </p>
       </div>
@@ -76,8 +76,8 @@ export default async function PagosAdminPage() {
       {pedidos.length === 0 ? (
         <div className="panel panel-empty-big">
           <CheckBigIcon />
-          <h3>Todo al dia</h3>
-          <p>No hay comprobantes pendientes de validacion.</p>
+          <h3>Todo al día</h3>
+          <p>No hay comprobantes pendientes de validación.</p>
         </div>
       ) : (
         <div className="pagos-grid">
@@ -121,12 +121,12 @@ export default async function PagosAdminPage() {
                     <span style={{ fontFamily: "var(--mono)", fontWeight: 600 }}>{pedido.comerciante.rutEmpresa}</span>
                   </span>
                   <span>
-                    <strong style={{ color: "var(--ink-3)", fontSize: "11px", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".04em" }}>Telefono</strong>
+                    <strong style={{ color: "var(--ink-3)", fontSize: "11px", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".04em" }}>Teléfono</strong>
                     <br />
                     {pedido.comerciante.telefono}
                   </span>
                   <span style={{ gridColumn: "1 / -1" }}>
-                    <strong style={{ color: "var(--ink-3)", fontSize: "11px", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".04em" }}>Region despacho</strong>
+                    <strong style={{ color: "var(--ink-3)", fontSize: "11px", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".04em" }}>Región despacho</strong>
                     <br />
                     {pedido.region}
                   </span>
@@ -146,7 +146,7 @@ export default async function PagosAdminPage() {
                     ) : (
                       <>
                         <b style={{ color: "var(--ink-3)" }}>Sin comprobante</b>
-                        <small>El comerciante no adjunto imagen</small>
+                        <small>El comerciante no adjuntó imagen</small>
                       </>
                     )}
                   </div>
@@ -184,7 +184,7 @@ export default async function PagosAdminPage() {
                   </strong>
                   <span style={{ color: "var(--ink-3)", margin: "0 6px" }}>&middot;</span>
                   {pedido.items.slice(0, 2).map((it) => it.producto.nombre).join(", ")}
-                  {pedido.items.length > 2 && " y " + (pedido.items.length - 2) + " mas"}
+                  {pedido.items.length > 2 && " y " + (pedido.items.length - 2) + " más"}
                 </div>
 
                 {/* Botones Validar / Rechazar */}
