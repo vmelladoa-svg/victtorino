@@ -31,6 +31,6 @@ export async function POST(req: Request) {
     region: b.region, direccion: b.direccion, comprobanteUrl: b.comprobanteUrl,
     items: { create: items },
   }});
-  avisarWhatsApp(`Nuevo pedido mayorista #${pedido.id.slice(-6)} por ${u.name}. Total ${total}. Revisar comprobante en el panel.`);
+  await avisarWhatsApp(`Nuevo pedido mayorista #${pedido.id.slice(-6)} por ${u.name}. Total ${total}. Revisar comprobante en el panel.`);
   return NextResponse.json({ ok: true, pedidoId: pedido.id });
 }
