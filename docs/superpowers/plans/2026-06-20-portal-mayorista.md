@@ -790,6 +790,6 @@ export async function POST(req: Request) {
 ---
 
 ## Notas de ejecución
-- La **UI** de cada pantalla se adapta de la maqueta del proyecto "Venta por Mayor" en Claude Design (exportar su handoff y reutilizar markup/estilos), traduciendo cualquier voseo a español de Chile.
+- La **UI** de cada pantalla se adapta de la maqueta YA RESCATADA en `portal-mayorista/maqueta-ref/` (código real de Claude Design: `screen_catalog.jsx`, `screen_checkout.jsx`, `screen_detail.jsx`, `screen_orders.jsx`, `admin_*.jsx`, `styles.css`, `admin.css`, `assets/logo-clean.png`). Reutilizar markup/estilos/logo tal cual; traducir cualquier voseo a español de Chile.
 - **Pendientes de datos** (no bloquean el desarrollo, sí el lanzamiento real): regiones + tarifas de despacho, `unidCaja`/`minCompra` por producto, contacto de AlilaTop para enviar la OC, correo para comprobantes, y los 2 productos sin costo. Ver `MAYORISTA_DATOS_REALES.md`.
 - **Bloqueante de deploy:** restaurar `comercialsolutions.cl` en nic.cl.
