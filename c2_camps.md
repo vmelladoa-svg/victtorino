@@ -1,0 +1,436 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: /accounts
+      - generic [ref=e10] [cursor=pointer]: VICTTORINOFICIAL2
+  - generic [ref=e13]:
+    - navigation [ref=e14]:
+      - generic [ref=e21]:
+        - img [ref=e25]
+        - img [ref=e31]
+        - img [ref=e38]
+        - img [ref=e45]
+    - main [ref=e52]:
+      - generic [ref=e54]:
+        - navigation "List of pages" [ref=e55]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Cuentas" [ref=e58] [cursor=pointer]:
+                - /url: https://ads.mercadolibre.cl/accounts
+              - img [ref=e60]
+            - listitem [ref=e62]:
+              - link "EDUARDO VICTTORINO2 - Search Ads" [ref=e63] [cursor=pointer]:
+                - /url: https://ads.mercadolibre.cl/search/advertisers?accountId=85915
+              - img [ref=e65]
+            - listitem [ref=e67]:
+              - link "EDUARDO VICTTORINO2 - Product Ads" [ref=e68] [cursor=pointer]:
+                - /url: https://ads.mercadolibre.cl/product-ads/admin
+              - img [ref=e70]
+            - listitem [ref=e72]:
+              - generic [ref=e73] [cursor=pointer]: Campañas
+        - generic [ref=e75]:
+          - heading "Publicidad" [level=1] [ref=e77]
+          - button "Necesito ayuda" [ref=e79] [cursor=pointer]:
+            - generic [ref=e80]: Necesito ayuda
+        - generic [ref=e820]:
+          - generic [ref=e821]:
+            - generic [ref=e822]:
+              - generic [ref=e823]: "40"
+              - img [ref=e825]
+            - generic [ref=e827]:
+              - generic [ref=e828]: Sigue avanzando, llegó tu oportunidad de aprender
+              - generic [ref=e829]: Los desafíos te entregan conocimientos únicos para que tus campañas rindan al máximo.
+            - img [ref=e831] [cursor=pointer]
+            - generic [ref=e833]: Te quedan 3 desafíos por cumplir.
+          - generic:
+            - region "Challenges" [ref=e835]:
+              - generic [ref=e836]:
+                - button "Anterior" [disabled] [ref=e837]:
+                  - img [ref=e838]
+                - generic [ref=e841]:
+                  - group "1 de 5" [ref=e842]:
+                    - generic [ref=e843] [cursor=pointer]:
+                      - img [ref=e845]
+                      - generic [ref=e863]: Crea tu primera campaña
+                      - generic [ref=e864]: Desafío completado
+                  - group "2 de 5" [ref=e866]:
+                    - generic [ref=e867] [cursor=pointer]:
+                      - img [ref=e869]
+                      - generic [ref=e892]: 3 consejos para tus primeros días
+                      - generic [ref=e893]: Descubre qué sucede mientras tus anuncios comienzan a mostrarse.
+                  - group "3 de 5" [ref=e895]:
+                    - generic [ref=e896]:
+                      - img [ref=e898]
+                      - generic [ref=e914]: Analiza tus métricas
+                      - generic [ref=e915]: Revisa los indicadores más importantes y decide si necesitas hacer ajustes.
+                  - group "4 de 5" [ref=e917]:
+                    - generic [ref=e918]:
+                      - img [ref=e920]
+                      - generic [ref=e929]: Certifica tus conocimientos
+                      - generic [ref=e930]: Transfórmate en un experto en Publicidad con Mercado Ads Academy.
+                  - group [ref=e932]:
+                    - generic [ref=e933] [cursor=pointer]:
+                      - img [ref=e935]
+                      - generic [ref=e949]: Revisa los requisitos
+                      - generic [ref=e950]: Desafío completado
+                - button "Siguiente" [ref=e952] [cursor=pointer]:
+                  - img [ref=e953]
+            - img [ref=e956] [cursor=pointer]
+        - generic [ref=e155]:
+          - tablist "Tabs" [ref=e157]:
+            - tab "Campañas" [selected] [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]: Campañas
+            - tab "Anuncios" [ref=e160] [cursor=pointer]:
+              - generic [ref=e161]: Anuncios
+            - tab "Recomendaciones 1" [ref=e162] [cursor=pointer]:
+              - generic [ref=e164]:
+                - text: Recomendaciones
+                - generic [ref=e165]:
+                  - generic [ref=e166]: "1"
+                  - paragraph [ref=e167]: "1"
+            - tab "Reportes" [ref=e168] [cursor=pointer]:
+              - generic [ref=e169]: Reportes
+          - tabpanel "Campañas" [ref=e170]:
+            - generic [ref=e171]:
+              - generic [ref=e172]:
+                - generic [ref=e173]: Mi presupuesto
+                - generic [ref=e175]:
+                  - generic [ref=e177]:
+                    - generic [ref=e178]:
+                      - generic [ref=e179]: Presupuesto promedio diario total
+                      - generic [ref=e180]:
+                        - img [ref=e183]
+                        - generic [ref=e187]: Es la suma de todos los presupuestos promedio diarios que has definido para tus campañas activas.
+                    - generic [ref=e188]:
+                      - generic [ref=e189]: $63.513
+                      - paragraph [ref=e191]: NO COMPARTIDO
+                  - generic [ref=e194]:
+                    - generic [ref=e195] [cursor=pointer]:
+                      - switch "Estado" [ref=e196]
+                      - generic [ref=e197]: Estado
+                    - generic [ref=e198]: Compartir el presupuesto entre mis campañas
+                    - img [ref=e202]
+                  - generic [ref=e207]:
+                    - img [ref=e208]
+                    - generic [ref=e223]: Consigue hasta un 15% de ventas extras en 30 días al compartir presupuesto entre tus campañas.
+              - generic [ref=e224]:
+                - generic [ref=e225]:
+                  - heading "Métricas" [level=2] [ref=e226]
+                  - generic [ref=e227]:
+                    - button "Monitor en vivo Revisar detalles" [ref=e228] [cursor=pointer]:
+                      - generic [ref=e230]: Monitor en vivo
+                      - generic [ref=e231]: Revisar detalles
+                    - combobox "Período" [ref=e237]:
+                      - generic [ref=e239]:
+                        - img [ref=e240]
+                        - text: Últimos 30 días
+                      - img [ref=e243]
+                    - generic [ref=e245]:
+                      - generic [ref=e246]: Comparado con
+                      - img [ref=e248]
+                      - combobox "Comparado con" [ref=e252]:
+                        - generic [ref=e253]: Ninguno
+                        - img [ref=e255]
+                - generic [ref=e257]:
+                  - generic [ref=e958]:
+                    - generic [ref=e959]:
+                      - button "Ventas por Product Ads 53 ▲960%" [ref=e960]:
+                        - generic [ref=e962]:
+                          - generic [ref=e963]:
+                            - generic "Ventas por Product Ads" [ref=e964]
+                            - button [ref=e965]:
+                              - img [ref=e969] [cursor=pointer]
+                          - paragraph [ref=e974]:
+                            - text: "53"
+                            - paragraph [ref=e976]: ▲960%
+                      - button "Ventas sin Product Ads 18 ▼40%" [ref=e977]:
+                        - generic [ref=e979]:
+                          - generic [ref=e980]:
+                            - generic "Ventas sin Product Ads" [ref=e981]
+                            - button [ref=e982]:
+                              - img [ref=e986] [cursor=pointer]
+                          - paragraph [ref=e991]:
+                            - text: "18"
+                            - paragraph [ref=e993]: ▼40%
+                      - button "Ingresos $ 1.535.723 ▲366%" [ref=e994]:
+                        - generic [ref=e996]:
+                          - generic [ref=e997]:
+                            - generic "Ingresos" [ref=e998]
+                            - button [ref=e999]:
+                              - img [ref=e1003] [cursor=pointer]
+                          - paragraph [ref=e1008]:
+                            - text: $ 1.535.723
+                            - paragraph [ref=e1010]: ▲366%
+                      - button "ACOS 24,68% ▲16%" [ref=e1011]:
+                        - generic [ref=e1013]:
+                          - generic [ref=e1014]:
+                            - generic "ACOS" [ref=e1015]
+                            - button [ref=e1016]:
+                              - img [ref=e1020] [cursor=pointer]
+                          - paragraph [ref=e1025]:
+                            - text: 24,68%
+                            - paragraph [ref=e1027]: ▲16%
+                      - button "Clics 2.227 ▲594%" [ref=e1028]:
+                        - generic [ref=e1030]:
+                          - generic [ref=e1031]:
+                            - generic "Clics" [ref=e1032]
+                            - button [ref=e1033]:
+                              - img [ref=e1037] [cursor=pointer]
+                          - paragraph [ref=e1042]:
+                            - text: "2.227"
+                            - paragraph [ref=e1044]: ▲594%
+                      - button "Impresiones - ●0%" [ref=e1045]:
+                        - generic [ref=e1047]:
+                          - generic [ref=e1048]:
+                            - generic "Impresiones" [ref=e1049]
+                            - button [ref=e1050]:
+                              - img [ref=e1054] [cursor=pointer]
+                          - paragraph [ref=e1059]:
+                            - text: "-"
+                            - paragraph [ref=e1061]: ●0%
+                    - button [ref=e1064] [cursor=pointer]:
+                      - img [ref=e1066]
+                  - generic [ref=e1071]:
+                    - img [ref=e1076]:
+                      - generic [ref=e1078]:
+                        - generic [ref=e1080]:
+                          - generic [ref=e1082]: "0"
+                          - generic [ref=e1084]: 216,6 mil
+                          - generic [ref=e1086]: 433,2 mil
+                        - generic [ref=e1087]:
+                          - generic [ref=e1089]: 16 may.
+                          - generic [ref=e1091]: 31 may.
+                          - generic [ref=e1093]: 14 jun.Hoy
+                        - generic [ref=e1094]:
+                          - generic [ref=e1096]: "0"
+                          - generic [ref=e1098]: "9"
+                          - generic [ref=e1100]: "18"
+                    - generic [ref=e1234]:
+                      - generic [ref=e1238]:
+                        - img [ref=e1240]
+                        - generic [ref=e1243]:
+                          - paragraph [ref=e1244]: Aporte por publicidad
+                          - paragraph [ref=e1245]:
+                            - generic [ref=e1246]: Tus anuncios generaron el 75% de las ventas totales de tus publicaciones promocionadas
+                      - generic [ref=e1250]:
+                        - generic [ref=e1253]: Ventas por Product Ads
+                        - generic [ref=e1256]: Ventas sin Product Ads
+                        - generic [ref=e1259]: Ingresos
+                  - generic [ref=e1260]: "* Las métricas incluyen los datos de tus campañas eliminadas."
+                - button "Colapsar métricas" [expanded] [ref=e310] [cursor=pointer]:
+                  - img [ref=e311]
+              - generic [ref=e1262]:
+                - img [ref=e1264]
+                - generic [ref=e1274]:
+                  - heading "Ajustamos el presupuesto de Campaña Mayo Cta 2 según el alza promedio de tus ventas de mayo" [level=2] [ref=e1275]
+                  - generic [ref=e1276]: Gracias al ajuste automático, tu campaña maximiza su inversión y se mantiene competitiva.
+                  - button "Revisar resumen" [ref=e1278]
+              - generic [ref=e314]:
+                - generic [ref=e315]:
+                  - combobox "Vista de tabla" [ref=e320]:
+                    - generic [ref=e322] [cursor=pointer]:
+                      - img [ref=e323]
+                      - text: Vista estándar
+                    - img [ref=e326]
+                  - button "Filtrar" [ref=e331] [cursor=pointer]:
+                    - generic [ref=e332]:
+                      - img [ref=e333]
+                      - generic [ref=e336]: Filtrar
+                - generic [ref=e337]:
+                  - generic [ref=e338]:
+                    - generic [ref=e339]: 2 de 2 campañas
+                    - button "Más acciones" [ref=e342] [cursor=pointer]:
+                      - generic [ref=e343]:
+                        - generic [ref=e344]: Más acciones
+                        - img [ref=e345]
+                  - button "Crear campaña" [ref=e347] [cursor=pointer]:
+                    - generic [ref=e348]: Crear campaña
+              - table [ref=e1281]:
+                - rowgroup [ref=e1282]:
+                  - row "Seleccionar todas las campañas Nombre de campaña Diagnóstico Presupuesto promedio diario ROAS Objetivo Ventas por Product Ads ROAS ACOS Impresiones Clics Ingresos Inversión" [ref=e1283]:
+                    - columnheader "Seleccionar todas las campañas" [ref=e1284]:
+                      - generic [ref=e1286] [cursor=pointer]:
+                        - checkbox "Seleccionar todas las campañas" [ref=e1288]
+                        - generic [ref=e1289]: Seleccionar todas las campañas
+                    - columnheader "Nombre de campaña" [ref=e1290]:
+                      - generic [ref=e1291]: Nombre de campaña
+                    - columnheader "Diagnóstico" [ref=e1292]:
+                      - generic [ref=e1294]:
+                        - generic [ref=e1295]: Diagnóstico
+                        - generic [ref=e1297]:
+                          - img [ref=e1300] [cursor=pointer]
+                          - generic [ref=e1305]:
+                            - generic [ref=e1306]: Revisa si tu campaña tiene oportunidad de mejora para rendir más según su configuración.
+                            - button [ref=e1308] [cursor=pointer]:
+                              - generic [ref=e1309]: Saber más
+                    - columnheader "Presupuesto promedio diario" [ref=e1310]:
+                      - generic [ref=e1311]: Presupuesto promedio diario
+                    - columnheader "ROAS Objetivo" [ref=e1312]:
+                      - generic [ref=e1314]:
+                        - generic [ref=e1315]: ROAS Objetivo
+                        - generic [ref=e1317]:
+                          - img [ref=e1320] [cursor=pointer]
+                          - generic [ref=e1324]:
+                            - text: Retorno esperado
+                            - generic [ref=e1325]:
+                              - generic [ref=e1326]: "Son los ingresos que esperas obtener por cada peso invertido. Ejemplo: si tu ROAS Objetivo es 2x, buscaremos generar $ 2 por cada $ 1 invertido."
+                              - button [ref=e1328] [cursor=pointer]:
+                                - generic [ref=e1329]: Saber más
+                    - columnheader "Ventas por Product Ads" [ref=e1330]:
+                      - generic [ref=e1332]:
+                        - generic [ref=e1333]: Ventas por Product Ads
+                        - generic [ref=e1335]:
+                          - img [ref=e1338] [cursor=pointer]
+                          - generic [ref=e1344]:
+                            - text: Es la cantidad de ventas generadas a partir de tus anuncios de Product Ads. Contamos una por cada producto diferente en el carrito.
+                            - generic [ref=e1345]: "Directas: cuando una persona hace clic en tu anuncio y compra ese producto."
+                            - generic [ref=e1346]: "Indirectas: cuando una persona hace clic en tu anuncio, pero compra otro de tus productos."
+                    - columnheader "ROAS" [ref=e1347]:
+                      - generic [ref=e1349]:
+                        - generic [ref=e1350]: ROAS
+                        - generic [ref=e1352]:
+                          - img [ref=e1355] [cursor=pointer]
+                          - generic [ref=e1359]:
+                            - text: Retorno sobre tu inversión publicitaria
+                            - generic [ref=e1360]:
+                              - generic [ref=e1361]: "Es la relación entre tus ingresos y tu inversión de Product Ads. Es decir, lo que ganas por cada peso invertido. Ejemplo: si tu ROAS es 2x, quiere decir que generas $ 2 por cada $ 1 invertido."
+                              - button [ref=e1363] [cursor=pointer]:
+                                - generic [ref=e1364]: Saber más
+                    - columnheader "ACOS" [ref=e1365]:
+                      - generic [ref=e1367]:
+                        - generic [ref=e1368]: ACOS
+                        - generic [ref=e1370]:
+                          - img [ref=e1373] [cursor=pointer]
+                          - generic [ref=e1379]: "Es el costo de tu publicidad, calculado según la relación entre tu inversión e ingresos. Ejemplo: si tu inversión es $ 100 y tus ingresos $ 1.000, tu ACOS es de 10%."
+                    - columnheader "Impresiones" [ref=e1380]:
+                      - generic [ref=e1381]: Impresiones
+                    - columnheader "Clics" [ref=e1382]:
+                      - generic [ref=e1383]: Clics
+                    - columnheader "Ingresos" [ref=e1384]:
+                      - generic [ref=e1386]:
+                        - generic [ref=e1387]: Ingresos
+                        - generic [ref=e1389]:
+                          - img [ref=e1392] [cursor=pointer]
+                          - generic [ref=e1398]: Los ingresos directos son los que obtienes a partir de ventas directas. Los ingresos indirectos son los que obtienes a partir de ventas indirectas.
+                    - columnheader "Inversión" [ref=e1399]:
+                      - generic [ref=e1400]: Inversión
+                - rowgroup [ref=e1401]:
+                  - row "Seleccionar campaña switch campaign status Campaña Mayo Cta 2 3 anuncios Excelente auto-budget-active $43.249 button-edit-cell 4.9x button-edit-campaign 14 ▲180% 3,36x ▼29% 29.8% ▲40% 393.101 ▲181% 926 ▲188% $552.728 ▲68% $164.635 ▲135%" [ref=e1402]:
+                    - cell "Seleccionar campaña" [ref=e1403]:
+                      - generic [ref=e1405] [cursor=pointer]:
+                        - checkbox "Seleccionar campaña" [ref=e1407]
+                        - generic [ref=e1408]: Seleccionar campaña
+                    - cell "switch campaign status Campaña Mayo Cta 2 3 anuncios" [ref=e1409]:
+                      - generic [ref=e1411]:
+                        - generic [ref=e1412] [cursor=pointer]:
+                          - switch "switch campaign status" [checked] [ref=e1413]
+                          - generic [ref=e1414]: switch campaign status
+                        - generic [ref=e1415]:
+                          - link "Campaña Mayo Cta 2" [ref=e1419] [cursor=pointer]:
+                            - /url: https://ads.mercadolibre.cl/product-ads/admin/campaigns/357133996/dashboard
+                          - generic [ref=e1422]: 3 anuncios
+                    - cell "Excelente" [ref=e1423]:
+                      - generic [ref=e1425]: Excelente
+                    - cell "auto-budget-active $43.249 button-edit-cell" [ref=e1426]:
+                      - generic [ref=e1429]:
+                        - generic [ref=e1430]:
+                          - img "auto-budget-active" [ref=e1433] [cursor=pointer]
+                          - generic [ref=e1435]: Ajuste automático activo Tu presupuesto se ajusta una vez al mes según el alza de tus ventas en Mercado Libre.
+                        - generic [ref=e1436]: $43.249
+                        - button "button-edit-cell" [ref=e1437] [cursor=pointer]:
+                          - img [ref=e1438]
+                    - cell "4.9x button-edit-campaign" [ref=e1440]:
+                      - generic [ref=e1443]:
+                        - generic [ref=e1444]: 4.9x
+                        - button "button-edit-campaign" [ref=e1445] [cursor=pointer]:
+                          - img [ref=e1446]
+                    - cell "14 ▲180%" [ref=e1448]:
+                      - generic [ref=e1450]:
+                        - generic [ref=e1451]: "14"
+                        - paragraph [ref=e1453]: ▲180%
+                    - cell "3,36x ▼29%" [ref=e1454]:
+                      - generic [ref=e1456]:
+                        - generic [ref=e1457]: 3,36x
+                        - paragraph [ref=e1459]: ▼29%
+                    - cell "29.8% ▲40%" [ref=e1460]:
+                      - generic [ref=e1462]:
+                        - generic [ref=e1463]: 29.8%
+                        - paragraph [ref=e1465]: ▲40%
+                    - cell "393.101 ▲181%" [ref=e1466]:
+                      - generic [ref=e1468]:
+                        - generic [ref=e1469]: "393.101"
+                        - paragraph [ref=e1471]: ▲181%
+                    - cell "926 ▲188%" [ref=e1472]:
+                      - generic [ref=e1474]:
+                        - generic [ref=e1475]: "926"
+                        - paragraph [ref=e1477]: ▲188%
+                    - cell "$552.728 ▲68%" [ref=e1478]:
+                      - generic [ref=e1480]:
+                        - generic [ref=e1481]: $552.728
+                        - paragraph [ref=e1483]: ▲68%
+                    - cell "$164.635 ▲135%" [ref=e1484]:
+                      - generic [ref=e1486]:
+                        - generic [ref=e1487]: $164.635
+                        - paragraph [ref=e1489]: ▲135%
+                  - row "Seleccionar campaña switch campaign status Campaña Mercado Libre 74 anuncios AUTOMÁTICA Excelente $20.264 button-edit-cell 6.67x button-edit-campaign 39 ●0% 4,59x ●0% 21.8% ●0% 791.809 ●0% 1.301 ●0% $982.995 ●0% $214.344 ●0%" [ref=e1490]:
+                    - cell "Seleccionar campaña" [ref=e1491]:
+                      - generic [ref=e1493] [cursor=pointer]:
+                        - checkbox "Seleccionar campaña" [ref=e1495]
+                        - generic [ref=e1496]: Seleccionar campaña
+                    - cell "switch campaign status Campaña Mercado Libre 74 anuncios AUTOMÁTICA" [ref=e1497]:
+                      - generic [ref=e1499]:
+                        - generic [ref=e1500] [cursor=pointer]:
+                          - switch "switch campaign status" [checked] [ref=e1501]
+                          - generic [ref=e1502]: switch campaign status
+                        - generic [ref=e1503]:
+                          - link "Campaña Mercado Libre" [ref=e1507] [cursor=pointer]:
+                            - /url: https://ads.mercadolibre.cl/product-ads/admin/campaigns/355145983/dashboard
+                          - generic [ref=e1510]: 74 anuncios
+                          - generic [ref=e1512]:
+                            - paragraph [ref=e1515] [cursor=pointer]: AUTOMÁTICA
+                            - generic [ref=e1516]: Esta campaña agrega y quita anuncios de manera automática para tener un mejor rendimiento. Para no afectar su desempeño, evita modificarla.
+                    - cell "Excelente" [ref=e1517]:
+                      - generic [ref=e1519]: Excelente
+                    - cell "$20.264 button-edit-cell" [ref=e1520]:
+                      - generic [ref=e1523]:
+                        - generic [ref=e1524]: $20.264
+                        - button "button-edit-cell" [ref=e1525] [cursor=pointer]:
+                          - img [ref=e1526]
+                    - cell "6.67x button-edit-campaign" [ref=e1528]:
+                      - generic [ref=e1531]:
+                        - generic [ref=e1532]: 6.67x
+                        - button "button-edit-campaign" [ref=e1533] [cursor=pointer]:
+                          - img [ref=e1534]
+                    - cell "39 ●0%" [ref=e1536]:
+                      - generic [ref=e1538]:
+                        - generic [ref=e1539]: "39"
+                        - paragraph [ref=e1541]: ●0%
+                    - cell "4,59x ●0%" [ref=e1542]:
+                      - generic [ref=e1544]:
+                        - generic [ref=e1545]: 4,59x
+                        - paragraph [ref=e1547]: ●0%
+                    - cell "21.8% ●0%" [ref=e1548]:
+                      - generic [ref=e1550]:
+                        - generic [ref=e1551]: 21.8%
+                        - paragraph [ref=e1553]: ●0%
+                    - cell "791.809 ●0%" [ref=e1554]:
+                      - generic [ref=e1556]:
+                        - generic [ref=e1557]: "791.809"
+                        - paragraph [ref=e1559]: ●0%
+                    - cell "1.301 ●0%" [ref=e1560]:
+                      - generic [ref=e1562]:
+                        - generic [ref=e1563]: "1.301"
+                        - paragraph [ref=e1565]: ●0%
+                    - cell "$982.995 ●0%" [ref=e1566]:
+                      - generic [ref=e1568]:
+                        - generic [ref=e1569]: $982.995
+                        - paragraph [ref=e1571]: ●0%
+                    - cell "$214.344 ●0%" [ref=e1572]:
+                      - generic [ref=e1574]:
+                        - generic [ref=e1575]: $214.344
+                        - paragraph [ref=e1577]: ●0%
+  - contentinfo [ref=e816]:
+    - generic [ref=e817]:
+      - paragraph [ref=e818]: Copyright © 1999-2026 MercadoLibre Chile Ltda.
+      - paragraph [ref=e819]: Av. Apoquindo 4800, Torre 2, piso 21, Las Condes, Santiago - Chile.

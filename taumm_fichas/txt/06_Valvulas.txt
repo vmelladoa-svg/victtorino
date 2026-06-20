@@ -1,0 +1,230 @@
+    Válvulas                                  Válvula                             Válvula
+                                              Normal                              Pesada
+    Válvula
+    Otra
+
+06  Válvula bola Otra                         Válvula Bola
+                                              060111000 1/4”
+    060133002 1/2”                            060122000 3/8”
+    060144002 3/4”                            060133000 1/2”
+    060155002 1”                              060144000 3/4”
+                                              060155000 1”
+    060166002 1.1/4”                          060166000 1.1/4”
+    060177002 1.1/2”                          060177000 1.1/2”
+    060188002 2”                              060188000 2”
+                                              060199000 2.1/2”
+    Tuerca de Apriete para la Prensa          0601AA000 3”
+        Estopa (solo modelo Pesada)           0601BB000 4”
+
+                                                                    Válvula Bola Pesada
+                                                                    060133001 1/2”
+                                                                    060144001 3/4”
+                                                                    060155001 1”
+                                                                    060166001 1.1/4”
+                                                                    060177001 1.1/2”
+                                                                    060188001 2”
+
+    Empaques:                         Bolsa Colgable con Solapa (Hasta 2”)
+    Material:
+                                      Latón Normalizado (H57-3;Cu>57%)
+             Cuerpo:                  Acero Zincado/Cromado con Forro Goma
+             Manillas:                Teﬂón Virgen
+             Sellos:                  Presión Hidrostática según NCh-700 Of.1998
+    Informe de Ensayo:                Cumple NCh 784/1 Of. 2008
+    Certiﬁcación Cesmec:
+
+    Paso Interno (mm) Presión Nominal (Bar)            Paso Interno (mm) Presión Nominal (Bar)
+
+    Otra Normal Pesada Otra Normal Pesada              Otra Normal Pesada Otra Normal Pesada
+
+    1/4” 10,0 10,0                    25      1.1/2” 36,5 38,0 38,0 15 16                  40
+
+    3/8” 10,0 10,0                    25      2” 47,0 49,0 48,5 15 16                      40
+
+    1/2” 13,5 14,2 14,4 15 16             40  2.1/2”   62,0                       25
+
+    3/4” 17,0 19,0 19,0 15 16             40  3”       73,0                       25
+
+    1” 22,0 24,5 24,6 15 16               40  4”       89,0                       25
+
+    1.1/4” 30,5 31,0 31,5 15 16           40
+
+                    Válvulas Bola para Agua
+
+                                            61
+                                                                   Válvulas
+
+Válvula Retención Vertical (Spring)              Válvula Retención Vertical Émbolo Metal (Spring)
+060533000 1/2”
+060544000 3/4”                                   060533001 1/2”
+060555000 1”                                     060544001 3/4”
+                                                 060555001 1”
+060566000 1.1/4”
+060577000 1.1/2”                                 060566001 1.1/4”
+                                                 060577001 1.1/2”
+060588000 2”
+060599000 2.1/2”                                 060588001 2”                           Émbolo Metálico
+0605AA000 3”                                     060599001 2.1/2”
+0605BB000 4”                                     0605AA001 3”
+                                                 0605BB001 4”
+                                Émbolo Plástico
+
+                                                                                                         06
+
+Filtro Acero Inoxidable HE para Válvula           Válvula Fondo (Pie) con Filtro
+Retención Vertical                                Acero Inoxidable
+
+060533002 1/2”                                    060433000 1/2”
+060544002 3/4”                                    060444000 3/4”
+060555002 1”                                      060455000 1”
+
+060566002 1.1/4”                                  060466000 1.1/4”
+060577002 1.1/2”                                  060477000 1.1/2”
+
+060588002 2”                                      060488000 2”
+060599002 2.1/2”                                  060499000 2.1/2”
+0605AA002 3”                                      0604AA000 3”
+0605BB002 4”                                      0604BB000 4”
+
+Válvula Retención Vertical (Spring)
+
+Cuerpo:                                          Latón Normalizado (H57-3; Cu>57%)
+
+Émbolo:                                          Plástico Duro (ABS)
+
+Resorte:                                         Acero Inoxidable
+
+Válvula Retención Vertical Émbolo Metal (Spring)
+
+Cuerpo:                                          Latón Normalizado (H57-3; Cu>57%)
+
+Émbolo:                                          Latón Normalizado (H57-3; Cu>57%)
+
+Resorte:                                         Acero Inoxidable
+
+Válvula Fondo (Pie) con Filtro Acero Inoxidable
+
+Cuerpo:                                          Latón Normalizado (H57-3; Cu>57%)
+
+Émbolo:                                          Plástico Duro (ABS)
+
+Resorte:                                         Acero Inoxidable
+
+Filtro:                                          Malla Acero Inoxidable 304, 35 Micras
+
+Válvulas Retención - Filtro HE - Válvula Fondo (Pie)
+
+                                                  62
+              Válvulas
+
+    Válvula Fondo (Pie) Rejilla Metálica                   Válvula Retención Chapaleta (Vaivén)
+
+    060333000 1/2”                                         060633000 1/2”
+    060344000 3/4”                                         060644000 3/4”
+    060355000 1”                                           060655000 1”
+
+    060366000 1.1/4”                                       060666000 1.1/4”
+    060377000 1.1/2”                                       060677000 1.1/2”
+
+    060388000 2”                                           060688000 2”
+    060399000 2.1/2”                                       060699000 2.1/2”
+    0603AA000 3”                                           0606AA000 3”
+    0603BB000 4”                                           0606BB000 4”
+
+06
+
+    Válvula Compuerta                                        Válvula Filtro Tipo Y
+
+    060233000 1/2”                                           060933000 1/2”
+    060244000 3/4”                                           060944000 3/4”
+    060255000 1”                                             060955000 1”
+
+    060266000 1.1/4”                                         060966000 1.1/4”
+    060277000 1.1/2”                                         060977000 1.1/2”
+    060288000 2”                                             060988000 2”
+
+    060299000 2.1/2”
+    0602AA000 3”
+    0602BB000 4”
+
+    Válvula Fondo (Pie) Rejilla Metálica:
+
+    Cuerpo:                                Latón Normalizado (H57-3; Cu>57%)
+
+    Émbolo:                                Latón
+
+    Resorte:                               Acero Inoxidable
+
+    Válvula Retención Chapaleta (Vaivén):
+
+    Cuerpo:                                Latón Normalizado (H57-3; Cu>57%)
+
+    Válvula Compuerta:
+
+    Presión Nominal:                       PN16
+
+    Cuerpo:                                Latón Normalizado (H57-3; Cu>57%)
+
+    Manilla:                               Aluminio
+
+    Pasos (mm):                            1/2”: 13; 3/4”: 19; 1”: 23; 1.1/4”: 31; 1.1/2”: 35; 2”: 45; 2.1/2”: 60
+
+                                           3”: 67; 4”: 92
+
+    Certiﬁcación Cesmec:                   Cumple según NCh 784/1 Of.2008
+
+    Válvula Filtro Tipo Y:
+
+    Cuerpo:                                Latón Normalizado (H57-3; Cu>57%)
+
+    Filtro:                                Malla Acero Inoxidable 304, 35 Micras
+
+    Válvula Fondo - Chapaleta - Compuerta - Filtro Y
+
+                                                     63
+                                             Válvulas
+
+Válvula Bola Gas HI         Válvula Bola Gas HI-HI 1/2”  Válvula Bola Gas HI-HE 3/4”
+Certiﬁcación Según Norma    Manilla Mariposa             Manilla Mariposa
+                            Certiﬁcación Según Norma     Certiﬁcación Según Norma
+060722000 3/8”
+060733000 1/2”              061033001                    061044001
+060744000 3/4”
+060755000 1”
+
+060777000 1.1/2”
+060788000 2”
+
+                                                                                06
+
+Válvula Bola Gas HI-HE 3/4”  Válvula Bola 1/2” HI-HI     Válvula Bola 3/4” HI-HI
+Certiﬁcación Según Norma     Manilla Mariposa            Manilla Mariposa
+
+060844000                    061033002                   061044002
+
+                                                         Válvula Pedal
+                                                         061233000
+
+                     Llave Angular para                  Válvula Minicheck
+                     Red Incendio 2”                     HI-HE 1/2”
+                     061188000
+                                                         060533003
+Válvula Bola Gas y Manilla Mariposa:
+
+         Normativa:          NCh 226 Of. 2000 - UNE-EN 549:1996 (PC22)
+                             Llaves de Paso de Baja y Media Presión
+         Ente Certiﬁcador:   Presión Nominal Máx. 500 Kpa (5 Bar)
+Material:                    SICAL S.A
+
+         Cuerpo:             Latón Normalizado (H57-3; Cu>57%)
+         Manillas:           Acero
+         Otras:              Acero Zincado/Cromado Forrado en Goma
+Válvula Pedal:
+         Cuerpo:             Latón Normalizado
+                             Anclaje al Piso
+         Pedal:              Acero Inoxidable
+
+Válvulas Bola Gas - Válvula Pedal - Grifo Angular
+
+                                         64
+

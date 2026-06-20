@@ -1,0 +1,980 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: /accounts
+      - generic [ref=e10] [cursor=pointer]: NOVAGRIFERIAS3
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - navigation "List of pages" [ref=e20]:
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Cuentas" [ref=e23] [cursor=pointer]:
+              - /url: https://ads.mercadolibre.cl/accounts
+            - img [ref=e25]
+          - listitem [ref=e27]:
+            - link "JOSERUBEN2 - Search Ads" [ref=e28] [cursor=pointer]:
+              - /url: https://ads.mercadolibre.cl/search/advertisers?accountId=86106
+            - img [ref=e30]
+          - listitem [ref=e32]:
+            - link "JOSERUBEN2 - Product Ads" [ref=e33] [cursor=pointer]:
+              - /url: https://ads.mercadolibre.cl/product-ads/admin
+      - main [ref=e34]:
+        - generic [ref=e35]:
+          - button "Volver" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]:
+              - img [ref=e39]
+              - text: Volver
+          - button "Necesito ayuda" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: Necesito ayuda
+      - generic [ref=e419]:
+        - generic [ref=e420]:
+          - generic [ref=e421]:
+            - generic [ref=e422]: "40"
+            - img [ref=e424]
+          - generic [ref=e426]:
+            - generic [ref=e427]: Sigue avanzando, llegó tu oportunidad de aprender
+            - generic [ref=e428]: Los desafíos te entregan conocimientos únicos para que tus campañas rindan al máximo.
+          - img [ref=e430] [cursor=pointer]
+          - generic [ref=e432]: Te quedan 3 desafíos por cumplir.
+        - generic:
+          - region "Challenges" [ref=e434]:
+            - generic [ref=e435]:
+              - button "Anterior" [disabled] [ref=e436]:
+                - img [ref=e437]
+              - generic [ref=e440]:
+                - group "1 de 5" [ref=e441]:
+                  - generic [ref=e442]:
+                    - img [ref=e444]
+                    - generic [ref=e462]: Crea tu primera campaña
+                    - generic [ref=e463]: Desafío completado
+                - group "2 de 5" [ref=e465]:
+                  - generic [ref=e466] [cursor=pointer]:
+                    - img [ref=e468]
+                    - generic [ref=e491]: 3 consejos para tus primeros días
+                    - generic [ref=e492]: Descubre qué sucede mientras tus anuncios comienzan a mostrarse.
+                - group "3 de 5" [ref=e494]:
+                  - generic [ref=e495]:
+                    - img [ref=e497]
+                    - generic [ref=e513]: Analiza tus métricas
+                    - generic [ref=e514]: Revisa los indicadores más importantes y decide si necesitas hacer ajustes.
+                - group "4 de 5" [ref=e516]:
+                  - generic [ref=e517]:
+                    - img [ref=e519]
+                    - generic [ref=e528]: Certifica tus conocimientos
+                    - generic [ref=e529]: Transfórmate en un experto en Publicidad con Mercado Ads Academy.
+                - group [ref=e531]:
+                  - generic [ref=e532]:
+                    - img [ref=e534]
+                    - generic [ref=e548]: Revisa los requisitos
+                    - generic [ref=e549]: Desafío completado
+              - button "Siguiente" [ref=e551] [cursor=pointer]:
+                - img [ref=e552]
+          - img [ref=e555] [cursor=pointer]
+      - generic [ref=e44]:
+        - heading "Campaña Mayo Editar nombre de campaña" [level=3] [ref=e46]:
+          - text: Campaña Mayo
+          - button "Editar nombre de campaña" [ref=e47] [cursor=pointer]:
+            - img [ref=e49]
+        - generic [ref=e51]:
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - generic [ref=e55]:
+                - generic [ref=e56]: "Estado:"
+                - generic [ref=e57]:
+                  - generic [ref=e58] [cursor=pointer]:
+                    - switch "Estado de campaña" [checked] [ref=e59]
+                    - generic [ref=e60]: Estado de campaña
+                  - paragraph [ref=e62]: ACTIVA
+              - generic [ref=e64]:
+                - generic [ref=e65]: "Diagnóstico:"
+                - generic [ref=e66]: Puede mejorar
+            - button "Modificar campaña" [ref=e67] [cursor=pointer]:
+              - generic [ref=e68]: Modificar campaña
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e74]:
+                - generic [ref=e75]: Presupuesto promedio diario
+                - img [ref=e79] [cursor=pointer]
+              - generic [ref=e83]:
+                - paragraph [ref=e84]: $ 37.000
+                - button "Editar" [ref=e85] [cursor=pointer]:
+                  - img [ref=e87]
+                - generic [ref=e91]:
+                  - img [ref=e94]
+                  - generic [ref=e96]:
+                    - text: Ajuste automático activo
+                    - generic [ref=e557]:
+                      - text: Tu presupuesto se ajusta una vez al mes según el alza de tus ventas en Mercado Libre.
+                      - generic [ref=e558]:
+                        - generic [ref=e559]:
+                          - generic [ref=e560]: "Promedio de alza de ventas junio:"
+                          - generic [ref=e561]:
+                            - img [ref=e562]
+                            - text: 85%
+                        - generic [ref=e564]:
+                          - generic [ref=e565]: "Último ajuste aplicado:"
+                          - generic [ref=e566]:
+                            - img [ref=e567]
+                            - text: $ 17.000
+              - generic [ref=e98]:
+                - generic [ref=e100]:
+                  - img [ref=e102]
+                  - generic [ref=e104]: Es perfecto para potenciar tus ventas.
+                - generic [ref=e107]: No necesitas hacer cambios, ¡sigue así!
+            - generic [ref=e108]:
+              - generic [ref=e112]:
+                - generic [ref=e113]: ROAS Objetivo
+                - img [ref=e117] [cursor=pointer]
+              - generic [ref=e121]:
+                - paragraph [ref=e122]: 4.9x
+                - button "Editar" [ref=e123] [cursor=pointer]:
+                  - img [ref=e125]
+              - generic [ref=e128]:
+                - generic [ref=e130]:
+                  - img [ref=e131]
+                  - generic [ref=e135]: Pierdes ventas porque tu ROAS es muy alto. Ajústalo a 3.1x para obtener más ventas.
+                - generic [ref=e137]:
+                  - generic [ref=e138]: Edítalo ahora y mejora la competitividad de tus anuncios.
+                  - button "Ajustar" [ref=e139] [cursor=pointer]:
+                    - generic [ref=e140]: Ajustar
+            - generic [ref=e141]:
+              - generic [ref=e146]: Anuncios
+              - generic [ref=e147]:
+                - paragraph [ref=e148]: "11"
+                - button "Agregar" [ref=e149] [cursor=pointer]:
+                  - generic [ref=e150]: Agregar
+              - generic [ref=e152]:
+                - generic [ref=e154]:
+                  - img [ref=e156]
+                  - generic [ref=e158]: Elegiste los anuncios correctos para vender más.
+                - generic [ref=e161]: Sigue así para competir y vender más.
+        - button "Ocultar diagnóstico" [ref=e163]:
+          - generic [ref=e164]: Ocultar diagnóstico
+          - img [ref=e165]
+      - generic [ref=e167]:
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - heading "Métricas" [level=3] [ref=e171]
+            - generic [ref=e172]:
+              - img [ref=e173]
+              - combobox "Últimos 30 días Últimos 30 días" [ref=e178]:
+                - generic [ref=e179]: Últimos 30 días
+                - generic [ref=e180]: Últimos 30 días
+                - img [ref=e182]
+              - generic [ref=e185]: "Comparado con:"
+              - img [ref=e186]
+              - combobox "Ninguno Ninguno" [ref=e191]:
+                - generic [ref=e192]: Ninguno
+                - generic [ref=e193]: Ninguno
+                - img [ref=e195]
+          - generic [ref=e197]:
+            - generic [ref=e569]:
+              - generic [ref=e570]:
+                - button "Ventas por Product Ads 64 ▲237%" [ref=e571]:
+                  - generic [ref=e573]:
+                    - generic [ref=e574]:
+                      - generic "Ventas por Product Ads" [ref=e575]
+                      - button [ref=e576]:
+                        - img [ref=e580] [cursor=pointer]
+                    - paragraph [ref=e585]:
+                      - text: "64"
+                      - paragraph [ref=e587]: ▲237%
+                - button "Ventas sin Product Ads 22 ●0%" [ref=e588]:
+                  - generic [ref=e590]:
+                    - generic [ref=e591]:
+                      - generic "Ventas sin Product Ads" [ref=e592]
+                      - button [ref=e593]:
+                        - img [ref=e597] [cursor=pointer]
+                    - paragraph [ref=e602]:
+                      - text: "22"
+                      - paragraph [ref=e604]: ●0%
+                - button "TACOS 15,16% ▲103%" [ref=e605]:
+                  - generic [ref=e607]:
+                    - generic [ref=e608]:
+                      - generic "TACOS" [ref=e609]
+                      - button [ref=e610]:
+                        - img [ref=e614] [cursor=pointer]
+                    - paragraph [ref=e619]:
+                      - text: 15,16%
+                      - paragraph [ref=e621]: ▲103%
+                - button "Clics 2.288 ▲210%" [ref=e622]:
+                  - generic [ref=e624]:
+                    - generic [ref=e625]:
+                      - generic "Clics" [ref=e626]
+                      - button [ref=e627]:
+                        - img [ref=e631] [cursor=pointer]
+                    - paragraph [ref=e636]:
+                      - text: "2.288"
+                      - paragraph [ref=e638]: ▲210%
+                - button "Ingresos $ 2.326.237 ▲193%" [ref=e639]:
+                  - generic [ref=e641]:
+                    - generic [ref=e642]:
+                      - generic "Ingresos" [ref=e643]
+                      - button [ref=e644]:
+                        - img [ref=e648] [cursor=pointer]
+                    - paragraph [ref=e653]:
+                      - text: $ 2.326.237
+                      - paragraph [ref=e654]: ▲193%
+                - button "ACOS 20,67% ▲35%" [ref=e655]:
+                  - generic [ref=e657]:
+                    - generic [ref=e658]:
+                      - generic "ACOS" [ref=e659]
+                      - button [ref=e660]:
+                        - img [ref=e664] [cursor=pointer]
+                    - paragraph [ref=e669]:
+                      - text: 20,67%
+                      - paragraph [ref=e671]: ▲35%
+              - button [ref=e674] [cursor=pointer]:
+                - img [ref=e676]
+            - generic [ref=e681]:
+              - img [ref=e686]:
+                - generic [ref=e688]:
+                  - generic [ref=e690]:
+                    - generic [ref=e692]: "0"
+                    - generic [ref=e694]: "33"
+                    - generic [ref=e696]: "65"
+                  - generic [ref=e697]:
+                    - generic [ref=e699]: 16 may
+                    - generic [ref=e701]: 31 may
+                    - generic [ref=e703]: 14 junHoy
+                  - generic [ref=e704]:
+                    - generic [ref=e706]: "0"
+                    - generic [ref=e708]: "4"
+                    - generic [ref=e710]: "8"
+                  - img [ref=e787]
+                  - img [ref=e789]
+                  - img [ref=e791]
+                  - img [ref=e793]
+              - generic [ref=e856]:
+                - generic [ref=e857]:
+                  - generic [ref=e860]:
+                    - img [ref=e862]
+                    - generic [ref=e864]:
+                      - generic [ref=e865]: Aporte por publicidad
+                      - generic [ref=e867]: Tus anuncios generaron el 74% de las ventas totales de tus publicaciones promocionadas
+                  - generic [ref=e868]:
+                    - switch [checked] [ref=e870] [cursor=pointer]
+                    - img [ref=e871]
+                    - generic [ref=e873]: Tus cambios
+                    - button [ref=e874]:
+                      - generic [ref=e875]:
+                        - img [ref=e878] [cursor=pointer]
+                        - generic [ref=e882]: Revisa los cambios realizados en tu campaña que podrían afectar los resultados de tus métricas.
+                - generic [ref=e886]:
+                  - generic [ref=e889]: Ventas por Product Ads
+                  - generic [ref=e892]: Ventas sin Product Ads
+                  - generic [ref=e895]: TACOS
+            - generic [ref=e249]: "*Las métricas incluyen los datos de tus campañas eliminadas"
+        - button "Ver competitividad de tus anuncios" [ref=e250] [cursor=pointer]:
+          - generic [ref=e251]:
+            - generic [ref=e252]: Ver competitividad de tus anuncios
+            - img [ref=e253]
+      - generic [ref=e896]:
+        - generic [ref=e897]:
+          - generic [ref=e898]:
+            - generic [ref=e900]:
+              - generic [ref=e901]:
+                - generic [ref=e902]: Buscar
+                - textbox "Buscar" [ref=e903]:
+                  - /placeholder: "Buscar por # o título"
+              - button "Buscar" [ref=e904] [cursor=pointer]:
+                - img [ref=e905]
+            - generic [ref=e907]: Escribe al menos 4 caracteres para obtener resultado.
+          - combobox "Vista de tabla" [ref=e912]:
+            - generic [ref=e914] [cursor=pointer]:
+              - img [ref=e915]
+              - text: Vista estándar
+            - img [ref=e918]
+          - button "Filtrar" [ref=e920] [cursor=pointer]:
+            - generic [ref=e921]:
+              - img [ref=e922]
+              - generic [ref=e925]: Filtrar
+          - list [ref=e927]:
+            - listitem [ref=e928]:
+              - generic [ref=e929]:
+                - generic [ref=e930]: Activos
+                - button "quitar Activos" [ref=e931] [cursor=pointer]:
+                  - img [ref=e933]
+            - listitem [ref=e935]:
+              - generic [ref=e936]:
+                - generic [ref=e937]: Pausados
+                - button "quitar Pausados" [ref=e938] [cursor=pointer]:
+                  - img [ref=e940]
+        - generic [ref=e942]:
+          - button "Crear Reporte" [ref=e943] [cursor=pointer]:
+            - generic [ref=e944]:
+              - img [ref=e946]
+              - text: Crear Reporte
+          - button "Agregar anuncios" [ref=e959] [cursor=pointer]:
+            - generic [ref=e960]: Agregar anuncios
+      - generic [ref=e255]:
+        - generic [ref=e258]:
+          - strong [ref=e961]: "11"
+          - text: anuncios
+        - button "Más acciones" [ref=e263] [cursor=pointer]:
+          - generic [ref=e264]:
+            - generic [ref=e265]: Más acciones
+            - img [ref=e266]
+      - table [ref=e269]:
+        - rowgroup [ref=e270]:
+          - row "Seleccionar todas las filas Título Impresiones ROAS Clics Costo por clic Ventas por Product Ads Ingresos Inversión ACOS TACOS" [ref=e271]:
+            - columnheader "Seleccionar todas las filas" [ref=e272]:
+              - generic [ref=e273]:
+                - checkbox "Seleccionar todas las filas" [disabled] [ref=e275]
+                - generic [ref=e276]: Seleccionar todas las filas
+            - columnheader "Título" [ref=e277]:
+              - generic [ref=e278]: Título
+            - columnheader "Impresiones" [ref=e279]:
+              - generic [ref=e282]:
+                - generic [ref=e284]: Impresiones
+                - button [ref=e285] [cursor=pointer]:
+                  - img [ref=e286]
+            - columnheader "ROAS" [ref=e289]:
+              - generic [ref=e292]:
+                - generic [ref=e294]: ROAS
+                - generic [ref=e296] [cursor=pointer]:
+                  - img [ref=e299]
+                  - generic [ref=e303]:
+                    - text: "Retorno sobre tu inversión publicitaria Es la relación entre tus ingresos y tu inversión de Product Ads. Es decir, lo que ganas por cada peso invertido. Ejemplo: si tu ROAS es 2x, quiere decir que generas $ 2 por cada $ 1 invertido."
+                    - button [ref=e962]:
+                      - generic [ref=e963]: Saber más
+                - button [ref=e304] [cursor=pointer]:
+                  - img [ref=e305]
+            - columnheader "Clics" [ref=e308]:
+              - generic [ref=e311]:
+                - generic [ref=e313]: Clics
+                - button [ref=e314] [cursor=pointer]:
+                  - img [ref=e315]
+            - columnheader "Costo por clic" [ref=e317]:
+              - generic [ref=e320]:
+                - generic [ref=e322]: Costo por clic
+                - button [ref=e323] [cursor=pointer]:
+                  - img [ref=e324]
+            - columnheader "Ventas por Product Ads" [ref=e327]:
+              - generic [ref=e330]:
+                - generic [ref=e332]: Ventas por Product Ads
+                - generic [ref=e334] [cursor=pointer]:
+                  - img [ref=e337]
+                  - generic [ref=e341]:
+                    - text: Es la cantidad de ventas generadas a partir de tus anuncios de Product Ads. Contamos una por cada producto diferente en el carrito.
+                    - generic [ref=e964]: "Directas: cuando una persona hace clic en tu anuncio y compra ese producto."
+                    - generic [ref=e965]: "Indirectas: cuando una persona hace clic en tu anuncio, pero compra otro de tus productos."
+                - button [ref=e342] [cursor=pointer]:
+                  - img [ref=e343]
+            - columnheader "Ingresos" [ref=e346]:
+              - generic [ref=e349]:
+                - generic [ref=e351]: Ingresos
+                - generic [ref=e353] [cursor=pointer]:
+                  - img [ref=e356]
+                  - generic [ref=e360]: Es el dinero generado a partir de tus ventas por Product Ads. Los ingresos directos se obtienen de ventas directas y los indirectos de ventas indirectas.
+                - button [ref=e361] [cursor=pointer]:
+                  - img [ref=e362]
+            - columnheader "Inversión" [ref=e365]:
+              - generic [ref=e368]:
+                - generic [ref=e370]: Inversión
+                - button [ref=e371] [cursor=pointer]:
+                  - img [ref=e372]
+            - columnheader "ACOS" [ref=e375]:
+              - generic [ref=e378]:
+                - generic [ref=e380]: ACOS
+                - generic [ref=e382] [cursor=pointer]:
+                  - img [ref=e385]
+                  - generic [ref=e389]:
+                    - text: "Es el costo de tu publicidad, calculado según la relación entre tu inversión e ingresos. Ejemplo: si tu inversión es $ 100 y tus ingresos $ 1.000, tu ACOS es de 10%."
+                    - button [ref=e967]:
+                      - generic [ref=e968]: Saber más
+                - button [ref=e390] [cursor=pointer]:
+                  - img [ref=e391]
+            - columnheader "TACOS" [ref=e394]:
+              - generic [ref=e397]:
+                - generic [ref=e399]: TACOS
+                - generic [ref=e401] [cursor=pointer]:
+                  - img [ref=e404]
+                  - generic [ref=e408]:
+                    - text: "Es la relación entre la inversión en Product Ads y el ingreso total de tus ventas (por y sin Product Ads). Ejemplo: si tu inversión es de $ 100 y tu ingreso total $ 1.000, tu TACOS será del 10%."
+                    - button [ref=e969]:
+                      - generic [ref=e970]: Saber más
+                - button [ref=e409] [cursor=pointer]:
+                  - img [ref=e410]
+        - rowgroup [ref=e971]:
+          - row "Seleccionar fila Catálogo 321.828 ▲1163% 4,17x ●0% 543 ▲1163% $ 335,59 ▲92% 23 ●0% $ 760.790 ●0% $ 182.228 ▲2327% 23,95% ●0% 19,41% ●0%" [ref=e972]:
+            - cell "Seleccionar fila" [ref=e973]:
+              - generic [ref=e974] [cursor=pointer]:
+                - checkbox "Seleccionar fila" [ref=e976]
+                - generic [ref=e977]: Seleccionar fila
+            - cell "Catálogo" [ref=e978]:
+              - generic [ref=e979]:
+                - paragraph [ref=e981]: Catálogo
+                - figure [ref=e983]:
+                  - button "product" [ref=e985] [cursor=pointer]:
+                    - img "product" [ref=e986]
+                  - generic [ref=e987]:
+                    - 'generic "#MLC1419705055 ORIGEN: PROPIO" [ref=e989]'
+                    - link "Lavaplatos Empotrado 80x44 Inox Sec.derecho // Color Plateado" [ref=e990] [cursor=pointer]:
+                      - /url: https://articulo.mercadolibre.cl/MLC-1419705055-lavaplatos-empotrado-80x44-inox-secderecho-color-plateado-_JM
+                      - generic [ref=e991]: Lavaplatos Empotrado 80x44 Inox Sec.derecho // Color Plateado
+                  - button "ad-actions" [ref=e995] [cursor=pointer]:
+                    - img [ref=e996]
+            - cell "321.828 ▲1163%" [ref=e1000]:
+              - generic [ref=e1002]:
+                - generic [ref=e1008]: "321.828"
+                - paragraph [ref=e1010]: ▲1163%
+            - cell "4,17x ●0%" [ref=e1011]:
+              - generic [ref=e1013]:
+                - generic [ref=e1015]: 4,17x
+                - paragraph [ref=e1017]: ●0%
+            - cell "543 ▲1163%" [ref=e1018]:
+              - generic [ref=e1020]:
+                - generic [ref=e1022]: "543"
+                - paragraph [ref=e1024]: ▲1163%
+            - cell "$ 335,59 ▲92%" [ref=e1025]:
+              - generic [ref=e1027]:
+                - generic [ref=e1029]: $ 335,59
+                - paragraph [ref=e1031]: ▲92%
+            - cell "23 ●0%" [ref=e1032]:
+              - generic [ref=e1034]:
+                - generic [ref=e1040]: "23"
+                - paragraph [ref=e1042]: ●0%
+            - cell "$ 760.790 ●0%" [ref=e1043]:
+              - generic [ref=e1045]:
+                - generic [ref=e1051]: $ 760.790
+                - paragraph [ref=e1053]: ●0%
+            - cell "$ 182.228 ▲2327%" [ref=e1054]:
+              - generic [ref=e1056]:
+                - generic [ref=e1058]: $ 182.228
+                - paragraph [ref=e1060]: ▲2327%
+            - cell "23,95% ●0%" [ref=e1061]:
+              - generic [ref=e1063]:
+                - generic [ref=e1065]: 23,95%
+                - paragraph [ref=e1067]: ●0%
+            - cell "19,41% ●0%" [ref=e1068]:
+              - generic [ref=e1070]:
+                - generic [ref=e1072]: 19,41%
+                - paragraph [ref=e1074]: ●0%
+          - row "Seleccionar fila 168.523 ▲435% 4,95x ▼77% 274 ▲372% $ 219,68 ▲93% 8 ▲100% $ 298.241 ▲107% $ 60.192 ▲814% 20,18% ▲343% 13,86% ●0%" [ref=e1075]:
+            - cell "Seleccionar fila" [ref=e1076]:
+              - generic [ref=e1077] [cursor=pointer]:
+                - checkbox "Seleccionar fila" [ref=e1079]
+                - generic [ref=e1080]: Seleccionar fila
+            - cell [ref=e1081]:
+              - figure [ref=e1084]:
+                - button "product" [ref=e1086] [cursor=pointer]:
+                  - img "product" [ref=e1087]
+                - generic [ref=e1088]:
+                  - 'generic "#MLC1306255939 ORIGEN: PROPIO" [ref=e1090]'
+                  - link "Lavaplatos Empotrado Simple 80x44 Secador Izquierdo Plate" [ref=e1091] [cursor=pointer]:
+                    - /url: https://articulo.mercadolibre.cl/MLC-1306255939-lavaplatos-empotrado-simple-80x44-secador-izquierdo-plate-_JM
+                    - generic [ref=e1092]: Lavaplatos Empotrado Simple 80x44 Secador Izquierdo Plate
+                - button "ad-actions" [ref=e1096] [cursor=pointer]:
+                  - img [ref=e1097]
+            - cell "168.523 ▲435%" [ref=e1101]:
+              - generic [ref=e1103]:
+                - generic [ref=e1105]: "168.523"
+                - paragraph [ref=e1107]: ▲435%
+            - cell "4,95x ▼77%" [ref=e1108]:
+              - generic [ref=e1110]:
+                - generic [ref=e1112]: 4,95x
+                - paragraph [ref=e1114]: ▼77%
+            - cell "274 ▲372%" [ref=e1115]:
+              - generic [ref=e1117]:
+                - generic [ref=e1119]: "274"
+                - paragraph [ref=e1121]: ▲372%
+            - cell "$ 219,68 ▲93%" [ref=e1122]:
+              - generic [ref=e1124]:
+                - generic [ref=e1126]: $ 219,68
+                - paragraph [ref=e1128]: ▲93%
+            - cell "8 ▲100%" [ref=e1129]:
+              - generic [ref=e1131]:
+                - generic [ref=e1137]: "8"
+                - paragraph [ref=e1139]: ▲100%
+            - cell "$ 298.241 ▲107%" [ref=e1140]:
+              - generic [ref=e1142]:
+                - generic [ref=e1148]: $ 298.241
+                - paragraph [ref=e1150]: ▲107%
+            - cell "$ 60.192 ▲814%" [ref=e1151]:
+              - generic [ref=e1153]:
+                - generic [ref=e1155]: $ 60.192
+                - paragraph [ref=e1157]: ▲814%
+            - cell "20,18% ▲343%" [ref=e1158]:
+              - generic [ref=e1160]:
+                - generic [ref=e1162]: 20,18%
+                - paragraph [ref=e1164]: ▲343%
+            - cell "13,86% ●0%" [ref=e1165]:
+              - generic [ref=e1167]:
+                - generic [ref=e1169]: 13,86%
+                - paragraph [ref=e1171]: ●0%
+          - row "Seleccionar fila 130.858 ▲215% 4,91x ▼41% 207 ▲176% $ 143,18 ▼18% 4 ▲33% $ 145.560 ▲33% $ 29.638 ▲127% 20,36% ▲71% 13,57% ●0%" [ref=e1172]:
+            - cell "Seleccionar fila" [ref=e1173]:
+              - generic [ref=e1174] [cursor=pointer]:
+                - checkbox "Seleccionar fila" [ref=e1176]
+                - generic [ref=e1177]: Seleccionar fila
+            - cell [ref=e1178]:
+              - figure [ref=e1181]:
+                - button "product" [ref=e1183] [cursor=pointer]:
+                  - img "product" [ref=e1184]
+                - generic [ref=e1185]:
+                  - 'generic "#MLC1306255938 ORIGEN: PROPIO" [ref=e1187]'
+                  - link "Lavaplatos Empotrado Simple 100x44 Inoxidable Derecho Plateado" [ref=e1188] [cursor=pointer]:
+                    - /url: https://articulo.mercadolibre.cl/MLC-1306255938-lavaplatos-empotrado-simple-100x44-inoxidable-derecho-plateado-_JM
+                    - generic [ref=e1189]: Lavaplatos Empotrado Simple 100x44 Inoxidable Derecho Plateado
+                - button "ad-actions" [ref=e1193] [cursor=pointer]:
+                  - img [ref=e1194]
+            - cell "130.858 ▲215%" [ref=e1198]:
+              - generic [ref=e1200]:
+                - generic [ref=e1202]: "130.858"
+                - paragraph [ref=e1204]: ▲215%
+            - cell "4,91x ▼41%" [ref=e1205]:
+              - generic [ref=e1207]:
+                - generic [ref=e1209]: 4,91x
+                - paragraph [ref=e1211]: ▼41%
+            - cell "207 ▲176%" [ref=e1212]:
+              - generic [ref=e1214]:
+                - generic [ref=e1216]: "207"
+                - paragraph [ref=e1218]: ▲176%
+            - cell "$ 143,18 ▼18%" [ref=e1219]:
+              - generic [ref=e1221]:
+                - generic [ref=e1223]: $ 143,18
+                - paragraph [ref=e1225]: ▼18%
+            - cell "4 ▲33%" [ref=e1226]:
+              - generic [ref=e1228]:
+                - generic [ref=e1234]: "4"
+                - paragraph [ref=e1236]: ▲33%
+            - cell "$ 145.560 ▲33%" [ref=e1237]:
+              - generic [ref=e1239]:
+                - generic [ref=e1245]: $ 145.560
+                - paragraph [ref=e1247]: ▲33%
+            - cell "$ 29.638 ▲127%" [ref=e1248]:
+              - generic [ref=e1250]:
+                - generic [ref=e1252]: $ 29.638
+                - paragraph [ref=e1254]: ▲127%
+            - cell "20,36% ▲71%" [ref=e1255]:
+              - generic [ref=e1257]:
+                - generic [ref=e1259]: 20,36%
+                - paragraph [ref=e1261]: ▲71%
+            - cell "13,57% ●0%" [ref=e1262]:
+              - generic [ref=e1264]:
+                - generic [ref=e1266]: 13,57%
+                - paragraph [ref=e1268]: ●0%
+          - row "Seleccionar fila 73.248 ▲1008% - ●0% 181 ▲2917% $ 79,11 ▲85% 0 ●0% $ 0 ●0% $ 14.319 ▲5493% - ●0% - ●0%" [ref=e1269]:
+            - cell "Seleccionar fila" [ref=e1270]:
+              - generic [ref=e1271] [cursor=pointer]:
+                - checkbox "Seleccionar fila" [ref=e1273]
+                - generic [ref=e1274]: Seleccionar fila
+            - cell [ref=e1275]:
+              - figure [ref=e1278]:
+                - button "product" [ref=e1280] [cursor=pointer]:
+                  - img "product" [ref=e1281]
+                - generic [ref=e1282]:
+                  - 'generic "#MLC1374063337 ORIGEN: PROPIO" [ref=e1284]'
+                  - link "Lavaplatos Doble Sobreponer 120x50 Inoxidable Izquierdo Plateado" [ref=e1285] [cursor=pointer]:
+                    - /url: https://articulo.mercadolibre.cl/MLC-1374063337-lavaplatos-doble-sobreponer-120x50-inoxidable-izquierdo-plateado-_JM
+                    - generic [ref=e1286]: Lavaplatos Doble Sobreponer 120x50 Inoxidable Izquierdo Plateado
+                - button "ad-actions" [ref=e1290] [cursor=pointer]:
+                  - img [ref=e1291]
+            - cell "73.248 ▲1008%" [ref=e1295]:
+              - generic [ref=e1297]:
+                - generic [ref=e1299]: "73.248"
+                - paragraph [ref=e1301]: ▲1008%
+            - cell "- ●0%" [ref=e1302]:
+              - generic [ref=e1304]:
+                - generic [ref=e1306]: "-"
+                - paragraph [ref=e1308]: ●0%
+            - cell "181 ▲2917%" [ref=e1309]:
+              - generic [ref=e1311]:
+                - generic [ref=e1313]: "181"
+                - paragraph [ref=e1315]: ▲2917%
+            - cell "$ 79,11 ▲85%" [ref=e1316]:
+              - generic [ref=e1318]:
+                - generic [ref=e1320]: $ 79,11
+                - paragraph [ref=e1322]: ▲85%
+            - cell "0 ●0%" [ref=e1323]:
+              - generic [ref=e1325]:
+                - generic [ref=e1327]: "0"
+                - paragraph [ref=e1329]: ●0%
+            - cell "$ 0 ●0%" [ref=e1330]:
+              - generic [ref=e1332]:
+                - generic [ref=e1334]: $ 0
+                - paragraph [ref=e1336]: ●0%
+            - cell "$ 14.319 ▲5493%" [ref=e1337]:
+              - generic [ref=e1339]:
+                - generic [ref=e1341]: $ 14.319
+                - paragraph [ref=e1343]: ▲5493%
+            - cell "- ●0%" [ref=e1344]:
+              - generic [ref=e1346]:
+                - generic [ref=e1348]: "-"
+                - paragraph [ref=e1350]: ●0%
+            - cell "- ●0%" [ref=e1351]:
+              - generic [ref=e1353]:
+                - generic [ref=e1355]: "-"
+                - paragraph [ref=e1357]: ●0%
+          - row "Seleccionar fila 72.602 ▲12000% - ▼100% 128 ▲12700% $ 121,36 ▲203% 0 ▼100% $ 0 ▼100% $ 15.534 ▲38735% - ▼100% - ●0%" [ref=e1358]:
+            - cell "Seleccionar fila" [ref=e1359]:
+              - generic [ref=e1360] [cursor=pointer]:
+                - checkbox "Seleccionar fila" [ref=e1362]
+                - generic [ref=e1363]: Seleccionar fila
+            - cell [ref=e1364]:
+              - figure [ref=e1367]:
+                - button "product" [ref=e1369] [cursor=pointer]:
+                  - img "product" [ref=e1370]
+                - generic [ref=e1371]:
+                  - 'generic "#MLC1754550537 ORIGEN: PROPIO" [ref=e1373]'
+                  - link "Espejo 50x70 Rectangular Led Blanco" [ref=e1374] [cursor=pointer]:
+                    - /url: https://articulo.mercadolibre.cl/MLC-1754550537-espejo-50x70-rectangular-led-blanco-_JM
+                    - generic [ref=e1375]: Espejo 50x70 Rectangular Led Blanco
+                - button "ad-actions" [ref=e1379] [cursor=pointer]:
+                  - img [ref=e1380]
+            - cell "72.602 ▲12000%" [ref=e1384]:
+              - generic [ref=e1386]:
+                - generic [ref=e1388]: "72.602"
+                - paragraph [ref=e1390]: ▲12000%
+            - cell "- ▼100%" [ref=e1391]:
+              - generic [ref=e1393]:
+                - generic [ref=e1395]: "-"
+                - paragraph [ref=e1397]: ▼100%
+            - cell "128 ▲12700%" [ref=e1398]:
+              - generic [ref=e1400]:
+                - generic [ref=e1402]: "128"
+                - paragraph [ref=e1404]: ▲12700%
+            - cell "$ 121,36 ▲203%" [ref=e1405]:
+              - generic [ref=e1407]:
+                - generic [ref=e1409]: $ 121,36
+                - paragraph [ref=e1411]: ▲203%
+            - cell "0 ▼100%" [ref=e1412]:
+              - generic [ref=e1414]:
+                - generic [ref=e1416]: "0"
+                - paragraph [ref=e1418]: ▼100%
+            - cell "$ 0 ▼100%" [ref=e1419]:
+              - generic [ref=e1421]:
+                - generic [ref=e1423]: $ 0
+                - paragraph [ref=e1425]: ▼100%
+            - cell "$ 15.534 ▲38735%" [ref=e1426]:
+              - generic [ref=e1428]:
+                - generic [ref=e1430]: $ 15.534
+                - paragraph [ref=e1432]: ▲38735%
+            - cell "- ▼100%" [ref=e1433]:
+              - generic [ref=e1435]:
+                - generic [ref=e1437]: "-"
+                - paragraph [ref=e1439]: ▼100%
+            - cell "- ●0%" [ref=e1440]:
+              - generic [ref=e1442]:
+                - generic [ref=e1444]: "-"
+                - paragraph [ref=e1446]: ●0%
+          - row "Seleccionar fila 56.377 ▲2208% - ●0% 48 ▲860% $ 63,75 ▲88% 0 ●0% $ 0 ●0% $ 3.060 ▲1700% - ●0% - ●0%" [ref=e1447]:
+            - cell "Seleccionar fila" [ref=e1448]:
+              - generic [ref=e1449] [cursor=pointer]:
+                - checkbox "Seleccionar fila" [ref=e1451]
+                - generic [ref=e1452]: Seleccionar fila
+            - cell [ref=e1453]:
+              - figure [ref=e1456]:
+                - button "product" [ref=e1458] [cursor=pointer]:
+                  - img "product" [ref=e1459]
+                - generic [ref=e1460]:
+                  - 'generic "#MLC3335955534 ORIGEN: PROPIO" [ref=e1462]'
+                  - link "Espejo 45x60 Rectangular Led Blanco" [ref=e1463] [cursor=pointer]:
+                    - /url: https://articulo.mercadolibre.cl/MLC-3335955534-espejo-45x60-rectangular-led-blanco-_JM
+                    - generic [ref=e1464]: Espejo 45x60 Rectangular Led Blanco
+                - button "ad-actions" [ref=e1468] [cursor=pointer]:
+                  - img [ref=e1469]
+            - cell "56.377 ▲2208%" [ref=e1473]:
+              - generic [ref=e1475]:
+                - generic [ref=e1477]: "56.377"
+                - paragraph [ref=e1479]: ▲2208%
+            - cell "- ●0%" [ref=e1480]:
+              - generic [ref=e1482]:
+                - generic [ref=e1484]: "-"
+                - paragraph [ref=e1486]: ●0%
+            - cell "48 ▲860%" [ref=e1487]:
+              - generic [ref=e1489]:
+                - generic [ref=e1491]: "48"
+                - paragraph [ref=e1493]: ▲860%
+            - cell "$ 63,75 ▲88%" [ref=e1494]:
+              - generic [ref=e1496]:
+                - generic [ref=e1498]: $ 63,75
+                - paragraph [ref=e1500]: ▲88%
+            - cell "0 ●0%" [ref=e1501]:
+              - generic [ref=e1503]:
+                - generic [ref=e1505]: "0"
+                - paragraph [ref=e1507]: ●0%
+            - cell "$ 0 ●0%" [ref=e1508]:
+              - generic [ref=e1510]:
+                - generic [ref=e1512]: $ 0
+                - paragraph [ref=e1514]: ●0%
+            - cell "$ 3.060 ▲1700%" [ref=e1515]:
+              - generic [ref=e1517]:
+                - generic [ref=e1519]: $ 3.060
+                - paragraph [ref=e1521]: ▲1700%
+            - cell "- ●0%" [ref=e1522]:
+              - generic [ref=e1524]:
+                - generic [ref=e1526]: "-"
+                - paragraph [ref=e1528]: ●0%
+            - cell "- ●0%" [ref=e1529]:
+              - generic [ref=e1531]:
+                - generic [ref=e1533]: "-"
+                - paragraph [ref=e1535]: ●0%
+          - row "Seleccionar fila 39.423 ▲3605% 21,31x ●0% 46 ●0% $ 79,76 ●0% 2 ●0% $ 78.189 ●0% $ 3.669 ●0% 4,69% ●0% 4,69% ●0%" [ref=e1536]:
+            - cell "Seleccionar fila" [ref=e1537]:
+              - generic [ref=e1538] [cursor=pointer]:
+                - checkbox "Seleccionar fila" [ref=e1540]
+                - generic [ref=e1541]: Seleccionar fila
+            - cell [ref=e1542]:
+              - figure [ref=e1545]:
+                - button "product" [ref=e1547] [cursor=pointer]:
+                  - img "product" [ref=e1548]
+                - generic [ref=e1549]:
+                  - 'generic "#MLC1754490675 ORIGEN: PROPIO" [ref=e1551]'
+                  - link "Espejo 60x90 Rectangular Con Ondas Blanco" [ref=e1552] [cursor=pointer]:
+                    - /url: https://articulo.mercadolibre.cl/MLC-1754490675-espejo-60x90-rectangular-con-ondas-blanco-_JM
+                    - generic [ref=e1553]: Espejo 60x90 Rectangular Con Ondas Blanco
+                - button "ad-actions" [ref=e1557] [cursor=pointer]:
+                  - img [ref=e1558]
+            - cell "39.423 ▲3605%" [ref=e1562]:
+              - generic [ref=e1564]:
+                - generic [ref=e1566]: "39.423"
+                - paragraph [ref=e1568]: ▲3605%
+            - cell "21,31x ●0%" [ref=e1569]:
+              - generic [ref=e1571]:
+                - generic [ref=e1573]: 21,31x
+                - paragraph [ref=e1575]: ●0%
+            - cell "46 ●0%" [ref=e1576]:
+              - generic [ref=e1578]:
+                - generic [ref=e1580]: "46"
+                - paragraph [ref=e1582]: ●0%
+            - cell "$ 79,76 ●0%" [ref=e1583]:
+              - generic [ref=e1585]:
+                - generic [ref=e1587]: $ 79,76
+                - paragraph [ref=e1589]: ●0%
+            - cell "2 ●0%" [ref=e1590]:
+              - generic [ref=e1592]:
+                - generic [ref=e1598]: "2"
+                - paragraph [ref=e1600]: ●0%
+            - cell "$ 78.189 ●0%" [ref=e1601]:
+              - generic [ref=e1603]:
+                - generic [ref=e1609]: $ 78.189
+                - paragraph [ref=e1611]: ●0%
+            - cell "$ 3.669 ●0%" [ref=e1612]:
+              - generic [ref=e1614]:
+                - generic [ref=e1616]: $ 3.669
+                - paragraph [ref=e1618]: ●0%
+            - cell "4,69% ●0%" [ref=e1619]:
+              - generic [ref=e1621]:
+                - generic [ref=e1623]: 4,69%
+                - paragraph [ref=e1625]: ●0%
+            - cell "4,69% ●0%" [ref=e1626]:
+              - generic [ref=e1628]:
+                - generic [ref=e1630]: 4,69%
+                - paragraph [ref=e1632]: ●0%
+          - row "Seleccionar fila Catálogo 13.789 ▼51% 16,23x ●0% 17 ▼51% $ 131,88 ▼25% 1 ●0% $ 36.390 ●0% $ 2.242 ▼63% 6,16% ●0% 2,05% ●0%" [ref=e1633]:
+            - cell "Seleccionar fila" [ref=e1634]:
+              - generic [ref=e1635] [cursor=pointer]:
+                - checkbox "Seleccionar fila" [ref=e1637]
+                - generic [ref=e1638]: Seleccionar fila
+            - cell "Catálogo" [ref=e1639]:
+              - generic [ref=e1640]:
+                - paragraph [ref=e1642]: Catálogo
+                - figure [ref=e1644]:
+                  - button "product" [ref=e1646] [cursor=pointer]:
+                    - img "product" [ref=e1647]
+                  - generic [ref=e1648]:
+                    - 'generic "#MLC1367027081 ORIGEN: PROPIO" [ref=e1650]'
+                    - link "Lavaplatos Empotrados Simple 100x44 Inox Izquierdo-191432514 Plateado" [ref=e1651] [cursor=pointer]:
+                      - /url: https://articulo.mercadolibre.cl/MLC-1367027081-lavaplatos-empotrados-simple-100x44-inox-izquierdo-191432514-plateado-_JM
+                      - generic [ref=e1652]: Lavaplatos Empotrados Simple 100x44 Inox Izquierdo-191432514 Plateado
+                  - button "ad-actions" [ref=e1656] [cursor=pointer]:
+                    - img [ref=e1657]
+            - cell "13.789 ▼51%" [ref=e1661]:
+              - generic [ref=e1663]:
+                - generic [ref=e1669]: "13.789"
+                - paragraph [ref=e1671]: ▼51%
+            - cell "16,23x ●0%" [ref=e1672]:
+              - generic [ref=e1674]:
+                - generic [ref=e1676]: 16,23x
+                - paragraph [ref=e1678]: ●0%
+            - cell "17 ▼51%" [ref=e1679]:
+              - generic [ref=e1681]:
+                - generic [ref=e1683]: "17"
+                - paragraph [ref=e1685]: ▼51%
+            - cell "$ 131,88 ▼25%" [ref=e1686]:
+              - generic [ref=e1688]:
+                - generic [ref=e1690]: $ 131,88
+                - paragraph [ref=e1692]: ▼25%
+            - cell "1 ●0%" [ref=e1693]:
+              - generic [ref=e1695]:
+                - generic [ref=e1701]: "1"
+                - paragraph [ref=e1703]: ●0%
+            - cell "$ 36.390 ●0%" [ref=e1704]:
+              - generic [ref=e1706]:
+                - generic [ref=e1712]: $ 36.390
+                - paragraph [ref=e1714]: ●0%
+            - cell "$ 2.242 ▼63%" [ref=e1715]:
+              - generic [ref=e1717]:
+                - generic [ref=e1719]: $ 2.242
+                - paragraph [ref=e1721]: ▼63%
+            - cell "6,16% ●0%" [ref=e1722]:
+              - generic [ref=e1724]:
+                - generic [ref=e1726]: 6,16%
+                - paragraph [ref=e1728]: ●0%
+            - cell "2,05% ●0%" [ref=e1729]:
+              - generic [ref=e1731]:
+                - generic [ref=e1733]: 2,05%
+                - paragraph [ref=e1735]: ●0%
+          - row "Seleccionar fila 8.831 ▼79% - ●0% 7 ▼94% $ 73 ▼59% 0 ●0% $ 0 ●0% $ 511 ▼98% - ●0% - ●0%" [ref=e1736]:
+            - cell "Seleccionar fila" [ref=e1737]:
+              - generic [ref=e1738] [cursor=pointer]:
+                - checkbox "Seleccionar fila" [ref=e1740]
+                - generic [ref=e1741]: Seleccionar fila
+            - cell [ref=e1742]:
+              - figure [ref=e1745]:
+                - button "product" [ref=e1747] [cursor=pointer]:
+                  - img "product" [ref=e1748]
+                - generic [ref=e1749]:
+                  - 'generic "#MLC3518019348 ORIGEN: PROPIO" [ref=e1751]'
+                  - link "Lavaplatos Simple 80x44 Secador Derecho Acero Inoxidable Plateado" [ref=e1752] [cursor=pointer]:
+                    - /url: https://articulo.mercadolibre.cl/MLC-3518019348-lavaplatos-simple-80x44-secador-derecho-acero-inoxidable-plateado-_JM
+                    - generic [ref=e1753]: Lavaplatos Simple 80x44 Secador Derecho Acero Inoxidable Plateado
+                - button "ad-actions" [ref=e1757] [cursor=pointer]:
+                  - img [ref=e1758]
+            - cell "8.831 ▼79%" [ref=e1762]:
+              - generic [ref=e1764]:
+                - generic [ref=e1766]: "8.831"
+                - paragraph [ref=e1768]: ▼79%
+            - cell "- ●0%" [ref=e1769]:
+              - generic [ref=e1771]:
+                - generic [ref=e1773]: "-"
+                - paragraph [ref=e1775]: ●0%
+            - cell "7 ▼94%" [ref=e1776]:
+              - generic [ref=e1778]:
+                - generic [ref=e1780]: "7"
+                - paragraph [ref=e1782]: ▼94%
+            - cell "$ 73 ▼59%" [ref=e1783]:
+              - generic [ref=e1785]:
+                - generic [ref=e1787]: $ 73
+                - paragraph [ref=e1789]: ▼59%
+            - cell "0 ●0%" [ref=e1790]:
+              - generic [ref=e1792]:
+                - generic [ref=e1794]: "0"
+                - paragraph [ref=e1796]: ●0%
+            - cell "$ 0 ●0%" [ref=e1797]:
+              - generic [ref=e1799]:
+                - generic [ref=e1801]: $ 0
+                - paragraph [ref=e1803]: ●0%
+            - cell "$ 511 ▼98%" [ref=e1804]:
+              - generic [ref=e1806]:
+                - generic [ref=e1808]: $ 511
+                - paragraph [ref=e1810]: ▼98%
+            - cell "- ●0%" [ref=e1811]:
+              - generic [ref=e1813]:
+                - generic [ref=e1815]: "-"
+                - paragraph [ref=e1817]: ●0%
+            - cell "- ●0%" [ref=e1818]:
+              - generic [ref=e1820]:
+                - generic [ref=e1822]: "-"
+                - paragraph [ref=e1824]: ●0%
+          - row "Seleccionar fila 5.994 ▲1059% - ●0% 2 ●0% $ 22 ●0% 0 ●0% $ 0 ●0% $ 44 ●0% - ●0% - ●0%" [ref=e1825]:
+            - cell "Seleccionar fila" [ref=e1826]:
+              - generic [ref=e1827] [cursor=pointer]:
+                - checkbox "Seleccionar fila" [ref=e1829]
+                - generic [ref=e1830]: Seleccionar fila
+            - cell [ref=e1831]:
+              - figure [ref=e1834]:
+                - button "product" [ref=e1836] [cursor=pointer]:
+                  - img "product" [ref=e1837]
+                - generic [ref=e1838]:
+                  - 'generic "#MLC3719482412 ORIGEN: PROPIO" [ref=e1840]'
+                  - link "Dispensador De Papel Palanca Práctico Blanco" [ref=e1841] [cursor=pointer]:
+                    - /url: https://articulo.mercadolibre.cl/MLC-3719482412-dispensador-de-papel-palanca-practico-blanco-_JM
+                    - generic [ref=e1842]: Dispensador De Papel Palanca Práctico Blanco
+                - button "ad-actions" [ref=e1846] [cursor=pointer]:
+                  - img [ref=e1847]
+            - cell "5.994 ▲1059%" [ref=e1851]:
+              - generic [ref=e1853]:
+                - generic [ref=e1855]: "5.994"
+                - paragraph [ref=e1857]: ▲1059%
+            - cell "- ●0%" [ref=e1858]:
+              - generic [ref=e1860]:
+                - generic [ref=e1862]: "-"
+                - paragraph [ref=e1864]: ●0%
+            - cell "2 ●0%" [ref=e1865]:
+              - generic [ref=e1867]:
+                - generic [ref=e1869]: "2"
+                - paragraph [ref=e1871]: ●0%
+            - cell "$ 22 ●0%" [ref=e1872]:
+              - generic [ref=e1874]:
+                - generic [ref=e1876]: $ 22
+                - paragraph [ref=e1878]: ●0%
+            - cell "0 ●0%" [ref=e1879]:
+              - generic [ref=e1881]:
+                - generic [ref=e1883]: "0"
+                - paragraph [ref=e1885]: ●0%
+            - cell "$ 0 ●0%" [ref=e1886]:
+              - generic [ref=e1888]:
+                - generic [ref=e1890]: $ 0
+                - paragraph [ref=e1892]: ●0%
+            - cell "$ 44 ●0%" [ref=e1893]:
+              - generic [ref=e1895]:
+                - generic [ref=e1897]: $ 44
+                - paragraph [ref=e1899]: ●0%
+            - cell "- ●0%" [ref=e1900]:
+              - generic [ref=e1902]:
+                - generic [ref=e1904]: "-"
+                - paragraph [ref=e1906]: ●0%
+            - cell "- ●0%" [ref=e1907]:
+              - generic [ref=e1909]:
+                - generic [ref=e1911]: "-"
+                - paragraph [ref=e1913]: ●0%
+          - row "Seleccionar fila 0 ●0% - ●0% 0 ●0% $ 0 ●0% 0 ●0% $ 0 ●0% $ 0 ●0% - ●0% - ●0%" [ref=e1914]:
+            - cell "Seleccionar fila" [ref=e1915]:
+              - generic [ref=e1916] [cursor=pointer]:
+                - checkbox "Seleccionar fila" [ref=e1918]
+                - generic [ref=e1919]: Seleccionar fila
+            - cell [ref=e1920]:
+              - figure [ref=e1923]:
+                - button "product" [ref=e1925] [cursor=pointer]:
+                  - img "product" [ref=e1926]
+                - generic [ref=e1927]:
+                  - 'generic "#MLC1754452463 ORIGEN: PROPIO" [ref=e1929]'
+                  - link "Espejo 60x90 Rectangular Borde Azul Azul" [ref=e1930] [cursor=pointer]:
+                    - /url: https://articulo.mercadolibre.cl/MLC-1754452463-espejo-60x90-rectangular-borde-azul-azul-_JM
+                    - generic [ref=e1931]: Espejo 60x90 Rectangular Borde Azul Azul
+                - button "ad-actions" [ref=e1935] [cursor=pointer]:
+                  - img [ref=e1936]
+            - cell "0 ●0%" [ref=e1940]:
+              - generic [ref=e1942]:
+                - generic [ref=e1944]: "0"
+                - paragraph [ref=e1946]: ●0%
+            - cell "- ●0%" [ref=e1947]:
+              - generic [ref=e1949]:
+                - generic [ref=e1951]: "-"
+                - paragraph [ref=e1953]: ●0%
+            - cell "0 ●0%" [ref=e1954]:
+              - generic [ref=e1956]:
+                - generic [ref=e1958]: "0"
+                - paragraph [ref=e1960]: ●0%
+            - cell "$ 0 ●0%" [ref=e1961]:
+              - generic [ref=e1963]:
+                - generic [ref=e1965]: $ 0
+                - paragraph [ref=e1967]: ●0%
+            - cell "0 ●0%" [ref=e1968]:
+              - generic [ref=e1970]:
+                - generic [ref=e1972]: "0"
+                - paragraph [ref=e1974]: ●0%
+            - cell "$ 0 ●0%" [ref=e1975]:
+              - generic [ref=e1977]:
+                - generic [ref=e1979]: $ 0
+                - paragraph [ref=e1981]: ●0%
+            - cell "$ 0 ●0%" [ref=e1982]:
+              - generic [ref=e1984]:
+                - generic [ref=e1986]: $ 0
+                - paragraph [ref=e1988]: ●0%
+            - cell "- ●0%" [ref=e1989]:
+              - generic [ref=e1991]:
+                - generic [ref=e1993]: "-"
+                - paragraph [ref=e1995]: ●0%
+            - cell "- ●0%" [ref=e1996]:
+              - generic [ref=e1998]:
+                - generic [ref=e2000]: "-"
+                - paragraph [ref=e2002]: ●0%
+  - contentinfo [ref=e413]:
+    - generic [ref=e414]:
+      - paragraph [ref=e415]: Copyright © 1999-2026 MercadoLibre Chile Ltda.
+      - paragraph [ref=e416]: Av. Apoquindo 4800, Torre 2, piso 21, Las Condes, Santiago - Chile.

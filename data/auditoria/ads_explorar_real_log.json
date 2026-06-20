@@ -1,0 +1,402 @@
+{
+  "requests": [
+    {
+      "url": "https://ads.mercadolibre.cl/productAds",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://api.mercadolibre.com/melidata/tracks",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "content-type": "text/plain;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "{\"tracks\":[{\"path\":\"/navigation/cookies_consent/show\",\"user\":{\"uid\":\"7d608973-742b-49c7-b065-1536b8c8455c\",\"user_tags\":[],\"privacy_consents\":{\"advertising\":true,\"traceability\":true,\"performance\":true,\"functionality\":true},\"melidata_session_id\":\"91aa9ac4-601b-484b-9500-de70aae3256d\"},\"type\":\"event\",\"user_local_timestamp\":\"2026-05-24T22:48:54.908-0400\",\"server_id\":\"7c04c6aa-d0e1-4371-9353-f8fce106dcda\",\"id\":\"e3b37cba-f711-4111-be1a-1726ce0f8131\",\"event_data\":{\"consent_type\":\"bottomOptOut\"},\"platform\":{\"http\":{\"cookies\":{\"_d2id\":\"7d608973-742b-49c7-b065-1536b8c8455c-n\",\"_fbp\":\"fb.1.1779677210977.458754530424070887\",\"client_d2id\":\"7d608973-742b-49c7-b065-1536b8c8455c-n\",\"client_session_id\":\"91aa9ac4-601b-484b-9500-de70aae3256d\"},\"headers\":{\"host\":\"ads.mercadolibre.cl\",\"x-request-id\":\"ca6330e7-8192-49ac-af30-fbda432432a0\",\"x-d2id\":\"7d608973-742b-49c7-b065-1536b8c8455c\",\"x-device-js\":\"true\",\"x-platform\":\"ml\"},\"http_url\":\"https://ads.mercadolibre.cl/productAds\",\"intersection_observer_supporte"
+    },
+    {
+      "url": "https://connect.facebook.net/signals/config/2710591638992744?v=2.9.325&r=stable&domain=ads.mercadolibre.cl&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/714342821/?random=1779677335499&cv=11&fst=1779677335499&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://www.google.com/rmkt/collect/714342821/?random=1779677335499&cv=11&fst=1779677335499&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&gcp=5",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://www.googleadservices.com/pagead/conversion/714342821/?random=1779677335573&cv=11&fst=1779677335573&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&label=T8RLCJWhhasBEKWD0NQC&capi=1&gtm_ee=1&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&auid=956900938.1779677049&dt=Publicidad&en=page_view&dl=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&scrsrc=www.googletagmanager.com&rnd=2023141066.1779677336&navt=n&npa=0&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&apve=1&apvf=f&apvc=1&tids=AW-714342821&tid=AW-714342821&tft=1779677335590&tfd=4240",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://www.facebook.com/tr/?id=2710591638992744&ev=PageView&dl=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rl=&if=false&ts=1779677335915&sw=1280&sh=720&v=2.9.325&r=stable&ec=0&o=4126&fbp=fb.1.1779677210977.458754530424070887&eid=ob3_plugin-set_c1a09627b7447ae21a5ef764ba6877bd8223ebd90329223bd3821cc15bf2560d&ler=empty&cdl=API_unavailable&pmd[title]=Publicidad&pmd[locale]=es-CL&plt=1117.5&imft=1&tz=-240&it=1779677335185&coo=false&cf=1&exp=m1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf0&rqm=GET",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=2710591638992744&ev=PageView&dl=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rl=&if=false&ts=1779677335915&sw=1280&sh=720&v=2.9.325&r=stable&ec=0&o=4126&fbp=fb.1.1779677210977.458754530424070887&eid=ob3_plugin-set_c1a09627b7447ae21a5ef764ba6877bd8223ebd90329223bd3821cc15bf2560d&ler=empty&cdl=API_unavailable&pmd[title]=Publicidad&pmd[locale]=es-CL&plt=1117.5&imft=1&tz=-240&it=1779677335185&coo=false&cf=1&exp=m1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf0&rqm=FGET",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://www.facebook.com/tr/?id=2710591638992744&ev=ViewContent&dl=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rl=&if=false&ts=1779677335952&sw=1280&sh=720&v=2.9.325&r=stable&ec=1&o=4126&fbp=fb.1.1779677210977.458754530424070887&eid=ob3_plugin-set_4324fcca999a268e32af36eeb9c1c879323577792136b07c50d1952a67b040e5&ler=empty&cdl=API_unavailable&pmd[locale]=es-CL&plt=1117.5&imft=1&tz=-240&it=1779677335185&coo=false&cf=1&exp=m1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf0&rqm=GET",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=2710591638992744&ev=ViewContent&dl=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rl=&if=false&ts=1779677335952&sw=1280&sh=720&v=2.9.325&r=stable&ec=1&o=4126&fbp=fb.1.1779677210977.458754530424070887&eid=ob3_plugin-set_4324fcca999a268e32af36eeb9c1c879323577792136b07c50d1952a67b040e5&ler=empty&cdl=API_unavailable&pmd[locale]=es-CL&plt=1117.5&imft=1&tz=-240&it=1779677335185&coo=false&cf=1&exp=m1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf0&rqm=FGET",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://px.ads.linkedin.com/attribution_trigger?pid=1720745&time=1779677335986&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "accept": "*",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=1720745&time=1779677335986&li_adsId=8a27aa6c-73e8-41a7-9c61-c083c1c988a2&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/714342821/?random=856250401&cv=11&fst=1779677335573&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&label=T8RLCJWhhasBEKWD0NQC&capi=1&gtm_ee=1&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKJnRyaWdnZXI9bmF2aWdhdGlvbi1zb3VyY2U7ZXZlbnQtc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChEI8MPK0AYQ4YyUwo7OjYDLARIsAIY6bp3BpnrKRKL4eHtcmtjPBotAJMcUyd37N9U8Sg384JenNPJW_7VvwUIaAj_O&pscrd=IhMIhLam27bTlAMVaku4BB2i6gG7OiZodHRwczovL2Fkcy5tZXJjYWRvbGlicmUuY2wvcHJvZHVjdEFkc0JXQ2hBSThNUEswQVlReWRIMmpLdUE0YWxzRWkwQVRJdWZnbW5SWE5lQnBQVkl1RHMybl9NX2ZXOUVnSG5wMFd0cE5ZVlllQlFjOUdkek5YTTFyeDlyZEpvegwICWIICAAQABgAIAA",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-user-list/714342821/?random=1779677335499&cv=11&fst=1779674400000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEABaugfcx6mi3WpNdKNzBBRo9z45CQGGlK6G7M7jbEErTdGorHSAfegGQ589U0jxSqunXvrVLZDJU-2rcqu_pHLHKgP6pNJfDuPNBAoelZ8kR0GG4ClPDhQvnkO6nDQS9M8ScE6-bQcndAApVkfdNy4UPAJ4bJXDJoiNVBb0an1-8I1LgYfiEWL9Mj7rykHl_kYafWQvbVfbskW5FhXM7UkS6-kEAalQQJmoxy-hds7Ncy3CRgMknn-wjxccNsIrO6KkPNlCsoIhxtTP9JttZFA65qF7Zl0zBI9KoUPcZahD1i&random=1823267425&rmt_tld=0&ipr=y",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://www.google.cl/pagead/1p-user-list/714342821/?random=1779677335499&cv=11&fst=1779674400000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEABaugfcx6mi3WpNdKNzBBRo9z45CQGGlK6G7M7jbEErTdGorHSAfegGQ589U0jxSqunXvrVLZDJU-2rcqu_pHLHKgP6pNJfDuPNBAoelZ8kR0GG4ClPDhQvnkO6nDQS9M8ScE6-bQcndAApVkfdNy4UPAJ4bJXDJoiNVBb0an1-8I1LgYfiEWL9Mj7rykHl_kYafWQvbVfbskW5FhXM7UkS6-kEAalQQJmoxy-hds7Ncy3CRgMknn-wjxccNsIrO6KkPNlCsoIhxtTP9JttZFA65qF7Zl0zBI9KoUPcZahD1i&random=1823267425&rmt_tld=1&ipr=y",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://ads.mercadolibre.cl/productAds",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-conversion/714342821/?random=856250401&cv=11&fst=1779677335573&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&label=T8RLCJWhhasBEKWD0NQC&capi=1&gtm_ee=1&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKJnRyaWdnZXI9bmF2aWdhdGlvbi1zb3VyY2U7ZXZlbnQtc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChEI8MPK0AYQ4YyUwo7OjYDLARIsAIY6bp3BpnrKRKL4eHtcmtjPBotAJMcUyd37N9U8Sg384JenNPJW_7VvwUIaAj_O&pscrd=IhMIhLam27bTlAMVaku4BB2i6gG7OiZodHRwczovL2Fkcy5tZXJjYWRvbGlicmUuY2wvcHJvZHVjdEFkc0JXQ2hBSThNUEswQVlReWRIMmpLdUE0YWxzRWkwQVRJdWZnbW5SWE5lQnBQVkl1RHMybl9NX2ZXOUVnSG5wMFd0cE5ZVlllQlFjOUdkek5YTTFyeDlyZEpvegwICWIICAAQABgAIAA&is_vtc=1&cid=CAQS4gEABaugfTW7oeXOV9jF-BOgHFzHG5_nBDdF9UeAzM2fB0w-pWpru6Bc8u4qcd8BledMyqSjwtSvD-L-sBE_nRMp3vuOhQpGdJVtg1d1qZu42RJ2yXYQUiCEGAbwsI3H0zkM4vyOjxcBBftY_FZb_84IpAK9nzYauXSd1mgl98Hwf_JmHSFSjUb3d7awTSvS1qGW6qz1L3CHkGxtWvPGb8p3fj_WMG8lzrOmkV4_ELvvOd4rkT9RClbKfL0bheQtxuYiIpHYJdNRjfExqZ972krpNFwOcHcuejnB4chCWvDzCFda&random=132100611",
+      "method": "GET",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "referer": "https://ads.mercadolibre.cl/productAds"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://www.google.cl/pagead/1p-conversion/714342821/?random=856250401&cv=11&fst=1779677335573&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&label=T8RLCJWhhasBEKWD0NQC&capi=1&gtm_ee=1&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKJnRyaWdnZXI9bmF2aWdhdGlvbi1zb3VyY2U7ZXZlbnQtc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChEI8MPK0AYQ4YyUwo7OjYDLARIsAIY6bp3BpnrKRKL4eHtcmtjPBotAJMcUyd37N9U8Sg384JenNPJW_7VvwUIaAj_O&is_vtc=1&cid=CAQS4gEABaugfTW7oeXOV9jF-BOgHFzHG5_nBDdF9UeAzM2fB0w-pWpru6Bc8u4qcd8BledMyqSjwtSvD-L-sBE_nRMp3vuOhQpGdJVtg1d1qZu42RJ2yXYQUiCEGAbwsI3H0zkM4vyOjxcBBftY_FZb_84IpAK9nzYauXSd1mgl98Hwf_JmHSFSjUb3d7awTSvS1qGW6qz1L3CHkGxtWvPGb8p3fj_WMG8lzrOmkV4_ELvvOd4rkT9RClbKfL0bheQtxuYiIpHYJdNRjfExqZ972krpNFwOcHcuejnB4chCWvDzCFda&random=132100611&ipr=y&pscrd=IhMIhLam27bTlAMVaku4BB2i6gG7OiZodHRwczovL2Fkcy5tZXJjYWRvbGlicmUuY2wvcHJvZHVjdEFkc0JXQ2hBSThNUEswQVlReWRIMmpLdUE0YWxzRWkwQVRJdWZnbW5SWE5lQnBQVkl1RHMybl9NX2ZXOUVnSG5wMFd0cE5ZVlllQlFjOUdkek5YTTFyeDlyZEpvegwICWIICAAQABgAIACCAQVwAYgBAQ&ezwbk=AZuM4hD78EWOWElzjYWhJIoFkMwBlM5Wv096FrHVR5uAYFeWNMgWjXlyp-j822UMpINaXhDKnReWufVeyMqdv7DNOh70",
+      "method": "GET",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "referer": "https://ads.mercadolibre.cl/productAds"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://ads.mercadolibre.cl/productAds/campaigns/357141159",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "device-memory": "16",
+        "downlink": "10",
+        "dpr": "1.25",
+        "ect": "4g",
+        "rtt": "50",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-model": "\"\"",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-ch-ua-platform-version": "\"19.0.0\"",
+        "viewport-width": "1280"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://ads.mercadolibre.cl/productAds/campaigns/357141159/items",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "device-memory": "16",
+        "downlink": "10",
+        "dpr": "1.25",
+        "ect": "4g",
+        "rtt": "50",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-model": "\"\"",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-ch-ua-platform-version": "\"19.0.0\"",
+        "viewport-width": "1280"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://ads.mercadolibre.cl/productAds/campaigns/357141159/products",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "device-memory": "16",
+        "downlink": "10",
+        "dpr": "1.25",
+        "ect": "4g",
+        "rtt": "50",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-model": "\"\"",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-ch-ua-platform-version": "\"19.0.0\"",
+        "viewport-width": "1280"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://ads.mercadolibre.cl/productAds/357141159",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "device-memory": "16",
+        "downlink": "10",
+        "dpr": "1.25",
+        "ect": "4g",
+        "rtt": "50",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-model": "\"\"",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-ch-ua-platform-version": "\"19.0.0\"",
+        "viewport-width": "1280"
+      },
+      "post_data": null
+    },
+    {
+      "url": "https://ads.mercadolibre.cl/productAds/campaigns",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "device-memory": "16",
+        "downlink": "10",
+        "dpr": "1.25",
+        "ect": "4g",
+        "rtt": "50",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-model": "\"\"",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-ch-ua-platform-version": "\"19.0.0\"",
+        "viewport-width": "1280"
+      },
+      "post_data": null
+    }
+  ],
+  "responses": {
+    "https://ads.mercadolibre.cl/productAds": {
+      "status": 200,
+      "body_snippet": "<!DOCTYPE html><html lang=\"es-CL\" data-assets-prefix=\"https://http2.mlstatic.com/storage/a-landings/\"><head><meta charSet=\"utf-8\"/><link rel=\"preconnect\" href=\"https://http2.mlstatic.com\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3"
+    },
+    "https://api.mercadolibre.com/melidata/tracks": {
+      "status": 200,
+      "body_snippet": "{\"records\":[{\"status\":200}],\"configuration\":null,\"failed_record_count\":0,\"mobile_configuration\":null}"
+    },
+    "https://connect.facebook.net/signals/config/2710591638992744?v=2.9.325&r=stable&domain=ads.mercadolibre.cl&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170": {
+      "status": 200,
+      "body_snippet": "/**\n* Copyright (c) 2017-present, Facebook, Inc. All rights reserved.\n*\n* You are hereby granted a non-exclusive, worldwide, royalty-free license to use,\n* copy, modify, and distribute this software in source code or binary form for use\n* in connection with the web services and APIs provided by Facebook.\n*\n* As with any software that integrates with the Facebook platform, your use of\n* this software is subject to the Facebook Platform Policy\n* [http://developers.facebook.com/policy/]. This copyr"
+    },
+    "https://www.google.com/ccm/collect?rcb=7&frm=0&auid=956900938.1779677049&dt=Publicidad&en=page_view&dl=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&scrsrc=www.googletagmanager.com&rnd=2023141066.1779677336&navt=n&npa=0&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&apve=1&apvf=f&apvc=1&tids=AW-714342821&tid=AW-714342821&tft=1779677335590&tfd=4240": {
+      "status": 200,
+      "body_snippet": ""
+    },
+    "https://www.google.com/rmkt/collect/714342821/?random=1779677335499&cv=11&fst=1779677335499&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&gcp=5": {
+      "status": 200,
+      "body_snippet": ""
+    },
+    "https://www.googleadservices.com/pagead/conversion/714342821/?random=1779677335573&cv=11&fst=1779677335573&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&label=T8RLCJWhhasBEKWD0NQC&capi=1&gtm_ee=1&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512": {
+      "status": 200,
+      "body_snippet": "event: message\ndata: {\"fetch\":[\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/714342821/?random=856250401&cv=11&fst=1779677335573&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&label=T8RLCJWhhasBEKWD0NQC&capi=1&gtm_ee=1&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid="
+    },
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/714342821/?random=1779677335499&cv=11&fst=1779677335499&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4": {
+      "status": 200,
+      "body_snippet": "(function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,d,b){if(a==Array.prototype||a==Object.prototype)return a;a[d]=b.value;return a};function l(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var d=0;d<a.length;++d){var b=a[d];if(b&&b.Math==Math)return b}throw Error(\"Cannot find global object\");} var p=l(this),q=typeof Symbol===\"function"
+    },
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/714342821/?random=856250401&cv=11&fst=1779677335573&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&label=T8RLCJWhhasBEKWD0NQC&capi=1&gtm_ee=1&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKJnRyaWdnZXI9bmF2aWdhdGlvbi1zb3VyY2U7ZXZlbnQtc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChEI8MPK0AYQ4YyUwo7OjYDLARIsAIY6bp3BpnrKRKL4eHtcmtjPBotAJMcUyd37N9U8Sg384JenNPJW_7VvwUIaAj_O&pscrd=IhMIhLam27bTlAMVaku4BB2i6gG7OiZodHRwczovL2Fkcy5tZXJjYWRvbGlicmUuY2wvcHJvZHVjdEFkc0JXQ2hBSThNUEswQVlReWRIMmpLdUE0YWxzRWkwQVRJdWZnbW5SWE5lQnBQVkl1RHMybl9NX2ZXOUVnSG5wMFd0cE5ZVlllQlFjOUdkek5YTTFyeDlyZEpvegwICWIICAAQABgAIAA": {
+      "status": 302,
+      "body_snippet": "(error)"
+    },
+    "https://www.google.com/pagead/1p-user-list/714342821/?random=1779677335499&cv=11&fst=1779674400000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEABaugfcx6mi3WpNdKNzBBRo9z45CQGGlK6G7M7jbEErTdGorHSAfegGQ589U0jxSqunXvrVLZDJU-2rcqu_pHLHKgP6pNJfDuPNBAoelZ8kR0GG4ClPDhQvnkO6nDQS9M8ScE6-bQcndAApVkfdNy4UPAJ4bJXDJoiNVBb0an1-8I1LgYfiEWL9Mj7rykHl_kYafWQvbVfbskW5FhXM7UkS6-kEAalQQJmoxy-hds7Ncy3CRgMknn-wjxccNsIrO6KkPNlCsoIhxtTP9JttZFA65qF7Zl0zBI9KoUPcZahD1i&random=1823267425&rmt_tld=0&ipr=y": {
+      "status": 200,
+      "body_snippet": "(error)"
+    },
+    "https://www.google.cl/pagead/1p-user-list/714342821/?random=1779677335499&cv=11&fst=1779674400000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEABaugfcx6mi3WpNdKNzBBRo9z45CQGGlK6G7M7jbEErTdGorHSAfegGQ589U0jxSqunXvrVLZDJU-2rcqu_pHLHKgP6pNJfDuPNBAoelZ8kR0GG4ClPDhQvnkO6nDQS9M8ScE6-bQcndAApVkfdNy4UPAJ4bJXDJoiNVBb0an1-8I1LgYfiEWL9Mj7rykHl_kYafWQvbVfbskW5FhXM7UkS6-kEAalQQJmoxy-hds7Ncy3CRgMknn-wjxccNsIrO6KkPNlCsoIhxtTP9JttZFA65qF7Zl0zBI9KoUPcZahD1i&random=1823267425&rmt_tld=1&ipr=y": {
+      "status": 200,
+      "body_snippet": "(error)"
+    },
+    "https://www.facebook.com/tr/?id=2710591638992744&ev=ViewContent&dl=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rl=&if=false&ts=1779677335952&sw=1280&sh=720&v=2.9.325&r=stable&ec=1&o=4126&fbp=fb.1.1779677210977.458754530424070887&eid=ob3_plugin-set_4324fcca999a268e32af36eeb9c1c879323577792136b07c50d1952a67b040e5&ler=empty&cdl=API_unavailable&pmd[locale]=es-CL&plt=1117.5&imft=1&tz=-240&it=1779677335185&coo=false&cf=1&exp=m1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf0&rqm=GET": {
+      "status": 200,
+      "body_snippet": ""
+    },
+    "https://www.facebook.com/tr/?id=2710591638992744&ev=PageView&dl=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rl=&if=false&ts=1779677335915&sw=1280&sh=720&v=2.9.325&r=stable&ec=0&o=4126&fbp=fb.1.1779677210977.458754530424070887&eid=ob3_plugin-set_c1a09627b7447ae21a5ef764ba6877bd8223ebd90329223bd3821cc15bf2560d&ler=empty&cdl=API_unavailable&pmd[title]=Publicidad&pmd[locale]=es-CL&plt=1117.5&imft=1&tz=-240&it=1779677335185&coo=false&cf=1&exp=m1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf0&rqm=GET": {
+      "status": 200,
+      "body_snippet": ""
+    },
+    "https://www.google.com/pagead/1p-conversion/714342821/?random=856250401&cv=11&fst=1779677335573&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&label=T8RLCJWhhasBEKWD0NQC&capi=1&gtm_ee=1&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKJnRyaWdnZXI9bmF2aWdhdGlvbi1zb3VyY2U7ZXZlbnQtc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChEI8MPK0AYQ4YyUwo7OjYDLARIsAIY6bp3BpnrKRKL4eHtcmtjPBotAJMcUyd37N9U8Sg384JenNPJW_7VvwUIaAj_O&pscrd=IhMIhLam27bTlAMVaku4BB2i6gG7OiZodHRwczovL2Fkcy5tZXJjYWRvbGlicmUuY2wvcHJvZHVjdEFkc0JXQ2hBSThNUEswQVlReWRIMmpLdUE0YWxzRWkwQVRJdWZnbW5SWE5lQnBQVkl1RHMybl9NX2ZXOUVnSG5wMFd0cE5ZVlllQlFjOUdkek5YTTFyeDlyZEpvegwICWIICAAQABgAIAA&is_vtc=1&cid=CAQS4gEABaugfTW7oeXOV9jF-BOgHFzHG5_nBDdF9UeAzM2fB0w-pWpru6Bc8u4qcd8BledMyqSjwtSvD-L-sBE_nRMp3vuOhQpGdJVtg1d1qZu42RJ2yXYQUiCEGAbwsI3H0zkM4vyOjxcBBftY_FZb_84IpAK9nzYauXSd1mgl98Hwf_JmHSFSjUb3d7awTSvS1qGW6qz1L3CHkGxtWvPGb8p3fj_WMG8lzrOmkV4_ELvvOd4rkT9RClbKfL0bheQtxuYiIpHYJdNRjfExqZ972krpNFwOcHcuejnB4chCWvDzCFda&random=132100611": {
+      "status": 302,
+      "body_snippet": "(error)"
+    },
+    "https://www.google.cl/pagead/1p-conversion/714342821/?random=856250401&cv=11&fst=1779677335573&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be65k1v890748785za200zd890748785xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701382&u_w=1280&u_h=720&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds&rcb=7&label=T8RLCJWhhasBEKWD0NQC&capi=1&gtm_ee=1&frm=0&tiba=Publicidad&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=956900938.1779677049&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gcl_ctr=4~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKJnRyaWdnZXI9bmF2aWdhdGlvbi1zb3VyY2U7ZXZlbnQtc291cmNlWgMKAQFiAwoBAw&cerd=CgEA&fsk=ChEI8MPK0AYQ4YyUwo7OjYDLARIsAIY6bp3BpnrKRKL4eHtcmtjPBotAJMcUyd37N9U8Sg384JenNPJW_7VvwUIaAj_O&is_vtc=1&cid=CAQS4gEABaugfTW7oeXOV9jF-BOgHFzHG5_nBDdF9UeAzM2fB0w-pWpru6Bc8u4qcd8BledMyqSjwtSvD-L-sBE_nRMp3vuOhQpGdJVtg1d1qZu42RJ2yXYQUiCEGAbwsI3H0zkM4vyOjxcBBftY_FZb_84IpAK9nzYauXSd1mgl98Hwf_JmHSFSjUb3d7awTSvS1qGW6qz1L3CHkGxtWvPGb8p3fj_WMG8lzrOmkV4_ELvvOd4rkT9RClbKfL0bheQtxuYiIpHYJdNRjfExqZ972krpNFwOcHcuejnB4chCWvDzCFda&random=132100611&ipr=y&pscrd=IhMIhLam27bTlAMVaku4BB2i6gG7OiZodHRwczovL2Fkcy5tZXJjYWRvbGlicmUuY2wvcHJvZHVjdEFkc0JXQ2hBSThNUEswQVlReWRIMmpLdUE0YWxzRWkwQVRJdWZnbW5SWE5lQnBQVkl1RHMybl9NX2ZXOUVnSG5wMFd0cE5ZVlllQlFjOUdkek5YTTFyeDlyZEpvegwICWIICAAQABgAIACCAQVwAYgBAQ&ezwbk=AZuM4hD78EWOWElzjYWhJIoFkMwBlM5Wv096FrHVR5uAYFeWNMgWjXlyp-j822UMpINaXhDKnReWufVeyMqdv7DNOh70": {
+      "status": 200,
+      "body_snippet": ""
+    },
+    "https://px.ads.linkedin.com/attribution_trigger?pid=1720745&time=1779677335986&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds": {
+      "status": 200,
+      "body_snippet": "{}"
+    },
+    "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=1720745&time=1779677335986&li_adsId=8a27aa6c-73e8-41a7-9c61-c083c1c988a2&url=https%3A%2F%2Fads.mercadolibre.cl%2FproductAds": {
+      "status": 200,
+      "body_snippet": ""
+    },
+    "https://ads.mercadolibre.cl/productAds/campaigns/357141159": {
+      "status": 404,
+      "body_snippet": "<!DOCTYPE html><html lang=\"es-CL\" data-assets-prefix=\"https://http2.mlstatic.com/storage/a-landings/\"><head><meta charSet=\"utf-8\"/><link rel=\"preconnect\" href=\"https://http2.mlstatic.com\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3"
+    },
+    "https://ads.mercadolibre.cl/productAds/campaigns/357141159/items": {
+      "status": 404,
+      "body_snippet": "<!DOCTYPE html><html lang=\"es-CL\" data-assets-prefix=\"https://http2.mlstatic.com/storage/a-landings/\"><head><meta charSet=\"utf-8\"/><link rel=\"preconnect\" href=\"https://http2.mlstatic.com\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3"
+    },
+    "https://ads.mercadolibre.cl/productAds/campaigns/357141159/products": {
+      "status": 404,
+      "body_snippet": "<!DOCTYPE html><html lang=\"es-CL\" data-assets-prefix=\"https://http2.mlstatic.com/storage/a-landings/\"><head><meta charSet=\"utf-8\"/><link rel=\"preconnect\" href=\"https://http2.mlstatic.com\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3"
+    },
+    "https://ads.mercadolibre.cl/productAds/357141159": {
+      "status": 404,
+      "body_snippet": "<!DOCTYPE html><html lang=\"es-CL\" data-assets-prefix=\"https://http2.mlstatic.com/storage/a-landings/\"><head><meta charSet=\"utf-8\"/><link rel=\"preconnect\" href=\"https://http2.mlstatic.com\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3"
+    },
+    "https://ads.mercadolibre.cl/productAds/campaigns": {
+      "status": 404,
+      "body_snippet": "<!DOCTYPE html><html lang=\"es-CL\" data-assets-prefix=\"https://http2.mlstatic.com/storage/a-landings/\"><head><meta charSet=\"utf-8\"/><link rel=\"preconnect\" href=\"https://http2.mlstatic.com\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"preload\" href=\"https://http2.mlstatic.com/ui/webfonts/v3"
+    }
+  }
+}

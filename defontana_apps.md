@@ -1,0 +1,118 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - img [ref=e6] [cursor=pointer]
+    - generic [ref=e7]:
+      - generic [ref=e8] [cursor=pointer]:
+        - figure [ref=e9]:
+          - img "user" [ref=e10]
+        - generic [ref=e11]: Trade Global Solutions SPA
+        - img [ref=e12]: arrow_drop_down
+      - generic [ref=e13]:
+        - figure [ref=e14]:
+          - img "user" [ref=e15]
+        - generic [ref=e16]: victor.mellado@victtorino.cl
+        - img [ref=e17]: arrow_drop_down
+      - text: 
+  - generic:
+    - generic:
+      - article:
+        - generic [ref=e18] [cursor=pointer]: close
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - article [ref=e22]:
+        - generic [ref=e23]: Tu último acceso fue el 14-06-2026
+        - generic [ref=e25]:
+          - heading "¡Victor, bienvenido/a a tu portal Defontana!" [level=1] [ref=e26]
+          - heading "Explora todo lo que Defontana tiene para tí" [level=4] [ref=e27]
+          - figure [ref=e28]:
+            - img "logo" [ref=e29]
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - heading "Abiertos recientemente" [level=2] [ref=e32]
+            - link "Ver todos" [ref=e33] [cursor=pointer]:
+              - /url: /products
+              - generic [ref=e34]:
+                - text: Ver todos
+                - img [ref=e35]: keyboard_arrow_right
+          - generic [ref=e38]:
+            - article [ref=e40] [cursor=pointer]:
+              - figure [ref=e41]:
+                - img [ref=e42]
+              - generic [ref=e43]:
+                - heading "Gestión de Accesos" [level=3] [ref=e44]
+                - paragraph [ref=e45]: Gestión de accesos para los usuarios de t... Nuevo
+            - article [ref=e47] [cursor=pointer]:
+              - figure [ref=e48]:
+                - img [ref=e49]
+              - generic [ref=e50]:
+                - heading "Defontana Analytics" [level=3] [ref=e51]
+                - paragraph [ref=e52]: Analytics e IA para decisiones estratégic... Nuevo
+            - article [ref=e54] [cursor=pointer]:
+              - figure [ref=e55]:
+                - img [ref=e56]
+              - generic [ref=e57]:
+                - 'heading "SAWU: Abastecimiento B2B" [level=3] [ref=e58]'
+                - paragraph [ref=e59]: Conecta con compradores y proveedores par... Nuevo
+            - article [ref=e61] [cursor=pointer]:
+              - figure [ref=e62]:
+                - img [ref=e63]
+              - generic [ref=e64]:
+                - heading "ERP Digital" [level=3] [ref=e65]
+                - paragraph [ref=e66]: Solución de gestión de empresas
+            - article [ref=e68] [cursor=pointer]:
+              - figure [ref=e69]:
+                - img [ref=e70]
+              - generic [ref=e71]:
+                - heading "Api de Integraciones" [level=3] [ref=e72]
+                - paragraph [ref=e73]: Integración con sistemas externos
+            - article [ref=e75] [cursor=pointer]:
+              - figure [ref=e76]:
+                - img [ref=e77]
+              - generic [ref=e78]:
+                - heading "Gestión de Personas" [level=3] [ref=e79]
+                - paragraph [ref=e80]: Solución integral de gestión de personas
+            - article [ref=e82] [cursor=pointer]:
+              - figure [ref=e83]:
+                - img [ref=e84]
+              - generic [ref=e85]:
+                - heading "Compra de Certificado Digital" [level=3] [ref=e86]
+                - paragraph [ref=e87]: Renueva tu certificado digital para facturar en el SII
+            - article [ref=e89] [cursor=pointer]:
+              - figure [ref=e90]:
+                - img [ref=e91]
+              - generic [ref=e92]:
+                - heading "Defontana Fintech" [level=3] [ref=e93]
+                - paragraph [ref=e94]: Soluciones financieras para tu empresa
+            - article [ref=e96] [cursor=pointer]:
+              - figure [ref=e97]:
+                - img [ref=e98]
+              - generic [ref=e99]:
+                - heading "Punto de Ventas" [level=3] [ref=e100]
+                - paragraph [ref=e101]: Solución POS de Defontana
+            - article [ref=e103] [cursor=pointer]:
+              - figure [ref=e104]:
+                - img [ref=e105]
+              - generic [ref=e106]:
+                - heading "Mi Cuenta" [level=3] [ref=e107]
+                - paragraph [ref=e108]: Revisa tus facturas y renueva tu suscripción
+      - article [ref=e109]:
+        - generic [ref=e110]:
+          - heading "Información" [level=2] [ref=e111]
+          - link "Conoce a Defontana Somos una plataforma de soluciones para empresas de todo tipo y tamaño para la gestión. Conócenos aquí." [ref=e113] [cursor=pointer]:
+            - /url: https://www.defontana.com/cl/nosotros
+            - figure [ref=e114]:
+              - img [ref=e115]
+            - heading "Conoce a Defontana" [level=3] [ref=e116]
+            - generic [ref=e117]: Somos una plataforma de soluciones para empresas de todo tipo y tamaño para la gestión. Conócenos aquí.
+          - link "Capacítate Encuentra diversos cursos para seguir capacitándote y crecer profesionalmente. Obtén certificaciones y mucho más." [ref=e119] [cursor=pointer]:
+            - /url: https://academiadigital.defontana.com/
+            - figure [ref=e120]:
+              - img [ref=e121]
+            - heading "Capacítate" [level=3] [ref=e122]
+            - generic [ref=e123]: Encuentra diversos cursos para seguir capacitándote y crecer profesionalmente. Obtén certificaciones y mucho más.
+          - link "Centro de Ayuda Espacio de ayuda para los usuarios de los sistemas Defontana. Revisa artículos de ayuda para el mejor uso del sistema." [ref=e125] [cursor=pointer]:
+            - /url: https://intercom.help/defontanaerp/es/
+            - figure [ref=e126]:
+              - img [ref=e127]
+            - heading "Centro de Ayuda" [level=3] [ref=e128]
+            - generic [ref=e129]: Espacio de ayuda para los usuarios de los sistemas Defontana. Revisa artículos de ayuda para el mejor uso del sistema.

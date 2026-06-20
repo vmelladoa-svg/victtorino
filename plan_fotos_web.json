@@ -1,0 +1,43 @@
+{
+  "seguro": [],
+  "dudoso": [
+    {
+      "woo_id": 1811,
+      "sku": "010302008-T",
+      "name": "Asiento Y Tapa De Wc Blanca Fuscher Cierre Lento",
+      "existentes": [],
+      "score": 0.76,
+      "sku_ok": false,
+      "nums_ok": true,
+      "ml_cuenta": "c1",
+      "ml_id": "MLC563785472",
+      "ml_title": "Asiento Y Tapa Wc De Cierre Lento Blanca Modern Blanco",
+      "ml_fotos": 5,
+      "urls": [
+        "https://http2.mlstatic.com/D_811682-MLC52909124020_122022-O.webp",
+        "https://http2.mlstatic.com/D_920911-MLC108430337777_032026-O.jpg",
+        "https://http2.mlstatic.com/D_646983-MLC44628450705_012021-O.webp",
+        "https://http2.mlstatic.com/D_858691-MLC44628446861_012021-O.jpg",
+        "https://http2.mlstatic.com/D_655141-MLC44628470084_012021-O.jpg"
+      ]
+    },
+    {
+      "woo_id": 1810,
+      "sku": "010302007-T",
+      "name": "Asiento Y Tapa De Wc Blanca Colomba",
+      "existentes": [],
+      "score": 0.73,
+      "sku_ok": false,
+      "nums_ok": true,
+      "ml_cuenta": "c3",
+      "ml_id": "MLC1887301493",
+      "ml_title": "Asiento Con Tapa Wc Eco Ovalada Blanco Blanco",
+      "ml_fotos": 3,
+      "urls": [
+        "https://http2.mlstatic.com/D_824071-MLA108034608650_032026-O.webp",
+        "https://http2.mlstatic.com/D_870287-MLA100078433959_122025-O.jpg",
+        "https://http2.mlstatic.com/D_681128-MLA92705788223_092025-O.webp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+ "creados": [
+  {
+   "src": "MLC589429775",
+   "new": "MLC4079905028",
+   "status": "active",
+   "title": "Válvula De Desvío Diverter De 3 Vías Sal"
+  },
+  {
+   "src": "MLC2051025010",
+   "new": "MLC4080751776",
+   "status": "active",
+   "title": "Porta Papel Higiénico Wc Metalico Redond"
+  },
+  {
+   "src": "MLC1859035587",
+   "new": "MLC4081557162",
+   "status": "active",
+   "title": "Set Accesorios De Baño 6 Piezas  Notte N"
+  },
+  {
+   "src": "MLC1858920385",
+   "new": "MLC4081557164",
+   "status": "active",
+   "title": "Llave De Paso  Para Gas Hi-he-12 2 Vías"
+  }
+ ],
+ "pausados": [
+  "MLC589429775",
+  "MLC2051025010",
+  "MLC1859035587",
+  "MLC1858920385"
+ ],
+ "fallos": [
+  {
+   "src": "MLC3134846774",
+   "pid": "MLC70379086",
+   "code": 400,
+   "err": "{\"cause\": [{\"department\": \"items\", \"cause_id\": 381, \"type\": \"error\", \"code\": \"catalog_product_id.not_active\", \"references\": [\"item.catalog_product_id\"], \"message\": \"Product MLC70379086 is not active\"}], \"message\": \"Valid",
+   "title": "Lavaplatos Empotrado Simple 80x44 Secado"
+  },
+  {
+   "src": "MLC1858804939",
+   "pid": "MLC21941730",
+   "code": 400,
+   "err": "{\"cause\": [{\"department\": \"items\", \"cause_id\": 381, \"type\": \"error\", \"code\": \"catalog_product_id.not_active\", \"references\": [\"item.catalog_product_id\"], \"message\": \"Product MLC21941730 is not active\"}], \"message\": \"Valid",
+   "title": "Monomando Lavaplato  Vertical Colomba Pl"
+  },
+  {
+   "src": "MLC3585590706",
+   "pid": "MLC39197602",
+   "code": 400,
+   "err": "{\"cause\": [{\"department\": \"items\", \"cause_id\": 381, \"type\": \"error\", \"code\": \"catalog_product_id.not_active\", \"references\": [\"item.catalog_product_id\"], \"message\": \"Product MLC39197602 is not active\"}], \"message\": \"Valid",
+   "title": "Válvula De Carga Para Estanque Wc Con Fl"
+  },
+  {
+   "src": "MLC3585481328",
+   "pid": "MLC64533974",
+   "code": 400,
+   "err": "{\"cause\": [{\"department\": \"items\", \"cause_id\": 381, \"type\": \"error\", \"code\": \"catalog_product_id.not_active\", \"references\": [\"item.catalog_product_id\"], \"message\": \"Product MLC64533974 is not active\"}], \"message\": \"Valid",
+   "title": "Monomando Lavatorio Alto Notte Negro Mat"
+  }
+ ]
+}

@@ -50,3 +50,9 @@ nuevo_item.json
 *.html
 *.pdf
 reporte_noche.txt
+
+# Credenciales SMTP — NO commitear
+mail_config.json
+
+# Claude Code permisos personales (acceso servidor)
+.claude/settings.local.json

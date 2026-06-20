@@ -1,0 +1,1529 @@
+<html><head>
+<title>Informe de Artículos</title>
+</head>
+<body id='bodyInforme'>
+<TABLE width='100%' border='0' cellspacing='1' cellpadding='1'>
+<TR>
+<TD width='100%' colspan='8' class='INF'><font style class='INF'><p align='center'>Informe de Artículos</p></font></TD>
+</TR>
+<TR>
+<TD class='HDR' rowspan=2 width='30%'>Artículo - Descripción</TD>
+<TD class='HDR' rowspan=2 width='8%' >Stock Disponible</TD>
+<TD class='HDR' rowspan=2 width='8%'>Costo Vigente $</TD>
+<TD class='HDR' rowspan=2 width='12%' >Costo Reposición $</TD>
+<TD class='HDR' colspan=2 width='10%'><p align='center'>Pendientes recepción</p></TD>
+<TD class='HDR' width='10%'><p align='center'>Pendientes de Entrega</p></TD>
+<TD class='HDR' rowspan=2 width='8%' >Stock Futuro</TD>
+</TR>
+<TR><TD class='HDR' width='12%'>Unidades</TD>
+<TD class='HDR' width='8%'>Fecha</TD>
+<TD class='HDR' width='8%'>Unidades en Pedidos Aprobados</TD>
+</TR>
+<tr><TD class='BOD'>010102001-T-BARRA 135 JABONERA</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>6,778</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>010102002-T-BARRA ABATIBLE WC 78 CM</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>23,802</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>6</TD>
+</TR>
+<tr><TD class='BOD'>010102003-T-BARRA DUCHA DESLIZABLE 65 CM</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>5,803</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>010102004-T-BARRA SEGURIDAD RECTA 30 CM</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>4,252</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>010102005-T-BARRA SEGURIDAD RECTA 40 CM</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>3,754</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>010102006-T-Barra seguridad 60 cm acero inox.</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>5,761</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>010102007-C-BARRA 3 APOYOS 90 MURO SUELO DERECHO</TD>
+<TD class='BOD'>7</TD>
+<TD class='BOD'>15,410</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>7</TD>
+</TR>
+<tr><TD class='BOD'>010102007-T-BARRA 3 APOYOS 90 ESQUINERA</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>13,566</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>010103001-T-BRAZO DUCHA ENTRADA FLEXIBLE 30 CM</TD>
+<TD class='BOD'>12</TD>
+<TD class='BOD'>3,671</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>12</TD>
+</TR>
+<tr><TD class='BOD'>010103002-T-BRAZO DUCHA AL MURO 30 CM</TD>
+<TD class='BOD'>24</TD>
+<TD class='BOD'>1,749</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>18-05-2026</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>29</TD>
+</TR>
+<tr><TD class='BOD'>010103003-T-BRAZO DUCHA AL MURO 40 CM</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>1,929</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>010104001-T-PLATO DUCHA CUADRADO ACERO 25 CM</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>6,093</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>8</TD>
+<TD class='BOD'>18-05-2026</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>14</TD>
+</TR>
+<tr><TD class='BOD'>010104002-T-PLATO DUCHA REDONDO ABS 20 CM</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>2,671</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>010104003-T-PLATO DUCHA REDONDO ACERO 20 CM</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>6,083</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>010105001-T-Brazo de Ducha Fija Con Difusor Al Muro Abs Cromado</TD>
+<TD class='BOD'>7</TD>
+<TD class='BOD'>948</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>7</TD>
+</TR>
+<tr><TD class='BOD'>010201001-T-LAVATORIO CRISTAL SOBREPUESTO 415X415 MM</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>14,598</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>010204002-T-DESAGUE LAVATORIO 1 1/4 CLICK CLACK</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>5,028</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>010204004-T-DESAGUE LAVATORIO 1 1/4</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>100</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010205002-T-SIFON LAVATORIO 1 1/4 ELEGANTE METALICO</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>6,081</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>010205004-T-SIFON LAVATORIO 1 1/2 1 1/4 CODO PLASTICO</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>1,521</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010301001-T-KIT ANCLAJE WC</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>727</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010301002-T-KIT FIJACIONES ESTANQUE WC</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>928</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010301003-T-KIT WC ANCLAJE ANTIFUGA ADMISION</TD>
+<TD class='BOD'>7</TD>
+<TD class='BOD'>3,880</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>7</TD>
+</TR>
+<tr><TD class='BOD'>010301004-T-KIT ESTANQUE WC</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>5,459</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>010301009-T-VALVULA DESCARGA WC FLAPPER</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>2,179</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>010301010-T-VALVULA CARGA WC FLOTADOR</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>2,239</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010301011-T-VALVULA DESCARGA DUAL FLUSH ESTANQUE TRADICIONAL</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>4,357</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010301015-T-VALVULA DE CARGA LATERAL</TD>
+<TD class='BOD'>10</TD>
+<TD class='BOD'>1,876</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>10</TD>
+</TR>
+<tr><TD class='BOD'>010302009-T-Asiento Tapa WC Modern</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>5,666</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010403001-T-SIFON URINARIO 1 1/4 METALICO</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>6,911</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>010501022-T-SHOWER DOOR 80X80X195 CUADRADO TRANSPARENTE</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>80,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>010502005-T-MAMPARA DUCHA 120-140X190 CM</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>93,036</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>010503001-T-RUEDAS SHOWER DOOR 2 CARROS DOBLES INFERIOR</TD>
+<TD class='BOD'>15</TD>
+<TD class='BOD'>1,571</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>15</TD>
+</TR>
+<tr><TD class='BOD'>010503002-T-RUEDAS SHOWER DOOR 2 CARROS DOBLES SUPERIOR</TD>
+<TD class='BOD'>24</TD>
+<TD class='BOD'>1,571</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>24</TD>
+</TR>
+<tr><TD class='BOD'>010602001-T-DESAGUE TINA 1 1/2 REBALSE PLASTICO</TD>
+<TD class='BOD'>14</TD>
+<TD class='BOD'>2,241</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>14</TD>
+</TR>
+<tr><TD class='BOD'>010602002-T-DESAGUE TINA 1 1/2 METALICO</TD>
+<TD class='BOD'>13</TD>
+<TD class='BOD'>3,114</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>13</TD>
+</TR>
+<tr><TD class='BOD'>010602003-T-SIFON TINA 1 1/2 PLASTICO</TD>
+<TD class='BOD'>16</TD>
+<TD class='BOD'>895</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>16</TD>
+</TR>
+<tr><TD class='BOD'>010603003-T-RECEPTACULO DUCHA 70X70 CM</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>17,092</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>010603004-T-RECEPTACULO DUCHA 80X80 CM</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>23,601</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>010604003-T-Desague Sifon Receptaculo 90 mm</TD>
+<TD class='BOD'>9</TD>
+<TD class='BOD'>2,712</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>9</TD>
+</TR>
+<tr><TD class='BOD'>010701001-T-DISPENSADOR DE PALANCA</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>21,861</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>010701007-T-DISPENSADOR JABON INOX 800 ML</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>7,473</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>6</TD>
+</TR>
+<tr><TD class='BOD'>010701008-T-DISPENSADOR JABON LAVAPLATOS CUERPO METALICO</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>6,789</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>010701010-T-DISPENSADOR JABON SIMPLE 500 ML</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>1,993</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>010701011-T-DISPENSADOR JABON SIMPLE MEJORADO 360 ML</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>2,328</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010701012-T-PORTAPAPEL HIGIENICO INDUSTRIAL ACERO</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>12,681</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>010701013-T-PORTAPAPEL HIGIENICO INDUSTRIAL PLASTICO</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>5,829</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010702001-T-PAPELERO PEDAL 3 L</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>2,860</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>010702003-T-PAPELERO PEDAL 12 L</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>7,123</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010703002-T-ESPEJO 45X60 RECTANGULAR LED</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>16,934</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>6</TD>
+</TR>
+<tr><TD class='BOD'>010703004-T-ESPEJO 50X70 RECTANGULAR LED</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>21,620</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>010703007-T-ESPEJO 60X90 RECTANGULAR BORDE AZUL</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>18,671</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010703008-T-ESPEJO 60X90 RECTANGULAR ONDAS</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>12,628</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>010703011-T-ESPEJO DOBLE AL MURO</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>6,686</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>18-05-2026</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>11</TD>
+</TR>
+<tr><TD class='BOD'>010703012-T-Espejo Redondo Doble Cara Con Aumento X3 Pedestal</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>4,526</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>010703013-T-ESPEJO 70X100 CM, 3 LUCES LED DISTINTAS</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>20,507</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>010704002-T-JABONERA COLOMBA</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>1,642</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>010704012-T-SET ACCESORIOS BAÑO COLOMBA 6 PIEZAS</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>7,476</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>010704015-T-SET ACCESORIOS DE BAÑOS NOTTE (6 PIEZAS)</TD>
+<TD class='BOD'>7</TD>
+<TD class='BOD'>9,949</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>7</TD>
+</TR>
+<tr><TD class='BOD'>010704016-T-MONOMANDO TINA DUCHA NOTTE</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>14,475</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>010704017-T-MONOMANDO DUCHA NOTTE</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>10,367</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>010704018-T-JABONERA BOTELLA LINEA SCHWARZ</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>3,206</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>010801004-T-KIT DUCHA BIDET ARABE</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>8,448</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>020100402-T-JUEGO DUCHA CONSTER</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>3,574</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>020100702-T-SET DUCHA NEUE FREIBURG</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>3,551</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>020101001-T-LAVAPLATOS SIMPLE EMPOTRADO 100X44 CM SECADOR DERECHO</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>13,427</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>020101002-C-Lavaplatos empotrado 37x32 Chocolate</TD>
+<TD class='BOD'>13</TD>
+<TD class='BOD'>5,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>13</TD>
+</TR>
+<tr><TD class='BOD'>020101002-T-LAVAPLATOS SIMPLE EMPOTRADO 100X44 CM SECADOR IZQUIERDO</TD>
+<TD class='BOD'>10</TD>
+<TD class='BOD'>13,219</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>10</TD>
+</TR>
+<tr><TD class='BOD'>020101003-T-LAVAPLATOS SIMPLE EMPOTRADO 80X44 CM SECADOR DERECHO</TD>
+<TD class='BOD'>23</TD>
+<TD class='BOD'>11,559</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>23</TD>
+</TR>
+<tr><TD class='BOD'>020101004-T-LAVAPLATOS SIMPLE EMPOTRADO 80X44 CM SECADOR IZQUIERDO</TD>
+<TD class='BOD'>10</TD>
+<TD class='BOD'>11,559</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>10</TD>
+<TD class='BOD'>18-05-2026</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>20</TD>
+</TR>
+<tr><TD class='BOD'>020101005-T-LAVAPLATOS SIMPLE EMPOTRADO 686X456 MM HAMBURG</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>37,409</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>020101010-T-LAVAPLATOS DOBLE EMPOTRADO 120X44 CM SECADOR DERECHO</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>26,751</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>020101011-T-LAVAPLATOS DOBLE EMPOTRADO 120X44 CM SECADOR IZQUIERDO</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>26,751</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>020102001-T-LAVAPLATOS SIMPLE SOBREPUESTO 80X50 CM SECADOR DERECHO</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>10,770</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>18-05-2026</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>9</TD>
+</TR>
+<tr><TD class='BOD'>020102002-T-LAVAPLATOS SIMPLE SOBREPUESTO 80X50 CM SECADOR IZQUIERDO</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>10,770</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>18-05-2026</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>10</TD>
+</TR>
+<tr><TD class='BOD'>020102008-W-WC</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>30,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>020103001-T-Lavacopas bajo cubierta 43x38</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>13,881</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>020103005-T-LAVACOPA NOTTE</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>4,387</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>020103006-T-LLAVE LAVACOPAS INOX</TD>
+<TD class='BOD'>13</TD>
+<TD class='BOD'>4,192</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>13</TD>
+</TR>
+<tr><TD class='BOD'>020201001-T-CODO LAVAPLATOS SALIDA SIFON</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>392</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>020201003-T-BANDEJA LAVAPLATOS HANNOVER</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>11,194</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>020201005-T-BANDEJA-CANASTO ESQUINERO</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>5,319</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>020202008-T-DESAGUE LAVAPLATOS 3 1/2 REBALSE</TD>
+<TD class='BOD'>33</TD>
+<TD class='BOD'>1,740</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>33</TD>
+</TR>
+<tr><TD class='BOD'>020203001-T-Sifon Lavaplatos 1 1/2 Tubo Plastico</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>1,447</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>020203004-T-SIFON ECON. LAVATORIO 1. 1/4</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>2,745</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>6</TD>
+</TR>
+<tr><TD class='BOD'>020300201-T-COLGADOR SWERTT</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>613</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>020301001-T-LLAVE LAVADERO CON FLANGE HE HE 1/2 3/4</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>7,054</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>6</TD>
+</TR>
+<tr><TD class='BOD'>030101002-T-FLEXIBLE AGUA HE HI 1/2 LLAVE ANGULAR 35 CM</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>2,492</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>030101004-T-FLEXIBLE AGUA HE HI M10 1/2 35 CM</TD>
+<TD class='BOD'>12</TD>
+<TD class='BOD'>815</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>12</TD>
+</TR>
+<tr><TD class='BOD'>030101008-T-MANGUERA ENTRADA AGUA LAVADORAS</TD>
+<TD class='BOD'>28</TD>
+<TD class='BOD'>1,144</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>28</TD>
+</TR>
+<tr><TD class='BOD'>030101009-T-FLEXIBLE DUCHA SPIEGEL 185 CM</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>1,463</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>030102001-K-PAPEL HIGENICO INDUSTRIAL 216 MT</TD>
+<TD class='BOD'>10</TD>
+<TD class='BOD'>500</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>10</TD>
+</TR>
+<tr><TD class='BOD'>030102002-T-FLEXIBLE GAS HI HI 3/8 1/2 100 CM</TD>
+<TD class='BOD'>12</TD>
+<TD class='BOD'>3,347</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>12</TD>
+</TR>
+<tr><TD class='BOD'>030102003-K-TOALLA INTERFOLEADA 200 UND POR PAQUETE</TD>
+<TD class='BOD'>256</TD>
+<TD class='BOD'>1,160</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>256</TD>
+</TR>
+<tr><TD class='BOD'>030102003-T-FLEXIBLE GAS HI HI 3/8 1/2 60 CM</TD>
+<TD class='BOD'>33</TD>
+<TD class='BOD'>2,222</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>33</TD>
+</TR>
+<tr><TD class='BOD'>030102004-K-PACK 6 PAPEL HIGIENICO</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>5,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>030102004-T-LLAVE PASO GAS HI HE 1/2</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>1,964</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>03012053-T-FLEXIBLE GAS HI-HI 1/2 40 CM</TD>
+<TD class='BOD'>7</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>7</TD>
+</TR>
+<tr><TD class='BOD'>030400201-T-Toallero Aro Swertt</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>2,140</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>6</TD>
+</TR>
+<tr><TD class='BOD'>030800200-T-Porta Toalla Muro Chico</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>10,428</TD>
+<TD class='BOD' >10,428</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>031200500-T-BARRA 135 JABONERA</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>031500100-T-Dispensador Jabon al muro 500</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>5,157</TD>
+<TD class='BOD' >5,157</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>040101001-C-VALVULA DESVIO DIVERTER 3 VIAS 1/2 3/8</TD>
+<TD class='BOD'>267</TD>
+<TD class='BOD'>7,767</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>267</TD>
+</TR>
+<tr><TD class='BOD'>040201001-T-LLAVE MONOMANDO LAVAPLATOS VERTICAL CUELLO FLEXIBLE NEGRO</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>12,170</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>040201006-T-LLAVE MONOMANDO LAVAPLATOS VERTICAL COLOMBA</TD>
+<TD class='BOD'>11</TD>
+<TD class='BOD'>6,008</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>11</TD>
+</TR>
+<tr><TD class='BOD'>040201007-T-LLAVE MONOMANDO LAVAPLATOS VERTICAL DOMENICA</TD>
+<TD class='BOD'>15</TD>
+<TD class='BOD'>9,125</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>15</TD>
+</TR>
+<tr><TD class='BOD'>040201008-T-LLAVE MONOMANDO LAVAPLATOS VERTICAL INOX</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>11,001</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>040201009-T-LLAVE MONOMANDO LAVAPLATOS VERTICAL NOTTE NEGRO</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>10,566</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>6</TD>
+</TR>
+<tr><TD class='BOD'>040201012-T-COMBINACIÓN LPLATO EN V VANDER MUY MEJOR</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>7,102</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>040202001-T-LLAVE MONOMANDO LAVATORIO NOTTE NEGRO</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>11,670</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>040202002-T-LLAVE MONOMANDO LAVATORIO ALTO NOTTE NEGRO</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>15,098</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>040202003-T-LLAVE MONOMANDO LAVATORIO ALTO MODERN PALETA INOX</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>13,169</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>040202004-T-LLAVE MONOMANDO LAVATORIO ALTO MODERN PITUTO CROMADO</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>14,616</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>040202005-T-LLAVE MONOMANDO LAVATORIO COLOMBA</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>5,489</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>040202006-T-LLAVE MONOMANDO LAVATORIO DOMENICA</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>8,033</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>040202007-T-LLAVE MONOMANDO LAVATORIO MODERN PALETA INOX</TD>
+<TD class='BOD'>8</TD>
+<TD class='BOD'>9,449</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>8</TD>
+</TR>
+<tr><TD class='BOD'>040202008-T-LLAVE MONOMANDO LAVATORIO MODERN PITUTO CROMADO</TD>
+<TD class='BOD'>8</TD>
+<TD class='BOD'>11,291</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>8</TD>
+</TR>
+<tr><TD class='BOD'>040203001-T-LLAVE MONOMANDO DUCHA AL MURO NOTTE NEGRO</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>10,633</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>040203004-T-LLAVE MONOMANDO DUCHA DOMENICA</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>10,519</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>040203005-T-LLAVE MONOMANDO DUCHA EMPOTRADA DUSSELDORF</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>10,568</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>040203007-T-LLAVE MONOMANDO DUCHA COLOMBA</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>8,611</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>040203017-C-LLAVE MONOMANDO LAVATORIO ALTO MODERN PITUTO CROMADO</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>10,133</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>040204002-T-LLAVE MONOMANDO TINA DUCHA DOMENICA</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>14,754</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>040204003-T-LLAVE MONOMANDO TINA DUCHA COLOMBA</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>11,060</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>6</TD>
+</TR>
+<tr><TD class='BOD'>040301001-T-LLAVE TEMPORIZADA LAVATORIO GORDA MEDIANA</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>9,962</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>040301002-T-LLAVE TEMPORIZADA LAVATORIO AL MURO</TD>
+<TD class='BOD'>11</TD>
+<TD class='BOD'>8,888</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>10</TD>
+<TD class='BOD'>18-05-2026</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>21</TD>
+</TR>
+<tr><TD class='BOD'>040301003-T-LLAVE TEMPORIZADA LAVATORIO PUNTA CUADRADA CILINDRICA</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>9,207</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>040302001-T-VALVULA DESCARGA TEMPORIZADA URINARIO</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>7,543</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>040303003-T-FLUXOMETRO PALANCA POSTERIOR 1</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>40,362</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>6</TD>
+</TR>
+<tr><TD class='BOD'>040303004-T-FLUXOMETRO PALANCA SUPERIOR 1</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>44,554</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>040501002-T-CUELLO CISNE</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>9,268</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>040501005-T-FLEXIBLE LLAVE PROFESIONAL</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>1,813</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>040501006-T-Valvula Pedal Simple</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>10,650</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>041006002-T-Desague Automatico Lavatorio Comun</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>3,827</TD>
+<TD class='BOD' >3,827</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>041910301-T-Desague al Piso Invisible 30x10</TD>
+<TD class='BOD'>5</TD>
+<TD class='BOD'>5,905</TD>
+<TD class='BOD' >5,905</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>5</TD>
+</TR>
+<tr><TD class='BOD'>050433422-T-Flexible HI-HE 1/2 35 cm</TD>
+<TD class='BOD'>10</TD>
+<TD class='BOD'>1,025</TD>
+<TD class='BOD' >1,025</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>10</TD>
+</TR>
+<tr><TD class='BOD'>050433621-T-Flexible HI-HE 1/2 50 cms</TD>
+<TD class='BOD'>10</TD>
+<TD class='BOD'>1,174</TD>
+<TD class='BOD' >1</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>10</TD>
+</TR>
+<tr><TD class='BOD'>1-REPUESTO</TD>
+<TD class='BOD'>36</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>36</TD>
+</TR>
+<tr><TD class='BOD'>100501025-T-Base curva 80x80</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>15,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>100501026-T-Base curva 90x90</TD>
+<TD class='BOD'>4</TD>
+<TD class='BOD'>25,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>4</TD>
+</TR>
+<tr><TD class='BOD'>100501027-T-Base curva 80x120 Der.</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>35,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>6</TD>
+</TR>
+<tr><TD class='BOD'>100501028-T-Base curva 80x120 Izq.</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>35,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>210000990-T-Asiento WC Eco</TD>
+<TD class='BOD'>11</TD>
+<TD class='BOD'>2,007</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>18-05-2026</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>17</TD>
+</TR>
+<tr><TD class='BOD'>915100105-Rejilla Lavaplatos Agustina</TD>
+<TD class='BOD'>50</TD>
+<TD class='BOD'>3,490</TD>
+<TD class='BOD' >1,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>50</TD>
+</TR>
+<tr><TD class='BOD'>915100108-Rejilla Lavaplatos Giacommo</TD>
+<TD class='BOD'>60</TD>
+<TD class='BOD'>2,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>60</TD>
+</TR>
+<tr><TD class='BOD'>915100109-Rejilla Michele</TD>
+<TD class='BOD'>315</TD>
+<TD class='BOD'>2,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>315</TD>
+</TR>
+<tr><TD class='BOD'>915100110-Canastillo Pascal</TD>
+<TD class='BOD'>76</TD>
+<TD class='BOD'>4,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>76</TD>
+</TR>
+<tr><TD class='BOD'>915100111-Rejilla Lavaplatos Fabricio</TD>
+<TD class='BOD'>86</TD>
+<TD class='BOD'>3,490</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>86</TD>
+</TR>
+<tr><TD class='BOD'>915100123-Pack Plato Ducha Modern Cuadrado + Brazo Metalico al muro 30 cms</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>7,765</TD>
+<TD class='BOD' >7,765</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>915100128-Lavaplatos empotrado ancho Hamburgo</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>32,273</TD>
+<TD class='BOD' >35,273</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>915100130-Asiento WC Colomba</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>3,128</TD>
+<TD class='BOD' >3,128</TD>
+<TD class='BOD'>6</TD>
+<TD class='BOD'>18-05-2026</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>12</TD>
+</TR>
+<tr><TD class='BOD'>915100131-Niple Tuerca Hi-He 1/2 x 3/8 Golilla</TD>
+<TD class='BOD'>10</TD>
+<TD class='BOD'>459</TD>
+<TD class='BOD' >459</TD>
+<TD class='BOD'>10</TD>
+<TD class='BOD'>18-05-2026</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>20</TD>
+</TR>
+<tr><TD class='BOD'>915100132-Campana para llave angular WC 1/2</TD>
+<TD class='BOD'>20</TD>
+<TD class='BOD'>353</TD>
+<TD class='BOD' >353</TD>
+<TD class='BOD'>20</TD>
+<TD class='BOD'>18-05-2026</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>40</TD>
+</TR>
+<tr><TD class='BOD'>915100136-Lavaplatos Satriani Plateado Doble</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>18,000</TD>
+<TD class='BOD' >36,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>915100137-Lavaplatos Satriani Riñon</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>20,000</TD>
+<TD class='BOD' >40,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>915100138-Lavaplatos Satriani 50x40 Doble</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>12,000</TD>
+<TD class='BOD' >24,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>TZ-2003-Llave Satriani Lavamanos cromo</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>6,500</TD>
+<TD class='BOD' >6,500</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>TZ-2004-Llave Satriani Lavamanos negra</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>6,500</TD>
+<TD class='BOD' >6,500</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>TZ-2005-Llave Satriani Lavaplato Cromo</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>8,000</TD>
+<TD class='BOD' >8,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>TZ-2006-Llave Satriani Lavaplato Negra</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>8,000</TD>
+<TD class='BOD' >0</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>TZ-3001-Llave Vanitorio Alta Cromo</TD>
+<TD class='BOD'>2</TD>
+<TD class='BOD'>13,000</TD>
+<TD class='BOD' >13,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>2</TD>
+</TR>
+<tr><TD class='BOD'>TZ-3002-Llave Satriani Vanitorio Alta Negro</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>13,000</TD>
+<TD class='BOD' >13,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>TZ-3004-Llave Satriani Lavaplato Plana Negro</TD>
+<TD class='BOD'>3</TD>
+<TD class='BOD'>13,000</TD>
+<TD class='BOD' >13,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>3</TD>
+</TR>
+<tr><TD class='BOD'>TZ-3431-Lavamanos Invitados Blanco</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>20,000</TD>
+<TD class='BOD' >20,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>TZ-5059-Lavamanos Marmol Blanco</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>30,000</TD>
+<TD class='BOD' >30,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>TZ-5060-Lavamanos Marmol Gris</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>30,000</TD>
+<TD class='BOD' >30,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+<tr><TD class='BOD'>TZ-5061-Lavamanos Marmol Onyx</TD>
+<TD class='BOD'>1</TD>
+<TD class='BOD'>30,000</TD>
+<TD class='BOD' >30,000</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>&nbsp;</TD>
+<TD class='BOD'>0</TD>
+<TD class='BOD'>1</TD>
+</TR>
+</TABLE>
+
+</body>
+</html>
+	

@@ -1,0 +1,60 @@
+=== ITEM PILOTO ===
+ID: MLC1823734923
+Title: Lavaplatos Simple 100x44 Secador Izquierdo Acero Inoxidable Plateado
+Category: MLC454694
+Price: $43,575
+Stock: 19
+Listing type: gold_pro
+Status: active
+Catalog listing: False
+Family name: Lavaplatos Simple 100x44 Secador Izquierdo Acero Inoxidable
+Permalink: https://articulo.mercadolibre.cl/MLC-1823734923-lavaplatos-simple-100x44-secador-izquierdo-acero-inoxidable-plateado-_JM
+Fotos: 5
+
+=== ATRIBUTOS ===
+  BRAND                       : Täumm
+  COLOR                       : Plateado
+  DEPTH                       : 20 cm
+  FINISH                      : Cepillado
+  GTIN                        : 659576865423
+  ITEM_CONDITION              : Nuevo
+  KITCHEN_SINKS_TYPE          : Simple
+  LENGTH                      : 100 cm
+  LINE                        : Empotrado
+  MANUFACTURER                : Genérica
+  MATERIAL                    : Acero inoxidable
+  MODEL                       : 100X44
+  PRODUCT_DATA_SOURCE         : Importado
+  SELLER_PACKAGE_HEIGHT       : 103 cm
+  SELLER_PACKAGE_LENGTH       : 17 cm
+  SELLER_PACKAGE_WEIGHT       : 3116 g
+  SELLER_PACKAGE_WIDTH        : 43 cm
+  SELLER_SKU                  : 020101002-T
+  THICKNESS                   : 0.5 mm
+  WIDTH                       : 44 cm
+
+=== DESCRIPCIÓN ===
+Lavaplatos de 100x44 cm fabricado en acero inoxidable de alta calidad, resistente a la corrosión y de fácil mantenimiento. 
+Cuenta con un amplio pocillo que facilita el lavado de ollas, bandejas y utensilios de gran tamaño. Incorpora secador lateral izquierdo, ideal para escurrir la loza y mantener un área de trabajo ordenada y funcional. 
+
+Su diseño moderno y práctico lo hace perfecto para cocinas domésticas, combinando durabilidad, comodidad y eficiencia en el uso diario.
+
+=== SHIPPING ===
+{
+  "mode": "me2",
+  "methods": [],
+  "tags": [
+    "self_service_in",
+    "mandatory_free_shipping"
+  ],
+  "dimensions": null,
+  "local_pick_up": true,
+  "free_shipping": true,
+  "logistic_type": "xd_drop_off",
+  "store_pick_up": false
+}
+
+=== FOTOS URLs (primeras 3) ===
+  http://http2.mlstatic.com/D_953301-MLC104682530809_012026-O.webp
+  http://http2.mlstatic.com/D_891029-MLC104682530807_012026-O.webp
+  http://http2.mlstatic.com/D_907989-MLC104682530813_012026-O.webp

@@ -1,0 +1,171 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e8]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: "#/Home"
+            - img [ref=e12]
+          - img "menu.svg" [ref=e14] [cursor=pointer]
+          - generic [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]: Trade Global Solutions SPA
+            - img [ref=e52]: arrow_drop_down
+          - generic [ref=e24]:
+            - separator [ref=e25]
+            - generic [ref=e27] [cursor=pointer]:
+              - img "User" [ref=e29]
+              - generic [ref=e31]:
+                - generic [ref=e53]: Victor
+                - img [ref=e32]: arrow_drop_down
+      - generic [ref=e33]:
+        - iframe [active] [ref=e68]:
+          - generic [ref=f31e1]:
+            - main [ref=f31e4]:
+              - generic [ref=f31e5]:
+                - generic [ref=f31e6]:
+                  - navigation [ref=f31e149]:
+                    - list [ref=f31e8]:
+                      - listitem [ref=f31e9]:
+                        - generic [ref=f31e10]: Ventas
+                      - listitem [ref=f31e11]: /
+                      - listitem [ref=f31e12]:
+                        - paragraph [ref=f31e13]: Lista de precios
+                  - heading [level=2] [ref=f31e150]: Lista de precios
+                  - generic [ref=f31e16]:
+                    - generic [ref=f31e19]:
+                      - generic: Código o descripción
+                      - generic [ref=f31e20]:
+                        - textbox [ref=f31e151]
+                        - img [ref=f31e22]
+                        - group:
+                          - generic: Código o descripción
+                    - generic [ref=f31e24]:
+                      - button [ref=f31e152] [cursor=pointer]:
+                        - generic [ref=f31e26]:
+                          - img [ref=f31e153]
+                          - text: Aprende a usar
+                      - button [ref=f31e154] [cursor=pointer]:
+                        - generic [ref=f31e29]: Nuevo
+                - generic [ref=f31e33]:
+                  - generic [ref=f31e156]: Listado
+                  - table [ref=f31e40]:
+                    - rowgroup [ref=f31e157]:
+                      - row [ref=f31e158]:
+                        - columnheader [ref=f31e159]:
+                          - button [ref=f31e160]: Código
+                        - columnheader [ref=f31e161]:
+                          - button [ref=f31e162]: Descripción
+                        - columnheader [ref=f31e163]
+                    - rowgroup [ref=f31e48]:
+                      - row [ref=f31e164]:
+                        - cell [ref=f31e165]: "1"
+                        - cell [ref=f31e166]: Base
+                        - cell [ref=f31e52]:
+                          - button [ref=f31e54] [cursor=pointer]:
+                            - img [ref=f31e55]
+                      - row [ref=f31e167]:
+                        - cell [ref=f31e168]: "2"
+                        - cell [ref=f31e169]: Mercado Libre
+                        - cell [ref=f31e60]:
+                          - button [ref=f31e62] [cursor=pointer]:
+                            - img [ref=f31e63]
+                      - row [ref=f31e170]:
+                        - cell [ref=f31e171]: "3"
+                        - cell [ref=f31e172]: Falabella
+                        - cell [ref=f31e68]:
+                          - button [ref=f31e70] [cursor=pointer]:
+                            - img [ref=f31e71]
+                      - row [ref=f31e173]:
+                        - cell [ref=f31e174]: "4"
+                        - cell [ref=f31e175]: Tienda Física
+                        - cell [ref=f31e76]:
+                          - button [ref=f31e78] [cursor=pointer]:
+                            - img [ref=f31e79]
+                      - row [ref=f31e176]:
+                        - cell [ref=f31e177]: "5"
+                        - cell [ref=f31e178]: Paris Walmart
+                        - cell [ref=f31e84]:
+                          - button [ref=f31e86] [cursor=pointer]:
+                            - img [ref=f31e87]
+                  - table [ref=f31e89]:
+                    - rowgroup [ref=f31e90]:
+                      - row [ref=f31e179]:
+                        - cell [ref=f31e180]:
+                          - generic [ref=f31e93]:
+                            - generic [ref=f31e94]:
+                              - button [ref=f31e181] [cursor=pointer]:
+                                - generic [ref=f31e96]: "5"
+                              - textbox: "5"
+                              - img
+                            - generic [ref=f31e182]:
+                              - generic [ref=f31e183]:
+                                - button [disabled]:
+                                  - img
+                              - generic [ref=f31e184]:
+                                - button [disabled]:
+                                  - img
+                              - generic [ref=f31e185]: 1-5 de 7
+                              - button [ref=f31e187] [cursor=pointer]:
+                                - img [ref=f31e188]
+                              - button [ref=f31e191] [cursor=pointer]:
+                                - img [ref=f31e192]
+            - dialog [ref=f31e196]:
+              - generic [ref=f31e197]:
+                - generic [ref=f31e198]: Importar precios
+                - generic [ref=f31e199]:
+                  - generic [ref=f31e200]:
+                    - generic [ref=f31e202]:
+                      - img [ref=f31e204]:
+                        - generic [ref=f31e206]: "1"
+                      - generic [ref=f31e208]: Importar
+                    - generic [ref=f31e212]:
+                      - img [ref=f31e214]:
+                        - generic [ref=f31e216]: "2"
+                      - generic [ref=f31e218]: Finalizar
+                  - generic [ref=f31e221]:
+                    - link "Descargar formato" [active] [ref=f31e223] [cursor=pointer]:
+                      - /url: ./Ejemplo_Importador_Precios.xlsx
+                    - generic [ref=f31e224]:
+                      - heading "Arrastre el archivo .XLSX que desea subir" [level=6] [ref=f31e225]
+                      - generic [ref=f31e226]: O
+                      - button "Buscar archivos" [ref=f31e227] [cursor=pointer]:
+                        - generic [ref=f31e228]: Buscar archivos
+                - generic [ref=f31e232]:
+                  - button "Cancelar" [ref=f31e233] [cursor=pointer]:
+                    - generic [ref=f31e234]: Cancelar
+                  - button "Leer fichero" [disabled]:
+                    - generic: Leer fichero
+        - iframe [ref=e60]:
+          - generic [ref=f27e3]:
+            - generic [ref=f27e9]:
+              - generic [ref=f27e10]:
+                - generic [ref=f27e11]:
+                  - generic [ref=f27e12]:
+                    - img "menu" [ref=f27e13] [cursor=pointer]
+                    - generic:
+                      - list:
+                        - listitem:
+                          - generic: Historial
+                          - img "chat-message.svg"
+                  - generic [ref=f27e16]:
+                    - img "Minimizar" [ref=f27e17] [cursor=pointer]
+                    - img "Cerrar" [ref=f27e18] [cursor=pointer]
+                - generic [ref=f27e19]:
+                  - generic [ref=f27e21]: ¡Hola Victor! Soy Ana, tu asistente virtual
+                  - generic [ref=f27e22]: ¿Cómo te puedo ayudar hoy?
+              - generic [ref=f27e23]:
+                - generic [ref=f27e25]:
+                  - generic [ref=f27e27] [cursor=pointer]: ¿Cómo cargo folios o CAF en el sistema?
+                  - generic [ref=f27e29] [cursor=pointer]: ¿Cómo reenvío documentos al SII?
+                  - generic [ref=f27e31] [cursor=pointer]: ¿Cómo reviso las inconsistencias de inventario?
+                  - generic [ref=f27e33] [cursor=pointer]: ¿Cómo facturo en el ERP?
+                - generic [ref=f27e36]:
+                  - textbox "Haz una pregunta" [ref=f27e37]
+                  - generic:
+                    - img
+            - generic:
+              - list
+    - generic:
+      - list
+  - iframe [ref=e61]:
+    

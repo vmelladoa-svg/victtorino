@@ -1,0 +1,426 @@
+[
+  {
+    "id": 1810,
+    "name": "Asiento Y Tapa De Wc Blanca Colomba",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 93,
+    "imgs": 0
+  },
+  {
+    "id": 1089,
+    "name": "Valvula Descarga Wc Flapper",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 1088,
+    "name": "Válvula De Carga Wc Con Flotador",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 29,
+    "imgs": 2
+  },
+  {
+    "id": 1086,
+    "name": "Válvula Carga Silenciosa Simple Wc",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 29,
+    "imgs": 2
+  },
+  {
+    "id": 1081,
+    "name": "Sifón Lavamanos 1 1/4 Codo Plástico",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 30,
+    "imgs": 2
+  },
+  {
+    "id": 1054,
+    "name": "Sifón De Lavamanos 1 1/4 Con Codo Plástico En Caja",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 29,
+    "imgs": 2
+  },
+  {
+    "id": 1053,
+    "name": "Sifón De Lavamanos 1 1/2 x 1 1/4 Con Codo Plástico",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 32,
+    "imgs": 2
+  },
+  {
+    "id": 1049,
+    "name": "Set Accesorios De Baños Notte (6 Piezas)",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 31,
+    "imgs": 2
+  },
+  {
+    "id": 1022,
+    "name": "Sello Antifuga - Mirage",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 1019,
+    "name": "Portavaso Inoxidable",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 26,
+    "imgs": 2
+  },
+  {
+    "id": 985,
+    "name": "Porta Toalla Repisa 60 cm Al Muro",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 31,
+    "imgs": 2
+  },
+  {
+    "id": 984,
+    "name": "Porta Rollo Linea Schwarz",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 983,
+    "name": "Porta Rollo Inoxidable",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 982,
+    "name": "Plato Ducha Redondo Abs 20 cm",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 30,
+    "imgs": 2
+  },
+  {
+    "id": 944,
+    "name": "Papelero Pedal 8 L",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 918,
+    "name": "Papelero Pedal 5 L",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 917,
+    "name": "Papelero Pedal 3 L",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 915,
+    "name": "Papelero Pedal 12 L",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 911,
+    "name": "Monomando Lavamanos Domenica",
+    "cat": "Griferia",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 910,
+    "name": "Monomando Lavamanos Alto Modern Pituto Cromado",
+    "cat": "Griferia",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 871,
+    "name": "Llave Monomando Lavamanos Notte Negro",
+    "cat": "Griferia",
+    "focus": "",
+    "palabras": 29,
+    "imgs": 2
+  },
+  {
+    "id": 870,
+    "name": "Llave Monomando Lavamanos Modern Pituto Cromado",
+    "cat": "Griferia",
+    "focus": "",
+    "palabras": 30,
+    "imgs": 2
+  },
+  {
+    "id": 869,
+    "name": "Llave Monomando Lavamanos Modern Paleta Inoxidable",
+    "cat": "Griferia",
+    "focus": "",
+    "palabras": 30,
+    "imgs": 2
+  },
+  {
+    "id": 868,
+    "name": "Llave Monomando Lavamanos Colomba",
+    "cat": "Griferia",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 798,
+    "name": "Llave Lavadero Con Flange He He 1/2 3/4",
+    "cat": "Griferia",
+    "focus": "",
+    "palabras": 32,
+    "imgs": 2
+  },
+  {
+    "id": 797,
+    "name": "Llave De Paso Para Gas Hi-He 1/2",
+    "cat": "Griferia",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 708,
+    "name": "Kit Wc De Anclaje Antifuga Con Admisión",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 706,
+    "name": "Kit Ducha Bidet Árabe",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 705,
+    "name": "Jabonera Inoxidable",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 26,
+    "imgs": 2
+  },
+  {
+    "id": 704,
+    "name": "Jabonera Botella Linea Schwarz",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 703,
+    "name": "Fluxómetro De Palanca Con Llave De Corte S",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 701,
+    "name": "Flexible Para Llave Profesional",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 700,
+    "name": "Flexible Ducha Swertt 160 cm",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 29,
+    "imgs": 2
+  },
+  {
+    "id": 672,
+    "name": "Flexible De Gas Hi-Hi 3/8 x 1/2 De 60 cm",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 670,
+    "name": "Flexible De Ducha Extensible",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 81,
+    "imgs": 2
+  },
+  {
+    "id": 669,
+    "name": "Flexible De Agua He-Hi 1/2 Con Llave Angular 35 cm",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 635,
+    "name": "Espejo Circular 60 cm Led Triple  Borde Metal",
+    "cat": "Espejos",
+    "focus": "",
+    "palabras": 31,
+    "imgs": 2
+  },
+  {
+    "id": 599,
+    "name": "Dispensador De Jabón Simple Mejorado 360 ml",
+    "cat": "Dispensador",
+    "focus": "",
+    "palabras": 31,
+    "imgs": 2
+  },
+  {
+    "id": 576,
+    "name": "Desagüe Para Tina Con Tubo Y Campana De Rebalse 1 1/2",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 30,
+    "imgs": 2
+  },
+  {
+    "id": 575,
+    "name": "Desague Tina 1 1/2 Metalico",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 29,
+    "imgs": 1
+  },
+  {
+    "id": 574,
+    "name": "Desagüe Para Receptáculo Con Tapón De Goma 1 1/2",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 571,
+    "name": "Desagüe Click Clack Metal Con Rebalse 1 1/4 Para Lavamanos",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 31,
+    "imgs": 2
+  },
+  {
+    "id": 570,
+    "name": "Desagüe Click Clack Metal 1 1/4 Cromado Lavamanos",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 30,
+    "imgs": 2
+  },
+  {
+    "id": 567,
+    "name": "Desagüe Con Sifón Corrugado",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 28,
+    "imgs": 2
+  },
+  {
+    "id": 566,
+    "name": "Combinación Lavaplato En V Vander",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 29,
+    "imgs": 1
+  },
+  {
+    "id": 562,
+    "name": "Collarin Goma Wc",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 561,
+    "name": "Codo Para Lavaplatos Con Salida A Sifón",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 558,
+    "name": "Brazo Ducha Al Muro 40 cm",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 30,
+    "imgs": 2
+  },
+  {
+    "id": 557,
+    "name": "Brazo Ducha Al Muro 30 cm",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 30,
+    "imgs": 2
+  },
+  {
+    "id": 555,
+    "name": "Botonera Dual Flush",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 27,
+    "imgs": 2
+  },
+  {
+    "id": 553,
+    "name": "Barra De Seguridad Recta 40 cm",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 65,
+    "imgs": 2
+  },
+  {
+    "id": 550,
+    "name": "Barra De Seguridad 135° Con Jabonera",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 69,
+    "imgs": 2
+  },
+  {
+    "id": 547,
+    "name": "Acople Lavaplatos Dobles",
+    "cat": "Accesorios",
+    "focus": "",
+    "palabras": 68,
+    "imgs": 2
+  }
+]

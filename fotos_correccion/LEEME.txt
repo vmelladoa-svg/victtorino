@@ -1,0 +1,11 @@
+COMO CARGAR FOTOS DE REEMPLAZO
+==============================
+1. Crea una subcarpeta con el SKU_Seller del producto. Ej:
+      fotos_correccion/020102001-T1/
+2. Pon dentro las fotos correctas (jpg o png, cualquier tamaño).
+3. Avisa a Claude: "ya cargue fotos en fotos_correccion".
+
+Claude las normaliza a 1080x1080 fondo blanco y reemplaza las
+fotos equivocadas en falabella_fotos_listo/<SKU>/, y regenera el Excel.
+
+Si quieres SUMAR (no reemplazar), dilo. Por defecto REEMPLAZA.

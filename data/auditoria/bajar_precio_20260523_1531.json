@@ -1,0 +1,58 @@
+[
+  {
+    "item": "MLC2276284008",
+    "cuenta": "C3",
+    "status": "OK",
+    "pre_price": 47884,
+    "post_price": 43000,
+    "delta_pct": -10.2
+  },
+  {
+    "item": "MLC3903951470",
+    "cuenta": "C1",
+    "status": "OK",
+    "pre_price": 147269,
+    "post_price": 132000,
+    "delta_pct": -10.37
+  },
+  {
+    "item": "MLC2713884324",
+    "cuenta": "C3",
+    "status": "OK",
+    "pre_price": 198990,
+    "post_price": 179000,
+    "delta_pct": -10.05
+  },
+  {
+    "item": "MLC3738773726",
+    "cuenta": "C2",
+    "status": "OK",
+    "pre_price": 59990,
+    "post_price": 54000,
+    "delta_pct": -9.98
+  },
+  {
+    "item": "MLC2998555490",
+    "cuenta": "C3",
+    "status": "OK",
+    "pre_price": 187690,
+    "post_price": 169000,
+    "delta_pct": -9.96
+  },
+  {
+    "item": "MLC1893675967",
+    "cuenta": "C3",
+    "status": "OK",
+    "pre_price": 84624,
+    "post_price": 76000,
+    "delta_pct": -10.19
+  },
+  {
+    "item": "MLC1629289257",
+    "cuenta": "C1",
+    "status": "OK",
+    "pre_price": 1193,
+    "post_price": 1100,
+    "delta_pct": -7.8
+  }
+]

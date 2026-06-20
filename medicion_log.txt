@@ -1,0 +1,30 @@
+======================================================================
+Re-medicion de salud — 2026-06-17 09:17
+======================================================================
+
+[1/2] Tomando snapshot fresco de la API ML (puede tardar 1-2 min)...
+    OK
+
+[2/2] Comparando contra baseline...
+
+Baseline: 2026-05-18
+Hoy:      2026-06-17
+
+Cuenta                         Health calc     Health ML    Críticas
+                               antes → hoy   antes → hoy  antes → hoy
+---------------------------------------------------------------------------
+C1 PREMIUMGRIFERIAS1       58.7→0.0 (-58.7)  0.83→0.00 (-0.83)  60→0 (-60)
+C2 VICTTORINOOFICIAL2      58.6→58.4 (-0.2)  0.85→0.83 (-0.02)  50→32 (-18)
+C3 NOVAGRIFERIAS3          64.8→64.5 (-0.3)  0.82→0.82 (+0.00)  53→47 (-6)
+
+TOTAL: health calc 60.7 → 62.0  |  criticas 163 → 79
+
+Cuenta                        Órdenes 180d           GMV 180d    Visitas 30d
+--------------------------------------------------------------------------------
+C1 PREMIUMGRIFERIAS1       205→0 (-205)        $            0              0
+C2 VICTTORINOOFICIAL2      308→319 (+11)        $   10,430,570              0
+C3 NOVAGRIFERIAS3          310→391 (+81)        $   13,672,223              0
+--------------------------------------------------------------------------------
+TOTAL                      823→710 (-113)        $ 25,436,377→$24,102,793              0
+
+Guardado en: C:\Users\dell\victtorino\medicion_health_2026-06-17.json

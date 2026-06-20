@@ -1,0 +1,450 @@
+[
+  {
+    "token": "C1",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"Operator User is not authorized to access the advertiser\",\"error\":\"Unauthorized\",\"status\":401}",
+    "label": "PUT list"
+  },
+  {
+    "token": "C1",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"Operator User is not authorized to access the advertiser\",\"error\":\"Unauthorized\",\"status\":401}",
+    "label": "PUT single"
+  },
+  {
+    "token": "C1",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"Operator User is not authorized to access the advertiser\",\"error\":\"Unauthorized\",\"status\":401}",
+    "label": "PUT wrapped"
+  },
+  {
+    "token": "C1",
+    "method": "POST",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "POST list"
+  },
+  {
+    "token": "C1",
+    "method": "PATCH",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PATCH list"
+  },
+  {
+    "token": "C1",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /items/{id}"
+  },
+  {
+    "token": "C1",
+    "method": "PATCH",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PATCH /items/{id}"
+  },
+  {
+    "token": "C1",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/campaigns/357141159/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /campaigns/{cid}/items list"
+  },
+  {
+    "token": "C1",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/campaigns/357141159/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /campaigns/{cid}/items/{id}"
+  },
+  {
+    "token": "C1",
+    "method": "POST",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/status",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "POST /items/status"
+  },
+  {
+    "token": "C1",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/status",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /items/status"
+  },
+  {
+    "token": "C1",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /advertisers/{aid}/items (sin product_ads)"
+  },
+  {
+    "token": "C1",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/ads/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /ads/... (sin /advertising)"
+  },
+  {
+    "token": "C1",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/product_ads/items/MLC3779856474",
+    "status": 401,
+    "body_snippet": "{\"message\":\"User does not have permission to write.\",\"error\":\"com.mercadolibre.ads_search_pads_core.api.exceptions.UnauthorizedException\",\"status\":401}",
+    "label": "PUT /advertising/product_ads/items/{id}"
+  },
+  {
+    "token": "C2",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"Operator User is not authorized to access the advertiser\",\"error\":\"Unauthorized\",\"status\":401}",
+    "label": "PUT list"
+  },
+  {
+    "token": "C2",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"Operator User is not authorized to access the advertiser\",\"error\":\"Unauthorized\",\"status\":401}",
+    "label": "PUT single"
+  },
+  {
+    "token": "C2",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"Operator User is not authorized to access the advertiser\",\"error\":\"Unauthorized\",\"status\":401}",
+    "label": "PUT wrapped"
+  },
+  {
+    "token": "C2",
+    "method": "POST",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "POST list"
+  },
+  {
+    "token": "C2",
+    "method": "PATCH",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PATCH list"
+  },
+  {
+    "token": "C2",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /items/{id}"
+  },
+  {
+    "token": "C2",
+    "method": "PATCH",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PATCH /items/{id}"
+  },
+  {
+    "token": "C2",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/campaigns/357141159/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /campaigns/{cid}/items list"
+  },
+  {
+    "token": "C2",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/campaigns/357141159/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /campaigns/{cid}/items/{id}"
+  },
+  {
+    "token": "C2",
+    "method": "POST",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/status",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "POST /items/status"
+  },
+  {
+    "token": "C2",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/status",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /items/status"
+  },
+  {
+    "token": "C2",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /advertisers/{aid}/items (sin product_ads)"
+  },
+  {
+    "token": "C2",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/ads/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /ads/... (sin /advertising)"
+  },
+  {
+    "token": "C2",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/product_ads/items/MLC3779856474",
+    "status": 401,
+    "body_snippet": "{\"message\":\"User does not have permission to write.\",\"error\":\"com.mercadolibre.ads_search_pads_core.api.exceptions.UnauthorizedException\",\"status\":401}",
+    "label": "PUT /advertising/product_ads/items/{id}"
+  },
+  {
+    "token": "C3",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"User does not have permission to write.\",\"error\":\"com.mercadolibre.ads_search_pads_core.api.exceptions.UnauthorizedException\",\"status\":401}",
+    "label": "PUT list"
+  },
+  {
+    "token": "C3",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"User does not have permission to write.\",\"error\":\"com.mercadolibre.ads_search_pads_core.api.exceptions.UnauthorizedException\",\"status\":401}",
+    "label": "PUT single"
+  },
+  {
+    "token": "C3",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"User does not have permission to write.\",\"error\":\"com.mercadolibre.ads_search_pads_core.api.exceptions.UnauthorizedException\",\"status\":401}",
+    "label": "PUT wrapped"
+  },
+  {
+    "token": "C3",
+    "method": "POST",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "POST list"
+  },
+  {
+    "token": "C3",
+    "method": "PATCH",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PATCH list"
+  },
+  {
+    "token": "C3",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /items/{id}"
+  },
+  {
+    "token": "C3",
+    "method": "PATCH",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PATCH /items/{id}"
+  },
+  {
+    "token": "C3",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/campaigns/357141159/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /campaigns/{cid}/items list"
+  },
+  {
+    "token": "C3",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/campaigns/357141159/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /campaigns/{cid}/items/{id}"
+  },
+  {
+    "token": "C3",
+    "method": "POST",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/status",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "POST /items/status"
+  },
+  {
+    "token": "C3",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/status",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /items/status"
+  },
+  {
+    "token": "C3",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /advertisers/{aid}/items (sin product_ads)"
+  },
+  {
+    "token": "C3",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/ads/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /ads/... (sin /advertising)"
+  },
+  {
+    "token": "C3",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/product_ads/items/MLC3779856474",
+    "status": 401,
+    "body_snippet": "{\"message\":\"User does not have permission to write.\",\"error\":\"com.mercadolibre.ads_search_pads_core.api.exceptions.UnauthorizedException\",\"status\":401}",
+    "label": "PUT /advertising/product_ads/items/{id}"
+  },
+  {
+    "token": "JOSE",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"User does not have permission to write.\",\"error\":\"com.mercadolibre.ads_search_pads_core.api.exceptions.UnauthorizedException\",\"status\":401}",
+    "label": "PUT list"
+  },
+  {
+    "token": "JOSE",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"User does not have permission to write.\",\"error\":\"com.mercadolibre.ads_search_pads_core.api.exceptions.UnauthorizedException\",\"status\":401}",
+    "label": "PUT single"
+  },
+  {
+    "token": "JOSE",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 401,
+    "body_snippet": "{\"message\":\"User does not have permission to write.\",\"error\":\"com.mercadolibre.ads_search_pads_core.api.exceptions.UnauthorizedException\",\"status\":401}",
+    "label": "PUT wrapped"
+  },
+  {
+    "token": "JOSE",
+    "method": "POST",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "POST list"
+  },
+  {
+    "token": "JOSE",
+    "method": "PATCH",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PATCH list"
+  },
+  {
+    "token": "JOSE",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /items/{id}"
+  },
+  {
+    "token": "JOSE",
+    "method": "PATCH",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PATCH /items/{id}"
+  },
+  {
+    "token": "JOSE",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/campaigns/357141159/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /campaigns/{cid}/items list"
+  },
+  {
+    "token": "JOSE",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/campaigns/357141159/items/MLC3779856474",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /campaigns/{cid}/items/{id}"
+  },
+  {
+    "token": "JOSE",
+    "method": "POST",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/status",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "POST /items/status"
+  },
+  {
+    "token": "JOSE",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/product_ads/items/status",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /items/status"
+  },
+  {
+    "token": "JOSE",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/advertisers/79197/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /advertisers/{aid}/items (sin product_ads)"
+  },
+  {
+    "token": "JOSE",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/ads/advertisers/79197/product_ads/items",
+    "status": 404,
+    "body_snippet": "{\"error\": \"resource not found\", \"message\":\"Si quieres conocer los recursos de la API que se encuentran disponibles visita el Sitio de Desarrolladores de MercadoLibre (http://developers.mercadolibre.com)\"}",
+    "label": "PUT /ads/... (sin /advertising)"
+  },
+  {
+    "token": "JOSE",
+    "method": "PUT",
+    "url": "https://api.mercadolibre.com/advertising/product_ads/items/MLC3779856474",
+    "status": 401,
+    "body_snippet": "{\"message\":\"User does not have permission to write.\",\"error\":\"com.mercadolibre.ads_search_pads_core.api.exceptions.UnauthorizedException\",\"status\":401}",
+    "label": "PUT /advertising/product_ads/items/{id}"
+  }
+]

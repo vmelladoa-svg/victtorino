@@ -1,0 +1,14 @@
+/node_modules
+/.next
+/out
+/build
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
+.DS_Store
+
+# Caches y tokens de enriquecimiento ML (snapshots locales / secretos)
+.c*-attrs.json
+.c*-refresh.txt
+
+.vercel

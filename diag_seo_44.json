@@ -1,0 +1,47 @@
+[
+  {
+    "pid": 2746,
+    "name": "Shower Door Receptaculo 90x90 Curvo Transparente Negro",
+    "palabras": 279,
+    "fk": "mampara ducha",
+    "fk_count": 3,
+    "h2_fk": "SI",
+    "meta_fk": "SI"
+  },
+  {
+    "pid": 2868,
+    "name": "Valvula Electronica Urinario Descarga Sensor",
+    "palabras": 273,
+    "fk": "",
+    "fk_count": 0,
+    "h2_fk": "no",
+    "meta_fk": "no"
+  },
+  {
+    "pid": 2947,
+    "name": "Pack Lavaplatos 80x44 Sec Der + Rejilla + Llave Colomba Plateado",
+    "palabras": 283,
+    "fk": "",
+    "fk_count": 0,
+    "h2_fk": "no",
+    "meta_fk": "no"
+  },
+  {
+    "pid": 2963,
+    "name": "Lavaplatos Empotrados Simple 80x44 Inox Derecho 198432513 Color Plateado",
+    "palabras": 281,
+    "fk": "",
+    "fk_count": 0,
+    "h2_fk": "no",
+    "meta_fk": "no"
+  },
+  {
+    "pid": 2975,
+    "name": "Pack Lavaplato 80x44 Izquierdo Empotrado+llave+sifon+desague Color Plateado",
+    "palabras": 279,
+    "fk": "lavaplatos cocina",
+    "fk_count": 5,
+    "h2_fk": "SI",
+    "meta_fk": "SI"
+  }
+]

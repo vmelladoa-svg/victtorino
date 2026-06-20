@@ -1,0 +1,174 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: Maestro de Artículos
+    - generic [ref=e7]:
+      - button "Exportar a excel" [ref=e8] [cursor=pointer]:
+        - generic [ref=e9]:
+          - text: Exportar a excel
+          - img [ref=e10]: file_download
+      - button "Aprende a usar icono" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]:
+          - text: Aprende a usar
+          - img "icono" [ref=e13]
+      - button "Importador Simple" [ref=e14] [cursor=pointer]: Importador Simple
+      - button "Nuevo" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]:
+          - text: Nuevo
+          - img [ref=e17]: arrow_drop_down
+  - generic [ref=e18]:
+    - generic [ref=e19] [cursor=pointer]:
+      - img [ref=e21]
+      - generic [ref=e22]:
+        - text: Clientes que más vendes
+        - generic [ref=e23]:
+          - generic [ref=e24]: Conoce cuales son los clientes más fieles en los últimos 30 días
+          - img [ref=e25]: arrow_forward
+    - generic [ref=e26] [cursor=pointer]:
+      - img [ref=e28]
+      - generic [ref=e29]:
+        - text: Artículos más vendidos
+        - generic [ref=e30]:
+          - generic [ref=e31]: Conoce cuales son los artículos más vendidos en los últimos 30 días
+          - img [ref=e32]: arrow_forward
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - textbox "Article" [ref=e39]:
+          - /placeholder: Introduce la descripción del artículo
+        - generic:
+          - generic: Buscar código o descripción
+      - img [ref=e41]: search
+    - generic [ref=e42]:
+      - generic [ref=e46] [cursor=pointer]:
+        - listbox "Categorías" [ref=e47]
+        - generic:
+          - generic: Categorías
+      - generic [ref=e53]:
+        - generic [ref=e54] [cursor=pointer]:
+          - text: Árbol de categorías (
+          - generic [ref=e55]: "11"
+          - text: )
+        - img [ref=e56] [cursor=pointer]: close
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]: Con Stock
+        - switch [checked] [ref=e64]
+      - generic [ref=e67]:
+        - generic [ref=e68]: Activo
+        - switch [checked] [ref=e72]
+      - generic [ref=e75]:
+        - generic [ref=e76]: Disponible Venta
+        - switch [checked] [ref=e80]
+  - generic [ref=e83]:
+    - generic [ref=e84]:
+      - generic [ref=e85]: Resultados
+      - button "Limpiar" [ref=e86] [cursor=pointer]:
+        - generic [ref=e87]:
+          - img [ref=e88]: refresh
+          - text: Limpiar
+      - button "Categorias" [ref=e89] [cursor=pointer]:
+        - generic [ref=e90]:
+          - img [ref=e91]: file_download
+          - text: Categorias
+    - grid [ref=e92]:
+      - rowgroup [ref=e93]:
+        - row "Código Descripción Categoría Stock Disponible Precio Venta Activo Disponible para la Venta" [ref=e94]:
+          - columnheader "Código" [ref=e95]
+          - columnheader "Descripción" [ref=e96]
+          - columnheader "Categoría" [ref=e97]
+          - columnheader "Stock Disponible" [ref=e98]
+          - columnheader "Precio Venta" [ref=e99]
+          - columnheader "Activo" [ref=e100]
+          - columnheader "Disponible para la Venta" [ref=e101]
+          - columnheader [ref=e102]
+      - rowgroup [ref=e148]:
+        - row "010102003-T BARRA DUCHA DESLIZABLE 65 CM BAÑO 5 12920" [ref=e149]:
+          - gridcell "010102003-T" [ref=e150]
+          - gridcell "BARRA DUCHA DESLIZABLE 65 CM" [ref=e151]
+          - gridcell "BAÑO" [ref=e152]:
+            - generic [ref=e153]:
+              - generic [ref=e154]: BAÑO
+              - img [ref=e156] [cursor=pointer]
+          - gridcell "5" [ref=e157]
+          - gridcell "12920" [ref=e158]
+          - gridcell [ref=e159]:
+            - img [ref=e160]: check_circle_outline
+          - gridcell [ref=e161]:
+            - img [ref=e162]: check_circle_outline
+          - gridcell [ref=e163]:
+            - img [ref=e165] [cursor=pointer]: more_vert
+        - row "010102004-T BARRA SEGURIDAD RECTA 30 CM BAÑO 3 15990" [ref=e166]:
+          - gridcell "010102004-T" [ref=e167]
+          - gridcell "BARRA SEGURIDAD RECTA 30 CM" [ref=e168]
+          - gridcell "BAÑO" [ref=e169]:
+            - generic [ref=e170]:
+              - generic [ref=e171]: BAÑO
+              - img [ref=e173] [cursor=pointer]
+          - gridcell "3" [ref=e174]
+          - gridcell "15990" [ref=e175]
+          - gridcell [ref=e176]:
+            - img [ref=e177]: check_circle_outline
+          - gridcell [ref=e178]:
+            - img [ref=e179]: check_circle_outline
+          - gridcell [ref=e180]:
+            - img [ref=e182] [cursor=pointer]: more_vert
+        - row "010102005-T BARRA SEGURIDAD RECTA 40 CM BAÑO 2 9285" [ref=e183]:
+          - gridcell "010102005-T" [ref=e184]
+          - gridcell "BARRA SEGURIDAD RECTA 40 CM" [ref=e185]
+          - gridcell "BAÑO" [ref=e186]:
+            - generic [ref=e187]:
+              - generic [ref=e188]: BAÑO
+              - img [ref=e190] [cursor=pointer]
+          - gridcell "2" [ref=e191]
+          - gridcell "9285" [ref=e192]
+          - gridcell [ref=e193]:
+            - img [ref=e194]: check_circle_outline
+          - gridcell [ref=e195]:
+            - img [ref=e196]: check_circle_outline
+          - gridcell [ref=e197]:
+            - img [ref=e199] [cursor=pointer]: more_vert
+        - row "010102006-T Barra seguridad 60 cm acero inox. BAÑO 4 69990" [ref=e200]:
+          - gridcell "010102006-T" [ref=e201]
+          - gridcell "Barra seguridad 60 cm acero inox." [ref=e202]
+          - gridcell "BAÑO" [ref=e203]:
+            - generic [ref=e204]:
+              - generic [ref=e205]: BAÑO
+              - img [ref=e207] [cursor=pointer]
+          - gridcell "4" [ref=e208]
+          - gridcell "69990" [ref=e209]
+          - gridcell [ref=e210]:
+            - img [ref=e211]: check_circle_outline
+          - gridcell [ref=e212]:
+            - img [ref=e213]: check_circle_outline
+          - gridcell [ref=e214]:
+            - img [ref=e216] [cursor=pointer]: more_vert
+        - row "010102007-T BARRA 3 APOYOS 90 ESQUINERA BAÑO 2 30388" [ref=e217]:
+          - gridcell "010102007-T" [ref=e218]
+          - gridcell "BARRA 3 APOYOS 90 ESQUINERA" [ref=e219]
+          - gridcell "BAÑO" [ref=e220]:
+            - generic [ref=e221]:
+              - generic [ref=e222]: BAÑO
+              - img [ref=e224] [cursor=pointer]
+          - gridcell "2" [ref=e225]
+          - gridcell "30388" [ref=e226]
+          - gridcell [ref=e227]:
+            - img [ref=e228]: check_circle_outline
+          - gridcell [ref=e229]:
+            - img [ref=e230]: check_circle_outline
+          - gridcell [ref=e231]:
+            - img [ref=e233] [cursor=pointer]: more_vert
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]: "Mostrar:"
+        - listbox "Mostrar:" [ref=e119] [cursor=pointer]:
+          - generic [ref=e122]: "5"
+      - generic [ref=e125]:
+        - generic [ref=e126]: 1 - 5 de 149
+        - button "Inicio" [disabled] [ref=e127]:
+          - img [ref=e129]
+        - button "Anterior" [disabled] [ref=e131]:
+          - img [ref=e133]
+        - button "Siguiente" [ref=e135] [cursor=pointer]:
+          - img [ref=e137]
+        - button "Fin" [ref=e139] [cursor=pointer]:
+          - img [ref=e141]

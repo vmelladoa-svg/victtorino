@@ -1,0 +1,190 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - img [ref=e10] [cursor=pointer]
+            - link "Falabella Seller Center" [ref=e12] [cursor=pointer]:
+              - /url: /
+              - img "Falabella Seller Center" [ref=e13]
+          - generic [ref=e14]:
+            - generic [ref=e16]: Trade Global
+            - button [ref=e18] [cursor=pointer]:
+              - img [ref=e19]
+      - complementary:
+        - navigation:
+          - generic [ref=e24]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e29]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e34]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e43]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e45]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e47]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e50]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e58]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e65]:
+            - button:
+              - generic:
+                - img
+  - main [ref=e69]:
+    - generic [ref=e71]:
+      - heading "Promociones" [level=1] [ref=e72]
+      - generic [ref=e93]:
+        - navigation [ref=e94]:
+          - link "Promociones" [ref=e95] [cursor=pointer]:
+            - /url: /retail-services/vas/promotions
+          - link "Mis promociones" [ref=e96] [cursor=pointer]:
+            - /url: /retail-services/vas/promotions/my-promotions
+        - list [ref=e97]:
+          - listitem [ref=e98]:
+            - link "Promociones" [ref=e99] [cursor=pointer]:
+              - /url: /retail-services/vas/promotions
+            - text: ">"
+          - listitem [ref=e100]:
+            - link "Mis promociones" [ref=e101] [cursor=pointer]:
+              - /url: /retail-services/vas/promotions/my-promotions
+        - generic [ref=e102]:
+          - heading "Envíos gratis" [level=2]
+          - generic [ref=e103]:
+            - status [ref=e104]: Activa
+            - generic [ref=e105] [cursor=pointer]:
+              - img [ref=e106]
+              - generic [ref=e108]: Gestionar promoción
+          - generic [ref=e110]:
+            - term [ref=e111]: "Duración:"
+            - definition [ref=e112]: Personalizada
+        - generic [ref=e113] [cursor=pointer]:
+          - img [ref=e114]
+          - generic [ref=e117]: Revisar Métricas de Promociones
+        - textbox "Buscar por producto o SKU" [ref=e118]
+        - table [ref=e119]:
+          - rowgroup [ref=e120]:
+            - row "Producto Categoría Precio" [ref=e121]:
+              - columnheader "Producto" [ref=e122]
+              - columnheader "Categoría" [ref=e123]
+              - columnheader "Precio" [ref=e124]
+          - rowgroup [ref=e125]:
+            - 'row "ESPEJO 60X90 RECTANGULAR ONDAS SKU: 146228456 - EAS: - - 47.178 CLP" [ref=e126]':
+              - 'cell "ESPEJO 60X90 RECTANGULAR ONDAS SKU: 146228456 - EAS: -" [ref=e127]':
+                - generic [ref=e129]:
+                  - img [ref=e130]
+                  - generic [ref=e132]:
+                    - emphasis [ref=e133]: ESPEJO 60X90 RECTANGULAR ONDAS
+                    - paragraph [ref=e134]: "SKU: 146228456 - EAS: -"
+              - cell "-" [ref=e135]
+              - cell "47.178 CLP" [ref=e136]
+            - 'row "MAMPARA DUCHA 120-140X190 CM SKU: 146186953 - EAS: - - 299.754 CLP" [ref=e137]':
+              - 'cell "MAMPARA DUCHA 120-140X190 CM SKU: 146186953 - EAS: -" [ref=e138]':
+                - generic [ref=e140]:
+                  - img [ref=e141]
+                  - generic [ref=e143]:
+                    - emphasis [ref=e144]: MAMPARA DUCHA 120-140X190 CM
+                    - paragraph [ref=e145]: "SKU: 146186953 - EAS: -"
+              - cell "-" [ref=e146]
+              - cell "299.754 CLP" [ref=e147]
+            - 'row "ESPEJO 45X60 RECTANGULAR LED SKU: 146226149 - EAS: - - 56.648 CLP" [ref=e148]':
+              - 'cell "ESPEJO 45X60 RECTANGULAR LED SKU: 146226149 - EAS: -" [ref=e149]':
+                - generic [ref=e151]:
+                  - img [ref=e152]
+                  - generic [ref=e154]:
+                    - emphasis [ref=e155]: ESPEJO 45X60 RECTANGULAR LED
+                    - paragraph [ref=e156]: "SKU: 146226149 - EAS: -"
+              - cell "-" [ref=e157]
+              - cell "56.648 CLP" [ref=e158]
+            - 'row "Monomando Lavaplatos Vertical Notte SKU: 143984301 - EAS: - - 38.970 CLP" [ref=e159]':
+              - 'cell "Monomando Lavaplatos Vertical Notte SKU: 143984301 - EAS: -" [ref=e160]':
+                - generic [ref=e162]:
+                  - img [ref=e163]
+                  - generic [ref=e165]:
+                    - emphasis [ref=e166]: Monomando Lavaplatos Vertical Notte
+                    - paragraph [ref=e167]: "SKU: 143984301 - EAS: -"
+              - cell "-" [ref=e168]
+              - cell "38.970 CLP" [ref=e169]
+            - 'row "Lavaplatos Simple Secador Izquierdo 100x44cm SKU: 142964976 - EAS: - - 43.258 CLP" [ref=e170]':
+              - 'cell "Lavaplatos Simple Secador Izquierdo 100x44cm SKU: 142964976 - EAS: -" [ref=e171]':
+                - generic [ref=e173]:
+                  - img [ref=e174]
+                  - generic [ref=e176]:
+                    - emphasis [ref=e177]: Lavaplatos Simple Secador Izquierdo 100x44cm
+                    - paragraph [ref=e178]: "SKU: 142964976 - EAS: -"
+              - cell "-" [ref=e179]
+              - cell "43.258 CLP" [ref=e180]
+            - 'row "Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple SKU: 142969895 - EAS: - - 43.258 CLP" [ref=e181]':
+              - 'cell "Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple SKU: 142969895 - EAS: -" [ref=e182]':
+                - generic [ref=e184]:
+                  - img [ref=e185]
+                  - generic [ref=e187]:
+                    - emphasis [ref=e188]: Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple
+                    - paragraph [ref=e189]: "SKU: 142969895 - EAS: -"
+              - cell "-" [ref=e190]
+              - cell "43.258 CLP" [ref=e191]
+            - 'row "Lavaplato empotrado de 37x32 SKU: 151966702 - EAS: - - 17.720 CLP" [ref=e192]':
+              - 'cell "Lavaplato empotrado de 37x32 SKU: 151966702 - EAS: -" [ref=e193]':
+                - generic [ref=e195]:
+                  - img [ref=e196]
+                  - generic [ref=e198]:
+                    - emphasis [ref=e199]: Lavaplato empotrado de 37x32
+                    - paragraph [ref=e200]: "SKU: 151966702 - EAS: -"
+              - cell "-" [ref=e201]
+              - cell "17.720 CLP" [ref=e202]
+            - 'row "Lavaplatos Empotrado Simple 80x44 Inoxidable Izquierdo SKU: 143984145 - EAS: - - 39.410 CLP" [ref=e203]':
+              - 'cell "Lavaplatos Empotrado Simple 80x44 Inoxidable Izquierdo SKU: 143984145 - EAS: -" [ref=e204]':
+                - generic [ref=e206]:
+                  - img [ref=e207]
+                  - generic [ref=e209]:
+                    - emphasis [ref=e210]: Lavaplatos Empotrado Simple 80x44 Inoxidable Izquierdo
+                    - paragraph [ref=e211]: "SKU: 143984145 - EAS: -"
+              - cell "-" [ref=e212]
+              - cell "39.410 CLP" [ref=e213]
+            - 'row "Lavaplatos Derecho Empotrado Simple 80x44 cm SKU: 142971502 - EAS: - - 39.410 CLP" [ref=e214]':
+              - 'cell "Lavaplatos Derecho Empotrado Simple 80x44 cm SKU: 142971502 - EAS: -" [ref=e215]':
+                - generic [ref=e217]:
+                  - img [ref=e218]
+                  - generic [ref=e220]:
+                    - emphasis [ref=e221]: Lavaplatos Derecho Empotrado Simple 80x44 cm
+                    - paragraph [ref=e222]: "SKU: 142971502 - EAS: -"
+              - cell "-" [ref=e223]
+              - cell "39.410 CLP" [ref=e224]
+        - generic [ref=e225]:
+          - list [ref=e226]:
+            - generic [ref=e227]: "Páginas:"
+            - listitem [ref=e228]:
+              - generic [ref=e229] [cursor=pointer]: "1"
+          - generic [ref=e230]:
+            - generic [ref=e231]: "Ítems por página:"
+            - generic [ref=e233] [cursor=pointer]: "10"
+  - contentinfo [ref=e75]:
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - img [ref=e81]
+        - button "Califica esta página" [ref=e83] [cursor=pointer]
+      - generic [ref=e84]:
+        - generic [ref=e85]: Idioma
+        - generic [ref=e87] [cursor=pointer]:
+          - generic [ref=e88]: Español
+          - img [ref=e90]
+  - alert [ref=e92]

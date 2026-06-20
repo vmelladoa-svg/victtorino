@@ -1,0 +1,229 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "5" [ref=e127] [cursor=pointer]:
+        - /url: /fplus
+        - button "5" [ref=e129]:
+          - img [ref=e131]
+          - img [ref=e133]
+          - generic [ref=e135]: "5"
+      - generic [ref=e6] [cursor=pointer]: 
+      - generic [ref=e9]: Trade Global
+      - generic [ref=e12]:
+        - link:
+          - /url: https://fpay.cl/comercios/cuenta/login
+        - link "logo.png" [ref=e13] [cursor=pointer]:
+          - /url: https://sellercenter.falabella.com
+          - img "logo.png" [ref=e14]
+      - generic:
+        - navigation:
+          - navigation:
+            - button [ref=e15] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - list [ref=e19]:
+                    - listitem [ref=e20]:
+                      - link "Tú" [ref=e21] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e23]: Tú
+                  - list [ref=e24]:
+                    - listitem [ref=e25]:
+                      - link "Productos" [ref=e26] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e27]:
+                          - text: Productos
+                          - img [ref=e28]
+                    - listitem [ref=e29]:
+                      - link "Órdenes" [ref=e30] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e31]:
+                          - text: Órdenes
+                          - img [ref=e32]
+                    - listitem [ref=e33]:
+                      - link "Pagos" [ref=e34] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e35]:
+                          - text: Pagos
+                          - img [ref=e36]
+                    - listitem [ref=e37]:
+                      - link "Informes y estadísticas" [ref=e38] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e39]:
+                          - text: Informes y estadísticas
+                          - img [ref=e40]
+                    - listitem [ref=e41]:
+                      - link "Crecimiento" [ref=e42] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e43]:
+                          - text: Crecimiento
+                          - img [ref=e44]
+                    - listitem [ref=e45]:
+                      - link "Mi cuenta" [ref=e46] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e47]:
+                          - text: Mi cuenta
+                          - img [ref=e48]
+                    - listitem [ref=e49]:
+                      - link "Fulfillment" [ref=e50] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e51]:
+                          - text: Fulfillment
+                          - img [ref=e52]
+                    - listitem [ref=e53]:
+                      - link "Ayuda" [ref=e54] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e55]:
+                          - text: Ayuda
+                          - img [ref=e56]
+  - generic [ref=e57]:
+    - heading "Carga Masiva" [level=1] [ref=e58]
+    - generic [ref=e59]:
+      - generic [ref=e60]: 
+      - link "Califica esta página" [ref=e61] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=e63]: Tenemos una nueva plantilla de carga masiva. Sí tienes una versión antigua, asegúrate de descargar y completar la actualizada.
+  - generic [ref=e65]:
+    - generic [ref=e67]:
+      - heading "1. Descarga la plantilla" [level=2] [ref=e68]
+      - link "" [ref=e69] [cursor=pointer]:
+        - /url: /product/import/step-one
+        - generic [ref=e70]: 
+    - generic [ref=e71]:
+      - heading "2. Sube el archivo" [level=2] [ref=e72]
+      - link "" [ref=e73] [cursor=pointer]:
+        - /url: /product/import/step-two
+        - generic [ref=e74]: 
+    - generic [ref=e75]:
+      - heading "3. Revisa los resultados" [level=2] [ref=e76]
+      - link "" [ref=e77] [cursor=pointer]:
+        - /url: /product/import/step-three
+        - generic [ref=e78]: 
+  - grid [ref=e80]:
+    - generic [ref=e81]:
+      - heading "Historial de carga" [level=1] [ref=e84]
+      - generic [ref=e88] [cursor=pointer]:
+        - generic [ref=e89]: "Buscar:"
+        - textbox "Buscar:" [ref=e90]:
+          - /placeholder: Usuario, archivo, acción
+    - table [ref=e95]:
+      - rowgroup [ref=e96]:
+        - 'row "Estado Product details Total : activate to sort column ascending Usuario Creado : activate to sort column ascending Nombre de Archivo Tipo" [ref=e97]':
+          - columnheader "Estado" [ref=e98]
+          - columnheader "Product details" [ref=e99]
+          - 'columnheader "Total : activate to sort column ascending" [ref=e100] [cursor=pointer]': Total
+          - columnheader "Usuario" [ref=e102]
+          - 'columnheader "Creado : activate to sort column ascending" [ref=e103] [cursor=pointer]': Creado
+          - columnheader "Nombre de Archivo" [ref=e105]
+          - columnheader "Tipo" [ref=e106]: Tipo
+      - alert [ref=e136]:
+        - 'row "Feed ID: 93794545-b379-43e0-a7c5-58bb4b5ceab3 359 Products Trade Global 14 Jun 2026 02:18 SellerPriceTemplate_UPLOAD.xlsx ProductUpdate" [ref=e137]':
+          - cell [ref=e138]
+          - 'cell "Feed ID: 93794545-b379-43e0-a7c5-58bb4b5ceab3" [ref=e142]':
+            - generic [ref=e144]:
+              - text: "Feed ID:"
+              - text: 93794545-b379-43e0-a7c5-58bb4b5ceab3
+          - cell "359 Products" [ref=e145]
+          - cell "Trade Global" [ref=e146]:
+            - generic [ref=e147]: Trade Global
+          - cell "14 Jun 2026 02:18" [ref=e148]:
+            - text: 14 Jun 2026
+            - text: 02:18
+          - cell "SellerPriceTemplate_UPLOAD.xlsx" [ref=e149]:
+            - generic [ref=e151]: SellerPriceTemplate_UPLOAD.xlsx
+          - cell "ProductUpdate" [ref=e152]
+        - 'row "Carga exitosa Feed ID: 8400132e-99c5-46c7-8db2-d19005fd40b6 1 Product Trade Global 13 Jun 2026 22:56 Not applicable for imports done via API ProductUpdate" [ref=e153]':
+          - cell "Carga exitosa" [ref=e154]:
+            - heading "Carga exitosa" [level=2] [ref=e156]:
+              - generic [ref=e157]: 
+              - text: Carga exitosa
+          - 'cell "Feed ID: 8400132e-99c5-46c7-8db2-d19005fd40b6" [ref=e158]':
+            - generic [ref=e160]:
+              - text: "Feed ID:"
+              - text: 8400132e-99c5-46c7-8db2-d19005fd40b6
+          - cell "1 Product" [ref=e161]
+          - cell "Trade Global" [ref=e162]:
+            - generic [ref=e163]: Trade Global
+          - cell "13 Jun 2026 22:56" [ref=e164]:
+            - text: 13 Jun 2026
+            - text: 22:56
+          - cell "Not applicable for imports done via API" [ref=e165]:
+            - generic [ref=e167]: Not applicable for imports done via API
+          - cell "ProductUpdate" [ref=e168]
+        - 'row "Carga exitosa Feed ID: bed8aa30-22e6-4ace-a0e1-9285385f0e6e 1 Product Trade Global 13 Jun 2026 20:56 Not applicable for imports done via API ProductUpdate" [ref=e169]':
+          - cell "Carga exitosa" [ref=e170]:
+            - heading "Carga exitosa" [level=2] [ref=e172]:
+              - generic [ref=e173]: 
+              - text: Carga exitosa
+          - 'cell "Feed ID: bed8aa30-22e6-4ace-a0e1-9285385f0e6e" [ref=e174]':
+            - generic [ref=e176]:
+              - text: "Feed ID:"
+              - text: bed8aa30-22e6-4ace-a0e1-9285385f0e6e
+          - cell "1 Product" [ref=e177]
+          - cell "Trade Global" [ref=e178]:
+            - generic [ref=e179]: Trade Global
+          - cell "13 Jun 2026 20:56" [ref=e180]:
+            - text: 13 Jun 2026
+            - text: 20:56
+          - cell "Not applicable for imports done via API" [ref=e181]:
+            - generic [ref=e183]: Not applicable for imports done via API
+          - cell "ProductUpdate" [ref=e184]
+        - 'row "Carga exitosa Feed ID: 25f2f2c8-5d02-4639-9ffb-65a3843a0f1c 2 Products Trade Global 13 Jun 2026 01:31 Not applicable for imports done via API ProductUpdate" [ref=e185]':
+          - cell "Carga exitosa" [ref=e186]:
+            - heading "Carga exitosa" [level=2] [ref=e188]:
+              - generic [ref=e189]: 
+              - text: Carga exitosa
+          - 'cell "Feed ID: 25f2f2c8-5d02-4639-9ffb-65a3843a0f1c" [ref=e190]':
+            - generic [ref=e192]:
+              - text: "Feed ID:"
+              - text: 25f2f2c8-5d02-4639-9ffb-65a3843a0f1c
+          - cell "2 Products" [ref=e193]
+          - cell "Trade Global" [ref=e194]:
+            - generic [ref=e195]: Trade Global
+          - cell "13 Jun 2026 01:31" [ref=e196]:
+            - text: 13 Jun 2026
+            - text: 01:31
+          - cell "Not applicable for imports done via API" [ref=e197]:
+            - generic [ref=e199]: Not applicable for imports done via API
+          - cell "ProductUpdate" [ref=e200]
+        - 'row "Carga exitosa Feed ID: 9e99b87c-d275-46e1-b21f-e2d440631a22 2 Products Trade Global 13 Jun 2026 00:42 Not applicable for imports done via API ProductUpdate" [ref=e201]':
+          - cell "Carga exitosa" [ref=e202]:
+            - heading "Carga exitosa" [level=2] [ref=e204]:
+              - generic [ref=e205]: 
+              - text: Carga exitosa
+          - 'cell "Feed ID: 9e99b87c-d275-46e1-b21f-e2d440631a22" [ref=e206]':
+            - generic [ref=e208]:
+              - text: "Feed ID:"
+              - text: 9e99b87c-d275-46e1-b21f-e2d440631a22
+          - cell "2 Products" [ref=e209]
+          - cell "Trade Global" [ref=e210]:
+            - generic [ref=e211]: Trade Global
+          - cell "13 Jun 2026 00:42" [ref=e212]:
+            - text: 13 Jun 2026
+            - text: 00:42
+          - cell "Not applicable for imports done via API" [ref=e213]:
+            - generic [ref=e215]: Not applicable for imports done via API
+          - cell "ProductUpdate" [ref=e216]
+    - generic [ref=e110]:
+      - text: "Go to Page:"
+      - textbox "Page" [ref=e112]: "1"
+      - generic [ref=e113]: First
+      - generic [ref=e114]: Previous
+      - generic [ref=e217]:
+        - generic [ref=e218] [cursor=pointer]: "1"
+        - generic [ref=e219] [cursor=pointer]: "2"
+        - generic [ref=e220] [cursor=pointer]: "3"
+        - generic [ref=e221] [cursor=pointer]: "4"
+        - generic [ref=e222] [cursor=pointer]: "5"
+      - generic [ref=e115] [cursor=pointer]: Next
+      - generic [ref=e116] [cursor=pointer]: Last
+  - contentinfo [ref=e117]:
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - generic [ref=e122]: 
+        - link "Califica esta página" [ref=e123] [cursor=pointer]:
+          - /url: "#"
+      - text: "| Idioma"
+      - combobox [ref=e124] [cursor=pointer]:
+        - option "Inglés"
+        - option "Español" [selected]

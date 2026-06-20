@@ -1,0 +1,40 @@
+{
+  "fecha": "2026-06-17",
+  "por_cuenta": {
+    "c1": {
+      "activas": 0,
+      "health_calc_avg": 0,
+      "health_ml_avg": 0,
+      "items_con_health_ml": 0,
+      "criticas_sub_20": 0,
+      "ordenes_180d": 0,
+      "gmv_180d": 0,
+      "visitas_30d_total": 0
+    },
+    "c2": {
+      "activas": 115,
+      "health_calc_avg": 58.4,
+      "health_ml_avg": 0.83,
+      "items_con_health_ml": 30,
+      "criticas_sub_20": 32,
+      "ordenes_180d": 319,
+      "gmv_180d": 10430570,
+      "visitas_30d_total": 0
+    },
+    "c3": {
+      "activas": 161,
+      "health_calc_avg": 64.5,
+      "health_ml_avg": 0.82,
+      "items_con_health_ml": 54,
+      "criticas_sub_20": 47,
+      "ordenes_180d": 391,
+      "gmv_180d": 13672223,
+      "visitas_30d_total": 0
+    }
+  },
+  "total": {
+    "activas": 276,
+    "health_calc_avg": 62.0,
+    "criticas_sub_20": 79
+  }
+}

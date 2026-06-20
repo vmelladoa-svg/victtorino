@@ -1,0 +1,1019 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e8]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: "#/Home"
+            - img [ref=e12]
+          - generic [ref=e13]:
+            - img "menu.svg" [ref=e14] [cursor=pointer]
+            - generic [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - img [ref=e98]: arrow_drop_down
+          - generic [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]: Trade Global Solutions SPA
+            - img [ref=e101]: arrow_drop_down
+          - generic [ref=e28]:
+            - separator [ref=e29]
+            - generic [ref=e32] [cursor=pointer]:
+              - img [ref=e33]
+              - img [ref=e36]: arrow_drop_down
+            - img [ref=e104] [cursor=pointer]:
+              - img [ref=e105]
+            - generic [ref=e44] [cursor=pointer]:
+              - img "tienda.svg" [ref=e45]
+              - img [ref=e46]: arrow_drop_down
+            - generic [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - img [ref=e51]: arrow_drop_down
+            - img "centro-ayuda.svg" [ref=e107] [cursor=pointer]
+            - img "ayuda.svg" [ref=e52] [cursor=pointer]
+            - button "chatbot" [ref=e53]:
+              - img "chatbot" [ref=e55]
+            - separator [ref=e58]
+            - generic [ref=e60] [cursor=pointer]:
+              - img "User" [ref=e62]
+              - img [ref=e65]: arrow_drop_down
+      - generic [ref=e66]:
+        - generic [ref=e69]:
+          - generic [ref=e1788]:
+            - link [ref=e1791] [cursor=pointer]:
+              - /url: "#/Home"
+              - img [ref=e1792]
+            - generic [ref=e1794] [cursor=pointer]:
+              - img [ref=e1795]
+              - img [ref=e1797]: arrow_drop_down
+          - generic [ref=e113]:
+            - generic [ref=e115]:
+              - img "close.svg" [ref=e117] [cursor=pointer]
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - generic [ref=e123]: 85 %
+                  - generic [ref=e127]:
+                    - text: ¡Genial! Ya te
+                    - text: falta poco
+                - generic [ref=e128]: Finaliza tu configuración de la cuenta para que puedas operar sin problemas.
+                - generic [ref=e130] [cursor=pointer]: Continuar
+            - generic [ref=e131]:
+              - generic [ref=e132]:
+                - textbox "Buscar" [ref=e134]
+                - generic:
+                  - img: search
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - generic [ref=e140] [cursor=pointer]:
+                    - generic [ref=e142]: Ecosistema Digital
+                    - img [ref=e143]: arrow_drop_down
+                  - generic [ref=e144]:
+                    - link "Soluciones Ecosistema" [ref=e146] [cursor=pointer]:
+                      - /url: "#/Ecosistema-Digital"
+                      - generic [ref=e150]: Soluciones Ecosistema
+                    - generic [ref=e151]:
+                      - generic [ref=e154] [cursor=pointer]:
+                        - generic [ref=e156]: Recaudación
+                        - img [ref=e157]: arrow_drop_down
+                      - generic [ref=e158]:
+                        - generic [ref=e159]:
+                          - generic [ref=e162] [cursor=pointer]:
+                            - generic [ref=e164]: Defontana Pay
+                            - img [ref=e165]: arrow_drop_down
+                          - generic [ref=e166]:
+                            - link "Pagos" [ref=e168] [cursor=pointer]:
+                              - /url: "#/Pay/Pagos"
+                              - generic [ref=e172]: Pagos
+                            - link "Transferencias" [ref=e174] [cursor=pointer]:
+                              - /url: "#/Pay/Transferencias"
+                              - generic [ref=e178]: Transferencias
+                            - link "Mis Abonos" [ref=e180] [cursor=pointer]:
+                              - /url: "#/Pay/Depositos"
+                              - generic [ref=e184]: Mis Abonos
+                        - generic [ref=e185]:
+                          - generic [ref=e188] [cursor=pointer]:
+                            - generic [ref=e190]: Cobranza (nuevo)
+                            - img [ref=e191]: arrow_drop_down
+                          - generic [ref=e192]:
+                            - link "Listado de Clientes" [ref=e194] [cursor=pointer]:
+                              - /url: "#/ModuloCobranza/ListadoClientes"
+                              - generic [ref=e198]: Listado de Clientes
+                            - link "Listado de Documentos" [ref=e200] [cursor=pointer]:
+                              - /url: "#/ModuloCobranza/ListadoDocumentos"
+                              - generic [ref=e204]: Listado de Documentos
+                            - link "Gestión de morosidad" [ref=e206] [cursor=pointer]:
+                              - /url: "#/ModuloCobranza/documentos-vencidos"
+                              - generic [ref=e210]: Gestión de morosidad
+                    - generic [ref=e211]:
+                      - generic [ref=e214] [cursor=pointer]:
+                        - generic [ref=e216]: Herramientas
+                        - img [ref=e217]: arrow_drop_down
+                      - generic [ref=e218]:
+                        - link "API de Integraciones" [ref=e220] [cursor=pointer]:
+                          - /url: "#/Api-Integraciones"
+                          - generic [ref=e224]: API de Integraciones
+                        - link "Firma Digital" [ref=e226] [cursor=pointer]:
+                          - /url: "#/FirmaDigital"
+                          - generic [ref=e230]: Firma Digital
+                        - link "Compra de Certificado Digital" [ref=e232] [cursor=pointer]:
+                          - /url: "#/RenovarCertificadoDigital"
+                          - generic [ref=e236]: Compra de Certificado Digital
+                        - link "Advisor" [ref=e238] [cursor=pointer]:
+                          - /url: "#/Advisor"
+                          - generic [ref=e242]: Advisor
+                    - generic [ref=e243]:
+                      - generic [ref=e246] [cursor=pointer]:
+                        - generic [ref=e248]: Integraciones Nativas
+                        - img [ref=e249]: arrow_drop_down
+                      - generic [ref=e250]:
+                        - link "Rindegastos" [ref=e252] [cursor=pointer]:
+                          - /url: "#/RindeGastos"
+                          - generic [ref=e256]: Rindegastos
+                        - link "Cenabast" [ref=e258] [cursor=pointer]:
+                          - /url: "#/Cenabast"
+                          - generic [ref=e262]: Cenabast
+                        - link "WMS Check" [ref=e264] [cursor=pointer]:
+                          - /url: "#/WMSCheck"
+                          - generic [ref=e268]: WMS Check
+                        - link "Lemontech" [ref=e270] [cursor=pointer]:
+                          - /url: "#/Lemontech"
+                          - generic [ref=e274]: Lemontech
+                        - generic [ref=e275]:
+                          - generic [ref=e278] [cursor=pointer]:
+                            - generic [ref=e280]: "SAWU: Abastecimiento B2B"
+                            - img [ref=e281]: arrow_drop_down
+                          - generic [ref=e282]:
+                            - link "Proveedor" [ref=e284] [cursor=pointer]:
+                              - /url: "#/Sawu/Proveedor"
+                              - generic [ref=e288]: Proveedor
+                            - link "Comprador" [ref=e290] [cursor=pointer]:
+                              - /url: "#/Sawu/Comprador"
+                              - generic [ref=e294]: Comprador
+                - generic [ref=e295]:
+                  - generic [ref=e299] [cursor=pointer]:
+                    - generic [ref=e301]: Inicio
+                    - img [ref=e302]: arrow_drop_down
+                  - generic [ref=e303]:
+                    - link "Home" [ref=e305] [cursor=pointer]:
+                      - /url: "#/Home"
+                      - generic [ref=e309]: Home
+                    - link "Panel de control" [ref=e311] [cursor=pointer]:
+                      - /url: "#/DashboardNova"
+                      - generic [ref=e315]: Panel de control
+                    - link "Onboarding" [ref=e317] [cursor=pointer]:
+                      - /url: "#/onboarding-digital"
+                      - generic [ref=e321]: Onboarding
+                - generic [ref=e322]:
+                  - generic [ref=e326] [cursor=pointer]:
+                    - generic [ref=e328]: Ventas
+                    - img [ref=e329]: arrow_drop_down
+                  - generic [ref=e330]:
+                    - generic [ref=e331]:
+                      - generic [ref=e334] [cursor=pointer]:
+                        - generic [ref=e336]: Clientes y Productos
+                        - img [ref=e337]: arrow_drop_down
+                      - generic [ref=e338]:
+                        - link "Artículos" [ref=e340] [cursor=pointer]:
+                          - /url: "#/Ventas/ClientesyProductos/Articulos"
+                          - generic [ref=e344]: Artículos
+                        - link "Servicios" [ref=e346] [cursor=pointer]:
+                          - /url: "#/Ventas/ClientesyProductos/Servicios"
+                          - generic [ref=e350]: Servicios
+                        - link "Listado de clientes" [ref=e352] [cursor=pointer]:
+                          - /url: "#/Ventas/ClientesyProductos/Clientes"
+                          - generic [ref=e356]: Listado de clientes
+                    - generic [ref=e357]:
+                      - generic [ref=e360] [cursor=pointer]:
+                        - generic [ref=e362]: Cotizaciones
+                        - img [ref=e363]: arrow_drop_down
+                      - generic [ref=e364]:
+                        - link "Listado de Documentos" [ref=e366] [cursor=pointer]:
+                          - /url: "#/Ventas/Cotizaciones/ListadoDocumentos"
+                          - generic [ref=e370]: Listado de Documentos
+                        - link "Informes de Cotizaciones" [ref=e372] [cursor=pointer]:
+                          - /url: "#/Ventas/Cotizaciones/InformesCotizaciones"
+                          - generic [ref=e376]: Informes de Cotizaciones
+                    - generic [ref=e377]:
+                      - generic [ref=e380] [cursor=pointer]:
+                        - generic [ref=e382]: Pedidos
+                        - img [ref=e383]: arrow_drop_down
+                      - generic [ref=e384]:
+                        - link "Listado de Documentos" [ref=e386] [cursor=pointer]:
+                          - /url: "#/Ventas/Pedidos/ListadoDocumentos"
+                          - generic [ref=e390]: Listado de Documentos
+                        - link "Importador de Pedidos" [ref=e392] [cursor=pointer]:
+                          - /url: "#/Ventas/Pedidos/ImportadorPedidos"
+                          - generic [ref=e396]: Importador de Pedidos
+                        - link "Informes de Pedidos" [ref=e398] [cursor=pointer]:
+                          - /url: "#/Ventas/Pedidos/InformesPedidos"
+                          - generic [ref=e402]: Informes de Pedidos
+                    - generic [ref=e403]:
+                      - generic [ref=e406] [cursor=pointer]:
+                        - generic [ref=e408]: Prestaciones
+                        - img [ref=e409]: arrow_drop_down
+                      - link "Listado de Documentos" [ref=e412] [cursor=pointer]:
+                        - /url: "#/Ventas/ServicioPedidos/ListadoDocumentos"
+                        - generic [ref=e416]: Listado de Documentos
+                    - generic [ref=e417]:
+                      - generic [ref=e420] [cursor=pointer]:
+                        - generic [ref=e422]: Guía de Despacho
+                        - img [ref=e423]: arrow_drop_down
+                      - link "Listado de Documentos" [ref=e426] [cursor=pointer]:
+                        - /url: "#/Ventas/GuiaDespacho/Suscripcion"
+                        - generic [ref=e430]: Listado de Documentos
+                    - generic [ref=e431]:
+                      - generic [ref=e434] [cursor=pointer]:
+                        - generic [ref=e436]: Ventas
+                        - img [ref=e437]: arrow_drop_down
+                      - generic [ref=e438]:
+                        - link "Listado de Documentos" [ref=e440] [cursor=pointer]:
+                          - /url: "#/Ventas/Ventas/ListadoDocumentos"
+                          - generic [ref=e444]: Listado de Documentos
+                        - link "Facturador Recurrente" [ref=e446] [cursor=pointer]:
+                          - /url: "#/Ventas/Ventas/Recurrente"
+                          - generic [ref=e450]: Facturador Recurrente
+                        - link "Facturador Masivo" [ref=e452] [cursor=pointer]:
+                          - /url: "#/Ventas/Ventas/FacturadorMasivo"
+                          - generic [ref=e456]: Facturador Masivo
+                        - link "Informes de Ventas (Nuevo)" [ref=e458] [cursor=pointer]:
+                          - /url: "#/Ventas/Ventas/InformesDeVentaNova"
+                          - generic [ref=e462]: Informes de Ventas (Nuevo)
+                        - link "Informes de Ventas" [ref=e464] [cursor=pointer]:
+                          - /url: "#/Ventas/Ventas/InformesDeVenta"
+                          - generic [ref=e468]: Informes de Ventas
+                        - link "Información Electrónica" [ref=e470] [cursor=pointer]:
+                          - /url: "#/Ventas/Ventas/InformacionElectronica"
+                          - generic [ref=e474]: Información Electrónica
+                    - generic [ref=e475]:
+                      - generic [ref=e478] [cursor=pointer]:
+                        - generic [ref=e480]: "SAWU: Abastecimiento B2B"
+                        - img [ref=e481]: arrow_drop_down
+                      - generic [ref=e482]:
+                        - link "Proveedor" [ref=e484] [cursor=pointer]:
+                          - /url: "#/Ventas/SawuVentas/Proveedor"
+                          - generic [ref=e488]: Proveedor
+                        - link "Comprador" [ref=e490] [cursor=pointer]:
+                          - /url: "#/Ventas/SawuVentas/Comprador"
+                          - generic [ref=e494]: Comprador
+                    - link "Plugins Ecommerce" [ref=e496] [cursor=pointer]:
+                      - /url: "#/Ventas/Ecommerce"
+                      - generic [ref=e500]: Plugins Ecommerce
+                    - link "Lista de Precios" [ref=e502] [cursor=pointer]:
+                      - /url: "#/Ventas/ListaPrecios"
+                      - generic [ref=e506]: Lista de Precios
+                    - generic [ref=e507]:
+                      - generic [ref=e510] [cursor=pointer]:
+                        - generic [ref=e512]: Cobranza (nuevo)
+                        - img [ref=e513]: arrow_drop_down
+                      - generic [ref=e514]:
+                        - link "Listado de Clientes" [ref=e516] [cursor=pointer]:
+                          - /url: "#/Ventas/ModuloCobranza/ListadoClientes"
+                          - generic [ref=e520]: Listado de Clientes
+                        - link "Listado de Documentos" [ref=e522] [cursor=pointer]:
+                          - /url: "#/Ventas/ModuloCobranza/ListadoDocumentos"
+                          - generic [ref=e526]: Listado de Documentos
+                        - link "Gestión de morosidad" [ref=e528] [cursor=pointer]:
+                          - /url: "#/Ventas/ModuloCobranza/documentos-vencidos"
+                          - generic [ref=e532]: Gestión de morosidad
+                - generic [ref=e533]:
+                  - generic [ref=e537] [cursor=pointer]:
+                    - generic [ref=e539]: Compras
+                    - img [ref=e540]: arrow_drop_down
+                  - generic [ref=e541]:
+                    - generic [ref=e542]:
+                      - generic [ref=e545] [cursor=pointer]:
+                        - generic [ref=e547]: Orden de Compra
+                        - img [ref=e548]: arrow_drop_down
+                      - generic [ref=e549]:
+                        - link "Listado de proveedores" [ref=e551] [cursor=pointer]:
+                          - /url: "#/Compras/OrdenCompra/Proveedores"
+                          - generic [ref=e555]: Listado de proveedores
+                        - link "Artículos" [ref=e557] [cursor=pointer]:
+                          - /url: "#/Compras/OrdenCompra/Articulos"
+                          - generic [ref=e561]: Artículos
+                        - link "Listado de Documentos" [ref=e563] [cursor=pointer]:
+                          - /url: "#/Compras/OrdenCompra/ListadoDocumentos"
+                          - generic [ref=e567]: Listado de Documentos
+                        - link "Importador de Órdenes de Compra" [ref=e569] [cursor=pointer]:
+                          - /url: "#/Compras/OrdenCompra/ImportadorMasivoOC"
+                          - generic [ref=e573]: Importador de Órdenes de Compra
+                        - link "Informes de Órdenes de Compra" [ref=e575] [cursor=pointer]:
+                          - /url: "#/Compras/OrdenCompra/Informes"
+                          - generic [ref=e579]: Informes de Órdenes de Compra
+                    - generic [ref=e580]:
+                      - generic [ref=e583] [cursor=pointer]:
+                        - generic [ref=e585]: Libros de Compras
+                        - img [ref=e586]: arrow_drop_down
+                      - generic [ref=e587]:
+                        - link "Listado de proveedores" [ref=e589] [cursor=pointer]:
+                          - /url: "#/Compras/LibrosCompras/Proveedores"
+                          - generic [ref=e593]: Listado de proveedores
+                        - link "Listado de Documentos" [ref=e595] [cursor=pointer]:
+                          - /url: "#/Compras/LibrosCompras/ListadoDocumentos"
+                          - generic [ref=e599]: Listado de Documentos
+                        - link "Configuración Gestioner" [ref=e601] [cursor=pointer]:
+                          - /url: "#/Compras/LibrosCompras/Controller"
+                          - generic [ref=e605]: Configuración Gestioner
+                        - link "Información electrónica" [ref=e607] [cursor=pointer]:
+                          - /url: "#/Compras/LibrosCompras/InformacionElectronica"
+                          - generic [ref=e611]: Información electrónica
+                        - link "Informes de Libros de Compras" [ref=e613] [cursor=pointer]:
+                          - /url: "#/Compras/LibrosCompras/Informes"
+                          - generic [ref=e617]: Informes de Libros de Compras
+                    - generic [ref=e618]:
+                      - generic [ref=e621] [cursor=pointer]:
+                        - generic [ref=e623]: "SAWU: Abastecimiento B2B"
+                        - img [ref=e624]: arrow_drop_down
+                      - generic [ref=e625]:
+                        - link "Proveedor" [ref=e627] [cursor=pointer]:
+                          - /url: "#/Compras/SawuCompras/Proveedor"
+                          - generic [ref=e631]: Proveedor
+                        - link "Comprador" [ref=e633] [cursor=pointer]:
+                          - /url: "#/Compras/SawuCompras/Comprador"
+                          - generic [ref=e637]: Comprador
+                - generic [ref=e638]:
+                  - generic [ref=e642] [cursor=pointer]:
+                    - generic [ref=e644]: Inventario
+                    - img [ref=e645]: arrow_drop_down
+                  - generic [ref=e646]:
+                    - link "Artículos" [ref=e648] [cursor=pointer]:
+                      - /url: "#/Inventario/Inventario/Articulos"
+                      - generic [ref=e652]: Artículos
+                    - link "Listado de Documentos" [ref=e654] [cursor=pointer]:
+                      - /url: "#/Inventario/Inventario/ListadoDocumentos"
+                      - generic [ref=e658]: Listado de Documentos
+                    - link "Corrección monetaria" [ref=e660] [cursor=pointer]:
+                      - /url: "#/Inventario/Inventario/CorreccionMonetaria"
+                      - generic [ref=e664]: Corrección monetaria
+                    - link "Cierres" [ref=e666] [cursor=pointer]:
+                      - /url: "#/Inventario/Inventario/Cierres"
+                      - generic [ref=e670]: Cierres
+                    - link "Informes de Inventario" [ref=e672] [cursor=pointer]:
+                      - /url: "#/Inventario/Inventario/Informes"
+                      - generic [ref=e676]: Informes de Inventario
+                - generic [ref=e677]:
+                  - generic [ref=e681] [cursor=pointer]:
+                    - generic [ref=e683]: Contabilidad
+                    - img [ref=e684]: arrow_drop_down
+                  - generic [ref=e685]:
+                    - generic [ref=e686]:
+                      - generic [ref=e689] [cursor=pointer]:
+                        - generic [ref=e691]: Contabilidad
+                        - img [ref=e692]: arrow_drop_down
+                      - generic [ref=e693]:
+                        - link "Listado de Documentos" [ref=e695] [cursor=pointer]:
+                          - /url: "#/Contabilidad/Contabilidad/ListadoDocumentos"
+                          - generic [ref=e699]: Listado de Documentos
+                        - link "Informes de Contabilidad" [ref=e701] [cursor=pointer]:
+                          - /url: "#/Contabilidad/Contabilidad/Informes"
+                          - generic [ref=e705]: Informes de Contabilidad
+                        - link "Informes IFRS" [ref=e707] [cursor=pointer]:
+                          - /url: "#/Contabilidad/Contabilidad/InformesIFRS"
+                          - generic [ref=e711]: Informes IFRS
+                        - link "Plan de Cuentas" [ref=e713] [cursor=pointer]:
+                          - /url: "#/Contabilidad/Contabilidad/PlanCuentas"
+                          - generic [ref=e717]: Plan de Cuentas
+                        - link "Ajustes" [ref=e719] [cursor=pointer]:
+                          - /url: "#/Contabilidad/Contabilidad/Ajustes"
+                          - generic [ref=e723]: Ajustes
+                        - link "Cierres" [ref=e725] [cursor=pointer]:
+                          - /url: "#/Contabilidad/Contabilidad/Cierres"
+                          - generic [ref=e729]: Cierres
+                        - link "Rindegastos" [ref=e731] [cursor=pointer]:
+                          - /url: "#/Contabilidad/Contabilidad/RindeGastos"
+                          - generic [ref=e735]: Rindegastos
+                        - generic [ref=e736]:
+                          - generic [ref=e739] [cursor=pointer]:
+                            - generic [ref=e741]: Auxiliar de Seguros
+                            - img [ref=e742]: arrow_drop_down
+                          - generic [ref=e743]:
+                            - link "Inicio" [ref=e745] [cursor=pointer]:
+                              - /url: "#/GestionDeSeguros/Inicio"
+                              - generic [ref=e749]: Inicio
+                            - link "Pólizas" [ref=e751] [cursor=pointer]:
+                              - /url: "#/GestionDeSeguros/Poliza"
+                              - generic [ref=e755]: Pólizas
+                            - link "Cotizaciones" [ref=e757] [cursor=pointer]:
+                              - /url: "#/GestionDeSeguros/Cotizaciones"
+                              - generic [ref=e761]: Cotizaciones
+                            - link "Renovaciones" [ref=e763] [cursor=pointer]:
+                              - /url: "#/GestionDeSeguros/Renovaciones"
+                              - generic [ref=e767]: Renovaciones
+                    - link "Importar Libro C/V SII" [ref=e769] [cursor=pointer]:
+                      - /url: "#/ImportadorSii"
+                      - generic [ref=e773]: Importar Libro C/V SII
+                    - link "Declaraciones Juradas" [ref=e775] [cursor=pointer]:
+                      - /url: "#/Declaraciones"
+                      - generic [ref=e779]: Declaraciones Juradas
+                    - generic [ref=e780]:
+                      - generic [ref=e783] [cursor=pointer]:
+                        - generic [ref=e785]: Honorarios
+                        - img [ref=e786]: arrow_drop_down
+                      - generic [ref=e787]:
+                        - link "Personas" [ref=e789] [cursor=pointer]:
+                          - /url: "#/Nomina/Honorarios/Personas"
+                          - generic [ref=e793]: Personas
+                        - link "Listado de Documentos" [ref=e795] [cursor=pointer]:
+                          - /url: "#/Nomina/Honorarios/ListadoDocumentos"
+                          - generic [ref=e799]: Listado de Documentos
+                        - link "Certificados" [ref=e801] [cursor=pointer]:
+                          - /url: "#/Nomina/Honorarios/CertificadosHonorarios"
+                          - generic [ref=e805]: Certificados
+                        - link "Retenciones" [ref=e807] [cursor=pointer]:
+                          - /url: "#/Nomina/Honorarios/RetencionesHonorarios"
+                          - generic [ref=e811]: Retenciones
+                        - link "Informes" [ref=e813] [cursor=pointer]:
+                          - /url: "#/Nomina/Honorarios/InformesNormales"
+                          - generic [ref=e817]: Informes
+                - generic [ref=e818]:
+                  - generic [ref=e822] [cursor=pointer]:
+                    - generic [ref=e824]: Tesorería
+                    - img [ref=e825]: arrow_drop_down
+                  - generic [ref=e826]:
+                    - generic [ref=e827]:
+                      - generic [ref=e830] [cursor=pointer]:
+                        - generic [ref=e832]: Conciliación
+                        - img [ref=e833]: arrow_drop_down
+                      - generic [ref=e834]:
+                        - link "Cartola Vigente" [ref=e836] [cursor=pointer]:
+                          - /url: "#/Tesoreria/Conciliacion/CartolaVigente"
+                          - generic [ref=e840]: Cartola Vigente
+                        - link "Listado Cartolas" [ref=e842] [cursor=pointer]:
+                          - /url: "#/Tesoreria/Conciliacion/ListadoCartolas"
+                          - generic [ref=e846]: Listado Cartolas
+                        - link "Informes de Conciliaciones" [ref=e848] [cursor=pointer]:
+                          - /url: "#/Tesoreria/Conciliacion/Informes"
+                          - generic [ref=e852]: Informes de Conciliaciones
+                    - generic [ref=e853]:
+                      - generic [ref=e856] [cursor=pointer]:
+                        - generic [ref=e858]: Flujo de Caja
+                        - img [ref=e859]: arrow_drop_down
+                      - link "Flujo de Caja" [ref=e862] [cursor=pointer]:
+                        - /url: "#/Tesoreria/FlujoCaja/FlujoCaja"
+                        - generic [ref=e866]: Flujo de Caja
+                    - generic [ref=e867]:
+                      - generic [ref=e870] [cursor=pointer]:
+                        - generic [ref=e872]: Pago Nómina
+                        - img [ref=e873]: arrow_drop_down
+                      - generic [ref=e874]:
+                        - link "Listado de Documentos" [ref=e876] [cursor=pointer]:
+                          - /url: "#/Tesoreria/PagoNomina/ListadoDocumentos"
+                          - generic [ref=e880]: Listado de Documentos
+                        - link "Informe de Pagos Pendientes" [ref=e882] [cursor=pointer]:
+                          - /url: "#/Tesoreria/PagoNomina/InformePagosPendientes"
+                          - generic [ref=e886]: Informe de Pagos Pendientes
+                    - generic [ref=e887]:
+                      - generic [ref=e890] [cursor=pointer]:
+                        - generic [ref=e892]: Pago Honorarios
+                        - img [ref=e893]: arrow_drop_down
+                      - link "Informes de Honorarios por Pagar" [ref=e896] [cursor=pointer]:
+                        - /url: "#/Tesoreria/PagoHonorarios/InformesHonorariosPorPagar"
+                        - generic [ref=e900]: Informes de Honorarios por Pagar
+                    - generic [ref=e901]:
+                      - generic [ref=e904] [cursor=pointer]:
+                        - generic [ref=e906]: Emisión Cheque
+                        - img [ref=e907]: arrow_drop_down
+                      - generic [ref=e908]:
+                        - link "Preparar Pagos" [ref=e910] [cursor=pointer]:
+                          - /url: "#/Tesoreria/EmisionCheque/PrepararPagos"
+                          - generic [ref=e914]: Preparar Pagos
+                        - link "Cheques por Emitir" [ref=e916] [cursor=pointer]:
+                          - /url: "#/Tesoreria/EmisionCheque/ChequesPorEmitir"
+                          - generic [ref=e920]: Cheques por Emitir
+                        - link "Cheques por Aprobar" [ref=e922] [cursor=pointer]:
+                          - /url: "#/Tesoreria/EmisionCheque/ChequesPorAprobar"
+                          - generic [ref=e926]: Cheques por Aprobar
+                    - generic [ref=e927]:
+                      - generic [ref=e930] [cursor=pointer]:
+                        - generic [ref=e932]: Pagos Electrónicos
+                        - img [ref=e933]: arrow_drop_down
+                      - link "Listado de Documentos" [ref=e936] [cursor=pointer]:
+                        - /url: "#/Tesoreria/PagosElectronicos/ListadoDocumentos"
+                        - generic [ref=e940]: Listado de Documentos
+                    - generic [ref=e941]:
+                      - generic [ref=e944] [cursor=pointer]:
+                        - generic [ref=e946]: Letras de Cambio
+                        - img [ref=e947]: arrow_drop_down
+                      - generic [ref=e948]:
+                        - link "Letras de Cambio" [ref=e950] [cursor=pointer]:
+                          - /url: "#/Tesoreria/LetrasCambio/LetrasCambio"
+                          - generic [ref=e954]: Letras de Cambio
+                        - link "Informe de Letras de Cambio" [ref=e956] [cursor=pointer]:
+                          - /url: "#/Tesoreria/LetrasCambio/InformeCobranza"
+                          - generic [ref=e960]: Informe de Letras de Cambio
+                    - generic [ref=e961]:
+                      - generic [ref=e964] [cursor=pointer]:
+                        - generic [ref=e966]: Cobranza (nuevo)
+                        - img [ref=e967]: arrow_drop_down
+                      - generic [ref=e968]:
+                        - link "Listado de Clientes" [ref=e970] [cursor=pointer]:
+                          - /url: "#/Tesoreria/ModuloCobranza/ListadoClientes"
+                          - generic [ref=e974]: Listado de Clientes
+                        - link "Listado de Documentos" [ref=e976] [cursor=pointer]:
+                          - /url: "#/Tesoreria/ModuloCobranza/ListadoDocumentos"
+                          - generic [ref=e980]: Listado de Documentos
+                        - link "Gestión de morosidad" [ref=e982] [cursor=pointer]:
+                          - /url: "#/Tesoreria/ModuloCobranza/documentos-vencidos"
+                          - generic [ref=e986]: Gestión de morosidad
+                    - generic [ref=e987]:
+                      - generic [ref=e990] [cursor=pointer]:
+                        - generic [ref=e992]: Cobranza
+                        - img [ref=e993]: arrow_drop_down
+                      - generic [ref=e994]:
+                        - link "Cobranza" [ref=e996] [cursor=pointer]:
+                          - /url: "#/Tesoreria/Cobranza/Cobranza"
+                          - generic [ref=e1000]: Cobranza
+                        - link "Informe de Cobranza" [ref=e1002] [cursor=pointer]:
+                          - /url: "#/Tesoreria/Cobranza/InformeCobranza"
+                          - generic [ref=e1006]: Informe de Cobranza
+                    - generic [ref=e1007]:
+                      - generic [ref=e1010] [cursor=pointer]:
+                        - generic [ref=e1012]: Ingresos
+                        - img [ref=e1013]: arrow_drop_down
+                      - link "Listado de Documentos" [ref=e1016] [cursor=pointer]:
+                        - /url: "#/Tesoreria/ListadoDocumentos"
+                        - generic [ref=e1020]: Listado de Documentos
+                - generic [ref=e1021]:
+                  - generic [ref=e1025] [cursor=pointer]:
+                    - generic [ref=e1027]: Defontana IA
+                    - img [ref=e1028]: arrow_drop_down
+                  - generic [ref=e1029]:
+                    - link "Abastecimiento IA" [ref=e1031] [cursor=pointer]:
+                      - /url: "#/Ia/AbastecimientoIA"
+                      - generic [ref=e1035]: Abastecimiento IA
+                    - link "Asistentes IA" [ref=e1037] [cursor=pointer]:
+                      - /url: "#/Ia/AsistentesIA"
+                      - generic [ref=e1041]: Asistentes IA
+                    - link "Reportes IA" [ref=e1043] [cursor=pointer]:
+                      - /url: "#/Ia/ReportesIA"
+                      - generic [ref=e1047]: Reportes IA
+                - generic [ref=e1048]:
+                  - generic [ref=e1052] [cursor=pointer]:
+                    - generic [ref=e1054]: Reportes BI
+                    - img [ref=e1055]: arrow_drop_down
+                  - generic [ref=e1056]:
+                    - generic [ref=e1057]:
+                      - generic [ref=e1060] [cursor=pointer]:
+                        - generic [ref=e1062]: Arma tu reporte
+                        - img [ref=e1063]: arrow_drop_down
+                      - generic [ref=e1064]:
+                        - link "Administración" [ref=e1066] [cursor=pointer]:
+                          - /url: "#/Bi/AtrAdministracion"
+                          - generic [ref=e1070]: Administración
+                        - link "Constructor de reportes" [ref=e1072] [cursor=pointer]:
+                          - /url: "#/Bi/ConstructorDeReportes"
+                          - generic [ref=e1076]: Constructor de reportes
+                    - link "Comercial" [ref=e1078] [cursor=pointer]:
+                      - /url: "#/Bi/Comercial"
+                      - generic [ref=e1082]: Comercial
+                    - link "Margen de Ventas" [ref=e1084] [cursor=pointer]:
+                      - /url: "#/Bi/MargenDeVentas"
+                      - generic [ref=e1088]: Margen de Ventas
+                    - link "Contabilidad" [ref=e1090] [cursor=pointer]:
+                      - /url: "#/Bi/Contabilidad"
+                      - generic [ref=e1094]: Contabilidad
+                    - link "Reporte 360°" [ref=e1096] [cursor=pointer]:
+                      - /url: "#/Bi/Report360"
+                      - generic [ref=e1100]: Reporte 360°
+                    - link "Otros reportes..." [ref=e1102] [cursor=pointer]:
+                      - /url: "#/Bi/DefontanaAnalytics"
+                      - generic [ref=e1106]: Otros reportes...
+                - generic [ref=e1107]:
+                  - generic [ref=e1111] [cursor=pointer]:
+                    - generic [ref=e1113]: Financiamiento
+                    - img [ref=e1114]: arrow_drop_down
+                  - generic [ref=e1115]:
+                    - link "Home" [ref=e1117] [cursor=pointer]:
+                      - /url: "#/Fintech/Home"
+                      - generic [ref=e1121]: Home
+                    - link "Operaciones" [ref=e1123] [cursor=pointer]:
+                      - /url: "#/Fintech/Operaciones"
+                      - generic [ref=e1127]: Operaciones
+                    - link "Cartera" [ref=e1129] [cursor=pointer]:
+                      - /url: "#/Fintech/Cartera"
+                      - generic [ref=e1133]: Cartera
+                    - link "Cesión de documentos" [ref=e1135] [cursor=pointer]:
+                      - /url: "#/Fintech/CesionDocumentos"
+                      - generic [ref=e1139]: Cesión de documentos
+                    - link "Historial de cesiones" [ref=e1141] [cursor=pointer]:
+                      - /url: "#/Fintech/MisCesiones"
+                      - generic [ref=e1145]: Historial de cesiones
+                - generic [ref=e1146]:
+                  - generic [ref=e1150] [cursor=pointer]:
+                    - generic [ref=e1152]: Gestor Comercial
+                    - img [ref=e1153]: arrow_drop_down
+                  - generic [ref=e1154]:
+                    - link "Listado de Documentos" [ref=e1156] [cursor=pointer]:
+                      - /url: "#/GestorComercial/Documentos/ListadoDocumentos"
+                      - generic [ref=e1160]: Listado de Documentos
+                    - link "Permisos" [ref=e1162] [cursor=pointer]:
+                      - /url: "#/GestorComercial/Documentos/Permisos"
+                      - generic [ref=e1166]: Permisos
+                    - link "Notificación" [ref=e1168] [cursor=pointer]:
+                      - /url: "#/GestorComercial/Documentos/Notificacion"
+                      - generic [ref=e1172]: Notificación
+                - generic [ref=e1173]:
+                  - generic [ref=e1177] [cursor=pointer]:
+                    - generic [ref=e1179]: Importadores
+                    - img [ref=e1180]: arrow_drop_down
+                  - generic [ref=e1181]:
+                    - link "Artículos" [ref=e1183] [cursor=pointer]:
+                      - /url: "#/Administracion/Administracion/HerramientasImportadores/ImportadorArticulos"
+                      - generic [ref=e1187]: Artículos
+                    - link "Empleados" [ref=e1189] [cursor=pointer]:
+                      - /url: "#/Administracion/Administracion/HerramientasImportadores/ImportadorEmpleados"
+                      - generic [ref=e1193]: Empleados
+                    - link "Compras" [ref=e1195] [cursor=pointer]:
+                      - /url: "#/Administracion/Administracion/HerramientasImportadores/ImportadorCompras"
+                      - generic [ref=e1199]: Compras
+                    - link "Movimientos Contabilidad" [ref=e1201] [cursor=pointer]:
+                      - /url: "#/Administracion/Administracion/HerramientasImportadores/ImportadorMovimientosContabilidad"
+                      - generic [ref=e1205]: Movimientos Contabilidad
+                    - link "Comprobantes Contables" [ref=e1207] [cursor=pointer]:
+                      - /url: "#/Importador/contabilidad"
+                      - generic [ref=e1211]: Comprobantes Contables
+                    - link "Nómina" [ref=e1213] [cursor=pointer]:
+                      - /url: "#/Importador/nomina"
+                      - generic [ref=e1217]: Nómina
+                    - link "Movimientos Inventario" [ref=e1219] [cursor=pointer]:
+                      - /url: "#/Importador/inventario"
+                      - generic [ref=e1223]: Movimientos Inventario
+                    - link "Movimientos Ventas" [ref=e1225] [cursor=pointer]:
+                      - /url: "#/Administracion/Administracion/HerramientasImportadores/ImportadorMovimientosVentas"
+                      - generic [ref=e1229]: Movimientos Ventas
+                    - link "Libro C/V SII" [ref=e1231] [cursor=pointer]:
+                      - /url: "#/ImportadorSii"
+                      - generic [ref=e1235]: Libro C/V SII
+                - generic [ref=e1236]:
+                  - generic [ref=e1240] [cursor=pointer]:
+                    - generic [ref=e1242]: Configuración
+                    - img [ref=e1243]: arrow_drop_down
+                  - generic [ref=e1244]:
+                    - generic [ref=e1245]:
+                      - generic [ref=e1248] [cursor=pointer]:
+                        - generic [ref=e1250]: General
+                        - img [ref=e1251]: arrow_drop_down
+                      - generic [ref=e1252]:
+                        - link "Empresa" [ref=e1254] [cursor=pointer]:
+                          - /url: "#/Configuracion/General/Empresa"
+                          - generic [ref=e1258]: Empresa
+                        - link "Monedas" [ref=e1260] [cursor=pointer]:
+                          - /url: "#/Configuracion/General/Monedas"
+                          - generic [ref=e1264]: Monedas
+                        - link "Automatización Monedas" [ref=e1266] [cursor=pointer]:
+                          - /url: "#/AutomatizacionMonedas"
+                          - generic [ref=e1270]: Automatización Monedas
+                        - link "Centro de Negocios" [ref=e1272] [cursor=pointer]:
+                          - /url: "#/Configuracion/General/CentroNegocios"
+                          - generic [ref=e1276]: Centro de Negocios
+                        - link "Rubros" [ref=e1278] [cursor=pointer]:
+                          - /url: "#/Configuracion/General/Rubros"
+                          - generic [ref=e1282]: Rubros
+                        - link "Construcción y Definición de Reportes" [ref=e1284] [cursor=pointer]:
+                          - /url: "#/Configuracion/General/ConstruccionDefinicionReportes"
+                          - generic [ref=e1288]: Construcción y Definición de Reportes
+                    - generic [ref=e1289]:
+                      - generic [ref=e1292] [cursor=pointer]:
+                        - generic [ref=e1294]: Contabilidad
+                        - img [ref=e1295]: arrow_drop_down
+                      - generic [ref=e1296]:
+                        - link "Contabilidad" [ref=e1298] [cursor=pointer]:
+                          - /url: "#/Configuracion/Contabilidad/Contabilidad"
+                          - generic [ref=e1302]: Contabilidad
+                        - link "Tipos de Comprobantes" [ref=e1304] [cursor=pointer]:
+                          - /url: "#/Configuracion/Contabilidad/TiposComprobantes"
+                          - generic [ref=e1308]: Tipos de Comprobantes
+                        - link "Clasificadores" [ref=e1310] [cursor=pointer]:
+                          - /url: "#/Configuracion/Contabilidad/Clasificadores"
+                          - generic [ref=e1314]: Clasificadores
+                        - link "Construcción de informes IFRS" [ref=e1316] [cursor=pointer]:
+                          - /url: "#/Configuracion/Contabilidad/ConstruccionInformesIFRS"
+                          - generic [ref=e1320]: Construcción de informes IFRS
+                    - generic [ref=e1321]:
+                      - generic [ref=e1324] [cursor=pointer]:
+                        - generic [ref=e1326]: Compras
+                        - img [ref=e1327]: arrow_drop_down
+                      - generic [ref=e1328]:
+                        - link "Local" [ref=e1330] [cursor=pointer]:
+                          - /url: "#/Configuracion/Compras/Local"
+                          - generic [ref=e1334]: Local
+                        - link "Configuración Compras" [ref=e1336] [cursor=pointer]:
+                          - /url: "#/Configuracion/Compras/ConfiguracionCompras"
+                          - generic [ref=e1340]: Configuración Compras
+                        - link "Condiciones de Pago" [ref=e1342] [cursor=pointer]:
+                          - /url: "#/Configuracion/Compras/CondicionesPago"
+                          - generic [ref=e1346]: Condiciones de Pago
+                        - link "Impuestos" [ref=e1348] [cursor=pointer]:
+                          - /url: "#/Configuracion/Compras/Impuestos"
+                          - generic [ref=e1352]: Impuestos
+                        - link "Listado de tipos de Documentos" [ref=e1354] [cursor=pointer]:
+                          - /url: "#/Configuracion/Compras/ListadoTiposDocumentos"
+                          - generic [ref=e1358]: Listado de tipos de Documentos
+                        - link "Formato de documento" [ref=e1360] [cursor=pointer]:
+                          - /url: "#/Configuracion/Compras/FormatoDocumento"
+                          - generic [ref=e1364]: Formato de documento
+                        - link "Construcción y Definición de Reportes" [ref=e1366] [cursor=pointer]:
+                          - /url: "#/Configuracion/Compras/ConstruccionDefinicionReportes"
+                          - generic [ref=e1370]: Construcción y Definición de Reportes
+                    - generic [ref=e1371]:
+                      - generic [ref=e1374] [cursor=pointer]:
+                        - generic [ref=e1376]: Ventas
+                        - img [ref=e1377]: arrow_drop_down
+                      - generic [ref=e1378]:
+                        - link "Local" [ref=e1380] [cursor=pointer]:
+                          - /url: "#/Configuracion/Ventas/Local"
+                          - generic [ref=e1384]: Local
+                        - link "Construcción y Definición de reportes" [ref=e1386] [cursor=pointer]:
+                          - /url: "#/Configuracion/Ventas/ConstruccionDefinicionReportes"
+                          - generic [ref=e1390]: Construcción y Definición de reportes
+                        - link "Configurador de Ventas" [ref=e1392] [cursor=pointer]:
+                          - /url: "#/Configuracion/Ventas/ConfiguradorVentas"
+                          - generic [ref=e1396]: Configurador de Ventas
+                        - link "Vendedores" [ref=e1398] [cursor=pointer]:
+                          - /url: "#/Configuracion/Ventas/Vendedores"
+                          - generic [ref=e1402]: Vendedores
+                        - link "Condiciones de Pago" [ref=e1404] [cursor=pointer]:
+                          - /url: "#/Configuracion/Ventas/CondicionesPago"
+                          - generic [ref=e1408]: Condiciones de Pago
+                        - link "Impuestos" [ref=e1410] [cursor=pointer]:
+                          - /url: "#/Configuracion/Ventas/Impuestos"
+                          - generic [ref=e1414]: Impuestos
+                        - link "Listado de tipos de Documentos" [ref=e1416] [cursor=pointer]:
+                          - /url: "#/Configuracion/Ventas/ListadoTiposDocumentos"
+                          - generic [ref=e1420]: Listado de tipos de Documentos
+                        - link "Formato de documento" [ref=e1422] [cursor=pointer]:
+                          - /url: "#/Configuracion/Ventas/FormatoDocumento"
+                          - generic [ref=e1426]: Formato de documento
+                        - link "Parámetros de Cálculo" [ref=e1428] [cursor=pointer]:
+                          - /url: "#/Configuracion/Ventas/ParametrosCalculo"
+                          - generic [ref=e1432]: Parámetros de Cálculo
+                        - link "Configuración C. Comercial" [ref=e1434] [cursor=pointer]:
+                          - /url: "#/Configuracion/Ventas/ConfiguracionCicloComercial"
+                          - generic [ref=e1438]: Configuración C. Comercial
+                        - link "Tipo de Impresión" [ref=e1440] [cursor=pointer]:
+                          - /url: "#/Configuracion/Ventas/TipoImpresion"
+                          - generic [ref=e1444]: Tipo de Impresión
+                    - generic [ref=e1445]:
+                      - generic [ref=e1448] [cursor=pointer]:
+                        - generic [ref=e1450]: Nómina
+                        - img [ref=e1451]: arrow_drop_down
+                      - generic [ref=e1452]:
+                        - link "Parámetros de Cálculo" [ref=e1454] [cursor=pointer]:
+                          - /url: "#/Configuracion/Nomina/ParametrosCalculo"
+                          - generic [ref=e1458]: Parámetros de Cálculo
+                        - link "Planillas y Conceptos" [ref=e1460] [cursor=pointer]:
+                          - /url: "#/Configuracion/Nomina/PlanillasConceptos"
+                          - generic [ref=e1464]: Planillas y Conceptos
+                        - link "Procesos y Fórmulas" [ref=e1466] [cursor=pointer]:
+                          - /url: "#/Configuracion/Nomina/ProcesosFormulas"
+                          - generic [ref=e1470]: Procesos y Fórmulas
+                        - link "Contratos" [ref=e1472] [cursor=pointer]:
+                          - /url: "#/Configuracion/Nomina/Contratos"
+                          - generic [ref=e1476]: Contratos
+                        - link "Tipos de Boleta" [ref=e1478] [cursor=pointer]:
+                          - /url: "#/Configuracion/Nomina/TiposBoleta"
+                          - generic [ref=e1482]: Tipos de Boleta
+                        - link "Defin. Boleta Liquidación" [ref=e1484] [cursor=pointer]:
+                          - /url: "#/Configuracion/Nomina/DefinBoletaLiquidacion"
+                          - generic [ref=e1488]: Defin. Boleta Liquidación
+                        - link "Construcción de reportes Nómina" [ref=e1490] [cursor=pointer]:
+                          - /url: "#/Configuracion/Nomina/ConstruccionReportesNomina"
+                          - generic [ref=e1494]: Construcción de reportes Nómina
+                        - link "Definición Comprobante Contable" [ref=e1496] [cursor=pointer]:
+                          - /url: "#/Configuracion/Nomina/DefinicionComprobanteContable"
+                          - generic [ref=e1500]: Definición Comprobante Contable
+                        - link "Formato Boleta Honorario" [ref=e1502] [cursor=pointer]:
+                          - /url: "#/Configuracion/Nomina/FormatoBoletaHonorario"
+                          - generic [ref=e1506]: Formato Boleta Honorario
+                        - link "Construcción de reportes Honorarios" [ref=e1508] [cursor=pointer]:
+                          - /url: "#/Configuracion/Nomina/ConstruccionReportesHonorarios"
+                          - generic [ref=e1512]: Construcción de reportes Honorarios
+                        - link "Pago Electrónico" [ref=e1514] [cursor=pointer]:
+                          - /url: "#/Configuracion/Nomina/PagoElectronico"
+                          - generic [ref=e1518]: Pago Electrónico
+                    - generic [ref=e1519]:
+                      - generic [ref=e1522] [cursor=pointer]:
+                        - generic [ref=e1524]: Tesorería
+                        - img [ref=e1525]: arrow_drop_down
+                      - generic [ref=e1526]:
+                        - link "Bancos y Cuentas Corrientes" [ref=e1528] [cursor=pointer]:
+                          - /url: "#/Configuracion/Tesoreria/BancosCuentasCorrientes"
+                          - generic [ref=e1532]: Bancos y Cuentas Corrientes
+                        - link "Tipos de Movimiento" [ref=e1534] [cursor=pointer]:
+                          - /url: "#/Configuracion/Tesoreria/TiposMovimiento"
+                          - generic [ref=e1538]: Tipos de Movimiento
+                        - link "Construcción de reportes" [ref=e1540] [cursor=pointer]:
+                          - /url: "#/Configuracion/Tesoreria/ConstruccionReportes"
+                          - generic [ref=e1544]: Construcción de reportes
+                        - link "Comprobante Contable" [ref=e1546] [cursor=pointer]:
+                          - /url: "#/Configuracion/Tesoreria/ComprobanteContable"
+                          - generic [ref=e1550]: Comprobante Contable
+                        - link "Definición Formato Impresión" [ref=e1552] [cursor=pointer]:
+                          - /url: "#/Configuracion/Tesoreria/DefinicionFormatoImpresion"
+                          - generic [ref=e1556]: Definición Formato Impresión
+                        - link "Tipos Cuentas Banco" [ref=e1558] [cursor=pointer]:
+                          - /url: "#/Configuracion/Tesoreria/TiposCuentasBanco"
+                          - generic [ref=e1562]: Tipos Cuentas Banco
+                        - link "Carta de Cobranza" [ref=e1564] [cursor=pointer]:
+                          - /url: "#/Configuracion/Tesoreria/CartaCobranza"
+                          - generic [ref=e1568]: Carta de Cobranza
+                        - link "Importación de Cartolas" [ref=e1570] [cursor=pointer]:
+                          - /url: "#/Configuracion/Tesoreria/ImportacionCartolas"
+                          - generic [ref=e1574]: Importación de Cartolas
+                        - link "Configurar Letra de Cambio" [ref=e1576] [cursor=pointer]:
+                          - /url: "#/Configuracion/Tesoreria/ConfigurarLetraCambio"
+                          - generic [ref=e1580]: Configurar Letra de Cambio
+                    - generic [ref=e1581]:
+                      - generic [ref=e1584] [cursor=pointer]:
+                        - generic [ref=e1586]: Inventario
+                        - img [ref=e1587]: arrow_drop_down
+                      - generic [ref=e1588]:
+                        - link "Configuración Inventario" [ref=e1590] [cursor=pointer]:
+                          - /url: "#/Configuracion/Inventario/ConfiguracionInventario"
+                          - generic [ref=e1594]: Configuración Inventario
+                        - link "Bodegas" [ref=e1596] [cursor=pointer]:
+                          - /url: "#/Configuracion/Inventario/Bodegas"
+                          - generic [ref=e1600]: Bodegas
+                        - link "Unidades" [ref=e1602] [cursor=pointer]:
+                          - /url: "#/Configuracion/Inventario/Unidades"
+                          - generic [ref=e1606]: Unidades
+                        - link "Motivos de Movimiento" [ref=e1608] [cursor=pointer]:
+                          - /url: "#/Configuracion/Inventario/MotivosMovimiento"
+                          - generic [ref=e1612]: Motivos de Movimiento
+                        - link "Listado de tipos de Documentos" [ref=e1614] [cursor=pointer]:
+                          - /url: "#/Configuracion/Inventario/TiposDocumentos"
+                          - generic [ref=e1618]: Listado de tipos de Documentos
+                        - link "Formato Doc. y Definición de reportes" [ref=e1620] [cursor=pointer]:
+                          - /url: "#/Configuracion/Inventario/FormatoDocDefinicionReportes"
+                          - generic [ref=e1624]: Formato Doc. y Definición de reportes
+                    - generic [ref=e1625]:
+                      - generic [ref=e1628] [cursor=pointer]:
+                        - generic [ref=e1630]: Gestión
+                        - img [ref=e1631]: arrow_drop_down
+                      - generic [ref=e1632]:
+                        - link "Indicadores" [ref=e1634] [cursor=pointer]:
+                          - /url: "#/Configuracion/Gestion/Indicadores"
+                          - generic [ref=e1638]: Indicadores
+                        - link "Configuración Inicial" [ref=e1640] [cursor=pointer]:
+                          - /url: "#/Configuracion/Gestion/ConfiguracionInicial"
+                          - generic [ref=e1644]: Configuración Inicial
+                        - link "Alertas" [ref=e1646] [cursor=pointer]:
+                          - /url: "#/Configuracion/Gestion/Alertas"
+                          - generic [ref=e1650]: Alertas
+                        - link "Indicadores Presupuestarios" [ref=e1652] [cursor=pointer]:
+                          - /url: "#/Configuracion/Gestion/IndicadoresPresupuestarios"
+                          - generic [ref=e1656]: Indicadores Presupuestarios
+                    - generic [ref=e1657]:
+                      - generic [ref=e1660] [cursor=pointer]:
+                        - generic [ref=e1662]: Herramientas
+                        - img [ref=e1663]: arrow_drop_down
+                      - generic [ref=e1664]:
+                        - link "Importador Artículos" [ref=e1666] [cursor=pointer]:
+                          - /url: "#/Configuracion/Herramientas/ImportadorArticulos"
+                          - generic [ref=e1670]: Importador Artículos
+                        - link "Importador Empleados" [ref=e1672] [cursor=pointer]:
+                          - /url: "#/Configuracion/Herramientas/ImportadorEmpleados"
+                          - generic [ref=e1676]: Importador Empleados
+                        - link "Importador Compras" [ref=e1678] [cursor=pointer]:
+                          - /url: "#/Configuracion/Herramientas/ImportadorCompras"
+                          - generic [ref=e1682]: Importador Compras
+                        - link "Formato de Archivo Contable" [ref=e1684] [cursor=pointer]:
+                          - /url: "#/Configuracion/Herramientas/FormatoArchivoContable"
+                          - generic [ref=e1688]: Formato de Archivo Contable
+                        - link "Formato de Archivo Ventas" [ref=e1690] [cursor=pointer]:
+                          - /url: "#/Configuracion/Herramientas/FormatoArchivoVentas"
+                          - generic [ref=e1694]: Formato de Archivo Ventas
+                    - generic [ref=e1695]:
+                      - generic [ref=e1698] [cursor=pointer]:
+                        - generic [ref=e1700]: Factura Electrónica
+                        - img [ref=e1701]: arrow_drop_down
+                      - generic [ref=e1702]:
+                        - link "Importador de Certificado" [ref=e1704] [cursor=pointer]:
+                          - /url: "#/Configuracion/FacturaElectronica/ImportadorCertificado"
+                          - generic [ref=e1708]: Importador de Certificado
+                        - link "Importador de CAF" [ref=e1710] [cursor=pointer]:
+                          - /url: "#/Configuracion/FacturaElectronica/ImportadorCAF"
+                          - generic [ref=e1714]: Importador de CAF
+                        - link "Renovar Certificado Digital" [ref=e1716] [cursor=pointer]:
+                          - /url: "#/Configuracion/FacturaElectronica/RenovarCertificadoDigital"
+                          - generic [ref=e1720]: Renovar Certificado Digital
+                - generic [ref=e1721]:
+                  - generic [ref=e1725] [cursor=pointer]:
+                    - generic [ref=e1727]: Administración
+                    - img [ref=e1728]: arrow_drop_down
+                  - generic [ref=e1729]:
+                    - link "Administración de Usuarios" [ref=e1731] [cursor=pointer]:
+                      - /url: "#/Administracion/Administracion/AdministracionUsuario"
+                      - generic [ref=e1735]: Administración de Usuarios
+                    - link "Administración de Grupos" [ref=e1737] [cursor=pointer]:
+                      - /url: "#/Administracion/Administracion/AdministracionGrupos"
+                      - generic [ref=e1741]: Administración de Grupos
+                    - link "Creación de Empresas" [ref=e1743] [cursor=pointer]:
+                      - /url: "#/Administracion/Administracion/CreacionEmpresas"
+                      - generic [ref=e1747]: Creación de Empresas
+                - generic [ref=e1748]:
+                  - generic [ref=e1752] [cursor=pointer]:
+                    - generic [ref=e1754]: Canal de Denuncias
+                    - img [ref=e1755]: arrow_drop_down
+                  - generic [ref=e1756]:
+                    - link "Denuncias" [ref=e1758] [cursor=pointer]:
+                      - /url: "#/CanalDenuncias/Denuncias"
+                      - generic [ref=e1762]: Denuncias
+                    - link "Permisos" [ref=e1764] [cursor=pointer]:
+                      - /url: "#/CanalDenuncias/Permisos"
+                      - generic [ref=e1768]: Permisos
+                - link "Recursos Humanos" [ref=e1770] [cursor=pointer]:
+                  - /url: "#/Nomina/Remuneraciones"
+                  - generic [ref=e1775]: Recursos Humanos
+        - generic [ref=e81]:
+          - generic [ref=e1802]:
+            - link "Inicio":
+              - /url: "#/"
+              - generic [ref=e1803] [cursor=pointer]: Inicio
+            - generic:
+              - text: /
+              - link "Inventario" [ref=e1804] [cursor=pointer]:
+                - /url: "#/Inventario"
+            - generic:
+              - text: /
+              - link "Informes de Inventario" [ref=e1805] [cursor=pointer]:
+                - /url: "#/Inventario/Inventario/Informes"
+            - generic:
+              - text: /
+              - generic [ref=e1806]: Documentos
+          - generic [ref=e1807]:
+            - heading "Documentos" [level=2] [ref=e1808]
+            - generic [ref=e1809]:
+              - generic [ref=e1811]:
+                - tablist [ref=e1814]:
+                  - generic [ref=e1815]:
+                    - tab "Documentos" [selected] [ref=e1816] [cursor=pointer]:
+                      - link "Documentos" [ref=e1819]:
+                        - /url: "#/Inventario/Inventario/Informes/InfTipDoc"
+                    - tab "Mayor Auxiliar" [ref=e1820] [cursor=pointer]:
+                      - link "Mayor Auxiliar" [ref=e1823]:
+                        - /url: "#/Inventario/Inventario/Informes/InfMayorAux"
+                    - tab "Inventario" [ref=e1824] [cursor=pointer]:
+                      - link "Inventario" [ref=e1827]:
+                        - /url: "#/Inventario/Inventario/Informes/InfxInventario"
+                    - tab "Reposición" [ref=e1828] [cursor=pointer]:
+                      - link "Reposición" [ref=e1831]:
+                        - /url: "#/Inventario/Inventario/Informes/InfAnalSaldo"
+                    - tab "Lotes y series" [ref=e1832] [cursor=pointer]:
+                      - link "Lotes y series" [ref=e1835]:
+                        - /url: "#/Inventario/Inventario/Informes/InfArtLotes"
+                    - tab "Sobre stock" [ref=e1836] [cursor=pointer]:
+                      - link "Sobre stock" [ref=e1839]:
+                        - /url: "#/Inventario/Inventario/Informes/InfSobreStock"
+                    - tab "Stock Inmóvil" [ref=e1840] [cursor=pointer]:
+                      - link "Stock Inmóvil" [ref=e1843]:
+                        - /url: "#/Inventario/Inventario/Informes/InfStockInmovil"
+                    - tab "Artículo" [ref=e1844] [cursor=pointer]:
+                      - link "Artículo" [ref=e1847]:
+                        - /url: "#/Inventario/Inventario/Informes/InfArticulos"
+                - generic:
+                  - tabpanel "Documentos"
+              - iframe [ref=e1853]:
+                - generic [active] [ref=f318e1]:
+                  - heading "No se pudo ingresar al sistema" [level=2] [ref=f318e2]:
+                    - generic [ref=f318e3]: No se pudo ingresar al sistema
+                  - paragraph [ref=f318e4]
+                  - paragraph [ref=f318e5]:
+                    - generic [ref=f318e6]:
+                      - text: No fue posible ingresar al sistema. Por favor, compruebe
+                      - link "aquí" [ref=f318e7] [cursor=pointer]:
+                        - /url: ../login.asp
+                      - text: que el cliente,
+                    - text: usuario y password ingresados sean los correctos.
+        - iframe [ref=e1782]:
+          - generic [ref=f312e3]:
+            - generic [ref=f312e9]:
+              - generic [ref=f312e10]:
+                - generic [ref=f312e11]:
+                  - generic [ref=f312e12]:
+                    - img "menu" [ref=f312e13] [cursor=pointer]
+                    - generic:
+                      - list:
+                        - listitem:
+                          - generic: Historial
+                          - img "chat-message.svg"
+                  - generic [ref=f312e16]:
+                    - img "Minimizar" [ref=f312e17] [cursor=pointer]
+                    - img "Cerrar" [ref=f312e18] [cursor=pointer]
+                - generic [ref=f312e19]:
+                  - generic [ref=f312e21]: ¡Hola Victor! Soy Ana, tu asistente virtual
+                  - generic [ref=f312e22]: ¿Cómo te puedo ayudar hoy?
+              - generic [ref=f312e23]:
+                - generic [ref=f312e25]:
+                  - generic [ref=f312e27] [cursor=pointer]: ¿Cómo cargo folios o CAF en el sistema?
+                  - generic [ref=f312e29] [cursor=pointer]: ¿Cómo reenvío documentos al SII?
+                  - generic [ref=f312e31] [cursor=pointer]: ¿Cómo reviso las inconsistencias de inventario?
+                  - generic [ref=f312e33] [cursor=pointer]: ¿Cómo facturo en el ERP?
+                - generic [ref=f312e36]:
+                  - textbox "Haz una pregunta" [ref=f312e37]
+                  - generic:
+                    - img
+            - generic:
+              - list
+    - generic:
+      - list
+  - iframe [ref=e1783]:
+    

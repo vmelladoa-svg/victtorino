@@ -1,0 +1,1051 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: /accounts
+      - generic [ref=e10] [cursor=pointer]: NOVAGRIFERIAS3
+  - generic [ref=e13]:
+    - navigation [ref=e14]:
+      - generic [ref=e21]:
+        - img [ref=e25]
+        - img [ref=e31]
+        - img [ref=e38]
+        - img [ref=e45]
+    - main [ref=e52]:
+      - generic [ref=e54]:
+        - navigation "List of pages" [ref=e55]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Cuentas" [ref=e58] [cursor=pointer]:
+                - /url: https://ads.mercadolibre.cl/accounts
+              - img [ref=e60]
+            - listitem [ref=e62]:
+              - link "JOSERUBEN2 - Search Ads" [ref=e63] [cursor=pointer]:
+                - /url: https://ads.mercadolibre.cl/search/advertisers?accountId=86106
+              - img [ref=e65]
+            - listitem [ref=e67]:
+              - link "JOSERUBEN2 - Product Ads" [ref=e68] [cursor=pointer]:
+                - /url: https://ads.mercadolibre.cl/product-ads/admin
+        - main [ref=e69]:
+          - generic [ref=e70]:
+            - button "Volver" [ref=e73] [cursor=pointer]:
+              - generic [ref=e74]:
+                - img [ref=e75]
+                - text: Volver
+            - heading "Agregar anuncios" [level=1] [ref=e77]
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - generic [ref=e81]: Campaña
+              - generic [ref=e82]: Campaña Mayo
+            - generic [ref=e84]:
+              - generic [ref=e85]: Presupuesto promedio diario
+              - generic [ref=e86]: $ 37.000
+            - generic [ref=e88]:
+              - generic [ref=e89]: ROAS Objetivo
+              - generic [ref=e90]: 4.9x
+            - generic [ref=e92]:
+              - generic [ref=e93]: Anuncios
+              - generic [ref=e94]: "11"
+          - generic [ref=e96]:
+            - generic [ref=e98]: Selecciona los anuncios para tu campaña
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - generic [ref=e233]:
+                  - generic [ref=e235]:
+                    - generic [ref=e238]:
+                      - generic [ref=e239]:
+                        - generic [ref=e240]: Buscar
+                        - textbox "Buscar" [ref=e241]:
+                          - /placeholder: "Buscar por # o título"
+                      - button "Buscar" [ref=e242] [cursor=pointer]:
+                        - img [ref=e243]
+                    - generic [ref=e245]: Escribe al menos 4 caracteres para obtener resultado.
+                  - button "Filtrar" [ref=e247] [cursor=pointer]:
+                    - generic [ref=e248]:
+                      - img [ref=e249]
+                      - generic [ref=e252]: Filtrar
+                - generic [ref=e253]:
+                  - generic [ref=e254]: "Mostrar:"
+                  - combobox "metrics Ventas en Mercado Libre" [ref=e257]:
+                    - generic [ref=e258]: metrics
+                    - generic [ref=e259]: Ventas en Mercado Libre
+                    - img [ref=e261]
+              - generic [ref=e265]:
+                - generic [ref=e267]:
+                  - strong [ref=e268]: "0"
+                  - text: anuncios seleccionados
+                - generic [ref=e269]:
+                  - button "Guardar" [disabled]:
+                    - generic: Guardar
+            - table [ref=e271]:
+              - rowgroup [ref=e272]:
+                - row "Anuncio Campaña actual Ventas en Mercado Libre Últimos 30 días" [ref=e273]:
+                  - columnheader [ref=e274]:
+                    - checkbox [ref=e278] [cursor=pointer]
+                  - columnheader "Anuncio" [ref=e279]:
+                    - generic [ref=e280]: Anuncio
+                  - columnheader "Campaña actual" [ref=e281]:
+                    - generic [ref=e282]: Campaña actual
+                  - columnheader "Ventas en Mercado Libre Últimos 30 días" [ref=e283]:
+                    - generic [ref=e286]:
+                      - generic [ref=e287]:
+                        - generic [ref=e288]: Ventas en Mercado Libre
+                        - generic [ref=e289]: Últimos 30 días
+                      - button [ref=e290] [cursor=pointer]:
+                        - img [ref=e291]
+              - rowgroup [ref=e293]:
+                - row "Catálogo Campaña Mercado Libre 5" [ref=e294]:
+                  - cell [ref=e295]:
+                    - checkbox [ref=e300] [cursor=pointer]
+                  - cell "Catálogo" [ref=e301]:
+                    - generic [ref=e302]:
+                      - paragraph [ref=e304]: Catálogo
+                      - figure [ref=e306]:
+                        - button "product" [ref=e307] [cursor=pointer]:
+                          - img "product" [ref=e308]
+                        - generic [ref=e309]:
+                          - 'generic "ID: MLC2161582436 | ORIGEN: PROPIO" [ref=e310]'
+                          - generic "Desague Lavaplatos 3 1/2 O 11,4 Cm O 114 Mm Con Rebalse Color Plateado" [ref=e311]
+                  - cell "Campaña Mercado Libre" [ref=e312]:
+                    - generic [ref=e313]: Campaña Mercado Libre
+                  - cell "5" [ref=e314]:
+                    - generic [ref=e315]: "5"
+                - row "Catálogo Campaña Mayo 5" [ref=e316]:
+                  - cell [ref=e317]:
+                    - checkbox [ref=e322] [cursor=pointer]
+                  - cell "Catálogo" [ref=e323]:
+                    - generic [ref=e324]:
+                      - paragraph [ref=e326]: Catálogo
+                      - figure [ref=e328]:
+                        - button "product" [ref=e329] [cursor=pointer]:
+                          - img "product" [ref=e330]
+                        - generic [ref=e331]:
+                          - 'generic "ID: MLC1419705055 | ORIGEN: PROPIO" [ref=e332]'
+                          - generic "Lavaplatos Empotrado 80x44 Inox Sec.derecho // Color Plateado" [ref=e333]
+                  - cell "Campaña Mayo" [ref=e334]:
+                    - generic [ref=e335]: Campaña Mayo
+                  - cell "5" [ref=e336]:
+                    - generic [ref=e337]: "5"
+                - row "Campaña Mayo 5" [ref=e338]:
+                  - cell [ref=e339]:
+                    - checkbox [ref=e344] [cursor=pointer]
+                  - cell [ref=e345]:
+                    - figure [ref=e348]:
+                      - button "product" [ref=e349] [cursor=pointer]:
+                        - img "product" [ref=e350]
+                      - generic [ref=e351]:
+                        - 'generic "ID: MLC1306255938 | ORIGEN: PROPIO" [ref=e352]'
+                        - generic "Lavaplatos Empotrado Simple 100x44 Inoxidable Derecho Plateado" [ref=e353]
+                  - cell "Campaña Mayo" [ref=e354]:
+                    - generic [ref=e355]: Campaña Mayo
+                  - cell "5" [ref=e356]:
+                    - generic [ref=e357]: "5"
+                - row "Campaña Mayo 4" [ref=e358]:
+                  - cell [ref=e359]:
+                    - checkbox [ref=e364] [cursor=pointer]
+                  - cell [ref=e365]:
+                    - figure [ref=e368]:
+                      - button "product" [ref=e369] [cursor=pointer]:
+                        - img "product" [ref=e370]
+                      - generic [ref=e371]:
+                        - 'generic "ID: MLC1306255939 | ORIGEN: PROPIO" [ref=e372]'
+                        - generic "Lavaplatos Empotrado Simple 80x44 Secador Izquierdo Plate" [ref=e373]
+                  - cell "Campaña Mayo" [ref=e374]:
+                    - generic [ref=e375]: Campaña Mayo
+                  - cell "4" [ref=e376]:
+                    - generic [ref=e377]: "4"
+                - row "Cyber Day 4" [ref=e378]:
+                  - cell [ref=e379]:
+                    - checkbox [ref=e384] [cursor=pointer]
+                  - cell [ref=e385]:
+                    - figure [ref=e388]:
+                      - button "product" [ref=e389] [cursor=pointer]:
+                        - img "product" [ref=e390]
+                      - generic [ref=e391]:
+                        - 'generic "ID: MLC3719460364 | ORIGEN: PROPIO" [ref=e392]'
+                        - generic "Espejo Redondo Doble Cara Con Aumento X3 Al Muro Blanco" [ref=e393]
+                  - cell "Cyber Day" [ref=e394]:
+                    - generic [ref=e395]: Cyber Day
+                  - cell "4" [ref=e396]:
+                    - generic [ref=e397]: "4"
+                - row "Cyber Day 2" [ref=e398]:
+                  - cell [ref=e399]:
+                    - checkbox [ref=e404] [cursor=pointer]
+                  - cell [ref=e405]:
+                    - figure [ref=e408]:
+                      - button "product" [ref=e409]:
+                        - img "product" [ref=e411]
+                        - img [ref=e413]
+                        - img [ref=e426]
+                        - img [ref=e439]
+                      - generic [ref=e451]:
+                        - 'generic "ID: 8986846802916507 | ORIGEN: PROPIO" [ref=e452]': "ID: 8986846802916507 | ORIGEN: PROPI..."
+                        - generic "Lavaplatos Empotrado 37x32 Chocolate" [ref=e453]
+                        - generic [ref=e455] [cursor=pointer]:
+                          - generic [ref=e456]: 2 variantes
+                          - generic [ref=e458]: (1 no se puede mostrar)
+                  - cell "Cyber Day" [ref=e459]:
+                    - generic [ref=e460]: Cyber Day
+                  - cell "2" [ref=e461]:
+                    - generic [ref=e462]: "2"
+                - row "Catálogo Campaña Mayo 1" [ref=e463]:
+                  - cell [ref=e464]:
+                    - checkbox [ref=e469] [cursor=pointer]
+                  - cell "Catálogo" [ref=e470]:
+                    - generic [ref=e471]:
+                      - paragraph [ref=e473]: Catálogo
+                      - figure [ref=e475]:
+                        - button "product" [ref=e476] [cursor=pointer]:
+                          - img "product" [ref=e477]
+                        - generic [ref=e478]:
+                          - 'generic "ID: MLC1367027081 | ORIGEN: PROPIO" [ref=e479]'
+                          - generic "Lavaplatos Empotrados Simple 100x44 Inox Izquierdo-191432514 Plateado" [ref=e480]
+                  - cell "Campaña Mayo" [ref=e481]:
+                    - generic [ref=e482]: Campaña Mayo
+                  - cell "1" [ref=e483]:
+                    - generic [ref=e484]: "1"
+                - row "Catálogo Sin campaña 0" [ref=e485]:
+                  - cell [ref=e486]:
+                    - checkbox [ref=e491] [cursor=pointer]
+                  - cell "Catálogo" [ref=e492]:
+                    - generic [ref=e493]:
+                      - paragraph [ref=e495]: Catálogo
+                      - figure [ref=e497]:
+                        - button "product" [ref=e498] [cursor=pointer]:
+                          - img "product" [ref=e499]
+                        - generic [ref=e500]:
+                          - 'generic "ID: MLC4079905028 | ORIGEN: PROPIO" [ref=e501]'
+                          - generic "Válvula De Desvío Diverter De 3 Vías Salidas De 1/2 Y 3/8 Plateado Cromado" [ref=e502]
+                  - cell "Sin campaña" [ref=e503]:
+                    - generic [ref=e504]: Sin campaña
+                  - cell "0" [ref=e505]:
+                    - generic [ref=e506]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e507]:
+                  - cell [ref=e508]:
+                    - checkbox [ref=e513] [cursor=pointer]
+                  - cell "Catálogo" [ref=e514]:
+                    - generic [ref=e515]:
+                      - paragraph [ref=e517]: Catálogo
+                      - figure [ref=e519]:
+                        - button "product" [ref=e520] [cursor=pointer]:
+                          - img "product" [ref=e521]
+                        - generic [ref=e522]:
+                          - 'generic "ID: MLC4080595360 | ORIGEN: PROPIO" [ref=e523]'
+                          - generic "Sifon De Botella Metálico Lavatorio 1 1/4 Plateado" [ref=e524]
+                  - cell "Sin campaña" [ref=e525]:
+                    - generic [ref=e526]: Sin campaña
+                  - cell "0" [ref=e527]:
+                    - generic [ref=e528]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e529]:
+                  - cell [ref=e530]:
+                    - checkbox [ref=e535] [cursor=pointer]
+                  - cell "Catálogo" [ref=e536]:
+                    - generic [ref=e537]:
+                      - paragraph [ref=e539]: Catálogo
+                      - figure [ref=e541]:
+                        - button "product" [ref=e542]:
+                          - img "product" [ref=e544]
+                          - img [ref=e546]
+                          - img [ref=e559]
+                          - img [ref=e572]
+                        - generic [ref=e584]:
+                          - 'generic "ID: MLC67879002 | ORIGEN: PROPIO" [ref=e585]'
+                          - generic "Sifón de desagüe Victtorino Accesorios para receptáculos 90mm-Receptaculo-Victtorino en Redondo" [ref=e586]
+                          - generic [ref=e589] [cursor=pointer]: 2 variantes
+                  - cell "Sin campaña" [ref=e590]:
+                    - generic [ref=e591]: Sin campaña
+                  - cell "0" [ref=e592]:
+                    - generic [ref=e593]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e594]:
+                  - cell [ref=e595]:
+                    - checkbox [ref=e600] [cursor=pointer]
+                  - cell "Catálogo" [ref=e601]:
+                    - generic [ref=e602]:
+                      - paragraph [ref=e604]: Catálogo
+                      - figure [ref=e606]:
+                        - button "product" [ref=e607]:
+                          - img "product" [ref=e609]
+                          - img [ref=e611]
+                          - img [ref=e624]
+                          - img [ref=e637]
+                        - generic [ref=e649]:
+                          - 'generic "ID: MLC67498090 | ORIGEN: PROPIO" [ref=e650]'
+                          - generic "Dispensador para jabón líquido Täumm Schawarz" [ref=e651]
+                          - generic [ref=e654] [cursor=pointer]: 2 variantes
+                  - cell "Campaña Mercado Libre" [ref=e655]:
+                    - generic [ref=e656]: Campaña Mercado Libre
+                  - cell "0" [ref=e657]:
+                    - generic [ref=e658]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e659]:
+                  - cell [ref=e660]:
+                    - checkbox [ref=e665] [cursor=pointer]
+                  - cell "Catálogo" [ref=e666]:
+                    - generic [ref=e667]:
+                      - paragraph [ref=e669]: Catálogo
+                      - figure [ref=e671]:
+                        - button "product" [ref=e672] [cursor=pointer]:
+                          - img "product" [ref=e673]
+                        - generic [ref=e674]:
+                          - 'generic "ID: MLC4080595354 | ORIGEN: PROPIO" [ref=e675]'
+                          - generic "Victtorino Hogar Compacto Lavacopas Lavaplatos Plateado" [ref=e676]
+                  - cell "Sin campaña" [ref=e677]:
+                    - generic [ref=e678]: Sin campaña
+                  - cell "0" [ref=e679]:
+                    - generic [ref=e680]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e681]:
+                  - cell [ref=e682]:
+                    - checkbox [ref=e687] [cursor=pointer]
+                  - cell "Catálogo" [ref=e688]:
+                    - generic [ref=e689]:
+                      - paragraph [ref=e691]: Catálogo
+                      - figure [ref=e693]:
+                        - button "product" [ref=e694]:
+                          - img "product" [ref=e696]
+                          - img [ref=e698]
+                          - img [ref=e711]
+                          - img [ref=e724]
+                        - generic [ref=e736]:
+                          - 'generic "ID: MLC66202130 | ORIGEN: PROPIO" [ref=e737]'
+                          - generic "Mezcladora de baño Victtorino Llave Dusseldorf" [ref=e738]
+                          - generic [ref=e741] [cursor=pointer]: 2 variantes
+                  - cell "Campaña Mercado Libre" [ref=e742]:
+                    - generic [ref=e743]: Campaña Mercado Libre
+                  - cell "0" [ref=e744]:
+                    - generic [ref=e745]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e746]:
+                  - cell [ref=e747]:
+                    - checkbox [ref=e752] [cursor=pointer]
+                  - cell "Catálogo" [ref=e753]:
+                    - generic [ref=e754]:
+                      - paragraph [ref=e756]: Catálogo
+                      - figure [ref=e758]:
+                        - button "product" [ref=e759]:
+                          - img "product" [ref=e761]
+                          - img [ref=e763]
+                          - img [ref=e776]
+                          - img [ref=e789]
+                        - generic [ref=e801]:
+                          - 'generic "ID: MLC58997729 | ORIGEN: PROPIO" [ref=e802]'
+                          - generic "Sifón de desagüe Victtorino Desagües Click Clack 1 1/4 Sin Rebalse en Redondo" [ref=e803]
+                          - generic [ref=e806] [cursor=pointer]: 2 variantes
+                  - cell "Sin campaña" [ref=e807]:
+                    - generic [ref=e808]: Sin campaña
+                  - cell "0" [ref=e809]:
+                    - generic [ref=e810]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e811]:
+                  - cell [ref=e812]:
+                    - checkbox [ref=e817] [cursor=pointer]
+                  - cell "Catálogo" [ref=e818]:
+                    - generic [ref=e819]:
+                      - paragraph [ref=e821]: Catálogo
+                      - figure [ref=e823]:
+                        - button "product" [ref=e824]:
+                          - img "product" [ref=e826]
+                          - img [ref=e828]
+                          - img [ref=e841]
+                          - img [ref=e854]
+                        - generic [ref=e866]:
+                          - 'generic "ID: MLC58519071 | ORIGEN: PROPIO" [ref=e867]'
+                          - generic "Grifería de baño Victtorino Llave lavatorio Monomando Lavatorio Colomba" [ref=e868]
+                          - generic [ref=e871] [cursor=pointer]: 2 variantes
+                  - cell "Sin campaña" [ref=e872]:
+                    - generic [ref=e873]: Sin campaña
+                  - cell "0" [ref=e874]:
+                    - generic [ref=e875]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e876]:
+                  - cell [ref=e877]:
+                    - checkbox [ref=e882] [cursor=pointer]
+                  - cell "Catálogo" [ref=e883]:
+                    - generic [ref=e884]:
+                      - paragraph [ref=e886]: Catálogo
+                      - figure [ref=e888]:
+                        - button "product" [ref=e889]:
+                          - img "product" [ref=e891]
+                          - img [ref=e893]
+                          - img [ref=e906]
+                          - img [ref=e919]
+                        - generic [ref=e931]:
+                          - 'generic "ID: MLC43500907 | ORIGEN: PROPIO" [ref=e932]'
+                          - generic "Asiento WC Täumm Eco Asiento Con Tapa WC Eco de plástico" [ref=e933]
+                          - generic [ref=e936] [cursor=pointer]: 2 variantes
+                  - cell "Sin campaña" [ref=e937]:
+                    - generic [ref=e938]: Sin campaña
+                  - cell "0" [ref=e939]:
+                    - generic [ref=e940]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e941]:
+                  - cell [ref=e942]:
+                    - checkbox [ref=e947] [cursor=pointer]
+                  - cell "Catálogo" [ref=e948]:
+                    - generic [ref=e949]:
+                      - paragraph [ref=e951]: Catálogo
+                      - figure [ref=e953]:
+                        - button "product" [ref=e954] [cursor=pointer]:
+                          - img "product" [ref=e955]
+                        - generic [ref=e956]:
+                          - 'generic "ID: MLC4081557162 | ORIGEN: PROPIO" [ref=e957]'
+                          - generic "Täumm Notte Notte 6 Piezas Negro" [ref=e958]
+                  - cell "Sin campaña" [ref=e959]:
+                    - generic [ref=e960]: Sin campaña
+                  - cell "0" [ref=e961]:
+                    - generic [ref=e962]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e963]:
+                  - cell [ref=e964]:
+                    - checkbox [ref=e969] [cursor=pointer]
+                  - cell "Catálogo" [ref=e970]:
+                    - generic [ref=e971]:
+                      - paragraph [ref=e973]: Catálogo
+                      - figure [ref=e975]:
+                        - button "product" [ref=e976]:
+                          - img "product" [ref=e978]
+                          - img [ref=e980]
+                          - img [ref=e993]
+                          - img [ref=e1006]
+                        - generic [ref=e1018]:
+                          - 'generic "ID: MLC42498212 | ORIGEN: PROPIO" [ref=e1019]'
+                          - generic "Basurero Papelero Pedal 3 Lts Acero Inoxidable Color Plateado" [ref=e1020]
+                          - generic [ref=e1023] [cursor=pointer]: 2 variantes
+                  - cell "Sin campaña" [ref=e1024]:
+                    - generic [ref=e1025]: Sin campaña
+                  - cell "0" [ref=e1026]:
+                    - generic [ref=e1027]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e1028]:
+                  - cell [ref=e1029]:
+                    - checkbox [ref=e1034] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1035]:
+                    - generic [ref=e1036]:
+                      - paragraph [ref=e1038]: Catálogo
+                      - figure [ref=e1040]:
+                        - button "product" [ref=e1041]:
+                          - img "product" [ref=e1043]
+                          - img [ref=e1045]
+                          - img [ref=e1058]
+                          - img [ref=e1071]
+                        - generic [ref=e1083]:
+                          - 'generic "ID: MLC41735117 | ORIGEN: PROPIO" [ref=e1084]'
+                          - generic "Grifería de baño Täumm NOTTE DUCHA EMPOTRADO NOTTE" [ref=e1085]
+                          - generic [ref=e1088] [cursor=pointer]: 2 variantes
+                  - cell "Sin campaña" [ref=e1089]:
+                    - generic [ref=e1090]: Sin campaña
+                  - cell "0" [ref=e1091]:
+                    - generic [ref=e1092]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e1093]:
+                  - cell [ref=e1094]:
+                    - checkbox [ref=e1099] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1100]:
+                    - generic [ref=e1101]:
+                      - paragraph [ref=e1103]: Catálogo
+                      - figure [ref=e1105]:
+                        - button "product" [ref=e1106] [cursor=pointer]:
+                          - img "product" [ref=e1107]
+                        - generic [ref=e1108]:
+                          - 'generic "ID: MLC4081557164 | ORIGEN: PROPIO" [ref=e1109]'
+                          - generic "Täumm Gas" [ref=e1110]
+                  - cell "Sin campaña" [ref=e1111]:
+                    - generic [ref=e1112]: Sin campaña
+                  - cell "0" [ref=e1113]:
+                    - generic [ref=e1114]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e1115]:
+                  - cell [ref=e1116]:
+                    - checkbox [ref=e1121] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1122]:
+                    - generic [ref=e1123]:
+                      - paragraph [ref=e1125]: Catálogo
+                      - figure [ref=e1127]:
+                        - button "product" [ref=e1128]:
+                          - img "product" [ref=e1130]
+                          - img [ref=e1132]
+                          - img [ref=e1145]
+                          - img [ref=e1158]
+                        - generic [ref=e1170]:
+                          - 'generic "ID: MLC39244369 | ORIGEN: PROPIO" [ref=e1171]'
+                          - generic "Mampara de ducha Täumm Vidrio Templado 120 a 140 cms x 190 cms puerta hecha de vidrio templado" [ref=e1172]
+                          - generic [ref=e1174] [cursor=pointer]:
+                            - generic [ref=e1175]: 3 variantes
+                            - generic [ref=e1177]: (1 no se puede mostrar)
+                  - cell "Sin campaña" [ref=e1178]:
+                    - generic [ref=e1179]: Sin campaña
+                  - cell "0" [ref=e1180]:
+                    - generic [ref=e1181]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e1182]:
+                  - cell [ref=e1183]:
+                    - checkbox [ref=e1188] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1189]:
+                    - generic [ref=e1190]:
+                      - paragraph [ref=e1192]: Catálogo
+                      - figure [ref=e1194]:
+                        - button "product" [ref=e1195]:
+                          - img "product" [ref=e1197]
+                          - img [ref=e1199]
+                          - img [ref=e1212]
+                          - img [ref=e1225]
+                        - generic [ref=e1237]:
+                          - 'generic "ID: MLC38831770 | ORIGEN: PROPIO" [ref=e1238]'
+                          - generic "Kit de accesorios para baño Täumm Baño Accesorios Baño Colomba" [ref=e1239]
+                          - generic [ref=e1242] [cursor=pointer]: 2 variantes
+                  - cell "Campaña Mercado Libre" [ref=e1243]:
+                    - generic [ref=e1244]: Campaña Mercado Libre
+                  - cell "0" [ref=e1245]:
+                    - generic [ref=e1246]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e1247]:
+                  - cell [ref=e1248]:
+                    - checkbox [ref=e1253] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1254]:
+                    - generic [ref=e1255]:
+                      - paragraph [ref=e1257]: Catálogo
+                      - figure [ref=e1259]:
+                        - button "product" [ref=e1260]:
+                          - img "product" [ref=e1262]
+                          - img [ref=e1264]
+                          - img [ref=e1277]
+                          - img [ref=e1290]
+                        - generic [ref=e1302]:
+                          - 'generic "ID: MLC38612078 | ORIGEN: PROPIO" [ref=e1303]'
+                          - generic "Grifería de baño Colomba Colomba" [ref=e1304]
+                          - generic [ref=e1306] [cursor=pointer]:
+                            - generic [ref=e1307]: 3 variantes
+                            - generic [ref=e1309]: (1 no se puede mostrar)
+                  - cell "Sin campaña" [ref=e1310]:
+                    - generic [ref=e1311]: Sin campaña
+                  - cell "0" [ref=e1312]:
+                    - generic [ref=e1313]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e1314]:
+                  - cell [ref=e1315]:
+                    - checkbox [ref=e1320] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1321]:
+                    - generic [ref=e1322]:
+                      - paragraph [ref=e1324]: Catálogo
+                      - figure [ref=e1326]:
+                        - button "product" [ref=e1327]:
+                          - img "product" [ref=e1329]
+                          - img [ref=e1331]
+                          - img [ref=e1344]
+                          - img [ref=e1357]
+                        - generic [ref=e1369]:
+                          - 'generic "ID: MLC35897655 | ORIGEN: PROPIO" [ref=e1370]'
+                          - generic "1 Paquete De Toalla Interfoliada 200 U" [ref=e1371]
+                          - generic [ref=e1373] [cursor=pointer]:
+                            - generic [ref=e1374]: 3 variantes
+                            - generic [ref=e1376]: (1 no se puede mostrar)
+                  - cell "Campaña Mercado Libre" [ref=e1377]:
+                    - generic [ref=e1378]: Campaña Mercado Libre
+                  - cell "0" [ref=e1379]:
+                    - generic [ref=e1380]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e1381]:
+                  - cell [ref=e1382]:
+                    - checkbox [ref=e1387] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1388]:
+                    - generic [ref=e1389]:
+                      - paragraph [ref=e1391]: Catálogo
+                      - figure [ref=e1393]:
+                        - button "product" [ref=e1394]:
+                          - img "product" [ref=e1396]
+                          - img [ref=e1398]
+                          - img [ref=e1411]
+                          - img [ref=e1424]
+                        - generic [ref=e1436]:
+                          - 'generic "ID: MLC32227833 | ORIGEN: PROPIO" [ref=e1437]'
+                          - generic "Grifería de baño Täumm ABS Fija Al Muro Con Difusor" [ref=e1438]
+                          - generic [ref=e1441] [cursor=pointer]: 2 variantes
+                  - cell "Campaña Mercado Libre" [ref=e1442]:
+                    - generic [ref=e1443]: Campaña Mercado Libre
+                  - cell "0" [ref=e1444]:
+                    - generic [ref=e1445]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e1446]:
+                  - cell [ref=e1447]:
+                    - checkbox [ref=e1452] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1453]:
+                    - generic [ref=e1454]:
+                      - paragraph [ref=e1456]: Catálogo
+                      - figure [ref=e1458]:
+                        - button "product" [ref=e1459] [cursor=pointer]:
+                          - img "product" [ref=e1460]
+                        - generic [ref=e1461]:
+                          - 'generic "ID: MLC4079904244 | ORIGEN: PROPIO" [ref=e1462]'
+                          - generic "Barra Seguridad Y Soporte Para Ducha Telefono Adaptable 65cm Color 52053" [ref=e1463]
+                  - cell "Sin campaña" [ref=e1464]:
+                    - generic [ref=e1465]: Sin campaña
+                  - cell "0" [ref=e1466]:
+                    - generic [ref=e1467]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e1468]:
+                  - cell [ref=e1469]:
+                    - checkbox [ref=e1474] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1475]:
+                    - generic [ref=e1476]:
+                      - paragraph [ref=e1478]: Catálogo
+                      - figure [ref=e1480]:
+                        - button "product" [ref=e1481] [cursor=pointer]:
+                          - img "product" [ref=e1482]
+                        - generic [ref=e1483]:
+                          - 'generic "ID: MLC4080751776 | ORIGEN: PROPIO" [ref=e1484]'
+                          - generic "Porta Papel Higiénico Wc Metalico Redondo" [ref=e1485]
+                  - cell "Sin campaña" [ref=e1486]:
+                    - generic [ref=e1487]: Sin campaña
+                  - cell "0" [ref=e1488]:
+                    - generic [ref=e1489]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e1490]:
+                  - cell [ref=e1491]:
+                    - checkbox [ref=e1496] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1497]:
+                    - generic [ref=e1498]:
+                      - paragraph [ref=e1500]: Catálogo
+                      - figure [ref=e1502]:
+                        - button "product" [ref=e1503]:
+                          - img "product" [ref=e1505]
+                          - img [ref=e1507]
+                          - img [ref=e1520]
+                          - img [ref=e1533]
+                        - generic [ref=e1545]:
+                          - 'generic "ID: MLC27509678 | ORIGEN: PROPIO" [ref=e1546]'
+                          - generic "Dispensador De Jabón Acero Inoxidable 800ml" [ref=e1547]
+                          - generic [ref=e1549] [cursor=pointer]:
+                            - generic [ref=e1550]: 3 variantes
+                            - generic [ref=e1552]: (1 no se puede mostrar)
+                  - cell "Sin campaña" [ref=e1553]:
+                    - generic [ref=e1554]: Sin campaña
+                  - cell "0" [ref=e1555]:
+                    - generic [ref=e1556]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e1557]:
+                  - cell [ref=e1558]:
+                    - checkbox [ref=e1563] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1564]:
+                    - generic [ref=e1565]:
+                      - paragraph [ref=e1567]: Catálogo
+                      - figure [ref=e1569]:
+                        - button "product" [ref=e1570] [cursor=pointer]:
+                          - img "product" [ref=e1571]
+                        - generic [ref=e1572]:
+                          - 'generic "ID: MLC2110472034 | ORIGEN: PROPIO" [ref=e1573]'
+                          - generic "Válvula De Descarga Dual Flush Para Estanque Tradicional" [ref=e1574]
+                  - cell "Campaña Mercado Libre" [ref=e1575]:
+                    - generic [ref=e1576]: Campaña Mercado Libre
+                  - cell "0" [ref=e1577]:
+                    - generic [ref=e1578]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e1579]:
+                  - cell [ref=e1580]:
+                    - checkbox [ref=e1585] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1586]:
+                    - generic [ref=e1587]:
+                      - paragraph [ref=e1589]: Catálogo
+                      - figure [ref=e1591]:
+                        - button "product" [ref=e1592] [cursor=pointer]:
+                          - img "product" [ref=e1593]
+                        - generic [ref=e1594]:
+                          - 'generic "ID: MLC1982791610 | ORIGEN: PROPIO" [ref=e1595]'
+                          - generic "Válvula De Descarga Para Wc Con Flapper Y Cadena" [ref=e1596]
+                  - cell "Campaña Mercado Libre" [ref=e1597]:
+                    - generic [ref=e1598]: Campaña Mercado Libre
+                  - cell "0" [ref=e1599]:
+                    - generic [ref=e1600]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e1601]:
+                  - cell [ref=e1602]:
+                    - checkbox [ref=e1607] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1608]:
+                    - generic [ref=e1609]:
+                      - paragraph [ref=e1611]: Catálogo
+                      - figure [ref=e1613]:
+                        - button "product" [ref=e1614] [cursor=pointer]:
+                          - img "product" [ref=e1615]
+                        - generic [ref=e1616]:
+                          - 'generic "ID: MLC1420078703 | ORIGEN: PROPIO" [ref=e1617]'
+                          - generic "Sifon Plástico Con Tubo Para Lavaplatos 1 1/2 Color Blanco" [ref=e1618]
+                  - cell "Sin campaña" [ref=e1619]:
+                    - generic [ref=e1620]: Sin campaña
+                  - cell "0" [ref=e1621]:
+                    - generic [ref=e1622]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e1623]:
+                  - cell [ref=e1624]:
+                    - checkbox [ref=e1629] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1630]:
+                    - generic [ref=e1631]:
+                      - paragraph [ref=e1633]: Catálogo
+                      - figure [ref=e1635]:
+                        - button "product" [ref=e1636] [cursor=pointer]:
+                          - img "product" [ref=e1637]
+                        - generic [ref=e1638]:
+                          - 'generic "ID: MLC1418783999 | ORIGEN: PROPIO" [ref=e1639]'
+                          - generic "Jabonera Colomba Cromada Vidrio Empavonado Color Plateado" [ref=e1640]
+                  - cell "Sin campaña" [ref=e1641]:
+                    - generic [ref=e1642]: Sin campaña
+                  - cell "0" [ref=e1643]:
+                    - generic [ref=e1644]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e1645]:
+                  - cell [ref=e1646]:
+                    - checkbox [ref=e1651] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1652]:
+                    - generic [ref=e1653]:
+                      - paragraph [ref=e1655]: Catálogo
+                      - figure [ref=e1657]:
+                        - button "product" [ref=e1658]:
+                          - img "product" [ref=e1660]
+                          - img [ref=e1662]
+                          - img [ref=e1675]
+                          - img [ref=e1688]
+                        - generic [ref=e1700]:
+                          - 'generic "ID: MLC24562917 | ORIGEN: PROPIO" [ref=e1701]'
+                          - generic "Agarradera para baño Täumm Barras de seguridad 3 Apoyos 90 Horizontal" [ref=e1702]
+                          - generic [ref=e1704] [cursor=pointer]:
+                            - generic [ref=e1705]: 3 variantes
+                            - generic [ref=e1707]: (1 no se puede mostrar)
+                  - cell "Campaña Mercado Libre" [ref=e1708]:
+                    - generic [ref=e1709]: Campaña Mercado Libre
+                  - cell "0" [ref=e1710]:
+                    - generic [ref=e1711]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e1712]:
+                  - cell [ref=e1713]:
+                    - checkbox [ref=e1718] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1719]:
+                    - generic [ref=e1720]:
+                      - paragraph [ref=e1722]: Catálogo
+                      - figure [ref=e1724]:
+                        - button "product" [ref=e1725] [cursor=pointer]:
+                          - img "product" [ref=e1726]
+                        - generic [ref=e1727]:
+                          - 'generic "ID: MLC1810379138 | ORIGEN: PROPIO" [ref=e1728]'
+                          - generic "Dispensador De Jabón Manual Täumm Para Pared, Blanco De Plástico 500 Ml" [ref=e1729]
+                  - cell "Campaña Mercado Libre" [ref=e1730]:
+                    - generic [ref=e1731]: Campaña Mercado Libre
+                  - cell "0" [ref=e1732]:
+                    - generic [ref=e1733]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e1734]:
+                  - cell [ref=e1735]:
+                    - checkbox [ref=e1740] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1741]:
+                    - generic [ref=e1742]:
+                      - paragraph [ref=e1744]: Catálogo
+                      - figure [ref=e1746]:
+                        - button "product" [ref=e1747]:
+                          - img "product" [ref=e1749]
+                          - img [ref=e1751]
+                          - img [ref=e1764]
+                          - img [ref=e1777]
+                        - generic [ref=e1789]:
+                          - 'generic "ID: MLC24386018 | ORIGEN: PROPIO" [ref=e1790]'
+                          - generic "Grifo para lavaplatos Täumm Flexible Monomando" [ref=e1791]
+                          - generic [ref=e1793] [cursor=pointer]:
+                            - generic [ref=e1794]: 3 variantes
+                            - generic [ref=e1796]: (1 no se puede mostrar)
+                  - cell "Sin campaña" [ref=e1797]:
+                    - generic [ref=e1798]: Sin campaña
+                  - cell "0" [ref=e1799]:
+                    - generic [ref=e1800]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e1801]:
+                  - cell [ref=e1802]:
+                    - checkbox [ref=e1807] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1808]:
+                    - generic [ref=e1809]:
+                      - paragraph [ref=e1811]: Catálogo
+                      - figure [ref=e1813]:
+                        - button "product" [ref=e1814]:
+                          - img "product" [ref=e1816]
+                          - img [ref=e1818]
+                          - img [ref=e1831]
+                          - img [ref=e1844]
+                        - generic [ref=e1856]:
+                          - 'generic "ID: MLC24044160 | ORIGEN: PROPIO" [ref=e1857]'
+                          - generic "Lavabo de baño Täumm Cristal Bowl 41,5 cm" [ref=e1858]
+                          - generic [ref=e1860] [cursor=pointer]:
+                            - generic [ref=e1861]: 2 variantes
+                            - generic [ref=e1863]: (1 no se puede mostrar)
+                  - cell "Campaña Mercado Libre" [ref=e1864]:
+                    - generic [ref=e1865]: Campaña Mercado Libre
+                  - cell "0" [ref=e1866]:
+                    - generic [ref=e1867]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e1868]:
+                  - cell [ref=e1869]:
+                    - checkbox [ref=e1874] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1875]:
+                    - generic [ref=e1876]:
+                      - paragraph [ref=e1878]: Catálogo
+                      - figure [ref=e1880]:
+                        - button "product" [ref=e1881]:
+                          - img "product" [ref=e1883]
+                          - img [ref=e1885]
+                          - img [ref=e1898]
+                          - img [ref=e1911]
+                        - generic [ref=e1923]:
+                          - 'generic "ID: MLC23431504 | ORIGEN: PROPIO" [ref=e1924]'
+                          - generic "Agarradera para baño Täumm Inox 30x3cm" [ref=e1925]
+                          - generic [ref=e1927] [cursor=pointer]:
+                            - generic [ref=e1928]: 4 variantes
+                            - generic [ref=e1930]: (3 no se pueden mostrar)
+                  - cell "Sin campaña" [ref=e1931]:
+                    - generic [ref=e1932]: Sin campaña
+                  - cell "0" [ref=e1933]:
+                    - generic [ref=e1934]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e1935]:
+                  - cell [ref=e1936]:
+                    - checkbox [ref=e1941] [cursor=pointer]
+                  - cell "Catálogo" [ref=e1942]:
+                    - generic [ref=e1943]:
+                      - paragraph [ref=e1945]: Catálogo
+                      - figure [ref=e1947]:
+                        - button "product" [ref=e1948]:
+                          - img "product" [ref=e1950]
+                          - img [ref=e1952]
+                          - img [ref=e1965]
+                          - img [ref=e1978]
+                        - generic [ref=e1990]:
+                          - 'generic "ID: MLC23431503 | ORIGEN: PROPIO" [ref=e1991]'
+                          - generic "Agarradera para baño Täumm Montaje izquierda/derecha" [ref=e1992]
+                          - generic [ref=e1994] [cursor=pointer]:
+                            - generic [ref=e1995]: 3 variantes
+                            - generic [ref=e1997]: (1 no se puede mostrar)
+                  - cell "Campaña Mercado Libre" [ref=e1998]:
+                    - generic [ref=e1999]: Campaña Mercado Libre
+                  - cell "0" [ref=e2000]:
+                    - generic [ref=e2001]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e2002]:
+                  - cell [ref=e2003]:
+                    - checkbox [ref=e2008] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2009]:
+                    - generic [ref=e2010]:
+                      - paragraph [ref=e2012]: Catálogo
+                      - figure [ref=e2014]:
+                        - button "product" [ref=e2015]:
+                          - img "product" [ref=e2017]
+                          - img [ref=e2019]
+                          - img [ref=e2032]
+                          - img [ref=e2045]
+                        - generic [ref=e2057]:
+                          - 'generic "ID: MLC23429550 | ORIGEN: PROPIO" [ref=e2058]'
+                          - generic "Täumm Dispensador WC Acrílico" [ref=e2059]
+                          - generic [ref=e2061] [cursor=pointer]:
+                            - generic [ref=e2062]: 3 variantes
+                            - generic [ref=e2064]: (1 no se puede mostrar)
+                  - cell "Sin campaña" [ref=e2065]:
+                    - generic [ref=e2066]: Sin campaña
+                  - cell "0" [ref=e2067]:
+                    - generic [ref=e2068]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e2069]:
+                  - cell [ref=e2070]:
+                    - checkbox [ref=e2075] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2076]:
+                    - generic [ref=e2077]:
+                      - paragraph [ref=e2079]: Catálogo
+                      - figure [ref=e2081]:
+                        - button "product" [ref=e2082]:
+                          - img "product" [ref=e2084]
+                          - img [ref=e2086]
+                          - img [ref=e2099]
+                          - img [ref=e2112]
+                        - generic [ref=e2124]:
+                          - 'generic "ID: MLC23366372 | ORIGEN: PROPIO" [ref=e2125]'
+                          - generic "Agarradera para baño Täumm Inox 40 cm" [ref=e2126]
+                          - generic [ref=e2128] [cursor=pointer]:
+                            - generic [ref=e2129]: 4 variantes
+                            - generic [ref=e2131]: (2 no se pueden mostrar)
+                  - cell "Campaña Mercado Libre" [ref=e2132]:
+                    - generic [ref=e2133]: Campaña Mercado Libre
+                  - cell "0" [ref=e2134]:
+                    - generic [ref=e2135]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e2136]:
+                  - cell [ref=e2137]:
+                    - checkbox [ref=e2142] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2143]:
+                    - generic [ref=e2144]:
+                      - paragraph [ref=e2146]: Catálogo
+                      - figure [ref=e2148]:
+                        - button "product" [ref=e2149]:
+                          - img "product" [ref=e2151]
+                          - img [ref=e2153]
+                          - img [ref=e2166]
+                          - img [ref=e2179]
+                        - generic [ref=e2191]:
+                          - 'generic "ID: MLC23348431 | ORIGEN: PROPIO" [ref=e2192]'
+                          - generic "Agarradera para baño Täumm Inox 60x3cm" [ref=e2193]
+                          - generic [ref=e2195] [cursor=pointer]:
+                            - generic [ref=e2196]: 3 variantes
+                            - generic [ref=e2198]: (1 no se puede mostrar)
+                  - cell "Sin campaña" [ref=e2199]:
+                    - generic [ref=e2200]: Sin campaña
+                  - cell "0" [ref=e2201]:
+                    - generic [ref=e2202]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e2203]:
+                  - cell [ref=e2204]:
+                    - checkbox [ref=e2209] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2210]:
+                    - generic [ref=e2211]:
+                      - paragraph [ref=e2213]: Catálogo
+                      - figure [ref=e2215]:
+                        - button "product" [ref=e2216] [cursor=pointer]:
+                          - img "product" [ref=e2217]
+                        - generic [ref=e2218]:
+                          - 'generic "ID: MLC1577178766 | ORIGEN: PROPIO" [ref=e2219]'
+                          - generic "Llave Täumm Monomando Lavaplato Negra Notte Negro Mate" [ref=e2220]
+                  - cell "Campaña Mercado Libre" [ref=e2221]:
+                    - generic [ref=e2222]: Campaña Mercado Libre
+                  - cell "0" [ref=e2223]:
+                    - generic [ref=e2224]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e2225]:
+                  - cell [ref=e2226]:
+                    - checkbox [ref=e2231] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2232]:
+                    - generic [ref=e2233]:
+                      - paragraph [ref=e2235]: Catálogo
+                      - figure [ref=e2237]:
+                        - button "product" [ref=e2238]:
+                          - img "product" [ref=e2240]
+                          - img [ref=e2242]
+                          - img [ref=e2255]
+                          - img [ref=e2268]
+                        - generic [ref=e2280]:
+                          - 'generic "ID: MLC22608507 | ORIGEN: PROPIO" [ref=e2281]'
+                          - generic "Toallero Victtorino PortaToallaRepisa 010707011 de 16cm x 60cm x 23cm" [ref=e2282]
+                          - generic [ref=e2284] [cursor=pointer]:
+                            - generic [ref=e2285]: 3 variantes
+                            - generic [ref=e2287]: (1 no se puede mostrar)
+                  - cell "Sin campaña" [ref=e2288]:
+                    - generic [ref=e2289]: Sin campaña
+                  - cell "0" [ref=e2290]:
+                    - generic [ref=e2291]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e2292]:
+                  - cell [ref=e2293]:
+                    - checkbox [ref=e2298] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2299]:
+                    - generic [ref=e2300]:
+                      - paragraph [ref=e2302]: Catálogo
+                      - figure [ref=e2304]:
+                        - button "product" [ref=e2305]:
+                          - img "product" [ref=e2307]
+                          - img [ref=e2309]
+                          - img [ref=e2322]
+                          - img [ref=e2335]
+                        - generic [ref=e2347]:
+                          - 'generic "ID: MLC22271653 | ORIGEN: PROPIO" [ref=e2348]'
+                          - generic "Lavaplato Täumm Victtorino Ancho 686x456x21 Hamburg" [ref=e2349]
+                          - generic [ref=e2351] [cursor=pointer]:
+                            - generic [ref=e2352]: 3 variantes
+                            - generic [ref=e2354]: (1 no se puede mostrar)
+                  - cell "Campaña Mercado Libre" [ref=e2355]:
+                    - generic [ref=e2356]: Campaña Mercado Libre
+                  - cell "0" [ref=e2357]:
+                    - generic [ref=e2358]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e2359]:
+                  - cell [ref=e2360]:
+                    - checkbox [ref=e2365] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2366]:
+                    - generic [ref=e2367]:
+                      - paragraph [ref=e2369]: Catálogo
+                      - figure [ref=e2371]:
+                        - button "product" [ref=e2372]:
+                          - img "product" [ref=e2374]
+                          - img [ref=e2376]
+                          - img [ref=e2389]
+                          - img [ref=e2402]
+                        - generic [ref=e2414]:
+                          - 'generic "ID: MLC21628946 | ORIGEN: PROPIO" [ref=e2415]'
+                          - generic "Grifo para lavaplatos Täumm Vertical con filtro de agua" [ref=e2416]
+                          - generic [ref=e2418] [cursor=pointer]:
+                            - generic [ref=e2419]: 2 variantes
+                            - generic [ref=e2421]: (1 no se puede mostrar)
+                  - cell "Sin campaña" [ref=e2422]:
+                    - generic [ref=e2423]: Sin campaña
+                  - cell "0" [ref=e2424]:
+                    - generic [ref=e2425]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e2426]:
+                  - cell [ref=e2427]:
+                    - checkbox [ref=e2432] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2433]:
+                    - generic [ref=e2434]:
+                      - paragraph [ref=e2436]: Catálogo
+                      - figure [ref=e2438]:
+                        - button "product" [ref=e2439] [cursor=pointer]:
+                          - img "product" [ref=e2440]
+                        - generic [ref=e2441]:
+                          - 'generic "ID: MLC1307634055 | ORIGEN: PROPIO" [ref=e2442]'
+                          - generic "Llave Monomando Lavatorio Lavamanos Modern Plateado Cromado" [ref=e2443]
+                  - cell "Sin campaña" [ref=e2444]:
+                    - generic [ref=e2445]: Sin campaña
+                  - cell "0" [ref=e2446]:
+                    - generic [ref=e2447]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e2448]:
+                  - cell [ref=e2449]:
+                    - checkbox [ref=e2454] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2455]:
+                    - generic [ref=e2456]:
+                      - paragraph [ref=e2458]: Catálogo
+                      - figure [ref=e2460]:
+                        - button "product" [ref=e2461] [cursor=pointer]:
+                          - img "product" [ref=e2462]
+                        - generic [ref=e2463]:
+                          - 'generic "ID: MLC1513791879 | ORIGEN: PROPIO" [ref=e2464]'
+                          - generic "Llave Monomando Lavatorio Lavamanos Modern Plateado Cepillado" [ref=e2465]
+                  - cell "Campaña Mercado Libre" [ref=e2466]:
+                    - generic [ref=e2467]: Campaña Mercado Libre
+                  - cell "0" [ref=e2468]:
+                    - generic [ref=e2469]: "0"
+                - row "Catálogo Sin campaña 0" [ref=e2470]:
+                  - cell [ref=e2471]:
+                    - checkbox [ref=e2476] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2477]:
+                    - generic [ref=e2478]:
+                      - paragraph [ref=e2480]: Catálogo
+                      - figure [ref=e2482]:
+                        - button "product" [ref=e2483]:
+                          - img "product" [ref=e2485]
+                          - img [ref=e2487]
+                          - img [ref=e2500]
+                          - img [ref=e2513]
+                        - generic [ref=e2525]:
+                          - 'generic "ID: MLC21350535 | ORIGEN: PROPIO" [ref=e2526]'
+                          - generic "Asiento WC Täumm Tapa wc Cierre Lento Blanca" [ref=e2527]
+                          - generic [ref=e2530] [cursor=pointer]: 2 variantes
+                  - cell "Sin campaña" [ref=e2531]:
+                    - generic [ref=e2532]: Sin campaña
+                  - cell "0" [ref=e2533]:
+                    - generic [ref=e2534]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e2535]:
+                  - cell [ref=e2536]:
+                    - checkbox [ref=e2541] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2542]:
+                    - generic [ref=e2543]:
+                      - paragraph [ref=e2545]: Catálogo
+                      - figure [ref=e2547]:
+                        - button "product" [ref=e2548] [cursor=pointer]:
+                          - img "product" [ref=e2549]
+                        - generic [ref=e2550]:
+                          - 'generic "ID: MLC1357502754 | ORIGEN: PROPIO" [ref=e2551]'
+                          - generic "Desagüe Para Tina Con Tubo Y Campana De Rebalse Plateado" [ref=e2552]
+                  - cell "Campaña Mercado Libre" [ref=e2553]:
+                    - generic [ref=e2554]: Campaña Mercado Libre
+                  - cell "0" [ref=e2555]:
+                    - generic [ref=e2556]: "0"
+                - row "Catálogo Campaña Mercado Libre 0" [ref=e2557]:
+                  - cell [ref=e2558]:
+                    - checkbox [ref=e2563] [cursor=pointer]
+                  - cell "Catálogo" [ref=e2564]:
+                    - generic [ref=e2565]:
+                      - paragraph [ref=e2567]: Catálogo
+                      - figure [ref=e2569]:
+                        - button "product" [ref=e2570] [cursor=pointer]:
+                          - img "product" [ref=e2571]
+                        - generic [ref=e2572]:
+                          - 'generic "ID: MLC1871579577 | ORIGEN: PROPIO" [ref=e2573]'
+                          - generic "Flexible Lavadora Con Curva Hi-hi 3/4 X 150 Cm" [ref=e2574]
+                  - cell "Campaña Mercado Libre" [ref=e2575]:
+                    - generic [ref=e2576]: Campaña Mercado Libre
+                  - cell "0" [ref=e2577]:
+                    - generic [ref=e2578]: "0"
+            - navigation "Paginación" [ref=e2580]:
+              - list [ref=e2581]:
+                - listitem [ref=e2582]:
+                  - link "Ir a la página 1" [ref=e2583] [cursor=pointer]:
+                    - /url: "#"
+                    - text: "1"
+                - listitem [ref=e2584]:
+                  - link "Ir a la página 2" [ref=e2585] [cursor=pointer]:
+                    - /url: "#"
+                    - text: "2"
+                - listitem [ref=e2586]:
+                  - link "Ir a la página 3" [ref=e2587] [cursor=pointer]:
+                    - /url: "#"
+                    - text: "3"
+                - listitem [ref=e2588]:
+                  - link "Siguiente" [ref=e2589] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e2590]: Siguiente
+                    - img [ref=e2591]
+  - contentinfo [ref=e227]:
+    - generic [ref=e228]:
+      - paragraph [ref=e229]: Copyright © 1999-2026 MercadoLibre Chile Ltda.
+      - paragraph [ref=e230]: Av. Apoquindo 4800, Torre 2, piso 21, Las Condes, Santiago - Chile.

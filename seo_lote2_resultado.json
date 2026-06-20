@@ -1,0 +1,66 @@
+[
+  {
+    "id": 3009,
+    "ok": true,
+    "pal": 336,
+    "fk_count": 6,
+    "focus": "barra ducha deslizable",
+    "name": "Barra De Soporte Ducha Deslizable 65 Cm Acero Inox"
+  },
+  {
+    "id": 2578,
+    "ok": true,
+    "pal": 319,
+    "fk_count": 6,
+    "focus": "llave temporizada urinario",
+    "name": "Llave Temporizada Para Urinario Plateado"
+  },
+  {
+    "id": 3173,
+    "ok": true,
+    "pal": 340,
+    "fk_count": 5,
+    "focus": "lavaplatos empotrado 100x44 derecho",
+    "name": "Lavaplatos Empotrado Simple 100x44 Inoxidable Dere"
+  },
+  {
+    "id": 3117,
+    "ok": true,
+    "pal": 348,
+    "fk_count": 6,
+    "focus": "llave monomando lavatorio",
+    "name": "Llave Monomando Lavatorio Lavamanos Modern Platead"
+  },
+  {
+    "id": 2739,
+    "ok": true,
+    "pal": 328,
+    "fk_count": 6,
+    "focus": "dispensador papel higiénico",
+    "name": "Dispensador Papel Higiénico  Acrilico - Despacho G"
+  },
+  {
+    "id": 2783,
+    "ok": true,
+    "pal": 363,
+    "fk_count": 5,
+    "focus": "brazo de ducha al muro",
+    "name": "Brazo Para Plato De Ducha 30 Cm Entrada Flexible A"
+  },
+  {
+    "id": 3084,
+    "ok": true,
+    "pal": 336,
+    "fk_count": 5,
+    "focus": "dispensador jabón pared",
+    "name": "Dispensador De Jabón Manual Täumm Para Pared, Blan"
+  },
+  {
+    "id": 2607,
+    "ok": true,
+    "pal": 335,
+    "fk_count": 5,
+    "focus": "agarradera baño con jabonera",
+    "name": "Agarradera 135° Barra Curva Seguridad - Color Plat"
+  }
+]

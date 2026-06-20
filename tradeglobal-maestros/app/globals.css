@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background: #f5f3ef; color: #0f2942; -webkit-font-smoothing: antialiased; }
+
+@layer components {
+  .field { @apply w-full rounded-xl border border-navy/15 bg-white px-4 py-3.5 text-base outline-none transition focus:border-naranjo focus:ring-2 focus:ring-naranjo/20; }
+  .field-err { @apply border-red-400 focus:border-red-500 focus:ring-red-500/20; }
+  .lbl { @apply mb-1.5 block text-sm font-semibold text-navy; }
+  .err { @apply mt-1 text-sm text-red-600; }
+  .btn-cta { @apply inline-flex w-full items-center justify-center gap-2 rounded-xl bg-naranjo px-6 py-4 text-lg font-bold text-white shadow-cta transition active:scale-[.99] disabled:opacity-60; }
+  .chip { @apply cursor-pointer rounded-full border px-4 py-2 text-sm font-medium transition; }
+}

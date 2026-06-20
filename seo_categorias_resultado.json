@@ -1,0 +1,82 @@
+[
+  {
+    "id": 113,
+    "name": "Griferia",
+    "focus": "grifería para baño",
+    "pal": 325,
+    "fk_count": 5,
+    "links": 3
+  },
+  {
+    "id": 115,
+    "name": "Lavaplatos",
+    "focus": "lavaplatos de cocina",
+    "pal": 302,
+    "fk_count": 5,
+    "links": 3
+  },
+  {
+    "id": 117,
+    "name": "Lavamanos",
+    "focus": "lavamanos para baño",
+    "pal": 284,
+    "fk_count": 5,
+    "links": 4
+  },
+  {
+    "id": 116,
+    "name": "Espejos",
+    "focus": "espejos para baño",
+    "pal": 280,
+    "fk_count": 4,
+    "links": 3
+  },
+  {
+    "id": 118,
+    "name": "Shower/Mamparas/Receptaculos",
+    "focus": "mamparas y receptáculos de ducha",
+    "pal": 289,
+    "fk_count": 3,
+    "links": 4
+  },
+  {
+    "id": 112,
+    "name": "Accesorios",
+    "focus": "accesorios para baño",
+    "pal": 283,
+    "fk_count": 5,
+    "links": 4
+  },
+  {
+    "id": 114,
+    "name": "Dispensador",
+    "focus": "dispensador de jabón y papel",
+    "pal": 295,
+    "fk_count": 3,
+    "links": 3
+  },
+  {
+    "id": 143,
+    "name": "Agarraderas y Barras",
+    "focus": "agarraderas y barras de seguridad",
+    "pal": 289,
+    "fk_count": 3,
+    "links": 3
+  },
+  {
+    "id": 144,
+    "name": "Sifones y Desagües",
+    "focus": "sifones y desagües",
+    "pal": 287,
+    "fk_count": 4,
+    "links": 4
+  },
+  {
+    "id": 145,
+    "name": "WC e Inodoros",
+    "focus": "WC e inodoros",
+    "pal": 303,
+    "fk_count": 5,
+    "links": 4
+  }
+]

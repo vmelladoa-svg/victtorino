@@ -1,0 +1,46 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - button "Saltar al contenido principal" [ref=e7]:
+      - generic [ref=e10]: Saltar al contenido principal
+    - generic [ref=e11]:
+      - heading "Confirma la tienda online de tu empresa" [level=1] [ref=e315]
+      - button "Ayuda" [ref=e32] [cursor=pointer]:
+        - img [ref=e35]: help_outline
+      - 'button "Cuenta de Merchant Center: Trade Global Solutions SpA, 5750880596" [ref=e41] [cursor=pointer]':
+        - generic [ref=e42]:
+          - generic [ref=e43]: Trade Global Solutions SpA
+          - generic [ref=e44]: "5750880596"
+        - img [ref=e46]: arrow_drop_down
+      - generic [ref=e52]:
+        - button "Aplicaciones de Google" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - 'button "Cuenta de Google: Victor Mellado (vmelladoa@gmail.com)" [ref=e62] [cursor=pointer]':
+          - img [ref=e64]
+  - main [ref=e320]:
+    - generic [ref=e323]:
+      - heading "Introduce la URL de la tienda online" [level=2] [ref=e328]
+      - generic [ref=e332]:
+        - generic [ref=e336]:
+          - generic [ref=e339]:
+            - generic:
+              - generic: URL de tu tienda online
+            - textbox "URL de tu tienda online" [ref=e340]: https://tradeglobalchile.cl
+          - generic [ref=e342]: "Ejemplo: https://www.tienda.example.com"
+        - generic [ref=e343]:
+          - generic [ref=e344]:
+            - img [ref=e346]: check_circle_outline
+            - generic [ref=e347]:
+              - text: Verificada
+              - button "Más información sobre la verificación de sitios web" [ref=e349] [cursor=pointer]:
+                - img "Más información sobre la verificación de sitios web" [ref=e350]: help_outline
+          - generic [ref=e351]:
+            - img [ref=e353]: check_circle_outline
+            - generic [ref=e354]:
+              - text: Reclamada
+              - button "Más información sobre la reclamación de sitios web" [ref=e356] [cursor=pointer]:
+                - img "Más información sobre la reclamación de sitios web" [ref=e357]: help_outline
+    - generic [ref=e361]:
+      - button "Cancelar" [ref=e362]:
+        - generic [ref=e365]: Cancelar
+      - button "Continuar" [ref=e366]:
+        - generic [ref=e369]: Continuar

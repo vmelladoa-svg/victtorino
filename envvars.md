@@ -1,0 +1,370 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "Trade's projects Hobby" [ref=e10] [cursor=pointer]:
+              - /url: /trade-s-projects2
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: Trade's projects
+                - generic [ref=e14]: Hobby
+            - button [ref=e15] [cursor=pointer]:
+              - img [ref=e17]
+          - button "Find… F" [ref=e20]:
+            - generic [ref=e22]:
+              - img [ref=e24]
+              - generic [ref=e26]: Find…
+              - generic [ref=e28]: F
+        - navigation [ref=e30]:
+          - generic [ref=e33]:
+            - link "Other Overview" [ref=e340] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online
+              - img "Other" [ref=e341]:
+                - img "Other" [ref=e342]
+              - generic [ref=e38]: Overview
+            - link "Deployments" [ref=e39] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/deployments
+              - img [ref=e41]
+              - generic [ref=e44]: Deployments
+            - link "Logs" [ref=e45] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/logs
+              - img [ref=e47]
+              - generic [ref=e50]: Logs
+            - link "Analytics" [ref=e51] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/analytics
+              - img [ref=e53]
+              - generic [ref=e56]: Analytics
+            - link "Speed Insights" [ref=e57] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/speed-insights
+              - img [ref=e59]
+              - generic [ref=e62]: Speed Insights
+            - link "Observability" [ref=e63] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/observability
+              - img [ref=e65]
+              - generic [ref=e68]: Observability
+              - img [ref=e70]
+            - link "Firewall" [ref=e72] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/firewall
+              - img [ref=e74]
+              - generic [ref=e78]: Firewall
+              - img [ref=e80]
+            - link "CDN" [ref=e82] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/cdn
+              - img [ref=e84]
+              - generic [ref=e87]: CDN
+              - img [ref=e89]
+            - separator [ref=e91]
+            - link "Environment Variables" [ref=e92] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/settings/environment-variables
+              - img [ref=e94]
+              - generic [ref=e97]: Environment Variables
+            - link "Domains" [ref=e98] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/settings/domains
+              - img [ref=e100]
+              - generic [ref=e103]: Domains
+            - link "Connect Beta" [ref=e104] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/connect
+              - img [ref=e106]
+              - generic [ref=e108]:
+                - generic [ref=e109]: Connect
+                - generic [ref=e110]: Beta
+            - link "Integrations" [ref=e111] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/settings/integrations
+              - img [ref=e113]
+              - generic [ref=e116]: Integrations
+            - link "Storage" [ref=e117] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/stores
+              - img [ref=e119]
+              - generic [ref=e122]: Storage
+            - link "Flags" [ref=e123] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/flags
+              - img [ref=e125]
+              - generic [ref=e128]: Flags
+              - img [ref=e130]
+            - link "Agent" [ref=e132] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/agent
+              - img [ref=e134]
+              - generic [ref=e137]: Agent
+              - img [ref=e139]
+            - link "AI Gateway" [ref=e141] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/ai-gateway
+              - img [ref=e143]
+              - generic [ref=e146]: AI Gateway
+              - img [ref=e148]
+            - link "Sandboxes" [ref=e150] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/sandboxes
+              - img [ref=e152]
+              - generic [ref=e155]: Sandboxes
+              - img [ref=e157]
+            - link "Workflows" [ref=e159] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/workflows
+              - img [ref=e161]
+              - generic [ref=e164]: Workflows
+            - separator [ref=e165]
+            - link "Usage" [ref=e166] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/usage
+              - img [ref=e168]
+              - generic [ref=e171]: Usage
+            - link "Support" [ref=e172] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/support
+              - img [ref=e174]
+              - generic [ref=e177]: Support
+            - link "Settings" [ref=e178] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/settings
+              - img [ref=e180]
+              - generic [ref=e183]: Settings
+              - img [ref=e185]
+        - generic [ref=e191]:
+          - button "Avatar for vmelladoa-4614 Trade" [ref=e192] [cursor=pointer]:
+            - img "Avatar for vmelladoa-4614" [ref=e193]:
+              - img "Avatar for vmelladoa-4614" [ref=e194]
+            - generic [ref=e196]: Trade
+            - img [ref=e198]
+          - button "1 unseen notification" [ref=e344] [cursor=pointer]:
+            - generic [ref=e345]:
+              - generic [ref=e346]:
+                - img
+              - img [ref=e347]
+      - button [ref=e205] [cursor=pointer]:
+        - img [ref=e206]
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - generic [ref=e213]:
+          - link "Other inventario-online" [ref=e349] [cursor=pointer]:
+            - /url: /trade-s-projects2/inventario-online
+            - img "Other" [ref=e350]:
+              - img "Other" [ref=e351]
+            - generic [ref=e217]: inventario-online
+          - button [ref=e218] [cursor=pointer]:
+            - img [ref=e220]
+          - link "Back to team view" [ref=e224] [cursor=pointer]:
+            - /url: /trade-s-projects2/~/settings/environment-variables
+            - img [ref=e226]
+        - generic [ref=e230]: Environment Variables
+      - generic [ref=e238]:
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - heading "Environment Variables" [level=2] [ref=e242]
+            - paragraph [ref=e243]:
+              - text: Store API keys, tokens, and config securely.
+              - link "Learn more" [ref=e244] [cursor=pointer]:
+                - /url: /docs/environment-variables
+                - text: Learn more
+                - img [ref=e245]
+          - generic [ref=e247]:
+            - button "Link Shared Variable" [ref=e249] [cursor=pointer]:
+              - generic [ref=e250]: Link Shared Variable
+            - button "Add Environment Variable" [ref=e251] [cursor=pointer]:
+              - generic [ref=e252]: Add Environment Variable
+        - tablist [ref=e253]:
+          - tab "Project" [selected] [ref=e254] [cursor=pointer]
+          - tab "Shared" [ref=e255] [cursor=pointer]
+        - generic [ref=e256]:
+          - generic [ref=e258]:
+            - searchbox "Search" [ref=e259]
+            - img [ref=e261]
+          - combobox [ref=e264]:
+            - generic [ref=e266]:
+              - searchbox [ref=e267]: All Environments
+              - button "Open menu" [ref=e268] [cursor=pointer]:
+                - img [ref=e269]
+          - combobox [ref=e272]:
+            - generic [ref=e273]:
+              - generic:
+                - img
+              - searchbox "All Editors…" [ref=e274]
+              - button "Open menu" [ref=e275] [cursor=pointer]:
+                - img [ref=e276]
+          - generic [ref=e278]:
+            - generic [ref=e280]:
+              - combobox "Filter variables by status" [ref=e281] [cursor=pointer]:
+                - option "All Variables" [selected]
+                - option "Needs Attention"
+              - generic:
+                - img
+            - generic [ref=e283]:
+              - generic:
+                - img
+              - combobox [ref=e284] [cursor=pointer]:
+                - option "Sort by…" [disabled]
+                - option "Last Updated" [selected]
+                - option "Name"
+                - option "Type"
+              - generic:
+                - img
+        - generic [ref=e285]:
+          - generic [ref=e354]:
+            - generic [ref=e356]:
+              - generic [ref=e357]:
+                - img [ref=e360]
+                - generic [ref=e362]:
+                  - button "BLOB_WEBHOOK_PUBLIC_KEY" [ref=e366] [cursor=pointer]:
+                    - generic "BLOB_WEBHOOK_PUBLIC_KEY" [ref=e367]:
+                      - generic [ref=e369]: BLOB_WEBHOOK_PUBLIC_KEY
+                  - generic [ref=e373]: Production and Preview
+              - generic [ref=e376]:
+                - button "Click to reveal" [ref=e377] [cursor=pointer]:
+                  - img [ref=e379]
+                - paragraph [ref=e381]: •••••••••••••••
+              - generic [ref=e382]:
+                - generic [ref=e384]:
+                  - generic [ref=e386] [cursor=pointer]:
+                    - generic [ref=e387]: Added
+                    - text: 1m ago
+                  - img [ref=e390]
+                - button "Menu" [ref=e393] [cursor=pointer]:
+                  - img [ref=e398]
+            - generic [ref=e401]:
+              - generic [ref=e402]:
+                - img [ref=e405]
+                - generic [ref=e407]:
+                  - generic [ref=e409]:
+                    - button "BLOB_STORE_ID" [ref=e411] [cursor=pointer]:
+                      - generic "BLOB_STORE_ID" [ref=e412]:
+                        - generic [ref=e414]: BLOB_STORE_ID
+                    - link [ref=e416] [cursor=pointer]:
+                      - /url: /trade-s-projects2/inventario-online/stores/blob/store_VizMMXua6WNil04t
+                      - img [ref=e418]
+                  - generic [ref=e424]: Production and Preview
+              - generic [ref=e427]:
+                - button "Click to reveal" [ref=e428] [cursor=pointer]:
+                  - img [ref=e430]
+                - paragraph [ref=e432]: •••••••••••••••
+              - generic [ref=e433]:
+                - generic [ref=e435]:
+                  - generic [ref=e437] [cursor=pointer]:
+                    - generic [ref=e438]: Added
+                    - text: 1m ago
+                  - img [ref=e441]
+                - button "Menu" [ref=e444] [cursor=pointer]:
+                  - img [ref=e449]
+            - generic [ref=e452]:
+              - generic [ref=e453]:
+                - img [ref=e456]
+                - generic [ref=e458]:
+                  - generic [ref=e460]:
+                    - button "KV_REST_API_URL" [ref=e462] [cursor=pointer]:
+                      - generic "KV_REST_API_URL" [ref=e463]:
+                        - generic [ref=e465]: KV_REST_API_URL
+                    - link "Upstash for Redis" [ref=e468] [cursor=pointer]:
+                      - /url: /trade-s-projects2/inventario-online/integrations/upstash/icfg_TlW0WaFmprajkn6DjxShW2jB/resources/storage/store_Nk6c5GUh3LVd5CRp/guides
+                      - img "Upstash for Redis" [ref=e469]:
+                        - img "Upstash for Redis" [ref=e470]
+                    - generic [ref=e471]: Sensitive
+                  - generic [ref=e475]: Production and Preview
+              - generic [ref=e477]:
+                - generic [ref=e479]:
+                  - generic [ref=e481] [cursor=pointer]:
+                    - generic [ref=e482]: Added
+                    - text: 3m ago
+                  - img [ref=e485]
+                - button "Menu" [ref=e488] [cursor=pointer]:
+                  - img [ref=e493]
+            - generic [ref=e496]:
+              - generic [ref=e497]:
+                - img [ref=e500]
+                - generic [ref=e502]:
+                  - generic [ref=e504]:
+                    - button "KV_URL" [ref=e506] [cursor=pointer]:
+                      - generic "KV_URL" [ref=e507]:
+                        - generic [ref=e509]: KV_URL
+                    - link "Upstash for Redis" [ref=e512] [cursor=pointer]:
+                      - /url: /trade-s-projects2/inventario-online/integrations/upstash/icfg_TlW0WaFmprajkn6DjxShW2jB/resources/storage/store_Nk6c5GUh3LVd5CRp/guides
+                      - img "Upstash for Redis" [ref=e513]:
+                        - img "Upstash for Redis" [ref=e514]
+                    - generic [ref=e515]: Sensitive
+                  - generic [ref=e519]: Production and Preview
+              - generic [ref=e521]:
+                - generic [ref=e523]:
+                  - generic [ref=e525] [cursor=pointer]:
+                    - generic [ref=e526]: Added
+                    - text: 3m ago
+                  - img [ref=e529]
+                - button "Menu" [ref=e532] [cursor=pointer]:
+                  - img [ref=e537]
+            - generic [ref=e540]:
+              - generic [ref=e541]:
+                - img [ref=e544]
+                - generic [ref=e546]:
+                  - generic [ref=e548]:
+                    - button "KV_REST_API_READ_ONLY_TOKEN" [ref=e550] [cursor=pointer]:
+                      - generic "KV_REST_API_READ_ONLY_TOKEN" [ref=e551]:
+                        - generic [ref=e553]: KV_REST_API_READ_ONLY_TOKEN
+                    - link "Upstash for Redis" [ref=e556] [cursor=pointer]:
+                      - /url: /trade-s-projects2/inventario-online/integrations/upstash/icfg_TlW0WaFmprajkn6DjxShW2jB/resources/storage/store_Nk6c5GUh3LVd5CRp/guides
+                      - img "Upstash for Redis" [ref=e557]:
+                        - img "Upstash for Redis" [ref=e558]
+                    - generic [ref=e559]: Sensitive
+                  - generic [ref=e563]: Production and Preview
+              - generic [ref=e565]:
+                - generic [ref=e567]:
+                  - generic [ref=e569] [cursor=pointer]:
+                    - generic [ref=e570]: Added
+                    - text: 3m ago
+                  - img [ref=e573]
+                - button "Menu" [ref=e576] [cursor=pointer]:
+                  - img [ref=e581]
+            - generic [ref=e584]:
+              - generic [ref=e585]:
+                - img [ref=e588]
+                - generic [ref=e590]:
+                  - generic [ref=e592]:
+                    - button "KV_REST_API_TOKEN" [ref=e594] [cursor=pointer]:
+                      - generic "KV_REST_API_TOKEN" [ref=e595]:
+                        - generic [ref=e597]: KV_REST_API_TOKEN
+                    - link "Upstash for Redis" [ref=e600] [cursor=pointer]:
+                      - /url: /trade-s-projects2/inventario-online/integrations/upstash/icfg_TlW0WaFmprajkn6DjxShW2jB/resources/storage/store_Nk6c5GUh3LVd5CRp/guides
+                      - img "Upstash for Redis" [ref=e601]:
+                        - img "Upstash for Redis" [ref=e602]
+                    - generic [ref=e603]: Sensitive
+                  - generic [ref=e607]: Production and Preview
+              - generic [ref=e609]:
+                - generic [ref=e611]:
+                  - generic [ref=e613] [cursor=pointer]:
+                    - generic [ref=e614]: Added
+                    - text: 3m ago
+                  - img [ref=e617]
+                - button "Menu" [ref=e620] [cursor=pointer]:
+                  - img [ref=e625]
+            - generic [ref=e628]:
+              - generic [ref=e629]:
+                - img [ref=e632]
+                - generic [ref=e634]:
+                  - generic [ref=e636]:
+                    - button "REDIS_URL" [ref=e638] [cursor=pointer]:
+                      - generic "REDIS_URL" [ref=e639]:
+                        - generic [ref=e641]: REDIS_URL
+                    - link "Upstash for Redis" [ref=e644] [cursor=pointer]:
+                      - /url: /trade-s-projects2/inventario-online/integrations/upstash/icfg_TlW0WaFmprajkn6DjxShW2jB/resources/storage/store_Nk6c5GUh3LVd5CRp/guides
+                      - img "Upstash for Redis" [ref=e645]:
+                        - img "Upstash for Redis" [ref=e646]
+                    - generic [ref=e647]: Sensitive
+                  - generic [ref=e651]: Production and Preview
+              - generic [ref=e653]:
+                - generic [ref=e655]:
+                  - generic [ref=e657] [cursor=pointer]:
+                    - generic [ref=e658]: Added
+                    - text: 3m ago
+                  - img [ref=e661]
+                - button "Menu" [ref=e664] [cursor=pointer]:
+                  - img [ref=e669]
+          - generic [ref=e328]:
+            - generic [ref=e330] [cursor=pointer]:
+              - checkbox [checked] [ref=e331]
+              - img [ref=e333]
+            - generic [ref=e335]:
+              - text: Enable access to
+              - link "System Environment Variables" [ref=e336] [cursor=pointer]:
+                - /url: /docs/environment-variables/system-environment-variables
+                - text: System Environment Variables
+                - img [ref=e337]
+  - alert [ref=e339]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img

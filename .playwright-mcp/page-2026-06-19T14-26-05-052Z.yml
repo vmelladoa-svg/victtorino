@@ -1,0 +1,21 @@
+- generic [ref=e2]:
+  - generic [ref=e9]:
+    - heading "Ingresar" [level=1] [ref=e10]
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e15] [cursor=pointer]: Correo electrónico
+        - textbox [ref=e18]
+      - generic [ref=e19]:
+        - generic [ref=e20] [cursor=pointer]: Continuar
+        - button "Continuar" [ref=e22] [cursor=pointer]
+      - generic [ref=e23]:
+        - link "Olvidé mi contraseña" [ref=e27] [cursor=pointer]:
+          - /url: /user/auth/forgot-password
+        - link "Registro" [ref=e31] [cursor=pointer]:
+          - /url: https://falabella-seller-form.web.app/
+  - contentinfo [ref=e32]:
+    - generic [ref=e35]:
+      - text: "| Idioma"
+      - combobox [ref=e36] [cursor=pointer]:
+        - option "Inglés"
+        - option "Español" [selected]

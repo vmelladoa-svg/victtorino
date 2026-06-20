@@ -1,0 +1,13 @@
+Reporte ads semanal 2026-06-14 (30d)
+
+== C2 ==
+  PAUSAR muertos: 0
+  REVISAR perdedores (ROAS<3.9): 1
+    MLC1754503193 ROAS1.78 $121.650 [Campaña Mayo Cta 2] Espejo Led Baño 45x60 Cm Luz Fría 
+  ESCALAR estrellas (ROAS>=6): 0
+
+== C3 ==
+  PAUSAR muertos: 0
+  REVISAR perdedores (ROAS<3.9): 0
+  ESCALAR estrellas (ROAS>=6): 1
+    MLC1754490675 ROAS21.68 $3.606 [Campaña Mayo] Espejo 60x90 Rectangular Con Ondas

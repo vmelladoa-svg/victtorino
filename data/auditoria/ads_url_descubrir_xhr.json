@@ -1,0 +1,134 @@
+[
+  {
+    "url": "https://www.mercadolibre.cl/publicidad/",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "device-memory": "16",
+      "downlink": "10",
+      "dpr": "1.25",
+      "ect": "4g",
+      "rtt": "100",
+      "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-model": "\"\"",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-ch-ua-platform-version": "\"19.0.0\"",
+      "viewport-width": "1280"
+    },
+    "post_data": null
+  },
+  {
+    "url": "http://publicidad.mercadolibre.cl/",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "device-memory": "16",
+      "downlink": "10",
+      "dpr": "1.25",
+      "ect": "4g",
+      "rtt": "100",
+      "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-model": "\"\"",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-ch-ua-platform-version": "\"19.0.0\"",
+      "viewport-width": "1280"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://publicidad.mercadolibre.cl/",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "device-memory": "16",
+      "downlink": "10",
+      "dpr": "1.25",
+      "ect": "4g",
+      "rtt": "100",
+      "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-model": "\"\"",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-ch-ua-platform-version": "\"19.0.0\"",
+      "viewport-width": "1280"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://www.mercadolibre.cl/publicidad",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "device-memory": "16",
+      "downlink": "10",
+      "dpr": "1.25",
+      "ect": "4g",
+      "rtt": "100",
+      "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-model": "\"\"",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-ch-ua-platform-version": "\"19.0.0\"",
+      "viewport-width": "1280"
+    },
+    "post_data": null
+  },
+  {
+    "url": "http://publicidad.mercadolibre.cl/",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "device-memory": "16",
+      "downlink": "10",
+      "dpr": "1.25",
+      "ect": "4g",
+      "rtt": "100",
+      "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-model": "\"\"",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-ch-ua-platform-version": "\"19.0.0\"",
+      "viewport-width": "1280"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://publicidad.mercadolibre.cl/",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "device-memory": "16",
+      "downlink": "10",
+      "dpr": "1.25",
+      "ect": "4g",
+      "rtt": "100",
+      "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-model": "\"\"",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-ch-ua-platform-version": "\"19.0.0\"",
+      "viewport-width": "1280"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://publicidad.mercadolibre.cl/",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null
+  }
+]

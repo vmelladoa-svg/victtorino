@@ -1,0 +1,585 @@
+- generic [ref=e9]:
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - link "Back to projects" [ref=e13]:
+        - /url: /design/
+        - img [ref=e14]
+      - generic [ref=e16]:
+        - generic "Venta por Mayor" [ref=e17]
+        - button "Project menu" [ref=e18]:
+          - generic [ref=e19]: 
+      - button "Hide sidebar" [ref=e21]:
+        - generic [ref=e22]: 
+      - button "Chat history" [ref=e24]:
+        - generic [ref=e25]: 
+    - generic [ref=e30]:
+      - generic [ref=e33]:
+        - generic [ref=e316]: solo tengo la portada
+        - generic [ref=e319]: si, continua
+        - generic [ref=e322]: como vas?
+        - generic [ref=e324]:
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - generic [ref=e329] [cursor=pointer]:
+                - generic [ref=e330]: 
+                - generic [ref=e331]: Listing files, Reading ×2, Searching
+                - generic [ref=e332]: 
+              - generic [ref=e333]:
+                - generic [ref=e334] [cursor=pointer]:
+                  - generic [ref=e335]: 
+                  - generic [ref=e336]: Updated todos
+                  - generic [ref=e337]: 
+                - generic [ref=e339]:
+                  - generic [ref=e340]: "Admin: datos + componentes (sidebar, KPIs, pipeline, modal)"
+                  - generic [ref=e342]: "Admin: pantalla Resumen (dashboard con KPIs)"
+                  - generic [ref=e344]: "Admin: Pagos por validar (ver comprobante → aprobar/rechazar)"
+                  - generic [ref=e346]: "Admin: Pedidos + Compras a importador (generar OC)"
+                  - generic [ref=e348]: "Admin: Catálogo & stock"
+                  - generic [ref=e350]: "Admin: app routing + Admin.html + CSS"
+                  - generic [ref=e352]: Enlazar tienda ↔ admin y verificar
+            - paragraph [ref=e956]:
+              - text: Voy bien — avancé harto del
+              - strong [ref=e957]: panel de administrador
+              - text: (back-office) que te ofrecí. Ya tengo los datos (pedidos con comprobante, costo del importador y márgenes) y los componentes (sidebar, KPIs, pipeline, modales). Me falta armar las
+              - strong [ref=e958]: pantallas
+              - text: y la
+              - strong [ref=e959]: página
+              - text: ". Las termino ahora.Ahora las pantallas del admin. Empiezo por el Dashboard y Pagos por validar:"
+            - generic [ref=e362] [cursor=pointer]:
+              - generic [ref=e363]: 
+              - generic [ref=e364]: Writing
+              - generic [ref=e365]: 
+            - paragraph [ref=e960]: "Ahora Pedidos, Compras a importador y Catálogo & stock:"
+            - generic [ref=e371] [cursor=pointer]:
+              - generic [ref=e372]: 
+              - generic [ref=e373]: Writing
+              - generic [ref=e374]: 
+            - paragraph [ref=e961]: "Ahora el app del admin (routing + estado) y la página:"
+            - generic [ref=e380] [cursor=pointer]:
+              - generic [ref=e381]: 
+              - generic [ref=e382]: Writing ×3
+              - generic [ref=e383]: 
+            - paragraph [ref=e962]: "Ahora el CSS del admin:Ahora enlazo la tienda con el admin y verifico. Agrego un acceso al back-office desde el menú de la tienda:"
+            - generic [ref=e387]:
+              - generic [ref=e389] [cursor=pointer]:
+                - generic [ref=e390]: 
+                - generic [ref=e391]: Editing ×2
+                - generic [ref=e392]: 
+              - generic [ref=e394] [cursor=pointer]:
+                - generic [ref=e395]: 
+                - generic [ref=e396]: Panel Admin.html
+                - generic [ref=e397]: 
+              - generic [ref=e399] [cursor=pointer]:
+                - generic [ref=e400]: 
+                - generic [ref=e401]: Panel Admin.html
+                - generic [ref=e402]: 
+              - generic [ref=e404] [cursor=pointer]:
+                - generic [ref=e405]: 
+                - generic [ref=e406]: Reading logs, Screenshot
+                - generic [ref=e407]: 
+              - generic [ref=e409] [cursor=pointer]:
+                - generic [ref=e410]: 
+                - generic [ref=e411]: Panel Admin.html
+                - generic [ref=e412]: 
+              - generic [ref=e414] [cursor=pointer]:
+                - generic [ref=e415]: 
+                - generic [ref=e416]: Waiting
+                - generic [ref=e417]: 
+            - generic [ref=e419]:
+              - paragraph [ref=e963]: court
+              - paragraph [ref=e964]: "court <invoke name=\"save_screenshot\"> <parameter name=\"path\">Panel Admin.html</parameter> <parameter name=\"save_path\">screenshots/admin_dash.png</parameter> <parameter name=\"steps\">[{}]</parameter> </invoke>"
+          - generic:
+            - button "":
+              - generic: 
+            - button "":
+              - generic: 
+        - generic [ref=e668]: "Continúa y CIERRA el panel de administrador del Portal Mayorista, que quedó a medias cuando se cortó el chat. Ya están los datos, los componentes (sidebar, KPIs, pipeline, modales), las 5 pantallas (Resumen/dashboard, Pagos por validar, Pedidos, Compras a importador con OC, Catálogo y stock), el routing, Admin.html y el CSS. Faltó: 1) enlazar tienda con admin (acceso al back-office desde el menú de la tienda y volver a la tienda desde el admin); 2) corregir los errores de consola que quedaron; 3) verificar con capturas que las 5 pantallas del admin renderizan bien y que funcionan el flujo de Pagos por validar (ver comprobante, aprobar/rechazar) y generar la OC al importador. No rehagas la tienda, ya está lista; enfócate solo en cerrar y dejar funcional el admin, sin placeholders rotos."
+        - generic [ref=e966]:
+          - generic [ref=e968]:
+            - paragraph [ref=e971]: Voy a revisar el estado actual del admin — logs de consola y captura de las pantallas.
+            - generic [ref=e972]:
+              - generic [ref=e974] [cursor=pointer]:
+                - generic [ref=e975]: 
+                - generic [ref=e976]: Panel Admin.html
+                - generic [ref=e977]: 
+              - generic [ref=e979] [cursor=pointer]:
+                - generic [ref=e980]: 
+                - generic [ref=e981]: Reading logs, Reading ×2
+                - generic [ref=e982]: 
+            - paragraph [ref=e985]: Todo el código se ve consistente y los enlaces tienda↔admin ya están (menú de la tienda → "Panel de administrador"; sidebar admin → "Ir a la tienda" + CTA "Ver tienda"). Verifico que las 5 pantallas rendericen y que funcionen los flujos.
+            - generic [ref=e986]:
+              - generic [ref=e988] [cursor=pointer]:
+                - generic [ref=e989]: 
+                - generic [ref=e990]: Panel Admin.html
+                - generic [ref=e991]: 
+              - generic [ref=e993] [cursor=pointer]:
+                - generic [ref=e994]: 
+                - generic [ref=e995]: Reading logs
+                - generic [ref=e996]: 
+            - paragraph [ref=e999]: "Sin errores. Capturo las 5 pantallas y los flujos clave (ver comprobante, validar, generar OC):"
+            - generic [ref=e1002] [cursor=pointer]:
+              - generic [ref=e1003]: 
+              - generic [ref=e1004]: Screenshot
+              - generic [ref=e1005]: 
+            - generic [ref=e1007]:
+              - paragraph [ref=e1008]:
+                - text: "Las 5 pantallas renderizan bien y los flujos funcionan: al"
+                - strong [ref=e1009]: validar
+                - text: TGS-851077 el badge bajó de 2→1 y el pedido apareció automáticamente en
+                - strong [ref=e1010]: Compras a importador
+                - text: (agrupado por Seoul Beauty Lab y Jinhua Tools), listo para generar la OC. El pipeline de Pedidos y la tabla de Catálogo con costos/márgenes también están correctos. (El leve solapamiento del logo en el sidebar es solo del motor de captura con fuentes externas — en el navegador real se ve bien, como en la tienda.)
+              - paragraph [ref=e1011]: Cierro con la verificación formal.
+            - generic [ref=e1014] [cursor=pointer]:
+              - generic [ref=e1015]: 
+              - generic [ref=e1016]: Finishing up
+              - generic [ref=e1017]: 
+            - generic [ref=e1019]:
+              - paragraph [ref=e1020]:
+                - text: Listo — el
+                - strong [ref=e1021]: Panel de administrador
+                - text: quedó cerrado y funcional. 🎉
+              - paragraph [ref=e1022]:
+                - strong [ref=e1023]: "Lo que cerré:"
+              - list [ref=e1024]:
+                - listitem [ref=e1025]:
+                  - strong [ref=e1026]: "Enlaces tienda ↔ admin:"
+                  - text: desde el menú de usuario de la tienda → "Panel de administrador"; desde el admin, "Ir a la tienda" en el sidebar y el CTA "Ver tienda" en el Resumen.
+                - listitem [ref=e1027]:
+                  - strong [ref=e1028]: Sin errores de consola
+                  - text: (solo el aviso normal de Babel en dev).
+                - listitem [ref=e1029]:
+                  - strong [ref=e1030]: "Las 5 pantallas verificadas:"
+                  - text: "Resumen (KPIs: ventas, margen, pagos por validar, en proceso), Pagos por validar, Pedidos con pipeline, Compras a importador con OC, y Catálogo & stock con costos/márgenes."
+              - paragraph [ref=e1031]:
+                - strong [ref=e1032]: "Flujos probados y funcionando:"
+              - list [ref=e1033]:
+                - listitem [ref=e1034]:
+                  - strong [ref=e1035]: "Validar pago:"
+                  - text: abrir comprobante en modal → "Validar pago" → el contador baja (2→1) y el pedido pasa a
+                  - emphasis [ref=e1036]: validado
+                  - text: .
+                - listitem [ref=e1037]:
+                  - strong [ref=e1038]: "Generar OC:"
+                  - text: los pedidos validados aparecen agrupados por importador → "Generar orden de compra" los pasa a
+                  - emphasis [ref=e1039]: Comprado
+                  - text: y asigna número de OC.
+                - listitem [ref=e1040]:
+                  - strong [ref=e1041]: "Avance de pedido:"
+                  - text: Comprado → Despachado (asigna transportista + tracking) → Entregado.
+              - paragraph [ref=e1042]: "Tenés ambas piezas conectadas: la tienda mayorista para tus comerciantes y el back-office para validar pagos, comprar al importador y gestionar despachos a todo Chile."
+              - paragraph [ref=e1043]: ¿Querés que ajuste datos reales (banco, márgenes, importadores) o que sume algo como notificaciones por correo o exportar la OC en PDF?
+          - generic [ref=e1044]:
+            - button "" [ref=e1045]:
+              - generic [ref=e1046]: 
+            - button "" [ref=e1047]:
+              - generic [ref=e1048]: 
+      - generic [ref=e1049]:
+        - generic [ref=e1050]: Checking the design for issues…
+        - generic [ref=e1051]:
+          - iframe [ref=e1058]:
+            - generic [ref=f68e3]:
+              - complementary [ref=f68e4]:
+                - generic [ref=f68e5]:
+                  - img "TGS" [ref=f68e7]
+                  - generic [ref=f68e8]:
+                    - strong [ref=f68e9]: Trade Global
+                    - generic [ref=f68e10]: Back-office
+                - navigation [ref=f68e11]:
+                  - button "Resumen" [ref=f68e12] [cursor=pointer]:
+                    - img [ref=f68e13]
+                    - generic [ref=f68e18]: Resumen
+                  - button "Pagos por validar 2" [ref=f68e19] [cursor=pointer]:
+                    - img [ref=f68e20]
+                    - generic [ref=f68e23]: Pagos por validar
+                    - generic [ref=f68e24]: "2"
+                  - button "Pedidos" [ref=f68e25] [cursor=pointer]:
+                    - img [ref=f68e26]
+                    - generic [ref=f68e31]: Pedidos
+                  - button "Compras a importador" [ref=f68e32] [cursor=pointer]:
+                    - img [ref=f68e33]
+                    - generic [ref=f68e36]: Compras a importador
+                  - button "Catálogo & stock" [ref=f68e37] [cursor=pointer]:
+                    - img [ref=f68e38]
+                    - generic [ref=f68e41]: Catálogo & stock
+                - generic [ref=f68e42]:
+                  - link "Ir a la tienda" [ref=f68e43] [cursor=pointer]:
+                    - /url: Portal Mayorista.html
+                    - img [ref=f68e44]
+                    - generic [ref=f68e47]: Ir a la tienda
+                  - generic [ref=f68e48]:
+                    - generic [ref=f68e50]: JM
+                    - generic [ref=f68e51]:
+                      - strong [ref=f68e52]:
+                        - generic [ref=f68e53]: Juan Méndez
+                      - generic [ref=f68e55]: Operaciones
+              - generic [ref=f68e56]:
+                - banner [ref=f68e57]:
+                  - generic [ref=f68e58]:
+                    - heading "Resumen" [level=1] [ref=f68e59]
+                    - paragraph [ref=f68e60]: Estado general de la operación
+                  - link "Ver tienda" [ref=f68e61] [cursor=pointer]:
+                    - /url: Portal Mayorista.html
+                    - img [ref=f68e62]
+                    - generic [ref=f68e64]: Ver tienda
+                - generic [ref=f68e66]:
+                  - generic [ref=f68e67]:
+                    - generic [ref=f68e68]:
+                      - img [ref=f68e70]
+                      - generic [ref=f68e72]:
+                        - generic [ref=f68e73]: Ventas del mes
+                        - strong [ref=f68e74]: $7.032.420
+                        - generic [ref=f68e75]:
+                          - emphasis [ref=f68e76]: ▲ 12%
+                          - text: vs. mes anterior
+                    - generic [ref=f68e77]:
+                      - img [ref=f68e79]
+                      - generic [ref=f68e81]:
+                        - generic [ref=f68e82]: Margen estimado
+                        - strong [ref=f68e83]: $2.544.960
+                        - generic [ref=f68e84]: 36% sobre venta
+                    - generic [ref=f68e85]:
+                      - img [ref=f68e87]
+                      - generic [ref=f68e90]:
+                        - generic [ref=f68e91]: Pagos por validar
+                        - strong [ref=f68e92]: "2"
+                        - generic [ref=f68e93]: $1.960.980 en espera
+                    - generic [ref=f68e94]:
+                      - img [ref=f68e96]
+                      - generic [ref=f68e101]:
+                        - generic [ref=f68e102]: En proceso / despacho
+                        - strong [ref=f68e103]: "3"
+                        - generic [ref=f68e104]: pedidos activos
+                  - generic [ref=f68e105]:
+                    - generic [ref=f68e106]:
+                      - generic [ref=f68e107]:
+                        - heading "Pagos por validar" [level=2] [ref=f68e108]:
+                          - img [ref=f68e109]
+                          - generic [ref=f68e112]: Pagos por validar
+                        - button "Ver todos" [ref=f68e113] [cursor=pointer]:
+                          - generic [ref=f68e114]: Ver todos
+                          - img [ref=f68e115]
+                      - button "TGS-851077 Comercial Andes Ltda. Banco Estado $736.060 Validar" [ref=f68e117] [cursor=pointer]:
+                        - generic [ref=f68e118]:
+                          - generic [ref=f68e119]: TGS-851077
+                          - generic [ref=f68e120]: Comercial Andes Ltda.
+                        - generic [ref=f68e121]:
+                          - img [ref=f68e122]
+                          - text: Banco Estado
+                        - strong [ref=f68e125]: $736.060
+                        - generic [ref=f68e126]:
+                          - generic [ref=f68e127]: Validar
+                          - img [ref=f68e128]
+                      - button "TGS-851066 Distribuidora El Sol BCI $1.224.920 Validar" [ref=f68e130] [cursor=pointer]:
+                        - generic [ref=f68e131]:
+                          - generic [ref=f68e132]: TGS-851066
+                          - generic [ref=f68e133]: Distribuidora El Sol
+                        - generic [ref=f68e134]:
+                          - img [ref=f68e135]
+                          - text: BCI
+                        - strong [ref=f68e138]: $1.224.920
+                        - generic [ref=f68e139]:
+                          - generic [ref=f68e140]: Validar
+                          - img [ref=f68e141]
+                    - generic [ref=f68e143]:
+                      - generic [ref=f68e144]:
+                        - heading "Por comprar al importador" [level=2] [ref=f68e145]:
+                          - img [ref=f68e146]
+                          - generic [ref=f68e149]: Por comprar al importador
+                        - button "Gestionar" [ref=f68e150] [cursor=pointer]:
+                          - generic [ref=f68e151]: Gestionar
+                          - img [ref=f68e152]
+                      - generic [ref=f68e154]:
+                        - generic [ref=f68e155]:
+                          - generic [ref=f68e156]: TGS-850980
+                          - generic [ref=f68e157]: 2 productos · 8 cajas
+                        - generic [ref=f68e158]:
+                          - img [ref=f68e159]
+                          - text: Yiwu
+                          - generic [ref=f68e162]: …
+                        - strong [ref=f68e163]: $617.840
+                        - generic [ref=f68e164]: costo
+                  - generic [ref=f68e165]:
+                    - heading "Actividad reciente" [level=2] [ref=f68e167]:
+                      - img [ref=f68e168]
+                      - generic [ref=f68e173]: Actividad reciente
+                    - generic [ref=f68e174]:
+                      - generic [ref=f68e175]:
+                        - generic [ref=f68e176]: Folio
+                        - generic [ref=f68e177]: Cliente
+                        - generic [ref=f68e178]: Estado
+                        - generic [ref=f68e179]: Venta
+                        - generic [ref=f68e180]: Margen
+                      - button "TGS-851077 Comercial Andes Ltda. Pago por validar $730.060 +$292.800" [ref=f68e181] [cursor=pointer]:
+                        - generic [ref=f68e182]: TGS-851077
+                        - generic [ref=f68e183]: Comercial Andes Ltda.
+                        - generic [ref=f68e185]:
+                          - img [ref=f68e186]
+                          - text: Pago por validar
+                        - generic [ref=f68e189]: $730.060
+                        - generic [ref=f68e190]: +$292.800
+                        - img [ref=f68e192]
+                      - button "TGS-851066 Distribuidora El Sol Pago por validar $1.215.320 +$487.360" [ref=f68e194] [cursor=pointer]:
+                        - generic [ref=f68e195]: TGS-851066
+                        - generic [ref=f68e196]: Distribuidora El Sol
+                        - generic [ref=f68e198]:
+                          - img [ref=f68e199]
+                          - text: Pago por validar
+                        - generic [ref=f68e202]: $1.215.320
+                        - generic [ref=f68e203]: +$487.360
+                        - img [ref=f68e205]
+                      - button "TGS-850980 Bazar Norte SpA Pago validado $973.040 +$355.200" [ref=f68e207] [cursor=pointer]:
+                        - generic [ref=f68e208]: TGS-850980
+                        - generic [ref=f68e209]: Bazar Norte SpA
+                        - generic [ref=f68e211]:
+                          - img [ref=f68e212]
+                          - text: Pago validado
+                        - generic [ref=f68e214]: $973.040
+                        - generic [ref=f68e215]: +$355.200
+                        - img [ref=f68e217]
+                      - button "TGS-840192 Comercial Andes Ltda. Comprado a importador $1.564.560 +$576.480" [ref=f68e219] [cursor=pointer]:
+                        - generic [ref=f68e220]: TGS-840192
+                        - generic [ref=f68e221]: Comercial Andes Ltda.
+                        - generic [ref=f68e223]:
+                          - img [ref=f68e224]
+                          - text: Comprado a importador
+                        - generic [ref=f68e227]: $1.564.560
+                        - generic [ref=f68e228]: +$576.480
+                        - img [ref=f68e230]
+                      - button "TGS-840020 MultiHogar Chile En despacho $1.393.440 +$465.120" [ref=f68e232] [cursor=pointer]:
+                        - generic [ref=f68e233]: TGS-840020
+                        - generic [ref=f68e234]: MultiHogar Chile
+                        - generic [ref=f68e236]:
+                          - img [ref=f68e237]
+                          - text: En despacho
+                        - generic [ref=f68e242]: $1.393.440
+                        - generic [ref=f68e243]: +$465.120
+                        - img [ref=f68e245]
+          - button "" [ref=e1062]:
+            - generic [ref=e1063]: 
+      - generic [ref=e437]:
+        - textbox "Describe what you want to create..." [active] [ref=e440]:
+          - paragraph [ref=e441]: Describe what you want to create...
+        - generic [ref=e442]:
+          - generic [ref=e443]:
+            - button "" [ref=e445]:
+              - generic [ref=e446]: 
+            - button "" [ref=e447]:
+              - generic [ref=e448]: 
+          - generic [ref=e449]:
+            - generic [ref=e450]:
+              - button "Opus 4.8 " [ref=e451]:
+                - generic [ref=e452]:
+                  - generic [ref=e453]: Opus 4.8
+                  - generic [ref=e454]: 
+              - text: 
+            - button " Send" [disabled] [ref=e1064]:
+              - generic [ref=e1065]:
+                - generic [ref=e1066]: 
+                - text: Send
+  - generic [ref=e458]:
+    - generic [ref=e459]:
+      - button "Reload" [ref=e1068]:
+        - generic [ref=e1069]: 
+      - button "Panel Admin 2 pages " [ref=e1070]:
+        - generic [ref=e467]:
+          - generic [ref=e468]: Panel Admin
+          - generic [ref=e469]: 2 pages
+        - generic [ref=e471]: 
+      - button "Mark up" [ref=e473]:
+        - generic [ref=e474]: Mark up
+      - button "Comments" [ref=e476]:
+        - generic [ref=e477]: Comments
+      - button "Edit" [ref=e479]:
+        - generic [ref=e480]: Edit
+      - button " Tweaks" [ref=e1073]:
+        - generic [ref=e1074]:
+          - generic [ref=e1075]: 
+          - text: Tweaks
+      - button "100%" [ref=e1078]:
+        - generic [ref=e1081]: 100%
+      - button "Present " [ref=e1083]:
+        - generic [ref=e1084]:
+          - text: Present
+          - generic [ref=e1085]: 
+      - button "Share" [ref=e498]:
+        - generic [ref=e499]: Share
+      - button "Profile and connectors" [ref=e500] [cursor=pointer]:
+        - generic [ref=e501]: V
+    - iframe [ref=e1092]:
+      - generic [ref=f66e3]:
+        - complementary [ref=f66e4]:
+          - generic [ref=f66e5]:
+            - img "TGS" [ref=f66e7]
+            - generic [ref=f66e8]:
+              - strong [ref=f66e9]: Trade Global
+              - generic [ref=f66e10]: Back-office
+          - navigation [ref=f66e11]:
+            - button "Resumen" [ref=f66e12] [cursor=pointer]:
+              - img [ref=f66e13]
+              - generic [ref=f66e18]: Resumen
+            - button "Pagos por validar 2" [ref=f66e19] [cursor=pointer]:
+              - img [ref=f66e20]
+              - generic [ref=f66e23]: Pagos por validar
+              - generic [ref=f66e24]: "2"
+            - button "Pedidos" [ref=f66e25] [cursor=pointer]:
+              - img [ref=f66e26]
+              - generic [ref=f66e31]: Pedidos
+            - button "Compras a importador" [ref=f66e32] [cursor=pointer]:
+              - img [ref=f66e33]
+              - generic [ref=f66e36]: Compras a importador
+            - button "Catálogo & stock" [ref=f66e37] [cursor=pointer]:
+              - img [ref=f66e38]
+              - generic [ref=f66e41]: Catálogo & stock
+          - generic [ref=f66e42]:
+            - link "Ir a la tienda" [ref=f66e43] [cursor=pointer]:
+              - /url: Portal Mayorista.html
+              - img [ref=f66e44]
+              - generic [ref=f66e47]: Ir a la tienda
+            - generic [ref=f66e48]:
+              - generic [ref=f66e50]: JM
+              - generic [ref=f66e51]:
+                - strong [ref=f66e52]:
+                  - generic [ref=f66e53]: Juan Méndez
+                - generic [ref=f66e55]: Operaciones
+        - generic [ref=f66e56]:
+          - banner [ref=f66e57]:
+            - generic [ref=f66e58]:
+              - heading "Resumen" [level=1] [ref=f66e59]
+              - paragraph [ref=f66e60]: Estado general de la operación
+            - link "Ver tienda" [ref=f66e61] [cursor=pointer]:
+              - /url: Portal Mayorista.html
+              - img [ref=f66e62]
+              - generic [ref=f66e64]: Ver tienda
+          - generic [ref=f66e66]:
+            - generic [ref=f66e67]:
+              - generic [ref=f66e68]:
+                - img [ref=f66e70]
+                - generic [ref=f66e72]:
+                  - generic [ref=f66e73]: Ventas del mes
+                  - strong [ref=f66e74]: $7.032.420
+                  - generic [ref=f66e75]:
+                    - emphasis [ref=f66e76]: ▲ 12%
+                    - text: vs. mes anterior
+              - generic [ref=f66e77]:
+                - img [ref=f66e79]
+                - generic [ref=f66e81]:
+                  - generic [ref=f66e82]: Margen estimado
+                  - strong [ref=f66e83]: $2.544.960
+                  - generic [ref=f66e84]: 36% sobre venta
+              - generic [ref=f66e85]:
+                - img [ref=f66e87]
+                - generic [ref=f66e90]:
+                  - generic [ref=f66e91]: Pagos por validar
+                  - strong [ref=f66e92]: "2"
+                  - generic [ref=f66e93]: $1.960.980 en espera
+              - generic [ref=f66e94]:
+                - img [ref=f66e96]
+                - generic [ref=f66e101]:
+                  - generic [ref=f66e102]: En proceso / despacho
+                  - strong [ref=f66e103]: "3"
+                  - generic [ref=f66e104]: pedidos activos
+            - generic [ref=f66e105]:
+              - generic [ref=f66e106]:
+                - generic [ref=f66e107]:
+                  - heading "Pagos por validar" [level=2] [ref=f66e108]:
+                    - img [ref=f66e109]
+                    - generic [ref=f66e112]: Pagos por validar
+                  - button "Ver todos" [ref=f66e113] [cursor=pointer]:
+                    - generic [ref=f66e114]: Ver todos
+                    - img [ref=f66e115]
+                - button "TGS-851077 Comercial Andes Ltda. Banco Estado $736.060 Validar" [ref=f66e117] [cursor=pointer]:
+                  - generic [ref=f66e118]:
+                    - generic [ref=f66e119]: TGS-851077
+                    - generic [ref=f66e120]: Comercial Andes Ltda.
+                  - generic [ref=f66e121]:
+                    - img [ref=f66e122]
+                    - text: Banco Estado
+                  - strong [ref=f66e125]: $736.060
+                  - generic [ref=f66e126]:
+                    - generic [ref=f66e127]: Validar
+                    - img [ref=f66e128]
+                - button "TGS-851066 Distribuidora El Sol BCI $1.224.920 Validar" [ref=f66e130] [cursor=pointer]:
+                  - generic [ref=f66e131]:
+                    - generic [ref=f66e132]: TGS-851066
+                    - generic [ref=f66e133]: Distribuidora El Sol
+                  - generic [ref=f66e134]:
+                    - img [ref=f66e135]
+                    - text: BCI
+                  - strong [ref=f66e138]: $1.224.920
+                  - generic [ref=f66e139]:
+                    - generic [ref=f66e140]: Validar
+                    - img [ref=f66e141]
+              - generic [ref=f66e143]:
+                - generic [ref=f66e144]:
+                  - heading "Por comprar al importador" [level=2] [ref=f66e145]:
+                    - img [ref=f66e146]
+                    - generic [ref=f66e149]: Por comprar al importador
+                  - button "Gestionar" [ref=f66e150] [cursor=pointer]:
+                    - generic [ref=f66e151]: Gestionar
+                    - img [ref=f66e152]
+                - generic [ref=f66e154]:
+                  - generic [ref=f66e155]:
+                    - generic [ref=f66e156]: TGS-850980
+                    - generic [ref=f66e157]: 2 productos · 8 cajas
+                  - generic [ref=f66e158]:
+                    - img [ref=f66e159]
+                    - text: Yiwu
+                    - generic [ref=f66e162]: …
+                  - strong [ref=f66e163]: $617.840
+                  - generic [ref=f66e164]: costo
+            - generic [ref=f66e165]:
+              - heading "Actividad reciente" [level=2] [ref=f66e167]:
+                - img [ref=f66e168]
+                - generic [ref=f66e173]: Actividad reciente
+              - generic [ref=f66e174]:
+                - generic [ref=f66e175]:
+                  - generic [ref=f66e176]: Folio
+                  - generic [ref=f66e177]: Cliente
+                  - generic [ref=f66e178]: Estado
+                  - generic [ref=f66e179]: Venta
+                  - generic [ref=f66e180]: Margen
+                - button "TGS-851077 Comercial Andes Ltda. Pago por validar $730.060 +$292.800" [ref=f66e181] [cursor=pointer]:
+                  - generic [ref=f66e182]: TGS-851077
+                  - generic [ref=f66e183]: Comercial Andes Ltda.
+                  - generic [ref=f66e185]:
+                    - img [ref=f66e186]
+                    - text: Pago por validar
+                  - generic [ref=f66e189]: $730.060
+                  - generic [ref=f66e190]: +$292.800
+                  - img [ref=f66e192]
+                - button "TGS-851066 Distribuidora El Sol Pago por validar $1.215.320 +$487.360" [ref=f66e194] [cursor=pointer]:
+                  - generic [ref=f66e195]: TGS-851066
+                  - generic [ref=f66e196]: Distribuidora El Sol
+                  - generic [ref=f66e198]:
+                    - img [ref=f66e199]
+                    - text: Pago por validar
+                  - generic [ref=f66e202]: $1.215.320
+                  - generic [ref=f66e203]: +$487.360
+                  - img [ref=f66e205]
+                - button "TGS-850980 Bazar Norte SpA Pago validado $973.040 +$355.200" [ref=f66e207] [cursor=pointer]:
+                  - generic [ref=f66e208]: TGS-850980
+                  - generic [ref=f66e209]: Bazar Norte SpA
+                  - generic [ref=f66e211]:
+                    - img [ref=f66e212]
+                    - text: Pago validado
+                  - generic [ref=f66e214]: $973.040
+                  - generic [ref=f66e215]: +$355.200
+                  - img [ref=f66e217]
+                - button "TGS-840192 Comercial Andes Ltda. Comprado a importador $1.564.560 +$576.480" [ref=f66e219] [cursor=pointer]:
+                  - generic [ref=f66e220]: TGS-840192
+                  - generic [ref=f66e221]: Comercial Andes Ltda.
+                  - generic [ref=f66e223]:
+                    - img [ref=f66e224]
+                    - text: Comprado a importador
+                  - generic [ref=f66e227]: $1.564.560
+                  - generic [ref=f66e228]: +$576.480
+                  - img [ref=f66e230]
+                - button "TGS-840020 MultiHogar Chile En despacho $1.393.440 +$465.120" [ref=f66e232] [cursor=pointer]:
+                  - generic [ref=f66e233]: TGS-840020
+                  - generic [ref=f66e234]: MultiHogar Chile
+                  - generic [ref=f66e236]:
+                    - img [ref=f66e237]
+                    - text: En despacho
+                  - generic [ref=f66e242]: $1.393.440
+                  - generic [ref=f66e243]: +$465.120
+                  - img [ref=f66e245]

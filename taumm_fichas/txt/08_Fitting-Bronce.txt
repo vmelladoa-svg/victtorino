@@ -1,0 +1,484 @@
+    Fittings de Bronce
+
+    Bushing HE-HI                  Codo HI-HE  1/2”         Codo So-So
+                                               3/4”
+    080143000 3/4” x 1/2”          080233000   1”           080622000 3/8”
+    080154000 1” x 3/4”            080244000                080632000 1/2” x 3/8”
+    080165000 1.1/4” x 1”          080255000   1.1/4”       080633000 1/2”
+                                               1.1/2”
+                                   080266000   2”           080643000 3/4” x 1/2”
+                                   080277000                080644000 3/4”
+                                   080288000
+                                                            080653000 1” x 1/2”
+                                                            080654000 1” x 3/4”
+                                                            080665000 1”
+
+                                                            080663000            1.1/4” x 1/2”
+                                                            080664000            1.1/4” x 3/4”
+                                                            080655000            1.1/4” x 1”
+                                                            080666000            1.1/4”
+
+80  Codo So-HI                     Codo So-HE               080673000            1.1/2” x 1/2”
+                                                            080674000            1.1/2” x 3/4”
+    080522000   3/8”               080422000   3/8”         080675000            1.1/2” x 1”
+    080523000   3/8” x 1/2”        080423000   3/8” x 1/2”  080676000            1.1/2” x 1.1/4”
+    080532000   1/2” x 3/8”        080432000   1/2” x 3/8”  080677000            1.1/2”
+    080533000   1/2”               080433000   1/2”
+                                                            080685000            2” x 1”
+    080534000   1/2” x 3/4”        080434000   1/2” x 3/4”  080686000            2” x 1.1/4”
+    080543000   3/4” x 1/2”        080443000   3/4” x 1/2”  080687000            2” x 1.1/2”
+    080544000   3/4”               080444000   3/4”         080688000            2”
+
+    080554000   1 x 3/4”           080454000   1” x 3/4”    080699000 2.1/2”
+    080555000   1”                 080455000   1”           0806AA000 3”
+                                                            0806BB000 4”
+    080566000   1.1/4”             080466000   1.1/4”       0806CC000 5”
+    080577000   1.1/2”             080477000   1.1/2”
+    080588000   2”                 080488000   2”
+
+                                                                                 Codo HI-HI
+
+                                                                                 080333000 1/2”
+                                                                                 080344000 3/4”
+                                                                                 080343000 3/4” x 1/2”
+
+                                                                                 080355000 1”
+
+    Empaques:                      A Granel en Bolsas Dentro de Cajas de Cartón
+    Normativa:                     NCh 396 Of.2002
+    Ente Certiﬁcador:              CESMEC
+    Ensayos:
+                                   Aleación C84400
+            Materialidad:          Bronce C84400 Cu (78% - 82%)
+                                   Sn (2,3% - 3,5%), Pb (6% - 8%), Zn (7% - 10%), Fe < 0,4%
+            Presión:               Presión Neumática 5 Kgf/cm2 e Hidrostática 18 Kgf/cm2
+            Análisis Dimensional:  Extremos Soldar: NCh 1594, Of. 1979
+                                   Roscas con Hilo: NCh 396 Of. 2002
+            Control Visual:        Sin Presencia de Cavidades, Porosidades, Grietas ni Similares
+            Marcado:               Marca en Relieve de Dimensión y Fabricante
+
+                                   Bushings - Codos
+
+                                   71
+                                        Fittings de Bronce
+
+                      Tapagorro HI                        Copla So-So
+
+                      080830000 1/2”                      080722000 3/8”
+                      080840000 3/4”                      080732000 1/2” x 3/8”
+                      080850000 1”                        080733000 1/2”
+
+                      080860000 1.1/4”
+                      080870000 1.1/2”
+                      080880000 2”
+
+Tapagorro So
+
+080920000 3/8”                                            080743000 3/4” x 1/2”
+080930000 1/2”                                            080744000 3/4”
+080940000 3/4”
+
+080950000     1”                                          080753000 1” x 1/2”
+080960000     1.1/4”                                      080754000 1” x 3/4”
+080970000     1.1/2”                                      080755000 1”
+080980000     2”
+                                                          080763000            1.1/4” x 1/2”
+                      Tapón Macho                         080764000            1.1/4” x 3/4”
+                                                          080765000            1.1/4” x 1”
+                      081030000 1/2”                      080766000            1.1/4”
+                      081040000 3/4”
+                      081050000 1”                        080773000            1.1/2” x 1/2”    80
+                                                          080774000            1.1/2” x 3/4”
+                      081060000 1.1/4”                    080775000            1.1/2” x 1”
+                      081070000 1.1/2”                    080776000            1.1/2” x 1.1/4”
+                      081080000 2”                        080777000            1.1/2”
+
+                                                          080785000            2” x 1”
+                                                          080786000            2”x 1.1/4”
+                                                          080787000            2” x 1.1/2”
+                                                          080788000            2”
+
+                      Copla So - So Pasada                080797000 2.1/2” x 1.1/2”
+                      080733100 1/2”                      080798000 2.1/2” x 2”
+                                                          080799000 2.1/2”
+                                                          0807AA000 3”
+
+                                                          0807A9000 3” x 2.1/2”
+                                                          0807B8000 4” x 2”
+                                                          0807BA000 4” x 3”
+                                                          0807BB000 4”
+                                                          0807CB000 5” x 4”
+                                                          0807CC000 5”
+
+Empaques:             En Bolsas Plásticas dentro de Cajas de Cartón
+
+Normativa:            NCh 396 Of. 2002
+
+Ente Certiﬁcador:     CESMEC
+
+Ensayos:
+
+Materialidad:         Aleación C84400
+
+                      Bronce C84400 (Cu entre 78% y 82%)
+
+                      n (2,3% - 3,5%), Pb (6% - 8%), Zn (7% - 10%), Fe < 0,4%
+
+Presión:              Presión Neumática 5 Kgf/cm2 e Hidrostática 18 kgf/cm2
+
+Análisis Dimensional: Extremos Soldar: NCh 1594 Of. 2002
+
+                      Roscas con Hilo: NCh 396 Of.2002
+
+Control Visual:       Sin Presencia de Cavidades, Porosidades, Grietas ni Similares
+
+Marcado:              Marca en Relieve de Dimensión y Fabricante
+
+                      Copla - Tapagorro - Tapón Macho
+
+                                             72
+    Fittings de Bronce
+
+                                   Tee So-So-So
+
+                                   081322200     3/8”
+                                   081332200     1/2” x 3/8” x 3/8”
+                                   081332300     1/2” x 3/8” x 1/2”
+                                   081333200     1/2” x 1/2” x 3/8”
+                                   081333300     1/2”
+
+    Tee So-So-HI                   081333400     1/2” x 1/2” x 3/4”
+                                   081343300     3/4” x 1/2” x 1/2”
+    081233300 1/2”                 081343400     3/4” x 1/2” x 3/4”
+    081233400 1/2” x 1/2” x 3/4”   081344300     3/4” x 3/4” x 1/2”
+    081243300 3/4“ x 1/2” x 1/2“   081344400     3/4”
+
+    081243300 3/4” x 1/2” x 3/4”   081355300     1” x 1” x 1/2”
+    081244300 3/4” x 3/4” x 1/2”   081354300     1” x 3/4” x 1/2”
+    081244400 3/4”                 081354400     1” x 3/4” x 3/4”
+    081255300 1” x 1” x 1/2”       081354500     1” x 3/4” x 1”
+                                   081355400     1” x 1” x 3/4”
+                                   081355500     1”
+
+                                   081366300 1.1/4” x 1.1/4” x 1/2”
+
+08                                 081366400 1.1/4” x 1.1/4” x 3/4”
+                                   081366500 1.1/4” x 1.1/4” x 1”
+
+                                   081366600 1.1/4”
+
+                                   081377300     1.1/2” x 1.1/2” x 1/2”
+                                   081353400     1.1/2” x 1.1/2” x 3/4”
+                                   081377400     1.1/2” x 1.1/2” x 1”
+                                   081377700     1.1/2”
+
+    0813AA800 3” x 3” x 2”         081388300     2” x 2” x 1/2”
+    0813AA900 3” x 3” x 2.1/2”     081388400     2” x 2” x 3/4”
+    0813BBB00 4“                   081388500     2” x 2” x 1”
+                                   081388600     2” x 2” x 1.1/4”
+    0813BB900 4” x 4” x 2”         081388700     2” x 2” x 1.1/2”
+    0813BB900 4” x 4” x 2.1/2”     081388800     2“
+    0813BBA00 4” x 4” x 3
+                                   081399500 2.1/2” x 1“ x 1”
+                                   081399600 2.1/2” x 1.1/4“ x 1.1/4”
+                                   081399700 2.1/2” x 2.1/2” x 1.1/2”
+                                   081399800 2.1/2” x 2.1/2” x 2”
+                                   081399900 2.1/2”
+                                   0813AA000 3”
+
+    Empaques:                      En Bolsas Plásticas dentro de Cajas de Cartón
+    Normativa:                     NCh 396 Of. 2002
+    Ente Certiﬁcador:              CESMEC
+    Ensayos:
+                                   Aleación C84400
+            Materialidad:          Bronce C84400 (Cu entre 78% y 82%)
+                                   Sn (2,3% - 3,5%), Pb (6% - 8%), Zn (7% - 10%), Fe < 0,4%
+            Presión:               Presión Neumática 5 Kgf/cm2 e Hidrostática 18 Kgf/cm2
+            Análisis Dimensional:  Extremos Soldar: NCh 1594, Of. 1979
+            Roscas con Hilo:       NCh 396 Of. 2002
+            Control Visual:        Sin Presencia de Cavidades, Porosidades, Grietas ni Similares
+            Marcado:               Marca en Relieve de Dimensión y Fabricante
+
+                                   Tees
+
+                                     73
+                               Fittings de Bronce
+
+Terminal So-HE                 Terminal So-HI
+
+081422000 3/8”                 081522000 3/8”
+081423000 3/8” x 1/2”          081523000 3/8” x 1/2”
+081432000 1/2” x 3/8”          081532000 1/2” x 3/8”
+081433000 1/2”                 081533000 1/2”
+
+081434000 1/2” x 3/4”          081534000 1/2” x 3/4”
+081443000 3/4” x 1/2”          081543000 3/4” x 1/2”
+081444000 3/4”                 081544000 3/4”
+
+081445000 3/4” x 1”            081545000 3/4” x 1”
+081454000 1” x 3/4”            081554000 1” x 3/4”
+081455000 1”                   081555000 1”
+
+081466000 1.1/4”               081566000 1.1/4”                                               08
+081477000 1.1/2”
+081488000 2”                   081577000 1.1/2”
+
+081499000 2.1/2”               081588000 2”
+0814AA000 3”
+0814BB000 4”                   0815AA000 3”
+
+                               0815BB000 4”
+
+Empaques:                      En Bolsas Plásticas dentro de Cajas de Cartón
+Normativa:                     NCh 396 Of. 2002
+Ente Certiﬁcador:              CESMEC
+Ensayos:
+                               Aleación C84400
+        Materialidad:          Bronce C84400 (Cu entre 78% y 82%)
+                               Sn (2,3% - 3,5%), Pb (6% - 8%), Zn (7% - 10%), Fe < 0,4%
+        Presión:               Presión Neumática 5 kgf/cm2 e Hidrostática 18 kgf/cm2
+        Análisis Dimensional:  Extremos Soldar: NCh 1594, Of. 1979
+                               Roscas con Hilo: NCh 396 Of. 2002
+        Control Visual:        Sin Presencia de Cavidades, Porosidades, Grietas ni Similares
+        Marcado:               Marca en Relieve de Dimensión y Fabricante
+
+Terminales Soldar con Hilo
+
+                           74
+    Fittings de Bronce                                 Unión Americana So-So
+
+                           Unión Americana So-HE       081922000 3/8”
+                           081733000 1/2”              081933000 1/2”
+                           081744000 3/4”              081944000 3/4”
+                           081755000 1”                081955000 1”
+                           081766000 1.1/4”
+                           081777000 1.1/2”            081966000 1.1/4”
+                           081788000 2”                081977000 1.1/2”
+                                                       081988000 2”
+
+                                                       081999000 2.1/2”
+                                                       0819AA000 3”
+                                                       0819BB000 4”
+
+08  Hilo con Tuerca                Niple HI - HE 1/2”  Niple HI - HE (Latón)
+    082933000 1/2”                 082733000           082733001 1/2”
+
+    082944000 3/4”
+
+    082955000 1”
+
+    082966000 1.1/4”
+    082977000 1.1/2”
+    082988000 2”
+
+            Curva So-HE 1/2”                           Curva So-So                1/2”
+            083733000                                                             3/4”
+                                                       083133000                  1”
+    Empaques:                                          083144000
+    Normativa:                                         083155000                  1.1/4”
+    Ente Certiﬁcador:                                                             1.1/2”
+    Ensayos:                                           083166000
+                                                       083177000
+            Materialidad:
+                                   En Bolsas Plásticas dentro de Cajas de Cartón
+            Presión:               NCh 396 Of. 2002
+            Análisis Dimensional:  CESMEC
+
+            Control Visual:        Aleación C84400
+            Marcado:               Bronce C84400 (Cu entre 78% y 82%)
+                                   Sn (2,3% - 3,5%), Pb (6% - 8%), Zn (7% - 10%), Fe < 0,4%
+                                   Presión Neumática 5 kgf/cm2 e Hidrostática 18 kgf/cm2
+                                   Extremos Soldar: NCh 1594, Of. 1979
+                                   Roscas con Hilo: NCh 396 Of. 2002
+                                   Sin Presencia de Cavidades, Porosidades, Grietas ni Similares
+                                   Marca en Relieve de Dimensión y Fabricante
+
+    Uniones Americanas - Hilos - Niples - Curvas
+
+                                             75
+                             Fittings de Bronce
+
+Codo en Bolsa Unitaria       Tee en Bolsa Unitaria
+                             081233302 So-So-HI 1/2”
+080233002 HI-HE 1/2”         081244302 So-So-HI 3/4” x 3/4” x 1/2”
+080244002 HI-HE 3/4”         081333302 So-So-So 1/2”
+                             081343302 So-So-So 3/4” x 1/2” x 1/2”
+080433002 So-HE 1/2”         081343402 So-So-So 3/4” x 1/2” x 3/4”
+080444002 So-HE 3/4”         081344302 So-So-So 3/4” x 3/4” x 1/2”
+                             081344402 So-So-So 3/4”
+080533002 So-HI 1/2”         081355402 So-So-So 1” x 1” x 3/4”
+080544002 So-HI 3/4”         081355502 So-So-So 1”
+080555002 So-HI 1”
+                                                                      08
+080622002 So-So 3/8”
+080633002 So-So 1/2”
+080643002 So-So 3/4” x 1/2”
+080644002 So-So 3/4”
+080654002 So-So 1” x 3/4”
+080655002 So-So 1”
+
+Copla en Bolsa Unitaria      Terminales en Bolsa Unitaria  Tapagorro en Bolsa Unitaria
+
+080732002 So-So 1/2” x 3/8”  081423002 So-HE 3/8” x 1/2”   080830002 HI 1/2”
+080733002 So-So 1/2”         081433002 So-HE 1/2”          080930002 So 1/2”
+080743002 So-So 3/4” x 1/2”  081444002 So-HE 3/4”
+080744002 So-So 3/4”         081455002 So-HE 1”
+
+                             081533002 So-HI 1/2”
+                             081544002 So-HI 3/4”
+                             081555002 So-HI 1”
+
+Tapón Macho        Unión Americana en Bolsa Unitaria  Hilo con Tuerca en Bolsa Unitaria
+en Bolsa Unitaria                                     082933002 1/2”
+                   081733002 So-HE 1/2”
+081030002 1/2”     081744002 So-HE 3/4”
+
+                   081933002 So-So 1/2”
+                   081944002 So-So 3/4”
+                   081955002 So-So 1”
+
+Fitting de Bronce en Bolsa Unitaria
+
+                                 76
+    Fittings de Bronce
+
+    Codo HI-HE
+
+    080233004 1/2”
+    080244004 3/4”
+    Codo So-HE
+
+    080423004 3/8” x 1/2”
+    080433004 1/2”
+    080444004 3/4”
+    080455004 1”
+
+    Codo So-HI
+
+    080533004 1/2”
+    080544004 3/4”
+    080555004 1”
+
+    Codo So-So
+
+    080622004 3/8”
+
+    080632004 1/2” x 3/8”
+
+    080633004 1/2”
+
+    080643004 3/4” x 1/2”
+
+    080644004 3/4”
+
+    080655004 1”
+
+08  080666004 1.1/4“
+
+    080677004 1.1/2”
+
+    080688004 2”
+
+    Copla So-So
+
+    080722004 3/8”                 Tee So-So-HI
+    080732004 1/2” x 3/8”
+    080733004 1/2”                 081244304 3/4” x 3/4” x 1/2”
+    080743004 3/4” x 1/2”
+    080744004 3/4”                 Tee So-So-So
+    080754004 1” x 3/4”
+    080755004 1”                   081333304 1/2”
+                                   081343304 3/4” x 1/2” x 1/2”
+                                   081344304 3/4” x 3/4” x 1/2”
+                                   081344404 3/4”
+                                   081355304 1” x 1” x 1/2“
+                                   081355404 1” x 1” x 3/4”
+                                   081355504 1”
+                                   081377704 1.1/2”
+                                   081388804 2”
+
+    Empaques:                      En Bolsas Plásticas dentro de Cajas de Cartón
+    Normativa:                     NCh 396 Of. 2002 Cumple Protocolo SEC PC 63/1
+    Ente Certiﬁcador:              CESMEC
+    Ensayos:
+                                   Aleación C84400
+            Materialidad:          Bronce C84400 (Cu entre 78% y 82%)
+                                   Sn (2,3% - 3,5%), Pb (6% - 8%), Zn (7% - 10%), Fe < 0,4%
+            Presión:               Presión Neumática 5 kgf/cm2 e Hidrostática 18 kgf/cm2
+            Análisis Dimensional:  Extremos Soldar: NCh 1594, Of. 1979
+                                   Roscas con Hilo: NCh 396 Of. 2002
+            Control Visual:        Sin Presencia de Cavidades, Porosidades, Grietas ni Similares
+            Marcado:               Marca en Relieve de Dimensión y Fabricante
+
+    Fitting de Bronce para Gas
+
+                             77
+                               Fittings de Bronce
+
+                                                      Tapagorro HI
+
+                                                      080830004 1/2”
+
+                                                      Tapagorro So
+
+                                                      080930004 1/2”
+                                                      080940004 3/4”
+
+                                                      Tapón Macho
+
+                                                      081030004 1/2”
+
+Terminal So-HE
+
+081423004 3/8” x 1/2”
+081433004 1/2”
+081434004 1/2” x 3/4”
+081443004 3/4” x 1/2”
+081444004 3/4”
+081455004 1”
+081466004 1.1/4”
+081477004 1.1/2”
+081488004 2”
+
+Terminal So-HI                                                                                08
+081533004 1/2”
+
+081534004 1/2” x 3/4”
+
+081544004 3/4”
+
+081555004 1”                   Unión Americana So-HE
+
+081577004 1.1/2”               081733004 1/2”
+081588004 2”                   081744004 3/4”
+
+                               Unión Americana So-So
+
+                               081933004 1/2”
+                               081944004 3/4”
+                               081955004 1”
+                               081977004 1.1/2“
+                               081988004 2”
+
+                               Hilo con Tuerca
+
+                               082933004 1/2”
+                               082944004 3/4”
+
+Empaques:                      En Bolsas Plásticas dentro de Cajas de Cartón
+Normativa:                     NCh 396 Of. 2002 Cumple Protocolo SEC PC 63/1
+Ente Certiﬁcador:              CESMEC
+Ensayos:
+                               Aleación C84400
+        Materialidad:          Bronce C84400 (Cu entre 78% y 82%)
+                               Sn (2,3% - 3,5%), Pb (6% - 8%), Zn (7% - 10%), Fe < 0,4%
+        Presión:               Presión Neumática 5 kgf/cm2 e Hidrostática 18 kgf/cm2
+        Análisis Dimensional:  Extremos Soldar: NCh 1594, Of. 1979
+                               Roscas con Hilo: NCh 396 Of. 2002
+        Control Visual:        Sin Presencia de Cavidades, Porosidades, Grietas ni Similares
+        Marcado:               Marca en Relieve de Dimensión y Fabricante
+
+                  Fitting de Bronce para Gas
+
+                                          78
+

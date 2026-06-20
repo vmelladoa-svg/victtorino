@@ -1,0 +1,30 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e5]
+        - generic [ref=e9]: Open Carrusel
+      - button "Settings" [ref=e10] [cursor=pointer]:
+        - img [ref=e11]
+    - main [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - heading "Open Carrusel" [level=1] [ref=e18]
+            - paragraph [ref=e19]: Create Instagram carousels with AI
+          - button "New Carousel" [ref=e20] [cursor=pointer]:
+            - img [ref=e21]
+            - text: New Carousel
+        - generic [ref=e22]:
+          - button "My Carousels" [ref=e23]
+          - button "Templates" [ref=e24]
+        - generic [ref=e25]:
+          - img [ref=e59]
+          - heading "No carousels yet" [level=2] [ref=e63]
+          - paragraph [ref=e64]: Create your first Instagram carousel. Our AI assistant will help you design beautiful slides in seconds.
+          - button "Create Your First Carousel" [ref=e65] [cursor=pointer]:
+            - img [ref=e66]
+            - text: Create Your First Carousel
+  - button "Open Next.js Dev Tools" [ref=e72] [cursor=pointer]:
+    - img [ref=e73]
+  - alert [ref=e76]

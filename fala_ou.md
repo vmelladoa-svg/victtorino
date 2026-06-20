@@ -1,0 +1,191 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - img [ref=e10] [cursor=pointer]
+            - link "Falabella Seller Center" [ref=e12] [cursor=pointer]:
+              - /url: /
+              - img "Falabella Seller Center" [ref=e13]
+          - generic [ref=e14]:
+            - generic [ref=e16]: Trade Global
+            - button [ref=e18] [cursor=pointer]:
+              - img [ref=e19]
+      - complementary:
+        - navigation:
+          - generic [ref=e24]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e29]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e34]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e43]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e45]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e47]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e50]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e58]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e65]:
+            - button:
+              - generic:
+                - img
+  - main [ref=e69]:
+    - generic [ref=e71]:
+      - heading "Promociones" [level=1] [ref=e72]
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - heading "Promociones" [level=1] [ref=e97]
+          - navigation "Promociones" [ref=e98]:
+            - link "Promociones" [ref=e99] [cursor=pointer]:
+              - /url: /retail-services/vas/promotions
+              - generic [ref=e101]: Promociones
+            - link "Mis promociones" [ref=e102] [cursor=pointer]:
+              - /url: /retail-services/vas/promotions/my-promotions
+              - generic [ref=e104]: Mis promociones
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - paragraph [ref=e107]: Oportunidad única
+            - button "¿Cómo funciona?" [ref=e109] [cursor=pointer]
+          - generic [ref=e110]:
+            - paragraph [ref=e111]: A continuación te mostramos los productos de tu catálogo que están habilitados para participar en la promoción.
+            - button "Carga masiva de productos" [ref=e113] [cursor=pointer]:
+              - img [ref=e114]
+              - text: Carga masiva de productos
+        - generic [ref=e118]:
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - img
+              - combobox "Buscar por nombre, SKU u otros criterios" [ref=e122] [cursor=pointer]:
+                - option "Por nombre" [selected]
+                - option "Por SKU"
+                - option "Por EAS"
+            - textbox "Buscar por nombre, SKU u otros criterios" [ref=e123]
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - text: "Productos de tu catálogo:"
+              - strong [ref=e126]: "3"
+            - generic [ref=e128]:
+              - text: "Productos seleccionados:"
+              - strong [ref=e129]: "0"
+            - generic [ref=e131]:
+              - text: "Total de productos en promoción:"
+              - strong [ref=e132]: "3"
+        - table [ref=e134]:
+          - rowgroup [ref=e135]:
+            - row "Producto Precio y dcto. actual Precio final Descuento CMR" [ref=e136]:
+              - columnheader [ref=e137]:
+                - checkbox [ref=e139] [cursor=pointer]
+              - columnheader "Producto" [ref=e140]:
+                - button "Producto" [ref=e141] [cursor=pointer]:
+                  - generic [ref=e142]: Producto
+                  - img [ref=e143]
+              - columnheader "Precio y dcto. actual" [ref=e146]:
+                - button "Precio y dcto. actual" [ref=e147] [cursor=pointer]:
+                  - generic [ref=e148]: Precio y dcto. actual
+                  - img [ref=e149]
+              - columnheader "Precio final" [ref=e152]:
+                - button "Precio final" [ref=e153] [cursor=pointer]:
+                  - generic [ref=e154]: Precio final
+                  - img [ref=e155]
+              - columnheader "Descuento CMR" [ref=e158]:
+                - button "Descuento CMR" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e160]: Descuento CMR
+                  - img [ref=e161]
+          - rowgroup [ref=e164]:
+            - 'row "Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar SKU: 143984345 - EAS: - $16.390 $31.141 14990 $14.990 -52%" [ref=e165]':
+              - cell [ref=e166]:
+                - checkbox [ref=e167] [cursor=pointer]
+              - 'cell "Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar SKU: 143984345 - EAS: -" [ref=e168]':
+                - generic [ref=e170]:
+                  - img "Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar" [ref=e172]
+                  - generic [ref=e174]:
+                    - emphasis [ref=e175]: Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar
+                    - paragraph [ref=e176]: "SKU: 143984345 - EAS: -"
+              - cell "$16.390 $31.141" [ref=e177]:
+                - generic [ref=e178]: $16.390
+                - generic [ref=e179]: $31.141
+              - cell "14990" [ref=e180]:
+                - textbox [ref=e183]: "14990"
+              - cell "$14.990 -52%" [ref=e184]:
+                - generic [ref=e185]:
+                  - generic [ref=e186]: $14.990
+                  - generic [ref=e187]: "-52%"
+            - 'row "RECEPTACULO DUCHA 80X80 CM RECEPTACULO DUCHA 80X80 CM SKU: 146189570 - EAS: - $53.790 $102.201 50990 $50.990 -50%" [ref=e188]':
+              - cell [ref=e189]:
+                - checkbox [ref=e190] [cursor=pointer]
+              - 'cell "RECEPTACULO DUCHA 80X80 CM RECEPTACULO DUCHA 80X80 CM SKU: 146189570 - EAS: -" [ref=e191]':
+                - generic [ref=e193]:
+                  - img "RECEPTACULO DUCHA 80X80 CM" [ref=e195]
+                  - generic [ref=e197]:
+                    - emphasis [ref=e198]: RECEPTACULO DUCHA 80X80 CM
+                    - paragraph [ref=e199]: "SKU: 146189570 - EAS: -"
+              - cell "$53.790 $102.201" [ref=e200]:
+                - generic [ref=e201]: $53.790
+                - generic [ref=e202]: $102.201
+              - cell "50990" [ref=e203]:
+                - textbox [ref=e206]: "50990"
+              - cell "$50.990 -50%" [ref=e207]:
+                - generic [ref=e208]:
+                  - generic [ref=e209]: $50.990
+                  - generic [ref=e210]: "-50%"
+            - 'row "Lavaplatos Empotrado doble 120x44x15cm Secador Derecho Lavaplatos Empotrado doble 120x44x15cm Secador Derecho SKU: 143105393 - EAS: - $69.990 $108.917 65990 $65.990 -39%" [ref=e211]':
+              - cell [ref=e212]:
+                - checkbox [ref=e213] [cursor=pointer]
+              - 'cell "Lavaplatos Empotrado doble 120x44x15cm Secador Derecho Lavaplatos Empotrado doble 120x44x15cm Secador Derecho SKU: 143105393 - EAS: -" [ref=e214]':
+                - generic [ref=e216]:
+                  - img "Lavaplatos Empotrado doble 120x44x15cm Secador Derecho" [ref=e218]
+                  - generic [ref=e220]:
+                    - emphasis [ref=e221]: Lavaplatos Empotrado doble 120x44x15cm Secador Derecho
+                    - paragraph [ref=e222]: "SKU: 143105393 - EAS: -"
+              - cell "$69.990 $108.917" [ref=e223]:
+                - generic [ref=e224]: $69.990
+                - generic [ref=e225]: $108.917
+              - cell "65990" [ref=e226]:
+                - textbox [ref=e229]: "65990"
+              - cell "$65.990 -39%" [ref=e230]:
+                - generic [ref=e231]:
+                  - generic [ref=e232]: $65.990
+                  - generic [ref=e233]: "-39%"
+        - generic [ref=e234]:
+          - list [ref=e235]:
+            - generic [ref=e236]: "Páginas:"
+            - listitem [ref=e237]:
+              - generic [ref=e238] [cursor=pointer]: "1"
+          - generic [ref=e239]:
+            - generic [ref=e240]: "Ítems por página:"
+            - generic [ref=e242] [cursor=pointer]: "8"
+        - generic [ref=e243]:
+          - button "Volver" [ref=e244] [cursor=pointer]
+          - button "Siguiente" [disabled] [ref=e245] [cursor=pointer]
+  - contentinfo [ref=e75]:
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - img [ref=e81]
+        - button "Califica esta página" [ref=e83] [cursor=pointer]
+      - generic [ref=e84]:
+        - generic [ref=e85]: Idioma
+        - generic [ref=e87] [cursor=pointer]:
+          - generic [ref=e88]: Español
+          - img [ref=e90]
+  - alert [ref=e92]

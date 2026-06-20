@@ -1,0 +1,33 @@
+﻿accion,alias,descripcion,http_status,item_id,n,precio_actual,resultado,status_actual,title,ts
+PAUSAR,C2,PAUSAR (estaba active),,MLC2649268824,1,301943,DRY_RUN,active,Mampara Ducha De 120 A 140 Cms Ancho X 190 Cms Vidrio Templ ,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC3903951432,2,211944,DRY_RUN,active,Shower Door Receptaculo 90x90 Curvo Transparente Negro,20260526_234456
+PAUSAR,C1,PAUSAR (estaba active),,MLC3903951480,3,198890,DRY_RUN,active,Shower Door Receptaculo 90x90 Curvo Transparente Negro,20260526_234456
+PAUSAR,C1,PAUSAR (estaba active),,MLC2008826482,4,187690,DRY_RUN,active,Shower Door Y Receptáculo 80x80x195 Vidrio Templado,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC2992400258,5,187690,DRY_RUN,active,Shower Door Y Receptáculo 80x80x195 Vidrio Templado,20260526_234456
+PAUSAR,C1,PAUSAR (estaba active),,MLC1524601740,6,126258,DRY_RUN,active,Lavaplatos Simple Empotrable Ancho 686x456x21 Cm Hamburg Col,20260526_234456
+PAUSAR,C3,PAUSAR (estaba active),,MLC4014729334,7,58390,DRY_RUN,active,Receptaculo De Ducha Acero Esmaltado De 80x80 Cm,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC1976795676,8,50028,DRY_RUN,active,Barra De Seguridad Muro Vertical De 3 Apoyos Fija Baño Color,20260526_234456
+PAUSAR,C3,PAUSAR (estaba active),,MLC2997898108,9,50028,DRY_RUN,active,Barra De Seguridad Muro Vertical De 3 Apoyos Fija Baño Color,20260526_234456
+PAUSAR,C3,PAUSAR (estaba active),,MLC3767961162,10,40480,DRY_RUN,active,Mezcladora De Baño Victtorino Monocomando De Acero Inoxidabl,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC3790120208,11,38456,DRY_RUN,active,Mezcladora De Baño Victtorino Monocomando De Acero Inoxidabl,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC1644611789,12,35457,DRY_RUN,active,Bandeja Portatoalla Al Muro Chico,20260526_234456
+PAUSAR,C1,PAUSAR (estaba active),,MLC1653064539,13,33684,DRY_RUN,active,Bandeja Portatoalla Al Muro Chico,20260526_234456
+PAUSAR,C3,PAUSAR (estaba active),,MLC1308152087,14,31190,DRY_RUN,active,Lavaplatos Sobreponer Simple 80x50 Inoxidable Derecho Color ,20260526_234456
+PAUSAR,C3,PAUSAR (estaba under_review),,MLC4016158154,15,31190,DRY_RUN,under_review,Lavaplatos Sobreponer Simple 80x50 Inoxidable Derecho Color ,20260526_234456
+PAUSAR,C1,PAUSAR (estaba active),,MLC2051025010,16,13190,DRY_RUN,active,Porta Papel Higiénico Wc Metalico Redondo,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC3902446360,17,11577,DRY_RUN,active,Dispensador De Jabón Líquido Manual Para Pared Täumm Schawar,20260526_234456
+PAUSAR,C1,PAUSAR (estaba active),,MLC3902911104,18,10990,DRY_RUN,active,Desague Sifón De 90 Mm Para Receptáculo Plateado,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC3902911076,19,10018,DRY_RUN,active,Desague Sifón De 90 Mm Para Receptáculo Plateado,20260526_234456
+PAUSAR,C1,PAUSAR (estaba active),,MLC1717202779,20,6783,DRY_RUN,active,Pack De 6 Rollos Papel Higienico Industrial 216 Metros,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC3734406876,21,6290,DRY_RUN,active,Válvula Lateral Para Wc Eficiente Y Durable,20260526_234456
+PAUSAR,C1,PAUSAR (estaba active),,MLC1891425406,22,5568,DRY_RUN,active,Jabonera Colomba Cromada Vidrio Empavonado Color Plateado,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC1422400091,23,5568,DRY_RUN,active,Jabonera Colomba Cromada Vidrio Empavonado Color Plateado,20260526_234456
+PAUSAR,C1,PAUSAR (estaba active),,MLC3998955300,24,5390,DRY_RUN,active,Sifón De Botella Täumm De Plástico Para Lavaplatos Blanco Ma,20260526_234456
+PAUSAR,C3,PAUSAR (estaba active),,MLC2998529622,25,2920,DRY_RUN,active,1 Paquete De Toalla Interfoliada 200 U,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC2992421498,26,2774,DRY_RUN,active,1 Paquete De Toalla Interfoliada 200 U,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC1877648593,27,2290,DRY_RUN,active,Sello Antifuga Asiento Wc Redondo,20260526_234456
+PAUSAR,C2,PAUSAR (estaba active),,MLC2927271006,28,1256,DRY_RUN,active,Rollo Toalla Papel Higiénico Industrial 216 M,20260526_234456
+BAJAR_PRECIO,C2,BAJAR $41396 -> $33650,,MLC1465009840,29,41396,DRY_RUN,active,Lavaplatos Empotrados Simple 100x44 Inox Izquierdo-191432514,20260526_234456
+BAJAR_PRECIO,C3,BAJAR $36390 -> $33650,,MLC1367027081,30,36390,DRY_RUN,active,Lavaplatos Empotrados Simple 100x44 Inox Izquierdo-191432514,20260526_234456
+BAJAR_PRECIO,C2,BAJAR $31190 -> $30050,,MLC1296395294,31,31190,DRY_RUN,active,Lavaplatos Sobreponer Simple 80x50 Inoxidable Derecho Color ,20260526_234456
+BAJAR_PRECIO,C1,BAJAR $4788 -> $3810,,MLC3737713104,32,4788,DRY_RUN,active,"Flexible De Ducha Acero Inoxidable 1,85 Mts Spiegel Taumm Ac",20260526_234456

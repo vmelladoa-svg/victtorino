@@ -1,0 +1,242 @@
+[
+  {
+    "pid": 2543,
+    "ok": true,
+    "status": "publish",
+    "cat": "Accesorios",
+    "palabras": 358,
+    "focus": "set accesorios para baño",
+    "frecuencia": 4,
+    "enlaces": 4
+  },
+  {
+    "pid": 2551,
+    "ok": true,
+    "status": "draft",
+    "cat": "Dispensador",
+    "palabras": 283,
+    "focus": "dispensador de jabón",
+    "frecuencia": 5,
+    "enlaces": 4
+  },
+  {
+    "pid": 2558,
+    "ok": true,
+    "status": "draft",
+    "cat": "WC e Inodoros",
+    "palabras": 277,
+    "focus": "válvula de pie",
+    "frecuencia": 2,
+    "enlaces": 4
+  },
+  {
+    "pid": 2568,
+    "ok": true,
+    "status": "draft",
+    "cat": "Accesorios",
+    "palabras": 353,
+    "focus": "dispensador papel higiénico",
+    "frecuencia": 4,
+    "enlaces": 4
+  },
+  {
+    "pid": 2574,
+    "ok": true,
+    "status": "draft",
+    "cat": "Shower/Mamparas/Receptaculos",
+    "palabras": 279,
+    "focus": "shower door",
+    "frecuencia": 4,
+    "enlaces": 4
+  },
+  {
+    "pid": 2578,
+    "ok": true,
+    "status": "draft",
+    "cat": "Griferia",
+    "palabras": 366,
+    "focus": "llave temporizada urinario",
+    "frecuencia": 6,
+    "enlaces": 4
+  },
+  {
+    "pid": 2583,
+    "ok": true,
+    "status": "draft",
+    "cat": "Accesorios",
+    "palabras": 347,
+    "focus": "organizador ducha",
+    "frecuencia": 4,
+    "enlaces": 4
+  },
+  {
+    "pid": 2590,
+    "ok": true,
+    "status": "draft",
+    "cat": "Espejos",
+    "palabras": 298,
+    "focus": "espejo doble cara aumento",
+    "frecuencia": 4,
+    "enlaces": 4
+  },
+  {
+    "pid": 2597,
+    "ok": true,
+    "status": "draft",
+    "cat": "Griferia",
+    "palabras": 364,
+    "focus": "fluxómetro WC",
+    "frecuencia": 6,
+    "enlaces": 4
+  },
+  {
+    "pid": 2607,
+    "ok": true,
+    "status": "draft",
+    "cat": "Agarraderas y Barras",
+    "palabras": 296,
+    "focus": "agarradera baño",
+    "frecuencia": 4,
+    "enlaces": 4
+  },
+  {
+    "pid": 2611,
+    "ok": true,
+    "status": "draft",
+    "cat": "Espejos",
+    "palabras": 299,
+    "focus": "espejo doble cara aumento",
+    "frecuencia": 4,
+    "enlaces": 4
+  },
+  {
+    "pid": 2615,
+    "ok": true,
+    "status": "draft",
+    "cat": "Accesorios",
+    "palabras": 352,
+    "focus": "basurero pedal baño",
+    "frecuencia": 4,
+    "enlaces": 4
+  },
+  {
+    "pid": 2620,
+    "ok": true,
+    "status": "draft",
+    "cat": "Accesorios",
+    "palabras": 353,
+    "focus": "basurero pedal baño",
+    "frecuencia": 4,
+    "enlaces": 4
+  },
+  {
+    "pid": 2624,
+    "ok": true,
+    "status": "draft",
+    "cat": "Griferia",
+    "palabras": 369,
+    "focus": "llave lavamanos Colomba",
+    "frecuencia": 6,
+    "enlaces": 4
+  },
+  {
+    "pid": 2629,
+    "ok": true,
+    "status": "draft",
+    "cat": "Accesorios",
+    "palabras": 347,
+    "focus": "jabonera Colomba",
+    "frecuencia": 5,
+    "enlaces": 4
+  },
+  {
+    "pid": 2634,
+    "ok": true,
+    "status": "draft",
+    "cat": "Accesorios",
+    "palabras": 352,
+    "focus": "basurero pedal baño",
+    "frecuencia": 4,
+    "enlaces": 4
+  },
+  {
+    "pid": 2642,
+    "ok": true,
+    "status": "draft",
+    "cat": "Accesorios",
+    "palabras": 352,
+    "focus": "jabonera acero inoxidable",
+    "frecuencia": 5,
+    "enlaces": 4
+  },
+  {
+    "pid": 2647,
+    "ok": true,
+    "status": "draft",
+    "cat": "Griferia",
+    "palabras": 370,
+    "focus": "grifo monomando profesional",
+    "frecuencia": 7,
+    "enlaces": 4
+  },
+  {
+    "pid": 2655,
+    "ok": true,
+    "status": "draft",
+    "cat": "Dispensador",
+    "palabras": 289,
+    "focus": "dispensador jabón acero inoxidable",
+    "frecuencia": 5,
+    "enlaces": 4
+  },
+  {
+    "pid": 2661,
+    "ok": true,
+    "status": "draft",
+    "cat": "Sifones y Desagües",
+    "palabras": 289,
+    "focus": "desagüe tina bronce",
+    "frecuencia": 4,
+    "enlaces": 4
+  },
+  {
+    "pid": 2669,
+    "ok": true,
+    "status": "draft",
+    "cat": "Lavaplatos",
+    "palabras": 279,
+    "focus": "lavaplatos empotrado",
+    "frecuencia": 6,
+    "enlaces": 4
+  },
+  {
+    "pid": 2674,
+    "ok": true,
+    "status": "draft",
+    "cat": "Lavamanos",
+    "palabras": 274,
+    "focus": "lavamanos vidrio",
+    "frecuencia": 5,
+    "enlaces": 4
+  },
+  {
+    "pid": 2681,
+    "ok": true,
+    "status": "draft",
+    "cat": "Accesorios",
+    "palabras": 351,
+    "focus": "set de ducha",
+    "frecuencia": 5,
+    "enlaces": 4
+  },
+  {
+    "pid": 2687,
+    "ok": true,
+    "status": "draft",
+    "cat": "Accesorios",
+    "palabras": 354,
+    "focus": "jabonera líquido inox",
+    "frecuencia": 4,
+    "enlaces": 4
+  }
+]

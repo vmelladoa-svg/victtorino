@@ -1,0 +1,149 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - link "Falabella Seller Center" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img "Falabella Seller Center" [ref=e11]
+          - generic [ref=e12]:
+            - link "Fpay Logo" [ref=e14] [cursor=pointer]:
+              - /url: https://fpay.cl/comercios/cuenta/login
+              - img "Fpay Logo" [ref=e15]
+            - generic [ref=e16]:
+              - generic [ref=e18]: Trade Global
+              - button [ref=e20] [cursor=pointer]:
+                - img [ref=e21]
+              - generic [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+                - img [ref=e39]
+                - generic [ref=e41]: "5"
+      - generic [ref=e42]:
+        - generic [ref=e45]:
+          - img [ref=e47]
+          - text: Productos
+          - img [ref=e52]
+        - generic [ref=e56]:
+          - img [ref=e58]
+          - text: Órdenes
+          - img [ref=e63]
+        - generic [ref=e67]:
+          - img [ref=e69]
+          - text: Pagos
+          - img [ref=e78]
+        - generic [ref=e82]:
+          - img [ref=e84]
+          - text: Informes y estadísticas
+          - img [ref=e86]
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - text: Crecimiento
+          - img [ref=e94]
+        - generic [ref=e98]:
+          - img [ref=e100]
+          - text: Mi cuenta
+          - img [ref=e103]
+        - generic [ref=e107]:
+          - img [ref=e109]
+          - text: Fulfillment
+          - img [ref=e117]
+        - generic [ref=e121]:
+          - img [ref=e123]
+          - text: Ayuda
+          - img [ref=e130]
+        - img [ref=e136]
+  - main [ref=e140]:
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - button "Ir a Ventas brutas" [ref=e144]:
+          - img [ref=e146]
+        - button "Ir a Saldo Fpay" [ref=e149]:
+          - img [ref=e151]
+        - button "Ir a Tus órdenes pendientes" [ref=e154]:
+          - img [ref=e156]
+      - generic [ref=e158]:
+        - generic [ref=e161]:
+          - img [ref=e162]
+          - heading "Métricas de tu negocio" [level=2] [ref=e163]
+        - generic [ref=e182]:
+          - img [ref=e184]
+          - img [ref=e194]
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - img [ref=e209]
+            - heading "Novedades" [level=2] [ref=e213]
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - img [ref=e217]
+              - generic [ref=e224]: jun. 19
+            - paragraph [ref=e225] [cursor=pointer]: ¿Todavía no estás en nuestro canal de WhatsApp?
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - generic [ref=e229]:
+                - generic [ref=e230]:
+                  - img [ref=e231]
+                  - text: jun. 17
+                - paragraph [ref=e239] [cursor=pointer]: ¡Tu opinión hace la diferencia!
+              - separator [ref=e240]
+            - generic [ref=e241]:
+              - generic [ref=e242]:
+                - generic [ref=e243]:
+                  - img [ref=e244]
+                  - text: jun. 15
+                - paragraph [ref=e252] [cursor=pointer]: ¡Te esperamos en el Punto de Soporte!
+              - separator [ref=e253]
+          - button "Ir al Centro de novedades" [ref=e255]:
+            - text: Ir al Centro de novedades
+            - img [ref=e256]
+      - generic [ref=e258]:
+        - generic [ref=e260]:
+          - generic [ref=e261]:
+            - img [ref=e262]
+            - generic [ref=e263]: Capacidades de envío de operador logístico
+          - generic [ref=e269]:
+            - separator [ref=e270]
+            - link "Ir a Envíos y capacidad" [ref=e271] [cursor=pointer]:
+              - /url: /user/shipments-and-capacity
+              - text: Ir a Envíos y capacidad
+              - img [ref=e272]
+        - generic [ref=e281]:
+          - generic [ref=e282]:
+            - paragraph [ref=e283]: ¡Combina modelos y acelera tus entregas!
+            - paragraph [ref=e284]: Elige las soluciones logísticas que mejor se adapten a tu negocio y combínalas para mejorar tu operación.
+          - link "Conocer modelos logísticos" [ref=e286] [cursor=pointer]:
+            - /url: /logistics-modalities
+        - generic [ref=e293]:
+          - generic [ref=e294]:
+            - heading "Potencia tu negocio con Fulfillment" [level=2] [ref=e295]
+            - paragraph [ref=e296]: Suma publicaciones con etiqueta Llega hoy / Llega mañana y aumenta tu conversión hasta 30%.
+          - link "Conocer Fulfillment by Falabella" [ref=e297] [cursor=pointer]:
+            - /url: /fulfillment
+      - generic [ref=e298]:
+        - generic [ref=e300]:
+          - generic [ref=e303]:
+            - img [ref=e304]
+            - generic [ref=e306]: Estado de tus productos
+          - generic [ref=e334]:
+            - separator [ref=e335]
+            - link "Ir al Administrador de productos" [ref=e336] [cursor=pointer]:
+              - /url: /product
+              - text: Ir al Administrador de productos
+              - img [ref=e337]
+        - generic [ref=e344]:
+          - paragraph [ref=e346]: Con productos patrocinados puedes vender 4 veces más rápido.
+          - link "Conocer más" [ref=e347] [cursor=pointer]:
+            - /url: /retail-media/vasSponsor
+      - generic [ref=e348] [cursor=pointer]:
+        - img "Tour" [ref=e349]
+        - paragraph [ref=e350]: TOUR
+  - contentinfo [ref=e353]:
+    - generic [ref=e357]:
+      - generic [ref=e358]:
+        - img [ref=e359]
+        - button "Califica esta página" [ref=e361] [cursor=pointer]
+      - generic [ref=e362]:
+        - generic [ref=e363]: Idioma
+        - generic [ref=e365] [cursor=pointer]:
+          - generic [ref=e366]: Español
+          - img [ref=e368]
+  - alert [ref=e370]

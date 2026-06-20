@@ -1,0 +1,182 @@
+{
+  "fecha_analisis": "2026-05-24",
+  "ahorro_estimado_semanal_pausar_top3": 30555,
+  "1_seguras_hoy": {
+    "1a_espejos_top_gastadores": [
+      {
+        "Item ID": "MLC1754361903",
+        "Título": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco",
+        "Clicks 7d": 92,
+        "Cost 7d CLP": 12572,
+        "Precio": 81990,
+        "Permalink": "https://articulo.mercadolibre.cl/MLC-1754361903-espejo-rectangular-moderno-3-luces-led-fria-calida-blanco-_JM"
+      },
+      {
+        "Item ID": "MLC1754550537",
+        "Título": "Espejo 50x70 Rectangular Led Blanco",
+        "Clicks 7d": 62,
+        "Cost 7d CLP": 9300,
+        "Precio": 52290,
+        "Permalink": "https://articulo.mercadolibre.cl/MLC-1754550537-espejo-50x70-rectangular-led-blanco-_JM"
+      }
+    ],
+    "1b_cpc_desorbitado": [
+      {
+        "Item ID": "MLC3779856474",
+        "Título": "Pack Lavaplatos 80x44 Sec Izquierdo + Llave Monomando Inox P",
+        "Clicks 7d": 24,
+        "Cost 7d CLP": 8683,
+        "CPC promedio": 361,
+        "Precio": 84816,
+        "Permalink": "https://articulo.mercadolibre.cl/MLC-3779856474-pack-lavaplatos-80x44-sec-izquierdo-llave-monomando-inox-plateado-_JM"
+      }
+    ],
+    "1c_sin_clicks_7d_count": 135,
+    "1c_sin_clicks_7d_top10": [
+      {
+        "Item ID": "MLC3767961162",
+        "Título": "Mezcladora De Baño Victtorino Monocomando De Acero Inoxidabl",
+        "Precio": 40480
+      },
+      {
+        "Item ID": "MLC3724877434",
+        "Título": "Sifon Lavatorio 1 1/4  Codo Plástico Caja Blanco",
+        "Precio": 3390
+      },
+      {
+        "Item ID": "MLC3724867792",
+        "Título": "Válvula Lateral Para Wc Eficiente Y Durable",
+        "Precio": 6290
+      },
+      {
+        "Item ID": "MLC3724852756",
+        "Título": "Válvula De Descarga Dual Flush Para One Piece",
+        "Precio": 8090
+      },
+      {
+        "Item ID": "MLC3724838806",
+        "Título": "Toallero Barra 61 Cm Negro - Schwarz Negro",
+        "Precio": 12990
+      },
+      {
+        "Item ID": "MLC3724811170",
+        "Título": "Sifón De Desague Plástico 1 1/2 - 1 1/4 Grifería Blanco",
+        "Precio": 5090
+      },
+      {
+        "Item ID": "MLC3723668148",
+        "Título": "Monomando Ducha Notte Negro",
+        "Precio": 37490
+      },
+      {
+        "Item ID": "MLC3723420362",
+        "Título": "Lavamanos Victtorino Cerámica Rectangular 60x47x15 Cm Blanco",
+        "Precio": 46990
+      },
+      {
+        "Item ID": "MLC3723394010",
+        "Título": "Kit Wc Anclaje Antifuga Admisión Blanco",
+        "Precio": 12490
+      },
+      {
+        "Item ID": "MLC3723364736",
+        "Título": "Rejilla Para Lavaplatos Simple Empotrable Ancho 68x45 Platea",
+        "Precio": 16990
+      }
+    ],
+    "1d_agregar_item": {
+      "item_id": "MLC3779796948",
+      "razon": "Históricamente vende, no está en la campaña",
+      "bid_sugerido_clp": 2352
+    }
+  },
+  "2_esperar_28_mayo": {
+    "2a_subir_bid_top4_roas": [
+      {
+        "Item ID": "MLC3767800412",
+        "Título": "Lavaplatos Para Sobreponer 150x50 Cm 2 Bachas 2 Secadores Pl",
+        "Clicks 7d": 53,
+        "Cost 7d CLP": 4643,
+        "Ventas directas (atribuidas)": 1,
+        "ROAS (rev/cost)": 17.87
+      },
+      {
+        "Item ID": "MLC3779834584",
+        "Título": "Pack Lavaplatos 37x32 + Llave Lavacopa Inox Plateado",
+        "Clicks 7d": 40,
+        "Cost 7d CLP": 4214,
+        "Ventas directas (atribuidas)": 3,
+        "ROAS (rev/cost)": 18.22
+      },
+      {
+        "Item ID": "MLC1367027081",
+        "Título": "Lavaplatos Empotrados Simple 100x44 Inox Izquierdo-191432514",
+        "Clicks 7d": 13,
+        "Cost 7d CLP": 1926,
+        "Ventas directas (atribuidas)": 1,
+        "ROAS (rev/cost)": 18.89
+      },
+      {
+        "Item ID": "MLC1306255939",
+        "Título": "Lavaplatos Empotrado Simple 80x44 Secador Izquierdo Plate",
+        "Clicks 7d": 17,
+        "Cost 7d CLP": 1261,
+        "Ventas directas (atribuidas)": 2,
+        "ROAS (rev/cost)": 57.08
+      }
+    ],
+    "2b_bajar_bid_mid_sin_venta": [
+      {
+        "Item ID": "MLC1754361903",
+        "Título": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco",
+        "Clicks 7d": 92,
+        "Cost 7d CLP": 12572
+      },
+      {
+        "Item ID": "MLC1754550537",
+        "Título": "Espejo 50x70 Rectangular Led Blanco",
+        "Clicks 7d": 62,
+        "Cost 7d CLP": 9300
+      },
+      {
+        "Item ID": "MLC3779856474",
+        "Título": "Pack Lavaplatos 80x44 Sec Izquierdo + Llave Monomando Inox P",
+        "Clicks 7d": 24,
+        "Cost 7d CLP": 8683
+      },
+      {
+        "Item ID": "MLC1893675967",
+        "Título": "Pack Lavaplatos 100x44 Sec Derecho + Llave Monomando Inox Pl",
+        "Clicks 7d": 22,
+        "Cost 7d CLP": 4647
+      },
+      {
+        "Item ID": "MLC1374063337",
+        "Título": "Lavaplatos Doble Sobreponer 120x50 Inoxidable Izquierdo Plat",
+        "Clicks 7d": 33,
+        "Cost 7d CLP": 2269
+      },
+      {
+        "Item ID": "MLC3335955534",
+        "Título": "Espejo 45x60 Rectangular Led Blanco",
+        "Clicks 7d": 9,
+        "Cost 7d CLP": 624
+      },
+      {
+        "Item ID": "MLC3141164182",
+        "Título": "Espejo Circular Con 3 Luces Led 60 Cm Baño Vestidor Negro",
+        "Clicks 7d": 15,
+        "Cost 7d CLP": 550
+      },
+      {
+        "Item ID": "MLC1754490675",
+        "Título": "Espejo 60x90 Rectangular Con Ondas Blanco",
+        "Clicks 7d": 7,
+        "Cost 7d CLP": 313
+      }
+    ],
+    "2c_esperar_precio_bajado": [
+      "MLC1893675967"
+    ]
+  }
+}

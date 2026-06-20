@@ -1,0 +1,109 @@
+Sanitarias
+
+Llave Collar HE-HE                                    Llave Collar HE-HI
+121333001 1/2”                                        121433001 1/2”
+121344001 3/4”                                        121444001 3/4”
+121355001 1”
+121377001 1.1/2”
+121388001 2”
+
+                Llave de Bola Manilla Mariposa Light  Llave de Bola Antifraude HE-HE
+                121144004 3/4”                        120544004 3/4” (L = 60,7 mm)
+                121166004 1.1/4”                      120555004 1”
+                                                      120566004 1.1/4”
+12
+
+Conector So Tuerca Trini con Golilla de Teﬂón         Conector So Tuerca Trini
+122300441 3/4” (So 3/4” x HI 3/4”)                    1/2” (So 1/2” x HI 1/2”)
+122300551 1” (So 1” x HI 1”)                          Con Golilla de Goma
+122300761 1.1/2” x 1.1/4” (So 1.1/2” x HI 1.1/4”)
+                                                      122300331
+
+Empaques:                  Bolsa con Solapa
+Materialidad:              Bronce C84400 Cu (78% - 82%)
+                           Sn (2,3% - 3,5%), Pb (6% - 8%), Zn (7% - 10%), Fe < 0,4%
+Hilos:
+           Hilo Exterior:  Según Norma NCh1594 /1 (Cónico)
+           Hilo Interior:  Según Norma NCh1593/2 (Cilíndrico)
+
+Diseño Antifraudes:        Según Especiﬁcaciones Aguas Andinas
+                           Presión Nominal: 10 Bar
+Conector So Tuerca Trini:  Paso: 3/4”: 13 mm; 1”: 20 mm
+            Material:
+            Largo Tubo:    Latón
+            Diámetro Ext:  130 mm
+            Espesor:       15,82 a 15,94 mm (Para Soldarle Copla o Terminal So 1/2”)
+                           1,6 mm
+
+Conector con Tuerca - Antifraude - Collares
+
+                                   85
+Vaina So                       1/2”                  Sanitarias
+                               3/4”
+122100031                      1”                                        Vaina HE
+122100041                      1.1/2”                                    122101031 1/2”
+122100051                                                                122101041 3/4”
+122100071                                                                122101051 1”
+                                                                         122101071 1.1/2”
+
+Tuerca HI                                                                Tuerca HI 1.1/4”
+                                                                         Hilo Izquierdo
+122102041 3/4”
+122102051 1”                                                             122102066
+122102061 1.1/4”
+122102081 2”
+
+1221020C1 7/8”
+(Para Medidor de 1/2” Diferenciado)
+
+1221020D1 1.1/8”
+(Para Medidor de 3/4” Diferenciado)
+
+Juego para Medidor So                                Juego para Medidor Diferenciado So
+                                                     122400340 1/2”
+122400330 1/2”                                       122400450 3/4”
+122400440 3/4”
+122400550 1”                                                                            12
+
+ Juego para Medidor HE         Juego para Medidor                      Golilla Teﬂón para Medidor
+                               Diferenciado HE
+ 122401330 1/2”                                                        122200031 1/2”
+                               122401340 1/2”                          122200041 3/4”
+ 122401440 3/4”                122401450 3/4”                          122200051 1”
+                                                                       122200071 1.1/2”
+ 122401550 1”
+                               Bronce C84400 (Cu entre 78% y 82%)
+ 122401770 1.1/2”              Sn (2,3% - 3,5%), Pb (6% - 8%), Zn (7% - 10%), Fe < 0,4%
+                               para Medidores de Agua que Cumplan NCh-1730 of.2002
+    Materialidad:
+                               Según Norma NCh1994/1 (Cónico)
+    Diseño:                    Según Norma NCh1593/2 (Cilíndrico)
+    Hilos:
+                               Vainas (2)  Tuerca 1         Tuerca 2     Golillas (2)
+             Hilo Exterior:    So 1/2”                                   para 1/2”
+             Hilo Interior:    So 3/4”               HI 3/4”             para 3/4”
+                               So 1”                                     para 1”
+Juegos para Medidor:           So 1/2”               HI 1”               para 1/2”
+                 1/2” Soldar   So 3/4”                                   para 3/4”
+                 3/4” Soldar   HE 1/2”               HI 1.1/4”           para 1/2”
+                    1” Soldar  HE 3/4”                                   para 3/4”
+                               HE 1”       HI 3/4”            HI 7/8”    para 1”
+Diferenciado 1/2” Soldar       HE 1.1/2”                                 para 1.1/2”
+Diferenciado 3/4” Soldar       HE 1/2”     HI 1”              HI 1.1/8”  para 1/2”
+                               HE 3/4”                                   para 3/4”
+                     1/2” HE                         HI 3/4”
+                     3/4” HE
+                                                     HI 1”
+                        1” HE
+                   1.1/2” HE                         HI 1.1/4”
+     Diferenciado 1/2” HE
+     Diferenciado 3/4” HE                            HI 2”
+
+                                           HI 3/4”            HI 7/8”
+
+                                           HI 1”              HI 1.1/8”
+
+Conexiones para Medidores
+
+                            86
+

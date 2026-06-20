@@ -1,0 +1,208 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - link "Falabella Seller Center" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img "Falabella Seller Center" [ref=e11]
+          - generic [ref=e12]:
+            - link "Fpay Logo" [ref=e14] [cursor=pointer]:
+              - /url: https://fpay.cl/comercios/cuenta/login
+              - img "Fpay Logo" [ref=e15]
+            - generic [ref=e16]:
+              - generic [ref=e18]: Trade Global
+              - button [ref=e20] [cursor=pointer]:
+                - img [ref=e21]
+              - generic [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+                - img [ref=e39]
+                - generic [ref=e41]: "5"
+      - generic [ref=e42]:
+        - generic [ref=e45]:
+          - img [ref=e219]
+          - text: Productos
+          - img [ref=e52]
+        - generic [ref=e56]:
+          - img [ref=e224]
+          - text: Órdenes
+          - img [ref=e63]
+        - generic [ref=e67]:
+          - img [ref=e229]
+          - text: Pagos
+          - img [ref=e78]
+        - generic [ref=e82]:
+          - img [ref=e238]
+          - text: Informes y estadísticas
+          - img [ref=e86]
+        - generic [ref=e90]:
+          - img [ref=e240]
+          - text: Crecimiento
+          - img [ref=e94]
+        - generic [ref=e98]:
+          - img [ref=e242]
+          - text: Mi cuenta
+          - img [ref=e103]
+        - generic [ref=e107]:
+          - img [ref=e245]
+          - text: Fulfillment
+          - img [ref=e117]
+        - generic [ref=e121]:
+          - img [ref=e253]
+          - text: Ayuda
+          - img [ref=e130]
+        - img [ref=e260]
+  - main [ref=e140]:
+    - generic [ref=e142]:
+      - heading "Promociones" [level=1] [ref=e143]
+      - generic [ref=e164]:
+        - navigation [ref=e165]:
+          - link "Promociones" [ref=e166] [cursor=pointer]:
+            - /url: /retail-services/vas/promotions
+          - link "Mis promociones" [ref=e167] [cursor=pointer]:
+            - /url: /retail-services/vas/promotions/my-promotions
+        - list [ref=e3174]:
+          - listitem [ref=e3175]:
+            - link "Promociones" [ref=e3176] [cursor=pointer]:
+              - /url: /retail-services/vas/promotions
+            - text: ">"
+          - listitem [ref=e3177]:
+            - link "Mis promociones" [ref=e3178] [cursor=pointer]:
+              - /url: /retail-services/vas/promotions/my-promotions
+        - generic [ref=e3179]:
+          - heading "Envíos gratis" [level=2]
+          - generic [ref=e3180]:
+            - status [ref=e3181]: Activa
+            - generic [ref=e3182] [cursor=pointer]:
+              - img [ref=e3183]
+              - generic [ref=e3185]: Gestionar promoción
+          - generic [ref=e3187]:
+            - term [ref=e3188]: "Duración:"
+            - definition [ref=e3189]: Personalizada
+        - generic [ref=e3190] [cursor=pointer]:
+          - img [ref=e3191]
+          - generic [ref=e3194]: Revisar Métricas de Promociones
+        - textbox "Buscar por producto o SKU" [ref=e3195]
+        - table [ref=e3196]:
+          - rowgroup [ref=e3197]:
+            - row "Producto Categoría Precio" [ref=e3198]:
+              - columnheader "Producto" [ref=e3199]
+              - columnheader "Categoría" [ref=e3200]
+              - columnheader "Precio" [ref=e3201]
+          - rowgroup [ref=e3202]:
+            - 'row "ESPEJO 60X90 RECTANGULAR ONDAS SKU: 146228456 - EAS: - - 85.990 CLP" [ref=e3203]':
+              - 'cell "ESPEJO 60X90 RECTANGULAR ONDAS SKU: 146228456 - EAS: -" [ref=e3204]':
+                - generic [ref=e3206]:
+                  - img [ref=e3207]
+                  - generic [ref=e3209]:
+                    - emphasis [ref=e3210]: ESPEJO 60X90 RECTANGULAR ONDAS
+                    - paragraph [ref=e3211]: "SKU: 146228456 - EAS: -"
+              - cell "-" [ref=e3212]
+              - cell "85.990 CLP" [ref=e3213]
+            - 'row "MAMPARA DUCHA 120-140X190 CM SKU: 146186953 - EAS: - - 438.990 CLP" [ref=e3214]':
+              - 'cell "MAMPARA DUCHA 120-140X190 CM SKU: 146186953 - EAS: -" [ref=e3215]':
+                - generic [ref=e3217]:
+                  - img [ref=e3218]
+                  - generic [ref=e3220]:
+                    - emphasis [ref=e3221]: MAMPARA DUCHA 120-140X190 CM
+                    - paragraph [ref=e3222]: "SKU: 146186953 - EAS: -"
+              - cell "-" [ref=e3223]
+              - cell "438.990 CLP" [ref=e3224]
+            - 'row "ESPEJO 45X60 RECTANGULAR LED SKU: 146226149 - EAS: - - 105.990 CLP" [ref=e3225]':
+              - 'cell "ESPEJO 45X60 RECTANGULAR LED SKU: 146226149 - EAS: -" [ref=e3226]':
+                - generic [ref=e3228]:
+                  - img [ref=e3229]
+                  - generic [ref=e3231]:
+                    - emphasis [ref=e3232]: ESPEJO 45X60 RECTANGULAR LED
+                    - paragraph [ref=e3233]: "SKU: 146226149 - EAS: -"
+              - cell "-" [ref=e3234]
+              - cell "105.990 CLP" [ref=e3235]
+            - 'row "Monomando Lavaplatos Vertical Notte SKU: 143984301 - EAS: - - 55.990 CLP" [ref=e3236]':
+              - 'cell "Monomando Lavaplatos Vertical Notte SKU: 143984301 - EAS: -" [ref=e3237]':
+                - generic [ref=e3239]:
+                  - img [ref=e3240]
+                  - generic [ref=e3242]:
+                    - emphasis [ref=e3243]: Monomando Lavaplatos Vertical Notte
+                    - paragraph [ref=e3244]: "SKU: 143984301 - EAS: -"
+              - cell "-" [ref=e3245]
+              - cell "55.990 CLP" [ref=e3246]
+            - 'row "Lavaplatos Simple Secador Izquierdo 100x44cm SKU: 142964976 - EAS: - - 77.990 CLP" [ref=e3247]':
+              - 'cell "Lavaplatos Simple Secador Izquierdo 100x44cm SKU: 142964976 - EAS: -" [ref=e3248]':
+                - generic [ref=e3250]:
+                  - img [ref=e3251]
+                  - generic [ref=e3253]:
+                    - emphasis [ref=e3254]: Lavaplatos Simple Secador Izquierdo 100x44cm
+                    - paragraph [ref=e3255]: "SKU: 142964976 - EAS: -"
+              - cell "-" [ref=e3256]
+              - cell "77.990 CLP" [ref=e3257]
+            - 'row "Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple SKU: 142969895 - EAS: - - 77.990 CLP" [ref=e3258]':
+              - 'cell "Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple SKU: 142969895 - EAS: -" [ref=e3259]':
+                - generic [ref=e3261]:
+                  - img [ref=e3262]
+                  - generic [ref=e3264]:
+                    - emphasis [ref=e3265]: Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple
+                    - paragraph [ref=e3266]: "SKU: 142969895 - EAS: -"
+              - cell "-" [ref=e3267]
+              - cell "77.990 CLP" [ref=e3268]
+            - 'row "Lavaplato empotrado de 37x32 SKU: 151966702 - EAS: - - 27.990 CLP" [ref=e3269]':
+              - 'cell "Lavaplato empotrado de 37x32 SKU: 151966702 - EAS: -" [ref=e3270]':
+                - generic [ref=e3272]:
+                  - img [ref=e3273]
+                  - generic [ref=e3275]:
+                    - emphasis [ref=e3276]: Lavaplato empotrado de 37x32
+                    - paragraph [ref=e3277]: "SKU: 151966702 - EAS: -"
+              - cell "-" [ref=e3278]
+              - cell "27.990 CLP" [ref=e3279]
+            - 'row "Lavaplatos Empotrado Simple 80x44 Inoxidable Izquierdo SKU: 143984145 - EAS: - - 75.990 CLP" [ref=e3280]':
+              - 'cell "Lavaplatos Empotrado Simple 80x44 Inoxidable Izquierdo SKU: 143984145 - EAS: -" [ref=e3281]':
+                - generic [ref=e3283]:
+                  - img [ref=e3284]
+                  - generic [ref=e3286]:
+                    - emphasis [ref=e3287]: Lavaplatos Empotrado Simple 80x44 Inoxidable Izquierdo
+                    - paragraph [ref=e3288]: "SKU: 143984145 - EAS: -"
+              - cell "-" [ref=e3289]
+              - cell "75.990 CLP" [ref=e3290]
+            - 'row "Lavaplatos Derecho Empotrado Simple 80x44 cm SKU: 142971502 - EAS: - - 57.990 CLP" [ref=e3291]':
+              - 'cell "Lavaplatos Derecho Empotrado Simple 80x44 cm SKU: 142971502 - EAS: -" [ref=e3292]':
+                - generic [ref=e3294]:
+                  - img [ref=e3295]
+                  - generic [ref=e3297]:
+                    - emphasis [ref=e3298]: Lavaplatos Derecho Empotrado Simple 80x44 cm
+                    - paragraph [ref=e3299]: "SKU: 142971502 - EAS: -"
+              - cell "-" [ref=e3300]
+              - cell "57.990 CLP" [ref=e3301]
+            - 'row "Espejo LED 100x70 Rectangular Táctil, Retro Iluminación fría, cálida y normal, Diseño Moderno SKU: 146266887 - EAS: - - 153.990 CLP" [ref=e3302]':
+              - 'cell "Espejo LED 100x70 Rectangular Táctil, Retro Iluminación fría, cálida y normal, Diseño Moderno SKU: 146266887 - EAS: -" [ref=e3303]':
+                - generic [ref=e3305]:
+                  - img [ref=e3306]
+                  - generic [ref=e3308]:
+                    - emphasis [ref=e3309]: Espejo LED 100x70 Rectangular Táctil, Retro Iluminación fría, cálida y normal, Diseño Moderno
+                    - paragraph [ref=e3310]: "SKU: 146266887 - EAS: -"
+              - cell "-" [ref=e3311]
+              - cell "153.990 CLP" [ref=e3312]
+        - generic [ref=e3313]:
+          - list [ref=e3314]:
+            - generic [ref=e3315]: "Páginas:"
+            - listitem [ref=e3316]:
+              - generic [ref=e3317] [cursor=pointer]: "1"
+            - listitem [ref=e3318]:
+              - generic [ref=e3319] [cursor=pointer]: "2"
+            - listitem [ref=e3320]:
+              - generic [ref=e3321] [cursor=pointer]: "3"
+            - listitem [ref=e3322]:
+              - generic [ref=e3323] [cursor=pointer]: "4"
+            - listitem [ref=e3324]: Siguiente >
+          - generic [ref=e3325]:
+            - generic [ref=e3326]: "Ítems por página:"
+            - generic [ref=e3328] [cursor=pointer]: "10"
+  - contentinfo [ref=e146]:
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - img [ref=e152]
+        - button "Califica esta página" [ref=e154] [cursor=pointer]
+      - generic [ref=e155]:
+        - generic [ref=e156]: Idioma
+        - generic [ref=e158] [cursor=pointer]:
+          - generic [ref=e159]: Español
+          - img [ref=e161]
+  - alert [ref=e163]

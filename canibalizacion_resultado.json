@@ -1,0 +1,877 @@
+{
+  "total_productos": 266,
+  "focus_keyword_duplicados": [
+    {
+      "focus": "llave grifería",
+      "count": 9,
+      "productos": [
+        {
+          "id": 3129,
+          "name": "Llave Monomando Lavaplato Inox Acabado Cepillado Color Plateado"
+        },
+        {
+          "id": 3126,
+          "name": "Mezcladora De Baño Victtorino Monocomando De Acero Inoxidable Cromado Brillante Para Ducha Empotrada"
+        },
+        {
+          "id": 3095,
+          "name": "Grifería Baño Monocomando Llave Lavatorio Victtorino Cromado Acero Inoxidable Plateado"
+        },
+        {
+          "id": 2838,
+          "name": "Llave Lavacopas Acero Inoxidable Acabado Cepillado Color Plateado"
+        },
+        {
+          "id": 2803,
+          "name": "Llave Lavacopas Notte Negro"
+        },
+        {
+          "id": 2797,
+          "name": "Llave Lavatorio Temporizada Punta Cuadrada Plateado"
+        },
+        {
+          "id": 2778,
+          "name": "Llave Monomando Lavatorio Moderno Alto Inoxidable Plateado Brillante"
+        },
+        {
+          "id": 2765,
+          "name": "Flexible Agua He-hi M10 Largo X1 X 1/2 35 Cm Plateado Brillante"
+        },
+        {
+          "id": 2727,
+          "name": "Llave Monomando Lavatorio Lavamanos Domenica Plateado Cromado"
+        }
+      ]
+    },
+    {
+      "focus": "agarradera baño",
+      "count": 6,
+      "productos": [
+        {
+          "id": 3088,
+          "name": "Barra De Seguridad Esquinera 3 Apoyos 90° Acero Inoxidable Plateado"
+        },
+        {
+          "id": 3024,
+          "name": "Barra De Seguridad Recta 40 Cm Baño Ducha Acero Inoxidable Plateado"
+        },
+        {
+          "id": 2983,
+          "name": "Barra Seguridad Recta Ducha Baño 60 Cm X 3,2 Cm Inoxidable Plateado"
+        },
+        {
+          "id": 2909,
+          "name": "Barra Seguridad Recta Ducha Baño 40 Cm X 2,5 Cm Inoxidable Color Plateado"
+        },
+        {
+          "id": 2885,
+          "name": "Barra De Seguridad Recta 60 Cm Acero Inoxidable Baño Ducha Plateado"
+        },
+        {
+          "id": 2762,
+          "name": "Barra De Seguridad Recta 30 Cm Ducha Baño Acero Inoxidable Plateado"
+        }
+      ]
+    },
+    {
+      "focus": "accesorios baño",
+      "count": 3,
+      "productos": [
+        {
+          "id": 2999,
+          "name": "Plato Ducha Redondo Acero Inoxidable 20 Cm"
+        },
+        {
+          "id": 2873,
+          "name": "Brazo Para Plato De Ducha 30cm Acero Inoxidable"
+        },
+        {
+          "id": 2770,
+          "name": "Brazo Para Plato De Ducha Al Muro 40 Cm Acero Inoxidable"
+        }
+      ]
+    },
+    {
+      "focus": "lavaplatos cocina",
+      "count": 7,
+      "productos": [
+        {
+          "id": 2992,
+          "name": "Pack Lavaplatos 80x44 Sec Der + Rejilla + Llave Domenica Plateado"
+        },
+        {
+          "id": 2960,
+          "name": "Lavaplatos 80x44 Acero Inox Pack Llave Canastillo Izquierdo Plateado"
+        },
+        {
+          "id": 2938,
+          "name": "Lavaplatos 80x44 Acero Inox  Llave Colomba + Canastillo Pack Plateado"
+        },
+        {
+          "id": 2923,
+          "name": "Lavaplatos Simple Empotrable Ancho 80x50x22 Cm Hannover Color Plateado"
+        },
+        {
+          "id": 2876,
+          "name": "Lavaplatos Simple 80x50 Secador Derecho Acero Inoxidable Plateado"
+        },
+        {
+          "id": 2828,
+          "name": "Lavaplatos Sobreponer Simple 80x50 Inoxidable Derecho Color Plateado"
+        },
+        {
+          "id": 2793,
+          "name": "Lavaplatos Simple 80x44 Secador Derecho Acero Inoxidable Plateado"
+        }
+      ]
+    },
+    {
+      "focus": "dispensador de jabón",
+      "count": 4,
+      "productos": [
+        {
+          "id": 2968,
+          "name": "Dispensador De Jabón Acero Inoxidable 800ml"
+        },
+        {
+          "id": 2852,
+          "name": "Dispensador De Jabón Acero Inoxidable 500ml Plateado"
+        },
+        {
+          "id": 2816,
+          "name": "Dispensador Jabón Acero Inoxidable 500 Ml. Taumm Color Plateado"
+        },
+        {
+          "id": 2551,
+          "name": "Dispensador De Jabón Modelo Schwarz Negro Negro"
+        }
+      ]
+    },
+    {
+      "focus": "dispensador papel higiénico",
+      "count": 5,
+      "productos": [
+        {
+          "id": 2926,
+          "name": "Pack De 6 Rollos Papel Higienico Industrial 216 Metros"
+        },
+        {
+          "id": 2865,
+          "name": "Dispensador De Papel Toalla Interfoliada Plateado"
+        },
+        {
+          "id": 2824,
+          "name": "Dispensador Papel Higiénico  Acero Inoxidable - Envio Gratis Plateado"
+        },
+        {
+          "id": 2739,
+          "name": "Dispensador Papel Higiénico  Acrilico - Despacho Gratis Plateado"
+        },
+        {
+          "id": 2568,
+          "name": "Dispensador De Papel Higiénico Acrílico Con Llave Azul Marino"
+        }
+      ]
+    },
+    {
+      "focus": "sifón desagüe",
+      "count": 6,
+      "productos": [
+        {
+          "id": 2914,
+          "name": "Sifón Codo 90 Plastico  Blanco Para Desague Blanco"
+        },
+        {
+          "id": 2896,
+          "name": "Sifón Botella Económico Para Lavatorio 1.1/4 Plateado"
+        },
+        {
+          "id": 2892,
+          "name": "Sifón Plástico Con Codo Salida 1 1/4 Lavatorio Blanco"
+        },
+        {
+          "id": 2857,
+          "name": "Sifón De Desague Plástico 1 1/2 - 1 1/4 Grifería Blanco"
+        },
+        {
+          "id": 2844,
+          "name": "Accesorios De Desague Para Lavatorio Plastico Blanco"
+        },
+        {
+          "id": 2834,
+          "name": "Sifón Plástico Para Desaguë Tina O Receptáculo 1 1/2  Blanco"
+        }
+      ]
+    },
+    {
+      "focus": "basurero pedal baño",
+      "count": 3,
+      "productos": [
+        {
+          "id": 2634,
+          "name": "Basurero Pedal 12 L, Práctico Y Funcional Plateado"
+        },
+        {
+          "id": 2620,
+          "name": "Basurero Papelero Pedal 5 L Acero Inoxidable Color Gris"
+        },
+        {
+          "id": 2615,
+          "name": "Basurero Papelero Pedal 5 Lts Acero Inoxidable Plateado"
+        }
+      ]
+    },
+    {
+      "focus": "espejo doble cara aumento",
+      "count": 2,
+      "productos": [
+        {
+          "id": 2611,
+          "name": "Espejo Redondo Doble Cara Con Aumento X3 Al Muro Blanco"
+        },
+        {
+          "id": 2590,
+          "name": "Espejo Redondo Doble Cara Con Aumento X3 Pedestal Plateado"
+        }
+      ]
+    }
+  ],
+  "clusters_similitud": [
+    {
+      "severity": "HIGH",
+      "razon": "mismo focus keyword Y títulos similares",
+      "productos": [
+        {
+          "id": 3024,
+          "name": "Barra De Seguridad Recta 40 Cm Baño Ducha Acero Inoxidable Plateado",
+          "focus": "agarradera baño",
+          "url": "https://victtorino.cl/producto/barra-de-seguridad-recta-40-cm-bano-ducha-acero-inoxidable-plateado/"
+        },
+        {
+          "id": 2983,
+          "name": "Barra Seguridad Recta Ducha Baño 60 Cm X 3,2 Cm Inoxidable Plateado",
+          "focus": "agarradera baño",
+          "url": "https://victtorino.cl/producto/barra-seguridad-recta-ducha-bano-60-cm-x-3-2-cm-inoxidable-plateado/"
+        },
+        {
+          "id": 2909,
+          "name": "Barra Seguridad Recta Ducha Baño 40 Cm X 2,5 Cm Inoxidable Color Plateado",
+          "focus": "agarradera baño",
+          "url": "https://victtorino.cl/producto/barra-seguridad-recta-ducha-bano-40-cm-x-2-5-cm-inoxidable-color-plateado/"
+        },
+        {
+          "id": 2885,
+          "name": "Barra De Seguridad Recta 60 Cm Acero Inoxidable Baño Ducha Plateado",
+          "focus": "agarradera baño",
+          "url": "https://victtorino.cl/producto/barra-de-seguridad-recta-60-cm-acero-inoxidable-bano-ducha-plateado/"
+        },
+        {
+          "id": 2762,
+          "name": "Barra De Seguridad Recta 30 Cm Ducha Baño Acero Inoxidable Plateado",
+          "focus": "agarradera baño",
+          "url": "https://victtorino.cl/producto/barra-de-seguridad-recta-30-cm-ducha-bano-acero-inoxidable-plateado/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 2051,
+          "name": "Receptor de Ducha Esquinero Curvo Antideslizante Acrílico Blanco 80x120 Izq",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/receptor-de-ducha-esquinero-curvo-antideslizante-acrilico-blanco-80x120-izq/"
+        },
+        {
+          "id": 2050,
+          "name": "Receptor de Ducha Esquinero Curvo Antideslizante Acrílico Blanco 80x120 Der",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/receptor-de-ducha-esquinero-curvo-antideslizante-acrilico-blanco-80x120-der/"
+        },
+        {
+          "id": 2049,
+          "name": "Receptor de Ducha Esquinero Curvo Antideslizante Acrílico Blanco 90x90",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/receptor-de-ducha-esquinero-curvo-antideslizante-acrilico-blanco-90x90/"
+        },
+        {
+          "id": 2043,
+          "name": "Receptor de Ducha Esquinero Curvo Antideslizante Acrílico Blanco 80x80",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/receptor-de-ducha-esquinero-curvo-antideslizante-acrilico-blanco-80x80/"
+        },
+        {
+          "id": 2037,
+          "name": "Receptor de Ducha Cuadrado Antideslizante Acrílico Blanco 90x90",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/receptor-de-ducha-cuadrado-antideslizante-acrilico-blanco-90-x-90/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 1499,
+          "name": "Llave Monomando de Tina Ducha Colomba",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-de-tina-ducha-colomba/"
+        },
+        {
+          "id": 1498,
+          "name": "Llave Monomando de Tina Ducha Doménica",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-de-tina-ducha-domenica/"
+        },
+        {
+          "id": 1497,
+          "name": "Llave Monomando de Ducha Colomba",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-de-ducha-colomba/"
+        },
+        {
+          "id": 1496,
+          "name": "Llave Monomando de Ducha Domenica",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-de-ducha-domenica/"
+        },
+        {
+          "id": 868,
+          "name": "Llave Monomando Lavamanos Colomba",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-lavamanos-colomba/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 1458,
+          "name": "Flexible Agua HE HI 1/2 35 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/flexible-agua-he-hi-1-2-35-cm/"
+        },
+        {
+          "id": 1456,
+          "name": "Flexible Agua HI HE 1/2 50 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/flexible-agua-hi-he-1-2-50-cm/"
+        },
+        {
+          "id": 1234,
+          "name": "Flexible de Agua Trenzada HE/HI 35 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/flexible-de-agua-trenzada-he-hi-35-cm/"
+        },
+        {
+          "id": 1233,
+          "name": "Flexible Agua HE HI 1/2 50 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/flexible-agua-he-hi-1-2-50-cm/"
+        },
+        {
+          "id": 669,
+          "name": "Flexible De Agua He-Hi 1/2 Con Llave Angular 35 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/flexible-de-agua-he-hi-1-2-con-llave-angular-35-cm/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 910,
+          "name": "Monomando Lavamanos Alto Modern Pituto Cromado",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/monomando-lavamanos-alto-modern-pituto-cromado/"
+        },
+        {
+          "id": 871,
+          "name": "Llave Monomando Lavamanos Notte Negro",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-lavamanos-notte-negro/"
+        },
+        {
+          "id": 870,
+          "name": "Llave Monomando Lavamanos Modern Pituto Cromado",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-lavamanos-modern-pituto-cromado/"
+        },
+        {
+          "id": 834,
+          "name": "Llave Monomando Lavamanos Alto Notte Negro",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-lavamanos-alto-notte-negro/"
+        },
+        {
+          "id": 833,
+          "name": "Llave Monomando Lavamanos Alto Modern Pituto Negro",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-lavamanos-alto-modern-pituto-negro/"
+        }
+      ]
+    },
+    {
+      "severity": "MEDIUM",
+      "razon": "títulos similares pero focus keywords distintos (2 focos)",
+      "productos": [
+        {
+          "id": 3152,
+          "name": "Lavaplatos Empotrado Simple 80x44 Secador Izquierdo Plate",
+          "focus": "lavaplatos empotrado 80x44",
+          "url": "https://victtorino.cl/producto/lavaplatos-empotrado-simple-80x44-secador-izquierdo-plate/"
+        },
+        {
+          "id": 1261,
+          "name": "Lavaplatos Simple Empotrado 100x44 cm Secador Izquierdo",
+          "focus": "lavaplatos empotrado 100x44",
+          "url": "https://victtorino.cl/producto/lavaplatos-simple-empotrado-100x44-cm-secador-izquierdo/"
+        },
+        {
+          "id": 1260,
+          "name": "Lavaplatos Simple Empotrado 100x44 cm Secador Derecho",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/lavaplatos-simple-empotrado-100x44-cm-secador-derecho/"
+        },
+        {
+          "id": 1259,
+          "name": "Lavaplatos Empotrado 80x44 cm Secador Izquierdo",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/lavaplatos-empotrado-80x44-cm-secador-izquierdo/"
+        }
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "razon": "mismo focus keyword Y títulos similares",
+      "productos": [
+        {
+          "id": 2770,
+          "name": "Brazo Para Plato De Ducha Al Muro 40 Cm Acero Inoxidable",
+          "focus": "accesorios baño",
+          "url": "https://victtorino.cl/producto/brazo-para-plato-de-ducha-al-muro-40-cm-acero-inoxidable/"
+        },
+        {
+          "id": 559,
+          "name": "Brazo Ducha Al Muro 40 cm Schwartz Negro",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/brazo-ducha-al-muro-40-cm-schwartz-negro/"
+        },
+        {
+          "id": 558,
+          "name": "Brazo Ducha Al Muro 40 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/brazo-ducha-al-muro-40-cm/"
+        },
+        {
+          "id": 557,
+          "name": "Brazo Ducha Al Muro 30 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/brazo-ducha-al-muro-30-cm/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 1825,
+          "name": "Pack Lavaplatos 80x44 Secador Izquierdo + Llave Monomando Inox",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/pack-lavaplatos-80x44-secador-izquierdo-llave-monomando-inox/"
+        },
+        {
+          "id": 1824,
+          "name": "Pack Lavaplatos 80x44 Secador Derecho + Llave Monomando Inox",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/pack-lavaplatos-80x44-secador-derecho-llave-monomando-inox/"
+        },
+        {
+          "id": 1822,
+          "name": "Pack Lavaplatos 100x44 Secador Izquierdo + Llave Monomando Inox",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/pack-lavaplatos-100x44-secador-izquierdo-llave-monomando-inox/"
+        },
+        {
+          "id": 1821,
+          "name": "Pack Lavaplatos 100x44 Secador Derecho + Llave Monomando Inox",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/pack-lavaplatos-100x44-secador-derecho-llave-monomando-inox/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 1494,
+          "name": "Llave Monomando Lavaplatos Vertical Inoxidable",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-lavaplatos-vertical-inoxidable/"
+        },
+        {
+          "id": 1473,
+          "name": "Llave Monomando Lavaplatos Vertical Colomba",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-lavaplatos-vertical-colomba/"
+        },
+        {
+          "id": 875,
+          "name": "Llave Monomando Lavaplatos Vertical Domenica",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-lavaplatos-vertical-domenica/"
+        },
+        {
+          "id": 831,
+          "name": "Llave Monomando Lavaplatos Vertical Profesional",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/llave-monomando-lavaplatos-vertical-profesional/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 944,
+          "name": "Papelero Pedal 8 L",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/papelero-pedal-8-l/"
+        },
+        {
+          "id": 918,
+          "name": "Papelero Pedal 5 L",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/papelero-pedal-5-l/"
+        },
+        {
+          "id": 917,
+          "name": "Papelero Pedal 3 L",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/papelero-pedal-3-l/"
+        },
+        {
+          "id": 915,
+          "name": "Papelero Pedal 12 L",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/papelero-pedal-12-l/"
+        }
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "razon": "mismo focus keyword Y títulos similares",
+      "productos": [
+        {
+          "id": 3099,
+          "name": "Kit Para Estanque Wc Carga Descarga Y Fijaciones",
+          "focus": "kit estanque WC",
+          "url": "https://victtorino.cl/producto/kit-para-estanque-wc-carga-descarga-y-fijaciones/"
+        },
+        {
+          "id": 1334,
+          "name": "Kit Fijaciones Estanque WC",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/kit-fijaciones-estanque-wc/"
+        },
+        {
+          "id": 707,
+          "name": "Kit Estanque Wc",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/kit-estanque-wc/"
+        }
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "razon": "mismo focus keyword Y títulos similares",
+      "productos": [
+        {
+          "id": 2999,
+          "name": "Plato Ducha Redondo Acero Inoxidable 20 Cm",
+          "focus": "accesorios baño",
+          "url": "https://victtorino.cl/producto/plato-ducha-redondo-acero-inoxidable-20-cm/"
+        },
+        {
+          "id": 1316,
+          "name": "Plato de Ducha Redondo 20 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/plato-de-ducha-redondo-20-cm/"
+        },
+        {
+          "id": 982,
+          "name": "Plato Ducha Redondo Abs 20 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/plato-ducha-redondo-abs-20-cm-2/"
+        }
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "razon": "mismo focus keyword Y títulos similares",
+      "productos": [
+        {
+          "id": 2876,
+          "name": "Lavaplatos Simple 80x50 Secador Derecho Acero Inoxidable Plateado",
+          "focus": "lavaplatos cocina",
+          "url": "https://victtorino.cl/producto/lavaplatos-simple-80x50-secador-derecho-acero-inoxidable-plateado/"
+        },
+        {
+          "id": 2828,
+          "name": "Lavaplatos Sobreponer Simple 80x50 Inoxidable Derecho Color Plateado",
+          "focus": "lavaplatos cocina",
+          "url": "https://victtorino.cl/producto/lavaplatos-sobreponer-simple-80x50-inoxidable-derecho-color-plateado/"
+        },
+        {
+          "id": 2793,
+          "name": "Lavaplatos Simple 80x44 Secador Derecho Acero Inoxidable Plateado",
+          "focus": "lavaplatos cocina",
+          "url": "https://victtorino.cl/producto/lavaplatos-simple-80x44-secador-derecho-acero-inoxidable-plateado/"
+        }
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "razon": "mismo focus keyword Y títulos similares",
+      "productos": [
+        {
+          "id": 2543,
+          "name": "Set de Accesorios para Baño Colomba — 6 Piezas Plateado",
+          "focus": "set accesorios para baño",
+          "url": "https://victtorino.cl/producto/set-accesorios-bano-6-piezas-colomba-plateado/"
+        },
+        {
+          "id": 1025,
+          "name": "Set Accesorios Baño Colomba 6 Piezas",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/set-accesorios-bano-colomba-6-piezas/"
+        },
+        {
+          "id": 1024,
+          "name": "Set Accesorios Baño Colomba 5 Piezas",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/set-accesorios-bano-colomba-5-piezas/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 1560,
+          "name": "Flexible Agua HI HI 1/2 100 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/flexible-agua-hi-hi-1-2-100-cm/"
+        },
+        {
+          "id": 1470,
+          "name": "Flexible Gas HI HI 3/8 1/2 100 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/flexible-gas-hi-hi-3-8-1-2-100-cm/"
+        },
+        {
+          "id": 672,
+          "name": "Flexible De Gas Hi-Hi 3/8 x 1/2 De 60 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/flexible-de-gas-hi-hi-3-8-x-1-2-de-60-cm/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 1081,
+          "name": "Sifón Lavamanos 1 1/4 Codo Plástico",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/sifon-lavamanos-1-1-4-codo-plastico/"
+        },
+        {
+          "id": 1054,
+          "name": "Sifón De Lavamanos 1 1/4 Con Codo Plástico En Caja",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/sifon-de-lavamanos-1-1-4-con-codo-plastico-en-caja/"
+        },
+        {
+          "id": 1053,
+          "name": "Sifón De Lavamanos 1 1/2 x 1 1/4 Con Codo Plástico",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/sifon-de-lavamanos-1-1-2-x-1-1-4-con-codo-plastico/"
+        }
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "razon": "mismo focus keyword Y títulos similares",
+      "productos": [
+        {
+          "id": 3009,
+          "name": "Barra De Soporte Ducha Deslizable 65 Cm Acero Inoxidable",
+          "focus": "barra ducha deslizable",
+          "url": "https://victtorino.cl/producto/barra-de-soporte-ducha-deslizable-65-cm-acero-inoxidable/"
+        },
+        {
+          "id": 1287,
+          "name": "Barra Ducha Deslizable 65 cm",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/barra-ducha-deslizable-65-cm/"
+        }
+      ]
+    },
+    {
+      "severity": "MEDIUM",
+      "razon": "títulos similares pero focus keywords distintos (2 focos)",
+      "productos": [
+        {
+          "id": 2992,
+          "name": "Pack Lavaplatos 80x44 Sec Der + Rejilla + Llave Domenica Plateado",
+          "focus": "lavaplatos cocina",
+          "url": "https://victtorino.cl/producto/pack-lavaplatos-80x44-sec-der-rejilla-llave-domenica-plateado/"
+        },
+        {
+          "id": 2947,
+          "name": "Pack Lavaplatos 80x44 Sec Der + Rejilla + Llave Colomba Plateado",
+          "focus": "pack lavaplatos 80x44",
+          "url": "https://victtorino.cl/producto/pack-lavaplatos-80x44-sec-der-rejilla-llave-colomba-plateado/"
+        }
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "razon": "mismo focus keyword Y títulos similares",
+      "productos": [
+        {
+          "id": 2960,
+          "name": "Lavaplatos 80x44 Acero Inox Pack Llave Canastillo Izquierdo Plateado",
+          "focus": "lavaplatos cocina",
+          "url": "https://victtorino.cl/producto/lavaplatos-80x44-acero-inox-pack-llave-canastillo-izquierdo-plateado/"
+        },
+        {
+          "id": 2938,
+          "name": "Lavaplatos 80x44 Acero Inox  Llave Colomba + Canastillo Pack Plateado",
+          "focus": "lavaplatos cocina",
+          "url": "https://victtorino.cl/producto/lavaplatos-80x44-acero-inox-llave-colomba-canastillo-pack-plateado/"
+        }
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "razon": "mismo focus keyword Y títulos similares",
+      "productos": [
+        {
+          "id": 2537,
+          "name": "Columna de Ducha Simple sin Grifería",
+          "focus": "columna de ducha",
+          "url": "https://victtorino.cl/producto/columna-de-ducha-simple-sin-griferia/"
+        },
+        {
+          "id": 1813,
+          "name": "Columna Ducha Simple sin Griferia",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/columna-ducha-simple-sin-griferia/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 2235,
+          "name": "Instalación de Espejo",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/instalacion-de-espejo-6/"
+        },
+        {
+          "id": 2234,
+          "name": "Instalación de Espejo",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/instalacion-de-espejo-5/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 1828,
+          "name": "SHOWER DOOR 80x80x195 CUADRADO TRANSPARENTE",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/shower-door-80x80x195-cuadrado-transparente-2/"
+        },
+        {
+          "id": 1827,
+          "name": "SHOWER DOOR 80X80X195 CUADRADO TRANSPARENTE",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/shower-door-80x80x195-cuadrado-transparente/"
+        }
+      ]
+    },
+    {
+      "severity": "HIGH",
+      "razon": "mismo focus keyword Y títulos similares",
+      "productos": [
+        {
+          "id": 1826,
+          "name": "Plato Ducha Cuadrado Acero Inoxidable 25 Cm Sin Brazo",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/plato-ducha-cuadrado-acero-inoxidable-25-cm-sin-brazo/"
+        },
+        {
+          "id": 946,
+          "name": "Plato Ducha Cuadrado Acero 25 cm Schwartz Negro",
+          "focus": "plato de ducha cuadrado",
+          "url": "https://victtorino.cl/producto/plato-ducha-cuadrado-acero-25-cm-schwartz-negro/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 1818,
+          "name": "Lavaplatos Para Sobreponer 180x50 Cm 2 Bachas 2 Secadores",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/lavaplatos-para-sobreponer-180x50-cm-2-bachas-2-secadores/"
+        },
+        {
+          "id": 1817,
+          "name": "Lavaplatos Para Sobreponer 150x50x16 Cm 2 Bachas 2 Secadores",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/lavaplatos-para-sobreponer-150x50x16-cm-2-bachas-2-secadores/"
+        }
+      ]
+    },
+    {
+      "severity": "LOW",
+      "razon": "títulos similares sin focus keyword definido",
+      "productos": [
+        {
+          "id": 1812,
+          "name": "Asiento Y Tapa Wc De Cierre Lento Blanca Modern",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/asiento-y-tapa-wc-de-cierre-lento-blanca-modern/"
+        },
+        {
+          "id": 1811,
+          "name": "Asiento Y Tapa De Wc Blanca Fuscher Cierre Lento",
+          "focus": "",
+          "url": "https://victtorino.cl/producto/asiento-y-tapa-de-wc-blanca-fuscher-cierre-lento/"
+        }
+      ]
+    }
+  ]
+}

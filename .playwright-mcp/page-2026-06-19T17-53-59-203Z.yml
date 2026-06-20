@@ -1,0 +1,200 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - button "Saltar al contenido principal" [ref=e7]:
+      - generic [ref=e10]: Saltar al contenido principal
+    - generic [ref=e11]:
+      - button "Menú de navegación" [expanded] [ref=e12] [cursor=pointer]:
+        - img [ref=e16]: menu
+      - link "Inicio de Merchant Center" [ref=e17] [cursor=pointer]:
+        - /url: /mc/overview?a=5750880596
+        - img "Inicio de Merchant Center" [ref=e18]
+      - dialog "Buscar" [ref=e20]:
+        - generic [ref=e24]:
+          - img [ref=e27]: search
+          - textbox "Buscar en Merchant Center" [ref=e29]
+      - button "Ayuda" [ref=e32] [cursor=pointer]:
+        - img [ref=e35]: help_outline
+      - 'button "Cuenta de Merchant Center: Trade Global Solutions SpA, 5750880596" [ref=e41] [cursor=pointer]':
+        - generic [ref=e42]:
+          - generic [ref=e43]: Trade Global Solutions SpA
+          - generic [ref=e44]: "5750880596"
+        - img [ref=e46]: arrow_drop_down
+      - generic [ref=e52]:
+        - button "Aplicaciones de Google" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - 'button "Cuenta de Google: Victor Mellado (vmelladoa@gmail.com)" [ref=e62] [cursor=pointer]':
+          - img [ref=e64]
+  - generic [ref=e65]:
+    - navigation [ref=e66]:
+      - tree "Navegación" [ref=e69]:
+        - treeitem "Vista general" [level=1] [ref=e70] [cursor=pointer]:
+          - img [ref=e73]: dashboard
+          - generic [ref=e75]: Vista general
+        - treeitem "Notificaciones" [level=1] [ref=e76] [cursor=pointer]:
+          - img [ref=e79]: notifications
+          - generic [ref=e81]: Notificaciones
+        - treeitem "Productos y tienda" [level=1] [ref=e83] [cursor=pointer]:
+          - img [ref=e86]: inventory_2
+          - generic [ref=e87]:
+            - generic [ref=e88]: Productos y tienda
+            - img [ref=e91]: arrow_drop_down
+          - group [ref=e93]:
+            - treeitem [disabled] [level=2] [ref=e94]:
+              - generic [ref=e96]: Productos
+            - treeitem [disabled] [level=2] [ref=e97]:
+              - generic [ref=e99]: Envíos y devoluciones
+            - treeitem [disabled] [level=2] [ref=e100]:
+              - generic [ref=e102]: Calidad de la tienda
+        - treeitem "Contenido de creatividad" [level=1] [ref=e103] [cursor=pointer]:
+          - img [ref=e106]: brush_spark
+          - generic [ref=e107]:
+            - generic [ref=e108]: Contenido de creatividad
+            - img [ref=e111]: arrow_drop_down
+          - group [ref=e113]:
+            - treeitem [disabled] [level=2] [ref=e114]:
+              - generic [ref=e116]: Product Studio
+            - treeitem [disabled] [level=2] [ref=e117]:
+              - generic [ref=e119]: Recursos de vídeo
+        - treeitem "Marketing" [level=1] [ref=e120] [cursor=pointer]:
+          - img [ref=e123]: campaign
+          - generic [ref=e124]:
+            - generic [ref=e125]: Marketing
+            - img [ref=e128]: arrow_drop_down
+          - group [ref=e130]:
+            - treeitem [disabled] [level=2] [ref=e131]:
+              - generic [ref=e133]: Campañas publicitarias
+            - treeitem [disabled] [level=2] [ref=e134]:
+              - generic [ref=e136]: Marca
+            - treeitem [disabled] [level=2] [ref=e137]:
+              - generic [ref=e139]: Métodos de marketing
+        - treeitem "Estadísticas" [level=1] [ref=e140] [cursor=pointer]:
+          - img [ref=e143]: timeline
+          - generic [ref=e144]:
+            - generic [ref=e145]: Estadísticas
+            - img [ref=e148]: arrow_drop_down
+          - group [ref=e150]:
+            - treeitem [disabled] [level=2] [ref=e151]:
+              - generic [ref=e153]: Resumen
+            - treeitem [disabled] [level=2] [ref=e154]:
+              - generic [ref=e156]: Productos
+            - treeitem [disabled] [level=2] [ref=e157]:
+              - generic [ref=e159]: Precios
+            - treeitem [disabled] [level=2] [ref=e160]:
+              - generic [ref=e162]: Tienda online
+        - treeitem "Configuración" [level=1] [ref=e164] [cursor=pointer]:
+          - img [ref=e167]: settings
+          - generic [ref=e168]:
+            - generic [ref=e169]: Configuración
+            - img [ref=e172]: arrow_drop_down
+          - group [ref=e174]:
+            - treeitem [disabled] [level=2] [ref=e175]:
+              - generic [ref=e177]: General
+            - treeitem [disabled] [level=2] [ref=e178]:
+              - generic [ref=e180]: Información de empresa
+            - treeitem [disabled] [level=2] [ref=e181]:
+              - generic [ref=e183]: Fuentes de datos
+            - treeitem [disabled] [level=2] [ref=e184]:
+              - generic [ref=e186]: Complementos
+            - treeitem [disabled] [level=2] [ref=e187]:
+              - generic [ref=e189]: Acceso y servicios
+    - generic [ref=e196]:
+      - main [ref=e197]:
+        - generic [ref=e198]:
+          - heading "Vista general" [level=1] [ref=e199]
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - heading "Tu empresa en Google" [level=2] [ref=e212]
+              - generic [ref=e215]:
+                - text: Hoy en comparación con
+                - button "Hoy en comparación con Hace 7 días" [ref=e216]:
+                  - generic [ref=e219]: Hace 7 días
+                  - img [ref=e222]: arrow_drop_down
+            - generic [ref=e223]:
+              - generic [ref=e224]:
+                - generic "Número total de productos 168 -1" [ref=e225]:
+                  - generic [ref=e226]:
+                    - generic [ref=e228]:
+                      - generic [ref=e229]: Número total de productos
+                      - generic [ref=e230] [cursor=pointer]:
+                        - button "Más información sobre la métrica Número total de productos":
+                          - img "Más información sobre la métrica Número total de productos": help_outline
+                    - generic [ref=e232]: "168"
+                    - 'button "-1: porcentaje de cambio de Número total de productos con respecto a un valor de 168" [ref=e234]':
+                      - generic [ref=e235] [cursor=pointer]: "-1"
+                - generic [ref=e236]:
+                  - link "Ver más información sobre el estado de los productos" [ref=e237] [cursor=pointer]:
+                    - /url: /mc/items?a=5750880596&expandGraph=true
+                    - text: Ver más
+                  - button "Todos los métodos de marketing" [ref=e238]:
+                    - generic [ref=e241]: Todos los métodos de marketing
+                    - img [ref=e244]: arrow_drop_down
+              - region "Tu empresa en Google" [ref=e245]:
+                - generic [ref=e246]:
+                  - generic [ref=e247]:
+                    - generic [ref=e249]: Aprobado
+                    - generic [ref=e250]:
+                      - text: "1"
+                      - generic [ref=e251]: Aprobado
+                    - generic [ref=e252]:
+                      - text: "-168"
+                      - generic [ref=e253]: Aprobado desde Hace 7 días
+                    - button "Aprobado productos" [ref=e254] [cursor=pointer]
+                  - generic [ref=e257]:
+                    - generic [ref=e259]: Disponibilidad limitada
+                    - generic [ref=e260]:
+                      - text: "0"
+                      - generic [ref=e261]: Disponibilidad limitada
+                    - generic [ref=e262]:
+                      - text: "+0"
+                      - generic [ref=e263]: Disponibilidad limitada desde Hace 7 días
+                    - button "Disponibilidad limitada productos" [ref=e264] [cursor=pointer]
+                  - generic [ref=e265]:
+                    - generic [ref=e267]: No aprobado
+                    - generic [ref=e268]:
+                      - text: "167"
+                      - generic [ref=e269]: No aprobado
+                    - generic [ref=e270]:
+                      - text: "+167"
+                      - generic [ref=e271]: No aprobado desde Hace 7 días
+                    - button "No aprobado productos" [ref=e272] [cursor=pointer]
+                  - generic [ref=e274]:
+                    - generic [ref=e276]: En revisión
+                    - generic [ref=e277]:
+                      - text: "0"
+                      - generic [ref=e278]: En revisión
+                    - generic [ref=e279]:
+                      - text: "+0"
+                      - generic [ref=e280]: En revisión desde Hace 7 días
+                    - button "En revisión productos" [ref=e281] [cursor=pointer]
+                - generic [ref=e282]:
+                  - text: Hace 7 días
+                  - text: Hoy
+              - generic [ref=e285]:
+                - img [ref=e288]: error_outline
+                - generic [ref=e289]: Soluciona los problemas para poder recibir 2 clics más en tus productos.
+            - generic [ref=e291]:
+              - generic [ref=e292]:
+                - generic [ref=e293]:
+                  - heading "Calidad de la tienda" [level=3] [ref=e294]
+                  - generic [ref=e295] [cursor=pointer]:
+                    - button "Más información sobre Calidad de la tienda":
+                      - img "Más información sobre Calidad de la tienda": help_outline
+                - link "Ver más" [ref=e296] [cursor=pointer]:
+                  - /url: /mc/quality?a=5750880596&region=CL
+              - generic [ref=e298]:
+                - generic [ref=e301]: Calidad general
+                - generic [ref=e304]: Gastos de envío
+                - generic [ref=e307]: Plazo de devolución
+                - generic [ref=e309]: Genial
+                - generic [ref=e312]: Bueno
+                - generic [ref=e315]: Excepcional
+          - heading "Qué hacer a continuación" [level=2] [ref=e324]
+      - contentinfo [ref=e327]:
+        - link "Política de Privacidad" [ref=e328] [cursor=pointer]:
+          - /url: http://www.google.com/policies/privacy/
+        - generic [ref=e329]: ·
+        - link "Términos del Servicio" [ref=e330] [cursor=pointer]:
+          - /url: https://support.google.com/merchants/answer/160173?hl=es
+        - generic [ref=e331]: ·
+        - link "Políticas del Programa" [ref=e332] [cursor=pointer]:
+          - /url: https://support.google.com/merchants/topic/7286989?hl=es

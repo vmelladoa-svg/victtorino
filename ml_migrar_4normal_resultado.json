@@ -1,0 +1,37 @@
+{
+ "creados": [
+  {
+   "src": "MLC3585590706",
+   "new": "MLC4080751792",
+   "status": "active",
+   "gen_title": "Válvula De Carga Para Estanque Wc Con Flotador",
+   "title": "Válvula De Carga Para Estanque Wc Con Flotado"
+  },
+  {
+   "src": "MLC3585481328",
+   "new": "MLC4080751794",
+   "status": "active",
+   "gen_title": "Monomando Lavatorio Alto Notte Negro Mate",
+   "title": "Monomando Lavatorio Alto Notte Negro Mate"
+  },
+  {
+   "src": "MLC1858804939",
+   "new": "MLC4079905050",
+   "status": "active",
+   "title": "Monomando Lavaplato  Vertical Colomba Platead"
+  }
+ ],
+ "pausados": [
+  "MLC3585590706",
+  "MLC3585481328",
+  "MLC1858804939"
+ ],
+ "fallos": [
+  {
+   "src": "MLC3134846774",
+   "code": 400,
+   "err": "{\"cause\": [{\"department\": \"items\", \"cause_id\": 150, \"type\": \"error\", \"code\": \"item.attribute.invalid\", \"references\": [\"item.attributes\"], \"message\": \"Value name of attribute INSTALLATION_TYPES was not provided and couldn't be resolved from attributes database.\"}, {\"department\": \"items\", \"cause_id\": ",
+   "title": "Lavaplatos Empotrado Simple 80x44 Secador Izq"
+  }
+ ]
+}

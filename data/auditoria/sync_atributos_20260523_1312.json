@@ -1,0 +1,46 @@
+[
+  {
+    "item": "MLC1900464793",
+    "status": "OK",
+    "verified": 3,
+    "total": 3,
+    "payload": {
+      "attributes": [
+        {
+          "id": "ALPHANUMERIC_MODEL",
+          "value_name": "37X32"
+        },
+        {
+          "id": "MODEL",
+          "value_name": "37X32"
+        },
+        {
+          "id": "KITCHEN_SINKS_TYPE",
+          "value_name": "lavaplatos + llave"
+        }
+      ]
+    }
+  },
+  {
+    "item": "MLC3798052582",
+    "status": "OK",
+    "verified": 3,
+    "total": 3,
+    "payload": {
+      "attributes": [
+        {
+          "id": "ALPHANUMERIC_MODEL",
+          "value_name": "80X44D"
+        },
+        {
+          "id": "MODEL",
+          "value_name": "80X44 SECADOR DERECHO + LLAVE"
+        },
+        {
+          "id": "KITCHEN_SINKS_TYPE",
+          "value_name": "Simple Secador derecho + llave acero inoxidable"
+        }
+      ]
+    }
+  }
+]

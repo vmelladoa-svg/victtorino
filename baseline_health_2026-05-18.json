@@ -1,0 +1,46 @@
+{
+  "fecha_baseline": "2026-05-18",
+  "descripcion": "Linea base de salud de publicaciones antes de medir efecto de las 67 descripciones aplicadas el 18-may.",
+  "por_cuenta": {
+    "c1": {
+      "alias": "C1 PREMIUMGRIFERIAS1",
+      "activas": 168,
+      "health_calc_avg": 58.7,
+      "health_ml_avg": 0.83,
+      "items_con_health_ml": 64,
+      "criticas_sub_20": 60
+    },
+    "c2": {
+      "alias": "C2 VICTTORINOOFICIAL2",
+      "activas": 179,
+      "health_calc_avg": 58.6,
+      "health_ml_avg": 0.85,
+      "items_con_health_ml": 54,
+      "criticas_sub_20": 50
+    },
+    "c3": {
+      "alias": "C3 NOVAGRIFERIAS3",
+      "activas": 178,
+      "health_calc_avg": 64.8,
+      "health_ml_avg": 0.82,
+      "items_con_health_ml": 70,
+      "criticas_sub_20": 53
+    }
+  },
+  "total": {
+    "activas": 525,
+    "health_calc_avg": 60.7,
+    "health_ml_avg": 0.83,
+    "criticas_sub_20": 163,
+    "descripciones_aplicadas": 67,
+    "titulos_aplicados": 0,
+    "ordenes_180d_C1": 205,
+    "ordenes_180d_C2": 308,
+    "ordenes_180d_C3": 310,
+    "ordenes_180d_total": 823,
+    "gmv_180d_total_clp": 25436377,
+    "visitas_30d_C1": null,
+    "visitas_30d_C2": null,
+    "visitas_30d_C3": null
+  }
+}

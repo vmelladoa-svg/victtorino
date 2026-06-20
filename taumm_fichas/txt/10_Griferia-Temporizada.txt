@@ -1,0 +1,94 @@
+    Grifería Temporizada
+
+    Llave Lavatorio Temporizada Llave al Muro Temporizada Llave Lavatorio Temporizada
+
+    Punta Cuadrada Chica        Larga                                                Gorda Mediana
+
+    100010100                   100010150                                            100010300
+
+    Urinario Botón con Válvula                                                       Urinario Botón sin Válvula
+    de Corte y Conexión Curva                                                        de Corte y Conexión Curva
+
+    100010400                                                                        100010500
+
+10
+
+    Cartridge Repuesto Llave    Cartridge Repuesto Llave
+    Lavatorio Temporizada       Lavatorio Temporizada Nueva
+    100012300
+                                100012305                                           Caudal Urinario Botón sin Válvula de Corte (100010500)
+     Cartridge Repuesto
+     Fluxómetro                                                                 1,6
+     100012400
+                                                    Volumen Descarga (Lts/seg)  1,4
+
+                                                                                1,2
+
+                                                                                1
+
+                                                                                0,8
+
+                                                                                0,6
+
+                                                                                0,4
+
+                                Cartridge Repuesto                              0,2
+                                Fluxómetro Nuevo
+                                                                                  0
+                                100012405                                                0,5 1 1,5 2 2,5 3 3,5 4 4,5 5
+
+                                                                                                       Presión en la Línea (bar)
+
+    Empaques:                  Llaves y Urinarios: En Caja de Cartón 4 Colores
+    Materialidad:              Cartridges: Sueltos en Bolsa Plástica
+                               Cuerpos y Cartridge: Latón Normalizado
+    Funcionamiento:            Campana Adorno: Acero Inoxidable
+                               Tubos Bajada de Latón
+    Repuestos:                 Apertura 5 a 7 segundos. Estable desde 1,5 Bar
+                               Urinario: 100010400: Caudal Regulable
+                   100012305:
+                   100012405:  Para Las 3 Llaves y para Urinario 100010500
+                               Para Fluxómetro
+
+                Lavatorio - Urinario - Repuestos
+
+                                79
+                                     Grifería Temporizada
+
+Fluxómetro Palanca 1”  Fluxómetro Botón Fluxómetro Palanca 1” Fluxómetro Botón
+Con Válvula de Corte
+Bajada de Tubo en L    Bajada de Tubo en L Con Válvula de Corte Bajada de Tubo en S
+
+100010800              100011500 3/4” Bajada de Tubo en S 10001150S 3/4”
+
+                       100011600 1”  10001080S  10001160S 1”
+
+Fitting de Entrada                      Fitting de Entrada
+al WC Lateral                           al WC Superior
+(Bajada de Tubo                         (Bajada de Tubo en “S”)
+en “L”)
+
+                                                                                                  10
+
+Empaques:                                Fluxómetro Palanca Enorme
+Materialidad:                            (Según Diámetro de Entrada)
+Funcionamiento:                          100013100 3/4”
+                                         100013200 1”
+Fitting Conexión:
+         Tipo L:   Caja de Cartón 4 Colores
+                   Cuerpos, Tubos y Cartridge: Latón Normalizado
+         Tipo S:   Campana Adorno: Acero Inoxidable
+                   Vacía Volumen Medio de 7 Lts, Estable Desde 1,5 Bar
+                   Sistema Quiebre de Vacío (Antirretorno)
+                   Caudal Regulable
+
+                   Dos Tubos Telescópicos: Dist. Vert: 52 a 74 cms entre Alimentación y Descarga
+                   Distancia Horizontal: 27 cm entre Muro y Descarga
+                   Al WC: Campana, Goma, Collarín, Anillo
+                   Dos Tubos Telescópicos: Dist. Vert: 75 a 85 cm entre Alimentación y Descarga
+                   Al WC: Campana, Placa, Goma, Collarín, Anillo
+
+                       Fluxómetros
+
+                                    80
+

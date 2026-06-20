@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --max: 1240px;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+/* utilidades de marca reutilizables */
+@layer components {
+  .container-db {
+    @apply mx-auto w-full px-4 sm:px-6;
+    max-width: var(--max);
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl font-head font-semibold transition-all duration-200;
+  }
+  .btn-primary {
+    @apply btn bg-balon text-white shadow-cta hover:bg-balon-600 hover:-translate-y-0.5 active:translate-y-0;
+  }
+  .btn-dark {
+    @apply btn bg-carbon text-white hover:bg-carbon-800 hover:-translate-y-0.5;
+  }
+  .btn-ghost {
+    @apply btn border border-black/15 bg-white text-carbon hover:border-balon hover:text-balon;
+  }
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide;
+  }
+  .display {
+    @apply font-display uppercase leading-[0.92] tracking-tight;
+  }
+}
+
+/* esconder scrollbar en carruseles */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }

@@ -1,0 +1,185 @@
+/* ============================================================
+   FIX MOBILE — Carrito + Buscador (Victtorino.cl)
+   Theme: hello-elementor | Builder: Elementor + ElementsKit | Search: AWS
+   Pegar al FINAL del bloque "CSS adicional" del Personalizador.
+   ============================================================ */
+
+
+/* ──────────────────────────────────────────────────────────────
+   1) BUSCADOR — siempre visible arriba (sticky)
+   El wrapper del buscador mobile es .elementor-element-2263020
+   ────────────────────────────────────────────────────────────── */
+@media (max-width: 767px) {
+
+  /* Sticky permanente al top */
+  .elementor-element-2263020 {
+    position: sticky !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;          /* sobre header y menu mobile */
+
+    /* asegurar que se vea COMPLETO sin recortes */
+    height: auto !important;
+    min-height: 60px !important;
+    max-height: none !important;
+    overflow: visible !important;
+
+    /* respetar el fondo oscuro existente */
+    background-color: #1a1a2e !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15) !important;
+
+    /* padding visual prolijo */
+    padding: 10px 14px !important;
+    margin: 0 !important;
+
+    /* desactivar cualquier transform/clip que lo corte */
+    transform: none !important;
+    clip-path: none !important;
+  }
+
+  /* Inner container también visible completo */
+  .elementor-element-2263020 .e-con-inner,
+  .elementor-element-2263020 .elementor-element-46b45ed,
+  .elementor-element-2263020 .ekit-search-panel,
+  .elementor-element-2263020 .aws-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: visible !important;
+    height: auto !important;
+    min-height: 44px !important;
+    transform: none !important;
+  }
+
+  /* Form de búsqueda ocupa todo el ancho */
+  .elementor-element-2263020 .aws-search-form,
+  .elementor-element-2263020 .aws-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 44px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  /* Input visible al 100% — sin recorte vertical */
+  .elementor-element-2263020 .aws-search-field,
+  .elementor-element-2263020 input[type="search"] {
+    width: 100% !important;
+    height: 44px !important;
+    line-height: 44px !important;
+    padding: 0 40px 0 12px !important;   /* espacio para la lupa */
+    box-sizing: border-box !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    font-size: 14px !important;
+
+    /* mantener el estilo oscuro existente */
+    background-color: rgba(255,255,255,0.1) !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    color: #ffffff !important;
+    border-radius: 4px !important;
+  }
+
+  .elementor-element-2263020 .aws-search-field::placeholder {
+    color: rgba(255,255,255,0.6) !important;
+  }
+
+  /* Botón lupa siempre visible */
+  .elementor-element-2263020 .aws-search-btn,
+  .elementor-element-2263020 .aws-search-btn_icon {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: #ffffff !important;
+  }
+
+  /* Compensar el espacio del sticky para que no tape contenido */
+  /* (sticky no necesita compensación de body, pero si en algún
+      template el contenido se mete debajo, descomentar la siguiente regla) */
+  /*
+  body {
+    padding-top: 64px !important;
+  }
+  */
+}
+
+
+/* ──────────────────────────────────────────────────────────────
+   2) CARRITO — header (botón siempre visible)
+   El toggle del carrito mobile está en .elementor-element-45b15ab
+   ────────────────────────────────────────────────────────────── */
+@media (max-width: 767px) {
+
+  /* Texto del precio: tamaño reducido para que no se desborde */
+  .elementor-element-45b15ab .elementor-menu-cart__toggle_button .elementor-button-text,
+  .elementor-element-45b15ab a.elementor-menu-cart__toggle_button {
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 110px !important;
+  }
+
+  /* Badge de cantidad (la bolita con el número) */
+  .elementor-element-45b15ab .elementor-button-icon-qty {
+    font-size: 10px !important;
+    min-width: 16px !important;
+    height: 16px !important;
+    line-height: 16px !important;
+  }
+
+  /* Si por algún motivo se muestra el texto "Cart" del screen-only,
+     reducirlo para que no rompa la caja */
+  .elementor-element-45b15ab .elementor-screen-only {
+    font-size: 10px !important;
+  }
+
+  /* El botón del carrito como bloque flex compacto */
+  .elementor-element-45b15ab .elementor-menu-cart__toggle_button {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    padding: 6px 10px !important;
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────
+   3) CARRITO — panel lateral (side cart "Carrito de compras")
+   Cuando tocas el icono, se abre un panel con el heading
+   "Carrito de compras". Lo reducimos para que no se desborde.
+   ────────────────────────────────────────────────────────────── */
+@media (max-width: 767px) {
+
+  /* Heading del panel side-cart */
+  .elementor-menu-cart__main .widget_shopping_cart_content .cart_list .widget-title,
+  .elementor-menu-cart__main .widget_shopping_cart_content h2,
+  .elementor-menu-cart__main .widget_shopping_cart_content h3,
+  .elementor-menu-cart__main .widgettitle,
+  .elementor-menu-cart__container .widget_shopping_cart h2.widgettitle,
+  .elementor-menu-cart__container .elementor-menu-cart__heading {
+    font-size: 16px !important;
+    line-height: 1.3 !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    word-break: break-word !important;
+    padding: 12px 16px !important;
+    margin: 0 !important;
+  }
+
+  /* Asegurar que el panel del side-cart no recorte texto */
+  .elementor-menu-cart__main {
+    overflow-y: auto !important;
+    max-width: 92vw !important;
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────
+   FIN del fix
+   ────────────────────────────────────────────────────────────── */

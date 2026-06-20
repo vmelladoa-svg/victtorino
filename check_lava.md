@@ -1,0 +1,377 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - link "Falabella Seller Center" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img "Falabella Seller Center" [ref=e11]
+          - generic [ref=e12]:
+            - link "Fpay Logo" [ref=e14] [cursor=pointer]:
+              - /url: https://fpay.cl/comercios/cuenta/login
+              - img "Fpay Logo" [ref=e15]
+            - generic [ref=e16]:
+              - generic [ref=e18]: Trade Global
+              - button [ref=e20] [cursor=pointer]:
+                - img [ref=e21]
+              - generic [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+                - img [ref=e39]
+                - generic [ref=e41]: "5"
+      - generic [ref=e42]:
+        - generic [ref=e45]:
+          - img [ref=e47]
+          - text: Productos
+          - img [ref=e52]
+        - generic [ref=e56]:
+          - img [ref=e58]
+          - text: Órdenes
+          - img [ref=e63]
+        - generic [ref=e67]:
+          - img [ref=e69]
+          - text: Pagos
+          - img [ref=e78]
+        - generic [ref=e82]:
+          - img [ref=e84]
+          - text: Informes y estadísticas
+          - img [ref=e86]
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - text: Crecimiento
+          - img [ref=e94]
+        - generic [ref=e98]:
+          - img [ref=e100]
+          - text: Mi cuenta
+          - img [ref=e103]
+        - generic [ref=e107]:
+          - img [ref=e109]
+          - text: Fulfillment
+          - img [ref=e117]
+        - generic [ref=e121]:
+          - img [ref=e123]
+          - text: Ayuda
+          - img [ref=e130]
+        - img [ref=e136]
+  - main [ref=e140]:
+    - generic [ref=e141]:
+      - generic [ref=e143]:
+        - generic [ref=e144]: Administrador de productos
+        - generic [ref=e145]:
+          - generic [ref=e147]:
+            - generic [ref=e150] [cursor=pointer]: Catálogo
+            - generic [ref=e153] [cursor=pointer]: Stock
+          - button "add icon Agregar producto" [ref=e154] [cursor=pointer]:
+            - img "add icon" [ref=e155]
+            - text: Agregar producto
+      - generic [ref=e156]:
+        - button [ref=e158] [cursor=pointer]:
+          - img [ref=e159]
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e165]:
+              - generic [ref=e382] [cursor=pointer]: Todos
+              - generic [ref=e385] [cursor=pointer]: Publicado
+              - generic [ref=e388] [cursor=pointer]: Sin imágenes
+              - generic [ref=e391] [cursor=pointer]: Rechazados
+              - generic [ref=e393] [cursor=pointer]:
+                - generic [ref=e394]: Sin inventario
+                - generic [ref=e396]:
+                  - generic: "239"
+              - generic [ref=e398] [cursor=pointer]:
+                - generic [ref=e399]: Inactivos
+                - img [ref=e401]
+              - generic [ref=e405] [cursor=pointer]: Productos no autorizados
+            - generic [ref=e174]:
+              - checkbox "Select all products on current page" [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+              - button "Selecciona una opción" [disabled] [ref=e180]:
+                - generic [ref=e181]: Selecciona una opción
+                - img [ref=e182]
+              - button "Ir" [disabled] [ref=e184]
+              - button "Descargar información" [ref=e188]:
+                - generic [ref=e189]: Descargar información
+                - img [ref=e190]
+              - generic [ref=e194]:
+                - img [ref=e196] [cursor=pointer]
+                - textbox "Buscar por nombre, SKU u otros criterios" [active] [ref=e200]
+                - img [ref=e202]
+            - generic [ref=e206]:
+              - generic [ref=e2895]:
+                - generic [ref=e2896]: "143105393"
+                - button "Eliminar filtro" [ref=e2897]:
+                  - img [ref=e2898]
+              - generic [ref=e207]:
+                - table [ref=e213]:
+                  - rowgroup [ref=e214]:
+                    - row "Producto Creación Precio Precio oferta Recomendaciones Inventario disponible Activo Estado Acciones" [ref=e215]:
+                      - columnheader [ref=e216]
+                      - columnheader "Producto" [ref=e217] [cursor=pointer]:
+                        - generic [ref=e218]:
+                          - text: Producto
+                          - generic [ref=e219]:
+                            - img [ref=e220]
+                            - img [ref=e222]
+                      - columnheader "Creación" [ref=e225] [cursor=pointer]:
+                        - generic [ref=e226]:
+                          - text: Creación
+                          - generic [ref=e227]:
+                            - img [ref=e228]
+                            - img [ref=e230]
+                      - columnheader "Precio" [ref=e233] [cursor=pointer]:
+                        - generic [ref=e234]:
+                          - text: Precio
+                          - generic [ref=e235]:
+                            - img [ref=e236]
+                            - img [ref=e238]
+                      - columnheader "Precio oferta" [ref=e241] [cursor=pointer]:
+                        - generic [ref=e242]:
+                          - text: Precio oferta
+                          - generic [ref=e243]:
+                            - img [ref=e244]
+                            - img [ref=e246]
+                      - columnheader "Recomendaciones" [ref=e249]:
+                        - generic [ref=e250]: Recomendaciones
+                      - columnheader "Inventario disponible" [ref=e251]:
+                        - generic [ref=e252]: Inventario disponible
+                      - columnheader "Activo" [ref=e253]:
+                        - generic [ref=e254]: Activo
+                      - columnheader "Estado" [ref=e255]:
+                        - generic [ref=e256]: Estado
+                      - columnheader "Acciones" [ref=e257]:
+                        - generic [ref=e258]: Acciones
+                  - rowgroup [ref=e259]:
+                    - 'row "Lavaplatos Empotrado doble 120x44x15cm Secador Derecho / ... SKU Seller 020101010-T SKU Falabella 143105393 Publicado en: Patrocinado 17/04/2025 $115.990 $57.990 1 More actions" [ref=e2901]':
+                      - cell [ref=e407]:
+                        - checkbox [ref=e410] [cursor=pointer]:
+                          - img [ref=e411]
+                      - 'cell "Lavaplatos Empotrado doble 120x44x15cm Secador Derecho / ... SKU Seller 020101010-T SKU Falabella 143105393 Publicado en: Patrocinado" [ref=e2902]':
+                        - generic [ref=e416]:
+                          - paragraph [ref=e418]: Lavaplatos Empotrado doble 120x44x15cm Secador Derecho / ...
+                          - generic [ref=e419]:
+                            - generic [ref=e421]:
+                              - generic [ref=e422]: SKU Seller
+                              - generic [ref=e423]:
+                                - generic [ref=e424]: 020101010-T
+                                - img [ref=e427] [cursor=pointer]
+                            - generic [ref=e430]:
+                              - generic [ref=e431]: SKU Falabella
+                              - generic [ref=e432]:
+                                - generic [ref=e433]: "143105393"
+                                - img [ref=e436] [cursor=pointer]
+                          - generic [ref=e438]:
+                            - generic [ref=e439]:
+                              - paragraph [ref=e440]: "Publicado en:"
+                              - img [ref=e442] [cursor=pointer]
+                              - img [ref=e446] [cursor=pointer]
+                            - generic [ref=e2904]: Patrocinado
+                      - cell "17/04/2025" [ref=e2905]
+                      - cell "$115.990" [ref=e2906]:
+                        - generic [ref=e456] [cursor=pointer]: $115.990
+                      - cell "$57.990" [ref=e2907]:
+                        - generic [ref=e460] [cursor=pointer]: $57.990
+                      - cell [ref=e461]
+                      - cell "1" [ref=e2908]:
+                        - generic [ref=e465] [cursor=pointer]: "1"
+                      - cell [ref=e466]:
+                        - button [ref=e468] [cursor=pointer]
+                      - cell [ref=e470]:
+                        - button [ref=e473] [cursor=pointer]:
+                          - img [ref=e474]
+                      - cell "More actions" [ref=e477]:
+                        - button "More actions" [ref=e2909] [cursor=pointer]:
+                          - img [ref=e2910]
+                - generic [ref=e262]:
+                  - generic [ref=e263]:
+                    - generic [ref=e264]: "Páginas:"
+                    - button [disabled] [ref=e265] [cursor=pointer]:
+                      - img [ref=e266]
+                    - button "1" [ref=e2758] [cursor=pointer]
+                    - button [disabled] [ref=e268] [cursor=pointer]:
+                      - img [ref=e269]
+                  - generic [ref=e272]:
+                    - generic [ref=e273]: Elementos por página
+                    - generic [ref=e275] [cursor=pointer]:
+                      - generic [ref=e277]: "30"
+                      - generic:
+                        - img
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - heading "Descargas" [level=2] [ref=e280]
+              - generic [ref=e281]:
+                - button "Actualizar" [ref=e282] [cursor=pointer]:
+                  - img [ref=e283]
+                  - text: Actualizar
+                - generic [ref=e289]:
+                  - img [ref=e291]
+                  - textbox "Busca por tipo de producto" [ref=e294]
+            - generic [ref=e295]:
+              - table [ref=e301]:
+                - rowgroup [ref=e302]:
+                  - row "# Categoría Fecha solicitud Fecha completitud Estado Descargar" [ref=e303]:
+                    - columnheader "#" [ref=e304] [cursor=pointer]:
+                      - generic [ref=e305]:
+                        - text: "#"
+                        - generic [ref=e306]:
+                          - img [ref=e307]
+                          - img [ref=e309]
+                    - columnheader "Categoría" [ref=e312]:
+                      - generic [ref=e313]: Categoría
+                    - columnheader "Fecha solicitud" [ref=e314] [cursor=pointer]:
+                      - generic [ref=e315]:
+                        - text: Fecha solicitud
+                        - generic [ref=e316]:
+                          - img [ref=e317]
+                          - img [ref=e319]
+                    - columnheader "Fecha completitud" [ref=e322] [cursor=pointer]:
+                      - generic [ref=e323]:
+                        - text: Fecha completitud
+                        - generic [ref=e324]:
+                          - img [ref=e325]
+                          - img [ref=e327]
+                    - columnheader "Estado" [ref=e330] [cursor=pointer]:
+                      - generic [ref=e331]:
+                        - text: Estado
+                        - generic [ref=e332]:
+                          - img [ref=e333]
+                          - img [ref=e335]
+                    - columnheader "Descargar" [ref=e338]:
+                      - generic [ref=e339]: Descargar
+                - rowgroup [ref=e340]:
+                  - row "22748902 Product - Ferretería 2026-06-16 17:06:57 2026-06-16 17:07:03 Finalizado Descargar CSV Descargar XLSX" [ref=e2766]:
+                    - cell "22748902" [ref=e2767]
+                    - cell "Product - Ferretería" [ref=e2768]
+                    - cell "2026-06-16 17:06:57" [ref=e2769]
+                    - cell "2026-06-16 17:07:03" [ref=e2770]
+                    - cell "Finalizado" [ref=e2771]:
+                      - generic [ref=e2772]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2773]:
+                      - generic [ref=e2775]:
+                        - button "Descargar CSV" [ref=e2776] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2777] [cursor=pointer]
+                  - row "22748861 Product - Hogar 2026-06-16 17:05:44 2026-06-16 17:05:48 Finalizado Descargar CSV Descargar XLSX" [ref=e2778]:
+                    - cell "22748861" [ref=e2779]
+                    - cell "Product - Hogar" [ref=e2780]
+                    - cell "2026-06-16 17:05:44" [ref=e2781]
+                    - cell "2026-06-16 17:05:48" [ref=e2782]
+                    - cell "Finalizado" [ref=e2783]:
+                      - generic [ref=e2784]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2785]:
+                      - generic [ref=e2787]:
+                        - button "Descargar CSV" [ref=e2788] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2789] [cursor=pointer]
+                  - row "22748854 Product - Bebés 2026-06-16 17:05:22 2026-06-16 17:05:24 Finalizado Descargar CSV Descargar XLSX" [ref=e2790]:
+                    - cell "22748854" [ref=e2791]
+                    - cell "Product - Bebés" [ref=e2792]
+                    - cell "2026-06-16 17:05:22" [ref=e2793]
+                    - cell "2026-06-16 17:05:24" [ref=e2794]
+                    - cell "Finalizado" [ref=e2795]:
+                      - generic [ref=e2796]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2797]:
+                      - generic [ref=e2799]:
+                        - button "Descargar CSV" [ref=e2800] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2801] [cursor=pointer]
+                  - row "22748847 Product - Electrodomésticos 2026-06-16 17:04:58 2026-06-16 17:05:01 Finalizado Descargar CSV Descargar XLSX" [ref=e2802]:
+                    - cell "22748847" [ref=e2803]
+                    - cell "Product - Electrodomésticos" [ref=e2804]
+                    - cell "2026-06-16 17:04:58" [ref=e2805]
+                    - cell "2026-06-16 17:05:01" [ref=e2806]
+                    - cell "Finalizado" [ref=e2807]:
+                      - generic [ref=e2808]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2809]:
+                      - generic [ref=e2811]:
+                        - button "Descargar CSV" [ref=e2812] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2813] [cursor=pointer]
+                  - row "22748826 Product - Belleza, cuidado personal, higiene y salud 2026-06-16 17:04:34 2026-06-16 17:04:36 Finalizado Descargar CSV Descargar XLSX" [ref=e2814]:
+                    - cell "22748826" [ref=e2815]
+                    - cell "Product - Belleza, cuidado personal, higiene y salud" [ref=e2816]
+                    - cell "2026-06-16 17:04:34" [ref=e2817]
+                    - cell "2026-06-16 17:04:36" [ref=e2818]
+                    - cell "Finalizado" [ref=e2819]:
+                      - generic [ref=e2820]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2821]:
+                      - generic [ref=e2823]:
+                        - button "Descargar CSV" [ref=e2824] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2825] [cursor=pointer]
+                  - row "22748809 Product - Limpieza 2026-06-16 17:04:07 2026-06-16 17:04:09 Finalizado Descargar CSV Descargar XLSX" [ref=e2826]:
+                    - cell "22748809" [ref=e2827]
+                    - cell "Product - Limpieza" [ref=e2828]
+                    - cell "2026-06-16 17:04:07" [ref=e2829]
+                    - cell "2026-06-16 17:04:09" [ref=e2830]
+                    - cell "Finalizado" [ref=e2831]:
+                      - generic [ref=e2832]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2833]:
+                      - generic [ref=e2835]:
+                        - button "Descargar CSV" [ref=e2836] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2837] [cursor=pointer]
+                  - row "22748798 Product - Ferretería 2026-06-16 17:03:36 2026-06-16 17:03:42 Finalizado Descargar CSV Descargar XLSX" [ref=e2838]:
+                    - cell "22748798" [ref=e2839]
+                    - cell "Product - Ferretería" [ref=e2840]
+                    - cell "2026-06-16 17:03:36" [ref=e2841]
+                    - cell "2026-06-16 17:03:42" [ref=e2842]
+                    - cell "Finalizado" [ref=e2843]:
+                      - generic [ref=e2844]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2845]:
+                      - generic [ref=e2847]:
+                        - button "Descargar CSV" [ref=e2848] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2849] [cursor=pointer]
+                  - row "21256225 Product - Hogar 2026-04-13 10:54:45 2026-04-13 10:54:49 Finalizado Descargar CSV Descargar XLSX" [ref=e2850]:
+                    - cell "21256225" [ref=e2851]
+                    - cell "Product - Hogar" [ref=e2852]
+                    - cell "2026-04-13 10:54:45" [ref=e2853]
+                    - cell "2026-04-13 10:54:49" [ref=e2854]
+                    - cell "Finalizado" [ref=e2855]:
+                      - generic [ref=e2856]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2857]:
+                      - generic [ref=e2859]:
+                        - button "Descargar CSV" [ref=e2860] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2861] [cursor=pointer]
+                  - row "21256220 Product - Belleza, cuidado personal, higiene y salud 2026-04-13 10:54:37 2026-04-13 10:54:40 Finalizado Descargar CSV Descargar XLSX" [ref=e2862]:
+                    - cell "21256220" [ref=e2863]
+                    - cell "Product - Belleza, cuidado personal, higiene y salud" [ref=e2864]
+                    - cell "2026-04-13 10:54:37" [ref=e2865]
+                    - cell "2026-04-13 10:54:40" [ref=e2866]
+                    - cell "Finalizado" [ref=e2867]:
+                      - generic [ref=e2868]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2869]:
+                      - generic [ref=e2871]:
+                        - button "Descargar CSV" [ref=e2872] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2873] [cursor=pointer]
+                  - row "21256210 Product - Limpieza 2026-04-13 10:54:26 2026-04-13 10:54:28 Finalizado Descargar CSV Descargar XLSX" [ref=e2874]:
+                    - cell "21256210" [ref=e2875]
+                    - cell "Product - Limpieza" [ref=e2876]
+                    - cell "2026-04-13 10:54:26" [ref=e2877]
+                    - cell "2026-04-13 10:54:28" [ref=e2878]
+                    - cell "Finalizado" [ref=e2879]:
+                      - generic [ref=e2880]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2881]:
+                      - generic [ref=e2883]:
+                        - button "Descargar CSV" [ref=e2884] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2885] [cursor=pointer]
+              - generic [ref=e343]:
+                - generic [ref=e344]:
+                  - generic [ref=e345]: "Páginas:"
+                  - button [disabled] [ref=e346] [cursor=pointer]:
+                    - img [ref=e347]
+                  - button "1" [ref=e349] [cursor=pointer]
+                  - button "2" [ref=e2886] [cursor=pointer]
+                  - button "3" [ref=e2887] [cursor=pointer]
+                  - button "4" [ref=e2888] [cursor=pointer]
+                  - button [ref=e350] [cursor=pointer]:
+                    - img [ref=e351]
+                - generic [ref=e354]:
+                  - generic [ref=e355]: Elementos por página
+                  - generic [ref=e357] [cursor=pointer]:
+                    - generic [ref=e359]: "10"
+                    - generic:
+                      - img
+  - contentinfo [ref=e362]:
+    - generic [ref=e366]:
+      - generic [ref=e367]:
+        - img [ref=e368]
+        - button "Califica esta página" [ref=e370] [cursor=pointer]
+      - generic [ref=e371]:
+        - generic [ref=e372]: Idioma
+        - generic [ref=e374] [cursor=pointer]:
+          - generic [ref=e375]: Español
+          - img [ref=e377]
+  - alert [ref=e379]

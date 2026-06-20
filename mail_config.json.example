@@ -1,0 +1,10 @@
+{
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "vmelladoa@gmail.com",
+  "smtp_password": "PEGA_AQUI_TU_APP_PASSWORD_16_CHARS",
+  "from_addr": "vmelladoa@gmail.com",
+  "from_name": "Auditoría ML Auto",
+  "to_addrs": ["vmelladoa@gmail.com"],
+  "subject_prefix": "[ML Audit]"
+}

@@ -1,0 +1,109 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - button "Saltar al contenido principal" [ref=e7]:
+      - generic [ref=e10]: Saltar al contenido principal
+    - generic [ref=e11]:
+      - button "Menú de navegación" [expanded] [ref=e12] [cursor=pointer]:
+        - img [ref=e16]: menu
+      - link "Inicio de Merchant Center" [ref=e17] [cursor=pointer]:
+        - /url: /mc/overview?a=5750880596
+        - img "Inicio de Merchant Center" [ref=e18]
+      - dialog "Buscar" [ref=e20]:
+        - generic [ref=e24]:
+          - img [ref=e27]: search
+          - textbox "Buscar en Merchant Center" [ref=e29]
+      - button "Ayuda" [ref=e32] [cursor=pointer]:
+        - img [ref=e35]: help_outline
+      - 'button "Cuenta de Merchant Center: Trade Global Solutions SpA, 5750880596" [ref=e41] [cursor=pointer]':
+        - generic [ref=e42]:
+          - generic [ref=e43]: Trade Global Solutions SpA
+          - generic [ref=e44]: "5750880596"
+        - img [ref=e46]: arrow_drop_down
+      - generic [ref=e52]:
+        - button "Aplicaciones de Google" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - 'button "Cuenta de Google: Victor Mellado (vmelladoa@gmail.com)" [ref=e62] [cursor=pointer]':
+          - img [ref=e64]
+    - progressbar "cargando" [ref=e67]
+  - generic [ref=e71]:
+    - navigation [ref=e72]:
+      - tree "Navegación" [ref=e75]:
+        - treeitem "Vista general" [level=1] [ref=e76] [cursor=pointer]:
+          - img [ref=e79]: dashboard
+          - generic [ref=e81]: Vista general
+        - treeitem "Notificaciones" [level=1] [ref=e82] [cursor=pointer]:
+          - img [ref=e85]: notifications
+          - generic [ref=e87]: Notificaciones
+        - treeitem "Productos y tienda" [expanded] [level=1] [ref=e89] [cursor=pointer]:
+          - img [ref=e92]: inventory_2
+          - generic [ref=e93]:
+            - generic [ref=e94]: Productos y tienda
+            - img [ref=e97]: arrow_drop_down
+          - group [ref=e99]:
+            - treeitem "Productos" [level=2] [ref=e100]:
+              - generic [ref=e103]: Productos
+            - treeitem "Envíos y devoluciones" [level=2] [ref=e104]:
+              - generic [ref=e107]: Envíos y devoluciones
+            - treeitem "Calidad de la tienda" [level=2] [ref=e108]:
+              - generic [ref=e111]: Calidad de la tienda
+        - treeitem "Contenido de creatividad" [level=1] [ref=e113] [cursor=pointer]:
+          - img [ref=e116]: brush_spark
+          - generic [ref=e117]:
+            - generic [ref=e118]: Contenido de creatividad
+            - img [ref=e121]: arrow_drop_down
+          - group [ref=e123]:
+            - treeitem [disabled] [level=2] [ref=e124]:
+              - generic [ref=e126]: Product Studio
+            - treeitem [disabled] [level=2] [ref=e127]:
+              - generic [ref=e129]: Recursos de vídeo
+        - treeitem "Marketing" [level=1] [ref=e130] [cursor=pointer]:
+          - img [ref=e133]: campaign
+          - generic [ref=e134]:
+            - generic [ref=e135]: Marketing
+            - img [ref=e138]: arrow_drop_down
+          - group [ref=e140]:
+            - treeitem [disabled] [level=2] [ref=e141]:
+              - generic [ref=e143]: Campañas publicitarias
+            - treeitem [disabled] [level=2] [ref=e144]:
+              - generic [ref=e146]: Marca
+            - treeitem [disabled] [level=2] [ref=e147]:
+              - generic [ref=e149]: Métodos de marketing
+        - treeitem "Estadísticas" [level=1] [ref=e150] [cursor=pointer]:
+          - img [ref=e153]: timeline
+          - generic [ref=e154]:
+            - generic [ref=e155]: Estadísticas
+            - img [ref=e158]: arrow_drop_down
+          - group [ref=e160]:
+            - treeitem [disabled] [level=2] [ref=e161]:
+              - generic [ref=e163]: Resumen
+            - treeitem [disabled] [level=2] [ref=e164]:
+              - generic [ref=e166]: Productos
+            - treeitem [disabled] [level=2] [ref=e167]:
+              - generic [ref=e169]: Precios
+            - treeitem [disabled] [level=2] [ref=e170]:
+              - generic [ref=e172]: Tienda online
+        - treeitem "Configuración" [level=1] [ref=e174] [cursor=pointer]:
+          - img [ref=e177]: settings
+          - generic [ref=e178]:
+            - generic [ref=e179]: Configuración
+            - img [ref=e182]: arrow_drop_down
+          - group [ref=e184]:
+            - treeitem [disabled] [level=2] [ref=e185]:
+              - generic [ref=e187]: General
+            - treeitem [disabled] [level=2] [ref=e188]:
+              - generic [ref=e190]: Información de empresa
+            - treeitem [disabled] [level=2] [ref=e191]:
+              - generic [ref=e193]: Fuentes de datos
+            - treeitem [disabled] [level=2] [ref=e194]:
+              - generic [ref=e196]: Complementos
+            - treeitem [disabled] [level=2] [ref=e197]:
+              - generic [ref=e199]: Acceso y servicios
+    - generic [ref=e204]:
+      - heading "Productos" [level=1] [ref=e207]
+      - tablist [ref=e212]:
+        - tab "Todos los productos" [ref=e213] [cursor=pointer]:
+          - generic [ref=e216]: Todos los productos
+        - tab "Requiere atención" [selected] [ref=e218] [cursor=pointer]:
+          - generic [ref=e221]: Requiere atención
+        - tab "Automatizaciones" [ref=e223] [cursor=pointer]:
+          - generic [ref=e226]: Automatizaciones

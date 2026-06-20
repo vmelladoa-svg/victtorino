@@ -1,0 +1,3986 @@
+{
+  "accDeBanoYToallas": [
+    {
+      "col": 1,
+      "code": "title",
+      "label": "Nombre del Producto",
+      "required": false
+    },
+    {
+      "col": 2,
+      "code": "skuSeller",
+      "label": "Sku Seller (*)",
+      "required": true
+    },
+    {
+      "col": 3,
+      "code": "refProduct",
+      "label": "Ref Product",
+      "required": false
+    },
+    {
+      "col": 4,
+      "code": "category",
+      "label": "Categoria (*)",
+      "required": true
+    },
+    {
+      "col": 5,
+      "code": "0f66ea85-7a01-44df-9f11-35ba000888e7",
+      "label": "Marca (*)",
+      "required": true
+    },
+    {
+      "col": 6,
+      "code": "0d41699c-7a0a-4c96-9c8a-844d0803dd09",
+      "label": "Descripción corta",
+      "required": false
+    },
+    {
+      "col": 7,
+      "code": "e19172ba-f46a-4794-89d7-5154ef9f2dff",
+      "label": "Garantía",
+      "required": false
+    },
+    {
+      "col": 8,
+      "code": "64b08e1c-b131-400f-a0f9-d74998eab8ec",
+      "label": "Modelo",
+      "required": false
+    },
+    {
+      "col": 9,
+      "code": "fddbe66d-d10f-4c18-b416-8cd21e911e6c",
+      "label": "productoLocal",
+      "required": false
+    },
+    {
+      "col": 10,
+      "code": "94ebf8e5-2ad8-40c4-a1ac-3d2aa20fe438",
+      "label": "Tax Code",
+      "required": false
+    },
+    {
+      "col": 11,
+      "code": "image",
+      "label": "Imagenes (*)",
+      "required": true
+    },
+    {
+      "col": 12,
+      "code": "ean",
+      "label": "EAN",
+      "required": false
+    },
+    {
+      "col": 13,
+      "code": "skuSellerVariant",
+      "label": "Sku Seller Variant (*)",
+      "required": true
+    },
+    {
+      "col": 14,
+      "code": "705bb298-6558-425c-9a4c-3e1b65c73060",
+      "label": "Color (*)",
+      "required": true
+    },
+    {
+      "col": 15,
+      "code": "07fa21d9-3b74-48d8-b811-1faa3117fba4",
+      "label": "Talla (*)",
+      "required": true
+    },
+    {
+      "col": 16,
+      "code": "c538734e-0cbc-4e35-a2b5-9422453599ef",
+      "label": "Alto del producto (cm)",
+      "required": false
+    },
+    {
+      "col": 17,
+      "code": "e2adf7ca-eb6c-4292-b19a-5397ebec9102",
+      "label": "Ancho del producto (Escribir en cm, ej: 140 cm)",
+      "required": false
+    },
+    {
+      "col": 18,
+      "code": "5682e0f6-0c29-11ec-a00e-0242ac140002",
+      "label": "Descripción Larga/Emocional",
+      "required": false
+    },
+    {
+      "col": 19,
+      "code": "25119e18-f06e-44a6-8ed9-01da9844db22",
+      "label": "Largo",
+      "required": false
+    },
+    {
+      "col": 20,
+      "code": "5b6aef57-d2bf-4c60-9e2a-0f7248a80ba0",
+      "label": "Material",
+      "required": false
+    },
+    {
+      "col": 21,
+      "code": "ce112608-569c-4e06-871c-4baf0c811fba",
+      "label": "Peso producto (g)",
+      "required": false
+    },
+    {
+      "col": 22,
+      "code": "db30211e-f2a6-4bfc-b895-45863e2fa4d5",
+      "label": "Características Sostenibles",
+      "required": false
+    },
+    {
+      "col": 23,
+      "code": "4d5a0523-b3f2-4026-9c71-8ee32f66f62d",
+      "label": "Producto Sostenible",
+      "required": false
+    },
+    {
+      "col": 24,
+      "code": "792d0eb2-8c11-4878-83ee-9864b5b4a775",
+      "label": "Producto Sustentable",
+      "required": false
+    },
+    {
+      "col": 25,
+      "code": "c3638fb6-8729-4da7-a282-180f2c071202",
+      "label": "Uso",
+      "required": false
+    },
+    {
+      "col": 26,
+      "code": "6b3eccfa-06d2-4676-aad3-2a91d2f9b815",
+      "label": "Alto del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 27,
+      "code": "4c72189a-8d02-48ee-b667-5bddf1c70418",
+      "label": "Ancho del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 28,
+      "code": "bdde5cb4-fa04-4b24-ba01-a7d9ce9e64c1",
+      "label": "Largo del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 29,
+      "code": "22274b1a-4bbe-4491-82dd-c5e266d60366",
+      "label": "Peso del paquete (g)",
+      "required": false
+    },
+    {
+      "col": 30,
+      "code": "962a27d4-9012-4b3f-974c-aad46aef8638",
+      "label": "Tiempo de entrega al Courier (en días hábiles)",
+      "required": false
+    },
+    {
+      "col": 31,
+      "code": "56022f87-6734-11f0-8258-12b398f7fa41",
+      "label": "Cantidad de Unidades en el Pack (PPUM)",
+      "required": false
+    },
+    {
+      "col": 32,
+      "code": "55f89760-6734-11f0-8258-12b398f7fa41",
+      "label": "Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 33,
+      "code": "5603166a-6734-11f0-8258-12b398f7fa41",
+      "label": "Factor de Normalización (PPUM)",
+      "required": false
+    },
+    {
+      "col": 34,
+      "code": "56020dc2-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 35,
+      "code": "56037226-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad de Conversión (PPUM)",
+      "required": false
+    }
+  ],
+  "hogarOrganizacion": [
+    {
+      "col": 1,
+      "code": "title",
+      "label": "Nombre del Producto",
+      "required": false
+    },
+    {
+      "col": 2,
+      "code": "skuSeller",
+      "label": "Sku Seller (*)",
+      "required": true
+    },
+    {
+      "col": 3,
+      "code": "refProduct",
+      "label": "Ref Product",
+      "required": false
+    },
+    {
+      "col": 4,
+      "code": "category",
+      "label": "Categoria (*)",
+      "required": true
+    },
+    {
+      "col": 5,
+      "code": "0f66ea85-7a01-44df-9f11-35ba000888e7",
+      "label": "Marca (*)",
+      "required": true
+    },
+    {
+      "col": 6,
+      "code": "71eee1e1-2c2b-11ec-b95d-0ec89c094745",
+      "label": "MEASUREMENT_UNIT",
+      "required": false
+    },
+    {
+      "col": 7,
+      "code": "8b74a633-2c35-11ec-b95d-0ec89c094745",
+      "label": "UNIT_MULTIPLIER",
+      "required": false
+    },
+    {
+      "col": 8,
+      "code": "cbc74292-2a22-11ed-88d3-0242ac150002",
+      "label": "Antiadherente",
+      "required": false
+    },
+    {
+      "col": 9,
+      "code": "cbc7439c-2a22-11ed-88d3-0242ac150002",
+      "label": "Base Desmontable",
+      "required": false
+    },
+    {
+      "col": 10,
+      "code": "cbbcf200-2a22-11ed-88d3-0242ac150002",
+      "label": "Cantidad de espacios",
+      "required": false
+    },
+    {
+      "col": 11,
+      "code": "cbd1e820-2a22-11ed-88d3-0242ac150002",
+      "label": "Color Bucket",
+      "required": false
+    },
+    {
+      "col": 12,
+      "code": "0cd89da0-2e1f-11ed-b908-0242ac150002",
+      "label": "cubicweight",
+      "required": false
+    },
+    {
+      "col": 13,
+      "code": "0d41699c-7a0a-4c96-9c8a-844d0803dd09",
+      "label": "Descripción corta",
+      "required": false
+    },
+    {
+      "col": 14,
+      "code": "cbb7de19-2a22-11ed-88d3-0242ac150002",
+      "label": "Embalaje",
+      "required": false
+    },
+    {
+      "col": 15,
+      "code": "cbd1e950-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Mínima Legal",
+      "required": false
+    },
+    {
+      "col": 16,
+      "code": "cbc7214c-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Proveedor",
+      "required": false
+    },
+    {
+      "col": 17,
+      "code": "0cd89e67-2e1f-11ed-b908-0242ac150002",
+      "label": "height",
+      "required": false
+    },
+    {
+      "col": 18,
+      "code": "a0757a45-150c-4815-a361-45a4b1cfbd29",
+      "label": "Incluye",
+      "required": false
+    },
+    {
+      "col": 19,
+      "code": "dc09e075-6f22-11ed-9aab-0242ac150002",
+      "label": "KeyWords",
+      "required": false
+    },
+    {
+      "col": 20,
+      "code": "0cd89f35-2e1f-11ed-b908-0242ac150002",
+      "label": "length",
+      "required": false
+    },
+    {
+      "col": 21,
+      "code": "0cd89bd8-2e1f-11ed-b908-0242ac150002",
+      "label": "ManufacturerCode",
+      "required": false
+    },
+    {
+      "col": 22,
+      "code": "cbcc41f8-2a22-11ed-88d3-0242ac150002",
+      "label": "Material Mango",
+      "required": false
+    },
+    {
+      "col": 23,
+      "code": "64b08e1c-b131-400f-a0f9-d74998eab8ec",
+      "label": "Modelo",
+      "required": false
+    },
+    {
+      "col": 24,
+      "code": "cbc7234f-2a22-11ed-88d3-0242ac150002",
+      "label": "Notas",
+      "required": false
+    },
+    {
+      "col": 25,
+      "code": "cbb7e24e-2a22-11ed-88d3-0242ac150002",
+      "label": "Peso",
+      "required": false
+    },
+    {
+      "col": 26,
+      "code": "cbb7e358-2a22-11ed-88d3-0242ac150002",
+      "label": "Profundidad",
+      "required": false
+    },
+    {
+      "col": 27,
+      "code": "0cd8a142-2e1f-11ed-b908-0242ac150002",
+      "label": "realCubicWeight",
+      "required": false
+    },
+    {
+      "col": 28,
+      "code": "0cd8a1df-2e1f-11ed-b908-0242ac150002",
+      "label": "realHeight",
+      "required": false
+    },
+    {
+      "col": 29,
+      "code": "0cd8a27d-2e1f-11ed-b908-0242ac150002",
+      "label": "realLength",
+      "required": false
+    },
+    {
+      "col": 30,
+      "code": "0cd8a315-2e1f-11ed-b908-0242ac150002",
+      "label": "realWeight",
+      "required": false
+    },
+    {
+      "col": 31,
+      "code": "0cd8a424-2e1f-11ed-b908-0242ac150002",
+      "label": "realWidth",
+      "required": false
+    },
+    {
+      "col": 32,
+      "code": "cbcfa3dc-2a22-11ed-88d3-0242ac150002",
+      "label": "Requiere Armado",
+      "required": false
+    },
+    {
+      "col": 33,
+      "code": "cbcfa467-2a22-11ed-88d3-0242ac150002",
+      "label": "RutProveedor",
+      "required": false
+    },
+    {
+      "col": 34,
+      "code": "cbc72551-2a22-11ed-88d3-0242ac150002",
+      "label": "Tamaño Lista PMGE",
+      "required": false
+    },
+    {
+      "col": 35,
+      "code": "dbf8bc48-6f22-11ed-9aab-0242ac150002",
+      "label": "TaxCode",
+      "required": false
+    },
+    {
+      "col": 36,
+      "code": "cbc72a6d-2a22-11ed-88d3-0242ac150002",
+      "label": "Temperatura Máxima",
+      "required": false
+    },
+    {
+      "col": 37,
+      "code": "1d508733-f8d5-11ed-89f8-0e7ffa6ca5b9",
+      "label": "Tipo de producto Hogar",
+      "required": false
+    },
+    {
+      "col": 38,
+      "code": "0cd89fea-2e1f-11ed-b908-0242ac150002",
+      "label": "weight",
+      "required": false
+    },
+    {
+      "col": 39,
+      "code": "0cd8a0a4-2e1f-11ed-b908-0242ac150002",
+      "label": "width",
+      "required": false
+    },
+    {
+      "col": 40,
+      "code": "image",
+      "label": "Imagenes (*)",
+      "required": true
+    },
+    {
+      "col": 41,
+      "code": "ean",
+      "label": "EAN",
+      "required": false
+    },
+    {
+      "col": 42,
+      "code": "skuSellerVariant",
+      "label": "Sku Seller Variant (*)",
+      "required": true
+    },
+    {
+      "col": 43,
+      "code": "705bb298-6558-425c-9a4c-3e1b65c73060",
+      "label": "Color (*)",
+      "required": true
+    },
+    {
+      "col": 44,
+      "code": "9ad5c9be-458a-11ed-95c4-125b1a007c7f",
+      "label": "ModalType",
+      "required": false
+    },
+    {
+      "col": 45,
+      "code": "07fa21d9-3b74-48d8-b811-1faa3117fba4",
+      "label": "Talla",
+      "required": false
+    },
+    {
+      "col": 46,
+      "code": "a9e9143a-50e7-44c5-8435-79c2f364ef56",
+      "label": "Aroma",
+      "required": false
+    },
+    {
+      "col": 47,
+      "code": "8dd17d35-2004-4725-b183-f83f0daa0472",
+      "label": "Capacidad",
+      "required": false
+    },
+    {
+      "col": 48,
+      "code": "97cecccb-1de2-4318-af1c-8f1a26b22609",
+      "label": "Contenido",
+      "required": false
+    },
+    {
+      "col": 49,
+      "code": "5b6bc286-23af-4cc4-8c7b-a77cf8915e0d",
+      "label": "Dimensiones",
+      "required": false
+    },
+    {
+      "col": 50,
+      "code": "c8e2baba-64c6-47a2-ad68-edc0a71ff299",
+      "label": "Patas o Ruedas",
+      "required": false
+    },
+    {
+      "col": 51,
+      "code": "85b06763-bd55-4380-b21c-54fc557b8b86",
+      "label": "Alto",
+      "required": false
+    },
+    {
+      "col": 52,
+      "code": "6aa07505-106e-4de3-97d8-1c57c895a471",
+      "label": "Ancho",
+      "required": false
+    },
+    {
+      "col": 53,
+      "code": "66c85eb2-57d2-49a2-b32f-cf586c48df32",
+      "label": "Bateria Duracion Horas",
+      "required": false
+    },
+    {
+      "col": 54,
+      "code": "5682e0f6-0c29-11ec-a00e-0242ac140002",
+      "label": "Descripción Larga/Emocional",
+      "required": false
+    },
+    {
+      "col": 55,
+      "code": "2e011155-cfdb-4201-855d-4639152d0a71",
+      "label": "Diámetro",
+      "required": false
+    },
+    {
+      "col": 56,
+      "code": "1de300fa-891c-41aa-999e-5bc0ff8dfcc4",
+      "label": "Espesor",
+      "required": false
+    },
+    {
+      "col": 57,
+      "code": "56882180-0c29-11ec-a00e-0242ac140002",
+      "label": "Información Adicional",
+      "required": false
+    },
+    {
+      "col": 58,
+      "code": "25119e18-f06e-44a6-8ed9-01da9844db22",
+      "label": "Largo",
+      "required": false
+    },
+    {
+      "col": 59,
+      "code": "5b6aef57-d2bf-4c60-9e2a-0f7248a80ba0",
+      "label": "Material",
+      "required": false
+    },
+    {
+      "col": 60,
+      "code": "8cbde3fc-1cbc-4891-9712-0df52aefcd12",
+      "label": "Tono",
+      "required": false
+    },
+    {
+      "col": 61,
+      "code": "a9c61bee-f4b7-4814-a221-ab98c23ac614",
+      "label": "Cantidad de cajones",
+      "required": false
+    },
+    {
+      "col": 62,
+      "code": "7abcd3f0-17e6-4c3e-b920-9caa0d0ee0c1",
+      "label": "Cantidad de Piezas",
+      "required": false
+    },
+    {
+      "col": 63,
+      "code": "b790a523-51ed-4408-a8bf-8663a4c461e3",
+      "label": "Panel",
+      "required": false
+    },
+    {
+      "col": 64,
+      "code": "cf450468-89ac-4afe-8b30-8d19ed4beeef",
+      "label": "Cantidad",
+      "required": false
+    },
+    {
+      "col": 65,
+      "code": "195a0014-fc5b-4e69-bce0-70c9da743628",
+      "label": "Origen",
+      "required": false
+    },
+    {
+      "col": 66,
+      "code": "5af2986e-19c3-4376-8d3b-874c2dd277ee",
+      "label": "Tipo de Luz",
+      "required": false
+    },
+    {
+      "col": 67,
+      "code": "962a27d4-9012-4b3f-974c-aad46aef8638",
+      "label": "Tiempo de entrega al Courier (en días hábiles)",
+      "required": false
+    },
+    {
+      "col": 68,
+      "code": "56022f87-6734-11f0-8258-12b398f7fa41",
+      "label": "Cantidad de Unidades en el Pack (PPUM)",
+      "required": false
+    },
+    {
+      "col": 69,
+      "code": "55f89760-6734-11f0-8258-12b398f7fa41",
+      "label": "Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 70,
+      "code": "5603166a-6734-11f0-8258-12b398f7fa41",
+      "label": "Factor de Normalización (PPUM)",
+      "required": false
+    },
+    {
+      "col": 71,
+      "code": "56020dc2-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 72,
+      "code": "56037226-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad de Conversión (PPUM)",
+      "required": false
+    }
+  ],
+  "cocina": [
+    {
+      "col": 1,
+      "code": "title",
+      "label": "Nombre del Producto",
+      "required": false
+    },
+    {
+      "col": 2,
+      "code": "skuSeller",
+      "label": "Sku Seller (*)",
+      "required": true
+    },
+    {
+      "col": 3,
+      "code": "refProduct",
+      "label": "Ref Product",
+      "required": false
+    },
+    {
+      "col": 4,
+      "code": "category",
+      "label": "Categoria (*)",
+      "required": true
+    },
+    {
+      "col": 5,
+      "code": "3393ec3c-e055-4e4a-9087-290b22035b07",
+      "label": "Género",
+      "required": false
+    },
+    {
+      "col": 6,
+      "code": "0f66ea85-7a01-44df-9f11-35ba000888e7",
+      "label": "Marca (*)",
+      "required": true
+    },
+    {
+      "col": 7,
+      "code": "71eee1e1-2c2b-11ec-b95d-0ec89c094745",
+      "label": "MEASUREMENT_UNIT",
+      "required": false
+    },
+    {
+      "col": 8,
+      "code": "8b74a633-2c35-11ec-b95d-0ec89c094745",
+      "label": "UNIT_MULTIPLIER",
+      "required": false
+    },
+    {
+      "col": 9,
+      "code": "cbc74292-2a22-11ed-88d3-0242ac150002",
+      "label": "Antiadherente",
+      "required": false
+    },
+    {
+      "col": 10,
+      "code": "cba38f15-2a22-11ed-88d3-0242ac150002",
+      "label": "Área de cocción",
+      "required": false
+    },
+    {
+      "col": 11,
+      "code": "cbc729e6-2a22-11ed-88d3-0242ac150002",
+      "label": "Características Sustentables",
+      "required": false
+    },
+    {
+      "col": 12,
+      "code": "cbd1e820-2a22-11ed-88d3-0242ac150002",
+      "label": "Color Bucket",
+      "required": false
+    },
+    {
+      "col": 13,
+      "code": "0cd89da0-2e1f-11ed-b908-0242ac150002",
+      "label": "cubicweight",
+      "required": false
+    },
+    {
+      "col": 14,
+      "code": "0d41699c-7a0a-4c96-9c8a-844d0803dd09",
+      "label": "Descripción corta",
+      "required": false
+    },
+    {
+      "col": 15,
+      "code": "cbcc5114-2a22-11ed-88d3-0242ac150002",
+      "label": "Descripción de Tecnología",
+      "required": false
+    },
+    {
+      "col": 16,
+      "code": "cbb7de19-2a22-11ed-88d3-0242ac150002",
+      "label": "Embalaje",
+      "required": false
+    },
+    {
+      "col": 17,
+      "code": "cbc74c5f-2a22-11ed-88d3-0242ac150002",
+      "label": "Flujo de Aire",
+      "required": false
+    },
+    {
+      "col": 18,
+      "code": "cbc73a88-2a22-11ed-88d3-0242ac150002",
+      "label": "Fuente de Alimentación",
+      "required": false
+    },
+    {
+      "col": 19,
+      "code": "e19172ba-f46a-4794-89d7-5154ef9f2dff",
+      "label": "Garantía",
+      "required": false
+    },
+    {
+      "col": 20,
+      "code": "cbd1e950-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Mínima Legal",
+      "required": false
+    },
+    {
+      "col": 21,
+      "code": "cbc7214c-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Proveedor",
+      "required": false
+    },
+    {
+      "col": 22,
+      "code": "cbc210da-2a22-11ed-88d3-0242ac150002",
+      "label": "Grill (Texto)",
+      "required": false
+    },
+    {
+      "col": 23,
+      "code": "0cd89e67-2e1f-11ed-b908-0242ac150002",
+      "label": "height",
+      "required": false
+    },
+    {
+      "col": 24,
+      "code": "a0757a45-150c-4815-a361-45a4b1cfbd29",
+      "label": "Incluye",
+      "required": false
+    },
+    {
+      "col": 25,
+      "code": "dc09e075-6f22-11ed-9aab-0242ac150002",
+      "label": "KeyWords",
+      "required": false
+    },
+    {
+      "col": 26,
+      "code": "0cd89f35-2e1f-11ed-b908-0242ac150002",
+      "label": "length",
+      "required": false
+    },
+    {
+      "col": 27,
+      "code": "cbcc48e2-2a22-11ed-88d3-0242ac150002",
+      "label": "Luz de Encendido",
+      "required": false
+    },
+    {
+      "col": 28,
+      "code": "cbc7264d-2a22-11ed-88d3-0242ac150002",
+      "label": "Manual de armado",
+      "required": false
+    },
+    {
+      "col": 29,
+      "code": "0cd89bd8-2e1f-11ed-b908-0242ac150002",
+      "label": "ManufacturerCode",
+      "required": false
+    },
+    {
+      "col": 30,
+      "code": "cbb7e1cb-2a22-11ed-88d3-0242ac150002",
+      "label": "Medidas empotrado",
+      "required": false
+    },
+    {
+      "col": 31,
+      "code": "64b08e1c-b131-400f-a0f9-d74998eab8ec",
+      "label": "Modelo",
+      "required": false
+    },
+    {
+      "col": 32,
+      "code": "cbc722cd-2a22-11ed-88d3-0242ac150002",
+      "label": "No incluye",
+      "required": false
+    },
+    {
+      "col": 33,
+      "code": "cbc7234f-2a22-11ed-88d3-0242ac150002",
+      "label": "Notas",
+      "required": false
+    },
+    {
+      "col": 34,
+      "code": "cbb7e24e-2a22-11ed-88d3-0242ac150002",
+      "label": "Peso",
+      "required": false
+    },
+    {
+      "col": 35,
+      "code": "9378b6e1-65c0-11ed-817b-0242ac150002",
+      "label": "Plazo Soporte Repuestos",
+      "required": false
+    },
+    {
+      "col": 36,
+      "code": "93759a49-65c0-11ed-817b-0242ac150002",
+      "label": "Plazo Soporte Técnico",
+      "required": false
+    },
+    {
+      "col": 37,
+      "code": "fddbe66d-d10f-4c18-b416-8cd21e911e6c",
+      "label": "productoLocal",
+      "required": false
+    },
+    {
+      "col": 38,
+      "code": "cbb7e358-2a22-11ed-88d3-0242ac150002",
+      "label": "Profundidad",
+      "required": false
+    },
+    {
+      "col": 39,
+      "code": "cbc21555-2a22-11ed-88d3-0242ac150002",
+      "label": "Quemador lateral",
+      "required": false
+    },
+    {
+      "col": 40,
+      "code": "0cd8a142-2e1f-11ed-b908-0242ac150002",
+      "label": "realCubicWeight",
+      "required": false
+    },
+    {
+      "col": 41,
+      "code": "0cd8a1df-2e1f-11ed-b908-0242ac150002",
+      "label": "realHeight",
+      "required": false
+    },
+    {
+      "col": 42,
+      "code": "0cd8a27d-2e1f-11ed-b908-0242ac150002",
+      "label": "realLength",
+      "required": false
+    },
+    {
+      "col": 43,
+      "code": "0cd8a315-2e1f-11ed-b908-0242ac150002",
+      "label": "realWeight",
+      "required": false
+    },
+    {
+      "col": 44,
+      "code": "0cd8a424-2e1f-11ed-b908-0242ac150002",
+      "label": "realWidth",
+      "required": false
+    },
+    {
+      "col": 45,
+      "code": "cbc723cb-2a22-11ed-88d3-0242ac150002",
+      "label": "Recomendaciones",
+      "required": false
+    },
+    {
+      "col": 46,
+      "code": "cbcfa467-2a22-11ed-88d3-0242ac150002",
+      "label": "RutProveedor",
+      "required": false
+    },
+    {
+      "col": 47,
+      "code": "cbc21854-2a22-11ed-88d3-0242ac150002",
+      "label": "Sistema de extracción",
+      "required": false
+    },
+    {
+      "col": 48,
+      "code": "cbc73072-2a22-11ed-88d3-0242ac150002",
+      "label": "Sistema de Limpieza",
+      "required": false
+    },
+    {
+      "col": 49,
+      "code": "cbc72551-2a22-11ed-88d3-0242ac150002",
+      "label": "Tamaño Lista PMGE",
+      "required": false
+    },
+    {
+      "col": 50,
+      "code": "94ebf8e5-2ad8-40c4-a1ac-3d2aa20fe438",
+      "label": "Tax Code",
+      "required": false
+    },
+    {
+      "col": 51,
+      "code": "dbf8bc48-6f22-11ed-9aab-0242ac150002",
+      "label": "TaxCode",
+      "required": false
+    },
+    {
+      "col": 52,
+      "code": "cbc72a6d-2a22-11ed-88d3-0242ac150002",
+      "label": "Temperatura Máxima",
+      "required": false
+    },
+    {
+      "col": 53,
+      "code": "cbc71e3d-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de combustible",
+      "required": false
+    },
+    {
+      "col": 54,
+      "code": "cbad9d1b-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de Encendido",
+      "required": false
+    },
+    {
+      "col": 55,
+      "code": "cbc71ebe-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de filtro",
+      "required": false
+    },
+    {
+      "col": 56,
+      "code": "cbb7d17d-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de Gas Lista",
+      "required": false
+    },
+    {
+      "col": 57,
+      "code": "cbb2b72a-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de Motor (Lista)",
+      "required": false
+    },
+    {
+      "col": 58,
+      "code": "1d5096a7-f8d5-11ed-89f8-0e7ffa6ca5b9",
+      "label": "Tipo de producto Cocina",
+      "required": false
+    },
+    {
+      "col": 59,
+      "code": "cbb7d643-2a22-11ed-88d3-0242ac150002",
+      "label": "Vida Útil del Producto",
+      "required": false
+    },
+    {
+      "col": 60,
+      "code": "0cd89fea-2e1f-11ed-b908-0242ac150002",
+      "label": "weight",
+      "required": false
+    },
+    {
+      "col": 61,
+      "code": "0cd8a0a4-2e1f-11ed-b908-0242ac150002",
+      "label": "width",
+      "required": false
+    },
+    {
+      "col": 62,
+      "code": "image",
+      "label": "Imagenes (*)",
+      "required": true
+    },
+    {
+      "col": 63,
+      "code": "ean",
+      "label": "EAN",
+      "required": false
+    },
+    {
+      "col": 64,
+      "code": "skuSellerVariant",
+      "label": "Sku Seller Variant (*)",
+      "required": true
+    },
+    {
+      "col": 65,
+      "code": "705bb298-6558-425c-9a4c-3e1b65c73060",
+      "label": "Color (*)",
+      "required": true
+    },
+    {
+      "col": 66,
+      "code": "9ad5c9be-458a-11ed-95c4-125b1a007c7f",
+      "label": "ModalType",
+      "required": false
+    },
+    {
+      "col": 67,
+      "code": "07fa21d9-3b74-48d8-b811-1faa3117fba4",
+      "label": "Talla (*)",
+      "required": true
+    },
+    {
+      "col": 68,
+      "code": "8dd17d35-2004-4725-b183-f83f0daa0472",
+      "label": "Capacidad",
+      "required": false
+    },
+    {
+      "col": 69,
+      "code": "b3d030a6-fed1-4db4-860b-4d3842e00096",
+      "label": "Capacidad (L)",
+      "required": false
+    },
+    {
+      "col": 70,
+      "code": "e275c6c9-f896-4239-abe8-584cae4e5556",
+      "label": "Consumo Eléctrico",
+      "required": false
+    },
+    {
+      "col": 71,
+      "code": "45da3d0f-04ae-4561-8390-985bc5a92419",
+      "label": "Cubierta",
+      "required": false
+    },
+    {
+      "col": 72,
+      "code": "085c01dc-a4e9-42a6-af8d-4829d2087d0f",
+      "label": "Datos Servicio Técnico",
+      "required": false
+    },
+    {
+      "col": 73,
+      "code": "5b6bc286-23af-4cc4-8c7b-a77cf8915e0d",
+      "label": "Dimensiones",
+      "required": false
+    },
+    {
+      "col": 74,
+      "code": "a69bdb02-b43d-4d3e-b6f6-c65e17111f95",
+      "label": "Función Destacada",
+      "required": false
+    },
+    {
+      "col": 75,
+      "code": "812c91fa-2525-4578-bd42-ecd13c941f3e",
+      "label": "Intensidad Campana",
+      "required": false
+    },
+    {
+      "col": 76,
+      "code": "3c59f4d3-4c54-4c6e-a0a1-d74352d5282e",
+      "label": "Niveles de Temperatura",
+      "required": false
+    },
+    {
+      "col": 77,
+      "code": "032cf137-b74d-4c5b-be9a-178de27d709f",
+      "label": "Potencia",
+      "required": false
+    },
+    {
+      "col": 78,
+      "code": "b61273f1-4e4b-11ee-8d24-1262d1ed9807",
+      "label": "Sistema de Protección o Seguridad",
+      "required": false
+    },
+    {
+      "col": 79,
+      "code": "85b06763-bd55-4380-b21c-54fc557b8b86",
+      "label": "Alto",
+      "required": false
+    },
+    {
+      "col": 80,
+      "code": "c538734e-0cbc-4e35-a2b5-9422453599ef",
+      "label": "Alto del producto (cm)",
+      "required": false
+    },
+    {
+      "col": 81,
+      "code": "6aa07505-106e-4de3-97d8-1c57c895a471",
+      "label": "Ancho",
+      "required": false
+    },
+    {
+      "col": 82,
+      "code": "e2adf7ca-eb6c-4292-b19a-5397ebec9102",
+      "label": "Ancho del producto (Escribir en cm, ej: 140 cm)",
+      "required": false
+    },
+    {
+      "col": 83,
+      "code": "5682e0f6-0c29-11ec-a00e-0242ac140002",
+      "label": "Descripción Larga/Emocional",
+      "required": false
+    },
+    {
+      "col": 84,
+      "code": "2e011155-cfdb-4201-855d-4639152d0a71",
+      "label": "Diámetro",
+      "required": false
+    },
+    {
+      "col": 85,
+      "code": "56882180-0c29-11ec-a00e-0242ac140002",
+      "label": "Información Adicional",
+      "required": false
+    },
+    {
+      "col": 86,
+      "code": "568924d5-0c29-11ec-a00e-0242ac140002",
+      "label": "Instrucciones de Uso",
+      "required": false
+    },
+    {
+      "col": 87,
+      "code": "25119e18-f06e-44a6-8ed9-01da9844db22",
+      "label": "Largo",
+      "required": false
+    },
+    {
+      "col": 88,
+      "code": "5b6aef57-d2bf-4c60-9e2a-0f7248a80ba0",
+      "label": "Material",
+      "required": false
+    },
+    {
+      "col": 89,
+      "code": "ce112608-569c-4e06-871c-4baf0c811fba",
+      "label": "Peso producto (g)",
+      "required": false
+    },
+    {
+      "col": 90,
+      "code": "f705d81c-21ef-4234-8ef8-aea7ecb90bb0",
+      "label": "Sello Código QR SEC",
+      "required": false
+    },
+    {
+      "col": 91,
+      "code": "ae9a6178-4dae-4193-994d-4716346c7607",
+      "label": "Sello Eficiencia Energética",
+      "required": false
+    },
+    {
+      "col": 92,
+      "code": "8cbde3fc-1cbc-4891-9712-0df52aefcd12",
+      "label": "Tono",
+      "required": false
+    },
+    {
+      "col": 93,
+      "code": "9813891e-b6ac-4af7-b3cf-fb581a801d6f",
+      "label": "Bandejas",
+      "required": false
+    },
+    {
+      "col": 94,
+      "code": "7abcd3f0-17e6-4c3e-b920-9caa0d0ee0c1",
+      "label": "Cantidad de Piezas",
+      "required": false
+    },
+    {
+      "col": 95,
+      "code": "e5f27232-d4d1-4bbd-891d-9ae245c86693",
+      "label": "Clase Eficiencia Energética",
+      "required": false
+    },
+    {
+      "col": 96,
+      "code": "8daea4c9-9156-40da-9b88-82e7cf451ec8",
+      "label": "Fuente de energía",
+      "required": false
+    },
+    {
+      "col": 97,
+      "code": "6ba123aa-e90b-4281-9704-130de4769b2d",
+      "label": "Grill",
+      "required": false
+    },
+    {
+      "col": 98,
+      "code": "d862b09a-98d8-43c5-a5fd-ced42cdc7fe8",
+      "label": "Número de Velocidades",
+      "required": false
+    },
+    {
+      "col": 99,
+      "code": "b790a523-51ed-4408-a8bf-8663a4c461e3",
+      "label": "Panel",
+      "required": false
+    },
+    {
+      "col": 100,
+      "code": "5857d6af-be21-42da-8df2-43bfe35de1a6",
+      "label": "Quemadores",
+      "required": false
+    },
+    {
+      "col": 101,
+      "code": "bc83eda0-0cc3-46c9-bead-90b85392a1f4",
+      "label": "Tipo de Encendido (*)",
+      "required": true
+    },
+    {
+      "col": 102,
+      "code": "a98729a1-0e5d-425c-aa06-40ea842815e4",
+      "label": "Tipo de Parrilla",
+      "required": false
+    },
+    {
+      "col": 103,
+      "code": "6fe70c1e-a0aa-4a3e-b3a5-d3c7675223b0",
+      "label": "Condición de Equipo",
+      "required": false
+    },
+    {
+      "col": 104,
+      "code": "195a0014-fc5b-4e69-bce0-70c9da743628",
+      "label": "Origen",
+      "required": false
+    },
+    {
+      "col": 105,
+      "code": "792d0eb2-8c11-4878-83ee-9864b5b4a775",
+      "label": "Producto Sustentable",
+      "required": false
+    },
+    {
+      "col": 106,
+      "code": "6b3eccfa-06d2-4676-aad3-2a91d2f9b815",
+      "label": "Alto del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 107,
+      "code": "4c72189a-8d02-48ee-b667-5bddf1c70418",
+      "label": "Ancho del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 108,
+      "code": "bdde5cb4-fa04-4b24-ba01-a7d9ce9e64c1",
+      "label": "Largo del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 109,
+      "code": "22274b1a-4bbe-4491-82dd-c5e266d60366",
+      "label": "Peso del paquete (g)",
+      "required": false
+    },
+    {
+      "col": 110,
+      "code": "962a27d4-9012-4b3f-974c-aad46aef8638",
+      "label": "Tiempo de entrega al Courier (en días hábiles)",
+      "required": false
+    },
+    {
+      "col": 111,
+      "code": "56022f87-6734-11f0-8258-12b398f7fa41",
+      "label": "Cantidad de Unidades en el Pack (PPUM)",
+      "required": false
+    },
+    {
+      "col": 112,
+      "code": "55f89760-6734-11f0-8258-12b398f7fa41",
+      "label": "Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 113,
+      "code": "5603166a-6734-11f0-8258-12b398f7fa41",
+      "label": "Factor de Normalización (PPUM)",
+      "required": false
+    },
+    {
+      "col": 114,
+      "code": "56020dc2-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 115,
+      "code": "56037226-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad de Conversión (PPUM)",
+      "required": false
+    }
+  ],
+  "herramientas": [
+    {
+      "col": 1,
+      "code": "title",
+      "label": "Nombre del Producto",
+      "required": false
+    },
+    {
+      "col": 2,
+      "code": "skuSeller",
+      "label": "Sku Seller (*)",
+      "required": true
+    },
+    {
+      "col": 3,
+      "code": "refProduct",
+      "label": "Ref Product",
+      "required": false
+    },
+    {
+      "col": 4,
+      "code": "category",
+      "label": "Categoria (*)",
+      "required": true
+    },
+    {
+      "col": 5,
+      "code": "3393ec3c-e055-4e4a-9087-290b22035b07",
+      "label": "Género",
+      "required": false
+    },
+    {
+      "col": 6,
+      "code": "0f66ea85-7a01-44df-9f11-35ba000888e7",
+      "label": "Marca (*)",
+      "required": true
+    },
+    {
+      "col": 7,
+      "code": "0d41699c-7a0a-4c96-9c8a-844d0803dd09",
+      "label": "Descripción corta",
+      "required": false
+    },
+    {
+      "col": 8,
+      "code": "e19172ba-f46a-4794-89d7-5154ef9f2dff",
+      "label": "Garantía",
+      "required": false
+    },
+    {
+      "col": 9,
+      "code": "a0757a45-150c-4815-a361-45a4b1cfbd29",
+      "label": "Incluye",
+      "required": false
+    },
+    {
+      "col": 10,
+      "code": "64b08e1c-b131-400f-a0f9-d74998eab8ec",
+      "label": "Modelo",
+      "required": false
+    },
+    {
+      "col": 11,
+      "code": "fddbe66d-d10f-4c18-b416-8cd21e911e6c",
+      "label": "productoLocal",
+      "required": false
+    },
+    {
+      "col": 12,
+      "code": "94ebf8e5-2ad8-40c4-a1ac-3d2aa20fe438",
+      "label": "Tax Code",
+      "required": false
+    },
+    {
+      "col": 13,
+      "code": "image",
+      "label": "Imagenes (*)",
+      "required": true
+    },
+    {
+      "col": 14,
+      "code": "ean",
+      "label": "EAN",
+      "required": false
+    },
+    {
+      "col": 15,
+      "code": "skuSellerVariant",
+      "label": "Sku Seller Variant (*)",
+      "required": true
+    },
+    {
+      "col": 16,
+      "code": "705bb298-6558-425c-9a4c-3e1b65c73060",
+      "label": "Color (*)",
+      "required": true
+    },
+    {
+      "col": 17,
+      "code": "07fa21d9-3b74-48d8-b811-1faa3117fba4",
+      "label": "Talla (*)",
+      "required": true
+    },
+    {
+      "col": 18,
+      "code": "01dd7db3-9b22-11ec-8d16-0a90013f57eb",
+      "label": "Borner (Automotriz)",
+      "required": false
+    },
+    {
+      "col": 19,
+      "code": "b3d030a6-fed1-4db4-860b-4d3842e00096",
+      "label": "Capacidad (L)",
+      "required": false
+    },
+    {
+      "col": 20,
+      "code": "98ef3512-0b68-43a6-ab4e-9233146bc9e6",
+      "label": "Cierre (mm)",
+      "required": false
+    },
+    {
+      "col": 21,
+      "code": "97cecccb-1de2-4318-af1c-8f1a26b22609",
+      "label": "Contenido",
+      "required": false
+    },
+    {
+      "col": 22,
+      "code": "085c01dc-a4e9-42a6-af8d-4829d2087d0f",
+      "label": "Datos Servicio Técnico",
+      "required": false
+    },
+    {
+      "col": 23,
+      "code": "41b20e06-4801-4492-9707-aa79af7bb64f",
+      "label": "Largo (metros)",
+      "required": false
+    },
+    {
+      "col": 24,
+      "code": "032cf137-b74d-4c5b-be9a-178de27d709f",
+      "label": "Potencia",
+      "required": false
+    },
+    {
+      "col": 25,
+      "code": "a068d4e2-8bb4-4f1c-8fa2-2fe0cb0949b7",
+      "label": "Rendimiento",
+      "required": false
+    },
+    {
+      "col": 26,
+      "code": "173064f4-f2a0-4b7a-8819-e16cfc7014a5",
+      "label": "Sistema de Seguridad Herramientas",
+      "required": false
+    },
+    {
+      "col": 27,
+      "code": "afbe1579-8ece-49f0-9a68-22b08484f4d1",
+      "label": "Tiempo de secado (horas)",
+      "required": false
+    },
+    {
+      "col": 28,
+      "code": "ad14c238-3d8d-4554-bb54-a20854a29515",
+      "label": "Tipo de Motor",
+      "required": false
+    },
+    {
+      "col": 29,
+      "code": "9682cc5d-5004-4f2d-9ba9-0d75d7c45f0d",
+      "label": "Voltaje",
+      "required": false
+    },
+    {
+      "col": 30,
+      "code": "c538734e-0cbc-4e35-a2b5-9422453599ef",
+      "label": "Alto del producto (cm)",
+      "required": false
+    },
+    {
+      "col": 31,
+      "code": "e2adf7ca-eb6c-4292-b19a-5397ebec9102",
+      "label": "Ancho del producto (Escribir en cm, ej: 140 cm)",
+      "required": false
+    },
+    {
+      "col": 32,
+      "code": "1186160f-6308-4523-a98a-62cf6cc7aa0e",
+      "label": "Características",
+      "required": false
+    },
+    {
+      "col": 33,
+      "code": "5682e0f6-0c29-11ec-a00e-0242ac140002",
+      "label": "Descripción Larga/Emocional",
+      "required": false
+    },
+    {
+      "col": 34,
+      "code": "25119e18-f06e-44a6-8ed9-01da9844db22",
+      "label": "Largo",
+      "required": false
+    },
+    {
+      "col": 35,
+      "code": "5b6aef57-d2bf-4c60-9e2a-0f7248a80ba0",
+      "label": "Material",
+      "required": false
+    },
+    {
+      "col": 36,
+      "code": "ce112608-569c-4e06-871c-4baf0c811fba",
+      "label": "Peso producto (g)",
+      "required": false
+    },
+    {
+      "col": 37,
+      "code": "f705d81c-21ef-4234-8ef8-aea7ecb90bb0",
+      "label": "Sello Código QR SEC",
+      "required": false
+    },
+    {
+      "col": 38,
+      "code": "ae9a6178-4dae-4193-994d-4716346c7607",
+      "label": "Sello Eficiencia Energética",
+      "required": false
+    },
+    {
+      "col": 39,
+      "code": "b0baaa9b-de16-4a3e-98ed-be140dc3cb93",
+      "label": "Aireador",
+      "required": false
+    },
+    {
+      "col": 40,
+      "code": "01dd0015-9b22-11ec-8d16-0a90013f57eb",
+      "label": "Amperaje (Automotriz)",
+      "required": false
+    },
+    {
+      "col": 41,
+      "code": "01dd8077-9b22-11ec-8d16-0a90013f57eb",
+      "label": "Ancho de Neumático (Automotriz)",
+      "required": false
+    },
+    {
+      "col": 42,
+      "code": "01dcfa22-9b22-11ec-8d16-0a90013f57eb",
+      "label": "Aro (Automotriz)",
+      "required": false
+    },
+    {
+      "col": 43,
+      "code": "e5f27232-d4d1-4bbd-891d-9ae245c86693",
+      "label": "Clase Eficiencia Energética",
+      "required": false
+    },
+    {
+      "col": 44,
+      "code": "e3ea8869-1e3e-11ed-bf2b-0a1ec9f7d167",
+      "label": "Modelo (Automotriz)",
+      "required": false
+    },
+    {
+      "col": 45,
+      "code": "d862b09a-98d8-43c5-a5fd-ced42cdc7fe8",
+      "label": "Número de Velocidades",
+      "required": false
+    },
+    {
+      "col": 46,
+      "code": "01dd821a-9b22-11ec-8d16-0a90013f57eb",
+      "label": "Perfil (Automotriz)",
+      "required": false
+    },
+    {
+      "col": 47,
+      "code": "2fb9d76e-9761-46e7-9e0a-30dae4842499",
+      "label": "Terminación",
+      "required": false
+    },
+    {
+      "col": 48,
+      "code": "01dd7f44-9b22-11ec-8d16-0a90013f57eb",
+      "label": "Tipo de Auto (Automotriz)",
+      "required": false
+    },
+    {
+      "col": 49,
+      "code": "6fe70c1e-a0aa-4a3e-b3a5-d3c7675223b0",
+      "label": "Condición de Equipo",
+      "required": false
+    },
+    {
+      "col": 50,
+      "code": "792d0eb2-8c11-4878-83ee-9864b5b4a775",
+      "label": "Producto Sustentable",
+      "required": false
+    },
+    {
+      "col": 51,
+      "code": "6b3eccfa-06d2-4676-aad3-2a91d2f9b815",
+      "label": "Alto del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 52,
+      "code": "4c72189a-8d02-48ee-b667-5bddf1c70418",
+      "label": "Ancho del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 53,
+      "code": "bdde5cb4-fa04-4b24-ba01-a7d9ce9e64c1",
+      "label": "Largo del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 54,
+      "code": "22274b1a-4bbe-4491-82dd-c5e266d60366",
+      "label": "Peso del paquete (g)",
+      "required": false
+    },
+    {
+      "col": 55,
+      "code": "962a27d4-9012-4b3f-974c-aad46aef8638",
+      "label": "Tiempo de entrega al Courier (en días hábiles)",
+      "required": false
+    },
+    {
+      "col": 56,
+      "code": "56022f87-6734-11f0-8258-12b398f7fa41",
+      "label": "Cantidad de Unidades en el Pack (PPUM)",
+      "required": false
+    },
+    {
+      "col": 57,
+      "code": "55f89760-6734-11f0-8258-12b398f7fa41",
+      "label": "Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 58,
+      "code": "5603166a-6734-11f0-8258-12b398f7fa41",
+      "label": "Factor de Normalización (PPUM)",
+      "required": false
+    },
+    {
+      "col": 59,
+      "code": "56020dc2-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 60,
+      "code": "56037226-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad de Conversión (PPUM)",
+      "required": false
+    }
+  ],
+  "decoracion": [
+    {
+      "col": 1,
+      "code": "title",
+      "label": "Nombre del Producto",
+      "required": false
+    },
+    {
+      "col": 2,
+      "code": "skuSeller",
+      "label": "Sku Seller (*)",
+      "required": true
+    },
+    {
+      "col": 3,
+      "code": "refProduct",
+      "label": "Ref Product",
+      "required": false
+    },
+    {
+      "col": 4,
+      "code": "category",
+      "label": "Categoria (*)",
+      "required": true
+    },
+    {
+      "col": 5,
+      "code": "3393ec3c-e055-4e4a-9087-290b22035b07",
+      "label": "Género",
+      "required": false
+    },
+    {
+      "col": 6,
+      "code": "0f66ea85-7a01-44df-9f11-35ba000888e7",
+      "label": "Marca (*)",
+      "required": true
+    },
+    {
+      "col": 7,
+      "code": "0d41699c-7a0a-4c96-9c8a-844d0803dd09",
+      "label": "Descripción corta",
+      "required": false
+    },
+    {
+      "col": 8,
+      "code": "e19172ba-f46a-4794-89d7-5154ef9f2dff",
+      "label": "Garantía",
+      "required": false
+    },
+    {
+      "col": 9,
+      "code": "64b08e1c-b131-400f-a0f9-d74998eab8ec",
+      "label": "Modelo",
+      "required": false
+    },
+    {
+      "col": 10,
+      "code": "fddbe66d-d10f-4c18-b416-8cd21e911e6c",
+      "label": "productoLocal",
+      "required": false
+    },
+    {
+      "col": 11,
+      "code": "94ebf8e5-2ad8-40c4-a1ac-3d2aa20fe438",
+      "label": "Tax Code",
+      "required": false
+    },
+    {
+      "col": 12,
+      "code": "image",
+      "label": "Imagenes (*)",
+      "required": true
+    },
+    {
+      "col": 13,
+      "code": "ean",
+      "label": "EAN",
+      "required": false
+    },
+    {
+      "col": 14,
+      "code": "skuSellerVariant",
+      "label": "Sku Seller Variant (*)",
+      "required": true
+    },
+    {
+      "col": 15,
+      "code": "705bb298-6558-425c-9a4c-3e1b65c73060",
+      "label": "Color (*)",
+      "required": true
+    },
+    {
+      "col": 16,
+      "code": "07fa21d9-3b74-48d8-b811-1faa3117fba4",
+      "label": "Talla (*)",
+      "required": true
+    },
+    {
+      "col": 17,
+      "code": "a9e9143a-50e7-44c5-8435-79c2f364ef56",
+      "label": "Aroma",
+      "required": false
+    },
+    {
+      "col": 18,
+      "code": "e3da029b-fccc-42f4-92fb-03cc7931a945",
+      "label": "Cantidad de Luces",
+      "required": false
+    },
+    {
+      "col": 19,
+      "code": "b3d030a6-fed1-4db4-860b-4d3842e00096",
+      "label": "Capacidad (L)",
+      "required": false
+    },
+    {
+      "col": 20,
+      "code": "97cecccb-1de2-4318-af1c-8f1a26b22609",
+      "label": "Contenido",
+      "required": false
+    },
+    {
+      "col": 21,
+      "code": "2aa41d58-0dd4-47b2-868c-0f6e89496bb3",
+      "label": "Diámetro del producto (cm)",
+      "required": false
+    },
+    {
+      "col": 22,
+      "code": "8d2e8298-088f-447b-b638-a355319eda7a",
+      "label": "Diseño",
+      "required": false
+    },
+    {
+      "col": 23,
+      "code": "93b0e2f5-4e33-44f3-a545-ee292eebdf73",
+      "label": "Material Mueble",
+      "required": false
+    },
+    {
+      "col": 24,
+      "code": "032cf137-b74d-4c5b-be9a-178de27d709f",
+      "label": "Potencia",
+      "required": false
+    },
+    {
+      "col": 25,
+      "code": "c913c812-ab87-4b7e-bcdd-e9ab2dbb5257",
+      "label": "Tipo de Luz Decoración",
+      "required": false
+    },
+    {
+      "col": 26,
+      "code": "9682cc5d-5004-4f2d-9ba9-0d75d7c45f0d",
+      "label": "Voltaje",
+      "required": false
+    },
+    {
+      "col": 27,
+      "code": "c538734e-0cbc-4e35-a2b5-9422453599ef",
+      "label": "Alto del producto (cm)",
+      "required": false
+    },
+    {
+      "col": 28,
+      "code": "e2adf7ca-eb6c-4292-b19a-5397ebec9102",
+      "label": "Ancho del producto (Escribir en cm, ej: 140 cm)",
+      "required": false
+    },
+    {
+      "col": 29,
+      "code": "5682e0f6-0c29-11ec-a00e-0242ac140002",
+      "label": "Descripción Larga/Emocional",
+      "required": false
+    },
+    {
+      "col": 30,
+      "code": "25119e18-f06e-44a6-8ed9-01da9844db22",
+      "label": "Largo",
+      "required": false
+    },
+    {
+      "col": 31,
+      "code": "5b6aef57-d2bf-4c60-9e2a-0f7248a80ba0",
+      "label": "Material",
+      "required": false
+    },
+    {
+      "col": 32,
+      "code": "ce112608-569c-4e06-871c-4baf0c811fba",
+      "label": "Peso producto (g)",
+      "required": false
+    },
+    {
+      "col": 33,
+      "code": "f705d81c-21ef-4234-8ef8-aea7ecb90bb0",
+      "label": "Sello Código QR SEC",
+      "required": false
+    },
+    {
+      "col": 34,
+      "code": "ae9a6178-4dae-4193-994d-4716346c7607",
+      "label": "Sello Eficiencia Energética",
+      "required": false
+    },
+    {
+      "col": 35,
+      "code": "a9c61bee-f4b7-4814-a221-ab98c23ac614",
+      "label": "Cantidad de cajones",
+      "required": false
+    },
+    {
+      "col": 36,
+      "code": "7abcd3f0-17e6-4c3e-b920-9caa0d0ee0c1",
+      "label": "Cantidad de Piezas",
+      "required": false
+    },
+    {
+      "col": 37,
+      "code": "db30211e-f2a6-4bfc-b895-45863e2fa4d5",
+      "label": "Características Sostenibles",
+      "required": false
+    },
+    {
+      "col": 38,
+      "code": "45f19347-200f-49c1-8c1d-9aa40b0211a0",
+      "label": "Número de Piezas",
+      "required": false
+    },
+    {
+      "col": 39,
+      "code": "887ed032-9762-40c4-9366-ac5338bfeae0",
+      "label": "Plazas",
+      "required": false
+    },
+    {
+      "col": 40,
+      "code": "4d5a0523-b3f2-4026-9c71-8ee32f66f62d",
+      "label": "Producto Sostenible",
+      "required": false
+    },
+    {
+      "col": 41,
+      "code": "44574dbb-5ca7-11ee-99bf-0a82757268fb",
+      "label": "Protección IP",
+      "required": false
+    },
+    {
+      "col": 42,
+      "code": "5857d6af-be21-42da-8df2-43bfe35de1a6",
+      "label": "Quemadores",
+      "required": false
+    },
+    {
+      "col": 43,
+      "code": "6fe70c1e-a0aa-4a3e-b3a5-d3c7675223b0",
+      "label": "Condición de Equipo",
+      "required": false
+    },
+    {
+      "col": 44,
+      "code": "792d0eb2-8c11-4878-83ee-9864b5b4a775",
+      "label": "Producto Sustentable",
+      "required": false
+    },
+    {
+      "col": 45,
+      "code": "6b3eccfa-06d2-4676-aad3-2a91d2f9b815",
+      "label": "Alto del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 46,
+      "code": "4c72189a-8d02-48ee-b667-5bddf1c70418",
+      "label": "Ancho del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 47,
+      "code": "bdde5cb4-fa04-4b24-ba01-a7d9ce9e64c1",
+      "label": "Largo del paquete (cm)",
+      "required": false
+    },
+    {
+      "col": 48,
+      "code": "22274b1a-4bbe-4491-82dd-c5e266d60366",
+      "label": "Peso del paquete (g)",
+      "required": false
+    },
+    {
+      "col": 49,
+      "code": "962a27d4-9012-4b3f-974c-aad46aef8638",
+      "label": "Tiempo de entrega al Courier (en días hábiles)",
+      "required": false
+    },
+    {
+      "col": 50,
+      "code": "56022f87-6734-11f0-8258-12b398f7fa41",
+      "label": "Cantidad de Unidades en el Pack (PPUM)",
+      "required": false
+    },
+    {
+      "col": 51,
+      "code": "55f89760-6734-11f0-8258-12b398f7fa41",
+      "label": "Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 52,
+      "code": "5603166a-6734-11f0-8258-12b398f7fa41",
+      "label": "Factor de Normalización (PPUM)",
+      "required": false
+    },
+    {
+      "col": 53,
+      "code": "56020dc2-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 54,
+      "code": "56037226-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad de Conversión (PPUM)",
+      "required": false
+    }
+  ],
+  "hogarDecoracion": [
+    {
+      "col": 1,
+      "code": "title",
+      "label": "Nombre del Producto",
+      "required": false
+    },
+    {
+      "col": 2,
+      "code": "skuSeller",
+      "label": "Sku Seller (*)",
+      "required": true
+    },
+    {
+      "col": 3,
+      "code": "refProduct",
+      "label": "Ref Product",
+      "required": false
+    },
+    {
+      "col": 4,
+      "code": "category",
+      "label": "Categoria (*)",
+      "required": true
+    },
+    {
+      "col": 5,
+      "code": "0f66ea85-7a01-44df-9f11-35ba000888e7",
+      "label": "Marca (*)",
+      "required": true
+    },
+    {
+      "col": 6,
+      "code": "71eee1e1-2c2b-11ec-b95d-0ec89c094745",
+      "label": "MEASUREMENT_UNIT",
+      "required": false
+    },
+    {
+      "col": 7,
+      "code": "8b74a633-2c35-11ec-b95d-0ec89c094745",
+      "label": "UNIT_MULTIPLIER",
+      "required": false
+    },
+    {
+      "col": 8,
+      "code": "d8ae934d-2c35-11ec-b95d-0ec89c094745",
+      "label": "CONTENT_UNIT",
+      "required": false
+    },
+    {
+      "col": 9,
+      "code": "fbbc4138-2c35-11ec-b95d-0ec89c094745",
+      "label": "UNIT_MULTIPLIER_UN",
+      "required": false
+    },
+    {
+      "col": 10,
+      "code": "cba38e91-2a22-11ed-88d3-0242ac150002",
+      "label": "Antideslizante",
+      "required": false
+    },
+    {
+      "col": 11,
+      "code": "cbc729e6-2a22-11ed-88d3-0242ac150002",
+      "label": "Características Sustentables",
+      "required": false
+    },
+    {
+      "col": 12,
+      "code": "cbd1e820-2a22-11ed-88d3-0242ac150002",
+      "label": "Color Bucket",
+      "required": false
+    },
+    {
+      "col": 13,
+      "code": "0cd89da0-2e1f-11ed-b908-0242ac150002",
+      "label": "cubicweight",
+      "required": false
+    },
+    {
+      "col": 14,
+      "code": "0d41699c-7a0a-4c96-9c8a-844d0803dd09",
+      "label": "Descripción corta",
+      "required": false
+    },
+    {
+      "col": 15,
+      "code": "cbb7de19-2a22-11ed-88d3-0242ac150002",
+      "label": "Embalaje",
+      "required": false
+    },
+    {
+      "col": 16,
+      "code": "cbd1e779-2a22-11ed-88d3-0242ac150002",
+      "label": "Energía Solar",
+      "required": false
+    },
+    {
+      "col": 17,
+      "code": "cbad9e4d-2a22-11ed-88d3-0242ac150002",
+      "label": "Espacio Recomendado",
+      "required": false
+    },
+    {
+      "col": 18,
+      "code": "cbc20ee3-2a22-11ed-88d3-0242ac150002",
+      "label": "Flujo luminoso",
+      "required": false
+    },
+    {
+      "col": 19,
+      "code": "cbc21c6c-2a22-11ed-88d3-0242ac150002",
+      "label": "Forma",
+      "required": false
+    },
+    {
+      "col": 20,
+      "code": "cbd1e950-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Mínima Legal",
+      "required": false
+    },
+    {
+      "col": 21,
+      "code": "cbc7214c-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Proveedor",
+      "required": false
+    },
+    {
+      "col": 22,
+      "code": "cbb7df25-2a22-11ed-88d3-0242ac150002",
+      "label": "Gramaje",
+      "required": false
+    },
+    {
+      "col": 23,
+      "code": "0cd89e67-2e1f-11ed-b908-0242ac150002",
+      "label": "height",
+      "required": false
+    },
+    {
+      "col": 24,
+      "code": "a0757a45-150c-4815-a361-45a4b1cfbd29",
+      "label": "Incluye",
+      "required": false
+    },
+    {
+      "col": 25,
+      "code": "dc09e075-6f22-11ed-9aab-0242ac150002",
+      "label": "KeyWords",
+      "required": false
+    },
+    {
+      "col": 26,
+      "code": "cbc211d4-2a22-11ed-88d3-0242ac150002",
+      "label": "LED",
+      "required": false
+    },
+    {
+      "col": 27,
+      "code": "0cd89f35-2e1f-11ed-b908-0242ac150002",
+      "label": "length",
+      "required": false
+    },
+    {
+      "col": 28,
+      "code": "cbc7264d-2a22-11ed-88d3-0242ac150002",
+      "label": "Manual de armado",
+      "required": false
+    },
+    {
+      "col": 29,
+      "code": "0cd89bd8-2e1f-11ed-b908-0242ac150002",
+      "label": "ManufacturerCode",
+      "required": false
+    },
+    {
+      "col": 30,
+      "code": "64b08e1c-b131-400f-a0f9-d74998eab8ec",
+      "label": "Modelo",
+      "required": false
+    },
+    {
+      "col": 31,
+      "code": "cbc7234f-2a22-11ed-88d3-0242ac150002",
+      "label": "Notas",
+      "required": false
+    },
+    {
+      "col": 32,
+      "code": "cbb7e24e-2a22-11ed-88d3-0242ac150002",
+      "label": "Peso",
+      "required": false
+    },
+    {
+      "col": 33,
+      "code": "cbcc47e3-2a22-11ed-88d3-0242ac150002",
+      "label": "Peso Soportado",
+      "required": false
+    },
+    {
+      "col": 34,
+      "code": "cbb7e358-2a22-11ed-88d3-0242ac150002",
+      "label": "Profundidad",
+      "required": false
+    },
+    {
+      "col": 35,
+      "code": "0cd8a142-2e1f-11ed-b908-0242ac150002",
+      "label": "realCubicWeight",
+      "required": false
+    },
+    {
+      "col": 36,
+      "code": "0cd8a1df-2e1f-11ed-b908-0242ac150002",
+      "label": "realHeight",
+      "required": false
+    },
+    {
+      "col": 37,
+      "code": "0cd8a27d-2e1f-11ed-b908-0242ac150002",
+      "label": "realLength",
+      "required": false
+    },
+    {
+      "col": 38,
+      "code": "0cd8a315-2e1f-11ed-b908-0242ac150002",
+      "label": "realWeight",
+      "required": false
+    },
+    {
+      "col": 39,
+      "code": "0cd8a424-2e1f-11ed-b908-0242ac150002",
+      "label": "realWidth",
+      "required": false
+    },
+    {
+      "col": 40,
+      "code": "cbc723cb-2a22-11ed-88d3-0242ac150002",
+      "label": "Recomendaciones",
+      "required": false
+    },
+    {
+      "col": 41,
+      "code": "cbcfa467-2a22-11ed-88d3-0242ac150002",
+      "label": "RutProveedor",
+      "required": false
+    },
+    {
+      "col": 42,
+      "code": "cbc72551-2a22-11ed-88d3-0242ac150002",
+      "label": "Tamaño Lista PMGE",
+      "required": false
+    },
+    {
+      "col": 43,
+      "code": "dbf8bc48-6f22-11ed-9aab-0242ac150002",
+      "label": "TaxCode",
+      "required": false
+    },
+    {
+      "col": 44,
+      "code": "cbc73986-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de Corriente",
+      "required": false
+    },
+    {
+      "col": 45,
+      "code": "1d508733-f8d5-11ed-89f8-0e7ffa6ca5b9",
+      "label": "Tipo de producto Hogar",
+      "required": false
+    },
+    {
+      "col": 46,
+      "code": "cbc733f1-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de Soquete",
+      "required": false
+    },
+    {
+      "col": 47,
+      "code": "cbb7d643-2a22-11ed-88d3-0242ac150002",
+      "label": "Vida Útil del Producto",
+      "required": false
+    },
+    {
+      "col": 48,
+      "code": "0cd89fea-2e1f-11ed-b908-0242ac150002",
+      "label": "weight",
+      "required": false
+    },
+    {
+      "col": 49,
+      "code": "0cd8a0a4-2e1f-11ed-b908-0242ac150002",
+      "label": "width",
+      "required": false
+    },
+    {
+      "col": 50,
+      "code": "image",
+      "label": "Imagenes (*)",
+      "required": true
+    },
+    {
+      "col": 51,
+      "code": "ean",
+      "label": "EAN",
+      "required": false
+    },
+    {
+      "col": 52,
+      "code": "skuSellerVariant",
+      "label": "Sku Seller Variant (*)",
+      "required": true
+    },
+    {
+      "col": 53,
+      "code": "705bb298-6558-425c-9a4c-3e1b65c73060",
+      "label": "Color (*)",
+      "required": true
+    },
+    {
+      "col": 54,
+      "code": "9ad5c9be-458a-11ed-95c4-125b1a007c7f",
+      "label": "ModalType",
+      "required": false
+    },
+    {
+      "col": 55,
+      "code": "07fa21d9-3b74-48d8-b811-1faa3117fba4",
+      "label": "Talla",
+      "required": false
+    },
+    {
+      "col": 56,
+      "code": "a9e9143a-50e7-44c5-8435-79c2f364ef56",
+      "label": "Aroma",
+      "required": false
+    },
+    {
+      "col": 57,
+      "code": "e3da029b-fccc-42f4-92fb-03cc7931a945",
+      "label": "Cantidad de Luces",
+      "required": false
+    },
+    {
+      "col": 58,
+      "code": "8dd17d35-2004-4725-b183-f83f0daa0472",
+      "label": "Capacidad",
+      "required": false
+    },
+    {
+      "col": 59,
+      "code": "838e509b-ef8e-47bf-84c8-702619d24059",
+      "label": "Composición Material",
+      "required": false
+    },
+    {
+      "col": 60,
+      "code": "97cecccb-1de2-4318-af1c-8f1a26b22609",
+      "label": "Contenido",
+      "required": false
+    },
+    {
+      "col": 61,
+      "code": "5b6bc286-23af-4cc4-8c7b-a77cf8915e0d",
+      "label": "Dimensiones",
+      "required": false
+    },
+    {
+      "col": 62,
+      "code": "8d2e8298-088f-447b-b638-a355319eda7a",
+      "label": "Diseño",
+      "required": false
+    },
+    {
+      "col": 63,
+      "code": "99b2c14b-b834-4f2e-b131-7b98888413d6",
+      "label": "Relleno",
+      "required": false
+    },
+    {
+      "col": 64,
+      "code": "85b06763-bd55-4380-b21c-54fc557b8b86",
+      "label": "Alto",
+      "required": false
+    },
+    {
+      "col": 65,
+      "code": "6aa07505-106e-4de3-97d8-1c57c895a471",
+      "label": "Ancho",
+      "required": false
+    },
+    {
+      "col": 66,
+      "code": "66c85eb2-57d2-49a2-b32f-cf586c48df32",
+      "label": "Bateria Duracion Horas",
+      "required": false
+    },
+    {
+      "col": 67,
+      "code": "5682e0f6-0c29-11ec-a00e-0242ac140002",
+      "label": "Descripción Larga/Emocional",
+      "required": false
+    },
+    {
+      "col": 68,
+      "code": "2e011155-cfdb-4201-855d-4639152d0a71",
+      "label": "Diámetro",
+      "required": false
+    },
+    {
+      "col": 69,
+      "code": "1de300fa-891c-41aa-999e-5bc0ff8dfcc4",
+      "label": "Espesor",
+      "required": false
+    },
+    {
+      "col": 70,
+      "code": "56882180-0c29-11ec-a00e-0242ac140002",
+      "label": "Información Adicional",
+      "required": false
+    },
+    {
+      "col": 71,
+      "code": "568924d5-0c29-11ec-a00e-0242ac140002",
+      "label": "Instrucciones de Uso",
+      "required": false
+    },
+    {
+      "col": 72,
+      "code": "25119e18-f06e-44a6-8ed9-01da9844db22",
+      "label": "Largo",
+      "required": false
+    },
+    {
+      "col": 73,
+      "code": "5b6aef57-d2bf-4c60-9e2a-0f7248a80ba0",
+      "label": "Material",
+      "required": false
+    },
+    {
+      "col": 74,
+      "code": "f705d81c-21ef-4234-8ef8-aea7ecb90bb0",
+      "label": "Sello Código QR SEC",
+      "required": false
+    },
+    {
+      "col": 75,
+      "code": "ae9a6178-4dae-4193-994d-4716346c7607",
+      "label": "Sello Eficiencia Energética",
+      "required": false
+    },
+    {
+      "col": 76,
+      "code": "8cbde3fc-1cbc-4891-9712-0df52aefcd12",
+      "label": "Tono",
+      "required": false
+    },
+    {
+      "col": 77,
+      "code": "7abcd3f0-17e6-4c3e-b920-9caa0d0ee0c1",
+      "label": "Cantidad de Piezas",
+      "required": false
+    },
+    {
+      "col": 78,
+      "code": "5cbbc91c-08ba-446b-ac04-993d4cfe5603",
+      "label": "Densidad",
+      "required": false
+    },
+    {
+      "col": 79,
+      "code": "3fcaaccc-3904-464a-83d1-a029667104ba",
+      "label": "Estilo Alfombra",
+      "required": false
+    },
+    {
+      "col": 80,
+      "code": "b790a523-51ed-4408-a8bf-8663a4c461e3",
+      "label": "Panel",
+      "required": false
+    },
+    {
+      "col": 81,
+      "code": "44574dbb-5ca7-11ee-99bf-0a82757268fb",
+      "label": "Protección IP",
+      "required": false
+    },
+    {
+      "col": 82,
+      "code": "cf450468-89ac-4afe-8b30-8d19ed4beeef",
+      "label": "Cantidad",
+      "required": false
+    },
+    {
+      "col": 83,
+      "code": "195a0014-fc5b-4e69-bce0-70c9da743628",
+      "label": "Origen",
+      "required": false
+    },
+    {
+      "col": 84,
+      "code": "f2223688-202a-11ee-9cc7-125b472e0465",
+      "label": "Smart",
+      "required": false
+    },
+    {
+      "col": 85,
+      "code": "5af2986e-19c3-4376-8d3b-874c2dd277ee",
+      "label": "Tipo de Luz",
+      "required": false
+    },
+    {
+      "col": 86,
+      "code": "c3638fb6-8729-4da7-a282-180f2c071202",
+      "label": "Uso",
+      "required": false
+    },
+    {
+      "col": 87,
+      "code": "962a27d4-9012-4b3f-974c-aad46aef8638",
+      "label": "Tiempo de entrega al Courier (en días hábiles)",
+      "required": false
+    },
+    {
+      "col": 88,
+      "code": "56022f87-6734-11f0-8258-12b398f7fa41",
+      "label": "Cantidad de Unidades en el Pack (PPUM)",
+      "required": false
+    },
+    {
+      "col": 89,
+      "code": "55f89760-6734-11f0-8258-12b398f7fa41",
+      "label": "Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 90,
+      "code": "5603166a-6734-11f0-8258-12b398f7fa41",
+      "label": "Factor de Normalización (PPUM)",
+      "required": false
+    },
+    {
+      "col": 91,
+      "code": "56020dc2-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 92,
+      "code": "56037226-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad de Conversión (PPUM)",
+      "required": false
+    }
+  ],
+  "gasfiteria": [
+    {
+      "col": 1,
+      "code": "title",
+      "label": "Nombre del Producto",
+      "required": false
+    },
+    {
+      "col": 2,
+      "code": "skuSeller",
+      "label": "Sku Seller (*)",
+      "required": true
+    },
+    {
+      "col": 3,
+      "code": "refProduct",
+      "label": "Ref Product",
+      "required": false
+    },
+    {
+      "col": 4,
+      "code": "category",
+      "label": "Categoria (*)",
+      "required": true
+    },
+    {
+      "col": 5,
+      "code": "0f66ea85-7a01-44df-9f11-35ba000888e7",
+      "label": "Marca (*)",
+      "required": true
+    },
+    {
+      "col": 6,
+      "code": "71eee1e1-2c2b-11ec-b95d-0ec89c094745",
+      "label": "MEASUREMENT_UNIT",
+      "required": false
+    },
+    {
+      "col": 7,
+      "code": "8b74a633-2c35-11ec-b95d-0ec89c094745",
+      "label": "UNIT_MULTIPLIER",
+      "required": false
+    },
+    {
+      "col": 8,
+      "code": "cbc740a1-2a22-11ed-88d3-0242ac150002",
+      "label": "Ahorro de Agua",
+      "required": false
+    },
+    {
+      "col": 9,
+      "code": "cba38e08-2a22-11ed-88d3-0242ac150002",
+      "label": "Altura Máxima",
+      "required": false
+    },
+    {
+      "col": 10,
+      "code": "cba38e35-2a22-11ed-88d3-0242ac150002",
+      "label": "Amperaje",
+      "required": false
+    },
+    {
+      "col": 11,
+      "code": "cbc729e6-2a22-11ed-88d3-0242ac150002",
+      "label": "Características Sustentables",
+      "required": false
+    },
+    {
+      "col": 12,
+      "code": "cbcc4963-2a22-11ed-88d3-0242ac150002",
+      "label": "Cartucho cerámico",
+      "required": false
+    },
+    {
+      "col": 13,
+      "code": "cba3965f-2a22-11ed-88d3-0242ac150002",
+      "label": "Caudal",
+      "required": false
+    },
+    {
+      "col": 14,
+      "code": "cbd1e820-2a22-11ed-88d3-0242ac150002",
+      "label": "Color Bucket",
+      "required": false
+    },
+    {
+      "col": 15,
+      "code": "0cd89da0-2e1f-11ed-b908-0242ac150002",
+      "label": "cubicweight",
+      "required": false
+    },
+    {
+      "col": 16,
+      "code": "cbcc508d-2a22-11ed-88d3-0242ac150002",
+      "label": "Desagüe",
+      "required": false
+    },
+    {
+      "col": 17,
+      "code": "0d41699c-7a0a-4c96-9c8a-844d0803dd09",
+      "label": "Descripción corta",
+      "required": false
+    },
+    {
+      "col": 18,
+      "code": "cbcc519c-2a22-11ed-88d3-0242ac150002",
+      "label": "Diámetro de Entrada",
+      "required": false
+    },
+    {
+      "col": 19,
+      "code": "cbcf9aed-2a22-11ed-88d3-0242ac150002",
+      "label": "Diámetro de Salida",
+      "required": false
+    },
+    {
+      "col": 20,
+      "code": "cbcf9cde-2a22-11ed-88d3-0242ac150002",
+      "label": "Diámetro Exterior",
+      "required": false
+    },
+    {
+      "col": 21,
+      "code": "cbcf9d9e-2a22-11ed-88d3-0242ac150002",
+      "label": "Diámetro Interior",
+      "required": false
+    },
+    {
+      "col": 22,
+      "code": "cbb7de19-2a22-11ed-88d3-0242ac150002",
+      "label": "Embalaje",
+      "required": false
+    },
+    {
+      "col": 23,
+      "code": "cbc74bde-2a22-11ed-88d3-0242ac150002",
+      "label": "Flujo de Agua",
+      "required": false
+    },
+    {
+      "col": 24,
+      "code": "cbd1e950-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Mínima Legal",
+      "required": false
+    },
+    {
+      "col": 25,
+      "code": "cbc7214c-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Proveedor",
+      "required": false
+    },
+    {
+      "col": 26,
+      "code": "0cd89e67-2e1f-11ed-b908-0242ac150002",
+      "label": "height",
+      "required": false
+    },
+    {
+      "col": 27,
+      "code": "a0757a45-150c-4815-a361-45a4b1cfbd29",
+      "label": "Incluye",
+      "required": false
+    },
+    {
+      "col": 28,
+      "code": "dc09e075-6f22-11ed-9aab-0242ac150002",
+      "label": "KeyWords",
+      "required": false
+    },
+    {
+      "col": 29,
+      "code": "0cd89f35-2e1f-11ed-b908-0242ac150002",
+      "label": "length",
+      "required": false
+    },
+    {
+      "col": 30,
+      "code": "0cd89bd8-2e1f-11ed-b908-0242ac150002",
+      "label": "ManufacturerCode",
+      "required": false
+    },
+    {
+      "col": 31,
+      "code": "64b08e1c-b131-400f-a0f9-d74998eab8ec",
+      "label": "Modelo",
+      "required": false
+    },
+    {
+      "col": 32,
+      "code": "cbc7234f-2a22-11ed-88d3-0242ac150002",
+      "label": "Notas",
+      "required": false
+    },
+    {
+      "col": 33,
+      "code": "cbb7e24e-2a22-11ed-88d3-0242ac150002",
+      "label": "Peso",
+      "required": false
+    },
+    {
+      "col": 34,
+      "code": "cbcc46df-2a22-11ed-88d3-0242ac150002",
+      "label": "Peso Bruto",
+      "required": false
+    },
+    {
+      "col": 35,
+      "code": "9378b6e1-65c0-11ed-817b-0242ac150002",
+      "label": "Plazo Soporte Repuestos",
+      "required": false
+    },
+    {
+      "col": 36,
+      "code": "93759a49-65c0-11ed-817b-0242ac150002",
+      "label": "Plazo Soporte Técnico",
+      "required": false
+    },
+    {
+      "col": 37,
+      "code": "cbb2bd6c-2a22-11ed-88d3-0242ac150002",
+      "label": "Presión de Trabajo",
+      "required": false
+    },
+    {
+      "col": 38,
+      "code": "cbb7e358-2a22-11ed-88d3-0242ac150002",
+      "label": "Profundidad",
+      "required": false
+    },
+    {
+      "col": 39,
+      "code": "0cd8a142-2e1f-11ed-b908-0242ac150002",
+      "label": "realCubicWeight",
+      "required": false
+    },
+    {
+      "col": 40,
+      "code": "0cd8a1df-2e1f-11ed-b908-0242ac150002",
+      "label": "realHeight",
+      "required": false
+    },
+    {
+      "col": 41,
+      "code": "0cd8a27d-2e1f-11ed-b908-0242ac150002",
+      "label": "realLength",
+      "required": false
+    },
+    {
+      "col": 42,
+      "code": "0cd8a315-2e1f-11ed-b908-0242ac150002",
+      "label": "realWeight",
+      "required": false
+    },
+    {
+      "col": 43,
+      "code": "0cd8a424-2e1f-11ed-b908-0242ac150002",
+      "label": "realWidth",
+      "required": false
+    },
+    {
+      "col": 44,
+      "code": "cbc723cb-2a22-11ed-88d3-0242ac150002",
+      "label": "Recomendaciones",
+      "required": false
+    },
+    {
+      "col": 45,
+      "code": "cbcfa467-2a22-11ed-88d3-0242ac150002",
+      "label": "RutProveedor",
+      "required": false
+    },
+    {
+      "col": 46,
+      "code": "cbc72551-2a22-11ed-88d3-0242ac150002",
+      "label": "Tamaño Lista PMGE",
+      "required": false
+    },
+    {
+      "col": 47,
+      "code": "dbf8bc48-6f22-11ed-9aab-0242ac150002",
+      "label": "TaxCode",
+      "required": false
+    },
+    {
+      "col": 48,
+      "code": "cbc72a6d-2a22-11ed-88d3-0242ac150002",
+      "label": "Temperatura Máxima",
+      "required": false
+    },
+    {
+      "col": 49,
+      "code": "cbc73704-2a22-11ed-88d3-0242ac150002",
+      "label": "Terminal",
+      "required": false
+    },
+    {
+      "col": 50,
+      "code": "cbc71e3d-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de combustible",
+      "required": false
+    },
+    {
+      "col": 51,
+      "code": "cbc71ebe-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de filtro",
+      "required": false
+    },
+    {
+      "col": 52,
+      "code": "cbb2b72a-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de Motor (Lista)",
+      "required": false
+    },
+    {
+      "col": 53,
+      "code": "1d509e76-f8d5-11ed-89f8-0e7ffa6ca5b9",
+      "label": "Tipo de producto Baño y Plomería",
+      "required": false
+    },
+    {
+      "col": 54,
+      "code": "cbb7d52f-2a22-11ed-88d3-0242ac150002",
+      "label": "Uso Recomendado",
+      "required": false
+    },
+    {
+      "col": 55,
+      "code": "cbcfa0d1-2a22-11ed-88d3-0242ac150002",
+      "label": "Vástago",
+      "required": false
+    },
+    {
+      "col": 56,
+      "code": "cbb7d643-2a22-11ed-88d3-0242ac150002",
+      "label": "Vida Útil del Producto",
+      "required": false
+    },
+    {
+      "col": 57,
+      "code": "cbc21b6b-2a22-11ed-88d3-0242ac150002",
+      "label": "Voltaje",
+      "required": false
+    },
+    {
+      "col": 58,
+      "code": "0cd89fea-2e1f-11ed-b908-0242ac150002",
+      "label": "weight",
+      "required": false
+    },
+    {
+      "col": 59,
+      "code": "0cd8a0a4-2e1f-11ed-b908-0242ac150002",
+      "label": "width",
+      "required": false
+    },
+    {
+      "col": 60,
+      "code": "image",
+      "label": "Imagenes (*)",
+      "required": true
+    },
+    {
+      "col": 61,
+      "code": "ean",
+      "label": "EAN",
+      "required": false
+    },
+    {
+      "col": 62,
+      "code": "skuSellerVariant",
+      "label": "Sku Seller Variant (*)",
+      "required": true
+    },
+    {
+      "col": 63,
+      "code": "705bb298-6558-425c-9a4c-3e1b65c73060",
+      "label": "Color (*)",
+      "required": true
+    },
+    {
+      "col": 64,
+      "code": "9ad5c9be-458a-11ed-95c4-125b1a007c7f",
+      "label": "ModalType",
+      "required": false
+    },
+    {
+      "col": 65,
+      "code": "07fa21d9-3b74-48d8-b811-1faa3117fba4",
+      "label": "Talla (*)",
+      "required": true
+    },
+    {
+      "col": 66,
+      "code": "085c01dc-a4e9-42a6-af8d-4829d2087d0f",
+      "label": "Datos Servicio Técnico",
+      "required": false
+    },
+    {
+      "col": 67,
+      "code": "5b6bc286-23af-4cc4-8c7b-a77cf8915e0d",
+      "label": "Dimensiones",
+      "required": false
+    },
+    {
+      "col": 68,
+      "code": "032cf137-b74d-4c5b-be9a-178de27d709f",
+      "label": "Potencia",
+      "required": false
+    },
+    {
+      "col": 69,
+      "code": "85b06763-bd55-4380-b21c-54fc557b8b86",
+      "label": "Alto",
+      "required": false
+    },
+    {
+      "col": 70,
+      "code": "6aa07505-106e-4de3-97d8-1c57c895a471",
+      "label": "Ancho",
+      "required": false
+    },
+    {
+      "col": 71,
+      "code": "f41019b3-fb18-4c26-a1ab-b37e89ce4f8f",
+      "label": "Conexiones",
+      "required": false
+    },
+    {
+      "col": 72,
+      "code": "5682e0f6-0c29-11ec-a00e-0242ac140002",
+      "label": "Descripción Larga/Emocional",
+      "required": false
+    },
+    {
+      "col": 73,
+      "code": "2e011155-cfdb-4201-855d-4639152d0a71",
+      "label": "Diámetro",
+      "required": false
+    },
+    {
+      "col": 74,
+      "code": "56882180-0c29-11ec-a00e-0242ac140002",
+      "label": "Información Adicional",
+      "required": false
+    },
+    {
+      "col": 75,
+      "code": "5b6aef57-d2bf-4c60-9e2a-0f7248a80ba0",
+      "label": "Material",
+      "required": false
+    },
+    {
+      "col": 76,
+      "code": "8cbde3fc-1cbc-4891-9712-0df52aefcd12",
+      "label": "Tono",
+      "required": false
+    },
+    {
+      "col": 77,
+      "code": "b0baaa9b-de16-4a3e-98ed-be140dc3cb93",
+      "label": "Aireador",
+      "required": false
+    },
+    {
+      "col": 78,
+      "code": "195a0014-fc5b-4e69-bce0-70c9da743628",
+      "label": "Origen",
+      "required": false
+    },
+    {
+      "col": 79,
+      "code": "962a27d4-9012-4b3f-974c-aad46aef8638",
+      "label": "Tiempo de entrega al Courier (en días hábiles)",
+      "required": false
+    }
+  ],
+  "cocinaIndustrial": [
+    {
+      "col": 1,
+      "code": "title",
+      "label": "Nombre del Producto",
+      "required": false
+    },
+    {
+      "col": 2,
+      "code": "skuSeller",
+      "label": "Sku Seller (*)",
+      "required": true
+    },
+    {
+      "col": 3,
+      "code": "refProduct",
+      "label": "Ref Product",
+      "required": false
+    },
+    {
+      "col": 4,
+      "code": "category",
+      "label": "Categoria (*)",
+      "required": true
+    },
+    {
+      "col": 5,
+      "code": "0f66ea85-7a01-44df-9f11-35ba000888e7",
+      "label": "Marca (*)",
+      "required": true
+    },
+    {
+      "col": 6,
+      "code": "71eee1e1-2c2b-11ec-b95d-0ec89c094745",
+      "label": "MEASUREMENT_UNIT",
+      "required": false
+    },
+    {
+      "col": 7,
+      "code": "8b74a633-2c35-11ec-b95d-0ec89c094745",
+      "label": "UNIT_MULTIPLIER",
+      "required": false
+    },
+    {
+      "col": 8,
+      "code": "cbd1e820-2a22-11ed-88d3-0242ac150002",
+      "label": "Color Bucket",
+      "required": false
+    },
+    {
+      "col": 9,
+      "code": "0cd89da0-2e1f-11ed-b908-0242ac150002",
+      "label": "cubicweight",
+      "required": false
+    },
+    {
+      "col": 10,
+      "code": "cbcc508d-2a22-11ed-88d3-0242ac150002",
+      "label": "Desagüe",
+      "required": false
+    },
+    {
+      "col": 11,
+      "code": "0d41699c-7a0a-4c96-9c8a-844d0803dd09",
+      "label": "Descripción corta",
+      "required": false
+    },
+    {
+      "col": 12,
+      "code": "cbb7de19-2a22-11ed-88d3-0242ac150002",
+      "label": "Embalaje",
+      "required": false
+    },
+    {
+      "col": 13,
+      "code": "cbd1e950-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Mínima Legal",
+      "required": false
+    },
+    {
+      "col": 14,
+      "code": "cbc7214c-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Proveedor",
+      "required": false
+    },
+    {
+      "col": 15,
+      "code": "0cd89e67-2e1f-11ed-b908-0242ac150002",
+      "label": "height",
+      "required": false
+    },
+    {
+      "col": 16,
+      "code": "a0757a45-150c-4815-a361-45a4b1cfbd29",
+      "label": "Incluye",
+      "required": false
+    },
+    {
+      "col": 17,
+      "code": "cbada298-2a22-11ed-88d3-0242ac150002",
+      "label": "Instalación",
+      "required": false
+    },
+    {
+      "col": 18,
+      "code": "dc09e075-6f22-11ed-9aab-0242ac150002",
+      "label": "KeyWords",
+      "required": false
+    },
+    {
+      "col": 19,
+      "code": "0cd89f35-2e1f-11ed-b908-0242ac150002",
+      "label": "length",
+      "required": false
+    },
+    {
+      "col": 20,
+      "code": "0cd89bd8-2e1f-11ed-b908-0242ac150002",
+      "label": "ManufacturerCode",
+      "required": false
+    },
+    {
+      "col": 21,
+      "code": "cbc7336f-2a22-11ed-88d3-0242ac150002",
+      "label": "Material Tiradores",
+      "required": false
+    },
+    {
+      "col": 22,
+      "code": "64b08e1c-b131-400f-a0f9-d74998eab8ec",
+      "label": "Modelo",
+      "required": false
+    },
+    {
+      "col": 23,
+      "code": "cbc7234f-2a22-11ed-88d3-0242ac150002",
+      "label": "Notas",
+      "required": false
+    },
+    {
+      "col": 24,
+      "code": "cbb7e24e-2a22-11ed-88d3-0242ac150002",
+      "label": "Peso",
+      "required": false
+    },
+    {
+      "col": 25,
+      "code": "cbcc46df-2a22-11ed-88d3-0242ac150002",
+      "label": "Peso Bruto",
+      "required": false
+    },
+    {
+      "col": 26,
+      "code": "9378b6e1-65c0-11ed-817b-0242ac150002",
+      "label": "Plazo Soporte Repuestos",
+      "required": false
+    },
+    {
+      "col": 27,
+      "code": "93759a49-65c0-11ed-817b-0242ac150002",
+      "label": "Plazo Soporte Técnico",
+      "required": false
+    },
+    {
+      "col": 28,
+      "code": "cbb2b97b-2a22-11ed-88d3-0242ac150002",
+      "label": "Posición de instalación",
+      "required": false
+    },
+    {
+      "col": 29,
+      "code": "0cd8a142-2e1f-11ed-b908-0242ac150002",
+      "label": "realCubicWeight",
+      "required": false
+    },
+    {
+      "col": 30,
+      "code": "0cd8a1df-2e1f-11ed-b908-0242ac150002",
+      "label": "realHeight",
+      "required": false
+    },
+    {
+      "col": 31,
+      "code": "0cd8a27d-2e1f-11ed-b908-0242ac150002",
+      "label": "realLength",
+      "required": false
+    },
+    {
+      "col": 32,
+      "code": "0cd8a315-2e1f-11ed-b908-0242ac150002",
+      "label": "realWeight",
+      "required": false
+    },
+    {
+      "col": 33,
+      "code": "0cd8a424-2e1f-11ed-b908-0242ac150002",
+      "label": "realWidth",
+      "required": false
+    },
+    {
+      "col": 34,
+      "code": "cbc723cb-2a22-11ed-88d3-0242ac150002",
+      "label": "Recomendaciones",
+      "required": false
+    },
+    {
+      "col": 35,
+      "code": "cbcfa467-2a22-11ed-88d3-0242ac150002",
+      "label": "RutProveedor",
+      "required": false
+    },
+    {
+      "col": 36,
+      "code": "cbc72551-2a22-11ed-88d3-0242ac150002",
+      "label": "Tamaño Lista PMGE",
+      "required": false
+    },
+    {
+      "col": 37,
+      "code": "dbf8bc48-6f22-11ed-9aab-0242ac150002",
+      "label": "TaxCode",
+      "required": false
+    },
+    {
+      "col": 38,
+      "code": "1d5096a7-f8d5-11ed-89f8-0e7ffa6ca5b9",
+      "label": "Tipo de producto Cocina",
+      "required": false
+    },
+    {
+      "col": 39,
+      "code": "0cd89fea-2e1f-11ed-b908-0242ac150002",
+      "label": "weight",
+      "required": false
+    },
+    {
+      "col": 40,
+      "code": "0cd8a0a4-2e1f-11ed-b908-0242ac150002",
+      "label": "width",
+      "required": false
+    },
+    {
+      "col": 41,
+      "code": "image",
+      "label": "Imagenes (*)",
+      "required": true
+    },
+    {
+      "col": 42,
+      "code": "ean",
+      "label": "EAN",
+      "required": false
+    },
+    {
+      "col": 43,
+      "code": "skuSellerVariant",
+      "label": "Sku Seller Variant (*)",
+      "required": true
+    },
+    {
+      "col": 44,
+      "code": "705bb298-6558-425c-9a4c-3e1b65c73060",
+      "label": "Color (*)",
+      "required": true
+    },
+    {
+      "col": 45,
+      "code": "9ad5c9be-458a-11ed-95c4-125b1a007c7f",
+      "label": "ModalType",
+      "required": false
+    },
+    {
+      "col": 46,
+      "code": "07fa21d9-3b74-48d8-b811-1faa3117fba4",
+      "label": "Talla (*)",
+      "required": true
+    },
+    {
+      "col": 47,
+      "code": "8dd17d35-2004-4725-b183-f83f0daa0472",
+      "label": "Capacidad",
+      "required": false
+    },
+    {
+      "col": 48,
+      "code": "085c01dc-a4e9-42a6-af8d-4829d2087d0f",
+      "label": "Datos Servicio Técnico",
+      "required": false
+    },
+    {
+      "col": 49,
+      "code": "5b6bc286-23af-4cc4-8c7b-a77cf8915e0d",
+      "label": "Dimensiones",
+      "required": false
+    },
+    {
+      "col": 50,
+      "code": "976eac97-e564-4da8-90df-e97ed0701d2d",
+      "label": "Niveles de Agua",
+      "required": false
+    },
+    {
+      "col": 51,
+      "code": "3178e89b-82fc-43af-a70e-45cf1e109209",
+      "label": "Acabado",
+      "required": false
+    },
+    {
+      "col": 52,
+      "code": "85b06763-bd55-4380-b21c-54fc557b8b86",
+      "label": "Alto",
+      "required": false
+    },
+    {
+      "col": 53,
+      "code": "6aa07505-106e-4de3-97d8-1c57c895a471",
+      "label": "Ancho",
+      "required": false
+    },
+    {
+      "col": 54,
+      "code": "5682e0f6-0c29-11ec-a00e-0242ac140002",
+      "label": "Descripción Larga/Emocional",
+      "required": false
+    },
+    {
+      "col": 55,
+      "code": "2e011155-cfdb-4201-855d-4639152d0a71",
+      "label": "Diámetro",
+      "required": false
+    },
+    {
+      "col": 56,
+      "code": "56882180-0c29-11ec-a00e-0242ac140002",
+      "label": "Información Adicional",
+      "required": false
+    },
+    {
+      "col": 57,
+      "code": "25119e18-f06e-44a6-8ed9-01da9844db22",
+      "label": "Largo",
+      "required": false
+    },
+    {
+      "col": 58,
+      "code": "5b6aef57-d2bf-4c60-9e2a-0f7248a80ba0",
+      "label": "Material",
+      "required": false
+    },
+    {
+      "col": 59,
+      "code": "8cbde3fc-1cbc-4891-9712-0df52aefcd12",
+      "label": "Tono",
+      "required": false
+    },
+    {
+      "col": 60,
+      "code": "195a0014-fc5b-4e69-bce0-70c9da743628",
+      "label": "Origen",
+      "required": false
+    },
+    {
+      "col": 61,
+      "code": "962a27d4-9012-4b3f-974c-aad46aef8638",
+      "label": "Tiempo de entrega al Courier (en días hábiles)",
+      "required": false
+    },
+    {
+      "col": 62,
+      "code": "56022f87-6734-11f0-8258-12b398f7fa41",
+      "label": "Cantidad de Unidades en el Pack (PPUM)",
+      "required": false
+    },
+    {
+      "col": 63,
+      "code": "55f89760-6734-11f0-8258-12b398f7fa41",
+      "label": "Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 64,
+      "code": "5603166a-6734-11f0-8258-12b398f7fa41",
+      "label": "Factor de Normalización (PPUM)",
+      "required": false
+    },
+    {
+      "col": 65,
+      "code": "56020dc2-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 66,
+      "code": "56037226-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad de Conversión (PPUM)",
+      "required": false
+    }
+  ],
+  "hogarCocinaYMenajes": [
+    {
+      "col": 1,
+      "code": "title",
+      "label": "Nombre del Producto",
+      "required": false
+    },
+    {
+      "col": 2,
+      "code": "skuSeller",
+      "label": "Sku Seller (*)",
+      "required": true
+    },
+    {
+      "col": 3,
+      "code": "refProduct",
+      "label": "Ref Product",
+      "required": false
+    },
+    {
+      "col": 4,
+      "code": "category",
+      "label": "Categoria (*)",
+      "required": true
+    },
+    {
+      "col": 5,
+      "code": "0f66ea85-7a01-44df-9f11-35ba000888e7",
+      "label": "Marca (*)",
+      "required": true
+    },
+    {
+      "col": 6,
+      "code": "71eee1e1-2c2b-11ec-b95d-0ec89c094745",
+      "label": "MEASUREMENT_UNIT",
+      "required": false
+    },
+    {
+      "col": 7,
+      "code": "8b74a633-2c35-11ec-b95d-0ec89c094745",
+      "label": "UNIT_MULTIPLIER",
+      "required": false
+    },
+    {
+      "col": 8,
+      "code": "d8ae934d-2c35-11ec-b95d-0ec89c094745",
+      "label": "CONTENT_UNIT",
+      "required": false
+    },
+    {
+      "col": 9,
+      "code": "fbbc4138-2c35-11ec-b95d-0ec89c094745",
+      "label": "UNIT_MULTIPLIER_UN",
+      "required": false
+    },
+    {
+      "col": 10,
+      "code": "cbc74292-2a22-11ed-88d3-0242ac150002",
+      "label": "Antiadherente",
+      "required": false
+    },
+    {
+      "col": 11,
+      "code": "cba38f15-2a22-11ed-88d3-0242ac150002",
+      "label": "Área de cocción",
+      "required": false
+    },
+    {
+      "col": 12,
+      "code": "cbc7439c-2a22-11ed-88d3-0242ac150002",
+      "label": "Base Desmontable",
+      "required": false
+    },
+    {
+      "col": 13,
+      "code": "cbd1e820-2a22-11ed-88d3-0242ac150002",
+      "label": "Color Bucket",
+      "required": false
+    },
+    {
+      "col": 14,
+      "code": "0cd89da0-2e1f-11ed-b908-0242ac150002",
+      "label": "cubicweight",
+      "required": false
+    },
+    {
+      "col": 15,
+      "code": "0d41699c-7a0a-4c96-9c8a-844d0803dd09",
+      "label": "Descripción corta",
+      "required": false
+    },
+    {
+      "col": 16,
+      "code": "cbb7de19-2a22-11ed-88d3-0242ac150002",
+      "label": "Embalaje",
+      "required": false
+    },
+    {
+      "col": 17,
+      "code": "cbd1e950-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Mínima Legal",
+      "required": false
+    },
+    {
+      "col": 18,
+      "code": "cbc7214c-2a22-11ed-88d3-0242ac150002",
+      "label": "Garantía Proveedor",
+      "required": false
+    },
+    {
+      "col": 19,
+      "code": "0cd89e67-2e1f-11ed-b908-0242ac150002",
+      "label": "height",
+      "required": false
+    },
+    {
+      "col": 20,
+      "code": "a0757a45-150c-4815-a361-45a4b1cfbd29",
+      "label": "Incluye",
+      "required": false
+    },
+    {
+      "col": 21,
+      "code": "dc09e075-6f22-11ed-9aab-0242ac150002",
+      "label": "KeyWords",
+      "required": false
+    },
+    {
+      "col": 22,
+      "code": "0cd89f35-2e1f-11ed-b908-0242ac150002",
+      "label": "length",
+      "required": false
+    },
+    {
+      "col": 23,
+      "code": "cbcc48e2-2a22-11ed-88d3-0242ac150002",
+      "label": "Luz de Encendido",
+      "required": false
+    },
+    {
+      "col": 24,
+      "code": "cbc7264d-2a22-11ed-88d3-0242ac150002",
+      "label": "Manual de armado",
+      "required": false
+    },
+    {
+      "col": 25,
+      "code": "0cd89bd8-2e1f-11ed-b908-0242ac150002",
+      "label": "ManufacturerCode",
+      "required": false
+    },
+    {
+      "col": 26,
+      "code": "cbcc41f8-2a22-11ed-88d3-0242ac150002",
+      "label": "Material Mango",
+      "required": false
+    },
+    {
+      "col": 27,
+      "code": "64b08e1c-b131-400f-a0f9-d74998eab8ec",
+      "label": "Modelo",
+      "required": false
+    },
+    {
+      "col": 28,
+      "code": "cbc7234f-2a22-11ed-88d3-0242ac150002",
+      "label": "Notas",
+      "required": false
+    },
+    {
+      "col": 29,
+      "code": "cbb7e24e-2a22-11ed-88d3-0242ac150002",
+      "label": "Peso",
+      "required": false
+    },
+    {
+      "col": 30,
+      "code": "cbb7e358-2a22-11ed-88d3-0242ac150002",
+      "label": "Profundidad",
+      "required": false
+    },
+    {
+      "col": 31,
+      "code": "0cd8a142-2e1f-11ed-b908-0242ac150002",
+      "label": "realCubicWeight",
+      "required": false
+    },
+    {
+      "col": 32,
+      "code": "0cd8a1df-2e1f-11ed-b908-0242ac150002",
+      "label": "realHeight",
+      "required": false
+    },
+    {
+      "col": 33,
+      "code": "0cd8a27d-2e1f-11ed-b908-0242ac150002",
+      "label": "realLength",
+      "required": false
+    },
+    {
+      "col": 34,
+      "code": "0cd8a315-2e1f-11ed-b908-0242ac150002",
+      "label": "realWeight",
+      "required": false
+    },
+    {
+      "col": 35,
+      "code": "0cd8a424-2e1f-11ed-b908-0242ac150002",
+      "label": "realWidth",
+      "required": false
+    },
+    {
+      "col": 36,
+      "code": "cbc723cb-2a22-11ed-88d3-0242ac150002",
+      "label": "Recomendaciones",
+      "required": false
+    },
+    {
+      "col": 37,
+      "code": "cbcfa467-2a22-11ed-88d3-0242ac150002",
+      "label": "RutProveedor",
+      "required": false
+    },
+    {
+      "col": 38,
+      "code": "cbc72551-2a22-11ed-88d3-0242ac150002",
+      "label": "Tamaño Lista PMGE",
+      "required": false
+    },
+    {
+      "col": 39,
+      "code": "dbf8bc48-6f22-11ed-9aab-0242ac150002",
+      "label": "TaxCode",
+      "required": false
+    },
+    {
+      "col": 40,
+      "code": "cbc72a6d-2a22-11ed-88d3-0242ac150002",
+      "label": "Temperatura Máxima",
+      "required": false
+    },
+    {
+      "col": 41,
+      "code": "cbad9d1b-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de Encendido",
+      "required": false
+    },
+    {
+      "col": 42,
+      "code": "1d508733-f8d5-11ed-89f8-0e7ffa6ca5b9",
+      "label": "Tipo de producto Hogar",
+      "required": false
+    },
+    {
+      "col": 43,
+      "code": "cbb7d316-2a22-11ed-88d3-0242ac150002",
+      "label": "Tipo de rejilla",
+      "required": false
+    },
+    {
+      "col": 44,
+      "code": "cbb7d643-2a22-11ed-88d3-0242ac150002",
+      "label": "Vida Útil del Producto",
+      "required": false
+    },
+    {
+      "col": 45,
+      "code": "0cd89fea-2e1f-11ed-b908-0242ac150002",
+      "label": "weight",
+      "required": false
+    },
+    {
+      "col": 46,
+      "code": "0cd8a0a4-2e1f-11ed-b908-0242ac150002",
+      "label": "width",
+      "required": false
+    },
+    {
+      "col": 47,
+      "code": "image",
+      "label": "Imagenes (*)",
+      "required": true
+    },
+    {
+      "col": 48,
+      "code": "ean",
+      "label": "EAN",
+      "required": false
+    },
+    {
+      "col": 49,
+      "code": "skuSellerVariant",
+      "label": "Sku Seller Variant (*)",
+      "required": true
+    },
+    {
+      "col": 50,
+      "code": "705bb298-6558-425c-9a4c-3e1b65c73060",
+      "label": "Color (*)",
+      "required": true
+    },
+    {
+      "col": 51,
+      "code": "9ad5c9be-458a-11ed-95c4-125b1a007c7f",
+      "label": "ModalType",
+      "required": false
+    },
+    {
+      "col": 52,
+      "code": "07fa21d9-3b74-48d8-b811-1faa3117fba4",
+      "label": "Talla",
+      "required": false
+    },
+    {
+      "col": 53,
+      "code": "a9e9143a-50e7-44c5-8435-79c2f364ef56",
+      "label": "Aroma",
+      "required": false
+    },
+    {
+      "col": 54,
+      "code": "8dd17d35-2004-4725-b183-f83f0daa0472",
+      "label": "Capacidad",
+      "required": false
+    },
+    {
+      "col": 55,
+      "code": "838e509b-ef8e-47bf-84c8-702619d24059",
+      "label": "Composición Material",
+      "required": false
+    },
+    {
+      "col": 56,
+      "code": "97cecccb-1de2-4318-af1c-8f1a26b22609",
+      "label": "Contenido",
+      "required": false
+    },
+    {
+      "col": 57,
+      "code": "5b6bc286-23af-4cc4-8c7b-a77cf8915e0d",
+      "label": "Dimensiones",
+      "required": false
+    },
+    {
+      "col": 58,
+      "code": "85b06763-bd55-4380-b21c-54fc557b8b86",
+      "label": "Alto",
+      "required": false
+    },
+    {
+      "col": 59,
+      "code": "6aa07505-106e-4de3-97d8-1c57c895a471",
+      "label": "Ancho",
+      "required": false
+    },
+    {
+      "col": 60,
+      "code": "66c85eb2-57d2-49a2-b32f-cf586c48df32",
+      "label": "Bateria Duracion Horas",
+      "required": false
+    },
+    {
+      "col": 61,
+      "code": "5682e0f6-0c29-11ec-a00e-0242ac140002",
+      "label": "Descripción Larga/Emocional",
+      "required": false
+    },
+    {
+      "col": 62,
+      "code": "2e011155-cfdb-4201-855d-4639152d0a71",
+      "label": "Diámetro",
+      "required": false
+    },
+    {
+      "col": 63,
+      "code": "1de300fa-891c-41aa-999e-5bc0ff8dfcc4",
+      "label": "Espesor",
+      "required": false
+    },
+    {
+      "col": 64,
+      "code": "56882180-0c29-11ec-a00e-0242ac140002",
+      "label": "Información Adicional",
+      "required": false
+    },
+    {
+      "col": 65,
+      "code": "568924d5-0c29-11ec-a00e-0242ac140002",
+      "label": "Instrucciones de Uso",
+      "required": false
+    },
+    {
+      "col": 66,
+      "code": "25119e18-f06e-44a6-8ed9-01da9844db22",
+      "label": "Largo",
+      "required": false
+    },
+    {
+      "col": 67,
+      "code": "5b6aef57-d2bf-4c60-9e2a-0f7248a80ba0",
+      "label": "Material",
+      "required": false
+    },
+    {
+      "col": 68,
+      "code": "393a4199-e92c-4fe5-8b19-981a8e2b95f1",
+      "label": "Peso Producto",
+      "required": false
+    },
+    {
+      "col": 69,
+      "code": "f705d81c-21ef-4234-8ef8-aea7ecb90bb0",
+      "label": "Sello Código QR SEC",
+      "required": false
+    },
+    {
+      "col": 70,
+      "code": "ae9a6178-4dae-4193-994d-4716346c7607",
+      "label": "Sello Eficiencia Energética",
+      "required": false
+    },
+    {
+      "col": 71,
+      "code": "8cbde3fc-1cbc-4891-9712-0df52aefcd12",
+      "label": "Tono",
+      "required": false
+    },
+    {
+      "col": 72,
+      "code": "9813891e-b6ac-4af7-b3cf-fb581a801d6f",
+      "label": "Bandejas",
+      "required": false
+    },
+    {
+      "col": 73,
+      "code": "7abcd3f0-17e6-4c3e-b920-9caa0d0ee0c1",
+      "label": "Cantidad de Piezas",
+      "required": false
+    },
+    {
+      "col": 74,
+      "code": "b790a523-51ed-4408-a8bf-8663a4c461e3",
+      "label": "Panel",
+      "required": false
+    },
+    {
+      "col": 75,
+      "code": "5857d6af-be21-42da-8df2-43bfe35de1a6",
+      "label": "Quemadores",
+      "required": false
+    },
+    {
+      "col": 76,
+      "code": "cf450468-89ac-4afe-8b30-8d19ed4beeef",
+      "label": "Cantidad",
+      "required": false
+    },
+    {
+      "col": 77,
+      "code": "702bb518-e442-405d-8850-23d5cd20693a",
+      "label": "Garantía",
+      "required": false
+    },
+    {
+      "col": 78,
+      "code": "ed113eb6-1fd8-4461-9e48-483aee8f6874",
+      "label": "Número de Quemadores",
+      "required": false
+    },
+    {
+      "col": 79,
+      "code": "195a0014-fc5b-4e69-bce0-70c9da743628",
+      "label": "Origen",
+      "required": false
+    },
+    {
+      "col": 80,
+      "code": "5af2986e-19c3-4376-8d3b-874c2dd277ee",
+      "label": "Tipo de Luz",
+      "required": false
+    },
+    {
+      "col": 81,
+      "code": "4350f2da-f28d-4f47-a1ac-58c1a7aa8dc1",
+      "label": "Tipo de Producto Cocina y menajes",
+      "required": false
+    },
+    {
+      "col": 82,
+      "code": "1d5a9256-a1bd-40cc-9d8c-831f51f7ab93",
+      "label": "Característica Sustentable",
+      "required": false
+    },
+    {
+      "col": 83,
+      "code": "962a27d4-9012-4b3f-974c-aad46aef8638",
+      "label": "Tiempo de entrega al Courier (en días hábiles)",
+      "required": false
+    },
+    {
+      "col": 84,
+      "code": "56022f87-6734-11f0-8258-12b398f7fa41",
+      "label": "Cantidad de Unidades en el Pack (PPUM)",
+      "required": false
+    },
+    {
+      "col": 85,
+      "code": "55f89760-6734-11f0-8258-12b398f7fa41",
+      "label": "Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 86,
+      "code": "5603166a-6734-11f0-8258-12b398f7fa41",
+      "label": "Factor de Normalización (PPUM)",
+      "required": false
+    },
+    {
+      "col": 87,
+      "code": "56020dc2-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad Contenido (PPUM)",
+      "required": false
+    },
+    {
+      "col": 88,
+      "code": "56037226-6734-11f0-8258-12b398f7fa41",
+      "label": "Unidad de Conversión (PPUM)",
+      "required": false
+    }
+  ]
+}

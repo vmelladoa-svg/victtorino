@@ -1,0 +1,1510 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - link "Falabella Seller Center" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img "Falabella Seller Center" [ref=e11]
+          - generic [ref=e12]:
+            - link "Fpay Logo" [ref=e14] [cursor=pointer]:
+              - /url: https://fpay.cl/comercios/cuenta/login
+              - img "Fpay Logo" [ref=e15]
+            - generic [ref=e16]:
+              - generic [ref=e18]: Trade Global
+              - button [ref=e20] [cursor=pointer]:
+                - img [ref=e21]
+              - generic [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+                - img [ref=e39]
+                - generic [ref=e41]: "5"
+      - generic [ref=e42]:
+        - generic [ref=e45]:
+          - img [ref=e47]
+          - text: Productos
+          - img [ref=e52]
+        - generic [ref=e56]:
+          - img [ref=e58]
+          - text: Órdenes
+          - img [ref=e63]
+        - generic [ref=e67]:
+          - img [ref=e69]
+          - text: Pagos
+          - img [ref=e78]
+        - generic [ref=e82]:
+          - img [ref=e84]
+          - text: Informes y estadísticas
+          - img [ref=e86]
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - text: Crecimiento
+          - img [ref=e94]
+        - generic [ref=e98]:
+          - img [ref=e100]
+          - text: Mi cuenta
+          - img [ref=e103]
+        - generic [ref=e107]:
+          - img [ref=e109]
+          - text: Fulfillment
+          - img [ref=e117]
+        - generic [ref=e121]:
+          - img [ref=e123]
+          - text: Ayuda
+          - img [ref=e130]
+        - img [ref=e136]
+  - main [ref=e140]:
+    - generic [ref=e141]:
+      - generic [ref=e143]:
+        - generic [ref=e144]: Administrador de productos
+        - generic [ref=e145]:
+          - generic [ref=e147]:
+            - generic [ref=e150] [cursor=pointer]: Catálogo
+            - generic [ref=e153] [cursor=pointer]: Stock
+          - button "add icon Agregar producto" [ref=e154] [cursor=pointer]:
+            - img "add icon" [ref=e155]
+            - text: Agregar producto
+      - generic [ref=e156]:
+        - button [ref=e158] [cursor=pointer]:
+          - img [ref=e159]
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e165]:
+              - generic [ref=e382] [cursor=pointer]: Todos
+              - generic [ref=e385] [cursor=pointer]: Publicado
+              - generic [ref=e388] [cursor=pointer]: Sin imágenes
+              - generic [ref=e391] [cursor=pointer]: Rechazados
+              - generic [ref=e393] [cursor=pointer]:
+                - generic [ref=e394]: Sin inventario
+                - generic [ref=e396]:
+                  - generic: "239"
+              - generic [ref=e398] [cursor=pointer]:
+                - generic [ref=e399]: Inactivos
+                - img [ref=e401]
+              - generic [ref=e405] [cursor=pointer]: Productos no autorizados
+            - generic [ref=e174]:
+              - checkbox "Select all products on current page" [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+              - button "Selecciona una opción" [disabled] [ref=e180]:
+                - generic [ref=e181]: Selecciona una opción
+                - img [ref=e182]
+              - button "Ir" [disabled] [ref=e184]
+              - button "Descargar información" [ref=e188]:
+                - generic [ref=e189]: Descargar información
+                - img [ref=e190]
+              - generic [ref=e194]:
+                - img [ref=e196] [cursor=pointer]
+                - textbox "Buscar por nombre, SKU u otros criterios" [ref=e200]
+                - img [ref=e202]
+            - generic [ref=e207]:
+              - table [ref=e213]:
+                - rowgroup [ref=e214]:
+                  - row "Producto Creación Precio Precio oferta Recomendaciones Inventario disponible Activo Estado Acciones" [ref=e215]:
+                    - columnheader [ref=e216]
+                    - columnheader "Producto" [ref=e217] [cursor=pointer]:
+                      - generic [ref=e218]:
+                        - text: Producto
+                        - generic [ref=e219]:
+                          - img [ref=e220]
+                          - img [ref=e222]
+                    - columnheader "Creación" [ref=e225] [cursor=pointer]:
+                      - generic [ref=e226]:
+                        - text: Creación
+                        - generic [ref=e227]:
+                          - img [ref=e228]
+                          - img [ref=e230]
+                    - columnheader "Precio" [ref=e233] [cursor=pointer]:
+                      - generic [ref=e234]:
+                        - text: Precio
+                        - generic [ref=e235]:
+                          - img [ref=e236]
+                          - img [ref=e238]
+                    - columnheader "Precio oferta" [ref=e241] [cursor=pointer]:
+                      - generic [ref=e242]:
+                        - text: Precio oferta
+                        - generic [ref=e243]:
+                          - img [ref=e244]
+                          - img [ref=e246]
+                    - columnheader "Recomendaciones" [ref=e249]:
+                      - generic [ref=e250]: Recomendaciones
+                    - columnheader "Inventario disponible" [ref=e251]:
+                      - generic [ref=e252]: Inventario disponible
+                    - columnheader "Activo" [ref=e253]:
+                      - generic [ref=e254]: Activo
+                    - columnheader "Estado" [ref=e255]:
+                      - generic [ref=e256]: Estado
+                    - columnheader "Acciones" [ref=e257]:
+                      - generic [ref=e258]: Acciones
+                - rowgroup [ref=e259]:
+                  - 'row "Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar / ... SKU Seller 010701007-T SKU Falabella 143984345 Publicado en: 25/05/2025 $27.990 $13.990 5 More actions" [ref=e406]':
+                    - cell [ref=e407]:
+                      - checkbox [ref=e410] [cursor=pointer]:
+                        - img [ref=e411]
+                    - cell "Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar / ... SKU Seller 010701007-T SKU Falabella 143984345 Publicado en:" [ref=e413]:
+                      - generic [ref=e416]:
+                        - paragraph [ref=e418]: Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar / ...
+                        - generic [ref=e419]:
+                          - generic [ref=e421]:
+                            - generic [ref=e422]: SKU Seller
+                            - generic [ref=e423]:
+                              - generic [ref=e424]: 010701007-T
+                              - img [ref=e427] [cursor=pointer]
+                          - generic [ref=e430]:
+                            - generic [ref=e431]: SKU Falabella
+                            - generic [ref=e432]:
+                              - generic [ref=e433]: "143984345"
+                              - img [ref=e436] [cursor=pointer]
+                        - generic [ref=e439]:
+                          - paragraph [ref=e440]: "Publicado en:"
+                          - img [ref=e442] [cursor=pointer]
+                          - img [ref=e446] [cursor=pointer]
+                    - cell "25/05/2025" [ref=e452]
+                    - cell "$27.990" [ref=e453]:
+                      - generic [ref=e456] [cursor=pointer]: $27.990
+                    - cell "$13.990" [ref=e457]:
+                      - generic [ref=e460] [cursor=pointer]: $13.990
+                    - cell [ref=e461]
+                    - cell "5" [ref=e462]:
+                      - generic [ref=e465] [cursor=pointer]: "5"
+                    - cell [ref=e466]:
+                      - button [ref=e468] [cursor=pointer]
+                    - cell [ref=e470]:
+                      - button [ref=e473] [cursor=pointer]:
+                        - img [ref=e474]
+                    - cell "More actions" [ref=e477]:
+                      - button "More actions" [ref=e478] [cursor=pointer]:
+                        - img [ref=e479]
+                  - 'row "Lavaplatos Doble Empotrado 120x44 cm Secador Izquierdo / ... SKU Seller 020101011-T SKU Falabella 143105403 Publicado en: Patrocinado 17/04/2025 $115.990 $57.990 5 More actions" [ref=e483]':
+                    - cell [ref=e484]:
+                      - checkbox [ref=e487] [cursor=pointer]:
+                        - img [ref=e488]
+                    - 'cell "Lavaplatos Doble Empotrado 120x44 cm Secador Izquierdo / ... SKU Seller 020101011-T SKU Falabella 143105403 Publicado en: Patrocinado" [ref=e490]':
+                      - generic [ref=e493]:
+                        - paragraph [ref=e495]: Lavaplatos Doble Empotrado 120x44 cm Secador Izquierdo / ...
+                        - generic [ref=e496]:
+                          - generic [ref=e498]:
+                            - generic [ref=e499]: SKU Seller
+                            - generic [ref=e500]:
+                              - generic [ref=e501]: 020101011-T
+                              - img [ref=e504] [cursor=pointer]
+                          - generic [ref=e507]:
+                            - generic [ref=e508]: SKU Falabella
+                            - generic [ref=e509]:
+                              - generic [ref=e510]: "143105403"
+                              - img [ref=e513] [cursor=pointer]
+                        - generic [ref=e515]:
+                          - generic [ref=e516]:
+                            - paragraph [ref=e517]: "Publicado en:"
+                            - img [ref=e519] [cursor=pointer]
+                            - img [ref=e523] [cursor=pointer]
+                          - generic [ref=e530]: Patrocinado
+                    - cell "17/04/2025" [ref=e531]
+                    - cell "$115.990" [ref=e532]:
+                      - generic [ref=e535] [cursor=pointer]: $115.990
+                    - cell "$57.990" [ref=e536]:
+                      - generic [ref=e539] [cursor=pointer]: $57.990
+                    - cell [ref=e540]
+                    - cell "5" [ref=e541]:
+                      - generic [ref=e544] [cursor=pointer]: "5"
+                    - cell [ref=e545]:
+                      - button [ref=e547] [cursor=pointer]
+                    - cell [ref=e549]:
+                      - button [ref=e552] [cursor=pointer]:
+                        - img [ref=e553]
+                    - cell "More actions" [ref=e556]:
+                      - button "More actions" [ref=e557] [cursor=pointer]:
+                        - img [ref=e558]
+                  - 'row "Lavaplatos Empotrado doble 120x44x15cm Secador Derecho / ... SKU Seller 020101010-T SKU Falabella 143105393 Publicado en: Patrocinado 17/04/2025 $115.990 $57.990 1 More actions" [ref=e562]':
+                    - cell [ref=e563]:
+                      - checkbox [ref=e566] [cursor=pointer]:
+                        - img [ref=e567]
+                    - 'cell "Lavaplatos Empotrado doble 120x44x15cm Secador Derecho / ... SKU Seller 020101010-T SKU Falabella 143105393 Publicado en: Patrocinado" [ref=e569]':
+                      - generic [ref=e572]:
+                        - paragraph [ref=e574]: Lavaplatos Empotrado doble 120x44x15cm Secador Derecho / ...
+                        - generic [ref=e575]:
+                          - generic [ref=e577]:
+                            - generic [ref=e578]: SKU Seller
+                            - generic [ref=e579]:
+                              - generic [ref=e580]: 020101010-T
+                              - img [ref=e583] [cursor=pointer]
+                          - generic [ref=e586]:
+                            - generic [ref=e587]: SKU Falabella
+                            - generic [ref=e588]:
+                              - generic [ref=e589]: "143105393"
+                              - img [ref=e592] [cursor=pointer]
+                        - generic [ref=e594]:
+                          - generic [ref=e595]:
+                            - paragraph [ref=e596]: "Publicado en:"
+                            - img [ref=e598] [cursor=pointer]
+                            - img [ref=e602] [cursor=pointer]
+                          - generic [ref=e609]: Patrocinado
+                    - cell "17/04/2025" [ref=e610]
+                    - cell "$115.990" [ref=e611]:
+                      - generic [ref=e614] [cursor=pointer]: $115.990
+                    - cell "$57.990" [ref=e615]:
+                      - generic [ref=e618] [cursor=pointer]: $57.990
+                    - cell [ref=e619]
+                    - cell "1" [ref=e620]:
+                      - generic [ref=e623] [cursor=pointer]: "1"
+                    - cell [ref=e624]:
+                      - button [ref=e626] [cursor=pointer]
+                    - cell [ref=e628]:
+                      - button [ref=e631] [cursor=pointer]:
+                        - img [ref=e632]
+                    - cell "More actions" [ref=e635]:
+                      - button "More actions" [ref=e636] [cursor=pointer]:
+                        - img [ref=e637]
+                  - 'row "FLUXOMETRO PALANCA POSTERIOR 1 / ... SKU Seller 040303003-T SKU Falabella 146960660 Publicado en: 03/09/2025 $199.990 - 6 More actions" [ref=e641]':
+                    - cell [ref=e642]:
+                      - checkbox [ref=e645] [cursor=pointer]:
+                        - img [ref=e646]
+                    - cell "FLUXOMETRO PALANCA POSTERIOR 1 / ... SKU Seller 040303003-T SKU Falabella 146960660 Publicado en:" [ref=e648]:
+                      - generic [ref=e651]:
+                        - paragraph [ref=e653]: FLUXOMETRO PALANCA POSTERIOR 1 / ...
+                        - generic [ref=e654]:
+                          - generic [ref=e656]:
+                            - generic [ref=e657]: SKU Seller
+                            - generic [ref=e658]:
+                              - generic [ref=e659]: 040303003-T
+                              - img [ref=e662] [cursor=pointer]
+                          - generic [ref=e665]:
+                            - generic [ref=e666]: SKU Falabella
+                            - generic [ref=e667]:
+                              - generic [ref=e668]: "146960660"
+                              - img [ref=e671] [cursor=pointer]
+                        - generic [ref=e674]:
+                          - paragraph [ref=e675]: "Publicado en:"
+                          - img [ref=e677] [cursor=pointer]
+                          - img [ref=e681] [cursor=pointer]
+                    - cell "03/09/2025" [ref=e687]
+                    - cell "$199.990" [ref=e688]:
+                      - generic [ref=e691] [cursor=pointer]: $199.990
+                    - cell "-" [ref=e692]:
+                      - generic [ref=e695] [cursor=pointer]: "-"
+                    - cell [ref=e696]
+                    - cell "6" [ref=e697]:
+                      - generic [ref=e700] [cursor=pointer]: "6"
+                    - cell [ref=e701]:
+                      - button [ref=e703] [cursor=pointer]
+                    - cell [ref=e705]:
+                      - button [ref=e708] [cursor=pointer]:
+                        - img [ref=e709]
+                    - cell "More actions" [ref=e712]:
+                      - button "More actions" [ref=e713] [cursor=pointer]:
+                        - img [ref=e714]
+                  - 'row "VALVULA DESCARGA TEMPORIZADA URINARIO / ... SKU Seller 040302001-T SKU Falabella 146959317 Publicado en: 03/09/2025 $25.658 - 5 More actions" [ref=e718]':
+                    - cell [ref=e719]:
+                      - checkbox [ref=e722] [cursor=pointer]:
+                        - img [ref=e723]
+                    - cell "VALVULA DESCARGA TEMPORIZADA URINARIO / ... SKU Seller 040302001-T SKU Falabella 146959317 Publicado en:" [ref=e725]:
+                      - generic [ref=e728]:
+                        - paragraph [ref=e730]: VALVULA DESCARGA TEMPORIZADA URINARIO / ...
+                        - generic [ref=e731]:
+                          - generic [ref=e733]:
+                            - generic [ref=e734]: SKU Seller
+                            - generic [ref=e735]:
+                              - generic [ref=e736]: 040302001-T
+                              - img [ref=e739] [cursor=pointer]
+                          - generic [ref=e742]:
+                            - generic [ref=e743]: SKU Falabella
+                            - generic [ref=e744]:
+                              - generic [ref=e745]: "146959317"
+                              - img [ref=e748] [cursor=pointer]
+                        - generic [ref=e751]:
+                          - paragraph [ref=e752]: "Publicado en:"
+                          - img [ref=e754] [cursor=pointer]
+                          - img [ref=e758] [cursor=pointer]
+                    - cell "03/09/2025" [ref=e764]
+                    - cell "$25.658" [ref=e765]:
+                      - generic [ref=e768] [cursor=pointer]: $25.658
+                    - cell "-" [ref=e769]:
+                      - generic [ref=e772] [cursor=pointer]: "-"
+                    - cell [ref=e773]
+                    - cell "5" [ref=e774]:
+                      - generic [ref=e777] [cursor=pointer]: "5"
+                    - cell [ref=e778]:
+                      - button [ref=e780] [cursor=pointer]
+                    - cell [ref=e782]:
+                      - button [ref=e785] [cursor=pointer]:
+                        - img [ref=e786]
+                    - cell "More actions" [ref=e789]:
+                      - button "More actions" [ref=e790] [cursor=pointer]:
+                        - img [ref=e791]
+                  - 'row "LLAVE LAVADERO CON FLANGE HE HE 12 34 / ... SKU Seller 020301001-T SKU Falabella 146829748 Publicado en: Patrocinado 02/09/2025 $33.990 $16.990 6 More actions" [ref=e795]':
+                    - cell [ref=e796]:
+                      - checkbox [ref=e799] [cursor=pointer]:
+                        - img [ref=e800]
+                    - 'cell "LLAVE LAVADERO CON FLANGE HE HE 12 34 / ... SKU Seller 020301001-T SKU Falabella 146829748 Publicado en: Patrocinado" [ref=e802]':
+                      - generic [ref=e805]:
+                        - paragraph [ref=e807]: LLAVE LAVADERO CON FLANGE HE HE 12 34 / ...
+                        - generic [ref=e808]:
+                          - generic [ref=e810]:
+                            - generic [ref=e811]: SKU Seller
+                            - generic [ref=e812]:
+                              - generic [ref=e813]: 020301001-T
+                              - img [ref=e816] [cursor=pointer]
+                          - generic [ref=e819]:
+                            - generic [ref=e820]: SKU Falabella
+                            - generic [ref=e821]:
+                              - generic [ref=e822]: "146829748"
+                              - img [ref=e825] [cursor=pointer]
+                        - generic [ref=e827]:
+                          - generic [ref=e828]:
+                            - paragraph [ref=e829]: "Publicado en:"
+                            - img [ref=e831] [cursor=pointer]
+                            - img [ref=e835] [cursor=pointer]
+                          - generic [ref=e842]: Patrocinado
+                    - cell "02/09/2025" [ref=e843]
+                    - cell "$33.990" [ref=e844]:
+                      - generic [ref=e847] [cursor=pointer]: $33.990
+                    - cell "$16.990" [ref=e848]:
+                      - generic [ref=e851] [cursor=pointer]: $16.990
+                    - cell [ref=e852]
+                    - cell "6" [ref=e853]:
+                      - generic [ref=e856] [cursor=pointer]: "6"
+                    - cell [ref=e857]:
+                      - button [ref=e859] [cursor=pointer]
+                    - cell [ref=e861]:
+                      - button [ref=e864] [cursor=pointer]:
+                        - img [ref=e865]
+                    - cell "More actions" [ref=e868]:
+                      - button "More actions" [ref=e869] [cursor=pointer]:
+                        - img [ref=e870]
+                  - 'row "SIFON URINARIO 1 1/4 METALICO / ... SKU Seller 010403001-T SKU Falabella 146236900 Publicado en: 13/08/2025 $25.460 - 5 More actions" [ref=e874]':
+                    - cell [ref=e875]:
+                      - checkbox [ref=e878] [cursor=pointer]:
+                        - img [ref=e879]
+                    - cell "SIFON URINARIO 1 1/4 METALICO / ... SKU Seller 010403001-T SKU Falabella 146236900 Publicado en:" [ref=e881]:
+                      - generic [ref=e884]:
+                        - paragraph [ref=e886]: SIFON URINARIO 1 1/4 METALICO / ...
+                        - generic [ref=e887]:
+                          - generic [ref=e889]:
+                            - generic [ref=e890]: SKU Seller
+                            - generic [ref=e891]:
+                              - generic [ref=e892]: 010403001-T
+                              - img [ref=e895] [cursor=pointer]
+                          - generic [ref=e898]:
+                            - generic [ref=e899]: SKU Falabella
+                            - generic [ref=e900]:
+                              - generic [ref=e901]: "146236900"
+                              - img [ref=e904] [cursor=pointer]
+                        - generic [ref=e907]:
+                          - paragraph [ref=e908]: "Publicado en:"
+                          - img [ref=e910] [cursor=pointer]
+                          - img [ref=e914] [cursor=pointer]
+                    - cell "13/08/2025" [ref=e920]
+                    - cell "$25.460" [ref=e921]:
+                      - generic [ref=e924] [cursor=pointer]: $25.460
+                    - cell "-" [ref=e925]:
+                      - generic [ref=e928] [cursor=pointer]: "-"
+                    - cell [ref=e929]
+                    - cell "5" [ref=e930]:
+                      - generic [ref=e933] [cursor=pointer]: "5"
+                    - cell [ref=e934]:
+                      - button [ref=e936] [cursor=pointer]
+                    - cell [ref=e938]:
+                      - button [ref=e941] [cursor=pointer]:
+                        - img [ref=e942]
+                    - cell "More actions" [ref=e945]:
+                      - button "More actions" [ref=e946] [cursor=pointer]:
+                        - img [ref=e947]
+                  - 'row "RECEPTACULO DUCHA 70X70 CM / ... SKU Seller 010603003-T SKU Falabella 146192193 Publicado en: 12/08/2025 $60.990 - 5 More actions" [ref=e951]':
+                    - cell [ref=e952]:
+                      - checkbox [ref=e955] [cursor=pointer]:
+                        - img [ref=e956]
+                    - cell "RECEPTACULO DUCHA 70X70 CM / ... SKU Seller 010603003-T SKU Falabella 146192193 Publicado en:" [ref=e958]:
+                      - generic [ref=e961]:
+                        - paragraph [ref=e963]: RECEPTACULO DUCHA 70X70 CM / ...
+                        - generic [ref=e964]:
+                          - generic [ref=e966]:
+                            - generic [ref=e967]: SKU Seller
+                            - generic [ref=e968]:
+                              - generic [ref=e969]: 010603003-T
+                              - img [ref=e972] [cursor=pointer]
+                          - generic [ref=e975]:
+                            - generic [ref=e976]: SKU Falabella
+                            - generic [ref=e977]:
+                              - generic [ref=e978]: "146192193"
+                              - img [ref=e981] [cursor=pointer]
+                        - generic [ref=e984]:
+                          - paragraph [ref=e985]: "Publicado en:"
+                          - img [ref=e987] [cursor=pointer]
+                          - img [ref=e991] [cursor=pointer]
+                    - cell "12/08/2025" [ref=e997]
+                    - cell "$60.990" [ref=e998]:
+                      - generic [ref=e1001] [cursor=pointer]: $60.990
+                    - cell "-" [ref=e1002]:
+                      - generic [ref=e1005] [cursor=pointer]: "-"
+                    - cell [ref=e1006]
+                    - cell "5" [ref=e1007]:
+                      - generic [ref=e1010] [cursor=pointer]: "5"
+                    - cell [ref=e1011]:
+                      - button [ref=e1013] [cursor=pointer]
+                    - cell [ref=e1015]:
+                      - button [ref=e1018] [cursor=pointer]:
+                        - img [ref=e1019]
+                    - cell "More actions" [ref=e1022]:
+                      - button "More actions" [ref=e1023] [cursor=pointer]:
+                        - img [ref=e1024]
+                  - 'row "Brazo De Ducha Para Plato Acero Inoxidable 40 Cms / ... SKU Seller 010103003-T SKU Falabella 143573675 Publicado en: 11/05/2025 $6.609 - 4 More actions" [ref=e1028]':
+                    - cell [ref=e1029]:
+                      - checkbox [ref=e1032] [cursor=pointer]:
+                        - img [ref=e1033]
+                    - cell "Brazo De Ducha Para Plato Acero Inoxidable 40 Cms / ... SKU Seller 010103003-T SKU Falabella 143573675 Publicado en:" [ref=e1035]:
+                      - generic [ref=e1038]:
+                        - paragraph [ref=e1040]: Brazo De Ducha Para Plato Acero Inoxidable 40 Cms / ...
+                        - generic [ref=e1041]:
+                          - generic [ref=e1043]:
+                            - generic [ref=e1044]: SKU Seller
+                            - generic [ref=e1045]:
+                              - generic [ref=e1046]: 010103003-T
+                              - img [ref=e1049] [cursor=pointer]
+                          - generic [ref=e1052]:
+                            - generic [ref=e1053]: SKU Falabella
+                            - generic [ref=e1054]:
+                              - generic [ref=e1055]: "143573675"
+                              - img [ref=e1058] [cursor=pointer]
+                        - generic [ref=e1061]:
+                          - paragraph [ref=e1062]: "Publicado en:"
+                          - img [ref=e1064] [cursor=pointer]
+                          - img [ref=e1068] [cursor=pointer]
+                    - cell "11/05/2025" [ref=e1074]
+                    - cell "$6.609" [ref=e1075]:
+                      - generic [ref=e1078] [cursor=pointer]: $6.609
+                    - cell "-" [ref=e1079]:
+                      - generic [ref=e1082] [cursor=pointer]: "-"
+                    - cell [ref=e1083]
+                    - cell "4" [ref=e1084]:
+                      - generic [ref=e1087] [cursor=pointer]: "4"
+                    - cell [ref=e1088]:
+                      - button [ref=e1090] [cursor=pointer]
+                    - cell [ref=e1092]:
+                      - button [ref=e1095] [cursor=pointer]:
+                        - img [ref=e1096]
+                    - cell "More actions" [ref=e1099]:
+                      - button "More actions" [ref=e1100] [cursor=pointer]:
+                        - img [ref=e1101]
+                  - 'row "Espejo Redondo Doble Cara Con Aumento X3 Pedestal / ... SKU Seller 010703012-T SKU Falabella 143984865 Publicado en: 25/05/2025 $31.990 - 5 More actions" [ref=e1105]':
+                    - cell [ref=e1106]:
+                      - checkbox [ref=e1109] [cursor=pointer]:
+                        - img [ref=e1110]
+                    - cell "Espejo Redondo Doble Cara Con Aumento X3 Pedestal / ... SKU Seller 010703012-T SKU Falabella 143984865 Publicado en:" [ref=e1112]:
+                      - generic [ref=e1115]:
+                        - paragraph [ref=e1117]: Espejo Redondo Doble Cara Con Aumento X3 Pedestal / ...
+                        - generic [ref=e1118]:
+                          - generic [ref=e1120]:
+                            - generic [ref=e1121]: SKU Seller
+                            - generic [ref=e1122]:
+                              - generic [ref=e1123]: 010703012-T
+                              - img [ref=e1126] [cursor=pointer]
+                          - generic [ref=e1129]:
+                            - generic [ref=e1130]: SKU Falabella
+                            - generic [ref=e1131]:
+                              - generic [ref=e1132]: "143984865"
+                              - img [ref=e1135] [cursor=pointer]
+                        - generic [ref=e1138]:
+                          - paragraph [ref=e1139]: "Publicado en:"
+                          - img [ref=e1141] [cursor=pointer]
+                          - img [ref=e1145] [cursor=pointer]
+                    - cell "25/05/2025" [ref=e1151]
+                    - cell "$31.990" [ref=e1152]:
+                      - generic [ref=e1155] [cursor=pointer]: $31.990
+                    - cell "-" [ref=e1156]:
+                      - generic [ref=e1159] [cursor=pointer]: "-"
+                    - cell [ref=e1160]
+                    - cell "5" [ref=e1161]:
+                      - generic [ref=e1164] [cursor=pointer]: "5"
+                    - cell [ref=e1165]:
+                      - button [ref=e1167] [cursor=pointer]
+                    - cell [ref=e1169]:
+                      - button [ref=e1172] [cursor=pointer]:
+                        - img [ref=e1173]
+                    - cell "More actions" [ref=e1176]:
+                      - button "More actions" [ref=e1177] [cursor=pointer]:
+                        - img [ref=e1178]
+                  - 'row "Lavamanos Lavatorio Temporizada 6 Segundos Gorda / ... SKU Seller 040301001-T SKU Falabella 143984858 Publicado en: Patrocinado 25/05/2025 $26.696 - 4 More actions" [ref=e1182]':
+                    - cell [ref=e1183]:
+                      - checkbox [ref=e1186] [cursor=pointer]:
+                        - img [ref=e1187]
+                    - 'cell "Lavamanos Lavatorio Temporizada 6 Segundos Gorda / ... SKU Seller 040301001-T SKU Falabella 143984858 Publicado en: Patrocinado" [ref=e1189]':
+                      - generic [ref=e1192]:
+                        - paragraph [ref=e1194]: Lavamanos Lavatorio Temporizada 6 Segundos Gorda / ...
+                        - generic [ref=e1195]:
+                          - generic [ref=e1197]:
+                            - generic [ref=e1198]: SKU Seller
+                            - generic [ref=e1199]:
+                              - generic [ref=e1200]: 040301001-T
+                              - img [ref=e1203] [cursor=pointer]
+                          - generic [ref=e1206]:
+                            - generic [ref=e1207]: SKU Falabella
+                            - generic [ref=e1208]:
+                              - generic [ref=e1209]: "143984858"
+                              - img [ref=e1212] [cursor=pointer]
+                        - generic [ref=e1214]:
+                          - generic [ref=e1215]:
+                            - paragraph [ref=e1216]: "Publicado en:"
+                            - img [ref=e1218] [cursor=pointer]
+                            - img [ref=e1222] [cursor=pointer]
+                          - generic [ref=e1229]: Patrocinado
+                    - cell "25/05/2025" [ref=e1230]
+                    - cell "$26.696" [ref=e1231]:
+                      - generic [ref=e1234] [cursor=pointer]: $26.696
+                    - cell "-" [ref=e1235]:
+                      - generic [ref=e1238] [cursor=pointer]: "-"
+                    - cell [ref=e1239]
+                    - cell "4" [ref=e1240]:
+                      - generic [ref=e1243] [cursor=pointer]: "4"
+                    - cell [ref=e1244]:
+                      - button [ref=e1246] [cursor=pointer]
+                    - cell [ref=e1248]:
+                      - button [ref=e1251] [cursor=pointer]:
+                        - img [ref=e1252]
+                    - cell "More actions" [ref=e1256]:
+                      - button "More actions" [ref=e1257] [cursor=pointer]:
+                        - img [ref=e1258]
+                  - 'row "Monomando Lavatorio Notte / ... SKU Seller 040202001-T SKU Falabella 143984290 Publicado en: 25/05/2025 $39.385 - 4 More actions" [ref=e1262]':
+                    - cell [ref=e1263]:
+                      - checkbox [ref=e1266] [cursor=pointer]:
+                        - img [ref=e1267]
+                    - cell "Monomando Lavatorio Notte / ... SKU Seller 040202001-T SKU Falabella 143984290 Publicado en:" [ref=e1269]:
+                      - generic [ref=e1272]:
+                        - paragraph [ref=e1274]: Monomando Lavatorio Notte / ...
+                        - generic [ref=e1275]:
+                          - generic [ref=e1277]:
+                            - generic [ref=e1278]: SKU Seller
+                            - generic [ref=e1279]:
+                              - generic [ref=e1280]: 040202001-T
+                              - img [ref=e1283] [cursor=pointer]
+                          - generic [ref=e1286]:
+                            - generic [ref=e1287]: SKU Falabella
+                            - generic [ref=e1288]:
+                              - generic [ref=e1289]: "143984290"
+                              - img [ref=e1292] [cursor=pointer]
+                        - generic [ref=e1295]:
+                          - paragraph [ref=e1296]: "Publicado en:"
+                          - img [ref=e1298] [cursor=pointer]
+                          - img [ref=e1302] [cursor=pointer]
+                    - cell "25/05/2025" [ref=e1308]
+                    - cell "$39.385" [ref=e1309]:
+                      - generic [ref=e1312] [cursor=pointer]: $39.385
+                    - cell "-" [ref=e1313]:
+                      - generic [ref=e1316] [cursor=pointer]: "-"
+                    - cell [ref=e1317]
+                    - cell "4" [ref=e1318]:
+                      - generic [ref=e1321] [cursor=pointer]: "4"
+                    - cell [ref=e1322]:
+                      - button [ref=e1324] [cursor=pointer]
+                    - cell [ref=e1326]:
+                      - button [ref=e1329] [cursor=pointer]:
+                        - img [ref=e1330]
+                    - cell "More actions" [ref=e1333]:
+                      - button "More actions" [ref=e1334] [cursor=pointer]:
+                        - img [ref=e1335]
+                  - 'row "Lavaplatos Sobreponer 80x50 Inoxidable Izquierdo / ... SKU Seller 020102002-T SKU Falabella 143984197 Publicado en: 25/05/2025 $37.990 - 5 More actions" [ref=e1339]':
+                    - cell [ref=e1340]:
+                      - checkbox [ref=e1343] [cursor=pointer]:
+                        - img [ref=e1344]
+                    - cell "Lavaplatos Sobreponer 80x50 Inoxidable Izquierdo / ... SKU Seller 020102002-T SKU Falabella 143984197 Publicado en:" [ref=e1346]:
+                      - generic [ref=e1349]:
+                        - paragraph [ref=e1351]: Lavaplatos Sobreponer 80x50 Inoxidable Izquierdo / ...
+                        - generic [ref=e1352]:
+                          - generic [ref=e1354]:
+                            - generic [ref=e1355]: SKU Seller
+                            - generic [ref=e1356]:
+                              - generic [ref=e1357]: 020102002-T
+                              - img [ref=e1360] [cursor=pointer]
+                          - generic [ref=e1363]:
+                            - generic [ref=e1364]: SKU Falabella
+                            - generic [ref=e1365]:
+                              - generic [ref=e1366]: "143984197"
+                              - img [ref=e1369] [cursor=pointer]
+                        - generic [ref=e1372]:
+                          - paragraph [ref=e1373]: "Publicado en:"
+                          - img [ref=e1375] [cursor=pointer]
+                          - img [ref=e1379] [cursor=pointer]
+                    - cell "25/05/2025" [ref=e1385]
+                    - cell "$37.990" [ref=e1386]:
+                      - generic [ref=e1389] [cursor=pointer]: $37.990
+                    - cell "-" [ref=e1390]:
+                      - generic [ref=e1393] [cursor=pointer]: "-"
+                    - cell [ref=e1394]
+                    - cell "5" [ref=e1395]:
+                      - generic [ref=e1398] [cursor=pointer]: "5"
+                    - cell [ref=e1399]:
+                      - button [ref=e1401] [cursor=pointer]
+                    - cell [ref=e1403]:
+                      - button [ref=e1406] [cursor=pointer]:
+                        - img [ref=e1407]
+                    - cell "More actions" [ref=e1410]:
+                      - button "More actions" [ref=e1411] [cursor=pointer]:
+                        - img [ref=e1412]
+                  - 'row "Espejo Redondo Doble Cara Con Aumento X3 Al Muro / ... SKU Seller 010703011-T SKU Falabella 143565698 Publicado en: 10/05/2025 $47.990 - 5 More actions" [ref=e1416]':
+                    - cell [ref=e1417]:
+                      - checkbox [ref=e1420] [cursor=pointer]:
+                        - img [ref=e1421]
+                    - cell "Espejo Redondo Doble Cara Con Aumento X3 Al Muro / ... SKU Seller 010703011-T SKU Falabella 143565698 Publicado en:" [ref=e1423]:
+                      - generic [ref=e1426]:
+                        - paragraph [ref=e1428]: Espejo Redondo Doble Cara Con Aumento X3 Al Muro / ...
+                        - generic [ref=e1429]:
+                          - generic [ref=e1431]:
+                            - generic [ref=e1432]: SKU Seller
+                            - generic [ref=e1433]:
+                              - generic [ref=e1434]: 010703011-T
+                              - img [ref=e1437] [cursor=pointer]
+                          - generic [ref=e1440]:
+                            - generic [ref=e1441]: SKU Falabella
+                            - generic [ref=e1442]:
+                              - generic [ref=e1443]: "143565698"
+                              - img [ref=e1446] [cursor=pointer]
+                        - generic [ref=e1449]:
+                          - paragraph [ref=e1450]: "Publicado en:"
+                          - img [ref=e1452] [cursor=pointer]
+                          - img [ref=e1456] [cursor=pointer]
+                    - cell "10/05/2025" [ref=e1462]
+                    - cell "$47.990" [ref=e1463]:
+                      - generic [ref=e1466] [cursor=pointer]: $47.990
+                    - cell "-" [ref=e1467]:
+                      - generic [ref=e1470] [cursor=pointer]: "-"
+                    - cell [ref=e1471]
+                    - cell "5" [ref=e1472]:
+                      - generic [ref=e1475] [cursor=pointer]: "5"
+                    - cell [ref=e1476]:
+                      - button [ref=e1478] [cursor=pointer]
+                    - cell [ref=e1480]:
+                      - button [ref=e1483] [cursor=pointer]:
+                        - img [ref=e1484]
+                    - cell "More actions" [ref=e1487]:
+                      - button "More actions" [ref=e1488] [cursor=pointer]:
+                        - img [ref=e1489]
+                  - 'row "Dispensador De Jabón Para Lavaplatos Cuerpo Inoxidable 330ml / ... SKU Seller 010701008-T SKU Falabella 143566374 Publicado en: Patrocinado 10/05/2025 $23.990 - Agregar más imágenes 5 More actions" [ref=e1493]':
+                    - cell [ref=e1494]:
+                      - checkbox [ref=e1497] [cursor=pointer]:
+                        - img [ref=e1498]
+                    - 'cell "Dispensador De Jabón Para Lavaplatos Cuerpo Inoxidable 330ml / ... SKU Seller 010701008-T SKU Falabella 143566374 Publicado en: Patrocinado" [ref=e1500]':
+                      - generic [ref=e1503]:
+                        - paragraph [ref=e1505]: Dispensador De Jabón Para Lavaplatos Cuerpo Inoxidable 330ml / ...
+                        - generic [ref=e1506]:
+                          - generic [ref=e1508]:
+                            - generic [ref=e1509]: SKU Seller
+                            - generic [ref=e1510]:
+                              - generic [ref=e1511]: 010701008-T
+                              - img [ref=e1514] [cursor=pointer]
+                          - generic [ref=e1517]:
+                            - generic [ref=e1518]: SKU Falabella
+                            - generic [ref=e1519]:
+                              - generic [ref=e1520]: "143566374"
+                              - img [ref=e1523] [cursor=pointer]
+                        - generic [ref=e1525]:
+                          - generic [ref=e1526]:
+                            - paragraph [ref=e1527]: "Publicado en:"
+                            - img [ref=e1529] [cursor=pointer]
+                            - img [ref=e1533] [cursor=pointer]
+                          - generic [ref=e1540]: Patrocinado
+                    - cell "10/05/2025" [ref=e1541]
+                    - cell "$23.990" [ref=e1542]:
+                      - generic [ref=e1545] [cursor=pointer]: $23.990
+                    - cell "-" [ref=e1546]:
+                      - generic [ref=e1549] [cursor=pointer]: "-"
+                    - cell "Agregar más imágenes" [ref=e1550]:
+                      - button "Agregar más imágenes" [ref=e1552] [cursor=pointer]:
+                        - generic:
+                          - img [ref=e1553]
+                          - generic [ref=e1558]: Agregar más imágenes
+                    - cell "5" [ref=e1559]:
+                      - generic [ref=e1562] [cursor=pointer]: "5"
+                    - cell [ref=e1563]:
+                      - button [ref=e1565] [cursor=pointer]
+                    - cell [ref=e1567]:
+                      - button [ref=e1570] [cursor=pointer]:
+                        - img [ref=e1571]
+                    - cell "More actions" [ref=e1574]:
+                      - button "More actions" [ref=e1575] [cursor=pointer]:
+                        - img [ref=e1576]
+                  - 'row "Lavaplatos Sobreponer 80x50 Inoxidable Derecho / ... SKU Seller 020102001-T SKU Falabella 143564418 Publicado en: 10/05/2025 $37.990 - 5 More actions" [ref=e1580]':
+                    - cell [ref=e1581]:
+                      - checkbox [ref=e1584] [cursor=pointer]:
+                        - img [ref=e1585]
+                    - cell "Lavaplatos Sobreponer 80x50 Inoxidable Derecho / ... SKU Seller 020102001-T SKU Falabella 143564418 Publicado en:" [ref=e1587]:
+                      - generic [ref=e1590]:
+                        - paragraph [ref=e1592]: Lavaplatos Sobreponer 80x50 Inoxidable Derecho / ...
+                        - generic [ref=e1593]:
+                          - generic [ref=e1595]:
+                            - generic [ref=e1596]: SKU Seller
+                            - generic [ref=e1597]:
+                              - generic [ref=e1598]: 020102001-T
+                              - img [ref=e1601] [cursor=pointer]
+                          - generic [ref=e1604]:
+                            - generic [ref=e1605]: SKU Falabella
+                            - generic [ref=e1606]:
+                              - generic [ref=e1607]: "143564418"
+                              - img [ref=e1610] [cursor=pointer]
+                        - generic [ref=e1613]:
+                          - paragraph [ref=e1614]: "Publicado en:"
+                          - img [ref=e1616] [cursor=pointer]
+                          - img [ref=e1620] [cursor=pointer]
+                    - cell "10/05/2025" [ref=e1626]
+                    - cell "$37.990" [ref=e1627]:
+                      - generic [ref=e1630] [cursor=pointer]: $37.990
+                    - cell "-" [ref=e1631]:
+                      - generic [ref=e1634] [cursor=pointer]: "-"
+                    - cell [ref=e1635]
+                    - cell "5" [ref=e1636]:
+                      - generic [ref=e1639] [cursor=pointer]: "5"
+                    - cell [ref=e1640]:
+                      - button [ref=e1642] [cursor=pointer]
+                    - cell [ref=e1644]:
+                      - button [ref=e1647] [cursor=pointer]:
+                        - img [ref=e1648]
+                    - cell "More actions" [ref=e1651]:
+                      - button "More actions" [ref=e1652] [cursor=pointer]:
+                        - img [ref=e1653]
+                  - 'row "Lavaplatos Derecho Empotrado Simple 80x44 cm / ... SKU Seller 020101003-T SKU Falabella 142971502 Publicado en: Patrocinado 11/04/2025 $79.990 - 23 More actions" [ref=e1657]':
+                    - cell [ref=e1658]:
+                      - checkbox [ref=e1661] [cursor=pointer]:
+                        - img [ref=e1662]
+                    - 'cell "Lavaplatos Derecho Empotrado Simple 80x44 cm / ... SKU Seller 020101003-T SKU Falabella 142971502 Publicado en: Patrocinado" [ref=e1664]':
+                      - generic [ref=e1667]:
+                        - paragraph [ref=e1669]: Lavaplatos Derecho Empotrado Simple 80x44 cm / ...
+                        - generic [ref=e1670]:
+                          - generic [ref=e1672]:
+                            - generic [ref=e1673]: SKU Seller
+                            - generic [ref=e1674]:
+                              - generic [ref=e1675]: 020101003-T
+                              - img [ref=e1678] [cursor=pointer]
+                          - generic [ref=e1681]:
+                            - generic [ref=e1682]: SKU Falabella
+                            - generic [ref=e1683]:
+                              - generic [ref=e1684]: "142971502"
+                              - img [ref=e1687] [cursor=pointer]
+                        - generic [ref=e1689]:
+                          - generic [ref=e1690]:
+                            - paragraph [ref=e1691]: "Publicado en:"
+                            - img [ref=e1693] [cursor=pointer]
+                            - img [ref=e1697] [cursor=pointer]
+                          - generic [ref=e1704]: Patrocinado
+                    - cell "11/04/2025" [ref=e1705]
+                    - cell "$79.990" [ref=e1706]:
+                      - generic [ref=e1709] [cursor=pointer]: $79.990
+                    - cell "-" [ref=e1710]:
+                      - generic [ref=e1713] [cursor=pointer]: "-"
+                    - cell [ref=e1714]
+                    - cell "23" [ref=e1715]:
+                      - generic [ref=e1718] [cursor=pointer]: "23"
+                    - cell [ref=e1719]:
+                      - button [ref=e1721] [cursor=pointer]
+                    - cell [ref=e1723]:
+                      - button [ref=e1726] [cursor=pointer]:
+                        - img [ref=e1727]
+                    - cell "More actions" [ref=e1730]:
+                      - button "More actions" [ref=e1731] [cursor=pointer]:
+                        - img [ref=e1732]
+                  - 'row "Monomando de lavaplatos Cuello Flexible / ... SKU Seller 040201001-T SKU Falabella 143564134 Publicado en: 10/05/2025 $44.417 - 3 More actions" [ref=e1736]':
+                    - cell [ref=e1737]:
+                      - checkbox [ref=e1740] [cursor=pointer]:
+                        - img [ref=e1741]
+                    - cell "Monomando de lavaplatos Cuello Flexible / ... SKU Seller 040201001-T SKU Falabella 143564134 Publicado en:" [ref=e1743]:
+                      - generic [ref=e1746]:
+                        - paragraph [ref=e1748]: Monomando de lavaplatos Cuello Flexible / ...
+                        - generic [ref=e1749]:
+                          - generic [ref=e1751]:
+                            - generic [ref=e1752]: SKU Seller
+                            - generic [ref=e1753]:
+                              - generic [ref=e1754]: 040201001-T
+                              - img [ref=e1757] [cursor=pointer]
+                          - generic [ref=e1760]:
+                            - generic [ref=e1761]: SKU Falabella
+                            - generic [ref=e1762]:
+                              - generic [ref=e1763]: "143564134"
+                              - img [ref=e1766] [cursor=pointer]
+                        - generic [ref=e1769]:
+                          - paragraph [ref=e1770]: "Publicado en:"
+                          - img [ref=e1772] [cursor=pointer]
+                          - img [ref=e1776] [cursor=pointer]
+                    - cell "10/05/2025" [ref=e1782]
+                    - cell "$44.417" [ref=e1783]:
+                      - generic [ref=e1786] [cursor=pointer]: $44.417
+                    - cell "-" [ref=e1787]:
+                      - generic [ref=e1790] [cursor=pointer]: "-"
+                    - cell [ref=e1791]
+                    - cell "3" [ref=e1792]:
+                      - generic [ref=e1795] [cursor=pointer]: "3"
+                    - cell [ref=e1796]:
+                      - button [ref=e1798] [cursor=pointer]
+                    - cell [ref=e1800]:
+                      - button [ref=e1803] [cursor=pointer]:
+                        - img [ref=e1804]
+                    - cell "More actions" [ref=e1808]:
+                      - button "More actions" [ref=e1809] [cursor=pointer]:
+                        - img [ref=e1810]
+                  - 'row "Lavaplatos Lavacopas Bajo Cubierta Acero Inoxidable 44x39x20 Cm / ... SKU Seller 020103001-T SKU Falabella 142970869 Publicado en: 11/04/2025 $50.990 - Agregar más imágenes 4 More actions" [ref=e1814]':
+                    - cell [ref=e1815]:
+                      - checkbox [ref=e1818] [cursor=pointer]:
+                        - img [ref=e1819]
+                    - cell "Lavaplatos Lavacopas Bajo Cubierta Acero Inoxidable 44x39x20 Cm / ... SKU Seller 020103001-T SKU Falabella 142970869 Publicado en:" [ref=e1821]:
+                      - generic [ref=e1824]:
+                        - paragraph [ref=e1826]: Lavaplatos Lavacopas Bajo Cubierta Acero Inoxidable 44x39x20 Cm / ...
+                        - generic [ref=e1827]:
+                          - generic [ref=e1829]:
+                            - generic [ref=e1830]: SKU Seller
+                            - generic [ref=e1831]:
+                              - generic [ref=e1832]: 020103001-T
+                              - img [ref=e1835] [cursor=pointer]
+                          - generic [ref=e1838]:
+                            - generic [ref=e1839]: SKU Falabella
+                            - generic [ref=e1840]:
+                              - generic [ref=e1841]: "142970869"
+                              - img [ref=e1844] [cursor=pointer]
+                        - generic [ref=e1847]:
+                          - paragraph [ref=e1848]: "Publicado en:"
+                          - img [ref=e1850] [cursor=pointer]
+                          - img [ref=e1854] [cursor=pointer]
+                    - cell "11/04/2025" [ref=e1860]
+                    - cell "$50.990" [ref=e1861]:
+                      - generic [ref=e1864] [cursor=pointer]: $50.990
+                    - cell "-" [ref=e1865]:
+                      - generic [ref=e1868] [cursor=pointer]: "-"
+                    - cell "Agregar más imágenes" [ref=e1869]:
+                      - button "Agregar más imágenes" [ref=e1871] [cursor=pointer]:
+                        - generic:
+                          - img [ref=e1872]
+                          - generic [ref=e1877]: Agregar más imágenes
+                    - cell "4" [ref=e1878]:
+                      - generic [ref=e1881] [cursor=pointer]: "4"
+                    - cell [ref=e1882]:
+                      - button [ref=e1884] [cursor=pointer]
+                    - cell [ref=e1886]:
+                      - button [ref=e1889] [cursor=pointer]:
+                        - img [ref=e1890]
+                    - cell "More actions" [ref=e1893]:
+                      - button "More actions" [ref=e1894] [cursor=pointer]:
+                        - img [ref=e1895]
+                  - 'row "Bandeja Organizadora Perforada Para Lavaplatos 44x26 / ... SKU Seller 020201003-T SKU Falabella 146225334 Publicado en: Patrocinado 13/08/2025 $39.990 - 4 More actions" [ref=e1899]':
+                    - cell [ref=e1900]:
+                      - checkbox [ref=e1903] [cursor=pointer]:
+                        - img [ref=e1904]
+                    - 'cell "Bandeja Organizadora Perforada Para Lavaplatos 44x26 / ... SKU Seller 020201003-T SKU Falabella 146225334 Publicado en: Patrocinado" [ref=e1906]':
+                      - generic [ref=e1909]:
+                        - paragraph [ref=e1911]: Bandeja Organizadora Perforada Para Lavaplatos 44x26 / ...
+                        - generic [ref=e1912]:
+                          - generic [ref=e1914]:
+                            - generic [ref=e1915]: SKU Seller
+                            - generic [ref=e1916]:
+                              - generic [ref=e1917]: 020201003-T
+                              - img [ref=e1920] [cursor=pointer]
+                          - generic [ref=e1923]:
+                            - generic [ref=e1924]: SKU Falabella
+                            - generic [ref=e1925]:
+                              - generic [ref=e1926]: "146225334"
+                              - img [ref=e1929] [cursor=pointer]
+                        - generic [ref=e1931]:
+                          - generic [ref=e1932]:
+                            - paragraph [ref=e1933]: "Publicado en:"
+                            - img [ref=e1935] [cursor=pointer]
+                            - img [ref=e1939] [cursor=pointer]
+                          - generic [ref=e1946]: Patrocinado
+                    - cell "13/08/2025" [ref=e1947]
+                    - cell "$39.990" [ref=e1948]:
+                      - generic [ref=e1951] [cursor=pointer]: $39.990
+                    - cell "-" [ref=e1952]:
+                      - generic [ref=e1955] [cursor=pointer]: "-"
+                    - cell [ref=e1956]
+                    - cell "4" [ref=e1957]:
+                      - generic [ref=e1960] [cursor=pointer]: "4"
+                    - cell [ref=e1961]:
+                      - button [ref=e1963] [cursor=pointer]
+                    - cell [ref=e1965]:
+                      - button [ref=e1968] [cursor=pointer]:
+                        - img [ref=e1969]
+                    - cell "More actions" [ref=e1972]:
+                      - button "More actions" [ref=e1973] [cursor=pointer]:
+                        - img [ref=e1974]
+                  - 'row "BANDEJA PARA LAVAPLATOS HANNOVER / ... SKU Seller 020201004-C SKU Falabella 146824879 Publicado en: 02/09/2025 $49.990 $29.900 0 More actions" [ref=e1978]':
+                    - cell [ref=e1979]:
+                      - checkbox [ref=e1982] [cursor=pointer]:
+                        - img [ref=e1983]
+                    - cell "BANDEJA PARA LAVAPLATOS HANNOVER / ... SKU Seller 020201004-C SKU Falabella 146824879 Publicado en:" [ref=e1985]:
+                      - generic [ref=e1988]:
+                        - paragraph [ref=e1990]: BANDEJA PARA LAVAPLATOS HANNOVER / ...
+                        - generic [ref=e1991]:
+                          - generic [ref=e1993]:
+                            - generic [ref=e1994]: SKU Seller
+                            - generic [ref=e1995]:
+                              - generic [ref=e1996]: 020201004-C
+                              - img [ref=e1999] [cursor=pointer]
+                          - generic [ref=e2002]:
+                            - generic [ref=e2003]: SKU Falabella
+                            - generic [ref=e2004]:
+                              - generic [ref=e2005]: "146824879"
+                              - img [ref=e2008] [cursor=pointer]
+                        - generic [ref=e2011]:
+                          - paragraph [ref=e2012]: "Publicado en:"
+                          - img [ref=e2014] [cursor=pointer]
+                          - img [ref=e2018] [cursor=pointer]
+                    - cell "02/09/2025" [ref=e2024]
+                    - cell "$49.990" [ref=e2025]:
+                      - generic [ref=e2028] [cursor=pointer]: $49.990
+                    - cell "$29.900" [ref=e2029]:
+                      - generic [ref=e2032] [cursor=pointer]: $29.900
+                    - cell [ref=e2033]
+                    - cell "0" [ref=e2034]:
+                      - generic [ref=e2037] [cursor=pointer]: "0"
+                    - cell [ref=e2038]:
+                      - button [ref=e2040] [cursor=pointer]
+                    - cell [ref=e2042]:
+                      - button [ref=e2045] [cursor=pointer]:
+                        - img [ref=e2046]
+                    - cell "More actions" [ref=e2050]:
+                      - button "More actions" [ref=e2051] [cursor=pointer]:
+                        - img [ref=e2052]
+                  - 'row "Barra De Seguridad Muro Suelo De 3 Apoyo Para Wc / ... SKU Seller 010102007-C SKU Falabella 143037418 Publicado en: 14/04/2025 $39.868 - 7 More actions" [ref=e2056]':
+                    - cell [ref=e2057]:
+                      - checkbox [ref=e2060] [cursor=pointer]:
+                        - img [ref=e2061]
+                    - cell "Barra De Seguridad Muro Suelo De 3 Apoyo Para Wc / ... SKU Seller 010102007-C SKU Falabella 143037418 Publicado en:" [ref=e2063]:
+                      - generic [ref=e2066]:
+                        - paragraph [ref=e2068]: Barra De Seguridad Muro Suelo De 3 Apoyo Para Wc / ...
+                        - generic [ref=e2069]:
+                          - generic [ref=e2071]:
+                            - generic [ref=e2072]: SKU Seller
+                            - generic [ref=e2073]:
+                              - generic [ref=e2074]: 010102007-C
+                              - img [ref=e2077] [cursor=pointer]
+                          - generic [ref=e2080]:
+                            - generic [ref=e2081]: SKU Falabella
+                            - generic [ref=e2082]:
+                              - generic [ref=e2083]: "143037418"
+                              - img [ref=e2086] [cursor=pointer]
+                        - generic [ref=e2089]:
+                          - paragraph [ref=e2090]: "Publicado en:"
+                          - img [ref=e2092] [cursor=pointer]
+                          - img [ref=e2096] [cursor=pointer]
+                    - cell "14/04/2025" [ref=e2102]
+                    - cell "$39.868" [ref=e2103]:
+                      - generic [ref=e2106] [cursor=pointer]: $39.868
+                    - cell "-" [ref=e2107]:
+                      - generic [ref=e2110] [cursor=pointer]: "-"
+                    - cell [ref=e2111]
+                    - cell "7" [ref=e2112]:
+                      - generic [ref=e2115] [cursor=pointer]: "7"
+                    - cell [ref=e2116]:
+                      - button [ref=e2118] [cursor=pointer]
+                    - cell [ref=e2120]:
+                      - button [ref=e2123] [cursor=pointer]:
+                        - img [ref=e2124]
+                    - cell "More actions" [ref=e2127]:
+                      - button "More actions" [ref=e2128] [cursor=pointer]:
+                        - img [ref=e2129]
+                  - 'row "Barra De Seguridad Al Muro Abatible 78 Cm / ... SKU Seller 010102002-T SKU Falabella 142964383 Publicado en: 11/04/2025 $79.838 - 6 More actions" [ref=e2133]':
+                    - cell [ref=e2134]:
+                      - checkbox [ref=e2137] [cursor=pointer]:
+                        - img [ref=e2138]
+                    - cell "Barra De Seguridad Al Muro Abatible 78 Cm / ... SKU Seller 010102002-T SKU Falabella 142964383 Publicado en:" [ref=e2140]:
+                      - generic [ref=e2143]:
+                        - paragraph [ref=e2145]: Barra De Seguridad Al Muro Abatible 78 Cm / ...
+                        - generic [ref=e2146]:
+                          - generic [ref=e2148]:
+                            - generic [ref=e2149]: SKU Seller
+                            - generic [ref=e2150]:
+                              - generic [ref=e2151]: 010102002-T
+                              - img [ref=e2154] [cursor=pointer]
+                          - generic [ref=e2157]:
+                            - generic [ref=e2158]: SKU Falabella
+                            - generic [ref=e2159]:
+                              - generic [ref=e2160]: "142964383"
+                              - img [ref=e2163] [cursor=pointer]
+                        - generic [ref=e2166]:
+                          - paragraph [ref=e2167]: "Publicado en:"
+                          - img [ref=e2169] [cursor=pointer]
+                          - img [ref=e2173] [cursor=pointer]
+                    - cell "11/04/2025" [ref=e2179]
+                    - cell "$79.838" [ref=e2180]:
+                      - generic [ref=e2183] [cursor=pointer]: $79.838
+                    - cell "-" [ref=e2184]:
+                      - generic [ref=e2187] [cursor=pointer]: "-"
+                    - cell [ref=e2188]
+                    - cell "6" [ref=e2189]:
+                      - generic [ref=e2192] [cursor=pointer]: "6"
+                    - cell [ref=e2193]:
+                      - button [ref=e2195] [cursor=pointer]
+                    - cell [ref=e2197]:
+                      - button [ref=e2200] [cursor=pointer]:
+                        - img [ref=e2201]
+                    - cell "More actions" [ref=e2204]:
+                      - button "More actions" [ref=e2205] [cursor=pointer]:
+                        - img [ref=e2206]
+                  - 'row "Lavaplatos Simple Secador Izquierdo 100x44cm / ... SKU Seller 020101002-T SKU Falabella 142964976 Publicado en: Patrocinado 11/04/2025 $87.990 - 10 More actions" [ref=e2210]':
+                    - cell [ref=e2211]:
+                      - checkbox [ref=e2214] [cursor=pointer]:
+                        - img [ref=e2215]
+                    - 'cell "Lavaplatos Simple Secador Izquierdo 100x44cm / ... SKU Seller 020101002-T SKU Falabella 142964976 Publicado en: Patrocinado" [ref=e2217]':
+                      - generic [ref=e2220]:
+                        - paragraph [ref=e2222]: Lavaplatos Simple Secador Izquierdo 100x44cm / ...
+                        - generic [ref=e2223]:
+                          - generic [ref=e2225]:
+                            - generic [ref=e2226]: SKU Seller
+                            - generic [ref=e2227]:
+                              - generic [ref=e2228]: 020101002-T
+                              - img [ref=e2231] [cursor=pointer]
+                          - generic [ref=e2234]:
+                            - generic [ref=e2235]: SKU Falabella
+                            - generic [ref=e2236]:
+                              - generic [ref=e2237]: "142964976"
+                              - img [ref=e2240] [cursor=pointer]
+                        - generic [ref=e2242]:
+                          - generic [ref=e2243]:
+                            - paragraph [ref=e2244]: "Publicado en:"
+                            - img [ref=e2246] [cursor=pointer]
+                            - img [ref=e2250] [cursor=pointer]
+                          - generic [ref=e2257]: Patrocinado
+                    - cell "11/04/2025" [ref=e2258]
+                    - cell "$87.990" [ref=e2259]:
+                      - generic [ref=e2262] [cursor=pointer]: $87.990
+                    - cell "-" [ref=e2263]:
+                      - generic [ref=e2266] [cursor=pointer]: "-"
+                    - cell [ref=e2267]
+                    - cell "10" [ref=e2268]:
+                      - generic [ref=e2271] [cursor=pointer]: "10"
+                    - cell [ref=e2272]:
+                      - button [ref=e2274] [cursor=pointer]
+                    - cell [ref=e2276]:
+                      - button [ref=e2279] [cursor=pointer]:
+                        - img [ref=e2280]
+                    - cell "More actions" [ref=e2283]:
+                      - button "More actions" [ref=e2284] [cursor=pointer]:
+                        - img [ref=e2285]
+                  - 'row "Asiento Con Tapa Wc Eco Ovalada Blanco Blanco / ... SKU Seller 210000990-T SKU Falabella 152323910 Publicado en: Patrocinado 16/03/2026 $15.990 - 10 More actions" [ref=e2289]':
+                    - cell [ref=e2290]:
+                      - checkbox [ref=e2293] [cursor=pointer]:
+                        - img [ref=e2294]
+                    - 'cell "Asiento Con Tapa Wc Eco Ovalada Blanco Blanco / ... SKU Seller 210000990-T SKU Falabella 152323910 Publicado en: Patrocinado" [ref=e2296]':
+                      - generic [ref=e2299]:
+                        - paragraph [ref=e2301]: Asiento Con Tapa Wc Eco Ovalada Blanco Blanco / ...
+                        - generic [ref=e2302]:
+                          - generic [ref=e2304]:
+                            - generic [ref=e2305]: SKU Seller
+                            - generic [ref=e2306]:
+                              - generic [ref=e2307]: 210000990-T
+                              - img [ref=e2310] [cursor=pointer]
+                          - generic [ref=e2313]:
+                            - generic [ref=e2314]: SKU Falabella
+                            - generic [ref=e2315]:
+                              - generic [ref=e2316]: "152323910"
+                              - img [ref=e2319] [cursor=pointer]
+                        - generic [ref=e2321]:
+                          - generic [ref=e2322]:
+                            - paragraph [ref=e2323]: "Publicado en:"
+                            - img [ref=e2325] [cursor=pointer]
+                            - img [ref=e2329] [cursor=pointer]
+                          - generic [ref=e2336]: Patrocinado
+                    - cell "16/03/2026" [ref=e2337]
+                    - cell "$15.990" [ref=e2338]:
+                      - generic [ref=e2341] [cursor=pointer]: $15.990
+                    - cell "-" [ref=e2342]:
+                      - generic [ref=e2345] [cursor=pointer]: "-"
+                    - cell [ref=e2346]
+                    - cell "10" [ref=e2347]:
+                      - generic [ref=e2350] [cursor=pointer]: "10"
+                    - cell [ref=e2351]:
+                      - button [ref=e2353] [cursor=pointer]
+                    - cell [ref=e2355]:
+                      - button [ref=e2358] [cursor=pointer]:
+                        - img [ref=e2359]
+                    - cell "More actions" [ref=e2362]:
+                      - button "More actions" [ref=e2363] [cursor=pointer]:
+                        - img [ref=e2364]
+                  - 'row "Monomando Lavacopas Inoxidable Agua Fria o Caliente / ... SKU Seller 020103006-T SKU Falabella 143564811 Publicado en: 10/05/2025 $29.990 - 13 More actions" [ref=e2368]':
+                    - cell [ref=e2369]:
+                      - checkbox [ref=e2372] [cursor=pointer]:
+                        - img [ref=e2373]
+                    - cell "Monomando Lavacopas Inoxidable Agua Fria o Caliente / ... SKU Seller 020103006-T SKU Falabella 143564811 Publicado en:" [ref=e2375]:
+                      - generic [ref=e2378]:
+                        - paragraph [ref=e2380]: Monomando Lavacopas Inoxidable Agua Fria o Caliente / ...
+                        - generic [ref=e2381]:
+                          - generic [ref=e2383]:
+                            - generic [ref=e2384]: SKU Seller
+                            - generic [ref=e2385]:
+                              - generic [ref=e2386]: 020103006-T
+                              - img [ref=e2389] [cursor=pointer]
+                          - generic [ref=e2392]:
+                            - generic [ref=e2393]: SKU Falabella
+                            - generic [ref=e2394]:
+                              - generic [ref=e2395]: "143564811"
+                              - img [ref=e2398] [cursor=pointer]
+                        - generic [ref=e2401]:
+                          - paragraph [ref=e2402]: "Publicado en:"
+                          - img [ref=e2404] [cursor=pointer]
+                          - img [ref=e2408] [cursor=pointer]
+                    - cell "10/05/2025" [ref=e2414]
+                    - cell "$29.990" [ref=e2415]:
+                      - generic [ref=e2418] [cursor=pointer]: $29.990
+                    - cell "-" [ref=e2419]:
+                      - generic [ref=e2422] [cursor=pointer]: "-"
+                    - cell [ref=e2423]
+                    - cell "13" [ref=e2424]:
+                      - generic [ref=e2427] [cursor=pointer]: "13"
+                    - cell [ref=e2428]:
+                      - button [ref=e2430] [cursor=pointer]
+                    - cell [ref=e2432]:
+                      - button [ref=e2435] [cursor=pointer]:
+                        - img [ref=e2436]
+                    - cell "More actions" [ref=e2439]:
+                      - button "More actions" [ref=e2440] [cursor=pointer]:
+                        - img [ref=e2441]
+                  - 'row "Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple / ... SKU Seller 020101001-T SKU Falabella 142969895 Publicado en: Patrocinado 11/04/2025 $87.990 - 1 More actions" [ref=e2445]':
+                    - cell [ref=e2446]:
+                      - checkbox [ref=e2449] [cursor=pointer]:
+                        - img [ref=e2450]
+                    - 'cell "Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple / ... SKU Seller 020101001-T SKU Falabella 142969895 Publicado en: Patrocinado" [ref=e2452]':
+                      - generic [ref=e2455]:
+                        - paragraph [ref=e2457]: Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple / ...
+                        - generic [ref=e2458]:
+                          - generic [ref=e2460]:
+                            - generic [ref=e2461]: SKU Seller
+                            - generic [ref=e2462]:
+                              - generic [ref=e2463]: 020101001-T
+                              - img [ref=e2466] [cursor=pointer]
+                          - generic [ref=e2469]:
+                            - generic [ref=e2470]: SKU Falabella
+                            - generic [ref=e2471]:
+                              - generic [ref=e2472]: "142969895"
+                              - img [ref=e2475] [cursor=pointer]
+                        - generic [ref=e2477]:
+                          - generic [ref=e2478]:
+                            - paragraph [ref=e2479]: "Publicado en:"
+                            - img [ref=e2481] [cursor=pointer]
+                            - img [ref=e2485] [cursor=pointer]
+                          - generic [ref=e2492]: Patrocinado
+                    - cell "11/04/2025" [ref=e2493]
+                    - cell "$87.990" [ref=e2494]:
+                      - generic [ref=e2497] [cursor=pointer]: $87.990
+                    - cell "-" [ref=e2498]:
+                      - generic [ref=e2501] [cursor=pointer]: "-"
+                    - cell [ref=e2502]
+                    - cell "1" [ref=e2503]:
+                      - generic [ref=e2506] [cursor=pointer]: "1"
+                    - cell [ref=e2507]:
+                      - button [ref=e2509] [cursor=pointer]
+                    - cell [ref=e2511]:
+                      - button [ref=e2514] [cursor=pointer]:
+                        - img [ref=e2515]
+                    - cell "More actions" [ref=e2518]:
+                      - button "More actions" [ref=e2519] [cursor=pointer]:
+                        - img [ref=e2520]
+                  - 'row "Espejo LED 100x70 Rectangular Táctil, Retro Iluminación fría, cálida y normal, Diseño Moderno / ... SKU Seller 010703013-T SKU Falabella 146266887 Publicado en: 14/08/2025 $109.990 $54.990 0 More actions" [ref=e2524]':
+                    - cell [ref=e2525]:
+                      - checkbox [ref=e2528] [cursor=pointer]:
+                        - img [ref=e2529]
+                    - cell "Espejo LED 100x70 Rectangular Táctil, Retro Iluminación fría, cálida y normal, Diseño Moderno / ... SKU Seller 010703013-T SKU Falabella 146266887 Publicado en:" [ref=e2531]:
+                      - generic [ref=e2534]:
+                        - paragraph [ref=e2536]: Espejo LED 100x70 Rectangular Táctil, Retro Iluminación fría, cálida y normal, Diseño Moderno / ...
+                        - generic [ref=e2537]:
+                          - generic [ref=e2539]:
+                            - generic [ref=e2540]: SKU Seller
+                            - generic [ref=e2541]:
+                              - generic [ref=e2542]: 010703013-T
+                              - img [ref=e2545] [cursor=pointer]
+                          - generic [ref=e2548]:
+                            - generic [ref=e2549]: SKU Falabella
+                            - generic [ref=e2550]:
+                              - generic [ref=e2551]: "146266887"
+                              - img [ref=e2554] [cursor=pointer]
+                        - generic [ref=e2557]:
+                          - paragraph [ref=e2558]: "Publicado en:"
+                          - img [ref=e2560] [cursor=pointer]
+                          - img [ref=e2564] [cursor=pointer]
+                    - cell "14/08/2025" [ref=e2570]
+                    - cell "$109.990" [ref=e2571]:
+                      - generic [ref=e2574] [cursor=pointer]: $109.990
+                    - cell "$54.990" [ref=e2575]:
+                      - generic [ref=e2578] [cursor=pointer]: $54.990
+                    - cell [ref=e2579]
+                    - cell "0" [ref=e2580]:
+                      - generic [ref=e2583] [cursor=pointer]: "0"
+                    - cell [ref=e2584]:
+                      - button [ref=e2586] [cursor=pointer]
+                    - cell [ref=e2588]:
+                      - button [ref=e2591] [cursor=pointer]:
+                        - img [ref=e2592]
+                    - cell "More actions" [ref=e2596]:
+                      - button "More actions" [ref=e2597] [cursor=pointer]:
+                        - img [ref=e2598]
+                  - 'row "Desague Sifón De 90 Mm Para Receptáculo / ... SKU Seller 010604003-T SKU Falabella 143984177 Publicado en: 25/05/2025 $21.990 - 8 More actions" [ref=e2602]':
+                    - cell [ref=e2603]:
+                      - checkbox [ref=e2606] [cursor=pointer]:
+                        - img [ref=e2607]
+                    - cell "Desague Sifón De 90 Mm Para Receptáculo / ... SKU Seller 010604003-T SKU Falabella 143984177 Publicado en:" [ref=e2609]:
+                      - generic [ref=e2612]:
+                        - paragraph [ref=e2614]: Desague Sifón De 90 Mm Para Receptáculo / ...
+                        - generic [ref=e2615]:
+                          - generic [ref=e2617]:
+                            - generic [ref=e2618]: SKU Seller
+                            - generic [ref=e2619]:
+                              - generic [ref=e2620]: 010604003-T
+                              - img [ref=e2623] [cursor=pointer]
+                          - generic [ref=e2626]:
+                            - generic [ref=e2627]: SKU Falabella
+                            - generic [ref=e2628]:
+                              - generic [ref=e2629]: "143984177"
+                              - img [ref=e2632] [cursor=pointer]
+                        - generic [ref=e2635]:
+                          - paragraph [ref=e2636]: "Publicado en:"
+                          - img [ref=e2638] [cursor=pointer]
+                          - img [ref=e2642] [cursor=pointer]
+                    - cell "25/05/2025" [ref=e2648]
+                    - cell "$21.990" [ref=e2649]:
+                      - generic [ref=e2652] [cursor=pointer]: $21.990
+                    - cell "-" [ref=e2653]:
+                      - generic [ref=e2656] [cursor=pointer]: "-"
+                    - cell [ref=e2657]
+                    - cell "8" [ref=e2658]:
+                      - generic [ref=e2661] [cursor=pointer]: "8"
+                    - cell [ref=e2662]:
+                      - button [ref=e2664] [cursor=pointer]
+                    - cell [ref=e2666]:
+                      - button [ref=e2669] [cursor=pointer]:
+                        - img [ref=e2670]
+                    - cell "More actions" [ref=e2673]:
+                      - button "More actions" [ref=e2674] [cursor=pointer]:
+                        - img [ref=e2675]
+                  - 'row "Desague Lavaplatos 3 1/2 Rebalse / ... SKU Seller 020202008-T SKU Falabella 143566300 Publicado en: Patrocinado 10/05/2025 $13.990 - 33 More actions" [ref=e2679]':
+                    - cell [ref=e2680]:
+                      - checkbox [ref=e2683] [cursor=pointer]:
+                        - img [ref=e2684]
+                    - 'cell "Desague Lavaplatos 3 1/2 Rebalse / ... SKU Seller 020202008-T SKU Falabella 143566300 Publicado en: Patrocinado" [ref=e2686]':
+                      - generic [ref=e2689]:
+                        - paragraph [ref=e2691]: Desague Lavaplatos 3 1/2 Rebalse / ...
+                        - generic [ref=e2692]:
+                          - generic [ref=e2694]:
+                            - generic [ref=e2695]: SKU Seller
+                            - generic [ref=e2696]:
+                              - generic [ref=e2697]: 020202008-T
+                              - img [ref=e2700] [cursor=pointer]
+                          - generic [ref=e2703]:
+                            - generic [ref=e2704]: SKU Falabella
+                            - generic [ref=e2705]:
+                              - generic [ref=e2706]: "143566300"
+                              - img [ref=e2709] [cursor=pointer]
+                        - generic [ref=e2711]:
+                          - generic [ref=e2712]:
+                            - paragraph [ref=e2713]: "Publicado en:"
+                            - img [ref=e2715] [cursor=pointer]
+                            - img [ref=e2719] [cursor=pointer]
+                          - generic [ref=e2726]: Patrocinado
+                    - cell "10/05/2025" [ref=e2727]
+                    - cell "$13.990" [ref=e2728]:
+                      - generic [ref=e2731] [cursor=pointer]: $13.990
+                    - cell "-" [ref=e2732]:
+                      - generic [ref=e2735] [cursor=pointer]: "-"
+                    - cell [ref=e2736]
+                    - cell "33" [ref=e2737]:
+                      - generic [ref=e2740] [cursor=pointer]: "33"
+                    - cell [ref=e2741]:
+                      - button [ref=e2743] [cursor=pointer]
+                    - cell [ref=e2745]:
+                      - button [ref=e2748] [cursor=pointer]:
+                        - img [ref=e2749]
+                    - cell "More actions" [ref=e2752]:
+                      - button "More actions" [ref=e2753] [cursor=pointer]:
+                        - img [ref=e2754]
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: "Páginas:"
+                  - button [disabled] [ref=e265] [cursor=pointer]:
+                    - img [ref=e266]
+                  - button "1" [ref=e2758] [cursor=pointer]
+                  - button "2" [ref=e2759] [cursor=pointer]
+                  - button "3" [ref=e2760] [cursor=pointer]
+                  - button "4" [ref=e2761] [cursor=pointer]
+                  - generic [ref=e2762]: ...
+                  - button "10" [ref=e2763] [cursor=pointer]
+                  - button "11" [ref=e2764] [cursor=pointer]
+                  - button "12" [ref=e2765] [cursor=pointer]
+                  - button [ref=e268] [cursor=pointer]:
+                    - img [ref=e269]
+                - generic [ref=e272]:
+                  - generic [ref=e273]: Elementos por página
+                  - generic [ref=e275] [cursor=pointer]:
+                    - generic [ref=e277]: "30"
+                    - generic:
+                      - img
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - heading "Descargas" [level=2] [ref=e280]
+              - generic [ref=e281]:
+                - button "Actualizar" [ref=e282] [cursor=pointer]:
+                  - img [ref=e283]
+                  - text: Actualizar
+                - generic [ref=e289]:
+                  - img [ref=e291]
+                  - textbox "Busca por tipo de producto" [ref=e294]
+            - generic [ref=e295]:
+              - table [ref=e301]:
+                - rowgroup [ref=e302]:
+                  - row "# Categoría Fecha solicitud Fecha completitud Estado Descargar" [ref=e303]:
+                    - columnheader "#" [ref=e304] [cursor=pointer]:
+                      - generic [ref=e305]:
+                        - text: "#"
+                        - generic [ref=e306]:
+                          - img [ref=e307]
+                          - img [ref=e309]
+                    - columnheader "Categoría" [ref=e312]:
+                      - generic [ref=e313]: Categoría
+                    - columnheader "Fecha solicitud" [ref=e314] [cursor=pointer]:
+                      - generic [ref=e315]:
+                        - text: Fecha solicitud
+                        - generic [ref=e316]:
+                          - img [ref=e317]
+                          - img [ref=e319]
+                    - columnheader "Fecha completitud" [ref=e322] [cursor=pointer]:
+                      - generic [ref=e323]:
+                        - text: Fecha completitud
+                        - generic [ref=e324]:
+                          - img [ref=e325]
+                          - img [ref=e327]
+                    - columnheader "Estado" [ref=e330] [cursor=pointer]:
+                      - generic [ref=e331]:
+                        - text: Estado
+                        - generic [ref=e332]:
+                          - img [ref=e333]
+                          - img [ref=e335]
+                    - columnheader "Descargar" [ref=e338]:
+                      - generic [ref=e339]: Descargar
+                - rowgroup [ref=e340]:
+                  - row "22748902 Product - Ferretería 2026-06-16 17:06:57 2026-06-16 17:07:03 Finalizado Descargar CSV Descargar XLSX" [ref=e2766]:
+                    - cell "22748902" [ref=e2767]
+                    - cell "Product - Ferretería" [ref=e2768]
+                    - cell "2026-06-16 17:06:57" [ref=e2769]
+                    - cell "2026-06-16 17:07:03" [ref=e2770]
+                    - cell "Finalizado" [ref=e2771]:
+                      - generic [ref=e2772]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2773]:
+                      - generic [ref=e2775]:
+                        - button "Descargar CSV" [ref=e2776] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2777] [cursor=pointer]
+                  - row "22748861 Product - Hogar 2026-06-16 17:05:44 2026-06-16 17:05:48 Finalizado Descargar CSV Descargar XLSX" [ref=e2778]:
+                    - cell "22748861" [ref=e2779]
+                    - cell "Product - Hogar" [ref=e2780]
+                    - cell "2026-06-16 17:05:44" [ref=e2781]
+                    - cell "2026-06-16 17:05:48" [ref=e2782]
+                    - cell "Finalizado" [ref=e2783]:
+                      - generic [ref=e2784]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2785]:
+                      - generic [ref=e2787]:
+                        - button "Descargar CSV" [ref=e2788] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2789] [cursor=pointer]
+                  - row "22748854 Product - Bebés 2026-06-16 17:05:22 2026-06-16 17:05:24 Finalizado Descargar CSV Descargar XLSX" [ref=e2790]:
+                    - cell "22748854" [ref=e2791]
+                    - cell "Product - Bebés" [ref=e2792]
+                    - cell "2026-06-16 17:05:22" [ref=e2793]
+                    - cell "2026-06-16 17:05:24" [ref=e2794]
+                    - cell "Finalizado" [ref=e2795]:
+                      - generic [ref=e2796]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2797]:
+                      - generic [ref=e2799]:
+                        - button "Descargar CSV" [ref=e2800] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2801] [cursor=pointer]
+                  - row "22748847 Product - Electrodomésticos 2026-06-16 17:04:58 2026-06-16 17:05:01 Finalizado Descargar CSV Descargar XLSX" [ref=e2802]:
+                    - cell "22748847" [ref=e2803]
+                    - cell "Product - Electrodomésticos" [ref=e2804]
+                    - cell "2026-06-16 17:04:58" [ref=e2805]
+                    - cell "2026-06-16 17:05:01" [ref=e2806]
+                    - cell "Finalizado" [ref=e2807]:
+                      - generic [ref=e2808]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2809]:
+                      - generic [ref=e2811]:
+                        - button "Descargar CSV" [ref=e2812] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2813] [cursor=pointer]
+                  - row "22748826 Product - Belleza, cuidado personal, higiene y salud 2026-06-16 17:04:34 2026-06-16 17:04:36 Finalizado Descargar CSV Descargar XLSX" [ref=e2814]:
+                    - cell "22748826" [ref=e2815]
+                    - cell "Product - Belleza, cuidado personal, higiene y salud" [ref=e2816]
+                    - cell "2026-06-16 17:04:34" [ref=e2817]
+                    - cell "2026-06-16 17:04:36" [ref=e2818]
+                    - cell "Finalizado" [ref=e2819]:
+                      - generic [ref=e2820]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2821]:
+                      - generic [ref=e2823]:
+                        - button "Descargar CSV" [ref=e2824] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2825] [cursor=pointer]
+                  - row "22748809 Product - Limpieza 2026-06-16 17:04:07 2026-06-16 17:04:09 Finalizado Descargar CSV Descargar XLSX" [ref=e2826]:
+                    - cell "22748809" [ref=e2827]
+                    - cell "Product - Limpieza" [ref=e2828]
+                    - cell "2026-06-16 17:04:07" [ref=e2829]
+                    - cell "2026-06-16 17:04:09" [ref=e2830]
+                    - cell "Finalizado" [ref=e2831]:
+                      - generic [ref=e2832]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2833]:
+                      - generic [ref=e2835]:
+                        - button "Descargar CSV" [ref=e2836] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2837] [cursor=pointer]
+                  - row "22748798 Product - Ferretería 2026-06-16 17:03:36 2026-06-16 17:03:42 Finalizado Descargar CSV Descargar XLSX" [ref=e2838]:
+                    - cell "22748798" [ref=e2839]
+                    - cell "Product - Ferretería" [ref=e2840]
+                    - cell "2026-06-16 17:03:36" [ref=e2841]
+                    - cell "2026-06-16 17:03:42" [ref=e2842]
+                    - cell "Finalizado" [ref=e2843]:
+                      - generic [ref=e2844]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2845]:
+                      - generic [ref=e2847]:
+                        - button "Descargar CSV" [ref=e2848] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2849] [cursor=pointer]
+                  - row "21256225 Product - Hogar 2026-04-13 10:54:45 2026-04-13 10:54:49 Finalizado Descargar CSV Descargar XLSX" [ref=e2850]:
+                    - cell "21256225" [ref=e2851]
+                    - cell "Product - Hogar" [ref=e2852]
+                    - cell "2026-04-13 10:54:45" [ref=e2853]
+                    - cell "2026-04-13 10:54:49" [ref=e2854]
+                    - cell "Finalizado" [ref=e2855]:
+                      - generic [ref=e2856]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2857]:
+                      - generic [ref=e2859]:
+                        - button "Descargar CSV" [ref=e2860] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2861] [cursor=pointer]
+                  - row "21256220 Product - Belleza, cuidado personal, higiene y salud 2026-04-13 10:54:37 2026-04-13 10:54:40 Finalizado Descargar CSV Descargar XLSX" [ref=e2862]:
+                    - cell "21256220" [ref=e2863]
+                    - cell "Product - Belleza, cuidado personal, higiene y salud" [ref=e2864]
+                    - cell "2026-04-13 10:54:37" [ref=e2865]
+                    - cell "2026-04-13 10:54:40" [ref=e2866]
+                    - cell "Finalizado" [ref=e2867]:
+                      - generic [ref=e2868]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2869]:
+                      - generic [ref=e2871]:
+                        - button "Descargar CSV" [ref=e2872] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2873] [cursor=pointer]
+                  - row "21256210 Product - Limpieza 2026-04-13 10:54:26 2026-04-13 10:54:28 Finalizado Descargar CSV Descargar XLSX" [ref=e2874]:
+                    - cell "21256210" [ref=e2875]
+                    - cell "Product - Limpieza" [ref=e2876]
+                    - cell "2026-04-13 10:54:26" [ref=e2877]
+                    - cell "2026-04-13 10:54:28" [ref=e2878]
+                    - cell "Finalizado" [ref=e2879]:
+                      - generic [ref=e2880]: Finalizado
+                    - cell "Descargar CSV Descargar XLSX" [ref=e2881]:
+                      - generic [ref=e2883]:
+                        - button "Descargar CSV" [ref=e2884] [cursor=pointer]
+                        - button "Descargar XLSX" [ref=e2885] [cursor=pointer]
+              - generic [ref=e343]:
+                - generic [ref=e344]:
+                  - generic [ref=e345]: "Páginas:"
+                  - button [disabled] [ref=e346] [cursor=pointer]:
+                    - img [ref=e347]
+                  - button "1" [ref=e349] [cursor=pointer]
+                  - button "2" [ref=e2886] [cursor=pointer]
+                  - button "3" [ref=e2887] [cursor=pointer]
+                  - button "4" [ref=e2888] [cursor=pointer]
+                  - button [ref=e350] [cursor=pointer]:
+                    - img [ref=e351]
+                - generic [ref=e354]:
+                  - generic [ref=e355]: Elementos por página
+                  - generic [ref=e357] [cursor=pointer]:
+                    - generic [ref=e359]: "10"
+                    - generic:
+                      - img
+  - contentinfo [ref=e362]:
+    - generic [ref=e366]:
+      - generic [ref=e367]:
+        - img [ref=e368]
+        - button "Califica esta página" [ref=e370] [cursor=pointer]
+      - generic [ref=e371]:
+        - generic [ref=e372]: Idioma
+        - generic [ref=e374] [cursor=pointer]:
+          - generic [ref=e375]: Español
+          - img [ref=e377]
+  - alert [ref=e379]
+  - img [ref=e2892]

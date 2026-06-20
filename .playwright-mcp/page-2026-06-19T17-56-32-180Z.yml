@@ -1,0 +1,121 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - button "Saltar al contenido principal" [ref=e7]:
+      - generic [ref=e10]: Saltar al contenido principal
+    - generic [ref=e11]:
+      - button "Menú de navegación" [expanded] [ref=e12] [cursor=pointer]:
+        - img [ref=e16]: menu
+      - link "Inicio de Merchant Center" [ref=e17] [cursor=pointer]:
+        - /url: /mc/overview?a=5750880596
+        - img "Inicio de Merchant Center" [ref=e18]
+      - dialog "Buscar" [ref=e20]:
+        - generic [ref=e24]:
+          - img [ref=e27]: search
+          - textbox "Buscar en Merchant Center" [ref=e29]
+      - button "Ayuda" [ref=e32] [cursor=pointer]:
+        - img [ref=e35]: help_outline
+      - 'button "Cuenta de Merchant Center: Trade Global Solutions SpA, 5750880596" [ref=e41] [cursor=pointer]':
+        - generic [ref=e42]:
+          - generic [ref=e43]: Trade Global Solutions SpA
+          - generic [ref=e44]: "5750880596"
+        - img [ref=e46]: arrow_drop_down
+      - generic [ref=e52]:
+        - button "Aplicaciones de Google" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - 'button "Cuenta de Google: Victor Mellado (vmelladoa@gmail.com)" [ref=e62] [cursor=pointer]':
+          - img [ref=e64]
+    - progressbar "cargando" [ref=e67]
+  - generic [ref=e70]:
+    - navigation [ref=e71]:
+      - tree "Navegación" [ref=e74]:
+        - treeitem "Vista general" [level=1] [ref=e75] [cursor=pointer]:
+          - img [ref=e78]: dashboard
+          - generic [ref=e80]: Vista general
+        - treeitem "Notificaciones" [level=1] [ref=e81] [cursor=pointer]:
+          - img [ref=e84]: notifications
+          - generic [ref=e86]: Notificaciones
+        - treeitem "Productos y tienda" [level=1] [ref=e88] [cursor=pointer]:
+          - img [ref=e91]: inventory_2
+          - generic [ref=e92]:
+            - generic [ref=e93]: Productos y tienda
+            - img [ref=e96]: arrow_drop_down
+          - group [ref=e98]:
+            - treeitem [disabled] [level=2] [ref=e99]:
+              - generic [ref=e101]: Productos
+            - treeitem [disabled] [level=2] [ref=e102]:
+              - generic [ref=e104]: Envíos y devoluciones
+            - treeitem [disabled] [level=2] [ref=e105]:
+              - generic [ref=e107]: Calidad de la tienda
+        - treeitem "Contenido de creatividad" [level=1] [ref=e108] [cursor=pointer]:
+          - img [ref=e111]: brush_spark
+          - generic [ref=e112]:
+            - generic [ref=e113]: Contenido de creatividad
+            - img [ref=e116]: arrow_drop_down
+          - group [ref=e118]:
+            - treeitem [disabled] [level=2] [ref=e119]:
+              - generic [ref=e121]: Product Studio
+            - treeitem [disabled] [level=2] [ref=e122]:
+              - generic [ref=e124]: Recursos de vídeo
+        - treeitem "Marketing" [level=1] [ref=e125] [cursor=pointer]:
+          - img [ref=e128]: campaign
+          - generic [ref=e129]:
+            - generic [ref=e130]: Marketing
+            - img [ref=e133]: arrow_drop_down
+          - group [ref=e135]:
+            - treeitem [disabled] [level=2] [ref=e136]:
+              - generic [ref=e138]: Campañas publicitarias
+            - treeitem [disabled] [level=2] [ref=e139]:
+              - generic [ref=e141]: Marca
+            - treeitem [disabled] [level=2] [ref=e142]:
+              - generic [ref=e144]: Métodos de marketing
+        - treeitem "Estadísticas" [level=1] [ref=e145] [cursor=pointer]:
+          - img [ref=e148]: timeline
+          - generic [ref=e149]:
+            - generic [ref=e150]: Estadísticas
+            - img [ref=e153]: arrow_drop_down
+          - group [ref=e155]:
+            - treeitem [disabled] [level=2] [ref=e156]:
+              - generic [ref=e158]: Resumen
+            - treeitem [disabled] [level=2] [ref=e159]:
+              - generic [ref=e161]: Productos
+            - treeitem [disabled] [level=2] [ref=e162]:
+              - generic [ref=e164]: Precios
+            - treeitem [disabled] [level=2] [ref=e165]:
+              - generic [ref=e167]: Tienda online
+        - treeitem "Configuración" [expanded] [level=1] [ref=e169] [cursor=pointer]:
+          - img [ref=e172]: settings
+          - generic [ref=e173]:
+            - generic [ref=e174]: Configuración
+            - img [ref=e177]: arrow_drop_down
+          - group [ref=e179]:
+            - treeitem "General" [level=2] [ref=e180]:
+              - generic [ref=e183]: General
+            - treeitem "Información de empresa" [level=2] [ref=e184]:
+              - generic [ref=e187]: Información de empresa
+            - treeitem "Fuentes de datos" [level=2] [ref=e188]:
+              - generic [ref=e191]: Fuentes de datos
+            - treeitem "Complementos" [level=2] [ref=e192]:
+              - generic [ref=e195]: Complementos
+            - treeitem "Acceso y servicios" [level=2] [ref=e196]:
+              - generic [ref=e199]: Acceso y servicios
+    - generic [ref=e203]:
+      - generic [ref=e205]:
+        - heading "Información de empresa" [level=1] [ref=e208]
+        - tablist [ref=e213]:
+          - tab "Detalles" [selected] [ref=e214] [cursor=pointer]:
+            - generic [ref=e217]: Detalles
+          - tab "Tiendas" [ref=e219] [cursor=pointer]:
+            - generic [ref=e222]: Tiendas
+          - tab "Países" [ref=e224] [cursor=pointer]:
+            - generic [ref=e227]: Países
+      - generic [ref=e236]:
+        - main [ref=e237]
+        - contentinfo [ref=e240]:
+          - link "Política de Privacidad" [ref=e241] [cursor=pointer]:
+            - /url: http://www.google.com/policies/privacy/
+          - generic [ref=e242]: ·
+          - link "Términos del Servicio" [ref=e243] [cursor=pointer]:
+            - /url: https://support.google.com/merchants/answer/160173?hl=es
+          - generic [ref=e244]: ·
+          - link "Políticas del Programa" [ref=e245] [cursor=pointer]:
+            - /url: https://support.google.com/merchants/topic/7286989?hl=es

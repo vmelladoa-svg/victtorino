@@ -1,0 +1,491 @@
+[
+  {
+    "item": "MLC584748998",
+    "cuenta": "C2",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC584748998",
+      "site_id": "MLC",
+      "title": "Flexible Agua Hi Hi 1/2  100 Cm",
+      "seller_id": 483904870,
+      "category_id": "MLC435318",
+      "user_product_id": "MLCU13954241",
+      "official_store_id": null,
+      "price": 6589,
+      "base_price": 6589,
+      "original_price": null,
+      "inventory_id": "XLQY96342",
+      "currency_id": "CLP",
+      "initial_quantity": 502,
+      "available_quantity": 3,
+      "sold_quantity": 499,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TIME",
+          "name": "Tiempo de garantía",
+          "value_id": null,
+          "value_name": "6 meses",
+          "value_struct": {
+            "number": 6,
+            "unit": "meses"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "6 meses",
+              "struct": {
+                "number": 6,
+                "unit": "meses"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "2230280",
+          "value_name": "Garantía del vendedor",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230280",
+              "name": "Garantía del vendedor",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Flexible Agua Hi Hi 1/2  100 Cm",
+      "family_id": 557094495579834,
+      "start_time": "2021-02-24T19:42:39.000Z",
+      "stop_time": "2046-05-18T17:18:42.719Z",
+      "end_time": "2046-05-18T17:18:42.719Z",
+      "expiration_time": "2026-12-09T17:18:42.727Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-584748998-flexible-agua-hi-hi-12-100-cm-_JM",
+      "pictures": [
+        {
+          "id": "614238-MLC108429347323_032026",
+          "url": "http://mlc-s1-p.mlstatic.com/614238-MLC108429347323_032026-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/614238-MLC108429347323_032026-O.jpg",
+          "size": "500x500",
+          "max_size": "1024x1024",
+          "quality": ""
+        },
+        {
+          "id": "648071-MLA111650977035_052026",
+          "url": "http://mla-s2-p.mlstatic.com/648071-MLA111650977035_052026-O.jpg",
+          "secure_url": "https://mla-s2-p.mlstatic.com/648071-MLA111650977035_052026-O.jpg",
+          "size": "500x489",
+          "max_size": "840x823",
+          "quality": ""
+        },
+        {
+          "id": "897697-MLC89964898159_082025",
+          "url": "http://mlc-s1-p.mlstatic.com/897697-MLC89964898159_082025-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/897697-MLC89964898159_082025-O.jpg",
+          "size": "500x124",
+          "max_size": "934x233",
+          "quality": ""
+        },
+        {
+          "id": "904345-MLC44987558243_022021",
+          "url": "http://mlc-s2-p.mlstatic.com/904345-MLC44987558243_022021-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/904345-MLC44987558243_022021-O.jpg",
+          "size": "500x376",
+          "max_size": "1200x903",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": false,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "self_service_in"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1138715319,
+        "comment": "Referencia: Casa Azul Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353944,
+        "longitude": -70.6588492,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353944,
+        "longitude": -70.6588492
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "PACKAGE_LENGTH",
+          "name": "Largo del paquete",
+          "value_id": null,
+          "value_name": "11.8 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "11.8 cm",
+              "struct": {
+                "number": 11.8,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PACKAGE_WIDTH",
+          "name": "Ancho del paquete",
+          "value_id": null,
+          "value_name": "11 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "11 cm",
+              "struct": {
+                "number": 11,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "VOLTAGE",
+          "name": "Voltaje",
+          "value_id": "",
+          "value_name": "Taumm",
+          "values": [
+            {
+              "id": "",
+              "name": "Taumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "11738681",
+          "value_name": "Victtorino",
+          "values": [
+            {
+              "id": "11738681",
+              "name": "Victtorino",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "030101006-T",
+          "values": [
+            {
+              "id": null,
+              "name": "030101006-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MANUFACTURER",
+          "name": "Fabricante",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "5 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "5 cm",
+              "struct": {
+                "number": 5,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "312 g",
+          "values": [
+            {
+              "id": null,
+              "name": "312 g",
+              "struct": {
+                "number": 312,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "647351803593",
+          "values": [
+            {
+              "id": null,
+              "name": "647351803593",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SHIPMENT_PACKING",
+          "name": "Embalaje del envío",
+          "value_id": "7435891",
+          "value_name": "Bolsa",
+          "values": [
+            {
+              "id": "7435891",
+              "name": "Bolsa",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "13 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "13 cm",
+              "struct": {
+                "number": 13,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PRODUCT_FEATURES",
+          "name": "Características del producto",
+          "value_id": "8847339",
+          "value_name": "Sin vencimiento",
+          "values": [
+            {
+              "id": "8847339",
+              "name": "Sin vencimiento",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "PACKAGE_HEIGHT",
+          "name": "Altura del paquete",
+          "value_id": null,
+          "value_name": "4.2 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "4.2 cm",
+              "struct": {
+                "number": 4.2,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PACKAGE_WEIGHT",
+          "name": "Peso del paquete",
+          "value_id": null,
+          "value_name": "200 g",
+          "values": [
+            {
+              "id": null,
+              "name": "200 g",
+              "struct": {
+                "number": 200,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_TYPE",
+          "name": "Tipo de paquete del seller",
+          "value_id": "47115156",
+          "value_name": "Con embalaje adicional",
+          "values": [
+            {
+              "id": "47115156",
+              "name": "Con embalaje adicional",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": null,
+          "value_name": "HI HI 1/2 100 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "HI HI 1/2 100 cm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "13 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "13 cm",
+              "struct": {
+                "number": 13,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "614238-MLC108429347323_032026",
+      "thumbnail": "http://mlc-s1-p.mlstatic.com/614238-MLC108429347323_032026-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "loyalty_discount_eligible",
+        "user_product_listing"
+      ],
+      "warranty": "Garantía del vendedor: 6 meses",
+      "catalog_product_id": null,
+      "domain_id": "MLC-TOOL_AND_CONSTRUCTION_SUPPLIES",
+      "seller_custom_field": "030101006-T__27055300",
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2021-02-24T19:42:39.000Z",
+      "last_updated": "2026-05-23T17:18:42.916Z",
+      "health": 0.87,
+      "catalog_listing": false,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "flexible agua hi hi 1/2 100 cm",
+    "net_180d_proyectado": 3163
+  }
+]

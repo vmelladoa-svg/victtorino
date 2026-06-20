@@ -1,0 +1,97 @@
+[
+  {
+    "woo_id": 1813,
+    "sku": "020802002-T",
+    "name": "Columna Ducha Simple sin Griferia",
+    "existentes": [],
+    "ml_cuenta": "c3",
+    "ml_id": "MLC3750459878",
+    "ml_title": "Columna De Ducha Simple Sin Griferia",
+    "ml_fotos": 4,
+    "urls": [
+      "https://http2.mlstatic.com/D_988492-MLC108521223639_032026-O.webp",
+      "https://http2.mlstatic.com/D_927171-MLA108522239841_032026-O.webp",
+      "https://http2.mlstatic.com/D_909593-MLC107774494372_032026-O.jpg",
+      "https://http2.mlstatic.com/D_823194-MLA108521408507_032026-O.webp"
+    ],
+    "score": 1.0
+  },
+  {
+    "woo_id": 1820,
+    "sku": "020102002-T",
+    "name": "Lavaplatos Sobreponer 80x50 Inoxidable Izquierdo",
+    "existentes": [],
+    "ml_cuenta": "c3",
+    "ml_id": "MLC1308115355",
+    "ml_title": "Lavaplatos Sobreponer 80x50 Inoxidable Izquierdo Plateado",
+    "ml_fotos": 3,
+    "urls": [
+      "https://http2.mlstatic.com/D_643414-MLC91928285800_092025-O.webp",
+      "https://http2.mlstatic.com/D_752887-MLC74175558137_012024-O.webp",
+      "https://http2.mlstatic.com/D_641673-MLC74175558135_012024-O.webp"
+    ],
+    "score": 1.0
+  },
+  {
+    "woo_id": 1816,
+    "sku": "020103005-T",
+    "name": "LAVACOPA NOTTE",
+    "existentes": [],
+    "ml_cuenta": "c3",
+    "ml_id": "MLC3723232960",
+    "ml_title": "Llave Lavacopas Notte Negro",
+    "ml_fotos": 5,
+    "urls": [
+      "https://http2.mlstatic.com/D_874071-MLC108188261205_032026-O.webp",
+      "https://http2.mlstatic.com/D_969869-MLC108189270763_032026-O.jpg",
+      "https://http2.mlstatic.com/D_695161-MLC107468518528_032026-O.webp",
+      "https://http2.mlstatic.com/D_958675-MLC108188231533_032026-O.webp",
+      "https://http2.mlstatic.com/D_798964-MLC108189151019_032026-O.webp"
+    ],
+    "score": 0.68
+  },
+  {
+    "woo_id": 1817,
+    "sku": "020101013-T",
+    "name": "Lavaplatos Para Sobreponer 150x50x16 Cm 2 Bachas 2 Secadores",
+    "existentes": [
+      3797
+    ],
+    "ml_cuenta": "c2",
+    "ml_id": "MLC3768496318",
+    "ml_title": "Lavaplatos Para Sobreponer 150x50 Cm 2 Bachas 2 Secadores Plateado",
+    "ml_fotos": 7,
+    "urls": [
+      "https://http2.mlstatic.com/D_758521-MLC108096006156_032026-O.jpg",
+      "https://http2.mlstatic.com/D_818723-MLC108871844791_032026-O.jpg",
+      "https://http2.mlstatic.com/D_983110-MLC108874167641_032026-O.webp",
+      "https://http2.mlstatic.com/D_610813-MLC108870919487_032026-O.jpg",
+      "https://http2.mlstatic.com/D_799118-MLC108095946828_032026-O.webp",
+      "https://http2.mlstatic.com/D_955754-MLC108871964049_032026-O.webp",
+      "https://http2.mlstatic.com/D_669692-MLC108871993825_032026-O.webp"
+    ],
+    "score": 0.89
+  },
+  {
+    "woo_id": 1818,
+    "sku": "020101014-T",
+    "name": "Lavaplatos Para Sobreponer 180x50 Cm 2 Bachas 2 Secadores",
+    "existentes": [
+      3798
+    ],
+    "ml_cuenta": "c2",
+    "ml_id": "MLC3768496318",
+    "ml_title": "Lavaplatos Para Sobreponer 150x50 Cm 2 Bachas 2 Secadores Plateado",
+    "ml_fotos": 7,
+    "urls": [
+      "https://http2.mlstatic.com/D_758521-MLC108096006156_032026-O.jpg",
+      "https://http2.mlstatic.com/D_818723-MLC108871844791_032026-O.jpg",
+      "https://http2.mlstatic.com/D_983110-MLC108874167641_032026-O.webp",
+      "https://http2.mlstatic.com/D_610813-MLC108870919487_032026-O.jpg",
+      "https://http2.mlstatic.com/D_799118-MLC108095946828_032026-O.webp",
+      "https://http2.mlstatic.com/D_955754-MLC108871964049_032026-O.webp",
+      "https://http2.mlstatic.com/D_669692-MLC108871993825_032026-O.webp"
+    ],
+    "score": 0.9
+  }
+]

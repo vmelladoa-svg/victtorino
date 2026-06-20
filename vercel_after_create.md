@@ -1,0 +1,223 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "Trade's projects Hobby" [ref=e10] [cursor=pointer]:
+              - /url: /trade-s-projects2
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: Trade's projects
+                - generic [ref=e14]: Hobby
+            - button [ref=e15] [cursor=pointer]:
+              - img [ref=e17]
+          - button "Find… F" [ref=e20]:
+            - generic [ref=e22]:
+              - img [ref=e24]
+              - generic [ref=e26]: Find…
+              - generic [ref=e28]: F
+        - navigation [ref=e30]:
+          - generic [ref=e33]:
+            - link "Other Overview" [ref=e272] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online
+              - img "Other" [ref=e273]:
+                - img "Other" [ref=e274]
+              - generic [ref=e38]: Overview
+            - link "Deployments" [ref=e39] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/deployments
+              - img [ref=e41]
+              - generic [ref=e44]: Deployments
+            - link "Logs" [ref=e45] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/logs
+              - img [ref=e47]
+              - generic [ref=e50]: Logs
+            - link "Analytics" [ref=e51] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/analytics
+              - img [ref=e53]
+              - generic [ref=e56]: Analytics
+            - link "Speed Insights" [ref=e57] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/speed-insights
+              - img [ref=e59]
+              - generic [ref=e62]: Speed Insights
+            - link "Observability" [ref=e63] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/observability
+              - img [ref=e65]
+              - generic [ref=e68]: Observability
+              - img [ref=e70]
+            - link "Firewall" [ref=e72] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/firewall
+              - img [ref=e74]
+              - generic [ref=e78]: Firewall
+              - img [ref=e80]
+            - link "CDN" [ref=e82] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/cdn
+              - img [ref=e84]
+              - generic [ref=e87]: CDN
+              - img [ref=e89]
+            - separator [ref=e91]
+            - link "Environment Variables" [ref=e92] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/settings/environment-variables
+              - img [ref=e94]
+              - generic [ref=e97]: Environment Variables
+            - link "Domains" [ref=e98] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/settings/domains
+              - img [ref=e100]
+              - generic [ref=e103]: Domains
+            - link "Connect Beta" [ref=e104] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/connect
+              - img [ref=e106]
+              - generic [ref=e108]:
+                - generic [ref=e109]: Connect
+                - generic [ref=e110]: Beta
+            - link "Integrations" [ref=e111] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/settings/integrations
+              - img [ref=e113]
+              - generic [ref=e116]: Integrations
+            - link "Storage" [ref=e117] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/stores
+              - img [ref=e119]
+              - generic [ref=e122]: Storage
+            - link "Flags" [ref=e123] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/flags
+              - img [ref=e125]
+              - generic [ref=e128]: Flags
+              - img [ref=e130]
+            - link "Agent" [ref=e132] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/agent
+              - img [ref=e134]
+              - generic [ref=e137]: Agent
+              - img [ref=e139]
+            - link "AI Gateway" [ref=e141] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/ai-gateway
+              - img [ref=e143]
+              - generic [ref=e146]: AI Gateway
+              - img [ref=e148]
+            - link "Sandboxes" [ref=e150] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/sandboxes
+              - img [ref=e152]
+              - generic [ref=e155]: Sandboxes
+              - img [ref=e157]
+            - link "Workflows" [ref=e159] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/workflows
+              - img [ref=e161]
+              - generic [ref=e164]: Workflows
+            - separator [ref=e165]
+            - link "Usage" [ref=e166] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/usage
+              - img [ref=e168]
+              - generic [ref=e171]: Usage
+            - link "Support" [ref=e172] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/support
+              - img [ref=e174]
+              - generic [ref=e177]: Support
+            - link "Settings" [ref=e178] [cursor=pointer]:
+              - /url: /trade-s-projects2/inventario-online/settings
+              - img [ref=e180]
+              - generic [ref=e183]: Settings
+              - img [ref=e185]
+        - generic [ref=e191]:
+          - button "Avatar for vmelladoa-4614 Trade" [ref=e192] [cursor=pointer]:
+            - img "Avatar for vmelladoa-4614" [ref=e193]:
+              - img "Avatar for vmelladoa-4614" [ref=e194]
+            - generic [ref=e196]: Trade
+            - img [ref=e198]
+          - button "1 unseen notification" [ref=e276] [cursor=pointer]:
+            - generic [ref=e277]:
+              - generic [ref=e278]:
+                - img
+              - img [ref=e279]
+      - button [ref=e205] [cursor=pointer]:
+        - img [ref=e206]
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - generic [ref=e213]:
+          - link "Other inventario-online" [ref=e281] [cursor=pointer]:
+            - /url: /trade-s-projects2/inventario-online
+            - img "Other" [ref=e282]:
+              - img "Other" [ref=e283]
+            - generic [ref=e217]: inventario-online
+          - button [ref=e218] [cursor=pointer]:
+            - img [ref=e220]
+          - link "Back to team view" [ref=e224] [cursor=pointer]:
+            - /url: /trade-s-projects2/~/stores
+            - img [ref=e226]
+        - generic [ref=e230]: Storage
+      - generic [ref=e235]:
+        - generic [ref=e237]:
+          - paragraph [ref=e238]: Connect to a Database
+          - paragraph [ref=e239]: You can connect to existing Databases from this team, or create a new one and connect it to this project.
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - searchbox "Search" [ref=e243]
+              - img [ref=e245]
+            - combobox [ref=e247]:
+              - generic [ref=e248]:
+                - generic:
+                  - img
+                - searchbox [ref=e249]: All
+                - button "Open menu" [ref=e250] [cursor=pointer]:
+                  - img [ref=e251]
+            - button "Connect Database" [ref=e253] [cursor=pointer]:
+              - generic [ref=e254]: Connect Database
+            - button "Create Database" [ref=e255] [cursor=pointer]:
+              - generic [ref=e256]: Create Database
+          - generic [ref=e257]:
+            - generic [ref=e786]:
+              - img [ref=e788]
+              - generic [ref=e789]:
+                - paragraph [ref=e791]: inventario-kv
+                - paragraph [ref=e792]: Database
+              - generic [ref=e794]:
+                - paragraph [ref=e795]: Created 1m ago
+                - button "Connect" [ref=e796] [cursor=pointer]:
+                  - generic [ref=e797]: Connect
+            - generic [ref=e258]:
+              - img [ref=e260]
+              - generic [ref=e261]:
+                - paragraph [ref=e263]: upstash-kv-citron-lens
+                - paragraph [ref=e264]: Database
+              - generic [ref=e266]:
+                - paragraph [ref=e267]: Created 2d ago
+                - button "Connect" [ref=e268] [cursor=pointer]:
+                  - generic [ref=e269]: Connect
+  - alert [ref=e271]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
+  - dialog "Install Integration" [ref=e526]:
+    - generic [ref=e342]:
+      - generic [ref=e343]:
+        - heading "Install Integration" [level=2] [ref=e527]
+        - button "Close" [ref=e529] [cursor=pointer]:
+          - img [ref=e531]
+      - generic [ref=e533]:
+        - generic [ref=e534]:
+          - generic [ref=e535]:
+            - img [ref=e537]
+            - img [ref=e539]
+          - generic [ref=e540]:
+            - generic [ref=e541]: Upstash for Redis
+            - generic [ref=e542]: Redis Compatible Database
+        - generic [ref=e546]:
+          - img [ref=e722]
+          - generic [ref=e549]: Configuration and Plan
+        - generic [ref=e706]:
+          - img [ref=e768]
+          - generic [ref=e708]: Confirmation
+        - generic [ref=e711]:
+          - generic [ref=e713]:
+            - img [ref=e770]
+            - generic [ref=e715]: Database Provisioning
+          - generic [ref=e775]:
+            - generic [ref=e776]:
+              - img [ref=e800]
+              - paragraph [ref=e801]: Your Upstash database is ready to use
+              - paragraph [ref=e802]: The database inventario-kv has been successfully created
+            - button "Continue" [ref=e803] [cursor=pointer]:
+              - generic [ref=e785]: Continue

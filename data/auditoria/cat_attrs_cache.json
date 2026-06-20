@@ -1,0 +1,1967 @@
+{
+  "MLC417760": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 16
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "PRODUCT_TYPE",
+      "name": "Tipo de producto",
+      "type": "list",
+      "tags": [
+        "catalog_required",
+        "fixed",
+        "required"
+      ],
+      "values_count": 1
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC440231": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 36
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC424956": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "type": "number",
+      "tags": [
+        "unit_yield",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC174454": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "type": "number",
+      "tags": [
+        "unit_yield",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC412831": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC177173": [
+    {
+      "id": "MANUFACTURER",
+      "name": "Fabricante",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "INCLUDES_ASSEMBLY_MANUAL",
+      "name": "Incluye manual de ensamblado",
+      "type": "boolean",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 2
+    }
+  ],
+  "MLC416217": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC416214": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC413440": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "type": "number",
+      "tags": [
+        "unit_yield",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    }
+  ],
+  "MLC440236": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "type": "number",
+      "tags": [
+        "unit_yield",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC435318": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    }
+  ],
+  "MLC412628": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC412376": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC411980": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 36
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC174423": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC438708": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    }
+  ],
+  "MLC457928": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 16
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "PRODUCT_TYPE",
+      "name": "Tipo de producto",
+      "type": "list",
+      "tags": [
+        "catalog_required",
+        "fixed",
+        "required"
+      ],
+      "values_count": 1
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC175587": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    },
+    {
+      "id": "IS_FACTORY_KIT",
+      "name": "Es un kit de fábrica",
+      "type": "boolean",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 2
+    }
+  ],
+  "MLC388906": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "type": "number",
+      "tags": [
+        "unit_yield",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC393045": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC174456": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "type": "number",
+      "tags": [
+        "unit_yield",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC413521": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC177296": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    }
+  ],
+  "MLC411754": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC417765": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    }
+  ],
+  "MLC412584": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "type": "number",
+      "tags": [
+        "unit_yield",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC175616": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "type": "number",
+      "tags": [
+        "unit_yield",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    }
+  ],
+  "MLC413689": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "type": "number",
+      "tags": [
+        "unit_yield",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC454694": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC440646": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "type": "number",
+      "tags": [
+        "unit_yield",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC411026": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 11
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC179510": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC440235": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "PRODUCT_TYPE",
+      "name": "Tipo de producto",
+      "type": "list",
+      "tags": [
+        "catalog_required"
+      ],
+      "values_count": 2
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC440230": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "type": "number",
+      "tags": [
+        "unit_yield",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC381996": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC3530": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC417758": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 16
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "PRODUCT_TYPE",
+      "name": "Tipo de producto",
+      "type": "list",
+      "tags": [
+        "catalog_required",
+        "fixed",
+        "required"
+      ],
+      "values_count": 1
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC411923": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "PRODUCT_TYPE",
+      "name": "Tipo de producto",
+      "type": "list",
+      "tags": [
+        "catalog_required"
+      ],
+      "values_count": 2
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC454912": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC454913": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ],
+  "MLC414062": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "type": "string",
+      "tags": [
+        "catalog_required",
+        "required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "GTIN",
+      "name": "Código universal de producto",
+      "type": "string",
+      "tags": [
+        "multivalued",
+        "variation_attribute",
+        "used_hidden",
+        "validate",
+        "conditional_required"
+      ],
+      "values_count": 0
+    },
+    {
+      "id": "EMPTY_GTIN_REASON",
+      "name": "Motivo de GTIN vacío",
+      "type": "list",
+      "tags": [
+        "hidden",
+        "variation_attribute",
+        "conditional_required"
+      ],
+      "values_count": 4
+    }
+  ]
+}

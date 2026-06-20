@@ -1,0 +1,11 @@
+node_modules
+dist
+
+# Falabella bridge (token JWT + datos capturados)
+server/fala-token.json
+server/falabella_raw.json
+server/_*.json
+server/.fala-profile/
+
+# Secretos del monitor (NO commitear)
+secrets/

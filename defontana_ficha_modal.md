@@ -1,0 +1,336 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: Maestro de Artículos
+      - generic [ref=e7]:
+        - button [ref=e259] [cursor=pointer]:
+          - generic [ref=e9]:
+            - text: Exportar a excel
+            - img [ref=e10]: file_download
+        - button [ref=e260] [cursor=pointer]:
+          - generic [ref=e12]:
+            - text: Aprende a usar
+            - img [ref=e261]
+        - button [ref=e262] [cursor=pointer]: Importador Simple
+        - button [ref=e263] [cursor=pointer]:
+          - generic [ref=e16]:
+            - text: Nuevo
+            - img [ref=e17]: arrow_drop_down
+    - generic [ref=e18]:
+      - generic [ref=e19] [cursor=pointer]:
+        - img [ref=e21]
+        - generic [ref=e22]:
+          - text: Clientes que más vendes
+          - generic [ref=e23]:
+            - generic [ref=e24]: Conoce cuales son los clientes más fieles en los últimos 30 días
+            - img [ref=e25]: arrow_forward
+      - generic [ref=e26] [cursor=pointer]:
+        - img [ref=e28]
+        - generic [ref=e29]:
+          - text: Artículos más vendidos
+          - generic [ref=e30]:
+            - generic [ref=e31]: Conoce cuales son los artículos más vendidos en los últimos 30 días
+            - img [ref=e32]: arrow_forward
+    - generic [ref=e34]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - textbox [ref=e264]:
+            - /placeholder: Introduce la descripción del artículo
+          - generic:
+            - generic: Buscar código o descripción
+        - img [ref=e41]: search
+      - generic [ref=e42]:
+        - generic [ref=e46] [cursor=pointer]:
+          - listbox [ref=e265]
+          - generic:
+            - generic: Categorías
+        - generic [ref=e53]:
+          - generic [ref=e54] [cursor=pointer]:
+            - text: Árbol de categorías (
+            - generic [ref=e55]: "11"
+            - text: )
+          - img [ref=e56] [cursor=pointer]: close
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]: Con Stock
+          - switch [checked] [ref=e64]
+        - generic [ref=e67]:
+          - generic [ref=e68]: Activo
+          - switch [checked] [ref=e72]
+        - generic [ref=e75]:
+          - generic [ref=e76]: Disponible Venta
+          - switch [checked] [ref=e80]
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - generic [ref=e85]: Resultados
+        - button [ref=e266] [cursor=pointer]:
+          - generic [ref=e87]:
+            - img [ref=e88]: refresh
+            - text: Limpiar
+        - button [ref=e267] [cursor=pointer]:
+          - generic [ref=e90]:
+            - img [ref=e91]: file_download
+            - text: Categorias
+      - grid [ref=e92]:
+        - rowgroup [ref=e93]:
+          - row [ref=e268]:
+            - columnheader [ref=e269]: Código
+            - columnheader [ref=e270]: Descripción
+            - columnheader [ref=e271]: Categoría
+            - columnheader [ref=e272]: Stock Disponible
+            - columnheader [ref=e273]: Precio Venta
+            - columnheader [ref=e274]: Activo
+            - columnheader [ref=e275]: Disponible para la Venta
+            - columnheader [ref=e102]
+        - rowgroup [ref=e148]:
+          - row [ref=e276]:
+            - gridcell [ref=e277]: 010102003-T
+            - gridcell [ref=e278]: BARRA DUCHA DESLIZABLE 65 CM
+            - gridcell [ref=e279]:
+              - generic [ref=e153]:
+                - generic [ref=e154]: BAÑO
+                - img [ref=e156] [cursor=pointer]
+            - gridcell [ref=e280]: "5"
+            - gridcell [ref=e281]: "12920"
+            - gridcell [ref=e159]:
+              - img [ref=e160]: check_circle_outline
+            - gridcell [ref=e161]:
+              - img [ref=e162]: check_circle_outline
+            - gridcell [ref=e163]:
+              - img [ref=e165] [cursor=pointer]: more_vert
+          - row [ref=e282]:
+            - gridcell [ref=e283]: 010102004-T
+            - gridcell [ref=e284]: BARRA SEGURIDAD RECTA 30 CM
+            - gridcell [ref=e285]:
+              - generic [ref=e170]:
+                - generic [ref=e171]: BAÑO
+                - img [ref=e173] [cursor=pointer]
+            - gridcell [ref=e286]: "3"
+            - gridcell [ref=e287]: "15990"
+            - gridcell [ref=e176]:
+              - img [ref=e177]: check_circle_outline
+            - gridcell [ref=e178]:
+              - img [ref=e179]: check_circle_outline
+            - gridcell [ref=e180]:
+              - img [ref=e182] [cursor=pointer]: more_vert
+          - row [ref=e288]:
+            - gridcell [ref=e289]: 010102005-T
+            - gridcell [ref=e290]: BARRA SEGURIDAD RECTA 40 CM
+            - gridcell [ref=e291]:
+              - generic [ref=e187]:
+                - generic [ref=e188]: BAÑO
+                - img [ref=e190] [cursor=pointer]
+            - gridcell [ref=e292]: "2"
+            - gridcell [ref=e293]: "9285"
+            - gridcell [ref=e193]:
+              - img [ref=e194]: check_circle_outline
+            - gridcell [ref=e195]:
+              - img [ref=e196]: check_circle_outline
+            - gridcell [ref=e197]:
+              - img [ref=e199] [cursor=pointer]: more_vert
+          - row [ref=e294]:
+            - gridcell [ref=e295]: 010102006-T
+            - gridcell [ref=e296]: Barra seguridad 60 cm acero inox.
+            - gridcell [ref=e297]:
+              - generic [ref=e204]:
+                - generic [ref=e205]: BAÑO
+                - img [ref=e207] [cursor=pointer]
+            - gridcell [ref=e298]: "4"
+            - gridcell [ref=e299]: "69990"
+            - gridcell [ref=e210]:
+              - img [ref=e211]: check_circle_outline
+            - gridcell [ref=e212]:
+              - img [ref=e213]: check_circle_outline
+            - gridcell [ref=e214]:
+              - img [ref=e216] [cursor=pointer]: more_vert
+          - row [ref=e300]:
+            - gridcell [ref=e301]: 010102007-T
+            - gridcell [ref=e302]: BARRA 3 APOYOS 90 ESQUINERA
+            - gridcell [ref=e303]:
+              - generic [ref=e221]:
+                - generic [ref=e222]: BAÑO
+                - img [ref=e224] [cursor=pointer]
+            - gridcell [ref=e304]: "2"
+            - gridcell [ref=e305]: "30388"
+            - gridcell [ref=e227]:
+              - img [ref=e228]: check_circle_outline
+            - gridcell [ref=e229]:
+              - img [ref=e230]: check_circle_outline
+            - gridcell [ref=e231]:
+              - img [ref=e233] [cursor=pointer]: more_vert
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - generic [ref=e114]: "Mostrar:"
+          - listbox [ref=e306] [cursor=pointer]:
+            - generic [ref=e122]: "5"
+        - generic [ref=e125]:
+          - generic [ref=e126]: 1 - 5 de 149
+          - button [disabled] [ref=e307]:
+            - img [ref=e129]
+          - button [disabled] [ref=e308]:
+            - img [ref=e133]
+          - button [ref=e309] [cursor=pointer]:
+            - img [ref=e137]
+          - button [ref=e310] [cursor=pointer]:
+            - img [ref=e141]
+  - dialog [ref=e314]:
+    - generic [ref=e316]:
+      - generic [ref=e317]:
+        - heading "Editar artículo" [level=2] [ref=e318]
+        - img [ref=e319] [cursor=pointer]: close
+      - iframe [active] [ref=e325]:
+        - generic [ref=f21e1]:
+          - generic [ref=f21e2]:
+            - heading "Ficha de Artículos" [level=1] [ref=f21e3]
+            - list [ref=f21e4]:
+              - listitem [ref=f21e5]:
+                - link "Inventario" [ref=f21e6] [cursor=pointer]:
+                  - /url: "#"
+                - text: »
+              - listitem [ref=f21e7]: Artículos
+          - generic [ref=f21e10]:
+            - generic [ref=f21e12]:
+              - table [ref=f21e13]:
+                - rowgroup [ref=f21e14]:
+                  - row "Ficha Propiedades" [ref=f21e15]:
+                    - cell "Ficha" [ref=f21e16] [cursor=pointer]:
+                      - link "Ficha" [ref=f21e17]:
+                        - /url: "#"
+                    - cell "Propiedades" [ref=f21e18] [cursor=pointer]:
+                      - link "Propiedades" [ref=f21e19]:
+                        - /url: "#"
+              - generic [ref=f21e20]:
+                - generic [ref=f21e21]: Identificación
+                - list [ref=f21e23]:
+                  - generic [ref=f21e24]:
+                    - listitem [ref=f21e25]:
+                      - generic [ref=f21e26]:
+                        - checkbox "Código automático" [disabled] [ref=f21e27]
+                        - text: Código automático
+                    - listitem [ref=f21e28]:
+                      - generic [ref=f21e29]:
+                        - generic [ref=f21e30]: Código
+                        - textbox [active] [ref=f21e31]: 010102003-T
+                        - generic [ref=f21e32] [cursor=pointer]: ...
+                      - generic [ref=f21e33]:
+                        - checkbox "Activo" [checked] [ref=f21e34]
+                        - text: Activo
+                      - generic [ref=f21e35]:
+                        - generic [ref=f21e36]: Categoría
+                        - textbox [disabled] [ref=f21e37]: BAÑO
+                  - listitem [ref=f21e38]:
+                    - generic [ref=f21e39]:
+                      - generic [ref=f21e40]: Descripción
+                      - textbox [ref=f21e41]: BARRA DUCHA DESLIZABLE 65 CM
+                    - link "acceptHistórico" [ref=f21e42] [cursor=pointer]:
+                      - /url: "#"
+                      - img "accept" [ref=f21e43]
+                      - text: Histórico
+                  - listitem [ref=f21e44]:
+                    - generic [ref=f21e45]: Descripción Detallada
+                    - textbox [ref=f21e47]
+                  - listitem [ref=f21e48]:
+                    - generic [ref=f21e49]: Comentario
+                    - textbox [ref=f21e51]
+              - generic [ref=f21e52]:
+                - generic [ref=f21e53]: Stock
+                - list [ref=f21e55]:
+                  - listitem [ref=f21e56]:
+                    - generic [ref=f21e57]: Saldo Disponible Para Venta
+                    - textbox [disabled] [ref=f21e59]: "5"
+                  - listitem [ref=f21e60]:
+                    - generic [ref=f21e61]: Saldo de Stock
+                    - textbox [disabled] [ref=f21e63]: "5"
+                  - listitem [ref=f21e64]:
+                    - generic [ref=f21e65]: Pendiente de entrega
+                    - link "0" [ref=f21e67] [cursor=pointer]:
+                      - /url: ../pedido/GenInfCompEntrega.asp?detalleStock=S&articulo=010102003-T
+                  - listitem [ref=f21e68]:
+                    - generic [ref=f21e69]: Pendiente de recepción
+                    - link "0" [ref=f21e71] [cursor=pointer]:
+                      - /url: ../compras/GenInfOCxAdquisicion.asp?detalleStock=S&articulo=010102003-T
+                  - listitem [ref=f21e72]:
+                    - generic [ref=f21e73]: Disponible futuro
+                    - generic [ref=f21e74]: "5"
+                  - listitem [ref=f21e75]:
+                    - generic [ref=f21e76]: Fecha próxima recepción
+              - generic [ref=f21e77]:
+                - generic [ref=f21e78]: Ventas
+                - list [ref=f21e80]:
+                  - listitem [ref=f21e81]:
+                    - generic [ref=f21e83]:
+                      - checkbox "Disponible Para la Venta" [checked] [ref=f21e84]
+                      - generic [ref=f21e85]: Disponible Para la Venta
+                  - listitem [ref=f21e86]:
+                    - generic [ref=f21e87]: Moneda de Venta
+                    - combobox [ref=f21e90]:
+                      - option "PESO" [selected]
+                      - option "DOLAR"
+                  - listitem [ref=f21e91]:
+                    - generic [ref=f21e92]: Unidad de Medida de Venta
+                    - generic [ref=f21e93]:
+                      - textbox [ref=f21e94]: UNIDAD
+                      - generic [ref=f21e95] [cursor=pointer]: ...
+                  - listitem [ref=f21e96]:
+                    - generic [ref=f21e97]: Impuesto específico adicional
+                    - checkbox [ref=f21e99]
+                  - listitem [ref=f21e100]:
+                    - generic [ref=f21e101]: Factor específico
+                    - generic [ref=f21e102]:
+                      - textbox [ref=f21e103]: "0"
+                      - text: "%"
+                  - listitem [ref=f21e104]:
+                    - generic [ref=f21e105]: Precio de Venta
+                    - textbox [ref=f21e107]: "12920"
+                  - generic [ref=f21e108]:
+                    - listitem [ref=f21e109]: Cálculo del Precio de venta
+                    - listitem [ref=f21e110]:
+                      - radio [checked] [ref=f21e111]
+                      - text: "Cálculo de precio de ventas a partir del margen con respecto al costo promedio vigente:"
+                    - listitem [ref=f21e112]:
+                      - radio [ref=f21e113]
+                      - text: "Cálculo de margen a partir del precio de ventas con respecto al costo promedio vigente:"
+                    - listitem [ref=f21e114]:
+                      - generic [ref=f21e115]: Margen
+                      - textbox [ref=f21e116]: "0"
+                      - generic [ref=f21e117]: PrecioVenta
+                      - textbox [disabled] [ref=f21e118]: "5803.00"
+                    - listitem [ref=f21e119]:
+                      - link "Asignar Precio Venta" [ref=f21e120] [cursor=pointer]:
+                        - /url: ""
+                  - listitem [ref=f21e121]:
+                    - generic [ref=f21e122]: Actualizar precios
+                  - listitem [ref=f21e123]:
+                    - generic [ref=f21e124]: Lista de precios
+                    - textbox [ref=f21e126]
+                    - generic [ref=f21e127] [cursor=pointer]: ...
+              - generic [ref=f21e128]:
+                - generic [ref=f21e129]: Costos
+                - list [ref=f21e131]:
+                  - listitem [ref=f21e132]:
+                    - generic [ref=f21e133]: Costo Promedio
+                    - generic [ref=f21e134]: "5803"
+                  - listitem [ref=f21e135]:
+                    - generic [ref=f21e136]: Costo de reposición
+                    - textbox [ref=f21e138]: "0"
+              - generic [ref=f21e139]:
+                - generic [ref=f21e140]: Factura de Compra Electrónica
+                - list [ref=f21e142]:
+                  - listitem [ref=f21e143]:
+                    - generic [ref=f21e144]: Código Item SII
+                    - combobox [ref=f21e146]
+            - generic [ref=f21e147]:
+              - link "Nuevo" [ref=f21e148] [cursor=pointer]:
+                - /url: "#"
+              - link "Grabar" [ref=f21e149] [cursor=pointer]:
+                - /url: "#"
+              - link "Traer" [ref=f21e150] [cursor=pointer]:
+                - /url: "#"
+              - link "Adjuntar Archivos" [ref=f21e151] [cursor=pointer]:
+                - /url: "#"
+              - link "Documentos asociados" [ref=f21e152] [cursor=pointer]:
+                - /url: "#"
+              - link "Eliminar" [ref=f21e153] [cursor=pointer]:
+                - /url: "#"
+              - link "Imprimir" [ref=f21e154] [cursor=pointer]:
+                - /url: "#"

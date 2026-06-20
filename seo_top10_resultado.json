@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1814,
+    "ok": true,
+    "pal": 384,
+    "fk_count": 6,
+    "focus": "sifón desagüe ducha",
+    "name": "Desague Sifón De 90 Mm Para Receptáculo"
+  },
+  {
+    "id": 2734,
+    "ok": true,
+    "pal": 349,
+    "fk_count": 5,
+    "focus": "desagüe lavaplatos",
+    "name": "Desague Lavaplatos 3 1/2 O 11,4 Cm O 114 Mm Con Re"
+  },
+  {
+    "id": 3152,
+    "ok": true,
+    "pal": 333,
+    "fk_count": 5,
+    "focus": "lavaplatos empotrado 80x44",
+    "name": "Lavaplatos Empotrado Simple 80x44 Secador Izquierd"
+  },
+  {
+    "id": 1582,
+    "ok": true,
+    "pal": 337,
+    "fk_count": 6,
+    "focus": "ducha fija al muro",
+    "name": "Ducha Fija Muro Difusor Plástico"
+  },
+  {
+    "id": 2615,
+    "ok": true,
+    "pal": 351,
+    "fk_count": 5,
+    "focus": "basurero pedal baño",
+    "name": "Basurero Papelero Pedal 5 Lts Acero Inoxidable Pla"
+  },
+  {
+    "id": 946,
+    "ok": true,
+    "pal": 350,
+    "fk_count": 5,
+    "focus": "plato de ducha cuadrado",
+    "name": "Plato Ducha Cuadrado Acero 25 cm Schwartz Negro"
+  },
+  {
+    "id": 2963,
+    "ok": true,
+    "pal": 325,
+    "fk_count": 5,
+    "focus": "lavaplatos 80x44 inoxidable",
+    "name": "Lavaplatos Empotrados Simple 80x44 Inox Derecho 19"
+  },
+  {
+    "id": 1261,
+    "ok": true,
+    "pal": 304,
+    "fk_count": 5,
+    "focus": "lavaplatos empotrado 100x44",
+    "name": "Lavaplatos Simple Empotrado 100x44 cm Secador Izqu"
+  },
+  {
+    "id": 3163,
+    "ok": true,
+    "pal": 338,
+    "fk_count": 5,
+    "focus": "llave doble lavadora",
+    "name": "Llave Doble Para Lavadora Lavadero Jardin 2 Salida"
+  },
+  {
+    "id": 1235,
+    "ok": true,
+    "pal": 361,
+    "fk_count": 6,
+    "focus": "llave temporizada baño",
+    "name": "Llave Lavatorio Temporizada al Muro"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "fecha_sesion": "2026-05-25",
+  "objetivo": "Optimizar Mercado Ads C3 (advertiser 79197, Campaña Mayo)",
+  "resultado": "API bloqueada (401 sistémico), instructivo manual generado",
+  "hallazgos_clave": [
+    "Cada cuenta ML tiene su propio advertiser: C1=78985, C2=79006, C3=79197",
+    "Los 3 tokens están como VIEWER de sus respectivos advertisers — ninguno puede escribir via API",
+    "Bloqueo confirmado con 4 tokens × 14 variantes URL = 56 requests, todos 401 o 404",
+    "URL real de la UI Mercado Ads: https://ads.mercadolibre.cl/productAds (no la del prompt original)",
+    "Storage Playwright C3 existente no cubre subdominio ads.mercadolibre.cl"
+  ],
+  "scripts_creados": [
+    "ads_probar_api_write.py — prueba sistemática de 14 endpoints write con 4 tokens",
+    "ads_capturar_xhr.py — Playwright que captura XHR pasivamente",
+    "ads_descubrir_url_v2.py — descubrir URL real de Mercado Ads",
+    "ads_explorar_real.py — explora ads.mercadolibre.cl",
+    "ads_descubrir_owner.py — endpoints de usuarios/advertisers",
+    "ads_listar_advertisers.py — lista advertisers por token (con product_id=PADS)",
+    "ads_probar_c1_c2.py — confirma que C1/C2 también fallan write",
+    "ads_extraer_listas.py — extrae listas de acción del Excel",
+    "ads_generar_instructivo.py — genera ads_instructivo_manual.md"
+  ],
+  "logs": [
+    "data/auditoria/ads_probar_api_write_log.json — 56 requests probadas",
+    "data/auditoria/ads_explorar_real_log.json — XHR de ads.mercadolibre.cl",
+    "data/auditoria/ads_instructivo_listas.json — listas de acciones (JSON)"
+  ],
+  "entregables_finales": [
+    "ads_instructivo_manual.md — instructivo paso a paso para Victor",
+    "ads_items_pausar.txt — 78 IDs uno por línea para copy-paste"
+  ],
+  "campania_estado": {
+    "id": 357141159,
+    "name": "Campaña Mayo",
+    "status": "active",
+    "items_totales": 154,
+    "items_active": 88,
+    "items_paused": 66,
+    "items_sin_clicks_7d_active": 75,
+    "performance_7d_pre_optimizacion": {
+      "clicks": 732,
+      "cost_clp": 77705,
+      "ventas_directas_units": 18,
+      "revenue_clp": 653465,
+      "roas": 8.41,
+      "acos_pct": 11.9
+    }
+  },
+  "acciones_recomendadas_hoy": {
+    "pausar_espejos_led": ["MLC1754361903", "MLC1754550537"],
+    "pausar_cpc_alto": ["MLC3779856474"],
+    "pausar_sin_clicks_count": 75,
+    "agregar_item": "MLC3779796948",
+    "ahorro_estimado_semanal_clp": 30555
+  },
+  "acciones_post_28_mayo": {
+    "subir_bid_top_roas": ["MLC1306255939", "MLC1367027081", "MLC3779834584", "MLC3767800412"],
+    "bajar_bid_mid_sin_venta": 5,
+    "esperar_precio_bajado": ["MLC1893675967"]
+  },
+  "siguiente_paso_sugerido_victor": "Hacer Acción 1 manualmente en UI hoy/mañana. Para Acción 2 esperar al 28-may. Si querés desbloquear la API en el futuro: ir a ads.mercadolibre.cl → Configuración → cambiar rol de NOVAGRIFERIAS3 de VIEWER a ADMIN."
+}

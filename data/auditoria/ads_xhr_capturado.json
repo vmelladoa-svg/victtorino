@@ -1,0 +1,37 @@
+{
+  "requests": [
+    {
+      "url": "https://www.mercadolibre.cl/ads/product-ads/campaigns",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "resource_type": "document",
+      "from": "https://www.mercadolibre.cl/ads/"
+    },
+    {
+      "url": "https://www.mercadolibre.cl/ads/product-ads/campaigns/357141159",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "resource_type": "document",
+      "from": "https://www.mercadolibre.cl/ads/product-ads"
+    }
+  ],
+  "responses": {},
+  "urls_unique": [
+    "https://www.mercadolibre.cl/ads/product-ads/campaigns",
+    "https://www.mercadolibre.cl/ads/product-ads/campaigns/357141159"
+  ]
+}

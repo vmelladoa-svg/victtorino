@@ -1,0 +1,118 @@
+{
+  "fecha_analisis": "2026-05-25",
+  "metricas_estructurales": {
+    "items_totales_activos": 530,
+    "productos_unicos_(despues_dedup)": 120,
+    "productos_solo_en_1_cuenta": 43,
+    "productos_en_2_cuentas": 38,
+    "productos_en_3_cuentas": 39,
+    "cobertura_de_productos_unica": 120,
+    "ratio_items_por_producto": 4.42
+  },
+  "gmv_estructural_180d": {
+    "gmv_total_3cuentas": 12096993,
+    "gmv_consolidable_(lo_que_quedaria_si_hubiera_1_cuenta)": 5656491,
+    "gmv_redundante_(perderias_consolidando)": 6440502,
+    "porcentaje_redundante": 53.2,
+    "interpretacion": "Del $12,096,993 GMV 180d total, $5,656,491 (46.8%) es lo que generarías con 1 sola cuenta consolidada. $6,440,502 (53.2%) es 'redundante' (actualmente generado por items que canibalizan al ganador)."
+  },
+  "performance_por_cuenta": {
+    "C1": {
+      "items_activos": 166,
+      "items_duplicados_con_otras": 146,
+      "items_unicos_solo_aqui": 20,
+      "categorias_cubiertas": 47,
+      "stock_total": 1517,
+      "gmv_180d": 2366648,
+      "vendidos_180d_unidades": 122,
+      "visitas_30d": 1141,
+      "health_avg": 45.8,
+      "rep_nivel": "5_green",
+      "tx_completadas": 630,
+      "tx_canceladas": 73
+    },
+    "C2": {
+      "items_activos": 180,
+      "items_duplicados_con_otras": 139,
+      "items_unicos_solo_aqui": 41,
+      "categorias_cubiertas": 42,
+      "stock_total": 1705,
+      "gmv_180d": 3401060,
+      "vendidos_180d_unidades": 142,
+      "visitas_30d": 1574,
+      "health_avg": 46.2,
+      "rep_nivel": "5_green",
+      "tx_completadas": 496,
+      "tx_canceladas": 45
+    },
+    "C3": {
+      "items_activos": 184,
+      "items_duplicados_con_otras": 138,
+      "items_unicos_solo_aqui": 46,
+      "categorias_cubiertas": 48,
+      "stock_total": 1552,
+      "gmv_180d": 6329285,
+      "vendidos_180d_unidades": 236,
+      "visitas_30d": 3211,
+      "health_avg": 54.0,
+      "rep_nivel": "5_green",
+      "tx_completadas": 546,
+      "tx_canceladas": 42
+    }
+  },
+  "productos_unicos_por_cuenta": {
+    "C1": {
+      "productos_totales_cuenta": 56,
+      "productos_unicos_solo_esta_cuenta": 17,
+      "productos_compartidos_con_otra": 39,
+      "gmv_180d_total": 2366648,
+      "gmv_180d_de_productos_unicos": 342850
+    },
+    "C2": {
+      "productos_totales_cuenta": 65,
+      "productos_unicos_solo_esta_cuenta": 26,
+      "productos_compartidos_con_otra": 39,
+      "gmv_180d_total": 3401060,
+      "gmv_180d_de_productos_unicos": 1290682
+    },
+    "C3": {
+      "productos_totales_cuenta": 68,
+      "productos_unicos_solo_esta_cuenta": 32,
+      "productos_compartidos_con_otra": 36,
+      "gmv_180d_total": 6329285,
+      "gmv_180d_de_productos_unicos": 1664443
+    }
+  },
+  "escenarios": {
+    "A_status_quo_optimizado": {
+      "descripcion": "Mantener 3 cuentas como están, con optimizaciones aplicadas (upgrades, bajadas precio, etc.)",
+      "GMV_12m_proyectado_CLP": 27823083,
+      "complejidad_operativa": "ALTA (3 cuentas, 3 equipos, 346 items canibalizándose)",
+      "costos_operativos": "3× gestión, comisiones plataforma triplicadas",
+      "reputacion": "Dividida en 3 — más vulnerable",
+      "ads_eficiencia": "3 campañas, atención dividida",
+      "riesgo": "Persiste canibalización (65% catálogo). Plateau en crecimiento.",
+      "tiempo_implementacion": "Ya hecho (es lo que tenés hoy)"
+    },
+    "B_consolidacion_C3": {
+      "descripcion": "Consolidar todo en C3 (mejor cuenta). Cerrar/pausar C1 y C2.",
+      "GMV_12m_proyectado_CLP": 15272525,
+      "complejidad_operativa": "BAJA (1 cuenta, equipo unificado)",
+      "costos_operativos": "1× gestión, una sola plataforma",
+      "reputacion": "Concentrada — alcanza Platinum/Lider más rápido (más ventas en 1 cuenta)",
+      "ads_eficiencia": "1 campaña con presupuesto pleno",
+      "riesgo": "Perder los ~$5-8M GMV de C1/C2 que NO se canibalizaban (productos únicos)",
+      "tiempo_implementacion": "2-3 meses (transferir stock, cerrar cuentas progresivamente)"
+    },
+    "C_segmentacion_verdadera": {
+      "descripcion": "Mantener 3 cuentas con catálogos NO solapados (segmentar por marca/categoría/precio)",
+      "GMV_12m_proyectado_CLP": 20581729,
+      "complejidad_operativa": "MEDIA (3 cuentas pero sin canibalización, cada equipo especializado)",
+      "costos_operativos": "3× gestión pero más eficientes (sin duplicar setup)",
+      "reputacion": "3 reputaciones independientes — diversifica riesgo",
+      "ads_eficiencia": "3 campañas focalizadas, cada una en su nicho",
+      "riesgo": "Requiere disciplina operativa. Decisión clara de qué va en cada cuenta. Reestructuración inicial fuerte.",
+      "tiempo_implementacion": "4-6 meses (reorganizar catálogos, mover productos)"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e5]
+        - generic [ref=e9]: Open Carrusel
+      - button "Settings" [ref=e10] [cursor=pointer]:
+        - img [ref=e11]
+    - generic [ref=e30]:
+      - button "Close" [ref=e31]:
+        - img [ref=e32]
+      - generic [ref=e36]:
+        - img [ref=e38]
+        - generic [ref=e44]:
+          - heading "Set Up Your Brand" [level=2] [ref=e45]
+          - paragraph [ref=e46]: "Step 2 of 5: Colors"
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - textbox "Primary color" [ref=e83] [cursor=pointer]: "#0d47a1"
+          - generic [ref=e85]:
+            - text: Primary
+            - textbox "#000000" [ref=e86]: "#0D47A1"
+        - generic [ref=e87]:
+          - textbox "Secondary color" [ref=e89] [cursor=pointer]: "#1565c0"
+          - generic [ref=e91]:
+            - text: Secondary
+            - textbox "#000000" [ref=e92]: "#1565C0"
+        - generic [ref=e93]:
+          - textbox "Accent color" [ref=e95] [cursor=pointer]: "#ff7a00"
+          - generic [ref=e97]:
+            - text: Accent
+            - textbox "#000000" [ref=e98]: "#FF7A00"
+        - generic [ref=e99]:
+          - textbox "Background color" [ref=e101] [cursor=pointer]: "#ffffff"
+          - generic [ref=e103]:
+            - text: Background
+            - textbox "#000000" [ref=e104]: "#ffffff"
+        - generic [ref=e105]:
+          - textbox "Surface color" [ref=e107] [cursor=pointer]: "#f4f6fb"
+          - generic [ref=e109]:
+            - text: Surface
+            - textbox "#000000" [active] [ref=e110]: "#F4F6FB"
+      - generic [ref=e58]:
+        - button "Back" [ref=e111] [cursor=pointer]:
+          - img [ref=e112]
+          - text: Back
+        - button "Next" [ref=e77] [cursor=pointer]:
+          - text: Next
+          - img [ref=e78]
+    - main [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - heading "Open Carrusel" [level=1] [ref=e18]
+            - paragraph [ref=e19]: Create Instagram carousels with AI
+          - button "New Carousel" [ref=e20] [cursor=pointer]:
+            - img [ref=e21]
+            - text: New Carousel
+        - generic [ref=e22]:
+          - button "My Carousels" [ref=e23]
+          - button "Templates" [ref=e24]
+        - generic [ref=e25]:
+          - img [ref=e59]
+          - heading "No carousels yet" [level=2] [ref=e63]
+          - paragraph [ref=e64]: Create your first Instagram carousel. Our AI assistant will help you design beautiful slides in seconds.
+          - button "Create Your First Carousel" [ref=e65] [cursor=pointer]:
+            - img [ref=e66]
+            - text: Create Your First Carousel
+  - button "Open Next.js Dev Tools" [ref=e72] [cursor=pointer]:
+    - img [ref=e73]
+  - alert [ref=e76]

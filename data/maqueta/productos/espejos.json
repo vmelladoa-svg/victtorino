@@ -1,0 +1,448 @@
+{
+  "categoria_pagina": "espejos",
+  "total_productos": 9,
+  "productos": [
+    {
+      "id": 3111,
+      "name": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco",
+      "slug": "espejo-rectangular-moderno-3-luces-led-fria-calida-blanco",
+      "sku": "ML-MLC1754361903",
+      "permalink": "https://victtorino.cl/producto/espejo-rectangular-moderno-3-luces-led-fria-calida-blanco/",
+      "price": "81990",
+      "regular_price": "81990",
+      "sale_price": null,
+      "on_sale": false,
+      "stock_status": "instock",
+      "stock_quantity": 8,
+      "short_description": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco. Espejo baño con diseño contemporáneo, materiales resistentes y despacho a todo Chile. Renueva tu baño con piezas que duran y se ven bien.",
+      "description": "Un espejo baño es más que un reflejo El Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco es de esas piezas que amplían visualmente el baño, mejoran la iluminación natural y elevan toda la experiencia del espacio. Un espejo baño bien elegido es la diferencia entre un baño funcional y un baño que se siente cuidado, cálido y bien diseñado. Cambiar el espejo baño es una de las intervenciones de mayor impacto visual con menor obra. No hay demolición, no hay tuberías que mover, no hay polvo: lo descuelgas y lo cambias en menos de una hora. Y al día siguiente se siente otro baño. Por qué elegir este espejo baño Bordes y soportes diseñados para resistir humedad permanente sin deteriorarse. Acabados pensados para integrarse a cualquier estilo de baño: moderno, nórdico, clásico, industrial. Anclajes seguros incluidos, con instrucciones claras de instalación. Diseño que amplía visualmente espacios pequeños — clave en baños de departamento. Despacho a todo Chile con respaldo Victtorino. Detalles técnicos y combinaciones Si estás armando un baño desde cero o renovando completo, te recomendamos mirar también accesorios para baño y lavamanos para armar un conjunto coherente. El espejo es el centro visual del baño — todo lo demás debe conversar con él. Pensado para hogares chilenos La humedad del baño chileno es exigente: vapor diario de la ducha, ventilación a veces limitada, productos de limpieza distintos. Cada espejo del catálogo está pensado para resistir ese ambiente sin que el azogue se pique ni el marco se decolore con los años. Despacho a todo Chile y respaldo Victtorino Conoce más sobre nuestra historia como marca chilena especializada en espejos de baño y grifería para baño . Despacho a todo Chile. Tu baño se merece un mejor reflejo.",
+      "categorias": [
+        {
+          "id": 116,
+          "name": "Espejos",
+          "slug": "espejos"
+        }
+      ],
+      "atributos": [],
+      "imagenes": [
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_688714-MLC98392613393_112025-O.jpg",
+          "alt": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco",
+          "id": 3100
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_624568-MLC109559204180_042026-O.jpg",
+          "alt": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco - foto 2",
+          "id": 3101
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_969490-MLC110435711907_042026-O.webp",
+          "alt": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco - foto 3",
+          "id": 3102
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_868863-MLC110435769277_042026-O.jpg",
+          "alt": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco - foto 4",
+          "id": 3103
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_663643-MLC108492829864_032026-O.jpg",
+          "alt": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco - foto 5",
+          "id": 3104
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_988763-MLC108490780196_032026-O.jpg",
+          "alt": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco - foto 6",
+          "id": 3105
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_601831-MLC110437464783_042026-O.jpg",
+          "alt": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco - foto 7",
+          "id": 3106
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_982923-MLC109559294058_042026-O.jpg",
+          "alt": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco - foto 8",
+          "id": 3107
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_689161-MLC108490780812_032026-O.webp",
+          "alt": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco - foto 9",
+          "id": 3108
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_935291-MLC110437018813_042026-O.webp",
+          "alt": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco - foto 10",
+          "id": 3109
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_918053-MLC110435771559_042026-O.jpg",
+          "alt": "Espejo Rectangular Moderno 3 Luces Led Fría-calida Blanco - foto 11",
+          "id": 3110
+        }
+      ],
+      "featured": false,
+      "average_rating": "0.00",
+      "rating_count": 0
+    },
+    {
+      "id": 2611,
+      "name": "Espejo Redondo Doble Cara Con Aumento X3 Al Muro Blanco",
+      "slug": "espejo-redondo-doble-cara-con-aumento-x3-al-muro-blanco",
+      "sku": "ML-MLC3719460364",
+      "permalink": "https://victtorino.cl/producto/espejo-redondo-doble-cara-con-aumento-x3-al-muro-blanco/",
+      "price": "19890",
+      "regular_price": "19890",
+      "sale_price": null,
+      "on_sale": false,
+      "stock_status": "instock",
+      "stock_quantity": 6,
+      "short_description": "Espejo Redondo Doble Cara Con Aumento X3 Al Muro Blanco. Espejo doble cara aumento con diseño contemporáneo, materiales resistentes y despacho a todo Chile. Renueva tu baño con piezas que duran y se ven bien.",
+      "description": "Un espejo doble cara aumento es más que un reflejo El Espejo Redondo Doble Cara Con Aumento X3 Al Muro Blanco es de esas piezas que amplían visualmente el baño, mejoran la iluminación natural y elevan toda la experiencia del espacio. Un espejo doble cara aumento bien elegido es la diferencia entre un baño funcional y un baño que se siente cuidado, cálido y bien diseñado. Cambiar el espejo doble cara aumento es una de las intervenciones de mayor impacto visual con menor obra. No hay demolición, no hay tuberías que mover, no hay polvo: lo descuelgas y lo cambias en menos de una hora. Y al día siguiente se siente otro baño. Por qué elegir este espejo doble cara aumento Bordes y soportes diseñados para resistir humedad permanente sin deteriorarse. Acabados pensados para integrarse a cualquier estilo de baño: moderno, nórdico, clásico, industrial. Anclajes seguros incluidos, con instrucciones claras de instalación. Diseño que amplía visualmente espacios pequeños — clave en baños de departamento. Despacho a todo Chile con respaldo Victtorino. Detalles técnicos y combinaciones Si estás armando un baño desde cero o renovando completo, te recomendamos mirar también accesorios para baño y lavamanos para armar un conjunto coherente. El espejo es el centro visual del baño — todo lo demás debe conversar con él. Pensado para hogares chilenos La humedad del baño chileno es exigente: vapor diario de la ducha, ventilación a veces limitada, productos de limpieza distintos. Cada espejo del catálogo está pensado para resistir ese ambiente sin que el azogue se pique ni el marco se decolore con los años. Despacho a todo Chile y respaldo Victtorino Conoce más sobre nuestra historia como marca chilena especializada en espejos de baño y grifería para baño . Despacho a todo Chile. Tu baño se merece un mejor reflejo.",
+      "categorias": [
+        {
+          "id": 116,
+          "name": "Espejos",
+          "slug": "espejos"
+        }
+      ],
+      "atributos": [],
+      "imagenes": [
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_641174-MLC107403818388_032026-O.jpg",
+          "alt": "Espejo Redondo Doble Cara Con Aumento X3 Al Muro Blanco",
+          "id": 2608
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_890443-MLA108121615989_032026-O.jpg",
+          "alt": "Espejo Redondo Doble Cara Con Aumento X3 Al Muro Blanco - foto 2",
+          "id": 2609
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_754950-MLC108119745123_032026-O.webp",
+          "alt": "Espejo Redondo Doble Cara Con Aumento X3 Al Muro Blanco - foto 3",
+          "id": 2610
+        }
+      ],
+      "featured": false,
+      "average_rating": "0.00",
+      "rating_count": 0
+    },
+    {
+      "id": 2590,
+      "name": "Espejo Redondo Doble Cara Con Aumento X3 Pedestal Plateado",
+      "slug": "espejo-redondo-doble-cara-con-aumento-x3-pedestal-plateado",
+      "sku": "ML-MLC1499801581",
+      "permalink": "https://victtorino.cl/producto/espejo-redondo-doble-cara-con-aumento-x3-pedestal-plateado/",
+      "price": "13790",
+      "regular_price": "13790",
+      "sale_price": null,
+      "on_sale": false,
+      "stock_status": "instock",
+      "stock_quantity": 5,
+      "short_description": "Espejo Redondo Doble Cara Con Aumento X3 Pedestal Plateado. Espejo doble cara aumento con diseño contemporáneo, materiales resistentes y despacho a todo Chile. Renueva tu baño con piezas que duran y se ven bien.",
+      "description": "Un espejo doble cara aumento es más que un reflejo El Espejo Redondo Doble Cara Con Aumento X3 Pedestal Plateado es de esas piezas que amplían visualmente el baño, mejoran la iluminación natural y elevan toda la experiencia del espacio. Un espejo doble cara aumento bien elegido es la diferencia entre un baño funcional y un baño que se siente cuidado, cálido y bien diseñado. Cambiar el espejo doble cara aumento es una de las intervenciones de mayor impacto visual con menor obra. No hay demolición, no hay tuberías que mover, no hay polvo: lo descuelgas y lo cambias en menos de una hora. Y al día siguiente se siente otro baño. Por qué elegir este espejo doble cara aumento Bordes y soportes diseñados para resistir humedad permanente sin deteriorarse. Acabados pensados para integrarse a cualquier estilo de baño: moderno, nórdico, clásico, industrial. Anclajes seguros incluidos, con instrucciones claras de instalación. Diseño que amplía visualmente espacios pequeños — clave en baños de departamento. Despacho a todo Chile con respaldo Victtorino. Detalles técnicos y combinaciones Si estás armando un baño desde cero o renovando completo, te recomendamos mirar también accesorios para baño y lavamanos para armar un conjunto coherente. El espejo es el centro visual del baño — todo lo demás debe conversar con él. Pensado para hogares chilenos La humedad del baño chileno es exigente: vapor diario de la ducha, ventilación a veces limitada, productos de limpieza distintos. Cada espejo del catálogo está pensado para resistir ese ambiente sin que el azogue se pique ni el marco se decolore con los años. Despacho a todo Chile y respaldo Victtorino Conoce más sobre nuestra historia como marca chilena especializada en espejos de baño y grifería para baño . Despacho a todo Chile. Tu baño se merece un mejor reflejo.",
+      "categorias": [
+        {
+          "id": 116,
+          "name": "Espejos",
+          "slug": "espejos"
+        }
+      ],
+      "atributos": [],
+      "imagenes": [
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_896054-MLA108442222197_032026-O.jpg",
+          "alt": "Espejo Redondo Doble Cara Con Aumento X3 Pedestal Plateado",
+          "id": 2584
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_871977-MLC107702855976_032026-O.jpg",
+          "alt": "Espejo Redondo Doble Cara Con Aumento X3 Pedestal Plateado - foto 2",
+          "id": 2585
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_694860-MLC108443374081_032026-O.jpg",
+          "alt": "Espejo Redondo Doble Cara Con Aumento X3 Pedestal Plateado - foto 3",
+          "id": 2586
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_950061-MLC107704700560_032026-O.jpg",
+          "alt": "Espejo Redondo Doble Cara Con Aumento X3 Pedestal Plateado - foto 4",
+          "id": 2587
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_972363-MLA108442430817_032026-O.webp",
+          "alt": "Espejo Redondo Doble Cara Con Aumento X3 Pedestal Plateado - foto 5",
+          "id": 2588
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/05/D_640938-MLA108442074065_032026-O.jpg",
+          "alt": "Espejo Redondo Doble Cara Con Aumento X3 Pedestal Plateado - foto 6",
+          "id": 2589
+        }
+      ],
+      "featured": false,
+      "average_rating": "0.00",
+      "rating_count": 0
+    },
+    {
+      "id": 634,
+      "name": "Espejo 70 x 100 cm, 3 Luces Led Distintas",
+      "slug": "espejo-70-x-100-cm-3-luces-led-distintas",
+      "sku": "010703013-T",
+      "permalink": "https://victtorino.cl/producto/espejo-70-x-100-cm-3-luces-led-distintas/",
+      "price": "53796",
+      "regular_price": "53796",
+      "sale_price": null,
+      "on_sale": false,
+      "stock_status": "instock",
+      "stock_quantity": 6,
+      "short_description": "Espejo de 70×100 cm con 3 tipos de luz LED (cálida, neutra y fría), perfecto para maquillaje y aseo personal.",
+      "description": "Descripción General El espejo 70 x 100 cm con 3 luces LED distintas es una solución moderna y funcional para baños que buscan una iluminación versátil y un diseño contemporáneo. Su formato amplio permite una visualización cómoda y clara, ideal para rutinas diarias como maquillaje, afeitado o cuidado personal. Este espejo incorpora tres tonos de luz LED diferentes , lo que permite adaptar la iluminación según el momento del día o la necesidad del usuario. Esta característica lo convierte en una opción práctica tanto para iluminación general como para tareas que requieren mayor precisión visual. La tecnología LED ofrece un consumo energético eficiente y una larga vida útil, asegurando un rendimiento confiable en el tiempo. Fabricado con materiales resistentes y de alta calidad, el espejo está diseñado para soportar ambientes húmedos propios del baño, manteniendo su estabilidad y apariencia. Su diseño moderno se integra fácilmente con distintos estilos de lavamanos, griferías y muebles de baño, aportando luminosidad y sensación de amplitud al espacio. La instalación en muro es sencilla y compatible con distintos tipos de superficies, lo que lo hace ideal tanto para remodelaciones como para proyectos nuevos. Gracias a sus proporciones equilibradas, este espejo mejora la funcionalidad del baño y eleva su estética de forma inmediata. Características Principales Espejo de baño con iluminación LED integrada Tres tipos de luz LED seleccionables Diseño moderno y funcional Bajo consumo energético Ideal para uso diario Fácil instalación en muro Materiales resistentes y duraderos Dimensiones Ancho: 74 cm Alto: 104 cm Profundidad: 8 cm Este espejo combina tecnología, diseño y funcionalidad para baños modernos y bien iluminados.",
+      "categorias": [
+        {
+          "id": 116,
+          "name": "Espejos",
+          "slug": "espejos"
+        }
+      ],
+      "atributos": [],
+      "imagenes": [
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-70x100-3-luces-led-victtorino-chile-01.webp",
+          "alt": "espejo-70&#215;100-3-luces-led-victtorino-chile-01.webp",
+          "id": 735
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-70x100-3-luces-led-victtorino-chile-02.webp",
+          "alt": "espejo-70&#215;100-3-luces-led-victtorino-chile-02.webp",
+          "id": 737
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-70x100-3-luces-led-victtorino-chile-03.webp",
+          "alt": "espejo-70&#215;100-3-luces-led-victtorino-chile-03.webp",
+          "id": 738
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-70x100-3-luces-led-victtorino-chile-04.webp",
+          "alt": "espejo-70&#215;100-3-luces-led-victtorino-chile-04.webp",
+          "id": 739
+        }
+      ],
+      "featured": false,
+      "average_rating": "0.00",
+      "rating_count": 0
+    },
+    {
+      "id": 638,
+      "name": "Espejo Rectangular 45 x 60 cm Con Luz Led",
+      "slug": "espejo-rectangular-45-x-60-cm-con-luz-led",
+      "sku": "010703002-T",
+      "permalink": "https://victtorino.cl/producto/espejo-rectangular-45-x-60-cm-con-luz-led/",
+      "price": "39790",
+      "regular_price": "43367",
+      "sale_price": "39790",
+      "on_sale": true,
+      "stock_status": "instock",
+      "stock_quantity": 7,
+      "short_description": "Espejo rectangular 45×60 cm con luz LED integrada, iluminación uniforme sin sombras para el aseo diario.",
+      "description": "Descripción General El espejo rectangular 45 x 60 cm con luz LED es una opción moderna y funcional para iluminar baños, tocadores y espacios de uso diario. Su diseño compacto lo hace ideal para ambientes pequeños o medianos, ofreciendo una iluminación uniforme y agradable que facilita tareas de cuidado personal, como maquillaje, afeitado o rutinas de limpieza. La iluminación LED integrada destaca por su eficiencia energética y larga vida útil, entregando un brillo claro sin encandilar. Este tipo de luz mejora la visibilidad y aporta una estética contemporánea que combina perfectamente con griferías y accesorios modernos. Su tamaño de 45 x 60 cm es práctico para instalar sobre lavamanos, en muros angostos o en baños de visitas donde se busca optimizar el espacio. Fabricado con materiales resistentes, el espejo proporciona estabilidad y un acabado seguro para el uso diario. Según el modelo, puede incluir funciones como encendido táctil, luz fría o cálida, sistema antivaho o iluminación perimetral, permitiendo adaptarse a diferentes estilos de baño. Su montaje en muro es sencillo, y su diseño versátil lo convierte en una excelente alternativa para departamentos, remodelaciones o proyectos donde se necesita una mejora visual sin ocupar demasiado espacio. Características Principales Dimensiones: 45 x 60 cm Luz LED integrada de bajo consumo Diseño moderno y compacto Ideal para baños pequeños o medianos Iluminación clara y uniforme Compatible con distintos estilos decorativos Instalación sencilla en muro Este espejo LED es una opción práctica, elegante y funcional para mejorar la iluminación y el estilo del baño.",
+      "categorias": [
+        {
+          "id": 116,
+          "name": "Espejos",
+          "slug": "espejos"
+        }
+      ],
+      "atributos": [],
+      "imagenes": [
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-45x60-luz-led-chile-01.webp",
+          "alt": "espejo-rectangular-45&#215;60-luz-led-chile-01.webp",
+          "id": 751
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-45x60-luz-led-chile-02.webp",
+          "alt": "espejo-rectangular-45&#215;60-luz-led-chile-02.webp",
+          "id": 753
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-45x60-luz-led-chile-03.webp",
+          "alt": "espejo-rectangular-45&#215;60-luz-led-chile-03.webp",
+          "id": 754
+        }
+      ],
+      "featured": false,
+      "average_rating": "0.00",
+      "rating_count": 0
+    },
+    {
+      "id": 639,
+      "name": "Espejo Rectangular 50 x 70 cm Con Luz Led",
+      "slug": "espejo-rectangular-50-x-70-cm-con-luz-led",
+      "sku": "010703004-T",
+      "permalink": "https://victtorino.cl/producto/espejo-rectangular-50-x-70-cm-con-luz-led/",
+      "price": "23582",
+      "regular_price": "23582",
+      "sale_price": null,
+      "on_sale": false,
+      "stock_status": "instock",
+      "stock_quantity": 3,
+      "short_description": "Espejo rectangular 50×70 cm con luz LED, amplía visualmente el espacio y proporciona iluminación perfecta al rostro.",
+      "description": "Descripción General El espejo rectangular 50 x 70 cm con luz LED es una solución moderna y funcional para baños que requieren una iluminación eficiente y un diseño elegante. Su formato rectangular ofrece una superficie amplia y cómoda para el uso diario, ideal para rutinas de cuidado personal como maquillaje, afeitado o higiene facial. La iluminación LED integrada proporciona una luz uniforme y clara, mejorando la visibilidad sin encandilar. Este tipo de iluminación es eficiente en consumo energético y tiene una larga vida útil, lo que lo convierte en una alternativa práctica y duradera para el hogar. Su diseño moderno se adapta fácilmente a baños contemporáneos, departamentos, baños de visitas o proyectos de remodelación. Fabricado con materiales resistentes, el espejo asegura estabilidad y un excelente desempeño en ambientes húmedos. Su instalación en muro es sencilla y compatible con distintos tipos de superficies, facilitando su incorporación en baños nuevos o existentes. Además, el diseño limpio del espejo permite combinarlo con distintos estilos de lavamanos, griferías y muebles de baño. Gracias a sus proporciones equilibradas, este espejo aporta mayor luminosidad y sensación de amplitud al espacio, mejorando tanto la funcionalidad como la estética del baño. Características Principales Espejo rectangular con iluminación LED integrada Iluminación clara y uniforme Diseño moderno y funcional Ideal para baños residenciales Bajo consumo energético Fácil instalación en muro Compatible con distintos estilos de baño Dimensiones Ancho: 54 cm Alto: 74 cm Profundidad: 8 cm Este espejo LED es una excelente opción para quienes buscan funcionalidad, diseño y eficiencia en un solo producto.",
+      "categorias": [
+        {
+          "id": 116,
+          "name": "Espejos",
+          "slug": "espejos"
+        }
+      ],
+      "atributos": [],
+      "imagenes": [
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-50x70-luz-led-victtorino-chile-01.webp",
+          "alt": "espejo-rectangular-50&#215;70-luz-led-victtorino-chile-01.webp",
+          "id": 755
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-50x70-luz-led-victtorino-chile-02.webp",
+          "alt": "espejo-rectangular-50&#215;70-luz-led-victtorino-chile-02.webp",
+          "id": 757
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-50x70-luz-led-victtorino-chile-03.webp",
+          "alt": "espejo-rectangular-50&#215;70-luz-led-victtorino-chile-03.webp",
+          "id": 758
+        }
+      ],
+      "featured": false,
+      "average_rating": "0.00",
+      "rating_count": 0
+    },
+    {
+      "id": 666,
+      "name": "Espejo Rectangular 60 x 90 cm Con Borde Azul Y Líneas Celestes",
+      "slug": "espejo-rectangular-60-x-90-cm-con-borde-azul-y-lineas-celestes",
+      "sku": "010703007-T",
+      "permalink": "https://victtorino.cl/producto/espejo-rectangular-60-x-90-cm-con-borde-azul-y-lineas-celestes/",
+      "price": "53406",
+      "regular_price": "53406",
+      "sale_price": null,
+      "on_sale": false,
+      "stock_status": "instock",
+      "stock_quantity": 1,
+      "short_description": "Espejo rectangular 60×90 cm con borde azul y líneas celestes, diseño artístico único que convierte el espejo en cuadro.",
+      "description": "Descripción del Espejo Rectangular 60x90 Borde Azul El espejo rectangular 60x90 borde azul es una opción moderna y decorativa diseñada para mejorar la iluminación y el estilo de baños, dormitorios y recibidores. Su formato amplio permite un reflejo cómodo para rutinas diarias como maquillaje, afeitado o cuidado personal. El borde azul, junto a sus líneas celestes, aporta un toque distintivo que combina muy bien con espacios de diseño contemporáneo. Fabricado con materiales resistentes, este espejo ofrece nitidez, durabilidad y un acabado visual atractivo. La instalación es sencilla y compatible con muros estándar, lo que facilita su uso tanto en remodelaciones como en proyectos nuevos. Gracias a su diseño rectangular y tonos fríos, se integra fácilmente en ambientes minimalistas o modernos. Características Principales del Espejo Medidas: 60 x 90 cm Borde azul con líneas celestes decorativas Diseño moderno, limpio y ligero Excelente nitidez del reflejo Ideal para baños, dormitorios o pasillos Instalación sencilla en muro estándar Aporta amplitud y luminosidad al espacio Este espejo rectangular 60x90 borde azul es ideal para quienes buscan una pieza decorativa funcional que aporte color y estilo sin sobrecargar el ambiente.",
+      "categorias": [
+        {
+          "id": 116,
+          "name": "Espejos",
+          "slug": "espejos"
+        }
+      ],
+      "atributos": [],
+      "imagenes": [
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-60x90-borde-azul-lineas-celestes-chile-01.webp",
+          "alt": "espejo-rectangular-60&#215;90-borde-azul-lineas-celestes-chile-01.webp",
+          "id": 763
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-60x90-borde-azul-lineas-celestes-chile-02.webp",
+          "alt": "espejo-rectangular-60&#215;90-borde-azul-lineas-celestes-chile-02.webp",
+          "id": 765
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-60x90-borde-azul-lineas-celestes-chile-03.webp",
+          "alt": "espejo-rectangular-60&#215;90-borde-azul-lineas-celestes-chile-03.webp",
+          "id": 766
+        }
+      ],
+      "featured": false,
+      "average_rating": "0.00",
+      "rating_count": 0
+    },
+    {
+      "id": 667,
+      "name": "Espejo Rectangular 60 x 90 cm Con Diseño De Ondas",
+      "slug": "espejo-rectangular-60-x-90-cm-con-diseno-de-ondas",
+      "sku": "010703008-T",
+      "permalink": "https://victtorino.cl/producto/espejo-rectangular-60-x-90-cm-con-diseno-de-ondas/",
+      "price": "36117",
+      "regular_price": "36117",
+      "sale_price": null,
+      "on_sale": false,
+      "stock_status": "instock",
+      "stock_quantity": 4,
+      "short_description": "Espejo rectangular 60×90 cm con diseño de ondas, patrón decorativo que transforma el baño en un espacio de autor.",
+      "description": "Descripción General El espejo rectangular 60 x 90 cm con diseño de ondas es una pieza decorativa y funcional pensada para aportar estilo, amplitud visual y personalidad a distintos espacios del hogar. Su formato rectangular amplio lo convierte en una excelente opción para baños, dormitorios, recibidores o pasillos, mientras que su diseño de ondas agrega un detalle estético distintivo que eleva la decoración del ambiente. Este espejo combina funcionalidad con un diseño moderno, ideal para quienes buscan salir de lo tradicional y sumar un elemento visual atractivo sin perder practicidad. Su superficie permite un reflejo claro y cómodo para el uso diario, ya sea en rutinas de cuidado personal o como complemento decorativo que aporta mayor luminosidad al espacio. Fabricado con materiales resistentes y de buena calidad, el espejo mantiene su apariencia y estabilidad incluso en ambientes húmedos como el baño. Su instalación en muro es sencilla y compatible con distintos tipos de superficies, facilitando su incorporación tanto en proyectos de remodelación como en espacios nuevos. El diseño de ondas aporta dinamismo y suavidad visual, integrándose fácilmente con estilos modernos, contemporáneos o minimalistas. Gracias a sus proporciones equilibradas, ayuda a generar sensación de amplitud y mejora la iluminación natural o artificial del entorno. Características Principales Espejo rectangular de diseño moderno Detalle decorativo con diseño de ondas Ideal para baños, dormitorios o recibidores Excelente nitidez y calidad de reflejo Fabricación resistente y duradera Fácil instalación en muro Aporta estilo y luminosidad al espacio Dimensiones Ancho: 64 cm Alto: 94 cm Profundidad: 8 cm Este espejo es una excelente alternativa para quienes buscan diseño, funcionalidad y un toque decorativo distintivo.",
+      "categorias": [
+        {
+          "id": 116,
+          "name": "Espejos",
+          "slug": "espejos"
+        }
+      ],
+      "atributos": [],
+      "imagenes": [
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-60x90-diseno-ondas-victtorino-chile-01.webp",
+          "alt": "espejo-rectangular-60&#215;90-diseno-ondas-victtorino-chile-01.webp",
+          "id": 773
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-60x90-diseno-ondas-victtorino-chile-02.webp",
+          "alt": "espejo-rectangular-60&#215;90-diseno-ondas-victtorino-chile-02.webp",
+          "id": 775
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-rectangular-60x90-diseno-ondas-victtorino-chile-03.webp",
+          "alt": "espejo-rectangular-60&#215;90-diseno-ondas-victtorino-chile-03.webp",
+          "id": 776
+        }
+      ],
+      "featured": false,
+      "average_rating": "0.00",
+      "rating_count": 0
+    },
+    {
+      "id": 635,
+      "name": "Espejo Circular 60 cm Led Triple  Borde Metal",
+      "slug": "espejo-circular-60-cm-led-triple-borde-metal",
+      "sku": "010703014-T",
+      "permalink": "https://victtorino.cl/producto/espejo-circular-60-cm-led-triple-borde-metal/",
+      "price": "44965",
+      "regular_price": "44965",
+      "sale_price": null,
+      "on_sale": false,
+      "stock_status": "instock",
+      "stock_quantity": 3,
+      "short_description": "Espejo Circular 60 cm Led Triple Borde Metal. Espejo led circular 60 cm con diseño moderno y materiales resistentes. Despacho a todo Chile. Calidad Victtorino.",
+      "description": "Un espejo led circular 60 cm es más que un reflejo El Espejo Circular 60 cm Led Triple Borde Metal es de esas piezas que amplían visualmente el baño, mejoran la iluminación natural y elevan toda la experiencia del espacio. Un espejo led circular 60 cm bien elegido es la diferencia entre un baño funcional y un baño que se siente cuidado, cálido y bien diseñado. Cambiar el espejo led circular 60 cm es una de las intervenciones de mayor impacto visual con menor obra. No hay demolición, no hay tuberías que mover, no hay polvo: lo descuelgas y lo cambias en menos de una hora. Y al día siguiente se siente otro baño. Por qué elegir este espejo led circular 60 cm Bordes y soportes diseñados para resistir humedad permanente sin deteriorarse. Acabados pensados para integrarse a cualquier estilo de baño: moderno, nórdico, clásico, industrial. Anclajes seguros incluidos, con instrucciones claras de instalación. Diseño que amplía visualmente espacios pequeños — clave en baños de departamento. Despacho a todo Chile con respaldo Victtorino. Detalles técnicos y combinaciones Si estás armando un baño desde cero o renovando completo, te recomendamos mirar también accesorios para baño y lavamanos para armar un conjunto coherente. El espejo es el centro visual del baño — todo lo demás debe conversar con él. Pensado para hogares chilenos La humedad del baño chileno es exigente: vapor diario de la ducha, ventilación a veces limitada, productos de limpieza distintos. Cada espejo del catálogo está pensado para resistir ese ambiente sin que el azogue se pique ni el marco se decolore con los años. Despacho a todo Chile y respaldo Victtorino Conoce más sobre nuestra historia como marca chilena especializada en espejos de baño y grifería para baño . Despacho a todo Chile. Tu baño se merece un mejor reflejo.",
+      "categorias": [
+        {
+          "id": 116,
+          "name": "Espejos",
+          "slug": "espejos"
+        }
+      ],
+      "atributos": [],
+      "imagenes": [
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-circ-60-cm-led-triple-bord-metal-victtorino-chile.webp",
+          "alt": "espejo-circ-60-cm-led-triple-bord-metal-victtorino-chile.webp",
+          "id": 745
+        },
+        {
+          "src": "https://victtorino.cl/wp-content/uploads/2026/03/espejo-circ-60-cm-led-triple-bord-metal-victtorino-chile.webp",
+          "alt": "espejo-circ-60-cm-led-triple-bord-metal-victtorino-chile.webp",
+          "id": 745
+        }
+      ],
+      "featured": false,
+      "average_rating": "0.00",
+      "rating_count": 0
+    }
+  ]
+}

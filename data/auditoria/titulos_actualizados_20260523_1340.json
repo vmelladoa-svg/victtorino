@@ -1,0 +1,272 @@
+[
+  {
+    "item": "MLC1859010123",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Flexible Para Gas Hi-hi 1/2 X 3/8 En 100 Cm",
+    "new_title": "Flexible Para Gas Hi-Hi 1/2 X 3/8 100cm Trenzado Täumm"
+  },
+  {
+    "item": "MLC1858982017",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Monomando Tina Ducha Notte Negro Mate",
+    "new_title": "Monomando Tina Ducha Notte Acero Negro Mate Täumm Baño"
+  },
+  {
+    "item": "MLC2961406356",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Kit Wc Anclaje Antifuga Admisión",
+    "new_title": "Kit Wc Anclaje Antifuga Admisión Acero Inoxidable Täumm"
+  },
+  {
+    "item": "MLC589408143",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Kit Wc Anclaje Antifuga Admisión",
+    "new_title": "Kit Wc Anclaje Antifuga Admisión Acero Inoxidable Täumm"
+  },
+  {
+    "item": "MLC2992444340",
+    "cuenta": "C2",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Kit Wc Anclaje Antifuga Admisión",
+    "new_title": "Kit Wc Anclaje Antifuga Admisión Acero Inoxidable Täumm"
+  },
+  {
+    "item": "MLC1879566481",
+    "cuenta": "C2",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Monomando Tina Ducha Notte",
+    "new_title": "Monomando Mezclador Tina Ducha Notte Negro Mate Täumm"
+  },
+  {
+    "item": "MLC3585586956",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Dispensador De Jabón  Modelo Schwarz Negro",
+    "new_title": "Dispensador De Jabón Schwarz Plástico Negro Pared Täumm"
+  },
+  {
+    "item": "MLC1858804939",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Monomando Lavaplato  Vertical Colomba Plateado Brillante",
+    "new_title": "Monomando Lavaplatos Vertical Colomba Plateado Brillante Täumm"
+  },
+  {
+    "item": "MLC589408232",
+    "cuenta": "C2",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Kit Wc Anclaje Antifuga Admisión",
+    "new_title": "Kit Wc Anclaje Antifuga Admisión Acero Inoxidable Täumm"
+  },
+  {
+    "item": "MLC3724919200",
+    "cuenta": "C3",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Valvula Electronica Urinario Descarga Sensor",
+    "new_title": "Válvula Electrónica Urinario Descarga Sensor Acero Täumm"
+  },
+  {
+    "item": "MLC1524613562",
+    "cuenta": "C2",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Porta Toalla De Mano Toallero Acero Inoxidable Premium",
+    "new_title": "Toallero Barra Mano Acero Inoxidable Cepillado Plateado Täumm"
+  },
+  {
+    "item": "MLC1366197832",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Brazo O Tubo De Techo Para Ducha 25cm Redondo",
+    "new_title": "Brazo Tubo Ducha Techo Redondo 25cm Cromado Victtorino"
+  },
+  {
+    "item": "MLC1366185046",
+    "cuenta": "C2",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Brazo O Tubo De Techo Para Ducha 25cm Redondo",
+    "new_title": "Brazo Tubo Ducha Techo Redondo 25cm Cromado Victtorino"
+  },
+  {
+    "item": "MLC1858919499",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Barra De Seguridad Con Jabonera Para Baño Metal",
+    "new_title": "Barra Seguridad Jabonera Baño 40cm Acero Inox Cromado Täumm"
+  },
+  {
+    "item": "MLC2300909570",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "1 Paquete De Toalla De Papel Interfoliada Doble Hoja 200 Un.",
+    "new_title": "Toalla Papel Interfoliada Doble Hoja 200 Unidades Victtorino"
+  },
+  {
+    "item": "MLC2300794346",
+    "cuenta": "C2",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "1 Paquete De Toalla De Papel Interfoliada Doble Hoja 200 Un.",
+    "new_title": "Toalla Papel Interfoliada Doble Hoja 200 Unidades Victtorino"
+  },
+  {
+    "item": "MLC2300604098",
+    "cuenta": "C3",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "1 Paquete De Toalla De Papel Interfoliada Doble Hoja 200 Un.",
+    "new_title": "Toalla Papel Interfoliada Doble Hoja 200 Unidades Victtorino"
+  },
+  {
+    "item": "MLC1882285803",
+    "cuenta": "C2",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Llave Monomando Lavatorio Modern Plateado Cepillado Plateado Cepillado",
+    "new_title": "Llave Monomando Lavatorio Modern Plateado Cepillado Inox Täumm"
+  },
+  {
+    "item": "MLC1513791879",
+    "cuenta": "C3",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Llave Monomando Lavatorio Lavamanos Modern Plateado Cepillado",
+    "new_title": "Llave Monomando Lavatorio Modern Inox Plateado Cepillado Täumm"
+  },
+  {
+    "item": "MLC2189367944",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Barra Seguridad Y Soporte Para Ducha Telefono Adaptable 65cm Color 52053",
+    "new_title": "Barra Seguridad Soporte Ducha Teléfono Adaptable 65cm Cromado"
+  },
+  {
+    "item": "MLC1307531930",
+    "cuenta": "C3",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Ducha Fija Con Difusor Al Muro Abs Cromado Plateado",
+    "new_title": "Ducha Fija Con Difusor Al Muro Abs Cromado Plateado Täumm"
+  },
+  {
+    "item": "MLC2999177164",
+    "cuenta": "C3",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Agarradera 135° Barra Curva Seguridad - Color Plateado",
+    "new_title": "Agarradera Barra Curva Seguridad 135° 46cm Cromada Täumm"
+  },
+  {
+    "item": "MLC3746556806",
+    "cuenta": "C2",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Flexible Lavadora Con Curva Hi-hi 3/4 X150 Cm Lila Cromado",
+    "new_title": "Flexible Lavadora Curva Hi-Hi 3/4 150cm Lila Cromado Täumm"
+  },
+  {
+    "item": "MLC3741395942",
+    "cuenta": "C2",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Dispensador De Jabon Modelo Schawarz Negro Negro",
+    "new_title": "Dispensador De Jabón Schawarz Plástico Negro Pared Täumm"
+  },
+  {
+    "item": "MLC580694958",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Flexible Agua He-hi M10 Largo X1 X 1/2 35 Cm",
+    "new_title": "Flexible Agua He-Hi M10 X1 X 1/2 35cm Trenzado Täumm"
+  },
+  {
+    "item": "MLC1877730931",
+    "cuenta": "C2",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Sifón De Desague Para Tina Durable Y Eficiente Metal",
+    "new_title": "Sifón Desagüe Para Tina Acero Inoxidable Cromado Täumm"
+  },
+  {
+    "item": "MLC3585376560",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Perchero Multifuncional Para El Hogar Plateado",
+    "new_title": "Perchero Multifuncional Baño Acero Inox Plateado Täumm"
+  },
+  {
+    "item": "MLC581330829",
+    "cuenta": "C1",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Dispensador De Papel Higiénico Acrílico Con Llave  Plateado",
+    "new_title": "Dispensador Papel Higiénico Acrílico Llave Plateado Täumm"
+  },
+  {
+    "item": "MLC2117169726",
+    "cuenta": "C3",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Grifo Monomando Profesional Täumm Con Cuello Extensible Para Lavaplatos",
+    "new_title": "Monomando Lavaplatos Cuello Extensible Cromado Inox Täumm"
+  },
+  {
+    "item": "MLC1882260683",
+    "cuenta": "C2",
+    "status": "PUT_FAIL",
+    "http": 400,
+    "detail": "{'cause': 374, 'message': 'BODY_INVALID_FIELDS', 'error': 'You cannot modify the title if the item has a family_name', 'status': 400}",
+    "pre_title": "Grifo Para  Lavaplatos Profesional Monomando Plateado Brillante",
+    "new_title": "Monomando Lavaplatos Profesional Plateado Brillante Inox Täumm"
+  }
+]

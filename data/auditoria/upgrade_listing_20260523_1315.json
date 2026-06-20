@@ -1,0 +1,7064 @@
+[
+  {
+    "item": "MLC1976795676",
+    "cuenta": "C2",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC1976795676",
+      "site_id": "MLC",
+      "title": "Barra De Seguridad Muro Vertical De 3 Apoyos Fija Baño Color Plateado",
+      "seller_id": 483904870,
+      "category_id": "MLC174454",
+      "user_product_id": "MLCU14169642",
+      "official_store_id": null,
+      "price": 50028,
+      "base_price": 50028,
+      "original_price": null,
+      "inventory_id": null,
+      "currency_id": "CLP",
+      "initial_quantity": 14,
+      "available_quantity": 1,
+      "sold_quantity": 13,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TIME",
+          "name": "Tiempo de garantía",
+          "value_id": null,
+          "value_name": "6 meses",
+          "value_struct": {
+            "number": 6,
+            "unit": "meses"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "6 meses",
+              "struct": {
+                "number": 6,
+                "unit": "meses"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "2230280",
+          "value_name": "Garantía del vendedor",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230280",
+              "name": "Garantía del vendedor",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Barra De Seguridad Muro Vertical De 3 Apoyos Fija Baño Color Plateado",
+      "family_id": 365807914402065,
+      "start_time": "2023-09-08T11:49:23.000Z",
+      "stop_time": "2046-05-18T17:15:53.630Z",
+      "end_time": "2046-05-18T17:15:53.630Z",
+      "expiration_time": "2026-08-11T17:15:53.638Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-1976795676-barra-de-seguridad-muro-vertical-de-3-apoyos-fija-bano-color-plateado-_JM",
+      "pictures": [
+        {
+          "id": "674421-MLA94155577986_102025",
+          "url": "http://mla-s2-p.mlstatic.com/674421-MLA94155577986_102025-O.jpg",
+          "secure_url": "https://mla-s2-p.mlstatic.com/674421-MLA94155577986_102025-O.jpg",
+          "size": "323x500",
+          "max_size": "776x1200",
+          "quality": ""
+        },
+        {
+          "id": "926103-MLA94155558186_102025",
+          "url": "http://mla-s1-p.mlstatic.com/926103-MLA94155558186_102025-O.jpg",
+          "secure_url": "https://mla-s1-p.mlstatic.com/926103-MLA94155558186_102025-O.jpg",
+          "size": "372x500",
+          "max_size": "744x1000",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": true,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "self_service_in",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1138715319,
+        "comment": "Referencia: Casa Azul Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353944,
+        "longitude": -70.6588492,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353944,
+        "longitude": -70.6588492
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "LINE",
+          "name": "Línea",
+          "value_id": "23772312",
+          "value_name": "Barra 3 Apoyos",
+          "values": [
+            {
+              "id": "23772312",
+              "name": "Barra 3 Apoyos",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "647351726410",
+          "values": [
+            {
+              "id": null,
+              "name": "647351726410",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "010102008-T",
+          "values": [
+            {
+              "id": null,
+              "name": "010102008-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "WITH_BUILT_IN_SOAP_HOLDER",
+          "name": "Con jabonera integrada",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "WITH_SUCTION_CUPS",
+          "name": "Con ventosas",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "DEPTH",
+          "name": "Profundidad",
+          "value_id": "8061726",
+          "value_name": "18 cm",
+          "values": [
+            {
+              "id": "8061726",
+              "name": "18 cm",
+              "struct": {
+                "number": 18,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FINISH",
+          "name": "Acabado",
+          "value_id": "373817",
+          "value_name": "Mate",
+          "values": [
+            {
+              "id": "373817",
+              "name": "Mate",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "30 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "30 cm",
+              "struct": {
+                "number": 30,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52053",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "52053",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450303",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "2450303",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "GRAB_BAR_ANGLE",
+          "name": "Ángulo de la agarradera",
+          "value_id": "19148394",
+          "value_name": "90 °",
+          "values": [
+            {
+              "id": "19148394",
+              "name": "90 °",
+              "struct": {
+                "number": 90,
+                "unit": "°"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WITH_BUILT_IN_TOILET_PAPER_HOLDER",
+          "name": "Con porta rollo de papel higiénico integrado",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "UNITS_PER_PACK",
+          "name": "Unidades por pack",
+          "value_id": "2726554",
+          "value_name": "1",
+          "values": [
+            {
+              "id": "2726554",
+              "name": "1",
+              "struct": null
+            }
+          ],
+          "value_type": "number"
+        },
+        {
+          "id": "GRAB_BAR_DIAMETER",
+          "name": "Diámetro de la agarradera",
+          "value_id": "4820002",
+          "value_name": "3.2 cm",
+          "values": [
+            {
+              "id": "4820002",
+              "name": "3.2 cm",
+              "struct": {
+                "number": 3.2,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "MATERIAL",
+          "name": "Material",
+          "value_id": "4086949",
+          "value_name": "Acero inoxidable",
+          "values": [
+            {
+              "id": "4086949",
+              "name": "Acero inoxidable",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "10 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "10 cm",
+              "struct": {
+                "number": 10,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "4032 g",
+          "values": [
+            {
+              "id": null,
+              "name": "4032 g",
+              "struct": {
+                "number": 4032,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "62 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "62 cm",
+              "struct": {
+                "number": 62,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "BATHROOM_GRAB_BARS_SHAPE",
+          "name": "Forma",
+          "value_id": "45976071",
+          "value_name": "En L",
+          "values": [
+            {
+              "id": "45976071",
+              "name": "En L",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "IS_FOLDING",
+          "name": "Es abatible",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "HEIGHT",
+          "name": "Altura",
+          "value_id": "1125579",
+          "value_name": "60 cm",
+          "values": [
+            {
+              "id": "1125579",
+              "name": "60 cm",
+              "struct": {
+                "number": 60,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "LENGTH",
+          "name": "Largo",
+          "value_id": "2095030",
+          "value_name": "70 cm",
+          "values": [
+            {
+              "id": "2095030",
+              "name": "70 cm",
+              "struct": {
+                "number": 70,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SALE_FORMAT",
+          "name": "Formato de venta",
+          "value_id": "1359391",
+          "value_name": "Unidad",
+          "values": [
+            {
+              "id": "1359391",
+              "name": "Unidad",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "WITH_NON_SLIP_SURFACE",
+          "name": "Con superficie antideslizante",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": "23772313",
+          "value_name": "Vertical a Muro",
+          "values": [
+            {
+              "id": "23772313",
+              "name": "Vertical a Muro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "674421-MLA94155577986_102025",
+      "thumbnail": "http://mlc-s2-p.mlstatic.com/674421-MLA94155577986_102025-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "good_quality_thumbnail",
+        "immediate_payment"
+      ],
+      "warranty": "Garantía del vendedor: 6 meses",
+      "catalog_product_id": "MLC26661669",
+      "domain_id": "MLC-BATHROOM_GRAB_BARS",
+      "seller_custom_field": null,
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2023-09-08T11:49:23.000Z",
+      "last_updated": "2026-05-23T17:15:53.727Z",
+      "health": null,
+      "catalog_listing": true,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "barra de seguridad muro vertical de 3 apoyos fija ",
+    "net_180d_proyectado": 46026
+  },
+  {
+    "item": "MLC1920765886",
+    "cuenta": "C1",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC1920765886",
+      "site_id": "MLC",
+      "title": "Barra De Seguridad Muro Vertical De 3 Apoyos Fija Baño Color Plateado",
+      "seller_id": 483903060,
+      "category_id": "MLC174454",
+      "user_product_id": "MLCU14171168",
+      "official_store_id": null,
+      "price": 50028,
+      "base_price": 50028,
+      "original_price": null,
+      "inventory_id": null,
+      "currency_id": "CLP",
+      "initial_quantity": 5,
+      "available_quantity": 1,
+      "sold_quantity": 4,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "2230280",
+          "value_name": "Garantía del vendedor",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230280",
+              "name": "Garantía del vendedor",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "WARRANTY_TIME",
+          "name": "Tiempo de garantía",
+          "value_id": null,
+          "value_name": "1 años",
+          "value_struct": {
+            "number": 1,
+            "unit": "años"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "1 años",
+              "struct": {
+                "number": 1,
+                "unit": "años"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Barra De Seguridad Muro Vertical De 3 Apoyos Fija Baño Color Plateado",
+      "family_id": 6426208534470799,
+      "start_time": "2023-08-30T11:11:33.000Z",
+      "stop_time": "2046-05-18T17:15:56.774Z",
+      "end_time": "2046-05-18T17:15:56.774Z",
+      "expiration_time": "2026-08-11T17:15:56.781Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-1920765886-barra-de-seguridad-muro-vertical-de-3-apoyos-fija-bano-color-plateado-_JM",
+      "pictures": [
+        {
+          "id": "674421-MLA94155577986_102025",
+          "url": "http://mla-s2-p.mlstatic.com/674421-MLA94155577986_102025-O.jpg",
+          "secure_url": "https://mla-s2-p.mlstatic.com/674421-MLA94155577986_102025-O.jpg",
+          "size": "323x500",
+          "max_size": "776x1200",
+          "quality": ""
+        },
+        {
+          "id": "926103-MLA94155558186_102025",
+          "url": "http://mla-s1-p.mlstatic.com/926103-MLA94155558186_102025-O.jpg",
+          "secure_url": "https://mla-s1-p.mlstatic.com/926103-MLA94155558186_102025-O.jpg",
+          "size": "372x500",
+          "max_size": "744x1000",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": true,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "self_service_in",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1137728945,
+        "comment": "Referencia: Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353881,
+        "longitude": -70.6587864,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353881,
+        "longitude": -70.6587864
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FINISH",
+          "name": "Acabado",
+          "value_id": "373817",
+          "value_name": "Mate",
+          "values": [
+            {
+              "id": "373817",
+              "name": "Mate",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "LENGTH",
+          "name": "Largo",
+          "value_id": "2095030",
+          "value_name": "70 cm",
+          "values": [
+            {
+              "id": "2095030",
+              "name": "70 cm",
+              "struct": {
+                "number": 70,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SALE_FORMAT",
+          "name": "Formato de venta",
+          "value_id": "1359391",
+          "value_name": "Unidad",
+          "values": [
+            {
+              "id": "1359391",
+              "name": "Unidad",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "IS_FOLDING",
+          "name": "Es abatible",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "HEIGHT",
+          "name": "Altura",
+          "value_id": "1125579",
+          "value_name": "60 cm",
+          "values": [
+            {
+              "id": "1125579",
+              "name": "60 cm",
+              "struct": {
+                "number": 60,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450303",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "2450303",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "GRAB_BAR_DIAMETER",
+          "name": "Diámetro de la agarradera",
+          "value_id": "4820002",
+          "value_name": "3.2 cm",
+          "values": [
+            {
+              "id": "4820002",
+              "name": "3.2 cm",
+              "struct": {
+                "number": 3.2,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52053",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "52053",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MATERIAL",
+          "name": "Material",
+          "value_id": "4086949",
+          "value_name": "Acero inoxidable",
+          "values": [
+            {
+              "id": "4086949",
+              "name": "Acero inoxidable",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "4032 g",
+          "values": [
+            {
+              "id": null,
+              "name": "4032 g",
+              "struct": {
+                "number": 4032,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WITH_BUILT_IN_SOAP_HOLDER",
+          "name": "Con jabonera integrada",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "647351726410",
+          "values": [
+            {
+              "id": null,
+              "name": "647351726410",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "010102008-T",
+          "values": [
+            {
+              "id": null,
+              "name": "010102008-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "GRAB_BAR_ANGLE",
+          "name": "Ángulo de la agarradera",
+          "value_id": "19148394",
+          "value_name": "90 °",
+          "values": [
+            {
+              "id": "19148394",
+              "name": "90 °",
+              "struct": {
+                "number": 90,
+                "unit": "°"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "DEPTH",
+          "name": "Profundidad",
+          "value_id": "8061726",
+          "value_name": "18 cm",
+          "values": [
+            {
+              "id": "8061726",
+              "name": "18 cm",
+              "struct": {
+                "number": 18,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "13 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "13 cm",
+              "struct": {
+                "number": 13,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "73 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "73 cm",
+              "struct": {
+                "number": 73,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WITH_BUILT_IN_TOILET_PAPER_HOLDER",
+          "name": "Con porta rollo de papel higiénico integrado",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": "23772313",
+          "value_name": "Vertical a Muro",
+          "values": [
+            {
+              "id": "23772313",
+              "name": "Vertical a Muro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "WITH_SUCTION_CUPS",
+          "name": "Con ventosas",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "33 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "33 cm",
+              "struct": {
+                "number": 33,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WITH_NON_SLIP_SURFACE",
+          "name": "Con superficie antideslizante",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "LINE",
+          "name": "Línea",
+          "value_id": "23772312",
+          "value_name": "Barra 3 Apoyos",
+          "values": [
+            {
+              "id": "23772312",
+              "name": "Barra 3 Apoyos",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "UNITS_PER_PACK",
+          "name": "Unidades por pack",
+          "value_id": "2726554",
+          "value_name": "1",
+          "values": [
+            {
+              "id": "2726554",
+              "name": "1",
+              "struct": null
+            }
+          ],
+          "value_type": "number"
+        },
+        {
+          "id": "BATHROOM_GRAB_BARS_SHAPE",
+          "name": "Forma",
+          "value_id": "45976071",
+          "value_name": "En L",
+          "values": [
+            {
+              "id": "45976071",
+              "name": "En L",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "674421-MLA94155577986_102025",
+      "thumbnail": "http://mlc-s2-p.mlstatic.com/674421-MLA94155577986_102025-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "catalog_boost",
+        "good_quality_thumbnail",
+        "immediate_payment"
+      ],
+      "warranty": "Garantía del vendedor: 1 años",
+      "catalog_product_id": "MLC26661669",
+      "domain_id": "MLC-BATHROOM_GRAB_BARS",
+      "seller_custom_field": null,
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2023-08-30T11:11:34.000Z",
+      "last_updated": "2026-05-23T17:15:56.908Z",
+      "health": null,
+      "catalog_listing": true,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "barra de seguridad muro vertical de 3 apoyos fija ",
+    "net_180d_proyectado": 46026
+  },
+  {
+    "item": "MLC3518335890",
+    "cuenta": "C2",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC3518335890",
+      "site_id": "MLC",
+      "title": "Lavaplatos Simple 80x50 Secador Derecho Acero Inoxidable Plateado",
+      "seller_id": 483904870,
+      "category_id": "MLC454694",
+      "user_product_id": "MLCU3731220662",
+      "official_store_id": null,
+      "price": 31190,
+      "base_price": 31190,
+      "original_price": null,
+      "inventory_id": null,
+      "currency_id": "CLP",
+      "initial_quantity": 5,
+      "available_quantity": 5,
+      "sold_quantity": 0,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "6150835",
+          "value_name": "Sin garantía",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "6150835",
+              "name": "Sin garantía",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Lavaplatos Simple 80x50 Secador Derecho Acero Inoxidable",
+      "family_id": 1411413419576010,
+      "start_time": "2026-01-13T20:15:47.585Z",
+      "stop_time": "2046-05-18T17:16:00.029Z",
+      "end_time": "2046-05-18T17:16:00.029Z",
+      "expiration_time": "2026-08-11T17:16:00.037Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-3518335890-lavaplatos-simple-80x50-secador-derecho-acero-inoxidable-plateado-_JM",
+      "pictures": [
+        {
+          "id": "941662-MLC104682489171_012026",
+          "url": "http://mlc-s2-p.mlstatic.com/941662-MLC104682489171_012026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/941662-MLC104682489171_012026-O.jpg",
+          "size": "499x317",
+          "max_size": "1486x943",
+          "quality": ""
+        },
+        {
+          "id": "763265-MLC104682489173_012026",
+          "url": "http://mlc-s2-p.mlstatic.com/763265-MLC104682489173_012026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/763265-MLC104682489173_012026-O.jpg",
+          "size": "464x500",
+          "max_size": "1374x1480",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": true,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "self_service_in",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1138715319,
+        "comment": "Referencia: Casa Azul Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353944,
+        "longitude": -70.6588492,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353944,
+        "longitude": -70.6588492
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "ACCESSORIES_INCLUDED",
+          "name": "Accesorios incluidos",
+          "value_id": "8113633",
+          "value_name": "Desagüe",
+          "values": [
+            {
+              "id": "8113633",
+              "name": "Desagüe",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "WITH_DETERGENT_DISPENSER",
+          "name": "Con dosificador de detergente",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "WITH_DETERGENT_DISPENSER_HOLE",
+          "name": "Con agujero para dosificador de detergente",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "WIDTH",
+          "name": "Ancho",
+          "value_id": null,
+          "value_name": "50 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "50 cm",
+              "struct": {
+                "number": 50,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "LENGTH",
+          "name": "Largo",
+          "value_id": null,
+          "value_name": "80 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "80 cm",
+              "struct": {
+                "number": 80,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "THICKNESS",
+          "name": "Espesor",
+          "value_id": null,
+          "value_name": "0.5 mm",
+          "values": [
+            {
+              "id": null,
+              "name": "0.5 mm",
+              "struct": {
+                "number": 0.5,
+                "unit": "mm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SHAPE",
+          "name": "Forma",
+          "value_id": "1163800",
+          "value_name": "Rectangular",
+          "values": [
+            {
+              "id": "1163800",
+              "name": "Rectangular",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "53 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "53 cm",
+              "struct": {
+                "number": 53,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": "26357616",
+          "value_name": "80x50",
+          "values": [
+            {
+              "id": "26357616",
+              "name": "80x50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "659576865423",
+          "values": [
+            {
+              "id": null,
+              "name": "659576865423",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "KITCHEN_SINKS_TYPE",
+          "name": "Tipo de lavaplato",
+          "value_id": "1245313",
+          "value_name": "Simple",
+          "values": [
+            {
+              "id": "1245313",
+              "name": "Simple",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "86 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "86 cm",
+              "struct": {
+                "number": 86,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "MATERIAL",
+          "name": "Material",
+          "value_id": "4086949",
+          "value_name": "Acero inoxidable",
+          "values": [
+            {
+              "id": "4086949",
+              "name": "Acero inoxidable",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "19 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "19 cm",
+              "struct": {
+                "number": 19,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "FAUCET_HOLES_NUMBER",
+          "name": "Cantidad de agujeros para grifería",
+          "value_id": null,
+          "value_name": "1",
+          "values": [
+            {
+              "id": null,
+              "name": "1",
+              "struct": null
+            }
+          ],
+          "value_type": "number"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52053",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "52053",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "INCLUDES_FAUCET",
+          "name": "Incluye grifería",
+          "value_id": "242085",
+          "value_name": "Sí",
+          "values": [
+            {
+              "id": "242085",
+              "name": "Sí",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "DEPTH",
+          "name": "Profundidad",
+          "value_id": null,
+          "value_name": "20 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "20 cm",
+              "struct": {
+                "number": 20,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "3340 g",
+          "values": [
+            {
+              "id": null,
+              "name": "3340 g",
+              "struct": {
+                "number": 3340,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "FINISH",
+          "name": "Acabado",
+          "value_id": "1119415",
+          "value_name": "Cepillado",
+          "values": [
+            {
+              "id": "1119415",
+              "name": "Cepillado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "020102001-T",
+          "values": [
+            {
+              "id": null,
+              "name": "020102001-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "941662-MLC104682489171_012026",
+      "thumbnail": "http://mlc-s2-p.mlstatic.com/941662-MLC104682489171_012026-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "catalog_listing_eligible",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "user_product_listing"
+      ],
+      "warranty": "Sin garantía",
+      "catalog_product_id": "MLC21299599",
+      "domain_id": "MLC-KITCHEN_SINKS",
+      "seller_custom_field": null,
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2026-01-13T20:15:47.776Z",
+      "last_updated": "2026-05-23T17:16:00.126Z",
+      "health": null,
+      "catalog_listing": false,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "lavaplatos simple 80x50 secador derecho acero inox",
+    "net_180d_proyectado": 44914
+  },
+  {
+    "item": "MLC1823636917",
+    "cuenta": "C1",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC1823636917",
+      "site_id": "MLC",
+      "title": "Lavaplatos Simple 100x44 Secador Derecho Acero Inoxidable Plateado",
+      "seller_id": 483903060,
+      "category_id": "MLC454694",
+      "user_product_id": "MLCU3722307081",
+      "official_store_id": null,
+      "price": 41396,
+      "base_price": 41396,
+      "original_price": null,
+      "inventory_id": null,
+      "currency_id": "CLP",
+      "initial_quantity": 15,
+      "available_quantity": 14,
+      "sold_quantity": 1,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "6150835",
+          "value_name": "Sin garantía",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "6150835",
+              "name": "Sin garantía",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Lavaplatos Simple 100x44 Secador Derecho Acero Inoxidable",
+      "family_id": 2928035995777533,
+      "start_time": "2026-01-13T20:13:59.221Z",
+      "stop_time": "2046-05-18T17:16:03.109Z",
+      "end_time": "2046-05-18T17:16:03.109Z",
+      "expiration_time": "2026-08-11T17:16:03.118Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-1823636917-lavaplatos-simple-100x44-secador-derecho-acero-inoxidable-plateado-_JM",
+      "pictures": [
+        {
+          "id": "713420-MLC104682507169_012026",
+          "url": "http://mlc-s2-p.mlstatic.com/713420-MLC104682507169_012026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/713420-MLC104682507169_012026-O.jpg",
+          "size": "500x227",
+          "max_size": "1200x547",
+          "quality": ""
+        },
+        {
+          "id": "902429-MLC104682507173_012026",
+          "url": "http://mlc-s1-p.mlstatic.com/902429-MLC104682507173_012026-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/902429-MLC104682507173_012026-O.jpg",
+          "size": "500x295",
+          "max_size": "1200x708",
+          "quality": ""
+        },
+        {
+          "id": "990775-MLC104682507175_012026",
+          "url": "http://mlc-s1-p.mlstatic.com/990775-MLC104682507175_012026-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/990775-MLC104682507175_012026-O.jpg",
+          "size": "465x500",
+          "max_size": "1118x1200",
+          "quality": ""
+        },
+        {
+          "id": "919190-MLC104682507165_012026",
+          "url": "http://mlc-s2-p.mlstatic.com/919190-MLC104682507165_012026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/919190-MLC104682507165_012026-O.jpg",
+          "size": "500x453",
+          "max_size": "1200x1089",
+          "quality": ""
+        },
+        {
+          "id": "601630-MLC104682507167_012026",
+          "url": "http://mlc-s2-p.mlstatic.com/601630-MLC104682507167_012026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/601630-MLC104682507167_012026-O.jpg",
+          "size": "496x500",
+          "max_size": "1192x1200",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": true,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "self_service_in",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1137728945,
+        "comment": "Referencia: Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353881,
+        "longitude": -70.6587864,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353881,
+        "longitude": -70.6587864
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "FINISH",
+          "name": "Acabado",
+          "value_id": "1119415",
+          "value_name": "Cepillado",
+          "values": [
+            {
+              "id": "1119415",
+              "name": "Cepillado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52053",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "52053",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MATERIAL",
+          "name": "Material",
+          "value_id": "4086949",
+          "value_name": "Acero inoxidable",
+          "values": [
+            {
+              "id": "4086949",
+              "name": "Acero inoxidable",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "103 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "103 cm",
+              "struct": {
+                "number": 103,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "43 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "43 cm",
+              "struct": {
+                "number": 43,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "659576865423",
+          "values": [
+            {
+              "id": null,
+              "name": "659576865423",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "THICKNESS",
+          "name": "Espesor",
+          "value_id": null,
+          "value_name": "0.5 mm",
+          "values": [
+            {
+              "id": null,
+              "name": "0.5 mm",
+              "struct": {
+                "number": 0.5,
+                "unit": "mm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "LENGTH",
+          "name": "Largo",
+          "value_id": null,
+          "value_name": "100 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "100 cm",
+              "struct": {
+                "number": 100,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "2977 g",
+          "values": [
+            {
+              "id": null,
+              "name": "2977 g",
+              "struct": {
+                "number": 2977,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "DEPTH",
+          "name": "Profundidad",
+          "value_id": null,
+          "value_name": "20 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "20 cm",
+              "struct": {
+                "number": 20,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WIDTH",
+          "name": "Ancho",
+          "value_id": null,
+          "value_name": "44 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "44 cm",
+              "struct": {
+                "number": 44,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": null,
+          "value_name": "100X44",
+          "values": [
+            {
+              "id": null,
+              "name": "100X44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "17 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "17 cm",
+              "struct": {
+                "number": 17,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "INSTALLATION_TYPES",
+          "name": "Tipos de instalación",
+          "value_id": "16036790",
+          "value_name": "Empotrado",
+          "values": [
+            {
+              "id": "16036790",
+              "name": "Empotrado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "KITCHEN_SINKS_TYPE",
+          "name": "Tipo de lavaplato",
+          "value_id": "1245313",
+          "value_name": "Simple",
+          "values": [
+            {
+              "id": "1245313",
+              "name": "Simple",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "020101001-T",
+          "values": [
+            {
+              "id": null,
+              "name": "020101001-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "713420-MLC104682507169_012026",
+      "thumbnail": "http://mlc-s2-p.mlstatic.com/713420-MLC104682507169_012026-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "catalog_listing_eligible",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "user_product_listing"
+      ],
+      "warranty": "Sin garantía",
+      "catalog_product_id": "MLC22271649",
+      "domain_id": "MLC-KITCHEN_SINKS",
+      "seller_custom_field": null,
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2026-01-13T20:13:59.465Z",
+      "last_updated": "2026-05-23T17:16:03.197Z",
+      "health": null,
+      "catalog_listing": false,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "lavaplatos simple 100x44 secador derecho acero ino",
+    "net_180d_proyectado": 38084
+  },
+  {
+    "item": "MLC1653072427",
+    "cuenta": "C1",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC1653072427",
+      "site_id": "MLC",
+      "title": "Set Accesorios Baño 6 Piezas Colomba Plateado",
+      "seller_id": 483903060,
+      "category_id": "MLC175587",
+      "user_product_id": "MLCU12232334",
+      "official_store_id": null,
+      "price": 24428,
+      "base_price": 24428,
+      "original_price": null,
+      "inventory_id": "MVCI08555",
+      "currency_id": "CLP",
+      "initial_quantity": 5,
+      "available_quantity": 4,
+      "sold_quantity": 1,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TIME",
+          "name": "Tiempo de garantía",
+          "value_id": null,
+          "value_name": "1 años",
+          "value_struct": {
+            "number": 1,
+            "unit": "años"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "1 años",
+              "struct": {
+                "number": 1,
+                "unit": "años"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "2230280",
+          "value_name": "Garantía del vendedor",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230280",
+              "name": "Garantía del vendedor",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Set Accesorios Baño 6 Piezas Colomba Plateado",
+      "family_id": 8101189024691215,
+      "start_time": "2025-07-25T19:05:18.248Z",
+      "stop_time": "2046-05-18T17:16:06.222Z",
+      "end_time": "2046-05-18T17:16:06.222Z",
+      "expiration_time": "2026-12-09T17:16:06.232Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-1653072427-set-accesorios-bano-6-piezas-colomba-plateado-_JM",
+      "pictures": [
+        {
+          "id": "791700-MLA95519910338_102025",
+          "url": "http://mla-s1-p.mlstatic.com/791700-MLA95519910338_102025-O.jpg",
+          "secure_url": "https://mla-s1-p.mlstatic.com/791700-MLA95519910338_102025-O.jpg",
+          "size": "500x367",
+          "max_size": "1200x881",
+          "quality": ""
+        },
+        {
+          "id": "826626-MLU77914156112_082024",
+          "url": "http://mlu-s2-p.mlstatic.com/826626-MLU77914156112_082024-O.jpg",
+          "secure_url": "https://mlu-s2-p.mlstatic.com/826626-MLU77914156112_082024-O.jpg",
+          "size": "500x185",
+          "max_size": "1200x446",
+          "quality": ""
+        },
+        {
+          "id": "773114-MLA94086747839_102025",
+          "url": "http://mla-s1-p.mlstatic.com/773114-MLA94086747839_102025-O.jpg",
+          "secure_url": "https://mla-s1-p.mlstatic.com/773114-MLA94086747839_102025-O.jpg",
+          "size": "500x435",
+          "max_size": "1200x1044",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": true,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "MLC-threshold-update-nov-22",
+          "self_service_in",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1137728945,
+        "comment": "Referencia: Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353881,
+        "longitude": -70.6587864,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353881,
+        "longitude": -70.6587864
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "PACKAGE_HEIGHT",
+          "name": "Altura del paquete",
+          "value_id": null,
+          "value_name": "7.8 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "7.8 cm",
+              "struct": {
+                "number": 7.8,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PIECES_INCLUDED",
+          "name": "Piezas incluidas",
+          "value_id": null,
+          "value_name": "Jabonera,Perchero,Portarollo con tapa,Portavaso con vaso,TARUGOS Y TORNILLOS,Toallero anillo,Toallero barra 60 cm",
+          "values": [
+            {
+              "id": "3982632",
+              "name": "Jabonera",
+              "struct": null
+            },
+            {
+              "id": "32534088",
+              "name": "Perchero",
+              "struct": null
+            },
+            {
+              "id": "40072642",
+              "name": "Portarollo con tapa",
+              "struct": null
+            },
+            {
+              "id": "40072643",
+              "name": "Portavaso con vaso",
+              "struct": null
+            },
+            {
+              "id": "36571187",
+              "name": "TARUGOS Y TORNILLOS",
+              "struct": null
+            },
+            {
+              "id": "33349340",
+              "name": "Toallero anillo",
+              "struct": null
+            },
+            {
+              "id": "40072644",
+              "name": "Toallero barra 60 cm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "IS_FACTORY_KIT",
+          "name": "Es un kit de fábrica",
+          "value_id": "242085",
+          "value_name": "Sí",
+          "values": [
+            {
+              "id": "242085",
+              "name": "Sí",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "INCLUDES_INSTALATION_KIT",
+          "name": "Incluye kit de instalación",
+          "value_id": "242085",
+          "value_name": "Sí",
+          "values": [
+            {
+              "id": "242085",
+              "name": "Sí",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "PIECES_NUMBER",
+          "name": "Cantidad de piezas",
+          "value_id": "2923397",
+          "value_name": "6",
+          "values": [
+            {
+              "id": "2923397",
+              "name": "6",
+              "struct": null
+            }
+          ],
+          "value_type": "number"
+        },
+        {
+          "id": "SHIPMENT_PACKING",
+          "name": "Embalaje del envío",
+          "value_id": "7575939",
+          "value_name": "Auto-despachable",
+          "values": [
+            {
+              "id": "7575939",
+              "name": "Auto-despachable",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "9 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "9 cm",
+              "struct": {
+                "number": 9,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PRODUCT_FEATURES",
+          "name": "Características del producto",
+          "value_id": "8847339",
+          "value_name": "Sin vencimiento",
+          "values": [
+            {
+              "id": "8847339",
+              "name": "Sin vencimiento",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "61 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "61 cm",
+              "struct": {
+                "number": 61,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PACKAGE_WEIGHT",
+          "name": "Peso del paquete",
+          "value_id": null,
+          "value_name": "1100 g",
+          "values": [
+            {
+              "id": null,
+              "name": "1100 g",
+              "struct": {
+                "number": 1100,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "752853001139",
+          "values": [
+            {
+              "id": null,
+              "name": "752853001139",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": "40072632",
+          "value_name": "Accesorios Baño Colomba",
+          "values": [
+            {
+              "id": "40072632",
+              "name": "Accesorios Baño Colomba",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "1060 g",
+          "values": [
+            {
+              "id": null,
+              "name": "1060 g",
+              "struct": {
+                "number": 1060,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "MATERIALS",
+          "name": "Materiales",
+          "value_id": null,
+          "value_name": "Acero inoxidable,Latón cromado,Zamak",
+          "values": [
+            {
+              "id": "4086949",
+              "name": "Acero inoxidable",
+              "struct": null
+            },
+            {
+              "id": "13378991",
+              "name": "Latón cromado",
+              "struct": null
+            },
+            {
+              "id": "7951474",
+              "name": "Zamak",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450303",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "2450303",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "19 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "19 cm",
+              "struct": {
+                "number": 19,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "010704012-T",
+          "values": [
+            {
+              "id": null,
+              "name": "010704012-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_TYPE",
+          "name": "Tipo de paquete del seller",
+          "value_id": "47115155",
+          "value_name": "Sin embalaje adicional",
+          "values": [
+            {
+              "id": "47115155",
+              "name": "Sin embalaje adicional",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_LENGTH",
+          "name": "Largo del paquete",
+          "value_id": null,
+          "value_name": "18.6 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "18.6 cm",
+              "struct": {
+                "number": 18.6,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52053",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "52053",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_WIDTH",
+          "name": "Ancho del paquete",
+          "value_id": null,
+          "value_name": "60 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "60 cm",
+              "struct": {
+                "number": 60,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "791700-MLA95519910338_102025",
+      "thumbnail": "http://mlc-s1-p.mlstatic.com/791700-MLA95519910338_102025-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "immediate_payment",
+        "standard_price_by_quantity"
+      ],
+      "warranty": "Garantía del vendedor: 1 años",
+      "catalog_product_id": "MLC38831773",
+      "domain_id": "MLC-BATHROOM_ACCESSORIES_KITS",
+      "seller_custom_field": "010704012-T__26908280",
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2025-07-25T19:05:18.524Z",
+      "last_updated": "2026-05-23T17:16:06.338Z",
+      "health": null,
+      "catalog_listing": true,
+      "item_relations": [
+        {
+          "id": "MLC579732331",
+          "variation_id": null,
+          "stock_relation": 1
+        }
+      ],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "set accesorios baño 6 piezas colomba plateado",
+    "net_180d_proyectado": 35175
+  },
+  {
+    "item": "MLC3518260302",
+    "cuenta": "C1",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC3518260302",
+      "site_id": "MLC",
+      "title": "Lavaplatos Simple 80x50 Secador Derecho Acero Inoxidable Plateado",
+      "seller_id": 483903060,
+      "category_id": "MLC454694",
+      "user_product_id": "MLCU3722307077",
+      "official_store_id": null,
+      "price": 37390,
+      "base_price": 37390,
+      "original_price": null,
+      "inventory_id": null,
+      "currency_id": "CLP",
+      "initial_quantity": 6,
+      "available_quantity": 5,
+      "sold_quantity": 1,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "6150835",
+          "value_name": "Sin garantía",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "6150835",
+              "name": "Sin garantía",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Lavaplatos Simple 80x50 Secador Derecho Acero Inoxidable",
+      "family_id": 886026887124329,
+      "start_time": "2026-01-13T20:13:59.078Z",
+      "stop_time": "2046-05-18T17:16:09.531Z",
+      "end_time": "2046-05-18T17:16:09.531Z",
+      "expiration_time": "2026-08-11T17:16:09.538Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-3518260302-lavaplatos-simple-80x50-secador-derecho-acero-inoxidable-plateado-_JM",
+      "pictures": [
+        {
+          "id": "853128-MLC104682507141_012026",
+          "url": "http://mlc-s2-p.mlstatic.com/853128-MLC104682507141_012026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/853128-MLC104682507141_012026-O.jpg",
+          "size": "499x317",
+          "max_size": "1486x943",
+          "quality": ""
+        },
+        {
+          "id": "783988-MLC104682507143_012026",
+          "url": "http://mlc-s2-p.mlstatic.com/783988-MLC104682507143_012026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/783988-MLC104682507143_012026-O.jpg",
+          "size": "464x500",
+          "max_size": "1374x1480",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": true,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "self_service_in",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1137728945,
+        "comment": "Referencia: Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353881,
+        "longitude": -70.6587864,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353881,
+        "longitude": -70.6587864
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "MATERIAL",
+          "name": "Material",
+          "value_id": "4086949",
+          "value_name": "Acero inoxidable",
+          "values": [
+            {
+              "id": "4086949",
+              "name": "Acero inoxidable",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "020102001-T",
+          "values": [
+            {
+              "id": null,
+              "name": "020102001-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "ACCESSORIES_INCLUDED",
+          "name": "Accesorios incluidos",
+          "value_id": "8113633",
+          "value_name": "Desagüe",
+          "values": [
+            {
+              "id": "8113633",
+              "name": "Desagüe",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "KITCHEN_SINKS_TYPE",
+          "name": "Tipo de lavaplato",
+          "value_id": "1245313",
+          "value_name": "Simple",
+          "values": [
+            {
+              "id": "1245313",
+              "name": "Simple",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "WITH_DETERGENT_DISPENSER",
+          "name": "Con dosificador de detergente",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "DETAILED_MODEL",
+          "name": "Modelo detallado",
+          "value_id": "67697284",
+          "value_name": "198502503",
+          "values": [
+            {
+              "id": "67697284",
+              "name": "198502503",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450303",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "2450303",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "INSTALLATION_TYPES",
+          "name": "Tipos de instalación",
+          "value_id": "5776958",
+          "value_name": "Sobrepuesta",
+          "values": [
+            {
+              "id": "5776958",
+              "name": "Sobrepuesta",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52053",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "52053",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "86 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "86 cm",
+              "struct": {
+                "number": 86,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "3700 g",
+          "values": [
+            {
+              "id": null,
+              "name": "3700 g",
+              "struct": {
+                "number": 3700,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "THICKNESS",
+          "name": "Espesor",
+          "value_id": null,
+          "value_name": "0.5 mm",
+          "values": [
+            {
+              "id": null,
+              "name": "0.5 mm",
+              "struct": {
+                "number": 0.5,
+                "unit": "mm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WIDTH",
+          "name": "Ancho",
+          "value_id": null,
+          "value_name": "50 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "50 cm",
+              "struct": {
+                "number": 50,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SHAPE",
+          "name": "Forma",
+          "value_id": "1163800",
+          "value_name": "Rectangular",
+          "values": [
+            {
+              "id": "1163800",
+              "name": "Rectangular",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "DEPTH",
+          "name": "Profundidad",
+          "value_id": null,
+          "value_name": "20 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "20 cm",
+              "struct": {
+                "number": 20,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "659576865423",
+          "values": [
+            {
+              "id": null,
+              "name": "659576865423",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "18 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "18 cm",
+              "struct": {
+                "number": 18,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "FINISH",
+          "name": "Acabado",
+          "value_id": "1119415",
+          "value_name": "Cepillado",
+          "values": [
+            {
+              "id": "1119415",
+              "name": "Cepillado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "52 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "52 cm",
+              "struct": {
+                "number": 52,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FAUCET_HOLES_NUMBER",
+          "name": "Cantidad de agujeros para grifería",
+          "value_id": "2742724",
+          "value_name": "1",
+          "values": [
+            {
+              "id": "2742724",
+              "name": "1",
+              "struct": null
+            }
+          ],
+          "value_type": "number"
+        },
+        {
+          "id": "LENGTH",
+          "name": "Largo",
+          "value_id": null,
+          "value_name": "80 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "80 cm",
+              "struct": {
+                "number": 80,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": "26357616",
+          "value_name": "80x50",
+          "values": [
+            {
+              "id": "26357616",
+              "name": "80x50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "WITH_DETERGENT_DISPENSER_HOLE",
+          "name": "Con agujero para dosificador de detergente",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "INCLUDES_FAUCET",
+          "name": "Incluye grifería",
+          "value_id": "242085",
+          "value_name": "Sí",
+          "values": [
+            {
+              "id": "242085",
+              "name": "Sí",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "853128-MLC104682507141_012026",
+      "thumbnail": "http://mlc-s2-p.mlstatic.com/853128-MLC104682507141_012026-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "catalog_forewarning",
+        "catalog_listing_eligible",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "user_product_listing"
+      ],
+      "warranty": "Sin garantía",
+      "catalog_product_id": "MLC21299614",
+      "domain_id": "MLC-KITCHEN_SINKS",
+      "seller_custom_field": null,
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2026-01-13T20:13:59.259Z",
+      "last_updated": "2026-05-23T17:16:09.618Z",
+      "health": null,
+      "catalog_listing": false,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "lavaplatos simple 80x50 secador derecho acero inox",
+    "net_180d_proyectado": 34400
+  },
+  {
+    "item": "MLC1510438159",
+    "cuenta": "C2",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC1510438159",
+      "site_id": "MLC",
+      "title": "Set Accesorios Baño 6 Piezas Colomba Plateado",
+      "seller_id": 483904870,
+      "category_id": "MLC175587",
+      "user_product_id": "MLCU13747925",
+      "official_store_id": null,
+      "price": 22490,
+      "base_price": 22490,
+      "original_price": null,
+      "inventory_id": "RYQT08295",
+      "currency_id": "CLP",
+      "initial_quantity": 28,
+      "available_quantity": 4,
+      "sold_quantity": 24,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TIME",
+          "name": "Tiempo de garantía",
+          "value_id": null,
+          "value_name": "6 meses",
+          "value_struct": {
+            "number": 6,
+            "unit": "meses"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "6 meses",
+              "struct": {
+                "number": 6,
+                "unit": "meses"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "2230280",
+          "value_name": "Garantía del vendedor",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230280",
+              "name": "Garantía del vendedor",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Set Accesorios Baño 6 Piezas Colomba Plateado",
+      "family_id": 4640558425981285,
+      "start_time": "2024-08-02T14:10:20.562Z",
+      "stop_time": "2046-05-18T17:16:12.894Z",
+      "end_time": "2046-05-18T17:16:12.894Z",
+      "expiration_time": "2026-12-09T17:16:12.902Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-1510438159-set-accesorios-bano-6-piezas-colomba-plateado-_JM",
+      "pictures": [
+        {
+          "id": "791700-MLA95519910338_102025",
+          "url": "http://mla-s1-p.mlstatic.com/791700-MLA95519910338_102025-O.jpg",
+          "secure_url": "https://mla-s1-p.mlstatic.com/791700-MLA95519910338_102025-O.jpg",
+          "size": "500x367",
+          "max_size": "1200x881",
+          "quality": ""
+        },
+        {
+          "id": "826626-MLU77914156112_082024",
+          "url": "http://mlu-s2-p.mlstatic.com/826626-MLU77914156112_082024-O.jpg",
+          "secure_url": "https://mlu-s2-p.mlstatic.com/826626-MLU77914156112_082024-O.jpg",
+          "size": "500x185",
+          "max_size": "1200x446",
+          "quality": ""
+        },
+        {
+          "id": "773114-MLA94086747839_102025",
+          "url": "http://mla-s1-p.mlstatic.com/773114-MLA94086747839_102025-O.jpg",
+          "secure_url": "https://mla-s1-p.mlstatic.com/773114-MLA94086747839_102025-O.jpg",
+          "size": "500x435",
+          "max_size": "1200x1044",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": true,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "MLC-threshold-update-nov-22",
+          "self_service_in",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1138715319,
+        "comment": "Referencia: Casa Azul Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353944,
+        "longitude": -70.6588492,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353944,
+        "longitude": -70.6588492
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "61 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "61 cm",
+              "struct": {
+                "number": 61,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "1060 g",
+          "values": [
+            {
+              "id": null,
+              "name": "1060 g",
+              "struct": {
+                "number": 1060,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "010704012-T",
+          "values": [
+            {
+              "id": null,
+              "name": "010704012-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52053",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "52053",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": "40072632",
+          "value_name": "Accesorios Baño Colomba",
+          "values": [
+            {
+              "id": "40072632",
+              "name": "Accesorios Baño Colomba",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "IS_FACTORY_KIT",
+          "name": "Es un kit de fábrica",
+          "value_id": "242085",
+          "value_name": "Sí",
+          "values": [
+            {
+              "id": "242085",
+              "name": "Sí",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "PACKAGE_HEIGHT",
+          "name": "Altura del paquete",
+          "value_id": null,
+          "value_name": "4.8 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "4.8 cm",
+              "struct": {
+                "number": 4.8,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PIECES_NUMBER",
+          "name": "Cantidad de piezas",
+          "value_id": "2923397",
+          "value_name": "6",
+          "values": [
+            {
+              "id": "2923397",
+              "name": "6",
+              "struct": null
+            }
+          ],
+          "value_type": "number"
+        },
+        {
+          "id": "SHIPMENT_PACKING",
+          "name": "Embalaje del envío",
+          "value_id": "7575939",
+          "value_name": "Auto-despachable",
+          "values": [
+            {
+              "id": "7575939",
+              "name": "Auto-despachable",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "PACKAGE_LENGTH",
+          "name": "Largo del paquete",
+          "value_id": null,
+          "value_name": "60.2 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "60.2 cm",
+              "struct": {
+                "number": 60.2,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "9 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "9 cm",
+              "struct": {
+                "number": 9,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PACKAGE_WIDTH",
+          "name": "Ancho del paquete",
+          "value_id": null,
+          "value_name": "18.6 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "18.6 cm",
+              "struct": {
+                "number": 18.6,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "INCLUDES_INSTALATION_KIT",
+          "name": "Incluye kit de instalación",
+          "value_id": "242085",
+          "value_name": "Sí",
+          "values": [
+            {
+              "id": "242085",
+              "name": "Sí",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "PRODUCT_FEATURES",
+          "name": "Características del producto",
+          "value_id": "8847339",
+          "value_name": "Sin vencimiento",
+          "values": [
+            {
+              "id": "8847339",
+              "name": "Sin vencimiento",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "MATERIALS",
+          "name": "Materiales",
+          "value_id": null,
+          "value_name": "Acero inoxidable,Latón cromado,Zamak",
+          "values": [
+            {
+              "id": "4086949",
+              "name": "Acero inoxidable",
+              "struct": null
+            },
+            {
+              "id": "13378991",
+              "name": "Latón cromado",
+              "struct": null
+            },
+            {
+              "id": "7951474",
+              "name": "Zamak",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_TYPE",
+          "name": "Tipo de paquete del seller",
+          "value_id": "47115155",
+          "value_name": "Sin embalaje adicional",
+          "values": [
+            {
+              "id": "47115155",
+              "name": "Sin embalaje adicional",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PIECES_INCLUDED",
+          "name": "Piezas incluidas",
+          "value_id": null,
+          "value_name": "Jabonera,Perchero,Portarollo con tapa,Portavaso con vaso,TARUGOS Y TORNILLOS,Toallero anillo,Toallero barra 60 cm",
+          "values": [
+            {
+              "id": "3982632",
+              "name": "Jabonera",
+              "struct": null
+            },
+            {
+              "id": "32534088",
+              "name": "Perchero",
+              "struct": null
+            },
+            {
+              "id": "40072642",
+              "name": "Portarollo con tapa",
+              "struct": null
+            },
+            {
+              "id": "40072643",
+              "name": "Portavaso con vaso",
+              "struct": null
+            },
+            {
+              "id": "36571187",
+              "name": "TARUGOS Y TORNILLOS",
+              "struct": null
+            },
+            {
+              "id": "33349340",
+              "name": "Toallero anillo",
+              "struct": null
+            },
+            {
+              "id": "40072644",
+              "name": "Toallero barra 60 cm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "752853001139,7528530011394",
+          "values": [
+            {
+              "id": "40072638",
+              "name": "752853001139",
+              "struct": null
+            },
+            {
+              "id": "40464077",
+              "name": "7528530011394",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450303",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "2450303",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "PACKAGE_WEIGHT",
+          "name": "Peso del paquete",
+          "value_id": null,
+          "value_name": "1120 g",
+          "values": [
+            {
+              "id": null,
+              "name": "1120 g",
+              "struct": {
+                "number": 1120,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "19 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "19 cm",
+              "struct": {
+                "number": 19,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "791700-MLA95519910338_102025",
+      "thumbnail": "http://mlc-s1-p.mlstatic.com/791700-MLA95519910338_102025-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "catalog_boost",
+        "good_quality_thumbnail",
+        "immediate_payment"
+      ],
+      "warranty": "Garantía del vendedor: 6 meses",
+      "catalog_product_id": "MLC38831773",
+      "domain_id": "MLC-BATHROOM_ACCESSORIES_KITS",
+      "seller_custom_field": "010704012-T__26908280",
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2024-08-02T14:10:20.814Z",
+      "last_updated": "2026-05-23T17:16:12.979Z",
+      "health": null,
+      "catalog_listing": true,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "set accesorios baño 6 piezas colomba plateado",
+    "net_180d_proyectado": 32385
+  },
+  {
+    "item": "MLC581801887",
+    "cuenta": "C2",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC581801887",
+      "site_id": "MLC",
+      "title": "Llave Lavatorio Temporizada Al Muro Larga",
+      "seller_id": 483904870,
+      "category_id": "MLC177296",
+      "user_product_id": "MLCU12035507",
+      "official_store_id": null,
+      "price": 29210,
+      "base_price": 29210,
+      "original_price": null,
+      "inventory_id": "ARNS92453",
+      "currency_id": "CLP",
+      "initial_quantity": 71,
+      "available_quantity": 11,
+      "sold_quantity": 60,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TIME",
+          "name": "Tiempo de garantía",
+          "value_id": null,
+          "value_name": "6 meses",
+          "value_struct": {
+            "number": 6,
+            "unit": "meses"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "6 meses",
+              "struct": {
+                "number": 6,
+                "unit": "meses"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "2230280",
+          "value_name": "Garantía del vendedor",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230280",
+              "name": "Garantía del vendedor",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Llave Lavatorio Temporizada Al Muro Larga",
+      "family_id": 4304227631978976,
+      "start_time": "2021-02-10T18:37:57.000Z",
+      "stop_time": "2046-05-18T17:16:15.918Z",
+      "end_time": "2046-05-18T17:16:15.918Z",
+      "expiration_time": "2026-12-09T17:16:15.926Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-581801887-llave-lavatorio-temporizada-al-muro-larga-_JM",
+      "pictures": [
+        {
+          "id": "865850-MLC75523844570_042024",
+          "url": "http://mlc-s2-p.mlstatic.com/865850-MLC75523844570_042024-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/865850-MLC75523844570_042024-O.jpg",
+          "size": "500x243",
+          "max_size": "1141x555",
+          "quality": ""
+        },
+        {
+          "id": "993990-MLC75523844564_042024",
+          "url": "http://mlc-s1-p.mlstatic.com/993990-MLC75523844564_042024-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/993990-MLC75523844564_042024-O.jpg",
+          "size": "500x498",
+          "max_size": "1175x1172",
+          "quality": ""
+        },
+        {
+          "id": "959747-MLC107692899268_032026",
+          "url": "http://mlc-s2-p.mlstatic.com/959747-MLC107692899268_032026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/959747-MLC107692899268_032026-O.jpg",
+          "size": "500x500",
+          "max_size": "1024x1024",
+          "quality": ""
+        },
+        {
+          "id": "810518-MLC107692691316_032026",
+          "url": "http://mlc-s2-p.mlstatic.com/810518-MLC107692691316_032026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/810518-MLC107692691316_032026-O.jpg",
+          "size": "500x500",
+          "max_size": "1024x1024",
+          "quality": ""
+        },
+        {
+          "id": "694738-MLC107692810932_032026",
+          "url": "http://mlc-s1-p.mlstatic.com/694738-MLC107692810932_032026-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/694738-MLC107692810932_032026-O.jpg",
+          "size": "500x500",
+          "max_size": "1024x1024",
+          "quality": ""
+        },
+        {
+          "id": "738313-MLC75523844566_042024",
+          "url": "http://mlc-s1-p.mlstatic.com/738313-MLC75523844566_042024-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/738313-MLC75523844566_042024-O.jpg",
+          "size": "500x190",
+          "max_size": "1190x453",
+          "quality": ""
+        },
+        {
+          "id": "989310-MLC108431086301_032026",
+          "url": "http://mlc-s2-p.mlstatic.com/989310-MLC108431086301_032026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/989310-MLC108431086301_032026-O.jpg",
+          "size": "500x500",
+          "max_size": "1024x1024",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": true,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "fs_threshold_mlc_change_sep2021",
+          "self_service_in",
+          "mandatory_free_shipping"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1138715319,
+        "comment": "Referencia: Casa Azul Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353944,
+        "longitude": -70.6588492,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353944,
+        "longitude": -70.6588492
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": null,
+          "value_name": "Temporizada Al Muro",
+          "values": [
+            {
+              "id": null,
+              "name": "Temporizada Al Muro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_WIDTH",
+          "name": "Ancho del paquete",
+          "value_id": null,
+          "value_name": "15 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "15 cm",
+              "struct": {
+                "number": 15,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "040301002-T",
+          "values": [
+            {
+              "id": null,
+              "name": "040301002-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_WEIGHT",
+          "name": "Peso del paquete",
+          "value_id": null,
+          "value_name": "540 g",
+          "values": [
+            {
+              "id": null,
+              "name": "540 g",
+              "struct": {
+                "number": 540,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MANUFACTURER",
+          "name": "Fabricante",
+          "value_id": "-1",
+          "value_name": null,
+          "values": [
+            {
+              "id": "-1",
+              "name": null,
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_HEIGHT",
+          "name": "Altura del paquete",
+          "value_id": null,
+          "value_name": "5.2 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "5.2 cm",
+              "struct": {
+                "number": 5.2,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SHIPMENT_PACKING",
+          "name": "Embalaje del envío",
+          "value_id": "7435891",
+          "value_name": "Bolsa",
+          "values": [
+            {
+              "id": "7435891",
+              "name": "Bolsa",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "11738681",
+          "value_name": "Victtorino",
+          "values": [
+            {
+              "id": "11738681",
+              "name": "Victtorino",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PRODUCT_FEATURES",
+          "name": "Características del producto",
+          "value_id": "8847339",
+          "value_name": "Sin vencimiento",
+          "values": [
+            {
+              "id": "8847339",
+              "name": "Sin vencimiento",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "PACKAGE_LENGTH",
+          "name": "Largo del paquete",
+          "value_id": null,
+          "value_name": "21.4 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "21.4 cm",
+              "struct": {
+                "number": 21.4,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "752853005526",
+          "values": [
+            {
+              "id": null,
+              "name": "752853005526",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "865850-MLC75523844570_042024",
+      "thumbnail": "http://mlc-s2-p.mlstatic.com/865850-MLC75523844570_042024-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "extended_warranty_eligible",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "loyalty_discount_eligible",
+        "user_product_listing"
+      ],
+      "warranty": "Garantía del vendedor: 6 meses",
+      "catalog_product_id": null,
+      "domain_id": "MLC-BATHROOM_SUPPLIES",
+      "seller_custom_field": "040301002-T__26908180",
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2021-02-10T18:37:57.000Z",
+      "last_updated": "2026-05-23T17:16:16.076Z",
+      "health": 0.88,
+      "catalog_listing": false,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "llave lavatorio temporizada al muro larga",
+    "net_180d_proyectado": 14021
+  },
+  {
+    "item": "MLC579732331",
+    "cuenta": "C1",
+    "status": "SKIP_ALREADY",
+    "pre": {
+      "id": "MLC579732331",
+      "title": "Set De Accesorios Para Baño 6 Piezas Colomba Plateado",
+      "price": 24428,
+      "listing_type_id": "gold_pro",
+      "status": "active"
+    }
+  },
+  {
+    "item": "MLC620033044",
+    "cuenta": "C1",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC620033044",
+      "site_id": "MLC",
+      "title": "Barra De Seguridad Recta 40 Cm Baño Ducha Acero Inoxidable Plateado",
+      "seller_id": 483903060,
+      "category_id": "MLC174454",
+      "user_product_id": "MLCU55318759",
+      "official_store_id": null,
+      "price": 14865,
+      "base_price": 14865,
+      "original_price": null,
+      "inventory_id": "RHLB32325",
+      "currency_id": "CLP",
+      "initial_quantity": 52,
+      "available_quantity": 5,
+      "sold_quantity": 47,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "2230280",
+          "value_name": "Garantía del vendedor",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230280",
+              "name": "Garantía del vendedor",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "WARRANTY_TIME",
+          "name": "Tiempo de garantía",
+          "value_id": null,
+          "value_name": "1 años",
+          "value_struct": {
+            "number": 1,
+            "unit": "años"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "1 años",
+              "struct": {
+                "number": 1,
+                "unit": "años"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Barra De Seguridad Recta 40 Cm Baño Ducha Acero Inoxidable",
+      "family_id": 2125013168306235,
+      "start_time": "2021-06-10T22:48:45.000Z",
+      "stop_time": "2046-05-18T17:16:19.915Z",
+      "end_time": "2046-05-18T17:16:19.915Z",
+      "expiration_time": "2026-12-09T17:16:19.922Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-620033044-barra-de-seguridad-recta-40-cm-bano-ducha-acero-inoxidable-plateado-_JM",
+      "pictures": [
+        {
+          "id": "840242-MLC89966487951_082025",
+          "url": "http://mlc-s1-p.mlstatic.com/840242-MLC89966487951_082025-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/840242-MLC89966487951_082025-O.jpg",
+          "size": "500x481",
+          "max_size": "1172x1128",
+          "quality": ""
+        },
+        {
+          "id": "741365-MLC91126006114_092025",
+          "url": "http://mlc-s1-p.mlstatic.com/741365-MLC91126006114_092025-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/741365-MLC91126006114_092025-O.jpg",
+          "size": "500x269",
+          "max_size": "1198x645",
+          "quality": ""
+        },
+        {
+          "id": "942328-MLC46354812955_062021",
+          "url": "http://mlc-s1-p.mlstatic.com/942328-MLC46354812955_062021-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/942328-MLC46354812955_062021-O.jpg",
+          "size": "500x500",
+          "max_size": "1168x1168",
+          "quality": ""
+        },
+        {
+          "id": "872972-MLC91125985370_092025",
+          "url": "http://mlc-s2-p.mlstatic.com/872972-MLC91125985370_092025-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/872972-MLC91125985370_092025-O.jpg",
+          "size": "500x329",
+          "max_size": "1049x691",
+          "quality": ""
+        },
+        {
+          "id": "974205-MLC91125462792_092025",
+          "url": "http://mlc-s2-p.mlstatic.com/974205-MLC91125462792_092025-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/974205-MLC91125462792_092025-O.jpg",
+          "size": "451x500",
+          "max_size": "1084x1200",
+          "quality": ""
+        },
+        {
+          "id": "826069-MLC91125749004_092025",
+          "url": "http://mlc-s2-p.mlstatic.com/826069-MLC91125749004_092025-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/826069-MLC91125749004_092025-O.jpg",
+          "size": "500x407",
+          "max_size": "1004x818",
+          "quality": ""
+        },
+        {
+          "id": "945240-MLC91126006110_092025",
+          "url": "http://mlc-s1-p.mlstatic.com/945240-MLC91126006110_092025-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/945240-MLC91126006110_092025-O.jpg",
+          "size": "500x483",
+          "max_size": "828x800",
+          "quality": ""
+        },
+        {
+          "id": "744209-MLC91518832695_092025",
+          "url": "http://mlc-s1-p.mlstatic.com/744209-MLC91518832695_092025-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/744209-MLC91518832695_092025-O.jpg",
+          "size": "500x308",
+          "max_size": "1200x740",
+          "quality": ""
+        },
+        {
+          "id": "928143-MLC91125798690_092025",
+          "url": "http://mlc-s1-p.mlstatic.com/928143-MLC91125798690_092025-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/928143-MLC91125798690_092025-O.jpg",
+          "size": "500x446",
+          "max_size": "693x619",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": false,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "self_service_in"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1137728945,
+        "comment": "Referencia: Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353881,
+        "longitude": -70.6587864,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353881,
+        "longitude": -70.6587864
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "LINE",
+          "name": "Línea",
+          "value_id": "32058177",
+          "value_name": "Barra de seguridad",
+          "values": [
+            {
+              "id": "32058177",
+              "name": "Barra de seguridad",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SALE_FORMAT",
+          "name": "Formato de venta",
+          "value_id": "1359391",
+          "value_name": "Unidad",
+          "values": [
+            {
+              "id": "1359391",
+              "name": "Unidad",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "BATHROOM_GRAB_BARS_SHAPE",
+          "name": "Forma",
+          "value_id": "2434690",
+          "value_name": "Recta",
+          "values": [
+            {
+              "id": "2434690",
+              "name": "Recta",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "647351774244,6473517742444",
+          "values": [
+            {
+              "id": null,
+              "name": "647351774244",
+              "struct": null
+            },
+            {
+              "id": null,
+              "name": "6473517742444",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "15 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "15 cm",
+              "struct": {
+                "number": 15,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WITH_NON_SLIP_SURFACE",
+          "name": "Con superficie antideslizante",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "6 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "6 cm",
+              "struct": {
+                "number": 6,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WITH_BUILT_IN_TOILET_PAPER_HOLDER",
+          "name": "Con porta rollo de papel higiénico integrado",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "SHIPMENT_PACKING",
+          "name": "Embalaje del envío",
+          "value_id": "7435891",
+          "value_name": "Bolsa",
+          "values": [
+            {
+              "id": "7435891",
+              "name": "Bolsa",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "HEIGHT",
+          "name": "Altura",
+          "value_id": "-1",
+          "value_name": null,
+          "values": [
+            {
+              "id": "-1",
+              "name": null,
+              "struct": null
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450303",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "2450303",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "PACKAGE_WIDTH",
+          "name": "Ancho del paquete",
+          "value_id": null,
+          "value_name": "41 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "41 cm",
+              "struct": {
+                "number": 41,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52053",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "52053",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_WEIGHT",
+          "name": "Peso del paquete",
+          "value_id": null,
+          "value_name": "400 g",
+          "values": [
+            {
+              "id": null,
+              "name": "400 g",
+              "struct": {
+                "number": 400,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": null,
+          "value_name": "Recta 40 Cm",
+          "values": [
+            {
+              "id": null,
+              "name": "Recta 40 Cm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "GRAB_BAR_ANGLE",
+          "name": "Ángulo de la agarradera",
+          "value_id": null,
+          "value_name": "90 °",
+          "values": [
+            {
+              "id": null,
+              "name": "90 °",
+              "struct": {
+                "number": 90,
+                "unit": "°"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WITH_BUILT_IN_SOAP_HOLDER",
+          "name": "Con jabonera integrada",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "FINISH",
+          "name": "Acabado",
+          "value_id": "1119292",
+          "value_name": "Cromado",
+          "values": [
+            {
+              "id": "1119292",
+              "name": "Cromado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "LENGTH",
+          "name": "Largo",
+          "value_id": null,
+          "value_name": "40 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "40 cm",
+              "struct": {
+                "number": 40,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "UNITS_PER_PACK",
+          "name": "Unidades por pack",
+          "value_id": null,
+          "value_name": "1",
+          "values": [
+            {
+              "id": null,
+              "name": "1",
+              "struct": null
+            }
+          ],
+          "value_type": "number"
+        },
+        {
+          "id": "IS_FOLDING",
+          "name": "Es abatible",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "44 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "44 cm",
+              "struct": {
+                "number": 44,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "GRAB_BAR_DIAMETER",
+          "name": "Diámetro de la agarradera",
+          "value_id": null,
+          "value_name": "2.5 mm",
+          "values": [
+            {
+              "id": null,
+              "name": "2.5 mm",
+              "struct": {
+                "number": 2.5,
+                "unit": "mm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PACKAGE_LENGTH",
+          "name": "Largo del paquete",
+          "value_id": null,
+          "value_name": "11.4 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "11.4 cm",
+              "struct": {
+                "number": 11.4,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "512 g",
+          "values": [
+            {
+              "id": null,
+              "name": "512 g",
+              "struct": {
+                "number": 512,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "010102005-T",
+          "values": [
+            {
+              "id": null,
+              "name": "010102005-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PRODUCT_FEATURES",
+          "name": "Características del producto",
+          "value_id": "8847339",
+          "value_name": "Sin vencimiento",
+          "values": [
+            {
+              "id": "8847339",
+              "name": "Sin vencimiento",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_TYPE",
+          "name": "Tipo de paquete del seller",
+          "value_id": "47115156",
+          "value_name": "Con embalaje adicional",
+          "values": [
+            {
+              "id": "47115156",
+              "name": "Con embalaje adicional",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "WITH_SUCTION_CUPS",
+          "name": "Con ventosas",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "DEPTH",
+          "name": "Profundidad",
+          "value_id": null,
+          "value_name": "5 m",
+          "values": [
+            {
+              "id": null,
+              "name": "5 m",
+              "struct": {
+                "number": 5,
+                "unit": "m"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "MATERIAL",
+          "name": "Material",
+          "value_id": "4086949",
+          "value_name": "Acero inoxidable",
+          "values": [
+            {
+              "id": "4086949",
+              "name": "Acero inoxidable",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_HEIGHT",
+          "name": "Altura del paquete",
+          "value_id": null,
+          "value_name": "4.4 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "4.4 cm",
+              "struct": {
+                "number": 4.4,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "840242-MLC89966487951_082025",
+      "thumbnail": "http://mlc-s1-p.mlstatic.com/840242-MLC89966487951_082025-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "loyalty_discount_eligible",
+        "user_product_listing"
+      ],
+      "warranty": "Garantía del vendedor: 1 años",
+      "catalog_product_id": null,
+      "domain_id": "MLC-BATHROOM_GRAB_BARS",
+      "seller_custom_field": null,
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2021-06-10T22:48:45.000Z",
+      "last_updated": "2026-05-23T17:16:20.097Z",
+      "health": 0.75,
+      "catalog_listing": false,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "barra de seguridad recta 40 cm baño ducha acero in",
+    "net_180d_proyectado": 7135
+  },
+  {
+    "item": "MLC1822064418",
+    "cuenta": "C1",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC1822064418",
+      "site_id": "MLC",
+      "title": "Brazo Para Plato De Ducha Al Muro 40 Cm Schwartz Negro",
+      "seller_id": 483903060,
+      "category_id": "MLC438708",
+      "user_product_id": "MLCU13911420",
+      "official_store_id": null,
+      "price": 13690,
+      "base_price": 13690,
+      "original_price": null,
+      "inventory_id": "DNWM96238",
+      "currency_id": "CLP",
+      "initial_quantity": 12,
+      "available_quantity": 1,
+      "sold_quantity": 11,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "2230280",
+          "value_name": "Garantía del vendedor",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230280",
+              "name": "Garantía del vendedor",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "WARRANTY_TIME",
+          "name": "Tiempo de garantía",
+          "value_id": null,
+          "value_name": "1 años",
+          "value_struct": {
+            "number": 1,
+            "unit": "años"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "1 años",
+              "struct": {
+                "number": 1,
+                "unit": "años"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Brazo Para Plato De Ducha Al Muro 40 Cm Schwartz Negro",
+      "family_id": 2445928810136548,
+      "start_time": "2023-07-25T20:28:03.106Z",
+      "stop_time": "2046-05-18T17:16:23.267Z",
+      "end_time": "2046-05-18T17:16:23.267Z",
+      "expiration_time": "2026-12-09T17:16:23.286Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-1822064418-brazo-para-plato-de-ducha-al-muro-40-cm-schwartz-negro-_JM",
+      "pictures": [
+        {
+          "id": "699204-MLC75930665157_042024",
+          "url": "http://mlc-s2-p.mlstatic.com/699204-MLC75930665157_042024-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/699204-MLC75930665157_042024-O.jpg",
+          "size": "500x161",
+          "max_size": "1188x384",
+          "quality": ""
+        },
+        {
+          "id": "993010-MLC89778959513_082025",
+          "url": "http://mlc-s2-p.mlstatic.com/993010-MLC89778959513_082025-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/993010-MLC89778959513_082025-O.jpg",
+          "size": "473x378",
+          "max_size": "473x378",
+          "quality": ""
+        },
+        {
+          "id": "604237-MLC89411559110_082025",
+          "url": "http://mlc-s1-p.mlstatic.com/604237-MLC89411559110_082025-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/604237-MLC89411559110_082025-O.jpg",
+          "size": "500x176",
+          "max_size": "500x176",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": false,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "self_service_in"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1137728945,
+        "comment": "Referencia: Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353881,
+        "longitude": -70.6587864,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353881,
+        "longitude": -70.6587864
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "PACKAGE_WEIGHT",
+          "name": "Peso del paquete",
+          "value_id": null,
+          "value_name": "400 g",
+          "values": [
+            {
+              "id": null,
+              "name": "400 g",
+              "struct": {
+                "number": 400,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SHIPMENT_PACKING",
+          "name": "Embalaje del envío",
+          "value_id": "7575939",
+          "value_name": "Auto-despachable",
+          "values": [
+            {
+              "id": "7575939",
+              "name": "Auto-despachable",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "44 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "44 cm",
+              "struct": {
+                "number": 44,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "4 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "4 cm",
+              "struct": {
+                "number": 4,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_TYPE",
+          "name": "Tipo de paquete del seller",
+          "value_id": "47115155",
+          "value_name": "Sin embalaje adicional",
+          "values": [
+            {
+              "id": "47115155",
+              "name": "Sin embalaje adicional",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_LENGTH",
+          "name": "Largo del paquete",
+          "value_id": null,
+          "value_name": "7.4 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "7.4 cm",
+              "struct": {
+                "number": 7.4,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PRODUCT_FEATURES",
+          "name": "Características del producto",
+          "value_id": "8847339",
+          "value_name": "Sin vencimiento",
+          "values": [
+            {
+              "id": "8847339",
+              "name": "Sin vencimiento",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "400 g",
+          "values": [
+            {
+              "id": null,
+              "name": "400 g",
+              "struct": {
+                "number": 400,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "8 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "8 cm",
+              "struct": {
+                "number": 8,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "PACKAGE_WIDTH",
+          "name": "Ancho del paquete",
+          "value_id": null,
+          "value_name": "43.4 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "43.4 cm",
+              "struct": {
+                "number": 43.4,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "010103004-T",
+          "values": [
+            {
+              "id": null,
+              "name": "010103004-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": null,
+          "value_name": "Brazo Ducha al Muro 40 cm Schwartz Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "Brazo Ducha al Muro 40 cm Schwartz Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "7528530120744,752853012074",
+          "values": [
+            {
+              "id": null,
+              "name": "7528530120744",
+              "struct": null
+            },
+            {
+              "id": null,
+              "name": "752853012074",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MANUFACTURER",
+          "name": "Fabricante",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_HEIGHT",
+          "name": "Altura del paquete",
+          "value_id": null,
+          "value_name": "4 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "4 cm",
+              "struct": {
+                "number": 4,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "699204-MLC75930665157_042024",
+      "thumbnail": "http://mlc-s2-p.mlstatic.com/699204-MLC75930665157_042024-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "extended_warranty_eligible",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "user_product_listing"
+      ],
+      "warranty": "Garantía del vendedor: 1 años",
+      "catalog_product_id": null,
+      "domain_id": "MLC-BATHROOM_SUPPLIES",
+      "seller_custom_field": "010103004-T__26908000",
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2023-07-25T20:28:03.252Z",
+      "last_updated": "2026-05-23T17:16:23.448Z",
+      "health": 0.75,
+      "catalog_listing": false,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "brazo para plato de ducha al muro 40 cm schwartz n",
+    "net_180d_proyectado": 6571
+  },
+  {
+    "item": "MLC3733687524",
+    "cuenta": "C2",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC3733687524",
+      "site_id": "MLC",
+      "title": "Barra De Seguridad Recta 40 Cm Baño Ducha Acero Inoxidable Plateado",
+      "seller_id": 483904870,
+      "category_id": "MLC174454",
+      "user_product_id": "MLCU3828329471",
+      "official_store_id": null,
+      "price": 13390,
+      "base_price": 13390,
+      "original_price": null,
+      "inventory_id": null,
+      "currency_id": "CLP",
+      "initial_quantity": 5,
+      "available_quantity": 5,
+      "sold_quantity": 0,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "2230280",
+          "value_name": "Garantía del vendedor",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230280",
+              "name": "Garantía del vendedor",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "WARRANTY_TIME",
+          "name": "Tiempo de garantía",
+          "value_id": null,
+          "value_name": "6 meses",
+          "value_struct": {
+            "number": 6,
+            "unit": "meses"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "6 meses",
+              "struct": {
+                "number": 6,
+                "unit": "meses"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Barra De Seguridad Recta 40 Cm Baño Ducha Acero Inoxidable",
+      "family_id": 8920146233937245,
+      "start_time": "2026-03-09T19:05:59.781Z",
+      "stop_time": "2046-05-18T17:16:26.754Z",
+      "end_time": "2046-05-18T17:16:26.754Z",
+      "expiration_time": "2026-08-11T17:16:26.761Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-3733687524-barra-de-seguridad-recta-40-cm-bano-ducha-acero-inoxidable-plateado-_JM",
+      "pictures": [
+        {
+          "id": "684114-MLC108370124797_032026",
+          "url": "http://mlc-s2-p.mlstatic.com/684114-MLC108370124797_032026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/684114-MLC108370124797_032026-O.jpg",
+          "size": "500x481",
+          "max_size": "1172x1128",
+          "quality": ""
+        },
+        {
+          "id": "875650-MLA108371084035_032026",
+          "url": "http://mla-s1-p.mlstatic.com/875650-MLA108371084035_032026-O.jpg",
+          "secure_url": "https://mla-s1-p.mlstatic.com/875650-MLA108371084035_032026-O.jpg",
+          "size": "500x500",
+          "max_size": "1024x1024",
+          "quality": ""
+        },
+        {
+          "id": "605487-MLC107638767516_032026",
+          "url": "http://mlc-s2-p.mlstatic.com/605487-MLC107638767516_032026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/605487-MLC107638767516_032026-O.jpg",
+          "size": "499x499",
+          "max_size": "1160x1159",
+          "quality": ""
+        },
+        {
+          "id": "816758-MLC108371314625_032026",
+          "url": "http://mlc-s2-p.mlstatic.com/816758-MLC108371314625_032026-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/816758-MLC108371314625_032026-O.jpg",
+          "size": "500x481",
+          "max_size": "1172x1128",
+          "quality": ""
+        },
+        {
+          "id": "974925-MLA107639245416_032026",
+          "url": "http://mla-s1-p.mlstatic.com/974925-MLA107639245416_032026-O.jpg",
+          "secure_url": "https://mla-s1-p.mlstatic.com/974925-MLA107639245416_032026-O.jpg",
+          "size": "500x500",
+          "max_size": "1024x1024",
+          "quality": ""
+        },
+        {
+          "id": "736352-MLA107638568104_032026",
+          "url": "http://mla-s2-p.mlstatic.com/736352-MLA107638568104_032026-O.jpg",
+          "secure_url": "https://mla-s2-p.mlstatic.com/736352-MLA107638568104_032026-O.jpg",
+          "size": "500x500",
+          "max_size": "1024x1024",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": true,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "self_service_in"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1138715319,
+        "comment": "Referencia: Casa Azul Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353944,
+        "longitude": -70.6588492,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353944,
+        "longitude": -70.6588492
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "LINE",
+          "name": "Línea",
+          "value_id": "32058177",
+          "value_name": "Barra de seguridad",
+          "values": [
+            {
+              "id": "32058177",
+              "name": "Barra de seguridad",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "2000 g",
+          "values": [
+            {
+              "id": null,
+              "name": "2000 g",
+              "struct": {
+                "number": 2000,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "IS_FOLDING",
+          "name": "Es abatible",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "6 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "6 cm",
+              "struct": {
+                "number": 6,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SYI_PYMES_ID",
+          "name": "syi pymes id",
+          "value_id": null,
+          "value_name": "26576fdd-11ad-487c-8b01-7ebcf89272fd",
+          "values": [
+            {
+              "id": null,
+              "name": "26576fdd-11ad-487c-8b01-7ebcf89272fd",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "6 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "6 cm",
+              "struct": {
+                "number": 6,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "LENGTH",
+          "name": "Largo",
+          "value_id": null,
+          "value_name": "40 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "40 cm",
+              "struct": {
+                "number": 40,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "8168736436677",
+          "values": [
+            {
+              "id": null,
+              "name": "8168736436677",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "010102005-T",
+          "values": [
+            {
+              "id": null,
+              "name": "010102005-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "WITH_BUILT_IN_TOILET_PAPER_HOLDER",
+          "name": "Con porta rollo de papel higiénico integrado",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "UNITS_PER_PACK",
+          "name": "Unidades por pack",
+          "value_id": null,
+          "value_name": "1",
+          "values": [
+            {
+              "id": null,
+              "name": "1",
+              "struct": null
+            }
+          ],
+          "value_type": "number"
+        },
+        {
+          "id": "WITH_NON_SLIP_SURFACE",
+          "name": "Con superficie antideslizante",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "WITH_BUILT_IN_SOAP_HOLDER",
+          "name": "Con jabonera integrada",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        },
+        {
+          "id": "SALE_FORMAT",
+          "name": "Formato de venta",
+          "value_id": "1359391",
+          "value_name": "Unidad",
+          "values": [
+            {
+              "id": "1359391",
+              "name": "Unidad",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FINISH",
+          "name": "Acabado",
+          "value_id": "1119292",
+          "value_name": "Cromado",
+          "values": [
+            {
+              "id": "1119292",
+              "name": "Cromado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": null,
+          "value_name": "Recta 40 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "Recta 40 cm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MAIN_COLOR",
+          "name": "Color principal",
+          "value_id": "2450303",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "2450303",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52053",
+          "value_name": "Plateado",
+          "values": [
+            {
+              "id": "52053",
+              "name": "Plateado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MATERIAL",
+          "name": "Material",
+          "value_id": "4086949",
+          "value_name": "Acero inoxidable",
+          "values": [
+            {
+              "id": "4086949",
+              "name": "Acero inoxidable",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "40 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "40 cm",
+              "struct": {
+                "number": 40,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PACKAGE_DATA_SOURCE",
+          "name": "Orígen del dato del paquete de fábrica",
+          "value_id": null,
+          "value_name": "SELLER",
+          "values": [
+            {
+              "id": null,
+              "name": "SELLER",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "BATHROOM_GRAB_BARS_SHAPE",
+          "name": "Forma",
+          "value_id": "2434690",
+          "value_name": "Recta",
+          "values": [
+            {
+              "id": "2434690",
+              "name": "Recta",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "WITH_SUCTION_CUPS",
+          "name": "Con ventosas",
+          "value_id": "242084",
+          "value_name": "No",
+          "values": [
+            {
+              "id": "242084",
+              "name": "No",
+              "struct": null
+            }
+          ],
+          "value_type": "boolean"
+        }
+      ],
+      "warnings": [],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "684114-MLC108370124797_032026",
+      "thumbnail": "http://mlc-s2-p.mlstatic.com/684114-MLC108370124797_032026-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "user_product_listing"
+      ],
+      "warranty": "Garantía del vendedor: 6 meses",
+      "catalog_product_id": null,
+      "domain_id": "MLC-BATHROOM_GRAB_BARS",
+      "seller_custom_field": null,
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2026-03-09T19:06:00.002Z",
+      "last_updated": "2026-05-23T17:16:26.898Z",
+      "health": null,
+      "catalog_listing": false,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "barra de seguridad recta 40 cm baño ducha acero in",
+    "net_180d_proyectado": 6427
+  },
+  {
+    "item": "MLC965853634",
+    "cuenta": "C2",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC965853634",
+      "site_id": "MLC",
+      "title": "Collarín De Goma Con Pestaña Wc",
+      "seller_id": 483904870,
+      "category_id": "MLC177296",
+      "user_product_id": "MLCU12030561",
+      "official_store_id": null,
+      "price": 3590,
+      "base_price": 3590,
+      "original_price": null,
+      "inventory_id": "THCX70682",
+      "currency_id": "CLP",
+      "initial_quantity": 36,
+      "available_quantity": 1,
+      "sold_quantity": 35,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TIME",
+          "name": "Tiempo de garantía",
+          "value_id": null,
+          "value_name": "6 meses",
+          "value_struct": {
+            "number": 6,
+            "unit": "meses"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "6 meses",
+              "struct": {
+                "number": 6,
+                "unit": "meses"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "2230280",
+          "value_name": "Garantía del vendedor",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230280",
+              "name": "Garantía del vendedor",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Collarín De Goma Con Pestaña Wc",
+      "family_id": 7963193200902737,
+      "start_time": "2022-02-22T20:40:07.000Z",
+      "stop_time": "2046-05-18T17:16:30.084Z",
+      "end_time": "2046-05-18T17:16:30.084Z",
+      "expiration_time": "2026-12-09T17:16:30.091Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-965853634-collarin-de-goma-con-pestana-wc-_JM",
+      "pictures": [
+        {
+          "id": "985175-MLC49184319647_022022",
+          "url": "http://mlc-s2-p.mlstatic.com/985175-MLC49184319647_022022-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/985175-MLC49184319647_022022-O.jpg",
+          "size": "500x290",
+          "max_size": "1038x603",
+          "quality": ""
+        },
+        {
+          "id": "993559-MLC49184372409_022022",
+          "url": "http://mlc-s1-p.mlstatic.com/993559-MLC49184372409_022022-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/993559-MLC49184372409_022022-O.jpg",
+          "size": "500x470",
+          "max_size": "1205x1134",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": false,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "self_service_in"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1138715319,
+        "comment": "Referencia: Casa Azul Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353944,
+        "longitude": -70.6588492,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353944,
+        "longitude": -70.6588492
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "PACKAGE_HEIGHT",
+          "name": "Altura del paquete",
+          "value_id": null,
+          "value_name": "4.2 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "4.2 cm",
+              "struct": {
+                "number": 4.2,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_WIDTH",
+          "name": "Ancho del paquete del seller",
+          "value_id": null,
+          "value_name": "15 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "15 cm",
+              "struct": {
+                "number": 15,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "010301005-T",
+          "values": [
+            {
+              "id": null,
+              "name": "010301005-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_WEIGHT",
+          "name": "Peso del paquete",
+          "value_id": null,
+          "value_name": "100 g",
+          "values": [
+            {
+              "id": null,
+              "name": "100 g",
+              "struct": {
+                "number": 100,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_LENGTH",
+          "name": "Largo del paquete del seller",
+          "value_id": null,
+          "value_name": "6 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "6 cm",
+              "struct": {
+                "number": 6,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "SELLER_PACKAGE_HEIGHT",
+          "name": "Altura del paquete del seller",
+          "value_id": null,
+          "value_name": "17 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "17 cm",
+              "struct": {
+                "number": 17,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "MANUFACTURER",
+          "name": "Fabricante",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SHIPMENT_PACKING",
+          "name": "Embalaje del envío",
+          "value_id": "7435891",
+          "value_name": "Bolsa",
+          "values": [
+            {
+              "id": "7435891",
+              "name": "Bolsa",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "11738681",
+          "value_name": "Victtorino",
+          "values": [
+            {
+              "id": "11738681",
+              "name": "Victtorino",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": null,
+          "value_name": "210000400",
+          "values": [
+            {
+              "id": null,
+              "name": "210000400",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_WIDTH",
+          "name": "Ancho del paquete",
+          "value_id": null,
+          "value_name": "11.6 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "11.6 cm",
+              "struct": {
+                "number": 11.6,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PRODUCT_FEATURES",
+          "name": "Características del producto",
+          "value_id": "8847339",
+          "value_name": "Sin vencimiento",
+          "values": [
+            {
+              "id": "8847339",
+              "name": "Sin vencimiento",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_TYPE",
+          "name": "Tipo de paquete del seller",
+          "value_id": "47115156",
+          "value_name": "Con embalaje adicional",
+          "values": [
+            {
+              "id": "47115156",
+              "name": "Con embalaje adicional",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "752853008244",
+          "values": [
+            {
+              "id": null,
+              "name": "752853008244",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_PACKAGE_WEIGHT",
+          "name": "Peso del paquete del seller",
+          "value_id": null,
+          "value_name": "212 g",
+          "values": [
+            {
+              "id": null,
+              "name": "212 g",
+              "struct": {
+                "number": 212,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PACKAGE_LENGTH",
+          "name": "Largo del paquete",
+          "value_id": null,
+          "value_name": "14 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "14 cm",
+              "struct": {
+                "number": 14,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        }
+      ],
+      "warnings": [
+        {
+          "department": "shipping",
+          "cause_id": 4033,
+          "code": "shipping.free_shipping.cost_exceeded",
+          "message": "Free shipping costs exceeds sale",
+          "references": [
+            "item.prices"
+          ]
+        }
+      ],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "985175-MLC49184319647_022022",
+      "thumbnail": "http://mlc-s2-p.mlstatic.com/985175-MLC49184319647_022022-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "loyalty_discount_eligible",
+        "user_product_listing"
+      ],
+      "warranty": "Garantía del vendedor: 6 meses",
+      "catalog_product_id": null,
+      "domain_id": "MLC-BATHROOM_SUPPLIES",
+      "seller_custom_field": "010301005-T__26908137",
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2022-02-22T20:40:07.000Z",
+      "last_updated": "2026-05-23T17:16:30.289Z",
+      "health": 0.87,
+      "catalog_listing": false,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "collarín de goma con pestaña wc",
+    "net_180d_proyectado": 1723
+  },
+  {
+    "item": "MLC965803149",
+    "cuenta": "C1",
+    "status": "OK",
+    "pre_listing": "gold_special",
+    "post_listing": "gold_pro",
+    "upgrade_response": {
+      "id": "MLC965803149",
+      "site_id": "MLC",
+      "title": "Collarín De Goma Con Pestaña Wc",
+      "seller_id": 483903060,
+      "category_id": "MLC177296",
+      "user_product_id": "MLCU14171160",
+      "official_store_id": null,
+      "price": 3208,
+      "base_price": 3208,
+      "original_price": null,
+      "inventory_id": "BEBK69964",
+      "currency_id": "CLP",
+      "initial_quantity": 64,
+      "available_quantity": 1,
+      "sold_quantity": 63,
+      "sale_terms": [
+        {
+          "id": "WARRANTY_TYPE",
+          "name": "Tipo de garantía",
+          "value_id": "2230280",
+          "value_name": "Garantía del vendedor",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "2230280",
+              "name": "Garantía del vendedor",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "WARRANTY_TIME",
+          "name": "Tiempo de garantía",
+          "value_id": null,
+          "value_name": "1 años",
+          "value_struct": {
+            "number": 1,
+            "unit": "años"
+          },
+          "values": [
+            {
+              "id": null,
+              "name": "1 años",
+              "struct": {
+                "number": 1,
+                "unit": "años"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        }
+      ],
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "family_name": "Collarín De Goma Con Pestaña Wc",
+      "family_id": 7991414545672813,
+      "start_time": "2022-02-22T20:37:21.000Z",
+      "stop_time": "2046-05-18T17:16:33.691Z",
+      "end_time": "2046-05-18T17:16:33.691Z",
+      "expiration_time": "2026-12-09T17:16:33.699Z",
+      "condition": "new",
+      "permalink": "http://articulo.mercadolibre.cl/MLC-965803149-collarin-de-goma-con-pestana-wc-_JM",
+      "pictures": [
+        {
+          "id": "925255-MLC49184265489_022022",
+          "url": "http://mlc-s2-p.mlstatic.com/925255-MLC49184265489_022022-O.jpg",
+          "secure_url": "https://mlc-s2-p.mlstatic.com/925255-MLC49184265489_022022-O.jpg",
+          "size": "500x290",
+          "max_size": "1038x603",
+          "quality": ""
+        },
+        {
+          "id": "630302-MLC49184178986_022022",
+          "url": "http://mlc-s1-p.mlstatic.com/630302-MLC49184178986_022022-O.jpg",
+          "secure_url": "https://mlc-s1-p.mlstatic.com/630302-MLC49184178986_022022-O.jpg",
+          "size": "500x470",
+          "max_size": "1205x1134",
+          "quality": ""
+        }
+      ],
+      "video_id": null,
+      "descriptions": [],
+      "accepts_mercadopago": true,
+      "non_mercado_pago_payment_methods": [],
+      "shipping": {
+        "mode": "me2",
+        "local_pick_up": true,
+        "free_shipping": false,
+        "methods": [],
+        "dimensions": null,
+        "tags": [
+          "self_service_in"
+        ],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "international_delivery_mode": "none",
+      "seller_address": {
+        "id": 1137728945,
+        "comment": "Referencia: Domicilio Comercial de Lunes a Viernes de 09:00 a 18:00 Hrs",
+        "address_line": "Madame Adriana Bolland 430",
+        "zip_code": "",
+        "city": {
+          "id": "TUxDQ0xBIGFhMjBk",
+          "name": "La Cisterna"
+        },
+        "state": {
+          "id": "CL-RM",
+          "name": "RM (Metropolitana)"
+        },
+        "country": {
+          "id": "CL",
+          "name": "Chile"
+        },
+        "latitude": -33.5353881,
+        "longitude": -70.6587864,
+        "search_location": {
+          "neighborhood": {
+            "id": "",
+            "name": ""
+          },
+          "city": {
+            "id": "TUxDQ0xBIGFhMjBk",
+            "name": "La Cisterna"
+          },
+          "state": {
+            "id": "TUxDUE1FVEExM2JlYg",
+            "name": "RM (Metropolitana)"
+          }
+        }
+      },
+      "seller_contact": null,
+      "location": {},
+      "geolocation": {
+        "latitude": -33.5353881,
+        "longitude": -70.6587864
+      },
+      "coverage_areas": [],
+      "attributes": [
+        {
+          "id": "PACKAGE_WIDTH",
+          "name": "Ancho del paquete",
+          "value_id": null,
+          "value_name": "12 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "12 cm",
+              "struct": {
+                "number": 12,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PRODUCT_DATA_SOURCE",
+          "name": "Fuente del producto",
+          "value_id": null,
+          "value_name": "Importado",
+          "values": [
+            {
+              "id": null,
+              "name": "Importado",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": "11738681",
+          "value_name": "Victtorino",
+          "values": [
+            {
+              "id": "11738681",
+              "name": "Victtorino",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PRODUCT_FEATURES",
+          "name": "Características del producto",
+          "value_id": "8847339",
+          "value_name": "Sin vencimiento",
+          "values": [
+            {
+              "id": "8847339",
+              "name": "Sin vencimiento",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "MANUFACTURER",
+          "name": "Fabricante",
+          "value_id": "10777442",
+          "value_name": "Täumm",
+          "values": [
+            {
+              "id": "10777442",
+              "name": "Täumm",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "values": [
+            {
+              "id": "2230284",
+              "name": "Nuevo",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        },
+        {
+          "id": "SELLER_SKU",
+          "name": "SKU",
+          "value_id": null,
+          "value_name": "010301005-T",
+          "values": [
+            {
+              "id": null,
+              "name": "010301005-T",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_HEIGHT",
+          "name": "Altura del paquete",
+          "value_id": null,
+          "value_name": "4 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "4 cm",
+              "struct": {
+                "number": 4,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "PACKAGE_WEIGHT",
+          "name": "Peso del paquete",
+          "value_id": null,
+          "value_name": "100 g",
+          "values": [
+            {
+              "id": null,
+              "name": "100 g",
+              "struct": {
+                "number": 100,
+                "unit": "g"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_id": null,
+          "value_name": "210000400",
+          "values": [
+            {
+              "id": null,
+              "name": "210000400",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "PACKAGE_LENGTH",
+          "name": "Largo del paquete",
+          "value_id": null,
+          "value_name": "14.2 cm",
+          "values": [
+            {
+              "id": null,
+              "name": "14.2 cm",
+              "struct": {
+                "number": 14.2,
+                "unit": "cm"
+              }
+            }
+          ],
+          "value_type": "number_unit"
+        },
+        {
+          "id": "GTIN",
+          "name": "Código universal de producto",
+          "value_id": null,
+          "value_name": "752853008244",
+          "values": [
+            {
+              "id": null,
+              "name": "752853008244",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SHIPMENT_PACKING",
+          "name": "Embalaje del envío",
+          "value_id": "7435891",
+          "value_name": "Bolsa",
+          "values": [
+            {
+              "id": "7435891",
+              "name": "Bolsa",
+              "struct": null
+            }
+          ],
+          "value_type": "list"
+        }
+      ],
+      "warnings": [
+        {
+          "department": "shipping",
+          "cause_id": 4033,
+          "code": "shipping.free_shipping.cost_exceeded",
+          "message": "Free shipping costs exceeds sale",
+          "references": [
+            "item.prices"
+          ]
+        }
+      ],
+      "listing_source": "",
+      "variations": [],
+      "thumbnail_id": "925255-MLC49184265489_022022",
+      "thumbnail": "http://mlc-s2-p.mlstatic.com/925255-MLC49184265489_022022-I.jpg",
+      "status": "active",
+      "sub_status": [],
+      "tags": [
+        "cart_eligible",
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "user_product_listing"
+      ],
+      "warranty": "Garantía del vendedor: 1 años",
+      "catalog_product_id": null,
+      "domain_id": "MLC-BATHROOM_SUPPLIES",
+      "seller_custom_field": "010301005-T__26908137",
+      "parent_item_id": null,
+      "differential_pricing": null,
+      "deal_ids": [],
+      "automatic_relist": false,
+      "date_created": "2022-02-22T20:37:21.000Z",
+      "last_updated": "2026-05-23T17:16:33.886Z",
+      "health": 0.85,
+      "catalog_listing": false,
+      "item_relations": [],
+      "channels": [
+        "marketplace"
+      ]
+    },
+    "producto": "collarín de goma con pestaña wc",
+    "net_180d_proyectado": 1539
+  }
+]

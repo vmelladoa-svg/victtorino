@@ -1,0 +1,381 @@
+- generic [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "Trade's projects Hobby" [ref=e10] [cursor=pointer]:
+              - /url: /trade-s-projects2
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: Trade's projects
+                - generic [ref=e14]: Hobby
+            - button [ref=e15] [cursor=pointer]:
+              - img [ref=e17]
+          - button "Find… F" [ref=e20]:
+            - generic [ref=e22]:
+              - img [ref=e24]
+              - generic [ref=e26]: Find…
+              - generic [ref=e28]: F
+        - navigation [ref=e30]:
+          - generic [ref=e31]:
+            - generic:
+              - generic:
+                - link "Other Overview":
+                  - /url: /trade-s-projects2/inventario-online
+                  - generic:
+                    - img "Other":
+                      - img "Other"
+                  - generic:
+                    - generic: Overview
+                - link "Deployments":
+                  - /url: /trade-s-projects2/inventario-online/deployments
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Deployments
+                - link "Logs":
+                  - /url: /trade-s-projects2/inventario-online/logs
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Logs
+                - link "Analytics":
+                  - /url: /trade-s-projects2/inventario-online/analytics
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Analytics
+                - link "Speed Insights":
+                  - /url: /trade-s-projects2/inventario-online/speed-insights
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Speed Insights
+                - link "Observability":
+                  - /url: /trade-s-projects2/inventario-online/observability
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Observability
+                  - generic:
+                    - img
+                - link "Firewall":
+                  - /url: /trade-s-projects2/inventario-online/firewall
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Firewall
+                  - generic:
+                    - img
+                - link "CDN":
+                  - /url: /trade-s-projects2/inventario-online/cdn
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: CDN
+                  - generic:
+                    - img
+                - separator
+                - link "Environment Variables":
+                  - /url: /trade-s-projects2/inventario-online/settings/environment-variables
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Environment Variables
+                - link "Domains":
+                  - /url: /trade-s-projects2/inventario-online/settings/domains
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Domains
+                - link "Connect Beta":
+                  - /url: /trade-s-projects2/inventario-online/connect
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Connect
+                    - generic: Beta
+                - link "Integrations":
+                  - /url: /trade-s-projects2/inventario-online/settings/integrations
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Integrations
+                - link "Storage":
+                  - /url: /trade-s-projects2/inventario-online/stores
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Storage
+                  - generic:
+                    - img
+                - link "Flags":
+                  - /url: /trade-s-projects2/inventario-online/flags
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Flags
+                  - generic:
+                    - img
+                - link "Agent":
+                  - /url: /trade-s-projects2/inventario-online/agent
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Agent
+                  - generic:
+                    - img
+                - link "AI Gateway":
+                  - /url: /trade-s-projects2/inventario-online/ai-gateway
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: AI Gateway
+                  - generic:
+                    - img
+                - link "Sandboxes":
+                  - /url: /trade-s-projects2/inventario-online/sandboxes
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Sandboxes
+                  - generic:
+                    - img
+                - link "Workflows":
+                  - /url: /trade-s-projects2/inventario-online/workflows
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Workflows
+                - separator
+                - link "Usage":
+                  - /url: /trade-s-projects2/inventario-online/usage
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Usage
+                - link "Support":
+                  - /url: /trade-s-projects2/inventario-online/support
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Support
+                - link "Settings":
+                  - /url: /trade-s-projects2/inventario-online/settings
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Settings
+                  - generic:
+                    - img
+            - generic [ref=e32]:
+              - button "Storage" [ref=e34] [cursor=pointer]:
+                - img [ref=e36]
+                - generic [ref=e38]: Storage
+              - generic [ref=e41]:
+                - link "Getting Started" [ref=e42] [cursor=pointer]:
+                  - /url: /trade-s-projects2/inventario-online/stores/blob/store_VizMMXua6WNil04t/guides
+                  - img [ref=e44]
+                  - generic [ref=e47]: Getting Started
+                - link "Projects" [ref=e48] [cursor=pointer]:
+                  - /url: /trade-s-projects2/inventario-online/stores/blob/store_VizMMXua6WNil04t/projects
+                  - img [ref=e50]
+                  - generic [ref=e53]: Projects
+                - link "Settings" [ref=e54] [cursor=pointer]:
+                  - /url: /trade-s-projects2/inventario-online/stores/blob/store_VizMMXua6WNil04t/settings
+                  - img [ref=e56]
+                  - generic [ref=e59]: Settings
+                - generic [ref=e60]:
+                  - generic [ref=e61]: Database
+                  - link "Manage Blobs" [ref=e62] [cursor=pointer]:
+                    - /url: /trade-s-projects2/inventario-online/stores/blob/store_VizMMXua6WNil04t/manage-blobs
+                    - img [ref=e64]
+                    - generic [ref=e67]: Manage Blobs
+                - generic [ref=e68]:
+                  - generic [ref=e69]: Resources
+                  - link "Documentation" [ref=e70] [cursor=pointer]:
+                    - /url: /docs/storage/vercel-blob
+                    - img [ref=e72]
+                    - generic [ref=e74]:
+                      - generic [ref=e75]: Documentation
+                      - img [ref=e76]
+                  - link "@vercel/blob" [ref=e78] [cursor=pointer]:
+                    - /url: https://github.com/vercel/storage/tree/main/packages/blob#readme
+                    - img [ref=e80]
+                    - generic [ref=e83]:
+                      - generic [ref=e84]: "@vercel/blob"
+                      - img [ref=e85]
+        - generic [ref=e91]:
+          - button "Avatar for vmelladoa-4614 Trade" [ref=e213] [cursor=pointer]:
+            - img "Avatar for vmelladoa-4614" [ref=e214]:
+              - img "Avatar for vmelladoa-4614" [ref=e215]
+            - generic [ref=e217]: Trade
+            - img [ref=e219]
+          - button "1 unseen notification" [ref=e222] [cursor=pointer]:
+            - generic [ref=e223]:
+              - generic [ref=e224]:
+                - img
+              - img [ref=e225]
+      - button [ref=e97] [cursor=pointer]:
+        - img [ref=e98]
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e105]:
+          - link "Other inventario-online" [ref=e227] [cursor=pointer]:
+            - /url: /trade-s-projects2/inventario-online
+            - img "Other" [ref=e228]:
+              - img "Other" [ref=e229]
+            - generic [ref=e109]: inventario-online
+          - button [ref=e110] [cursor=pointer]:
+            - img [ref=e112]
+          - link "Back to team view" [ref=e116] [cursor=pointer]:
+            - /url: /trade-s-projects2
+            - img [ref=e118]
+        - generic [ref=e122]: Storage
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - generic [ref=e230]:
+                  - img [ref=e232]
+                  - heading "inventario-blob" [level=1] [ref=e235]
+                  - generic [ref=e238]: Private
+                - generic [ref=e130]:
+                  - link "All Databases" [ref=e131] [cursor=pointer]:
+                    - /url: /trade-s-projects2/inventario-online/stores
+                    - img [ref=e132]
+                    - paragraph [ref=e134]: All Databases
+                  - img [ref=e135]
+                  - paragraph [ref=e138]: Blob Store
+              - link "Open in Observability" [ref=e140] [cursor=pointer]:
+                - /url: /trade-s-projects2/~/observability/blob/store_VizMMXua6WNil04t
+                - generic [ref=e141]:
+                  - img [ref=e142]
+                  - generic [ref=e147]: Open in Observability
+            - separator [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - paragraph [ref=e152]: Region
+                - generic [ref=e239]: IAD1
+              - generic [ref=e155]:
+                - paragraph [ref=e156]: Created
+                - paragraph [ref=e240]: 14h ago
+              - generic [ref=e242]:
+                - paragraph [ref=e244]: Storage
+                - paragraph [ref=e246]: 0 B
+              - generic [ref=e248]:
+                - paragraph [ref=e250]: Storage (average)
+                - paragraph [ref=e252]:
+                  - text: 0 B
+                  - generic [ref=e253]: /1 GB
+              - generic [ref=e255]:
+                - paragraph [ref=e257]: Simple Operations
+                - paragraph [ref=e259]:
+                  - text: "0"
+                  - generic [ref=e260]: /10k
+              - generic [ref=e262]:
+                - paragraph [ref=e264]: Advanced Operations
+                - paragraph [ref=e266]:
+                  - text: "2"
+                  - generic [ref=e267]: /2k
+              - generic [ref=e269]:
+                - paragraph [ref=e271]: Data Transfer
+                - paragraph [ref=e273]:
+                  - text: 0 B
+                  - generic [ref=e274]: /10 GB
+            - generic [ref=e177]:
+              - paragraph [ref=e179]: Quickstart
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - generic [ref=e182]:
+                    - button "@vercel/blob" [ref=e183] [cursor=pointer]:
+                      - paragraph [ref=e186]: "@vercel/blob"
+                    - button ".env.local" [ref=e187] [cursor=pointer]:
+                      - paragraph [ref=e190]: .env.local
+                  - generic [ref=e191]:
+                    - button "Show secret" [ref=e388] [cursor=pointer]:
+                      - generic [ref=e390]:
+                        - paragraph [ref=e391]: Show secret
+                        - img [ref=e392]
+                    - button "Copy Snippet" [ref=e275] [cursor=pointer]:
+                      - generic [ref=e277]:
+                        - paragraph [ref=e278]: Copy Snippet
+                        - img [ref=e280]
+                - code [ref=e284]:
+                  - generic [ref=e285]:
+                    - generic [ref=e286]: "1"
+                    - generic [ref=e287]: BLOB_STORE_ID="store_VizMMXua6WNil04t"
+                  - generic [ref=e288]:
+                    - generic [ref=e289]: "2"
+                    - generic [ref=e290]: BLOB_READ_WRITE_TOKEN="************"
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - heading "Projects" [level=2] [ref=e297]
+              - paragraph [ref=e298]: These are the projects that are connected to this product.
+            - generic [ref=e299]:
+              - button "Connect to Project" [ref=e300] [cursor=pointer]:
+                - generic [ref=e301]: Connect to Project
+              - button "Connect project options" [expanded] [ref=e302] [cursor=pointer]:
+                - img [ref=e305]
+          - generic [ref=e307]:
+            - generic [ref=e308]:
+              - img [ref=e310]
+              - generic [ref=e312]: All connected projects are connected via OIDC. We recommend revoking your read-write token if it is not in use. Redeploy each project before revoking so that deployments pick up the new store ID env var, otherwise they will fail when the read-write token is removed.
+            - button "Revoke Token" [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]: Revoke Token
+          - table "Connections" [ref=e322]:
+            - caption [ref=e323]: Connections
+            - rowgroup [ref=e330]:
+              - row "Project Info Environments Menu" [ref=e331]:
+                - columnheader [ref=e332]:
+                  - generic [ref=e336] [cursor=pointer]:
+                    - checkbox [ref=e337]
+                    - img [ref=e339]
+                - columnheader "Project" [ref=e340]:
+                  - generic [ref=e341]: Project
+                - columnheader "Info" [ref=e342]:
+                  - generic [ref=e343]: Info
+                - columnheader "Environments" [ref=e344]:
+                  - generic [ref=e345]: Environments
+                - columnheader "Menu" [ref=e346]:
+                  - button "Menu" [ref=e349] [cursor=pointer]:
+                    - img [ref=e354]
+            - rowgroup [ref=e356]:
+              - row "Vite inventario-online BLOB_STORE_ID BLOB_WEBHOOK_PUBLIC_KEY Production, Preview Menu" [ref=e357]:
+                - cell [ref=e358]:
+                  - generic [ref=e361] [cursor=pointer]:
+                    - checkbox [ref=e362]
+                    - img [ref=e364]
+                - cell "Vite inventario-online" [ref=e365]:
+                  - link "Vite inventario-online" [ref=e366] [cursor=pointer]:
+                    - /url: /trade-s-projects2/inventario-online
+                    - generic [ref=e367]:
+                      - img "Vite" [ref=e368]:
+                        - img "Vite" [ref=e369]
+                      - paragraph [ref=e370]: inventario-online
+                - cell "BLOB_STORE_ID BLOB_WEBHOOK_PUBLIC_KEY" [ref=e371]:
+                  - generic [ref=e372]:
+                    - code [ref=e374]: BLOB_STORE_ID
+                    - code [ref=e376]: BLOB_WEBHOOK_PUBLIC_KEY
+                - cell "Production, Preview" [ref=e377]:
+                  - paragraph [ref=e378]: Production, Preview
+                - cell "Menu" [ref=e379]:
+                  - button "Menu" [ref=e381] [cursor=pointer]:
+                    - img [ref=e386]
+  - alert [ref=e212]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
+  - menu "Connect project options" [active] [ref=e395]:
+    - menuitem "Connect to this project" [ref=e396] [cursor=pointer]:
+      - generic [ref=e399]: Connect to this project
+    - menuitem "Connect to another project" [ref=e400] [cursor=pointer]:
+      - generic [ref=e403]: Connect to another project

@@ -1,0 +1,46 @@
+[
+  {
+    "ml_id": "MLC1293267551",
+    "woo_id": 3009,
+    "accion": "creado",
+    "permalink": "https://victtorino.cl/?post_type=product&p=3009"
+  },
+  {
+    "ml_id": "MLC1404800753",
+    "woo_id": 2770,
+    "accion": "completado",
+    "permalink": "https://victtorino.cl/?post_type=product&p=2770"
+  },
+  {
+    "ml_id": "MLC1293224426",
+    "woo_id": 2824,
+    "accion": "ya_completo"
+  },
+  {
+    "ml_id": "MLC3724919200",
+    "woo_id": 2868,
+    "accion": "ya_completo"
+  },
+  {
+    "ml_id": "MLC1293249558",
+    "woo_id": 3024,
+    "accion": "creado",
+    "permalink": "https://victtorino.cl/?post_type=product&p=3024"
+  },
+  {
+    "ml_id": "MLC3994366480",
+    "woo_id": 2947,
+    "accion": "ya_completo"
+  },
+  {
+    "ml_id": "MLC3955887032",
+    "woo_id": 2960,
+    "accion": "completado",
+    "permalink": "https://victtorino.cl/?post_type=product&p=2960"
+  },
+  {
+    "ml_id": "MLC3969900116",
+    "woo_id": 2963,
+    "accion": "ya_completo"
+  }
+]

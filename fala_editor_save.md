@@ -1,0 +1,981 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - img [ref=e10] [cursor=pointer]
+            - link "Falabella Seller Center" [ref=e12] [cursor=pointer]:
+              - /url: /
+              - img "Falabella Seller Center" [ref=e13]
+          - generic [ref=e14]:
+            - generic [ref=e16]: Trade Global
+            - button [ref=e18] [cursor=pointer]:
+              - img [ref=e19]
+      - complementary:
+        - navigation:
+          - generic [ref=e24]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e29]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e34]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e43]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e45]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e47]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e50]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e58]:
+            - button:
+              - generic:
+                - img
+          - generic [ref=e65]:
+            - button:
+              - generic:
+                - img
+  - main [ref=e69]:
+    - generic [ref=e71]:
+      - heading "Promociones" [level=1] [ref=e72]
+      - generic [ref=e93]:
+        - navigation [ref=e94]:
+          - link "Promociones" [ref=e95] [cursor=pointer]:
+            - /url: /retail-services/vas/promotions
+          - link "Mis promociones" [ref=e96] [cursor=pointer]:
+            - /url: /retail-services/vas/promotions/my-promotions
+        - generic [ref=e237]:
+          - generic [ref=e238]:
+            - heading "Envío gratis" [level=1] [ref=e239]
+            - generic [ref=e240]:
+              - paragraph [ref=e241]: "Beneficio seller: Podrías aumentar tus ventas hasta en un 100% y elevar el tráfico en tus páginas de productos hasta en un 80%."
+              - paragraph [ref=e242]: "Beneficio cliente: Productos sin costo de envío."
+              - paragraph [ref=e243]: "Duración: Personalizada, tú decides cuándo dejar de participar."
+              - paragraph [ref=e244]: "Categorías permitidas: Todas"
+              - paragraph [ref=e245]: "Forma de cobro: Descuento automático del costo de envío desde tu cuenta de pagos (dentro de Cobros, como “Cobro por Promo envío seller”). Se hará efectivo luego de que el producto sea entregado al cliente."
+            - generic [ref=e246]:
+              - generic [ref=e247]: "Reglas y condiciones para clientes :"
+              - list [ref=e249]:
+                - listitem [ref=e250]: Envíos dentro de la Región Metropolitana.
+            - generic [ref=e252]:
+              - text: Revisa todos los
+              - link "Términos y condiciones." [ref=e253] [cursor=pointer]:
+                - /url: https://www.falabella.com/falabella-cl/page/promociones-falabellacom
+          - generic [ref=e254]:
+            - generic [ref=e255]:
+              - paragraph [ref=e256]: Selección de productos
+              - paragraph [ref=e257]: A continuación tienes los productos de tu catálogo que están habilitados para participar en la promoción.
+            - generic [ref=e259]:
+              - textbox "Buscar un producto" [ref=e260]
+              - generic [ref=e261] [cursor=pointer]:
+                - textbox [ref=e262]: Por nombre
+                - img [ref=e264]
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - checkbox "Seleccionar solo productos recomendados" [ref=e268]
+                - text: Seleccionar solo productos recomendados
+              - img [ref=e270]
+            - paragraph [ref=e271]: "Productos seleccionados: 41"
+            - table [ref=e273]:
+              - rowgroup [ref=e274]:
+                - 'row "Productos de tu catálogo: 96 Precio del producto" [ref=e275]':
+                  - 'columnheader "Productos de tu catálogo: 96" [ref=e276]':
+                    - generic [ref=e277]:
+                      - checkbox [ref=e278] [cursor=pointer]
+                      - text: "Productos de tu catálogo: 96"
+                  - columnheader "Precio del producto" [ref=e279]
+              - rowgroup [ref=e280]:
+                - 'row "Lavaplatos Simple Secador Izquierdo 100x44cm SKU: 142964976 - EAS: - 43.258 CLP" [ref=e281]':
+                  - 'cell "Lavaplatos Simple Secador Izquierdo 100x44cm SKU: 142964976 - EAS: -" [ref=e282]':
+                    - generic [ref=e284]:
+                      - checkbox [checked] [ref=e285] [cursor=pointer]
+                      - img [ref=e286]
+                      - generic [ref=e288]:
+                        - emphasis [ref=e289]: Lavaplatos Simple Secador Izquierdo 100x44cm
+                        - paragraph [ref=e290]: "SKU: 142964976 - EAS: -"
+                  - cell "43.258 CLP" [ref=e291]
+                - 'row "Lavaplatos Empotrado Simple 80x44 Inoxidable Izquierdo SKU: 143984145 - EAS: - 39.410 CLP" [ref=e292]':
+                  - 'cell "Lavaplatos Empotrado Simple 80x44 Inoxidable Izquierdo SKU: 143984145 - EAS: -" [ref=e293]':
+                    - generic [ref=e295]:
+                      - checkbox [checked] [ref=e296] [cursor=pointer]
+                      - img [ref=e297]
+                      - generic [ref=e299]:
+                        - emphasis [ref=e300]: Lavaplatos Empotrado Simple 80x44 Inoxidable Izquierdo
+                        - paragraph [ref=e301]: "SKU: 143984145 - EAS: -"
+                  - cell "39.410 CLP" [ref=e302]
+                - 'row "Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple SKU: 142969895 - EAS: - 43.258 CLP" [ref=e303]':
+                  - 'cell "Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple SKU: 142969895 - EAS: -" [ref=e304]':
+                    - generic [ref=e306]:
+                      - checkbox [checked] [ref=e307] [cursor=pointer]
+                      - img [ref=e308]
+                      - generic [ref=e310]:
+                        - emphasis [ref=e311]: Lavaplatos Empotrado 100x44 cm Secador Derecho, Acero Inoxidable, Cubeta Simple
+                        - paragraph [ref=e312]: "SKU: 142969895 - EAS: -"
+                  - cell "43.258 CLP" [ref=e313]
+                - 'row "Monomando Lavaplatos Vertical Notte SKU: 143984301 - EAS: - 38.970 CLP" [ref=e314]':
+                  - 'cell "Monomando Lavaplatos Vertical Notte SKU: 143984301 - EAS: -" [ref=e315]':
+                    - generic [ref=e317]:
+                      - checkbox [checked] [ref=e318] [cursor=pointer]
+                      - img [ref=e319]
+                      - generic [ref=e321]:
+                        - emphasis [ref=e322]: Monomando Lavaplatos Vertical Notte
+                        - paragraph [ref=e323]: "SKU: 143984301 - EAS: -"
+                  - cell "38.970 CLP" [ref=e324]
+                - 'row "Lavaplato empotrado de 37x32 SKU: 151966702 - EAS: - 17.720 CLP" [ref=e325]':
+                  - 'cell "Lavaplato empotrado de 37x32 SKU: 151966702 - EAS: -" [ref=e326]':
+                    - generic [ref=e328]:
+                      - checkbox [checked] [ref=e329] [cursor=pointer]
+                      - img [ref=e330]
+                      - generic [ref=e332]:
+                        - emphasis [ref=e333]: Lavaplato empotrado de 37x32
+                        - paragraph [ref=e334]: "SKU: 151966702 - EAS: -"
+                  - cell "17.720 CLP" [ref=e335]
+                - 'row "MAMPARA DUCHA 120-140X190 CM SKU: 146186953 - EAS: - 299.754 CLP" [ref=e336]':
+                  - 'cell "MAMPARA DUCHA 120-140X190 CM SKU: 146186953 - EAS: -" [ref=e337]':
+                    - generic [ref=e339]:
+                      - checkbox [checked] [ref=e340] [cursor=pointer]
+                      - img [ref=e341]
+                      - generic [ref=e343]:
+                        - emphasis [ref=e344]: MAMPARA DUCHA 120-140X190 CM
+                        - paragraph [ref=e345]: "SKU: 146186953 - EAS: -"
+                  - cell "299.754 CLP" [ref=e346]
+                - 'row "ESPEJO 60X90 RECTANGULAR ONDAS SKU: 146228456 - EAS: - 47.178 CLP" [ref=e347]':
+                  - 'cell "ESPEJO 60X90 RECTANGULAR ONDAS SKU: 146228456 - EAS: -" [ref=e348]':
+                    - generic [ref=e350]:
+                      - checkbox [checked] [ref=e351] [cursor=pointer]
+                      - img [ref=e352]
+                      - generic [ref=e354]:
+                        - emphasis [ref=e355]: ESPEJO 60X90 RECTANGULAR ONDAS
+                        - paragraph [ref=e356]: "SKU: 146228456 - EAS: -"
+                  - cell "47.178 CLP" [ref=e357]
+                - 'row "Lavaplatos Derecho Empotrado Simple 80x44 cm SKU: 142971502 - EAS: - 39.410 CLP" [ref=e358]':
+                  - 'cell "Lavaplatos Derecho Empotrado Simple 80x44 cm SKU: 142971502 - EAS: -" [ref=e359]':
+                    - generic [ref=e361]:
+                      - checkbox [checked] [ref=e362] [cursor=pointer]
+                      - img [ref=e363]
+                      - generic [ref=e365]:
+                        - emphasis [ref=e366]: Lavaplatos Derecho Empotrado Simple 80x44 cm
+                        - paragraph [ref=e367]: "SKU: 142971502 - EAS: -"
+                  - cell "39.410 CLP" [ref=e368]
+                - 'row "ESPEJO 45X60 RECTANGULAR LED SKU: 146226149 - EAS: - 56.648 CLP" [ref=e369]':
+                  - 'cell "ESPEJO 45X60 RECTANGULAR LED SKU: 146226149 - EAS: -" [ref=e370]':
+                    - generic [ref=e372]:
+                      - checkbox [checked] [ref=e373] [cursor=pointer]
+                      - img [ref=e374]
+                      - generic [ref=e376]:
+                        - emphasis [ref=e377]: ESPEJO 45X60 RECTANGULAR LED
+                        - paragraph [ref=e378]: "SKU: 146226149 - EAS: -"
+                  - cell "56.648 CLP" [ref=e379]
+                - 'row "Espejo LED 100x70 Rectangular Táctil, Retro Iluminación fría, cálida y normal, Diseño Moderno SKU: 146266887 - EAS: - 69.990 CLP" [ref=e380]':
+                  - 'cell "Espejo LED 100x70 Rectangular Táctil, Retro Iluminación fría, cálida y normal, Diseño Moderno SKU: 146266887 - EAS: -" [ref=e381]':
+                    - generic [ref=e383]:
+                      - checkbox [checked] [ref=e384] [cursor=pointer]
+                      - img [ref=e385]
+                      - generic [ref=e387]:
+                        - emphasis [ref=e388]: Espejo LED 100x70 Rectangular Táctil, Retro Iluminación fría, cálida y normal, Diseño Moderno
+                        - paragraph [ref=e389]: "SKU: 146266887 - EAS: -"
+                  - cell "69.990 CLP" [ref=e390]
+                - 'row "LLAVE MONOMANDO TINA DUCHA DOMENICA SKU: 146227175 - EAS: - 49.797 CLP" [ref=e391]':
+                  - 'cell "LLAVE MONOMANDO TINA DUCHA DOMENICA SKU: 146227175 - EAS: -" [ref=e392]':
+                    - generic [ref=e394]:
+                      - checkbox [checked] [ref=e395] [cursor=pointer]
+                      - img [ref=e396]
+                      - generic [ref=e398]:
+                        - emphasis [ref=e399]: LLAVE MONOMANDO TINA DUCHA DOMENICA
+                        - paragraph [ref=e400]: "SKU: 146227175 - EAS: -"
+                  - cell "49.797 CLP" [ref=e401]
+                - 'row "Llave Monomando Lavatorio Alto Moderno Pituto Cromado SKU: 145409254 - EAS: - 30.181 CLP" [ref=e402]':
+                  - 'cell "Llave Monomando Lavatorio Alto Moderno Pituto Cromado SKU: 145409254 - EAS: -" [ref=e403]':
+                    - generic [ref=e405]:
+                      - checkbox [checked] [ref=e406] [cursor=pointer]
+                      - img [ref=e407]
+                      - generic [ref=e409]:
+                        - emphasis [ref=e410]: Llave Monomando Lavatorio Alto Moderno Pituto Cromado
+                        - paragraph [ref=e411]: "SKU: 145409254 - EAS: -"
+                  - cell "30.181 CLP" [ref=e412]
+                - 'row "Juego de 6 Accesorios de Baño Negro Notte SKU: 143564648 - EAS: - 33.179 CLP" [ref=e413]':
+                  - 'cell "Juego de 6 Accesorios de Baño Negro Notte SKU: 143564648 - EAS: -" [ref=e414]':
+                    - generic [ref=e416]:
+                      - checkbox [checked] [ref=e417] [cursor=pointer]
+                      - img [ref=e418]
+                      - generic [ref=e420]:
+                        - emphasis [ref=e421]: Juego de 6 Accesorios de Baño Negro Notte
+                        - paragraph [ref=e422]: "SKU: 143564648 - EAS: -"
+                  - cell "33.179 CLP" [ref=e423]
+                - 'row "Asiento Con Tapa Wc Eco Ovalada Blanco Blanco SKU: 152323910 - EAS: - 7.470 CLP" [ref=e424]':
+                  - 'cell "Asiento Con Tapa Wc Eco Ovalada Blanco Blanco SKU: 152323910 - EAS: -" [ref=e425]':
+                    - generic [ref=e427]:
+                      - checkbox [ref=e428] [cursor=pointer]
+                      - img [ref=e429]
+                      - generic [ref=e431]:
+                        - emphasis [ref=e432]: Asiento Con Tapa Wc Eco Ovalada Blanco Blanco
+                        - paragraph [ref=e433]: "SKU: 152323910 - EAS: -"
+                  - cell "7.470 CLP" [ref=e434]
+                - 'row "Set Accesorios Baño 6 Piezas Colomba SKU: 143984867 - EAS: - 25.527 CLP" [ref=e435]':
+                  - 'cell "Set Accesorios Baño 6 Piezas Colomba SKU: 143984867 - EAS: -" [ref=e436]':
+                    - generic [ref=e438]:
+                      - checkbox [ref=e439] [cursor=pointer]
+                      - img [ref=e440]
+                      - generic [ref=e442]:
+                        - emphasis [ref=e443]: Set Accesorios Baño 6 Piezas Colomba
+                        - paragraph [ref=e444]: "SKU: 143984867 - EAS: -"
+                  - cell "25.527 CLP" [ref=e445]
+                - 'row "Brazo De 30 Cms Para Plato De Ducha Y Flexible De Ducha Inox SKU: 143566409 - EAS: - 13.814 CLP" [ref=e446]':
+                  - 'cell "Brazo De 30 Cms Para Plato De Ducha Y Flexible De Ducha Inox SKU: 143566409 - EAS: -" [ref=e447]':
+                    - generic [ref=e449]:
+                      - checkbox [ref=e450] [cursor=pointer]
+                      - img [ref=e451]
+                      - generic [ref=e453]:
+                        - emphasis [ref=e454]: Brazo De 30 Cms Para Plato De Ducha Y Flexible De Ducha Inox
+                        - paragraph [ref=e455]: "SKU: 143566409 - EAS: -"
+                  - cell "13.814 CLP" [ref=e456]
+                - 'row "Plato Ducha Cuadrado Acero Inoxidable 25 Cm Sin Brazo SKU: 143565426 - EAS: - 21.321 CLP" [ref=e457]':
+                  - 'cell "Plato Ducha Cuadrado Acero Inoxidable 25 Cm Sin Brazo SKU: 143565426 - EAS: -" [ref=e458]':
+                    - generic [ref=e460]:
+                      - checkbox [ref=e461] [cursor=pointer]
+                      - img [ref=e462]
+                      - generic [ref=e464]:
+                        - emphasis [ref=e465]: Plato Ducha Cuadrado Acero Inoxidable 25 Cm Sin Brazo
+                        - paragraph [ref=e466]: "SKU: 143565426 - EAS: -"
+                  - cell "21.321 CLP" [ref=e467]
+                - 'row "Barra Seguridad Recta Ducha Baño 40 CM SKU: 143566381 - EAS: - 14.757 CLP" [ref=e468]':
+                  - 'cell "Barra Seguridad Recta Ducha Baño 40 CM SKU: 143566381 - EAS: -" [ref=e469]':
+                    - generic [ref=e471]:
+                      - checkbox [ref=e472] [cursor=pointer]
+                      - img [ref=e473]
+                      - generic [ref=e475]:
+                        - emphasis [ref=e476]: Barra Seguridad Recta Ducha Baño 40 CM
+                        - paragraph [ref=e477]: "SKU: 143566381 - EAS: -"
+                  - cell "14.757 CLP" [ref=e478]
+                - 'row "Barra Seguridad Recta Ducha Baño 30 Cm X 3,2 Cm Inoxidable SKU: 143572969 - EAS: - 14.487 CLP" [ref=e479]':
+                  - 'cell "Barra Seguridad Recta Ducha Baño 30 Cm X 3,2 Cm Inoxidable SKU: 143572969 - EAS: -" [ref=e480]':
+                    - generic [ref=e482]:
+                      - checkbox [ref=e483] [cursor=pointer]
+                      - img [ref=e484]
+                      - generic [ref=e486]:
+                        - emphasis [ref=e487]: Barra Seguridad Recta Ducha Baño 30 Cm X 3,2 Cm Inoxidable
+                        - paragraph [ref=e488]: "SKU: 143572969 - EAS: -"
+                  - cell "14.487 CLP" [ref=e489]
+                - 'row "Brazo De Ducha 30 Cms Para Plato De Ducha SKU: 143984933 - EAS: - 5.993 CLP" [ref=e490]':
+                  - 'cell "Brazo De Ducha 30 Cms Para Plato De Ducha SKU: 143984933 - EAS: -" [ref=e491]':
+                    - generic [ref=e493]:
+                      - checkbox [ref=e494] [cursor=pointer]
+                      - img [ref=e495]
+                      - generic [ref=e497]:
+                        - emphasis [ref=e498]: Brazo De Ducha 30 Cms Para Plato De Ducha
+                        - paragraph [ref=e499]: "SKU: 143984933 - EAS: -"
+                  - cell "5.993 CLP" [ref=e500]
+                - 'row "Llave Monomando De Ducha Domenica SKU: 143565541 - EAS: - 35.500 CLP" [ref=e501]':
+                  - 'cell "Llave Monomando De Ducha Domenica SKU: 143565541 - EAS: -" [ref=e502]':
+                    - generic [ref=e504]:
+                      - checkbox [checked] [ref=e505] [cursor=pointer]
+                      - img [ref=e506]
+                      - generic [ref=e508]:
+                        - emphasis [ref=e509]: Llave Monomando De Ducha Domenica
+                        - paragraph [ref=e510]: "SKU: 143565541 - EAS: -"
+                  - cell "35.500 CLP" [ref=e511]
+                - 'row "Espejo Redondo Doble Cara Con Aumento X3 Pedestal SKU: 143984865 - EAS: - 15.990 CLP" [ref=e512]':
+                  - 'cell "Espejo Redondo Doble Cara Con Aumento X3 Pedestal SKU: 143984865 - EAS: -" [ref=e513]':
+                    - generic [ref=e515]:
+                      - checkbox [ref=e516] [cursor=pointer]
+                      - img [ref=e517]
+                      - generic [ref=e519]:
+                        - emphasis [ref=e520]: Espejo Redondo Doble Cara Con Aumento X3 Pedestal
+                        - paragraph [ref=e521]: "SKU: 143984865 - EAS: -"
+                  - cell "15.990 CLP" [ref=e522]
+                - 'row "VALVULA DESCARGA WC FLAPPER SKU: 146699274 - EAS: - 7.722 CLP" [ref=e523]':
+                  - 'cell "VALVULA DESCARGA WC FLAPPER SKU: 146699274 - EAS: -" [ref=e524]':
+                    - generic [ref=e526]:
+                      - checkbox [ref=e527] [cursor=pointer]
+                      - img [ref=e528]
+                      - generic [ref=e530]:
+                        - emphasis [ref=e531]: VALVULA DESCARGA WC FLAPPER
+                        - paragraph [ref=e532]: "SKU: 146699274 - EAS: -"
+                  - cell "7.722 CLP" [ref=e533]
+                - 'row "SIFON TINA 1 1/2 PLASTICO SKU: 146728785 - EAS: - 3.365 CLP" [ref=e534]':
+                  - 'cell "SIFON TINA 1 1/2 PLASTICO SKU: 146728785 - EAS: -" [ref=e535]':
+                    - generic [ref=e537]:
+                      - checkbox [ref=e538] [cursor=pointer]
+                      - img [ref=e539]
+                      - generic [ref=e541]:
+                        - emphasis [ref=e542]: SIFON TINA 1 1/2 PLASTICO
+                        - paragraph [ref=e543]: "SKU: 146728785 - EAS: -"
+                  - cell "3.365 CLP" [ref=e544]
+                - 'row "PLATO DUCHA REDONDO ABS 20 CM SKU: 146696933 - EAS: - 9.150 CLP" [ref=e545]':
+                  - 'cell "PLATO DUCHA REDONDO ABS 20 CM SKU: 146696933 - EAS: -" [ref=e546]':
+                    - generic [ref=e548]:
+                      - checkbox [ref=e549] [cursor=pointer]
+                      - img [ref=e550]
+                      - generic [ref=e552]:
+                        - emphasis [ref=e553]: PLATO DUCHA REDONDO ABS 20 CM
+                        - paragraph [ref=e554]: "SKU: 146696933 - EAS: -"
+                  - cell "9.150 CLP" [ref=e555]
+                - 'row "RUEDAS SHOWER DOOR 2 CARROS DOBLES SUPERIOR SKU: 146722496 - EAS: - 7.391 CLP" [ref=e556]':
+                  - 'cell "RUEDAS SHOWER DOOR 2 CARROS DOBLES SUPERIOR SKU: 146722496 - EAS: -" [ref=e557]':
+                    - generic [ref=e559]:
+                      - checkbox [ref=e560] [cursor=pointer]
+                      - img [ref=e561]
+                      - generic [ref=e563]:
+                        - emphasis [ref=e564]: RUEDAS SHOWER DOOR 2 CARROS DOBLES SUPERIOR
+                        - paragraph [ref=e565]: "SKU: 146722496 - EAS: -"
+                  - cell "7.391 CLP" [ref=e566]
+                - 'row "Llave Monomando Ducha Colomba SKU: 143564872 - EAS: - 29.061 CLP" [ref=e567]':
+                  - 'cell "Llave Monomando Ducha Colomba SKU: 143564872 - EAS: -" [ref=e568]':
+                    - generic [ref=e570]:
+                      - checkbox [ref=e571] [cursor=pointer]
+                      - img [ref=e572]
+                      - generic [ref=e574]:
+                        - emphasis [ref=e575]: Llave Monomando Ducha Colomba
+                        - paragraph [ref=e576]: "SKU: 143564872 - EAS: -"
+                  - cell "29.061 CLP" [ref=e577]
+                - 'row "Sifón Lavatorio 1¼ Metálico Premium Desagüe Elegante Cromo SKU: 146697721 - EAS: - 23.830 CLP" [ref=e578]':
+                  - 'cell "Sifón Lavatorio 1¼ Metálico Premium Desagüe Elegante Cromo SKU: 146697721 - EAS: -" [ref=e579]':
+                    - generic [ref=e581]:
+                      - checkbox [ref=e582] [cursor=pointer]
+                      - img [ref=e583]
+                      - generic [ref=e585]:
+                        - emphasis [ref=e586]: Sifón Lavatorio 1¼ Metálico Premium Desagüe Elegante Cromo
+                        - paragraph [ref=e587]: "SKU: 146697721 - EAS: -"
+                  - cell "23.830 CLP" [ref=e588]
+                - 'row "RUEDAS SHOWER DOOR 2 CARROS DOBLES INFERIOR SKU: 146719987 - EAS: - 7.391 CLP" [ref=e589]':
+                  - 'cell "RUEDAS SHOWER DOOR 2 CARROS DOBLES INFERIOR SKU: 146719987 - EAS: -" [ref=e590]':
+                    - generic [ref=e592]:
+                      - checkbox [ref=e593] [cursor=pointer]
+                      - img [ref=e594]
+                      - generic [ref=e596]:
+                        - emphasis [ref=e597]: RUEDAS SHOWER DOOR 2 CARROS DOBLES INFERIOR
+                        - paragraph [ref=e598]: "SKU: 146719987 - EAS: -"
+                  - cell "7.391 CLP" [ref=e599]
+                - 'row "MONOMANDO DUCHA NOTTE SKU: 146231303 - EAS: - 44.555 CLP" [ref=e600]':
+                  - 'cell "MONOMANDO DUCHA NOTTE SKU: 146231303 - EAS: -" [ref=e601]':
+                    - generic [ref=e603]:
+                      - checkbox [checked] [ref=e604] [cursor=pointer]
+                      - img [ref=e605]
+                      - generic [ref=e607]:
+                        - emphasis [ref=e608]: MONOMANDO DUCHA NOTTE
+                        - paragraph [ref=e609]: "SKU: 146231303 - EAS: -"
+                  - cell "44.555 CLP" [ref=e610]
+                - 'row "Monomando Lavacopas Inoxidable Agua Fria o Caliente SKU: 143564811 - EAS: - 14.852 CLP" [ref=e611]':
+                  - 'cell "Monomando Lavacopas Inoxidable Agua Fria o Caliente SKU: 143564811 - EAS: -" [ref=e612]':
+                    - generic [ref=e614]:
+                      - checkbox [ref=e615] [cursor=pointer]
+                      - img [ref=e616]
+                      - generic [ref=e618]:
+                        - emphasis [ref=e619]: Monomando Lavacopas Inoxidable Agua Fria o Caliente
+                        - paragraph [ref=e620]: "SKU: 143564811 - EAS: -"
+                  - cell "14.852 CLP" [ref=e621]
+                - 'row "PAPELERO PEDAL 3 L SKU: 146745831 - EAS: - 9.674 CLP" [ref=e622]':
+                  - 'cell "PAPELERO PEDAL 3 L SKU: 146745831 - EAS: -" [ref=e623]':
+                    - generic [ref=e625]:
+                      - checkbox [ref=e626] [cursor=pointer]
+                      - img [ref=e627]
+                      - generic [ref=e629]:
+                        - emphasis [ref=e630]: PAPELERO PEDAL 3 L
+                        - paragraph [ref=e631]: "SKU: 146745831 - EAS: -"
+                  - cell "9.674 CLP" [ref=e632]
+                - 'row "LAVATORIO CRISTAL SOBREPUESTO 415X415 MM SKU: 146240824 - EAS: - 50.038 CLP" [ref=e633]':
+                  - 'cell "LAVATORIO CRISTAL SOBREPUESTO 415X415 MM SKU: 146240824 - EAS: -" [ref=e634]':
+                    - generic [ref=e636]:
+                      - checkbox [checked] [ref=e637] [cursor=pointer]
+                      - img [ref=e638]
+                      - generic [ref=e640]:
+                        - emphasis [ref=e641]: LAVATORIO CRISTAL SOBREPUESTO 415X415 MM
+                        - paragraph [ref=e642]: "SKU: 146240824 - EAS: -"
+                  - cell "50.038 CLP" [ref=e643]
+                - 'row "LLAVE MONOMANDO DUCHA AL MURO NOTTE NEGRO SKU: 146233691 - EAS: - 33.658 CLP" [ref=e644]':
+                  - 'cell "LLAVE MONOMANDO DUCHA AL MURO NOTTE NEGRO SKU: 146233691 - EAS: -" [ref=e645]':
+                    - generic [ref=e647]:
+                      - checkbox [checked] [ref=e648] [cursor=pointer]
+                      - img [ref=e649]
+                      - generic [ref=e651]:
+                        - emphasis [ref=e652]: LLAVE MONOMANDO DUCHA AL MURO NOTTE NEGRO
+                        - paragraph [ref=e653]: "SKU: 146233691 - EAS: -"
+                  - cell "33.658 CLP" [ref=e654]
+                - 'row "VALVULA CARGA WC FLOTADOR SKU: 146699566 - EAS: - 8.084 CLP" [ref=e655]':
+                  - 'cell "VALVULA CARGA WC FLOTADOR SKU: 146699566 - EAS: -" [ref=e656]':
+                    - generic [ref=e658]:
+                      - checkbox [ref=e659] [cursor=pointer]
+                      - img [ref=e660]
+                      - generic [ref=e662]:
+                        - emphasis [ref=e663]: VALVULA CARGA WC FLOTADOR
+                        - paragraph [ref=e664]: "SKU: 146699566 - EAS: -"
+                  - cell "8.084 CLP" [ref=e665]
+                - 'row "VÁLVULA DE CARGA LATERAL SKU: 146703258 - EAS: - 6.648 CLP" [ref=e666]':
+                  - 'cell "VÁLVULA DE CARGA LATERAL SKU: 146703258 - EAS: -" [ref=e667]':
+                    - generic [ref=e669]:
+                      - checkbox [ref=e670] [cursor=pointer]
+                      - img [ref=e671]
+                      - generic [ref=e673]:
+                        - emphasis [ref=e674]: VÁLVULA DE CARGA LATERAL
+                        - paragraph [ref=e675]: "SKU: 146703258 - EAS: -"
+                  - cell "6.648 CLP" [ref=e676]
+                - 'row "VALVULA DESCARGA DUAL FLUSH ESTANQUE TRADICIONAL SKU: 146702739 - EAS: - 15.473 CLP" [ref=e677]':
+                  - 'cell "VALVULA DESCARGA DUAL FLUSH ESTANQUE TRADICIONAL SKU: 146702739 - EAS: -" [ref=e678]':
+                    - generic [ref=e680]:
+                      - checkbox [ref=e681] [cursor=pointer]
+                      - img [ref=e682]
+                      - generic [ref=e684]:
+                        - emphasis [ref=e685]: VALVULA DESCARGA DUAL FLUSH ESTANQUE TRADICIONAL
+                        - paragraph [ref=e686]: "SKU: 146702739 - EAS: -"
+                  - cell "15.473 CLP" [ref=e687]
+                - 'row "Kit Anclaje Para WC - Universal SKU: 143986577 - EAS: - 2.583 CLP" [ref=e688]':
+                  - 'cell "Kit Anclaje Para WC - Universal SKU: 143986577 - EAS: -" [ref=e689]':
+                    - generic [ref=e691]:
+                      - checkbox [ref=e692] [cursor=pointer]
+                      - img [ref=e693]
+                      - generic [ref=e695]:
+                        - emphasis [ref=e696]: Kit Anclaje Para WC - Universal
+                        - paragraph [ref=e697]: "SKU: 143986577 - EAS: -"
+                  - cell "2.583 CLP" [ref=e698]
+                - 'row "FLEXIBLE AGUA HE HI M10 1/2 35 CM SKU: 146924765 - EAS: - 2.884 CLP" [ref=e699]':
+                  - 'cell "FLEXIBLE AGUA HE HI M10 1/2 35 CM SKU: 146924765 - EAS: -" [ref=e700]':
+                    - generic [ref=e702]:
+                      - checkbox [ref=e703] [cursor=pointer]
+                      - img [ref=e704]
+                      - generic [ref=e706]:
+                        - emphasis [ref=e707]: FLEXIBLE AGUA HE HI M10 1/2 35 CM
+                        - paragraph [ref=e708]: "SKU: 146924765 - EAS: -"
+                  - cell "2.884 CLP" [ref=e709]
+                - 'row "FLUXOMETRO PALANCA POSTERIOR 1 SKU: 146960660 - EAS: - 137.167 CLP" [ref=e710]':
+                  - 'cell "FLUXOMETRO PALANCA POSTERIOR 1 SKU: 146960660 - EAS: -" [ref=e711]':
+                    - generic [ref=e713]:
+                      - checkbox [checked] [ref=e714] [cursor=pointer]
+                      - img [ref=e715]
+                      - generic [ref=e717]:
+                        - emphasis [ref=e718]: FLUXOMETRO PALANCA POSTERIOR 1
+                        - paragraph [ref=e719]: "SKU: 146960660 - EAS: -"
+                  - cell "137.167 CLP" [ref=e720]
+                - 'row "Barra De Seguridad Baño 3 Apoyos 90 Horizontal Esquinera SKU: 143984341 - EAS: - 48.301 CLP" [ref=e721]':
+                  - 'cell "Barra De Seguridad Baño 3 Apoyos 90 Horizontal Esquinera SKU: 143984341 - EAS: -" [ref=e722]':
+                    - generic [ref=e724]:
+                      - checkbox [checked] [ref=e725] [cursor=pointer]
+                      - img [ref=e726]
+                      - generic [ref=e728]:
+                        - emphasis [ref=e729]: Barra De Seguridad Baño 3 Apoyos 90 Horizontal Esquinera
+                        - paragraph [ref=e730]: "SKU: 143984341 - EAS: -"
+                  - cell "48.301 CLP" [ref=e731]
+                - 'row "FLUXOMETRO PALANCA SUPERIOR 1 SKU: 146188206 - EAS: - 143.550 CLP" [ref=e732]':
+                  - 'cell "FLUXOMETRO PALANCA SUPERIOR 1 SKU: 146188206 - EAS: -" [ref=e733]':
+                    - generic [ref=e735]:
+                      - checkbox [checked] [ref=e736] [cursor=pointer]
+                      - img [ref=e737]
+                      - generic [ref=e739]:
+                        - emphasis [ref=e740]: FLUXOMETRO PALANCA SUPERIOR 1
+                        - paragraph [ref=e741]: "SKU: 146188206 - EAS: -"
+                  - cell "143.550 CLP" [ref=e742]
+                - 'row "Desague Sifón De 90 Mm Para Receptáculo SKU: 143984177 - EAS: - 10.468 CLP" [ref=e743]':
+                  - 'cell "Desague Sifón De 90 Mm Para Receptáculo SKU: 143984177 - EAS: -" [ref=e744]':
+                    - generic [ref=e746]:
+                      - checkbox [ref=e747] [cursor=pointer]
+                      - img [ref=e748]
+                      - generic [ref=e750]:
+                        - emphasis [ref=e751]: Desague Sifón De 90 Mm Para Receptáculo
+                        - paragraph [ref=e752]: "SKU: 143984177 - EAS: -"
+                  - cell "10.468 CLP" [ref=e753]
+                - 'row "Manguera Entrada Agua Lavadoras SKU: 143986492 - EAS: - 4.050 CLP" [ref=e754]':
+                  - 'cell "Manguera Entrada Agua Lavadoras SKU: 143986492 - EAS: -" [ref=e755]':
+                    - generic [ref=e757]:
+                      - checkbox [ref=e758] [cursor=pointer]
+                      - img [ref=e759]
+                      - generic [ref=e761]:
+                        - emphasis [ref=e762]: Manguera Entrada Agua Lavadoras
+                        - paragraph [ref=e763]: "SKU: 143986492 - EAS: -"
+                  - cell "4.050 CLP" [ref=e764]
+                - 'row "LLAVE TEMPORIZADA LAVATORIO PUNTA CUADRADA CILINDRICA SKU: 146234565 - EAS: - 36.099 CLP" [ref=e765]':
+                  - 'cell "LLAVE TEMPORIZADA LAVATORIO PUNTA CUADRADA CILINDRICA SKU: 146234565 - EAS: -" [ref=e766]':
+                    - generic [ref=e768]:
+                      - checkbox [checked] [ref=e769] [cursor=pointer]
+                      - img [ref=e770]
+                      - generic [ref=e772]:
+                        - emphasis [ref=e773]: LLAVE TEMPORIZADA LAVATORIO PUNTA CUADRADA CILINDRICA
+                        - paragraph [ref=e774]: "SKU: 146234565 - EAS: -"
+                  - cell "36.099 CLP" [ref=e775]
+                - 'row "LLAVE LAVADERO CON FLANGE HE HE 12 34 SKU: 146829748 - EAS: - 14.292 CLP" [ref=e776]':
+                  - 'cell "LLAVE LAVADERO CON FLANGE HE HE 12 34 SKU: 146829748 - EAS: -" [ref=e777]':
+                    - generic [ref=e779]:
+                      - checkbox [ref=e780] [cursor=pointer]
+                      - img [ref=e781]
+                      - generic [ref=e783]:
+                        - emphasis [ref=e784]: LLAVE LAVADERO CON FLANGE HE HE 12 34
+                        - paragraph [ref=e785]: "SKU: 146829748 - EAS: -"
+                  - cell "14.292 CLP" [ref=e786]
+                - 'row "SIFON LAVATORIO 1 1/2 1 1/4 CODO PLASTICO SKU: 146698526 - EAS: - 5.138 CLP" [ref=e787]':
+                  - 'cell "SIFON LAVATORIO 1 1/2 1 1/4 CODO PLASTICO SKU: 146698526 - EAS: -" [ref=e788]':
+                    - generic [ref=e790]:
+                      - checkbox [ref=e791] [cursor=pointer]
+                      - img [ref=e792]
+                      - generic [ref=e794]:
+                        - emphasis [ref=e795]: SIFON LAVATORIO 1 1/2 1 1/4 CODO PLASTICO
+                        - paragraph [ref=e796]: "SKU: 146698526 - EAS: -"
+                  - cell "5.138 CLP" [ref=e797]
+                - 'row "CODO LAVAPLATOS SALIDA SIFON SKU: 146823515 - EAS: - 1.388 CLP" [ref=e798]':
+                  - 'cell "CODO LAVAPLATOS SALIDA SIFON SKU: 146823515 - EAS: -" [ref=e799]':
+                    - generic [ref=e801]:
+                      - checkbox [ref=e802] [cursor=pointer]
+                      - img [ref=e803]
+                      - generic [ref=e805]:
+                        - emphasis [ref=e806]: CODO LAVAPLATOS SALIDA SIFON
+                        - paragraph [ref=e807]: "SKU: 146823515 - EAS: -"
+                  - cell "1.388 CLP" [ref=e808]
+                - 'row "LLAVE MONOMANDO LAVATORIO ALTO MODERN PALETA INOX SKU: 146229789 - EAS: - 46.001 CLP" [ref=e809]':
+                  - 'cell "LLAVE MONOMANDO LAVATORIO ALTO MODERN PALETA INOX SKU: 146229789 - EAS: -" [ref=e810]':
+                    - generic [ref=e812]:
+                      - checkbox [checked] [ref=e813] [cursor=pointer]
+                      - img [ref=e814]
+                      - generic [ref=e816]:
+                        - emphasis [ref=e817]: LLAVE MONOMANDO LAVATORIO ALTO MODERN PALETA INOX
+                        - paragraph [ref=e818]: "SKU: 146229789 - EAS: -"
+                  - cell "46.001 CLP" [ref=e819]
+                - 'row "FLEXIBLE GAS HI HI 3/8 1/2 100 CM SKU: 146932883 - EAS: - 10.890 CLP" [ref=e820]':
+                  - 'cell "FLEXIBLE GAS HI HI 3/8 1/2 100 CM SKU: 146932883 - EAS: -" [ref=e821]':
+                    - generic [ref=e823]:
+                      - checkbox [ref=e824] [cursor=pointer]
+                      - img [ref=e825]
+                      - generic [ref=e827]:
+                        - emphasis [ref=e828]: FLEXIBLE GAS HI HI 3/8 1/2 100 CM
+                        - paragraph [ref=e829]: "SKU: 146932883 - EAS: -"
+                  - cell "10.890 CLP" [ref=e830]
+                - 'row "Dispensador De Papel Higiénico Acrílico Con Llave SKU: 143565368 - EAS: - 17.720 CLP" [ref=e831]':
+                  - 'cell "Dispensador De Papel Higiénico Acrílico Con Llave SKU: 143565368 - EAS: -" [ref=e832]':
+                    - generic [ref=e834]:
+                      - checkbox [ref=e835] [cursor=pointer]
+                      - img [ref=e836]
+                      - generic [ref=e838]:
+                        - emphasis [ref=e839]: Dispensador De Papel Higiénico Acrílico Con Llave
+                        - paragraph [ref=e840]: "SKU: 143565368 - EAS: -"
+                  - cell "17.720 CLP" [ref=e841]
+                - 'row "Monomando Lavatorio Temporizada Al Muro Larga SKU: 143562758 - EAS: - 30.524 CLP" [ref=e842]':
+                  - 'cell "Monomando Lavatorio Temporizada Al Muro Larga SKU: 143562758 - EAS: -" [ref=e843]':
+                    - generic [ref=e845]:
+                      - checkbox [checked] [ref=e846] [cursor=pointer]
+                      - img [ref=e847]
+                      - generic [ref=e849]:
+                        - emphasis [ref=e850]: Monomando Lavatorio Temporizada Al Muro Larga
+                        - paragraph [ref=e851]: "SKU: 143562758 - EAS: -"
+                  - cell "30.524 CLP" [ref=e852]
+                - 'row "Cuello Cisne Lavaplatos Con Tuerca Hilo 12 SKU: 143564991 - EAS: - 32.846 CLP" [ref=e853]':
+                  - 'cell "Cuello Cisne Lavaplatos Con Tuerca Hilo 12 SKU: 143564991 - EAS: -" [ref=e854]':
+                    - generic [ref=e856]:
+                      - checkbox [checked] [ref=e857] [cursor=pointer]
+                      - img [ref=e858]
+                      - generic [ref=e860]:
+                        - emphasis [ref=e861]: Cuello Cisne Lavaplatos Con Tuerca Hilo 12
+                        - paragraph [ref=e862]: "SKU: 143564991 - EAS: -"
+                  - cell "32.846 CLP" [ref=e863]
+                - 'row "Barra Seguridad Recta Ducha Baño 60 CM SKU: 143564700 - EAS: - 19.289 CLP" [ref=e864]':
+                  - 'cell "Barra Seguridad Recta Ducha Baño 60 CM SKU: 143564700 - EAS: -" [ref=e865]':
+                    - generic [ref=e867]:
+                      - checkbox [ref=e868] [cursor=pointer]
+                      - img [ref=e869]
+                      - generic [ref=e871]:
+                        - emphasis [ref=e872]: Barra Seguridad Recta Ducha Baño 60 CM
+                        - paragraph [ref=e873]: "SKU: 143564700 - EAS: -"
+                  - cell "19.289 CLP" [ref=e874]
+                - 'row "Dispensador de Palanca SKU: 143104744 - EAS: - 62.990 CLP" [ref=e875]':
+                  - 'cell "Dispensador de Palanca SKU: 143104744 - EAS: -" [ref=e876]':
+                    - generic [ref=e878]:
+                      - checkbox [checked] [ref=e879] [cursor=pointer]
+                      - img [ref=e880]
+                      - generic [ref=e882]:
+                        - emphasis [ref=e883]: Dispensador de Palanca
+                        - paragraph [ref=e884]: "SKU: 143104744 - EAS: -"
+                  - cell "62.990 CLP" [ref=e885]
+                - 'row "Monomando Lavatorio Lavamanos Modern Plateado Palet SKU: 143565062 - EAS: - 32.963 CLP" [ref=e886]':
+                  - 'cell "Monomando Lavatorio Lavamanos Modern Plateado Palet SKU: 143565062 - EAS: -" [ref=e887]':
+                    - generic [ref=e889]:
+                      - checkbox [checked] [ref=e890] [cursor=pointer]
+                      - img [ref=e891]
+                      - generic [ref=e893]:
+                        - emphasis [ref=e894]: Monomando Lavatorio Lavamanos Modern Plateado Palet
+                        - paragraph [ref=e895]: "SKU: 143565062 - EAS: -"
+                  - cell "32.963 CLP" [ref=e896]
+                - 'row "Flexible Llave Profesional SKU: 143573861 - EAS: - 7.073 CLP" [ref=e897]':
+                  - 'cell "Flexible Llave Profesional SKU: 143573861 - EAS: -" [ref=e898]':
+                    - generic [ref=e900]:
+                      - checkbox [ref=e901] [cursor=pointer]
+                      - img [ref=e902]
+                      - generic [ref=e904]:
+                        - emphasis [ref=e905]: Flexible Llave Profesional
+                        - paragraph [ref=e906]: "SKU: 143573861 - EAS: -"
+                  - cell "7.073 CLP" [ref=e907]
+                - 'row "Monomando Lavaplatos Vertical Colomba SKU: 143984894 - EAS: - 20.909 CLP" [ref=e908]':
+                  - 'cell "Monomando Lavaplatos Vertical Colomba SKU: 143984894 - EAS: -" [ref=e909]':
+                    - generic [ref=e911]:
+                      - checkbox [ref=e912] [cursor=pointer]
+                      - img [ref=e913]
+                      - generic [ref=e915]:
+                        - emphasis [ref=e916]: Monomando Lavaplatos Vertical Colomba
+                        - paragraph [ref=e917]: "SKU: 143984894 - EAS: -"
+                  - cell "20.909 CLP" [ref=e918]
+                - 'row "Llave Monomando De Tina Ducha Colomba SKU: 143984353 - EAS: - 37.333 CLP" [ref=e919]':
+                  - 'cell "Llave Monomando De Tina Ducha Colomba SKU: 143984353 - EAS: -" [ref=e920]':
+                    - generic [ref=e922]:
+                      - checkbox [checked] [ref=e923] [cursor=pointer]
+                      - img [ref=e924]
+                      - generic [ref=e926]:
+                        - emphasis [ref=e927]: Llave Monomando De Tina Ducha Colomba
+                        - paragraph [ref=e928]: "SKU: 143984353 - EAS: -"
+                  - cell "37.333 CLP" [ref=e929]
+                - 'row "Monomando Lavatorio Modern SKU: 143984268 - EAS: - 40.111 CLP" [ref=e930]':
+                  - 'cell "Monomando Lavatorio Modern SKU: 143984268 - EAS: -" [ref=e931]':
+                    - generic [ref=e933]:
+                      - checkbox [checked] [ref=e934] [cursor=pointer]
+                      - img [ref=e935]
+                      - generic [ref=e937]:
+                        - emphasis [ref=e938]: Monomando Lavatorio Modern
+                        - paragraph [ref=e939]: "SKU: 143984268 - EAS: -"
+                  - cell "40.111 CLP" [ref=e940]
+                - 'row "Kit Para Estanque WC Carga Descarga Y Fijaciones SKU: 143573701 - EAS: - 19.347 CLP" [ref=e941]':
+                  - 'cell "Kit Para Estanque WC Carga Descarga Y Fijaciones SKU: 143573701 - EAS: -" [ref=e942]':
+                    - generic [ref=e944]:
+                      - checkbox [ref=e945] [cursor=pointer]
+                      - img [ref=e946]
+                      - generic [ref=e948]:
+                        - emphasis [ref=e949]: Kit Para Estanque WC Carga Descarga Y Fijaciones
+                        - paragraph [ref=e950]: "SKU: 143573701 - EAS: -"
+                  - cell "19.347 CLP" [ref=e951]
+                - 'row "Monomando De Ducha Al Muro Para Empotrar inoxidable SKU: 143984333 - EAS: - 40.186 CLP" [ref=e952]':
+                  - 'cell "Monomando De Ducha Al Muro Para Empotrar inoxidable SKU: 143984333 - EAS: -" [ref=e953]':
+                    - generic [ref=e955]:
+                      - checkbox [checked] [ref=e956] [cursor=pointer]
+                      - img [ref=e957]
+                      - generic [ref=e959]:
+                        - emphasis [ref=e960]: Monomando De Ducha Al Muro Para Empotrar inoxidable
+                        - paragraph [ref=e961]: "SKU: 143984333 - EAS: -"
+                  - cell "40.186 CLP" [ref=e962]
+                - 'row "Monomando Lavatorio Alto Modern Pituto Cromado SKU: 143984846 - EAS: - 49.333 CLP" [ref=e963]':
+                  - 'cell "Monomando Lavatorio Alto Modern Pituto Cromado SKU: 143984846 - EAS: -" [ref=e964]':
+                    - generic [ref=e966]:
+                      - checkbox [checked] [ref=e967] [cursor=pointer]
+                      - img [ref=e968]
+                      - generic [ref=e970]:
+                        - emphasis [ref=e971]: Monomando Lavatorio Alto Modern Pituto Cromado
+                        - paragraph [ref=e972]: "SKU: 143984846 - EAS: -"
+                  - cell "49.333 CLP" [ref=e973]
+                - 'row "Desague Lavaplatos 3 1/2 Rebalse SKU: 143566300 - EAS: - 6.151 CLP" [ref=e974]':
+                  - 'cell "Desague Lavaplatos 3 1/2 Rebalse SKU: 143566300 - EAS: -" [ref=e975]':
+                    - generic [ref=e977]:
+                      - checkbox [ref=e978] [cursor=pointer]
+                      - img [ref=e979]
+                      - generic [ref=e981]:
+                        - emphasis [ref=e982]: Desague Lavaplatos 3 1/2 Rebalse
+                        - paragraph [ref=e983]: "SKU: 143566300 - EAS: -"
+                  - cell "6.151 CLP" [ref=e984]
+                - 'row "LLAVE PASO GAS HI HE 12 SKU: 146955850 - EAS: - 7.644 CLP" [ref=e985]':
+                  - 'cell "LLAVE PASO GAS HI HE 12 SKU: 146955850 - EAS: -" [ref=e986]':
+                    - generic [ref=e988]:
+                      - checkbox [ref=e989] [cursor=pointer]
+                      - img [ref=e990]
+                      - generic [ref=e992]:
+                        - emphasis [ref=e993]: LLAVE PASO GAS HI HE 12
+                        - paragraph [ref=e994]: "SKU: 146955850 - EAS: -"
+                  - cell "7.644 CLP" [ref=e995]
+                - 'row "Organizador De Ducha Esquinero Triangular Baño SKU: 152324732 - EAS: - 18.942 CLP" [ref=e996]':
+                  - 'cell "Organizador De Ducha Esquinero Triangular Baño SKU: 152324732 - EAS: -" [ref=e997]':
+                    - generic [ref=e999]:
+                      - checkbox [ref=e1000] [cursor=pointer]
+                      - img [ref=e1001]
+                      - generic [ref=e1003]:
+                        - emphasis [ref=e1004]: Organizador De Ducha Esquinero Triangular Baño
+                        - paragraph [ref=e1005]: "SKU: 152324732 - EAS: -"
+                  - cell "18.942 CLP" [ref=e1006]
+                - 'row "Barra De Seguridad Con Jabonera Lado Izquierdo O Derecho SKU: 143984918 - EAS: - 24.131 CLP" [ref=e1007]':
+                  - 'cell "Barra De Seguridad Con Jabonera Lado Izquierdo O Derecho SKU: 143984918 - EAS: -" [ref=e1008]':
+                    - generic [ref=e1010]:
+                      - checkbox [ref=e1011] [cursor=pointer]
+                      - img [ref=e1012]
+                      - generic [ref=e1014]:
+                        - emphasis [ref=e1015]: Barra De Seguridad Con Jabonera Lado Izquierdo O Derecho
+                        - paragraph [ref=e1016]: "SKU: 143984918 - EAS: -"
+                  - cell "24.131 CLP" [ref=e1017]
+                - 'row "Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar SKU: 143984345 - EAS: - 31.141 CLP" [ref=e1018]':
+                  - 'cell "Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar SKU: 143984345 - EAS: -" [ref=e1019]':
+                    - generic [ref=e1021]:
+                      - checkbox [checked] [ref=e1022] [cursor=pointer]
+                      - img [ref=e1023]
+                      - generic [ref=e1025]:
+                        - emphasis [ref=e1026]: Dispensador Jabón Acero Inoxidable 800ml Baño Oficina Hogar
+                        - paragraph [ref=e1027]: "SKU: 143984345 - EAS: -"
+                  - cell "31.141 CLP" [ref=e1028]
+                - 'row "FLEXIBLE DUCHA SPIEGEL 185 CM SKU: 146926913 - EAS: - 5.003 CLP" [ref=e1029]':
+                  - 'cell "FLEXIBLE DUCHA SPIEGEL 185 CM SKU: 146926913 - EAS: -" [ref=e1030]':
+                    - generic [ref=e1032]:
+                      - checkbox [ref=e1033] [cursor=pointer]
+                      - img [ref=e1034]
+                      - generic [ref=e1036]:
+                        - emphasis [ref=e1037]: FLEXIBLE DUCHA SPIEGEL 185 CM
+                        - paragraph [ref=e1038]: "SKU: 146926913 - EAS: -"
+                  - cell "5.003 CLP" [ref=e1039]
+                - 'row "Desagüe Metálico para Tina o Receptáculo 1 1/2 Pulgada SKU: 152564443 - EAS: - 11.716 CLP" [ref=e1040]':
+                  - 'cell "Desagüe Metálico para Tina o Receptáculo 1 1/2 Pulgada SKU: 152564443 - EAS: -" [ref=e1041]':
+                    - generic [ref=e1043]:
+                      - checkbox [ref=e1044] [cursor=pointer]
+                      - img [ref=e1045]
+                      - generic [ref=e1047]:
+                        - emphasis [ref=e1048]: Desagüe Metálico para Tina o Receptáculo 1 1/2 Pulgada
+                        - paragraph [ref=e1049]: "SKU: 152564443 - EAS: -"
+                  - cell "11.716 CLP" [ref=e1050]
+                - 'row "Monomando Lavamanos Lavatorio Colomba SKU: 143984883 - EAS: - 18.201 CLP" [ref=e1051]':
+                  - 'cell "Monomando Lavamanos Lavatorio Colomba SKU: 143984883 - EAS: -" [ref=e1052]':
+                    - generic [ref=e1054]:
+                      - checkbox [ref=e1055] [cursor=pointer]
+                      - img [ref=e1056]
+                      - generic [ref=e1058]:
+                        - emphasis [ref=e1059]: Monomando Lavamanos Lavatorio Colomba
+                        - paragraph [ref=e1060]: "SKU: 143984883 - EAS: -"
+                  - cell "18.201 CLP" [ref=e1061]
+                - 'row "TOALLA INTERFOLEADA 200 UND POR PAQUETE SKU: 146934154 - EAS: - 2.898 CLP" [ref=e1062]':
+                  - 'cell "TOALLA INTERFOLEADA 200 UND POR PAQUETE SKU: 146934154 - EAS: -" [ref=e1063]':
+                    - generic [ref=e1065]:
+                      - checkbox [ref=e1066] [cursor=pointer]
+                      - img [ref=e1067]
+                      - generic [ref=e1069]:
+                        - emphasis [ref=e1070]: TOALLA INTERFOLEADA 200 UND POR PAQUETE
+                        - paragraph [ref=e1071]: "SKU: 146934154 - EAS: -"
+                  - cell "2.898 CLP" [ref=e1072]
+                - 'row "Sifon Plástico Con Tubo Para Lavaplatos 1 1/2 SKU: 143573819 - EAS: - 5.127 CLP" [ref=e1073]':
+                  - 'cell "Sifon Plástico Con Tubo Para Lavaplatos 1 1/2 SKU: 143573819 - EAS: -" [ref=e1074]':
+                    - generic [ref=e1076]:
+                      - checkbox [ref=e1077] [cursor=pointer]
+                      - img [ref=e1078]
+                      - generic [ref=e1080]:
+                        - emphasis [ref=e1081]: Sifon Plástico Con Tubo Para Lavaplatos 1 1/2
+                        - paragraph [ref=e1082]: "SKU: 143573819 - EAS: -"
+                  - cell "5.127 CLP" [ref=e1083]
+                - 'row "DESAGUE TINA 1 1/2 REBALSE PLASTICO SKU: 146722720 - EAS: - 8.788 CLP" [ref=e1084]':
+                  - 'cell "DESAGUE TINA 1 1/2 REBALSE PLASTICO SKU: 146722720 - EAS: -" [ref=e1085]':
+                    - generic [ref=e1087]:
+                      - checkbox [ref=e1088] [cursor=pointer]
+                      - img [ref=e1089]
+                      - generic [ref=e1091]:
+                        - emphasis [ref=e1092]: DESAGUE TINA 1 1/2 REBALSE PLASTICO
+                        - paragraph [ref=e1093]: "SKU: 146722720 - EAS: -"
+                  - cell "8.788 CLP" [ref=e1094]
+                - 'row "Monomando Lavatorio Domenica SKU: 143984852 - EAS: - 27.714 CLP" [ref=e1095]':
+                  - 'cell "Monomando Lavatorio Domenica SKU: 143984852 - EAS: -" [ref=e1096]':
+                    - generic [ref=e1098]:
+                      - checkbox [ref=e1099] [cursor=pointer]
+                      - img [ref=e1100]
+                      - generic [ref=e1102]:
+                        - emphasis [ref=e1103]: Monomando Lavatorio Domenica
+                        - paragraph [ref=e1104]: "SKU: 143984852 - EAS: -"
+                  - cell "27.714 CLP" [ref=e1105]
+                - 'row "COMBINACIÓN LPLATO EN V VANDER MUY MEJOR SKU: 146236640 - EAS: - 26.318 CLP" [ref=e1106]':
+                  - 'cell "COMBINACIÓN LPLATO EN V VANDER MUY MEJOR SKU: 146236640 - EAS: -" [ref=e1107]':
+                    - generic [ref=e1109]:
+                      - checkbox [ref=e1110] [cursor=pointer]
+                      - img [ref=e1111]
+                      - generic [ref=e1113]:
+                        - emphasis [ref=e1114]: COMBINACIÓN LPLATO EN V VANDER MUY MEJOR
+                        - paragraph [ref=e1115]: "SKU: 146236640 - EAS: -"
+                  - cell "26.318 CLP" [ref=e1116]
+                - 'row "KIT WC ANCLAJE ANTIFUGA ADMISION SKU: 146698676 - EAS: - 13.583 CLP" [ref=e1117]':
+                  - 'cell "KIT WC ANCLAJE ANTIFUGA ADMISION SKU: 146698676 - EAS: -" [ref=e1118]':
+                    - generic [ref=e1120]:
+                      - checkbox [ref=e1121] [cursor=pointer]
+                      - img [ref=e1122]
+                      - generic [ref=e1124]:
+                        - emphasis [ref=e1125]: KIT WC ANCLAJE ANTIFUGA ADMISION
+                        - paragraph [ref=e1126]: "SKU: 146698676 - EAS: -"
+                  - cell "13.583 CLP" [ref=e1127]
+                - 'row "Dispensador Jabon Simple Mejorado 360 ml SKU: 143573665 - EAS: - 8.250 CLP" [ref=e1128]':
+                  - 'cell "Dispensador Jabon Simple Mejorado 360 ml SKU: 143573665 - EAS: -" [ref=e1129]':
+                    - generic [ref=e1131]:
+                      - checkbox [ref=e1132] [cursor=pointer]
+                      - img [ref=e1133]
+                      - generic [ref=e1135]:
+                        - emphasis [ref=e1136]: Dispensador Jabon Simple Mejorado 360 ml
+                        - paragraph [ref=e1137]: "SKU: 143573665 - EAS: -"
+                  - cell "8.250 CLP" [ref=e1138]
+                - 'row "Válvula Desvío Diverter 3 Vías 1/2 3/4 SKU: 143565837 - EAS: - 23.127 CLP" [ref=e1139]':
+                  - 'cell "Válvula Desvío Diverter 3 Vías 1/2 3/4 SKU: 143565837 - EAS: -" [ref=e1140]':
+                    - generic [ref=e1142]:
+                      - checkbox [ref=e1143] [cursor=pointer]
+                      - img [ref=e1144]
+                      - generic [ref=e1146]:
+                        - emphasis [ref=e1147]: Válvula Desvío Diverter 3 Vías 1/2 3/4
+                        - paragraph [ref=e1148]: "SKU: 143565837 - EAS: -"
+                  - cell "23.127 CLP" [ref=e1149]
+                - 'row "Plato De Ducha Redondo Acero Inoxidable 20 Cm - Hi 1/2 SKU: 143573687 - EAS: - 19.597 CLP" [ref=e1150]':
+                  - 'cell "Plato De Ducha Redondo Acero Inoxidable 20 Cm - Hi 1/2 SKU: 143573687 - EAS: -" [ref=e1151]':
+                    - generic [ref=e1153]:
+                      - checkbox [ref=e1154] [cursor=pointer]
+                      - img [ref=e1155]
+                      - generic [ref=e1157]:
+                        - emphasis [ref=e1158]: Plato De Ducha Redondo Acero Inoxidable 20 Cm - Hi 1/2
+                        - paragraph [ref=e1159]: "SKU: 143573687 - EAS: -"
+                  - cell "19.597 CLP" [ref=e1160]
+                - 'row "Monomando Lavaplatos Vertical Domenica SKU: 143984869 - EAS: - 30.786 CLP" [ref=e1161]':
+                  - 'cell "Monomando Lavaplatos Vertical Domenica SKU: 143984869 - EAS: -" [ref=e1162]':
+                    - generic [ref=e1164]:
+                      - checkbox [checked] [ref=e1165] [cursor=pointer]
+                      - img [ref=e1166]
+                      - generic [ref=e1168]:
+                        - emphasis [ref=e1169]: Monomando Lavaplatos Vertical Domenica
+                        - paragraph [ref=e1170]: "SKU: 143984869 - EAS: -"
+                  - cell "30.786 CLP" [ref=e1171]
+                - 'row "Flexible Agua HE HI 1/2 Llave Angular 35 cm SKU: 143573733 - EAS: - 8.828 CLP" [ref=e1172]':
+                  - 'cell "Flexible Agua HE HI 1/2 Llave Angular 35 cm SKU: 143573733 - EAS: -" [ref=e1173]':
+                    - generic [ref=e1175]:
+                      - checkbox [ref=e1176] [cursor=pointer]
+                      - img [ref=e1177]
+                      - generic [ref=e1179]:
+                        - emphasis [ref=e1180]: Flexible Agua HE HI 1/2 Llave Angular 35 cm
+                        - paragraph [ref=e1181]: "SKU: 143573733 - EAS: -"
+                  - cell "8.828 CLP" [ref=e1182]
+                - 'row "Barra Seguridad Y Soporte Para Ducha Telefono Adaptable 65cm SKU: 143984879 - EAS: - 19.711 CLP" [ref=e1183]':
+                  - 'cell "Barra Seguridad Y Soporte Para Ducha Telefono Adaptable 65cm SKU: 143984879 - EAS: -" [ref=e1184]':
+                    - generic [ref=e1186]:
+                      - checkbox [ref=e1187] [cursor=pointer]
+                      - img [ref=e1188]
+                      - generic [ref=e1190]:
+                        - emphasis [ref=e1191]: Barra Seguridad Y Soporte Para Ducha Telefono Adaptable 65cm
+                        - paragraph [ref=e1192]: "SKU: 143984879 - EAS: -"
+                  - cell "19.711 CLP" [ref=e1193]
+                - 'row "Jabonera Colomba Cromada Vidrio Empavonado SKU: 143985552 - EAS: - 5.818 CLP" [ref=e1194]':
+                  - 'cell "Jabonera Colomba Cromada Vidrio Empavonado SKU: 143985552 - EAS: -" [ref=e1195]':
+                    - generic [ref=e1197]:
+                      - checkbox [ref=e1198] [cursor=pointer]
+                      - img [ref=e1199]
+                      - generic [ref=e1201]:
+                        - emphasis [ref=e1202]: Jabonera Colomba Cromada Vidrio Empavonado
+                        - paragraph [ref=e1203]: "SKU: 143985552 - EAS: -"
+                  - cell "5.818 CLP" [ref=e1204]
+                - 'row "FLEXIBLE GAS HI HI 3/8 1/2 60 CM SKU: 146935020 - EAS: - 7.874 CLP" [ref=e1205]':
+                  - 'cell "FLEXIBLE GAS HI HI 3/8 1/2 60 CM SKU: 146935020 - EAS: -" [ref=e1206]':
+                    - generic [ref=e1208]:
+                      - checkbox [ref=e1209] [cursor=pointer]
+                      - img [ref=e1210]
+                      - generic [ref=e1212]:
+                        - emphasis [ref=e1213]: FLEXIBLE GAS HI HI 3/8 1/2 60 CM
+                        - paragraph [ref=e1214]: "SKU: 146935020 - EAS: -"
+                  - cell "7.874 CLP" [ref=e1215]
+                - 'row "MONOMANDO TINA DUCHA NOTTE SKU: 147038624 - EAS: - 52.282 CLP" [ref=e1216]':
+                  - 'cell "MONOMANDO TINA DUCHA NOTTE SKU: 147038624 - EAS: -" [ref=e1217]':
+                    - generic [ref=e1219]:
+                      - checkbox [checked] [ref=e1220] [cursor=pointer]
+                      - img [ref=e1221]
+                      - generic [ref=e1223]:
+                        - emphasis [ref=e1224]: MONOMANDO TINA DUCHA NOTTE
+                        - paragraph [ref=e1225]: "SKU: 147038624 - EAS: -"
+                  - cell "52.282 CLP" [ref=e1226]
+                - 'row "Ducha Fija al Muro Con Difusor Abs Cromado SKU: 152555843 - EAS: - 3.192 CLP" [ref=e1227]':
+                  - 'cell "Ducha Fija al Muro Con Difusor Abs Cromado SKU: 152555843 - EAS: -" [ref=e1228]':
+                    - generic [ref=e1230]:
+                      - checkbox [ref=e1231] [cursor=pointer]
+                      - img [ref=e1232]
+                      - generic [ref=e1234]:
+                        - emphasis [ref=e1235]: Ducha Fija al Muro Con Difusor Abs Cromado
+                        - paragraph [ref=e1236]: "SKU: 152555843 - EAS: -"
+                  - cell "3.192 CLP" [ref=e1237]
+                - 'row "Dispensador De Papel Higiénico Acero Inoxidable Con Llave Industrial SKU: 143564765 - EAS: - 44.007 CLP" [ref=e1238]':
+                  - 'cell "Dispensador De Papel Higiénico Acero Inoxidable Con Llave Industrial SKU: 143564765 - EAS: -" [ref=e1239]':
+                    - generic [ref=e1241]:
+                      - checkbox [checked] [ref=e1242] [cursor=pointer]
+                      - img [ref=e1243]
+                      - generic [ref=e1245]:
+                        - emphasis [ref=e1246]: Dispensador De Papel Higiénico Acero Inoxidable Con Llave Industrial
+                        - paragraph [ref=e1247]: "SKU: 143564765 - EAS: -"
+                  - cell "44.007 CLP" [ref=e1248]
+                - 'row "JABONERA BOTELLA LINEA SCHWARZ SKU: 147038818 - EAS: - 11.492 CLP" [ref=e1249]':
+                  - 'cell "JABONERA BOTELLA LINEA SCHWARZ SKU: 147038818 - EAS: -" [ref=e1250]':
+                    - generic [ref=e1252]:
+                      - checkbox [ref=e1253] [cursor=pointer]
+                      - img [ref=e1254]
+                      - generic [ref=e1256]:
+                        - emphasis [ref=e1257]: JABONERA BOTELLA LINEA SCHWARZ
+                        - paragraph [ref=e1258]: "SKU: 147038818 - EAS: -"
+                  - cell "11.492 CLP" [ref=e1259]
+                - 'row "Llave de Cocina Monomando Vertical Inoxidable Frio y Caliente SKU: 143105471 - EAS: - 37.135 CLP" [ref=e1260]':
+                  - 'cell "Llave de Cocina Monomando Vertical Inoxidable Frio y Caliente SKU: 143105471 - EAS: -" [ref=e1261]':
+                    - generic [ref=e1263]:
+                      - checkbox [checked] [ref=e1264] [cursor=pointer]
+                      - img [ref=e1265]
+                      - generic [ref=e1267]:
+                        - emphasis [ref=e1268]: Llave de Cocina Monomando Vertical Inoxidable Frio y Caliente
+                        - paragraph [ref=e1269]: "SKU: 143105471 - EAS: -"
+                  - cell "37.135 CLP" [ref=e1270]
+                - 'row "RECEPTACULO DUCHA 80X80 CM SKU: 146189570 - EAS: - 102.201 CLP" [ref=e1271]':
+                  - 'cell "RECEPTACULO DUCHA 80X80 CM SKU: 146189570 - EAS: -" [ref=e1272]':
+                    - generic [ref=e1274]:
+                      - checkbox [checked] [ref=e1275] [cursor=pointer]
+                      - img [ref=e1276]
+                      - generic [ref=e1278]:
+                        - emphasis [ref=e1279]: RECEPTACULO DUCHA 80X80 CM
+                        - paragraph [ref=e1280]: "SKU: 146189570 - EAS: -"
+                  - cell "102.201 CLP" [ref=e1281]
+                - 'row "LAVAPLATOS SIMPLE EMPOTRADO 686X456 MM HAMBURG SKU: 146188940 - EAS: - 131.939 CLP" [ref=e1282]':
+                  - 'cell "LAVAPLATOS SIMPLE EMPOTRADO 686X456 MM HAMBURG SKU: 146188940 - EAS: -" [ref=e1283]':
+                    - generic [ref=e1285]:
+                      - checkbox [checked] [ref=e1286] [cursor=pointer]
+                      - img [ref=e1287]
+                      - generic [ref=e1289]:
+                        - emphasis [ref=e1290]: LAVAPLATOS SIMPLE EMPOTRADO 686X456 MM HAMBURG
+                        - paragraph [ref=e1291]: "SKU: 146188940 - EAS: -"
+                  - cell "131.939 CLP" [ref=e1292]
+                - 'row "ESPEJO 60X90 RECTANGULAR BORDE AZUL SKU: 146191274 - EAS: - 69.762 CLP" [ref=e1293]':
+                  - 'cell "ESPEJO 60X90 RECTANGULAR BORDE AZUL SKU: 146191274 - EAS: -" [ref=e1294]':
+                    - generic [ref=e1296]:
+                      - checkbox [checked] [ref=e1297] [cursor=pointer]
+                      - img [ref=e1298]
+                      - generic [ref=e1300]:
+                        - emphasis [ref=e1301]: ESPEJO 60X90 RECTANGULAR BORDE AZUL
+                        - paragraph [ref=e1302]: "SKU: 146191274 - EAS: -"
+                  - cell "69.762 CLP" [ref=e1303]
+                - 'row "Lavaplatos Doble Empotrado 120x44 cm Secador Izquierdo SKU: 143105403 - EAS: - 108.917 CLP" [ref=e1304]':
+                  - 'cell "Lavaplatos Doble Empotrado 120x44 cm Secador Izquierdo SKU: 143105403 - EAS: -" [ref=e1305]':
+                    - generic [ref=e1307]:
+                      - checkbox [checked] [ref=e1308] [cursor=pointer]
+                      - img [ref=e1309]
+                      - generic [ref=e1311]:
+                        - emphasis [ref=e1312]: Lavaplatos Doble Empotrado 120x44 cm Secador Izquierdo
+                        - paragraph [ref=e1313]: "SKU: 143105403 - EAS: -"
+                  - cell "108.917 CLP" [ref=e1314]
+                - 'row "Espejo 50x70 Rectangular LED SKU: 143564300 - EAS: - 62.990 CLP" [ref=e1315]':
+                  - 'cell "Espejo 50x70 Rectangular LED SKU: 143564300 - EAS: -" [ref=e1316]':
+                    - generic [ref=e1318]:
+                      - checkbox [checked] [ref=e1319] [cursor=pointer]
+                      - img [ref=e1320]
+                      - generic [ref=e1322]:
+                        - emphasis [ref=e1323]: Espejo 50x70 Rectangular LED
+                        - paragraph [ref=e1324]: "SKU: 143564300 - EAS: -"
+                  - cell "62.990 CLP" [ref=e1325]
+                - 'row "BARRA DE SEGURIDAD MURO-SUELO DERECHO SKU: 146696176 - EAS: - 400.000 CLP" [ref=e1326]':
+                  - 'cell "BARRA DE SEGURIDAD MURO-SUELO DERECHO SKU: 146696176 - EAS: -" [ref=e1327]':
+                    - generic [ref=e1329]:
+                      - checkbox [checked] [ref=e1330] [cursor=pointer]
+                      - img [ref=e1331]
+                      - generic [ref=e1333]:
+                        - emphasis [ref=e1334]: BARRA DE SEGURIDAD MURO-SUELO DERECHO
+                        - paragraph [ref=e1335]: "SKU: 146696176 - EAS: -"
+                  - cell "400.000 CLP" [ref=e1336]
+            - generic [ref=e1337]: "Total de productos en promoción: 41"
+            - generic [ref=e1338]:
+              - button "Volver a promociones" [ref=e1339] [cursor=pointer]
+              - button "Confirmar" [ref=e1340] [cursor=pointer]
+  - contentinfo [ref=e75]:
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - img [ref=e81]
+        - button "Califica esta página" [ref=e83] [cursor=pointer]
+      - generic [ref=e84]:
+        - generic [ref=e85]: Idioma
+        - generic [ref=e87] [cursor=pointer]:
+          - generic [ref=e88]: Español
+          - img [ref=e90]
+  - alert [ref=e92]

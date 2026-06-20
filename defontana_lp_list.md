@@ -1,0 +1,148 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - generic [ref=e8]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: "#/Home"
+            - img [ref=e12]
+          - img "menu.svg" [ref=e14] [cursor=pointer]
+          - generic [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]: Trade Global Solutions SPA
+            - img [ref=e52]: arrow_drop_down
+          - generic [ref=e24]:
+            - separator [ref=e25]
+            - generic [ref=e27] [cursor=pointer]:
+              - img "User" [ref=e29]
+              - generic [ref=e31]:
+                - generic [ref=e53]: Victor
+                - img [ref=e32]: arrow_drop_down
+      - generic [ref=e33]:
+        - iframe [ref=e68]:
+          - main [ref=f31e4]:
+            - generic [ref=f31e5]:
+              - generic [ref=f31e6]:
+                - navigation "breadcrumb" [ref=f31e7]:
+                  - list [ref=f31e8]:
+                    - listitem [ref=f31e9]:
+                      - generic [ref=f31e10]: Ventas
+                    - listitem [ref=f31e11]: /
+                    - listitem [ref=f31e12]:
+                      - paragraph [ref=f31e13]: Lista de precios
+                - heading "Lista de precios" [level=2] [ref=f31e15]
+                - generic [ref=f31e16]:
+                  - generic [ref=f31e19]:
+                    - generic: Código o descripción
+                    - generic [ref=f31e20]:
+                      - textbox "Código o descripción" [ref=f31e21]
+                      - img [ref=f31e22]
+                      - group:
+                        - generic: Código o descripción
+                  - generic [ref=f31e24]:
+                    - button "img_aprende_usar Aprende a usar" [ref=f31e25] [cursor=pointer]:
+                      - generic [ref=f31e26]:
+                        - img "img_aprende_usar" [ref=f31e27]
+                        - text: Aprende a usar
+                    - button "Nuevo" [ref=f31e28] [cursor=pointer]:
+                      - generic [ref=f31e29]: Nuevo
+              - generic [ref=f31e33]:
+                - generic [ref=f31e35]: Listado
+                - table [ref=f31e40]:
+                  - rowgroup [ref=f31e41]:
+                    - row "Código Descripción" [ref=f31e42]:
+                      - columnheader "Código" [ref=f31e43]:
+                        - button "Código" [ref=f31e44]
+                      - columnheader "Descripción" [ref=f31e45]:
+                        - button "Descripción" [ref=f31e46]
+                      - columnheader [ref=f31e47]:
+                        - button
+                  - rowgroup [ref=f31e48]:
+                    - row "1 Base" [ref=f31e49]:
+                      - cell "1" [ref=f31e50]
+                      - cell "Base" [ref=f31e51]
+                      - cell [ref=f31e52]:
+                        - button [ref=f31e54] [cursor=pointer]:
+                          - img [ref=f31e55]
+                    - row "2 Mercado Libre" [ref=f31e57]:
+                      - cell "2" [ref=f31e58]
+                      - cell "Mercado Libre" [ref=f31e59]
+                      - cell [ref=f31e60]:
+                        - button [ref=f31e62] [cursor=pointer]:
+                          - img [ref=f31e63]
+                    - row "3 Falabella" [ref=f31e65]:
+                      - cell "3" [ref=f31e66]
+                      - cell "Falabella" [ref=f31e67]
+                      - cell [ref=f31e68]:
+                        - button [ref=f31e70] [cursor=pointer]:
+                          - img [ref=f31e71]
+                    - row "4 Tienda Física" [ref=f31e73]:
+                      - cell "4" [ref=f31e74]
+                      - cell "Tienda Física" [ref=f31e75]
+                      - cell [ref=f31e76]:
+                        - button [ref=f31e78] [cursor=pointer]:
+                          - img [ref=f31e79]
+                    - row "5 Paris Walmart" [ref=f31e81]:
+                      - cell "5" [ref=f31e82]
+                      - cell "Paris Walmart" [ref=f31e83]
+                      - cell [ref=f31e84]:
+                        - button [ref=f31e86] [cursor=pointer]:
+                          - img [ref=f31e87]
+                - table [ref=f31e89]:
+                  - rowgroup [ref=f31e90]:
+                    - row "5 Primera página Anterior 1-5 de 7 Siguiente Última página" [ref=f31e91]:
+                      - cell "5 Primera página Anterior 1-5 de 7 Siguiente Última página" [ref=f31e92]:
+                        - generic [ref=f31e93]:
+                          - paragraph
+                          - generic [ref=f31e94]:
+                            - button "5" [ref=f31e95] [cursor=pointer]:
+                              - generic [ref=f31e96]: "5"
+                            - textbox: "5"
+                            - img
+                          - generic [ref=f31e97]:
+                            - generic "Primera página" [ref=f31e98]:
+                              - button "Primera página" [disabled]:
+                                - img
+                            - generic "Anterior" [ref=f31e99]:
+                              - button "Anterior" [disabled]:
+                                - img
+                            - generic [ref=f31e100]: 1-5 de 7
+                            - generic "Siguiente" [ref=f31e101]:
+                              - button "Siguiente" [ref=f31e102] [cursor=pointer]:
+                                - img [ref=f31e103]
+                            - generic "Última página" [ref=f31e105]:
+                              - button "Última página" [ref=f31e106] [cursor=pointer]:
+                                - img [ref=f31e107]
+        - iframe [ref=e60]:
+          - generic [ref=f27e3]:
+            - generic [ref=f27e9]:
+              - generic [ref=f27e10]:
+                - generic [ref=f27e11]:
+                  - generic [ref=f27e12]:
+                    - img "menu" [ref=f27e13] [cursor=pointer]
+                    - generic:
+                      - list:
+                        - listitem:
+                          - generic: Historial
+                          - img "chat-message.svg"
+                  - generic [ref=f27e16]:
+                    - img "Minimizar" [ref=f27e17] [cursor=pointer]
+                    - img "Cerrar" [ref=f27e18] [cursor=pointer]
+                - generic [ref=f27e19]:
+                  - generic [ref=f27e21]: ¡Hola Victor! Soy Ana, tu asistente virtual
+                  - generic [ref=f27e22]: ¿Cómo te puedo ayudar hoy?
+              - generic [ref=f27e23]:
+                - generic [ref=f27e25]:
+                  - generic [ref=f27e27] [cursor=pointer]: ¿Cómo cargo folios o CAF en el sistema?
+                  - generic [ref=f27e29] [cursor=pointer]: ¿Cómo reenvío documentos al SII?
+                  - generic [ref=f27e31] [cursor=pointer]: ¿Cómo reviso las inconsistencias de inventario?
+                  - generic [ref=f27e33] [cursor=pointer]: ¿Cómo facturo en el ERP?
+                - generic [ref=f27e36]:
+                  - textbox "Haz una pregunta" [ref=f27e37]
+                  - generic:
+                    - img
+            - generic:
+              - list
+    - generic:
+      - list
+  - iframe [ref=e61]:
+    
