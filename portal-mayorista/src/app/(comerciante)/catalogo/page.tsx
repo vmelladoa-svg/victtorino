@@ -136,14 +136,15 @@ export default async function CatalogoPage() {
       precioT3: true,
       fotoUrl: true,
       activo: true,
+      stock: true,
     },
     orderBy: { nombre: "asc" },
   });
 
-  // Adaptar al tipo ProductoRow (stock no está en el modelo, ponemos null)
+  // Adaptar al tipo ProductoRow (stock real, descontando lo reservado se hace en backend)
   const rows: ProductoRow[] = productos.map((p) => ({
     ...p,
-    stock: null,
+    stock: p.stock,
   }));
 
   // 3. Obtener categorías únicas (ordenadas, sin null)
