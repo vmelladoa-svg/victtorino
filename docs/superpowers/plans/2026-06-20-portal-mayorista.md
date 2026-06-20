@@ -18,6 +18,7 @@
 - WhatsApp admin: CallMeBot `phone=56996953815`, `apikey=5759352`, texto plano sin emojis.
 - Si CallMeBot falla, el pedido **igual se persiste** (el aviso nunca bloquea la venta).
 - Moneda CLP, enteros (sin decimales).
+- **Prisma v7** (no v6): el cliente se importa desde **`@/generated/prisma`** (NO `@prisma/client`); `DATABASE_URL` vive en `prisma.config.ts` (no en `schema.prisma`); generator = `prisma-client`. Todo código que use Prisma debe importar de `@/generated/prisma` (o ruta relativa equivalente fuera de `src/`).
 
 ---
 
