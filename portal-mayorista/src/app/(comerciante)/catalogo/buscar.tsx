@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import AgregarAlCarrito from "./agregar";
 
 /* ------------------------------------------------------------------ */
@@ -86,51 +87,53 @@ function ProductCard({ prod }: { prod: ProductoRow }) {
     >
       {/* Imagen */}
       <div className="pcard-media">
-        {prod.fotoUrl && !imgError ? (
-          <div
-            style={{
-              height: 168,
-              position: "relative",
-              borderRadius: "var(--rs)",
-              overflow: "hidden",
-            }}
-          >
-            <Image
-              src={prod.fotoUrl}
-              alt={prod.nombre}
-              fill
-              sizes="(max-width: 720px) 50vw, (max-width: 1080px) 33vw, 25vw"
-              style={{ objectFit: "cover" }}
-              unoptimized
-              onError={() => setImgError(true)}
-            />
-          </div>
-        ) : (
-          /* Placeholder de rayas igual a la maqueta */
-          <div
-            style={{
-              height: 168,
-              background: "#0e7cc414",
-              borderRadius: "var(--rs)",
-              display: "grid",
-              placeItems: "center",
-              position: "relative",
-            }}
-          >
-            <span
+        <Link href={"/catalogo/" + prod.codigoAlila} style={{ display: "block", textDecoration: "none" }}>
+          {prod.fotoUrl && !imgError ? (
+            <div
               style={{
-                fontFamily: "var(--mono)",
-                fontSize: "10.5px",
-                fontWeight: 700,
-                opacity: 0.55,
-                letterSpacing: ".02em",
-                color: "#0e7cc4",
+                height: 168,
+                position: "relative",
+                borderRadius: "var(--rs)",
+                overflow: "hidden",
               }}
             >
-              sin foto
-            </span>
-          </div>
-        )}
+              <Image
+                src={prod.fotoUrl}
+                alt={prod.nombre}
+                fill
+                sizes="(max-width: 720px) 50vw, (max-width: 1080px) 33vw, 25vw"
+                style={{ objectFit: "cover" }}
+                unoptimized
+                onError={() => setImgError(true)}
+              />
+            </div>
+          ) : (
+            /* Placeholder de rayas igual a la maqueta */
+            <div
+              style={{
+                height: 168,
+                background: "#0e7cc414",
+                borderRadius: "var(--rs)",
+                display: "grid",
+                placeItems: "center",
+                position: "relative",
+              }}
+            >
+              <span
+                style={{
+                  fontFamily: "var(--mono)",
+                  fontSize: "10.5px",
+                  fontWeight: 700,
+                  opacity: 0.55,
+                  letterSpacing: ".02em",
+                  color: "#0e7cc4",
+                }}
+              >
+                sin foto
+              </span>
+            </div>
+          )}
+        </Link>
 
         {/* Badge sin stock */}
         {sinStock && (
@@ -143,7 +146,9 @@ function ProductCard({ prod }: { prod: ProductoRow }) {
       {/* Cuerpo */}
       <div className="pcard-body">
         <span className="pcard-sku mono">{prod.codigoAlila}</span>
-        <h3>{prod.nombre}</h3>
+        <Link href={"/catalogo/" + prod.codigoAlila} style={{ textDecoration: "none", color: "inherit" }}>
+          <h3>{prod.nombre}</h3>
+        </Link>
 
         {/* Tramos de precio */}
         <div
