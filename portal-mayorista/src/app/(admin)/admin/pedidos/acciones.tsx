@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 
 interface LineaOc {
   codigoAlila: string;
+  codigoProveedor: string | null;
   nombre: string;
   cantidad: number;
   link1688: string | null;
@@ -95,6 +96,9 @@ export default function AccionesGenerarOc({ pedidoId, folio, empresa }: Props) {
             }}>
               <span style={{ fontFamily: "var(--mono)", fontWeight: 700, color: "var(--ink)", minWidth: "80px" }}>
                 {l.codigoAlila ?? "—"}
+              </span>
+              <span style={{ fontFamily: "var(--mono)", fontSize: "11px", color: "var(--ink-3)", minWidth: "70px" }}>
+                {l.codigoProveedor ? `Prov: ${l.codigoProveedor}` : "—"}
               </span>
               <span style={{ flex: 1, color: "var(--ink-2)" }}>{l.nombre}</span>
               <span style={{ fontFamily: "var(--mono)", fontWeight: 700, color: "var(--ink)" }}>

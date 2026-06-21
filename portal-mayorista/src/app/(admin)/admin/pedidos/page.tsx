@@ -92,6 +92,7 @@ interface PedidoConRelaciones {
     producto: {
       codigoAlila: string;
       nombre: string;
+      codigoProveedor: string | null;
     };
   }>;
   oc: { numeroOc: string } | null;
@@ -207,6 +208,16 @@ function TarjetaPedido({
               }}>
                 {it.producto.codigoAlila ?? "—"}
               </span>
+              <span style={{
+                fontFamily: "var(--mono)",
+                fontSize: "12px",
+                color: "var(--ink-3)",
+                minWidth: "90px",
+              }}>
+                {it.producto.codigoProveedor
+                  ? <><span style={{ fontSize: "10px" }}>Prov:</span> {it.producto.codigoProveedor}</>
+                  : "—"}
+              </span>
               <span style={{ flex: 1, color: "var(--ink)", fontWeight: 600 }}>
                 {it.producto.nombre}
               </span>
@@ -299,7 +310,15 @@ export default async function PedidosAdminPage() {
   const includeRelaciones = {
     comerciante: true,
     items: {
-      include: { producto: true },
+      include: {
+        producto: {
+          select: {
+            codigoAlila: true,
+            nombre: true,
+            codigoProveedor: true,
+          }
+        }
+      },
     },
     oc: true,
   } as const;

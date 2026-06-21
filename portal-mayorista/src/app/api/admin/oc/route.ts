@@ -73,6 +73,7 @@ export async function POST(req: Request) {
   // Devolver el número de OC y el detalle de items para comprar en AlilaTop
   const lineasOc = items.map((it) => ({
     codigoAlila: it.producto.codigoAlila,
+    codigoProveedor: it.producto.codigoProveedor ?? null,
     nombre: it.producto.nombre,
     cantidad: it.cantidad,
     link1688: it.producto.link1688,
