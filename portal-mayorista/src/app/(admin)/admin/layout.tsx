@@ -8,6 +8,7 @@ const NAV = [
   { href: "/admin",               label: "Resumen",      exact: true  },
   { href: "/admin/comerciantes",  label: "Comerciantes", exact: false },
   { href: "/admin/pagos",         label: "Pagos",        exact: false },
+  { href: "/admin/ventas",        label: "Ventas",       exact: false },
   { href: "/admin/pedidos",       label: "Pedidos",      exact: false },
 ];
 
