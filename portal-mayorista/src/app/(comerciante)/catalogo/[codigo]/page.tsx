@@ -6,6 +6,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import CartBadge from "../cart-badge";
 import AgregarDesdeDetalle from "./agregar-desde-detalle";
+import GaleriaFotos from "./galeria-fotos";
 
 /* ------------------------------------------------------------------ */
 /*  Metadata dinámica                                                   */
@@ -217,7 +218,7 @@ export default async function ProductoDetallePage(props: Props) {
     redirect("/revision");
   }
 
-  // 2. Cargar producto (solo campos disponibles en el cliente generado actual)
+  // 2. Cargar producto
   const params = await props.params;
   const prod = await prisma.producto.findUnique({
     where: { codigoAlila: params.codigo },
@@ -226,11 +227,15 @@ export default async function ProductoDetallePage(props: Props) {
       codigoAlila: true,
       nombre: true,
       categoria: true,
+      descripcion: true,
+      fotos: true,
+      fotoUrl: true,
+      dimensiones: true,
+      embalaje: true,
+      unidCaja: true,
       precioT1: true,
       precioT2: true,
       precioT3: true,
-      unidCaja: true,
-      fotoUrl: true,
       link1688: true,
       stock: true,
       reservado: true,
@@ -284,8 +289,12 @@ export default async function ProductoDetallePage(props: Props) {
 
         {/* Grid principal */}
         <div className="pdp-grid">
-          {/* Columna izquierda: foto */}
-          <FotoPrincipal fotoUrl={prod.fotoUrl} nombre={prod.nombre} />
+          {/* Columna izquierda: galería */}
+          {prod.fotos && prod.fotos.length > 0 ? (
+            <GaleriaFotos fotos={prod.fotos} nombre={prod.nombre} />
+          ) : (
+            <FotoPrincipal fotoUrl={prod.fotoUrl} nombre={prod.nombre} />
+          )}
 
           {/* Columna derecha: info */}
           <div className="pdp-info">
@@ -307,8 +316,16 @@ export default async function ProductoDetallePage(props: Props) {
             {/* Nombre */}
             <h1>{prod.nombre}</h1>
 
-            {/* Datos adicionales */}
-            {prod.unidCaja && (
+            {/* Descripción HTML */}
+            {prod.descripcion && (
+              <div
+                className="pdp-desc"
+                dangerouslySetInnerHTML={{ __html: prod.descripcion }}
+              />
+            )}
+
+            {/* Datos adicionales: dimensiones, embalaje, unidCaja */}
+            {(prod.dimensiones || prod.embalaje || prod.unidCaja) && (
               <div
                 style={{
                   display: "flex",
@@ -323,12 +340,26 @@ export default async function ProductoDetallePage(props: Props) {
                   color: "var(--ink-2)",
                 }}
               >
-                <span>
-                  <strong style={{ color: "var(--ink)" }}>
-                    Unidades por caja:
-                  </strong>{" "}
-                  {prod.unidCaja}
-                </span>
+                {prod.dimensiones && (
+                  <span>
+                    <strong style={{ color: "var(--ink)" }}>Dimensiones:</strong>{" "}
+                    {prod.dimensiones}
+                  </span>
+                )}
+                {prod.embalaje && (
+                  <span>
+                    <strong style={{ color: "var(--ink)" }}>Embalaje:</strong>{" "}
+                    {prod.embalaje}
+                  </span>
+                )}
+                {prod.unidCaja && (
+                  <span>
+                    <strong style={{ color: "var(--ink)" }}>
+                      Unidades por caja:
+                    </strong>{" "}
+                    {prod.unidCaja}
+                  </span>
+                )}
               </div>
             )}
 

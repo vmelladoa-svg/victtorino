@@ -47,9 +47,17 @@ model Producto {
   unidCaja    Int?
   minCompra   Int          @default(1)
   fotoUrl     String?
+  fotos       String[]     // todas las fotos del producto (de AlilaTop)
+  descripcion String?      // HTML de la descripcion (de AlilaTop)
+  dimensiones String?      // ej "17X9X17"
+  embalaje    String?      // ej "caja de color"
+  keywords    String?      // palabras clave para la publicacion
+  nArticulo   String?      // N° de articulo de AlilaTop
+  codigoProveedor String?  // codigo del proveedor/fabrica (para la OC)
   link1688    String?
+  linkML      String?      // referencia precio mercado ML
   activo      Boolean      @default(true)
-  stock       Int?         // unidades disponibles en AlilaTop (lo actualiza el scraper; null = sin dato)
+  stock       Int?         // unidades disponibles en AlilaTop (lo actualiza el refresco; sin stock = no se ofrece)
   reservado   Int          @default(0) // unidades reservadas por pedidos con pago validado, aun no despachados
   items       PedidoItem[]
 }
