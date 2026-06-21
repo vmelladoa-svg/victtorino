@@ -66,7 +66,15 @@ export default function GaleriaFotos({ fotos, nombre }: GaleriaFotosProps) {
 
       {/* Miniaturas — solo si hay más de 1 foto */}
       {fotos.length > 1 && (
-        <div className="pdp-thumbs">
+        <div
+          className="pdp-thumbs"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: 8,
+            marginTop: 10,
+          }}
+        >
           {fotos.map((url, i) => (
             <button
               key={i}
@@ -74,16 +82,23 @@ export default function GaleriaFotos({ fotos, nombre }: GaleriaFotosProps) {
               onClick={() => setIndiceActivo(i)}
               aria-label={`Ver foto ${i + 1}`}
               style={{
+                width: 68,
                 background: "none",
-                border: undefined, // clase CSS maneja el borde
+                border:
+                  i === indiceActivo
+                    ? "2px solid #0e7cc4"
+                    : "1px solid var(--line, #ddd)",
+                borderRadius: 8,
                 padding: 0,
+                cursor: "pointer",
               }}
             >
               <div
                 style={{
-                  height: 68,
+                  width: "100%",
+                  height: 64,
                   position: "relative",
-                  borderRadius: "var(--rs)",
+                  borderRadius: 6,
                   overflow: "hidden",
                   background: "#0e7cc414",
                 }}
