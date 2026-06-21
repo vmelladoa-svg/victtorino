@@ -61,6 +61,11 @@ export default function RegistroPage() {
       }
 
       setSuccess(true);
+      // Meta Pixel: registro de comerciante completado
+      (window as unknown as { fbq?: (...a: unknown[]) => void }).fbq?.(
+        "track",
+        "CompleteRegistration"
+      );
       setTimeout(() => router.push("/login?registrado=1"), 2000);
     } catch {
       setError("Error de conexión. Intenta nuevamente.");
