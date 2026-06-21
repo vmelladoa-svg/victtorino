@@ -166,6 +166,11 @@ export default async function ComerciantesAdminPage({ searchParams }: PageProps)
                   <span style={{ fontSize: "11px", color: "var(--ink-3)" }}>
                     {c.giro} · Registrado {formatFecha(c.createdAt)}
                   </span>
+                  {(c.comuna || c.region) && (
+                    <span style={{ fontSize: "11px", color: "var(--ink-3)" }}>
+                      {[c.comuna, c.region].filter(Boolean).join(", ")}
+                    </span>
+                  )}
                 </div>
                 <span style={{ fontSize: "13px", color: "var(--ink-2)", fontFamily: "var(--mono)", fontWeight: 600 }}>
                   {c.rutEmpresa}

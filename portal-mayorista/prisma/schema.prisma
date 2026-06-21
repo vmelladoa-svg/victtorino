@@ -30,6 +30,8 @@ model Comerciante {
   rutEmpresa String
   giro       String
   telefono   String
+  comuna     String?
+  region     String?
   estado     EstadoComerciante @default(pendiente)
   pedidos    Pedido[]
   createdAt  DateTime          @default(now())

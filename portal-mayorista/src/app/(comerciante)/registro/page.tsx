@@ -15,6 +15,8 @@ export default function RegistroPage() {
     claveConfirm: "",
     rutEmpresa: "",
     giro: "",
+    region: "",
+    comuna: "",
     telefono: "",
   });
   const [error, setError] = useState("");
@@ -22,6 +24,10 @@ export default function RegistroPage() {
   const [loading, setLoading] = useState(false);
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  }
+
+  function handleSelectChange(e: React.ChangeEvent<HTMLSelectElement>) {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   }
 
@@ -49,6 +55,8 @@ export default function RegistroPage() {
           clave: form.clave,
           rutEmpresa: form.rutEmpresa,
           giro: form.giro,
+          region: form.region,
+          comuna: form.comuna,
           telefono: form.telefono,
         }),
       });
@@ -158,6 +166,35 @@ export default function RegistroPage() {
                   <label style={styles.label} htmlFor="giro">Giro comercial</label>
                   <input id="giro" name="giro" type="text" required
                     placeholder="Comercio al por menor" value={form.giro} onChange={handleChange} style={styles.input} />
+                </div>
+
+                <div style={styles.field}>
+                  <label style={styles.label} htmlFor="region">Región</label>
+                  <select id="region" name="region" required value={form.region} onChange={handleSelectChange} style={styles.input}>
+                    <option value="">Selecciona tu región</option>
+                    <option value="Arica y Parinacota">Arica y Parinacota</option>
+                    <option value="Tarapacá">Tarapacá</option>
+                    <option value="Antofagasta">Antofagasta</option>
+                    <option value="Atacama">Atacama</option>
+                    <option value="Coquimbo">Coquimbo</option>
+                    <option value="Valparaíso">Valparaíso</option>
+                    <option value="Metropolitana">Metropolitana</option>
+                    <option value="O'Higgins">O'Higgins</option>
+                    <option value="Maule">Maule</option>
+                    <option value="Ñuble">Ñuble</option>
+                    <option value="Biobío">Biobío</option>
+                    <option value="La Araucanía">La Araucanía</option>
+                    <option value="Los Ríos">Los Ríos</option>
+                    <option value="Los Lagos">Los Lagos</option>
+                    <option value="Aysén">Aysén</option>
+                    <option value="Magallanes">Magallanes</option>
+                  </select>
+                </div>
+
+                <div style={styles.field}>
+                  <label style={styles.label} htmlFor="comuna">Comuna</label>
+                  <input id="comuna" name="comuna" type="text" required
+                    placeholder="Ej. La Cisterna" value={form.comuna} onChange={handleChange} style={styles.input} />
                 </div>
 
                 <div style={{ ...styles.field, gridColumn: "1 / -1" }}>

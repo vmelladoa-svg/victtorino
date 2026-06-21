@@ -5,7 +5,7 @@ import { avisarWhatsApp } from "@/lib/whatsapp";
 
 export async function POST(req: Request) {
   const b = await req.json();
-  for (const f of ["nombre", "email", "clave", "rutEmpresa", "giro", "telefono"])
+  for (const f of ["nombre", "email", "clave", "rutEmpresa", "giro", "region", "comuna", "telefono"])
     if (!b?.[f]) return NextResponse.json({ error: `Falta ${f}` }, { status: 400 });
 
   const email = String(b.email).toLowerCase();
@@ -19,6 +19,8 @@ export async function POST(req: Request) {
       clave: await bcrypt.hash(b.clave, 10),
       rutEmpresa: b.rutEmpresa,
       giro: b.giro,
+      region: b.region,
+      comuna: b.comuna,
       telefono: b.telefono,
     },
   });
