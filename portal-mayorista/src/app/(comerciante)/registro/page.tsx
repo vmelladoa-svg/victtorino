@@ -162,9 +162,9 @@ export default function RegistroPage() {
 
                 <div style={{ ...styles.field, gridColumn: "1 / -1" }}>
                   <label style={styles.label} htmlFor="telefono">
-                    Teléfono <span style={styles.optional}>(opcional)</span>
+                    Teléfono (WhatsApp)
                   </label>
-                  <input id="telefono" name="telefono" type="tel" autoComplete="tel"
+                  <input id="telefono" name="telefono" type="tel" autoComplete="tel" required
                     placeholder="+56 9 1234 5678" value={form.telefono} onChange={handleChange} style={styles.input} />
                 </div>
               </div>
