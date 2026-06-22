@@ -31,13 +31,18 @@ export function construirVentas({ ordenes, canal, codigosConocidos, cursorTs }) 
     if (!o.confirmada) continue;
     if (!(o.fecha > cursorTs)) continue;
     if (o.fecha > maxTs) maxTs = o.fecha;
+    // Agrega cantidad por código dentro de la orden (mismo SKU en 2 líneas = 1 movimiento sumado).
+    const porCodigo = new Map();
     for (const l of o.lineas || []) {
       if (!(l.qty > 0)) continue;
       if (l.sku && codigosConocidos.has(l.sku)) {
-        movimientos.push({ codigo: l.sku, tipo: "venta", cantidad: -l.qty, canal, ref: o.orderId });
+        porCodigo.set(l.sku, (porCodigo.get(l.sku) || 0) + l.qty);
       } else {
         saltados.push({ canal, orderId: o.orderId, sku: l.sku, qty: l.qty });
       }
+    }
+    for (const [codigo, qty] of porCodigo) {
+      movimientos.push({ codigo, tipo: "venta", cantidad: -qty, canal, ref: o.orderId });
     }
   }
   return { movimientos, saltados, maxTs };

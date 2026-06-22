@@ -86,3 +86,13 @@ test("construirVentas: sin órdenes nuevas, maxTs queda en el cursor", () => {
   assert.equal(r.maxTs, 1234);
   assert.equal(r.movimientos.length, 0);
 });
+
+test("construirVentas: mismo código en dos líneas de una orden se suma en un movimiento", () => {
+  const r = construirVentas({
+    ordenes: [ordenWeb(50, 2000, [{ sku: "A1", qty: 2 }, { sku: "A1", qty: 3 }])],
+    canal: "web", codigosConocidos: new Set(["A1"]), cursorTs: 0,
+  });
+  assert.equal(r.movimientos.length, 1);
+  assert.equal(r.movimientos[0].cantidad, -5);
+  assert.equal(r.movimientos[0].ref, "50");
+});

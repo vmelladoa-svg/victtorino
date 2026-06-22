@@ -13,6 +13,7 @@ const CURSOR_FILE = path.join(HERE, "erp-cursor.json");
 const NUCLEO_URL = process.env.ERP_NUCLEO_URL || "https://erp-nucleo.vercel.app";
 const NUCLEO_KEY = process.env.ERP_NUCLEO_KEY || "";
 const DRY = process.argv.includes("--dry");
+const OVERLAP_MS = 36 * 3600 * 1000; // re-escanea 36h: atrapa ventas que se confirman tarde (idempotencia dedupe)
 
 const log = (...a) => console.log(new Date().toLocaleTimeString("es-CL"), "[erp-ingesta]", ...a);
 
@@ -35,6 +36,7 @@ async function main() {
   const productos = await nucleo("GET", "/api/productos");
   const codigosConocidos = new Set(productos.map((p) => p.codigo));
   log("códigos conocidos en el núcleo:", codigosConocidos.size, DRY ? "(DRY)" : "");
+  if (codigosConocidos.size < 50) { console.error("[erp-ingesta] catálogo del núcleo sospechosamente chico (" + codigosConocidos.size + ") — abortando para no mandar todo a saltados"); process.exit(1); }
 
   const canales = {};
   try { canales.web = await ventasWeb(); } catch (e) { canales.web = null; log("Web falló:", e.message); }
@@ -43,14 +45,17 @@ async function main() {
   let totMov = 0, totSalt = 0;
   for (const [canal, ordenes] of Object.entries(canales)) {
     if (!ordenes) continue; // ese canal falló esta corrida
-    const cursorTs = cursor[canal] || 0;
+    if (cursor[canal] == null) { log(canal, "sin marca de agua sembrada — se omite (sembrar erp-cursor.json)"); continue; }
+    const base = cursor[canal];
+    const cursorTs = base - OVERLAP_MS; // C1: ventana solapada
     const { movimientos, saltados, maxTs } = construirVentas({ ordenes, canal, codigosConocidos, cursorTs });
     if (saltados.length) { totSalt += saltados.length; log(canal, "saltados (SKU sin mapear):", saltados.length, "→", saltados.slice(0, 5).map((s) => s.sku).join(", ")); }
     if (!movimientos.length) { log(canal, "sin ventas nuevas"); continue; }
     if (DRY) { log(canal, "DRY — mandaría", movimientos.length, "movimientos"); totMov += movimientos.length; continue; }
     try {
       const r = await nucleo("POST", "/api/movimientos", movimientos);
-      cursor[canal] = maxTs; guardarCursor(cursor); // avanza el cursor solo si el POST fue OK
+      cursor[canal] = Math.max(base, maxTs); // avanza solo hacia adelante (nunca retrocede por el solape)
+      guardarCursor(cursor);
       totMov += movimientos.length;
       log(canal, "enviado:", JSON.stringify(r), "cursor→", new Date(maxTs).toISOString());
     } catch (e) {
