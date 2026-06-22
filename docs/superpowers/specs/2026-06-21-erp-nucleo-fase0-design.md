@@ -15,6 +15,17 @@ como **saldo inicial (toma física) + compras − ventas de todos los canales**,
 vivo. Inventario On Line *pone* el saldo inicial; los canales *rebajan*; el stock
 vivo *vuelve* a Inventario On Line.
 
+**Ancla de verdad (aclaración de Victor):** hoy el sistema más confiable es la
+toma física con Inventario On Line — es lo más real posible — y con esa toma se
+*actualiza Defontana*. El ERP propio solo cambia el destino: la misma toma pasa a
+actualizar el **núcleo propio** en vez de Defontana. La toma física es el
+`saldo_inicial` del libro; desde ahí los canales rebajan.
+
+```
+  Hoy:     toma física (Inventario On Line) ──actualiza──▶ Defontana
+  Mañana:  toma física (Inventario On Line) ──actualiza──▶ núcleo propio ──▶ canales rebajan
+```
+
 Roadmap por fases (cada una se especifica e implementa por separado):
 
 - **Fase 0 — Núcleo** ← este documento.
