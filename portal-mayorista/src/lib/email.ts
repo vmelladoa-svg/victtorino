@@ -1,27 +1,29 @@
-import nodemailer from "nodemailer";
+// Envio de correos a comerciantes via Resend (API HTTP, sin SDK).
+// Remitente configurable por env para cambiar dominio/remitente sin tocar codigo.
+const apiKey = process.env.RESEND_API_KEY;
+// Hasta verificar comercialsolutions.cl en Resend, su dominio de prueba solo
+// entrega a tu propio correo. Con dominio verificado: "Comercial Solutions <pedidos@comercialsolutions.cl>".
+const from = process.env.MAIL_FROM ?? "Comercial Solutions <onboarding@resend.dev>";
 
-// Remitente configurable por env para poder cambiar de Gmail a buzon propio sin tocar codigo.
-// Gmail SMTP requiere "contrasena de aplicacion" (no la clave normal).
-const host = process.env.MAIL_HOST ?? "smtp.gmail.com";
-const port = Number(process.env.MAIL_PORT ?? 465);
-const user = process.env.MAIL_USER;
-const pass = process.env.MAIL_PASS;
-const from = process.env.MAIL_FROM ?? (user ? `Comercial Solutions <${user}>` : undefined);
-
-// ponytail: sin credenciales = no-op silencioso. El correo NUNCA debe romper el flujo del pedido.
+// ponytail: sin API key = no-op silencioso. El correo NUNCA debe romper el flujo del pedido.
 export async function enviarCorreo(to: string, asunto: string, html: string): Promise<boolean> {
-  if (!user || !pass) {
-    console.warn("[email] MAIL_USER/MAIL_PASS no configurados; se omite envio a", to);
+  if (!apiKey) {
+    console.warn("[email] RESEND_API_KEY no configurada; se omite envio a", to);
     return false;
   }
   try {
-    const t = nodemailer.createTransport({
-      host,
-      port,
-      secure: port === 465,
-      auth: { user, pass },
+    const res = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ from, to, subject: asunto, html }),
     });
-    await t.sendMail({ from, to, subject: asunto, html });
+    if (!res.ok) {
+      console.error("[email] Resend respondio", res.status, await res.text());
+      return false;
+    }
     return true;
   } catch (e) {
     console.error("[email] fallo enviando a", to, e);
