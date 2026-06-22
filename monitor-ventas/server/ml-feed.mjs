@@ -8,7 +8,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
-const ML = 'https://api.mercadolibre.com'
+export const ML = 'https://api.mercadolibre.com'
 
 // Carpeta de secretos (tokens + .env). Autocontenida: busca primero secrets/ del proyecto
 // (despliegue en el PC de bodega), luego la raíz del repo (desarrollo en el notebook).
@@ -31,7 +31,7 @@ function envSecreto(key, def = '') {
 const CLIENT_ID = envSecreto('ML_CLIENT_ID', '3959231945649654')
 const CLIENT_SECRET = envSecreto('ML_CLIENT_SECRET')
 
-const CUENTAS = [
+export const CUENTAS = [
   { nombre: 'C1 · PREMIUMGRIFERIAS1', file: 'tokens_cuenta1.json' },
   { nombre: 'C2 · VICTTORINOFICIAL2', file: 'tokens_cuenta2.json' },
   { nombre: 'C3 · NOVAGRIFERIAS3',    file: 'tokens_cuenta3.json' },
@@ -39,11 +39,11 @@ const CUENTAS = [
 
 const VENTANA_MS = 24 * 3600 * 1000 // solo lo de las últimas 24 h
 
-function cargarTok(file) {
+export function cargarTok(file) {
   return JSON.parse(fs.readFileSync(path.join(SECRETS, file), 'utf8'))
 }
 
-async function refrescar(tok, file) {
+export async function refrescar(tok, file) {
   const r = await fetch(`${ML}/oauth/token`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -61,7 +61,7 @@ async function refrescar(tok, file) {
 }
 
 // GET autenticado con auto-refresh ante 401.
-async function get(url, ctx) {
+export async function get(url, ctx) {
   let r = await fetch(url, { headers: { Authorization: 'Bearer ' + ctx.tok.access_token } })
   if (r.status === 401) {
     ctx.tok = await refrescar(ctx.tok, ctx.file)
