@@ -1,0 +1,14 @@
+{
+  "name": "erp-nucleo",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "db:init": "node scripts/init-db.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.0",
+    "@electric-sql/pglite": "^0.2.0"
+  }
+}
