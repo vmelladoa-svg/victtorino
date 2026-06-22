@@ -56,3 +56,6 @@ mail_config.json
 
 # Claude Code permisos personales (acceso servidor)
 .claude/settings.local.json
+
+# Respaldos logicos de la base (datos, no versionar)
+data/backups/
