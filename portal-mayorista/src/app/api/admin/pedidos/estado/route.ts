@@ -2,8 +2,13 @@ import { NextResponse } from "next/server";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { puedeTransicionar, EstadoPedido } from "@/lib/pedido-estado";
-import { puedeReservar } from "@/lib/reserva";
-import { enviarCorreo, tplPagoValidado, tplDespachado } from "@/lib/email";
+
+// Error de stock que aborta la transacción y se traduce a 409.
+class StockError extends Error {
+  constructor(public nombre: string, public solicitado: number) {
+    super("stock insuficiente");
+  }
+}
 
 export async function POST(req: Request) {
   const s = await auth();
@@ -23,12 +28,7 @@ export async function POST(req: Request) {
 
   const pedido = await prisma.pedido.findUnique({
     where: { id },
-    include: {
-      items: {
-        include: { producto: true },
-      },
-      comerciante: true,
-    },
+    include: { items: true },
   });
 
   if (!pedido)
@@ -36,78 +36,54 @@ export async function POST(req: Request) {
 
   if (!puedeTransicionar(pedido.estado as EstadoPedido, estadoDestino as EstadoPedido))
     return NextResponse.json(
-      {
-        error: "Transicion invalida: no se puede pasar de " + pedido.estado + " a " + estadoDestino,
-      },
+      { error: "Transicion invalida: no se puede pasar de " + pedido.estado + " a " + estadoDestino },
       { status: 400 },
     );
 
-  // Si la transicion es hacia "validado", verificar stock y reservar en la misma transaccion
-  if (estadoDestino === "validado") {
-    const sinStock: Array<{ nombre: string; disponible: number; solicitado: number }> = [];
+  const datosPedido = {
+    estado: estadoDestino as EstadoPedido,
+    ...(transportista !== undefined && { transportista }),
+    ...(tracking !== undefined && { tracking }),
+  };
 
-    for (const item of pedido.items) {
-      const p = item.producto;
-      const puedeRes = puedeReservar(p.stock, p.reservado, item.cantidad);
-      if (!puedeRes) {
-        const disponible = p.stock != null ? Math.max(0, p.stock - p.reservado) : 0;
-        sinStock.push({
-          nombre: p.nombre,
-          disponible,
-          solicitado: item.cantidad,
-        });
+  try {
+    await prisma.$transaction(async (tx) => {
+      // validado: reservar stock de forma atómica y condicional. El UPDATE solo
+      // afecta la fila si hay disponible (stock - reservado >= cantidad) o si
+      // stock es null (sin tope). Dos validaciones concurrentes no sobre-reservan.
+      if (estadoDestino === "validado") {
+        for (const item of pedido.items) {
+          const filas = await tx.$executeRaw`
+            UPDATE "Producto"
+            SET reservado = reservado + ${item.cantidad}
+            WHERE id = ${item.productoId}
+              AND (stock IS NULL OR stock - reservado >= ${item.cantidad})`;
+          if (filas === 0) {
+            const p = await tx.producto.findUnique({ where: { id: item.productoId } });
+            throw new StockError(p?.nombre ?? item.productoId, item.cantidad);
+          }
+        }
       }
-    }
 
-    if (sinStock.length > 0) {
+      // rechazar un pedido YA validado: liberar la reserva tomada.
+      if (estadoDestino === "rechazado" && pedido.estado === "validado") {
+        for (const item of pedido.items) {
+          await tx.producto.update({
+            where: { id: item.productoId },
+            data: { reservado: { decrement: item.cantidad } },
+          });
+        }
+      }
+
+      await tx.pedido.update({ where: { id }, data: datosPedido });
+    });
+  } catch (e) {
+    if (e instanceof StockError)
       return NextResponse.json(
-        {
-          error: "Stock insuficiente para validar el pago",
-          detalle: sinStock,
-        },
+        { error: `Stock insuficiente para "${e.nombre}" (solicitado ${e.solicitado})` },
         { status: 409 },
       );
-    }
-
-    // Ejecutar transicion y reservas en la misma transaccion Prisma
-    await prisma.$transaction([
-      prisma.pedido.update({
-        where: { id },
-        data: {
-          estado: estadoDestino as EstadoPedido,
-          ...(transportista !== undefined && { transportista }),
-          ...(tracking !== undefined && { tracking }),
-        },
-      }),
-      ...pedido.items.map((item) =>
-        prisma.producto.update({
-          where: { id: item.productoId },
-          data: { reservado: { increment: item.cantidad } },
-        }),
-      ),
-    ]);
-  } else {
-    await prisma.pedido.update({
-      where: { id },
-      data: {
-        estado: estadoDestino as EstadoPedido,
-        ...(transportista !== undefined && { transportista }),
-        ...(tracking !== undefined && { tracking }),
-      },
-    });
-  }
-
-  // Aviso por correo al comerciante (no bloquea ni rompe el flujo si falla)
-  const email = pedido.comerciante.email;
-  const nombre = pedido.comerciante.nombre;
-  if (estadoDestino === "validado") {
-    await enviarCorreo(email, "Pago confirmado — Comercial Solutions", tplPagoValidado(nombre, pedido.id, pedido.total));
-  } else if (estadoDestino === "despachado") {
-    await enviarCorreo(
-      email,
-      "Tu pedido fue despachado — Comercial Solutions",
-      tplDespachado(nombre, pedido.id, transportista ?? pedido.transportista, tracking ?? pedido.tracking),
-    );
+    throw e;
   }
 
   return NextResponse.json({ ok: true });

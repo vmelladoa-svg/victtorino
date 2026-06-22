@@ -25,50 +25,30 @@ export async function POST(req: Request) {
       { status: 400 },
     );
 
-  const numeroOc = `OC-${Date.now().toString(36).toUpperCase()}`;
+  // numeroOc único: timestamp + sufijo aleatorio (evita colisión por milisegundo,
+  // que con numeroOc @unique sería un error duro).
+  const numeroOc = `OC-${Date.now().toString(36).toUpperCase()}-${crypto.randomUUID().slice(0, 4).toUpperCase()}`;
 
-  // Leer los items con datos del producto para saber cuáles tienen stock null
+  // Leer los items con datos del producto (para las líneas de la OC)
   const items = await prisma.pedidoItem.findMany({
     where: { pedidoId },
     include: { producto: true },
   });
 
-  // Construir las operaciones de actualización de stock diferenciadas
-  const stockOps = items.map((it) => {
-    if (it.producto.stock !== null) {
-      // Tiene stock registrado: descontar stock y liberar reserva
-      return prisma.producto.update({
-        where: { id: it.productoId },
-        data: {
-          reservado: { decrement: it.cantidad },
-          stock: { decrement: it.cantidad },
-        },
-      });
-    } else {
-      // Sin stock registrado (null): solo liberar la reserva
-      return prisma.producto.update({
-        where: { id: it.productoId },
-        data: {
-          reservado: { decrement: it.cantidad },
-        },
-      });
+  await prisma.$transaction(async (tx) => {
+    await tx.oC.create({ data: { pedidoId, numeroOc, proveedor: "AlilaTop" } });
+    await tx.pedido.update({ where: { id: pedidoId }, data: { estado: "oc_generada" } });
+    // Liberar reserva y descontar stock en una sola sentencia por ítem, fresca
+    // contra la fila actual: si stock es null se mantiene null (sin tope);
+    // si es número se descuenta. Los CHECK de BD impiden quedar negativo.
+    for (const it of items) {
+      await tx.$executeRaw`
+        UPDATE "Producto"
+        SET reservado = reservado - ${it.cantidad},
+            stock = CASE WHEN stock IS NULL THEN stock ELSE stock - ${it.cantidad} END
+        WHERE id = ${it.productoId}`;
     }
   });
-
-  await prisma.$transaction([
-    prisma.oC.create({
-      data: {
-        pedidoId,
-        numeroOc,
-        proveedor: "AlilaTop",
-      },
-    }),
-    prisma.pedido.update({
-      where: { id: pedidoId },
-      data: { estado: "oc_generada" },
-    }),
-    ...stockOps,
-  ]);
 
   // Devolver el número de OC y el detalle de items para comprar en AlilaTop
   const lineasOc = items.map((it) => ({

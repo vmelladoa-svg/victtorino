@@ -8,4 +8,6 @@ describe("estados", () => {
   it("despacho tras OC", () => expect(puedeTransicionar("oc_generada","despachado")).toBe(true));
   it("entrega tras despacho", () => expect(puedeTransicionar("despachado","entregado")).toBe(true));
   it("no salta de validado a despachado", () => expect(puedeTransicionar("validado","despachado")).toBe(false));
+  it("se puede rechazar un pedido ya validado (libera reserva)", () => expect(puedeTransicionar("validado","rechazado")).toBe(true));
+  it("no se rechaza un pedido ya despachado", () => expect(puedeTransicionar("despachado","rechazado")).toBe(false));
 });

@@ -3,10 +3,19 @@
 Baja stock + info rica desde AlilaTop (backend uniCloud, solo lectura) y actualiza
 la base Neon del portal. Regla: producto SIN stock => activo=False (no se ofrece).
 Pensado para correr por Tarea Programada de Windows (diario).
-NO toca precios (los tramos vienen del costo en CLP del analisis, no del cgj crudo en RMB)."""
+
+REPRICEA a diario: recalcula los tramos T1/T2/T3 desde el costo real de AlilaTop
+(primer tramo de pf) por los margenes 40/35/30%. Si ajustas un precio a mano en el
+portal, este refresco lo revierte al dia siguiente (es el comportamiento buscado).
+
+Salvaguardas: (1) nunca baja stock por debajo de lo ya RESERVADO (respeta pedidos
+validados); (2) no desactiva productos con pedidos en curso; (3) si el scrape de
+AlilaTop viene vacio/parcial, aborta sin apagar el catalogo; (4) deja un respaldo
+CSV reversible antes del UPDATE masivo."""
 import alila_app_client as A
-import psycopg2, json, re, uuid
+import psycopg2, json, re, uuid, csv
 from pathlib import Path
+from datetime import datetime
 
 ROOT = Path(r"C:\Users\dell\victtorino")
 ENV = (ROOT / "portal-mayorista" / ".env").read_text(encoding="utf-8")
@@ -82,6 +91,12 @@ while True:
     if len(data) < lim: break
 print(f"Alila spkc (stock): {len(sk)} productos")
 
+# GUARD: si el scrape vino vacio o sospechosamente parcial, abortar SIN tocar la
+# base. Evita apagar medio catalogo por un timeout o una auth caida a mitad.
+MIN_SCRAPE = 500  # el catalogo real de AlilaTop son miles; <500 = scrape roto
+if len(alila) < MIN_SCRAPE or len(sk) < MIN_SCRAPE:
+    raise SystemExit(f"ABORTADO: scrape parcial (hjxq={len(alila)}, spkc={len(sk)} < {MIN_SCRAPE}). No se toca la base.")
+
 # helpers de campos ricos comunes a update e insert
 def campos_ricos(d, sd):
     stock = to_int(sd.get("zl_kc")) or 0
@@ -101,21 +116,45 @@ def campos_ricos(d, sd):
 
 # 2) actualizar productos del portal
 con = psycopg2.connect(DB_URL); cur = con.cursor()
-cur.execute('SELECT id, "codigoAlila" FROM "Producto"')
-prods = cur.fetchall()
+
+# Respaldo reversible: volcar estado actual antes del UPDATE masivo.
+cur.execute('SELECT id, "codigoAlila", stock, reservado, "precioT1", "precioT2", "precioT3", activo FROM "Producto"')
+filas_bak = cur.fetchall()
+bak = ROOT / "data" / "backups"; bak.mkdir(parents=True, exist_ok=True)
+bak_file = bak / f"productos_{datetime.now():%Y%m%d_%H%M%S}.csv"
+with open(bak_file, "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f); w.writerow(["id","codigoAlila","stock","reservado","precioT1","precioT2","precioT3","activo"]); w.writerows(filas_bak)
+print(f"Respaldo: {bak_file.name} ({len(filas_bak)} filas)")
+
+# Productos con pedidos en curso (validado / oc_generada): NO desactivar aunque
+# AlilaTop los reporte sin stock; hay compromisos abiertos sobre ellos.
+cur.execute('SELECT DISTINCT pi."productoId" FROM "PedidoItem" pi JOIN "Pedido" p ON p.id=pi."pedidoId" WHERE p.estado IN (%s,%s)', ("validado","oc_generada"))
+en_curso = {r[0] for r in cur.fetchall()}
+
+# Mapa id->reservado actual (para no bajar stock por debajo de lo reservado).
+cur.execute('SELECT id, reservado FROM "Producto"')
+reservado_de = {pid: r for pid, r in cur.fetchall()}
+
+prods = [(pid, cod) for pid, cod, *_ in filas_bak]
 en_portal = {cod for _, cod in prods}
-upd = act = inact = sin = 0
+upd = act = inact = sin = bajo_reserva = 0
 for pid, cod in prods:
     d = alila.get(cod)
     if not d:
         sin += 1
-        cur.execute('UPDATE "Producto" SET activo=false WHERE id=%s', (pid,))
-        inact += 1
+        # no apagar si tiene pedidos en curso
+        if pid not in en_curso:
+            cur.execute('UPDATE "Producto" SET activo=false WHERE id=%s', (pid,))
+            inact += 1
         continue
-    # stock real desde spkc (NO hjxq)
+    # stock real desde spkc (NO hjxq); nunca por debajo de lo reservado
     sd = sk.get(cod) or {}
     stock = to_int(sd.get("zl_kc")) or 0
-    activo = stock > 0
+    res = reservado_de.get(pid, 0)
+    if stock < res:
+        bajo_reserva += 1
+        stock = res  # respetar reservas ya tomadas (y el CHECK reservado<=stock)
+    activo = stock > 0 or pid in en_curso
     fotos = d.get("tp") or []
     foto1 = fotos[0] if fotos else None
     # reprice desde el costo real de AlilaTop (pf)
@@ -169,5 +208,7 @@ for cod, d in alila.items():
 con.commit()
 print(f"Portal: {len(prods)} productos | actualizados {upd} | sin match en Alila {sin}")
 print(f"ALTAS nuevas (demanda>={PISO_DEMANDA}+stock+costo): {nuevos}")
-print(f"ACTIVOS (con stock>0): {act} | inactivos (sin stock): {inact}")
+print(f"ACTIVOS (con stock>0 o en curso): {act} | inactivos (sin stock): {inact}")
+if bajo_reserva:
+    print(f"OJO: {bajo_reserva} productos con stock AlilaTop < reservado (se mantuvo el reservado)")
 cur.close(); con.close()

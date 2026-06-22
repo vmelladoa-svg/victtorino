@@ -4,7 +4,7 @@ import { prisma } from "@/lib/db";
 import AccionesPago from "./acciones";
 
 export const metadata = {
-  title: "Pagos por validar | Admin · Trade Global",
+  title: "Pagos por validar | Admin · Comercial Solutions",
 };
 
 function fmtClp(n: number) {

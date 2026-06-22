@@ -28,8 +28,30 @@ export default function AccionesGenerarOc({ pedidoId, folio, empresa }: Props) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [oc, setOc] = useState<OcGenerada | null>(null);
+  const [cancelando, setCancelando] = useState(false);
 
-  const disabled = isPending || loading;
+  const disabled = isPending || loading || cancelando;
+
+  async function cancelar() {
+    if (!confirm(`¿Cancelar el pedido ${folio} de ${empresa}?\n\nSe liberará el stock reservado. Úsalo si la transferencia no se concretó.`))
+      return;
+    setCancelando(true);
+    setError(null);
+    try {
+      const res = await fetch("/api/admin/pedidos/estado", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: pedidoId, a: "rechazado" }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.error ?? "Error al cancelar");
+      startTransition(() => router.refresh());
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : "Error inesperado");
+    } finally {
+      setCancelando(false);
+    }
+  }
 
   async function generarOc() {
     if (!confirm(`¿Generar OC para el pedido ${folio} de ${empresa}?\n\nSe creará la orden de compra a AlilaTop y se descontará el stock reservado.`))
@@ -146,29 +168,53 @@ export default function AccionesGenerarOc({ pedidoId, folio, empresa }: Props) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
-      <button
-        onClick={generarOc}
-        disabled={disabled}
-        style={{
-          display: "inline-flex",
-          alignItems: "center",
-          gap: "7px",
-          padding: "9px 18px",
-          borderRadius: "8px",
-          border: "none",
-          background: disabled ? "var(--ink-3)" : "var(--brand)",
-          color: "#fff",
-          fontWeight: 700,
-          fontSize: "13px",
-          cursor: disabled ? "not-allowed" : "pointer",
-          opacity: disabled ? 0.6 : 1,
-          fontFamily: "inherit",
-          transition: "background .15s, opacity .15s",
-        }}
-      >
-        {loading ? <SpinIcon /> : <PackageIcon />}
-        Generar OC a AlilaTop
-      </button>
+      <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+        <button
+          onClick={generarOc}
+          disabled={disabled}
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "7px",
+            padding: "9px 18px",
+            borderRadius: "8px",
+            border: "none",
+            background: disabled ? "var(--ink-3)" : "var(--brand)",
+            color: "#fff",
+            fontWeight: 700,
+            fontSize: "13px",
+            cursor: disabled ? "not-allowed" : "pointer",
+            opacity: disabled ? 0.6 : 1,
+            fontFamily: "inherit",
+            transition: "background .15s, opacity .15s",
+          }}
+        >
+          {loading ? <SpinIcon /> : <PackageIcon />}
+          Generar OC a AlilaTop
+        </button>
+        <button
+          onClick={cancelar}
+          disabled={disabled}
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "6px",
+            padding: "9px 16px",
+            borderRadius: "8px",
+            border: "1px solid var(--out)",
+            background: "var(--out-t)",
+            color: "var(--out)",
+            fontWeight: 700,
+            fontSize: "13px",
+            cursor: disabled ? "not-allowed" : "pointer",
+            opacity: disabled ? 0.6 : 1,
+            fontFamily: "inherit",
+          }}
+        >
+          {cancelando ? <SpinIcon /> : null}
+          Cancelar
+        </button>
+      </div>
       {error && (
         <span style={{
           fontSize: "11.5px",

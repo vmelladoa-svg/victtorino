@@ -57,13 +57,13 @@ export default function LoginPage({
           <div style={styles.logoWrap}>
             <Image
               src="/logo-clean.png"
-              alt="Trade Global Solutions"
+              alt="Comercial Solutions"
               width={42}
               height={42}
               style={styles.logoImg}
             />
             <div style={styles.logoText}>
-              <strong style={styles.logoStrong}>Trade Global</strong>
+              <strong style={styles.logoStrong}>Comercial Solutions</strong>
               <small style={styles.logoSmall}>Portal Mayorista</small>
             </div>
           </div>

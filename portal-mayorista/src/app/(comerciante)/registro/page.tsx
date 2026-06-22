@@ -4,6 +4,7 @@ import { useState, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import { REGIONES } from "@/lib/regiones";
 
 export default function RegistroPage() {
   const router = useRouter();
@@ -89,13 +90,13 @@ export default function RegistroPage() {
           <div style={styles.logoWrap}>
             <Image
               src="/logo-clean.png"
-              alt="Trade Global Solutions"
+              alt="Comercial Solutions"
               width={42}
               height={42}
               style={styles.logoImg}
             />
             <div style={styles.logoText}>
-              <strong style={styles.logoStrong}>Trade Global</strong>
+              <strong style={styles.logoStrong}>Comercial Solutions</strong>
               <small style={styles.logoSmall}>Portal Mayorista</small>
             </div>
           </div>
@@ -172,22 +173,9 @@ export default function RegistroPage() {
                   <label style={styles.label} htmlFor="region">Región</label>
                   <select id="region" name="region" required value={form.region} onChange={handleSelectChange} style={styles.input}>
                     <option value="">Selecciona tu región</option>
-                    <option value="Arica y Parinacota">Arica y Parinacota</option>
-                    <option value="Tarapacá">Tarapacá</option>
-                    <option value="Antofagasta">Antofagasta</option>
-                    <option value="Atacama">Atacama</option>
-                    <option value="Coquimbo">Coquimbo</option>
-                    <option value="Valparaíso">Valparaíso</option>
-                    <option value="Metropolitana">Metropolitana</option>
-                    <option value="O'Higgins">O'Higgins</option>
-                    <option value="Maule">Maule</option>
-                    <option value="Ñuble">Ñuble</option>
-                    <option value="Biobío">Biobío</option>
-                    <option value="La Araucanía">La Araucanía</option>
-                    <option value="Los Ríos">Los Ríos</option>
-                    <option value="Los Lagos">Los Lagos</option>
-                    <option value="Aysén">Aysén</option>
-                    <option value="Magallanes">Magallanes</option>
+                    {REGIONES.map((r) => (
+                      <option key={r} value={r}>{r}</option>
+                    ))}
                   </select>
                 </div>
 

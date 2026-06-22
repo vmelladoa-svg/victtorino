@@ -6,7 +6,7 @@ import CartBadge from "./cart-badge";
 import Image from "next/image";
 import Link from "next/link";
 
-export const metadata = { title: "Catálogo | Trade Global Mayorista" };
+export const metadata = { title: "Catálogo | Comercial Solutions Mayorista" };
 
 /* ------------------------------------------------------------------ */
 /*  Header del portal                                                    */
@@ -48,7 +48,7 @@ function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
           >
             <Image
               src="/logo-clean.png"
-              alt="Trade Global Solutions"
+              alt="Comercial Solutions"
               width={42}
               height={42}
               style={{ objectFit: "contain" }}
@@ -56,7 +56,7 @@ function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
           </div>
           <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.05 }}>
             <strong style={{ fontSize: 16, fontWeight: 800, color: "var(--ink)" }}>
-              Trade Global
+              Comercial Solutions
             </strong>
             <small style={{ fontSize: 11, color: "var(--ink-3)", fontWeight: 600 }}>
               Portal Mayorista
@@ -229,7 +229,7 @@ export default async function CatalogoPage() {
             {[
               { val: "16", label: "regiones con despacho" },
               { val: "24–48h", label: "validación de pago" },
-              { val: "100%", label: "stock garantizado" },
+              { val: "1 día", label: "reposición desde bodega" },
             ].map(({ val, label }) => (
               <div
                 key={label}

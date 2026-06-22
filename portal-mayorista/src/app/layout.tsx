@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portal Mayorista | Trade Global Solutions",
+  title: "Portal Mayorista | Comercial Solutions",
   description: "Portal de compras mayoristas B2B",
 };
 

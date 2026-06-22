@@ -7,7 +7,7 @@ import ExportarCsvBtn from "./exportar-csv";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Ventas / Historial | Admin · Trade Global",
+  title: "Ventas / Historial | Admin · Comercial Solutions",
 };
 
 /* ------------------------------------------------------------------ */
@@ -182,7 +182,7 @@ export default async function VentasAdminPage({ searchParams }: PageProps) {
 
   /* ---------- Datos para CSV (serializados) ---------- */
   const filasCsv = pedidos.map((p) => ({
-    folio: "#" + p.id.slice(-6).toUpperCase(),
+    folio: "#" + p.id.slice(0, 8).toUpperCase(),
     fecha: fmtFecha(p.createdAt),
     comerciante: p.comerciante.nombre,
     email: p.comerciante.email,
@@ -433,7 +433,7 @@ export default async function VentasAdminPage({ searchParams }: PageProps) {
 
             {/* Filas */}
             {pedidos.map((pedido) => {
-              const folio = "#" + pedido.id.slice(-6).toUpperCase();
+              const folio = "#" + pedido.id.slice(0, 8).toUpperCase();
               return (
                 <div
                   key={pedido.id}

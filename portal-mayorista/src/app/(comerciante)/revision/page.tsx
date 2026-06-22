@@ -1,7 +1,7 @@
 ﻿import Image from "next/image";
 import Link from "next/link";
 
-export const metadata = { title: "Cuenta en revision | Trade Global" };
+export const metadata = { title: "Cuenta en revision | Comercial Solutions" };
 
 export default function RevisionPage() {
   return (
@@ -10,13 +10,13 @@ export default function RevisionPage() {
         <div style={styles.logoWrap}>
           <Image
             src="/logo-clean.png"
-            alt="Trade Global Solutions"
+            alt="Comercial Solutions"
             width={52}
             height={52}
             style={styles.logoImg}
           />
           <div style={styles.logoText}>
-            <strong style={styles.logoStrong}>Trade Global</strong>
+            <strong style={styles.logoStrong}>Comercial Solutions</strong>
             <small style={styles.logoSmall}>Portal Mayorista</small>
           </div>
         </div>
@@ -37,8 +37,8 @@ export default function RevisionPage() {
           <span>
             El proceso de revisión toma entre 24 y 48 horas hábiles.
             Si tienes dudas, contactanos en{" "}
-            <a href="mailto:contacto@tradeglobalsolutions.cl" style={styles.emailLink}>
-              contacto@tradeglobalsolutions.cl
+            <a href="mailto:contacto@comercialsolutions.cl" style={styles.emailLink}>
+              contacto@comercialsolutions.cl
             </a>
           </span>
         </div>

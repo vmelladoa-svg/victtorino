@@ -1,30 +1,12 @@
 "use client";
 
-import { useState, useRef, useMemo } from "react";
+import { useState, useRef } from "react";
 import { useCart } from "@/lib/cart-context";
 import { precioPorCantidad } from "@/lib/precios";
+import { folio } from "@/lib/folio";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-
-/* ── Regiones de Chile ── */
-const REGIONES = [
-  "Región Metropolitana",
-  "Valparaíso",
-  "O'Higgins",
-  "Maule",
-  "Biobío",
-  "Araucanía",
-  "Los Ríos",
-  "Los Lagos",
-  "Aysén",
-  "Magallanes",
-  "Atacama",
-  "Coquimbo",
-  "Tarapacá",
-  "Antofagasta",
-  "Arica y Parinacota",
-  "Ñuble",
-];
+import { REGIONES } from "@/lib/regiones";
 
 /* ── Datos bancarios VERBATIM ── */
 const BANCO = {
@@ -141,7 +123,7 @@ export default function CheckoutPage() {
   const router = useRouter();
 
   const [step, setStep] = useState(1);
-  const [region, setRegion] = useState("Región Metropolitana");
+  const [region, setRegion] = useState("Metropolitana");
   const [direccion, setDireccion] = useState("");
   const [archivo, setArchivo] = useState<File | null>(null);
   const [comprobanteUrl, setComprobanteUrl] = useState<string | null>(null);
@@ -152,8 +134,6 @@ export default function CheckoutPage() {
   const [pedidoId, setPedidoId] = useState<string | null>(null);
   const [copiado, setCopiado] = useState<string>("");
   const fileRef = useRef<HTMLInputElement>(null);
-
-  const folio = useMemo(() => "TGS-" + Math.floor(100000 + Math.random() * 899999), []);
 
   // Si el carrito está vacío y no hay pedido confirmado, redirigir
   if (items.length === 0 && step < 3 && !pedidoId) {
@@ -341,7 +321,7 @@ export default function CheckoutPage() {
               </div>
 
               <p style={{ fontSize: 12, color: "var(--ink-3)", marginBottom: 14 }}>
-                Indica el folio <strong className="mono">{folio}</strong> en el detalle de la transferencia.
+                Indica tu <strong>RUT o razón social</strong> en el detalle de la transferencia y adjunta el comprobante aquí abajo.
               </p>
 
               {/* Subida comprobante */}
@@ -431,7 +411,7 @@ export default function CheckoutPage() {
               </div>
               <h2 style={{ fontSize: 24, fontWeight: 800, marginBottom: 12, color: "var(--ink)" }}>¡Pedido recibido!</h2>
               <p style={{ fontSize: 14.5, color: "var(--ink-2)", lineHeight: 1.6, marginBottom: 28 }}>
-                Tu pedido <strong className="mono">{folio}</strong> quedó en{" "}
+                Tu pedido <strong className="mono">{pedidoId ? folio(pedidoId) : ""}</strong> quedó en{" "}
                 <strong>validación de pago</strong>. Te avisaremos cuando confirmemos la transferencia y comencemos la preparación.
               </p>
 
@@ -481,7 +461,7 @@ export default function CheckoutPage() {
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 12, color: "var(--ink-3)" }}>
                 <ShieldIcon />
-                Folio <span className="mono">{folio}</span>
+                Validamos tu pago en 24–48h hábiles
               </div>
             </aside>
           )}

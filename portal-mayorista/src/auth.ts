@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/db";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
-  session: { strategy: "jwt" },
+  session: { strategy: "jwt", maxAge: 60 * 60 * 24 * 7 }, // 7 días
   providers: [
     Credentials({
       credentials: { email: {}, password: {} },
@@ -42,11 +42,21 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     }),
   ],
   callbacks: {
-    jwt({ token, user }) {
+    async jwt({ token, user }) {
       if (user) {
         (token as any).rol = (user as any).rol;
         (token as any).estado = (user as any).estado;
         (token as any).uid = (user as any).id;
+      }
+      // Revalidar el estado del comerciante contra la BD en cada request: si fue
+      // rechazado o eliminado, deja de operar SIN esperar a que cierre sesión.
+      // El admin es por env var, no toca BD.
+      if ((token as any).rol === "comerciante" && (token as any).uid) {
+        const c = await prisma.comerciante.findUnique({
+          where: { id: (token as any).uid },
+          select: { estado: true },
+        });
+        (token as any).estado = c ? c.estado : "eliminado";
       }
       return token;
     },

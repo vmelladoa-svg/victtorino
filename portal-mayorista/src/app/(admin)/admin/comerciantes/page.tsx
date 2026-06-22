@@ -5,7 +5,7 @@ import Link from "next/link";
 import AccionesComerciante from "./acciones";
 
 export const metadata = {
-  title: "Comerciantes | Admin · Trade Global",
+  title: "Comerciantes | Admin · Comercial Solutions",
 };
 
 const FILTROS = [

@@ -4,7 +4,10 @@ import { auth } from "@/auth";
 const OK = ["image/jpeg","image/png","image/webp","application/pdf"];
 
 export async function POST(req: Request) {
-  const s = await auth(); if (!s) return NextResponse.json({ error: "no auth" }, { status: 401 });
+  const s = await auth();
+  const u = s?.user as any;
+  if (!u || u.rol !== "comerciante" || u.estado !== "aprobado")
+    return NextResponse.json({ error: "no autorizado" }, { status: 403 });
   const form = await req.formData();
   const file = form.get("file") as File | null;
   if (!file) return NextResponse.json({ error: "Falta archivo" }, { status: 400 });

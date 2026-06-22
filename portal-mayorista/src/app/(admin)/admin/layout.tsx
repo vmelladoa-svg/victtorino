@@ -25,14 +25,14 @@ function AdminSidebar() {
         <span className="adm-logo">
           <Image
             src="/logo-clean.png"
-            alt="Trade Global"
+            alt="Comercial Solutions"
             width={38}
             height={38}
             style={{ borderRadius: "10px", objectFit: "contain" }}
           />
         </span>
         <span className="adm-brand-txt">
-          <strong>Trade Global</strong>
+          <strong>Comercial Solutions</strong>
           <small>Back-office</small>
         </span>
       </div>

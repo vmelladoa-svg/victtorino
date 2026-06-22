@@ -5,7 +5,7 @@ import AccionesGenerarOc from "./acciones";
 import AccionesDespacho from "./acciones-despacho";
 
 export const metadata = {
-  title: "Pedidos | Admin · Trade Global",
+  title: "Pedidos | Admin · Comercial Solutions",
 };
 
 function fmtClp(n: number) {

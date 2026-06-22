@@ -1,10 +1,12 @@
 ﻿import Link from "next/link";
+import { redirect } from "next/navigation";
+import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Resumen | Admin · Trade Global",
+  title: "Resumen | Admin · Comercial Solutions",
 };
 
 function fmtClp(n: number) {
@@ -98,6 +100,9 @@ function EstadoPill({ estado }: { estado: string }) {
 }
 
 export default async function AdminResumenPage() {
+  const s = await auth();
+  if ((s?.user as any)?.rol !== "admin") redirect("/login");
+
   const ahora = new Date();
   const inicioMes = new Date(ahora.getFullYear(), ahora.getMonth(), 1);
 

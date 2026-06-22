@@ -4,7 +4,7 @@ import { prisma } from "@/lib/db";
 import Link from "next/link";
 import Image from "next/image";
 
-export const metadata = { title: "Mis pedidos | Trade Global Mayorista" };
+export const metadata = { title: "Mis pedidos | Comercial Solutions Mayorista" };
 
 /* -- Types -- */
 type EstadoPedido =
@@ -479,11 +479,11 @@ export default async function MisPedidosPage() {
               width: 42, height: 42, borderRadius: "50%", overflow: "hidden",
               flexShrink: 0, display: "grid", placeItems: "center",
             }}>
-              <Image src="/logo-clean.png" alt="Trade Global Solutions" width={42} height={42}
+              <Image src="/logo-clean.png" alt="Comercial Solutions" width={42} height={42}
                 style={{ objectFit: "contain" }} />
             </div>
             <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.05 }}>
-              <strong style={{ fontSize: 16, fontWeight: 800, color: "var(--ink)" }}>Trade Global</strong>
+              <strong style={{ fontSize: 16, fontWeight: 800, color: "var(--ink)" }}>Comercial Solutions</strong>
               <small style={{ fontSize: 11, color: "var(--ink-3)", fontWeight: 600 }}>Solutions &middot; Mayorista</small>
             </div>
           </div>

@@ -21,8 +21,8 @@ export async function generateMetadata(props: {
   });
   return {
     title: prod
-      ? `${prod.nombre} | Trade Global Mayorista`
-      : "Producto | Trade Global Mayorista",
+      ? `${prod.nombre} | Comercial Solutions Mayorista`
+      : "Producto | Comercial Solutions Mayorista",
   };
 }
 
@@ -78,7 +78,7 @@ function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
           >
             <Image
               src="/logo-clean.png"
-              alt="Trade Global Solutions"
+              alt="Comercial Solutions"
               width={42}
               height={42}
               style={{ objectFit: "contain" }}
@@ -94,7 +94,7 @@ function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
             <strong
               style={{ fontSize: 16, fontWeight: 800, color: "var(--ink)" }}
             >
-              Trade Global
+              Comercial Solutions
             </strong>
             <small
               style={{ fontSize: 11, color: "var(--ink-3)", fontWeight: 600 }}

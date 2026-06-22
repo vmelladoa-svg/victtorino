@@ -19,7 +19,8 @@ interface AgregarDesdeDetalleProps {
 export default function AgregarDesdeDetalle({ prod }: AgregarDesdeDetalleProps) {
   const { addItem, items } = useCart();
   const enCarrito = items.find((i) => i.productoId === prod.id);
-  const sinStock = !prod.stock || prod.stock <= 0;
+  // stock null = sin tope (aún sin scraper); solo "sin stock" si es un número <= 0
+  const sinStock = prod.stock != null && prod.stock <= 0;
 
   function handleClick() {
     if (sinStock) return;
