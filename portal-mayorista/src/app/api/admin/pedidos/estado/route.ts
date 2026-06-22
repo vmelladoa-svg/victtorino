@@ -3,6 +3,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { puedeTransicionar, EstadoPedido } from "@/lib/pedido-estado";
 import { puedeReservar } from "@/lib/reserva";
+import { enviarCorreo, tplPagoValidado, tplDespachado } from "@/lib/email";
 
 export async function POST(req: Request) {
   const s = await auth();
@@ -94,6 +95,19 @@ export async function POST(req: Request) {
         ...(tracking !== undefined && { tracking }),
       },
     });
+  }
+
+  // Aviso por correo al comerciante (no bloquea ni rompe el flujo si falla)
+  const email = pedido.comerciante.email;
+  const nombre = pedido.comerciante.nombre;
+  if (estadoDestino === "validado") {
+    await enviarCorreo(email, "Pago confirmado — Comercial Solutions", tplPagoValidado(nombre, pedido.id, pedido.total));
+  } else if (estadoDestino === "despachado") {
+    await enviarCorreo(
+      email,
+      "Tu pedido fue despachado — Comercial Solutions",
+      tplDespachado(nombre, pedido.id, transportista ?? pedido.transportista, tracking ?? pedido.tracking),
+    );
   }
 
   return NextResponse.json({ ok: true });
