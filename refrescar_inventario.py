@@ -13,13 +13,17 @@ validados); (2) no desactiva productos con pedidos en curso; (3) si el scrape de
 AlilaTop viene vacio/parcial, aborta sin apagar el catalogo; (4) deja un respaldo
 CSV reversible antes del UPDATE masivo."""
 import alila_app_client as A
-import psycopg2, json, re, uuid, csv
+import psycopg2, json, re, uuid, csv, os
 from pathlib import Path
 from datetime import datetime
 
-ROOT = Path(r"C:\Users\dell\victtorino")
-ENV = (ROOT / "portal-mayorista" / ".env").read_text(encoding="utf-8")
-DB_URL = re.search(r'DATABASE_URL="([^"]+)"', ENV).group(1)
+# ROOT = carpeta del script (funciona en el PC y en GitHub Actions).
+ROOT = Path(__file__).resolve().parent
+# DATABASE_URL: variable de entorno (nube) o, si no, el .env local (PC).
+DB_URL = os.environ.get("DATABASE_URL")
+if not DB_URL:
+    ENV = (ROOT / "portal-mayorista" / ".env").read_text(encoding="utf-8")
+    DB_URL = re.search(r'DATABASE_URL="([^"]+)"', ENV).group(1)
 
 # alta automatica de productos nuevos: mismo bar que los 150 originales
 # (stock>0 + demanda historica zxl>=PISO + costo valido). Hoy => 6 candidatos.

@@ -1,0 +1,48 @@
+name: Refresco inventario Portal Mayorista
+
+# Corre en la nube (sin depender del PC). Respaldo + refresco diario del catálogo.
+on:
+  schedule:
+    # 10:45 UTC = 06:45 en Chile (UTC-4). GitHub usa UTC; en horario de verano
+    # chileno (UTC-3) caería 07:45 local — para un refresco diario da igual.
+    - cron: "45 10 * * *"
+  workflow_dispatch: {}   # permite correrlo a mano desde la pestaña Actions
+
+permissions:
+  contents: read
+
+concurrency:
+  group: refresco-inventario
+  cancel-in-progress: false
+
+jobs:
+  refresco:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install --quiet psycopg2-binary requests
+
+      - name: Respaldo de la base (antes del refresco)
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python backup_portal.py
+
+      - name: Refrescar catálogo desde AlilaTop
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python refrescar_inventario.py
+
+      - name: Guardar el respaldo como artefacto (90 días)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backup-portal-${{ github.run_id }}
+          path: data/backups/
+          retention-days: 90
+          if-no-files-found: ignore

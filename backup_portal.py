@@ -3,13 +3,17 @@
 Vuelca TODAS las tablas a JSON en data/backups/full_<timestamp>/. Independiente del
 plan de Neon: es la red de recuperacion si la base se vacia o se corrompe.
 Restaurar con restaurar_portal.py. Pensado para Tarea Programada de Windows (diario)."""
-import psycopg2, json, re, shutil
+import psycopg2, json, re, shutil, os
 from pathlib import Path
 from datetime import datetime, timezone
 
-ROOT = Path(r"C:\Users\dell\victtorino")
-ENV = (ROOT / "portal-mayorista" / ".env").read_text(encoding="utf-8")
-DB_URL = re.search(r'DATABASE_URL="([^"]+)"', ENV).group(1)
+# ROOT = carpeta del script (funciona en el PC y en GitHub Actions).
+ROOT = Path(__file__).resolve().parent
+# DATABASE_URL: variable de entorno (nube) o, si no, el .env local (PC).
+DB_URL = os.environ.get("DATABASE_URL")
+if not DB_URL:
+    ENV = (ROOT / "portal-mayorista" / ".env").read_text(encoding="utf-8")
+    DB_URL = re.search(r'DATABASE_URL="([^"]+)"', ENV).group(1)
 HOST = re.search(r'@([^/]+)/', DB_URL).group(1)
 
 # orden FK-seguro para volcar (padres primero); restaurar usa el mismo orden
