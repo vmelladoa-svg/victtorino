@@ -79,6 +79,20 @@ export default function AccionesGenerarOc({ pedidoId, folio, empresa }: Props) {
             OC generada: <span style={{ fontFamily: "var(--mono)" }}>{oc.numeroOc}</span>
           </strong>
         </div>
+        <div style={{
+          display: "flex", flexWrap: "wrap", alignItems: "center", gap: "10px",
+          padding: "8px 10px", marginBottom: "10px", background: "white",
+          borderRadius: "7px", border: "1px solid var(--line-2)", fontSize: "12px",
+        }}>
+          <strong style={{ color: "var(--ink)" }}>Enviar OC a AlilaTop:</strong>
+          <a href="mailto:alila_top@hotmail.com" style={{ color: "var(--brand)", fontWeight: 600, textDecoration: "none" }}>
+            alila_top@hotmail.com
+          </a>
+          <a href="https://wa.me/56961571597" target="_blank" rel="noopener noreferrer"
+            style={{ color: "#25D366", fontWeight: 700, textDecoration: "none" }}>
+            WhatsApp +56 9 6157 1597
+          </a>
+        </div>
         <p style={{ fontSize: "12px", color: "var(--ink-2)", margin: "0 0 8px" }}>
           Detalle para comprar en AlilaTop:
         </p>
