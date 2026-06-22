@@ -16,7 +16,7 @@
 - Auth: header `x-erp-key` debe igualar `process.env.ERP_KEY`. Sin login de usuarios.
 - El núcleo NO escribe stock hacia los canales en ninguna tarea de esta fase.
 - Idempotencia: ventas/compras se insertan con `ON CONFLICT (canal, ref, codigo) DO NOTHING`. Movimientos sin `ref` (saldo_inicial/ajuste manual) siempre se insertan.
-- Las pruebas corren contra una base de prueba real apuntada por `ERP_DB_URL` (una base Neon free desechable). Cada test resetea el esquema.
+- Las pruebas corren contra Postgres en proceso (PGlite, en memoria) sin setup externo; `db.js` usa Neon solo si `ERP_DB_URL` está definida (producción). Cada test resetea el esquema.
 
 ---
 
@@ -34,7 +34,8 @@
 - Test: `erp-nucleo/lib/db.test.js`
 
 **Interfaces:**
-- Produces: `query(text, params) -> Promise<{ rows, rowCount }>` (lib/db.js)
+- Produces: `query(text, params) -> Promise<{ rows }>` (lib/db.js)
+- Produces: `exec(sql) -> Promise<...>` (lib/db.js) — varias sentencias, sin params
 - Produces: `checkKey(req) -> boolean` (lib/auth.js)
 - Produces: `resetDb() -> Promise<void>` (lib/test-helpers.js)
 
@@ -51,7 +52,8 @@
     "test": "node --test"
   },
   "dependencies": {
-    "@neondatabase/serverless": "^0.10.0"
+    "@neondatabase/serverless": "^0.10.0",
+    "@electric-sql/pglite": "^0.2.0"
   }
 }
 ```
@@ -98,12 +100,27 @@ CREATE TABLE IF NOT EXISTS canal_map (
 - [ ] **Step 4: Crear `erp-nucleo/lib/db.js`**
 
 ```js
-// Conexión única a Postgres (Neon). Pool con API compatible pg.
-import { Pool } from '@neondatabase/serverless';
+// Driver de DB. Producción: Postgres serverless (Neon) si hay ERP_DB_URL.
+// Dev/tests: Postgres en proceso (PGlite, WASM) sin setup externo.
+// ponytail: dos implementaciones reales (serverless prod / in-process test),
+// no abstracción especulativa; elimina la dependencia externa del loop de dev.
+// Ambos drivers exponen lo mismo: query(text, params) -> {rows}, y exec(sql).
+let _query, _exec;
 
-const pool = new Pool({ connectionString: process.env.ERP_DB_URL });
+if (process.env.ERP_DB_URL) {
+  const { Pool } = await import('@neondatabase/serverless');
+  const pool = new Pool({ connectionString: process.env.ERP_DB_URL });
+  _query = (text, params) => pool.query(text, params);
+  _exec = (sql) => pool.query(sql); // simple query: admite varias sentencias
+} else {
+  const { PGlite } = await import('@electric-sql/pglite');
+  const db = new PGlite(); // en memoria
+  _query = (text, params) => db.query(text, params);
+  _exec = (sql) => db.exec(sql); // varias sentencias
+}
 
-export const query = (text, params) => pool.query(text, params);
+export const query = (text, params) => _query(text, params);
+export const exec = (sql) => _exec(sql);
 ```
 
 - [ ] **Step 5: Crear `erp-nucleo/lib/auth.js`**
@@ -119,28 +136,28 @@ export function checkKey(req) {
 - [ ] **Step 6: Crear `erp-nucleo/lib/test-helpers.js`**
 
 ```js
-// Resetea el esquema en la base de prueba (ERP_DB_URL). pg permite varias
-// sentencias en un query simple sin params, así corremos el schema completo.
+// Resetea el esquema en la base activa (PGlite en tests). exec() admite varias
+// sentencias, así corremos drops + schema completo de una.
 import { readFileSync } from 'node:fs';
-import { query } from './db.js';
+import { exec } from './db.js';
 
 const schema = readFileSync(new URL('./schema.sql', import.meta.url), 'utf8');
 
 export async function resetDb() {
-  await query('DROP TABLE IF EXISTS movimientos CASCADE; DROP TABLE IF EXISTS canal_map CASCADE; DROP TABLE IF EXISTS productos CASCADE;');
-  await query(schema);
+  await exec('DROP TABLE IF EXISTS movimientos CASCADE; DROP TABLE IF EXISTS canal_map CASCADE; DROP TABLE IF EXISTS productos CASCADE;');
+  await exec(schema);
 }
 ```
 
 - [ ] **Step 7: Crear `erp-nucleo/scripts/init-db.mjs`**
 
 ```js
-// Aplica el esquema a ERP_DB_URL. Idempotente (CREATE TABLE IF NOT EXISTS).
+// Aplica el esquema a la base activa (Neon si hay ERP_DB_URL). Idempotente.
 import { readFileSync } from 'node:fs';
-import { query } from '../lib/db.js';
+import { exec } from '../lib/db.js';
 
 const schema = readFileSync(new URL('../lib/schema.sql', import.meta.url), 'utf8');
-await query(schema);
+await exec(schema);
 console.log('esquema aplicado');
 process.exit(0);
 ```
@@ -188,8 +205,8 @@ test('las 3 tablas existen tras resetDb', async () => {
 
 - [ ] **Step 10: Instalar deps y correr los tests**
 
-Run: `cd erp-nucleo && npm install && ERP_DB_URL=<url-base-prueba> npm test`
-Expected: 3 tests PASS. (Requiere una base Neon de prueba; crear una free y exportar `ERP_DB_URL`.)
+Run: `cd erp-nucleo && npm install && npm test`
+Expected: 3 tests PASS. (Sin setup externo: los tests usan PGlite en memoria. Neon solo se necesita en la Task 5 para producción.)
 
 - [ ] **Step 11: Commit**
 
@@ -252,7 +269,7 @@ test('stockVivo incluye productos sin movimientos con stock 0', async () => {
 
 - [ ] **Step 2: Correr el test y verificar que falla**
 
-Run: `cd erp-nucleo && ERP_DB_URL=<url> node --test lib/stock.test.js`
+Run: `cd erp-nucleo && node --test lib/stock.test.js`
 Expected: FAIL ("Cannot find module './stock.js'").
 
 - [ ] **Step 3: Crear `erp-nucleo/lib/stock.js`**
@@ -283,7 +300,7 @@ export async function stockDe(query, codigo) {
 
 - [ ] **Step 4: Correr el test y verificar que pasa**
 
-Run: `cd erp-nucleo && ERP_DB_URL=<url> node --test lib/stock.test.js`
+Run: `cd erp-nucleo && node --test lib/stock.test.js`
 Expected: 3 tests PASS.
 
 - [ ] **Step 5: Crear el handler `erp-nucleo/api/stock.js`**
@@ -371,7 +388,7 @@ test('codigo inexistente lanza error 400', async () => {
 
 - [ ] **Step 2: Correr el test y verificar que falla**
 
-Run: `cd erp-nucleo && ERP_DB_URL=<url> node --test lib/movimientos.test.js`
+Run: `cd erp-nucleo && node --test lib/movimientos.test.js`
 Expected: FAIL ("Cannot find module './movimientos.js'").
 
 - [ ] **Step 3: Crear `erp-nucleo/lib/movimientos.js`**
@@ -388,12 +405,15 @@ export async function insertarMovimientos(query, movs) {
       e.status = 400;
       throw e;
     }
+    // RETURNING id + rows.length: funciona igual en pg (Neon) y PGlite,
+    // sin depender de rowCount/affectedRows (difieren entre drivers).
     const r = await query(
       `INSERT INTO movimientos (codigo, tipo, cantidad, canal, ref)
        VALUES ($1, $2, $3, $4, $5)
-       ON CONFLICT (canal, ref, codigo) DO NOTHING`,
+       ON CONFLICT (canal, ref, codigo) DO NOTHING
+       RETURNING id`,
       [m.codigo, m.tipo, m.cantidad, m.canal ?? null, m.ref ?? null]);
-    if (r.rowCount === 1) res.insertados++;
+    if (r.rows.length === 1) res.insertados++;
     else res.duplicados++;
   }
   return res;
@@ -402,7 +422,7 @@ export async function insertarMovimientos(query, movs) {
 
 - [ ] **Step 4: Correr el test y verificar que pasa**
 
-Run: `cd erp-nucleo && ERP_DB_URL=<url> node --test lib/movimientos.test.js`
+Run: `cd erp-nucleo && node --test lib/movimientos.test.js`
 Expected: 3 tests PASS.
 
 - [ ] **Step 5: Crear el handler `erp-nucleo/api/movimientos.js`**
@@ -482,7 +502,7 @@ test('importar hace upsert: re-importar el mismo codigo actualiza, no duplica', 
 
 - [ ] **Step 2: Correr el test y verificar que falla**
 
-Run: `cd erp-nucleo && ERP_DB_URL=<url> node --test lib/productos.test.js`
+Run: `cd erp-nucleo && node --test lib/productos.test.js`
 Expected: FAIL ("Cannot find module './productos.js'").
 
 - [ ] **Step 3: Crear `erp-nucleo/lib/productos.js`**
@@ -517,7 +537,7 @@ export async function importarProductos(query, filas) {
 
 - [ ] **Step 4: Correr el test y verificar que pasa**
 
-Run: `cd erp-nucleo && ERP_DB_URL=<url> node --test lib/productos.test.js`
+Run: `cd erp-nucleo && node --test lib/productos.test.js`
 Expected: 2 tests PASS.
 
 - [ ] **Step 5: Crear el handler `erp-nucleo/api/productos.js`** (GET lista, POST importa — un solo archivo)
@@ -546,7 +566,7 @@ export default async function handler(req, res) {
 
 - [ ] **Step 6: Correr toda la suite**
 
-Run: `cd erp-nucleo && ERP_DB_URL=<url> npm test`
+Run: `cd erp-nucleo && npm test`
 Expected: todos los tests de las 4 tareas PASS.
 
 - [ ] **Step 7: Commit**
