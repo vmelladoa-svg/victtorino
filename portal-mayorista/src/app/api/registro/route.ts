@@ -3,8 +3,12 @@ import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/db";
 import { avisarWhatsApp } from "@/lib/whatsapp";
 import { esEmail, esRut, texto } from "@/lib/validar";
+import { permitir, ipDe } from "@/lib/rate-limit";
 
 export async function POST(req: Request) {
+  if (!(await permitir(`registro:${ipDe(req)}`, 5, 60)))
+    return NextResponse.json({ error: "Demasiados registros. Intenta más tarde." }, { status: 429 });
+
   const b = await req.json().catch(() => null);
   if (!b) return NextResponse.json({ error: "Datos inválidos" }, { status: 400 });
 

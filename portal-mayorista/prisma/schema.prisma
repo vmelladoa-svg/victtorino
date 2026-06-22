@@ -91,6 +91,14 @@ model PedidoItem {
   subtotal       Int
 }
 
+// Contador de ventana fija para rate-limit de login/registro (store compartido en
+// vez de Upstash: reusa la base que ya existe). key = "login:<ip>" / "registro:<ip>".
+model RateLimit {
+  key     String   @id
+  count   Int      @default(0)
+  resetAt DateTime
+}
+
 model OC {
   id        String   @id @default(cuid())
   pedido    Pedido   @relation(fields: [pedidoId], references: [id])

@@ -2,13 +2,18 @@ import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/db";
+import { permitir, ipDe } from "@/lib/rate-limit";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   session: { strategy: "jwt", maxAge: 60 * 60 * 24 * 7 }, // 7 días
   providers: [
     Credentials({
       credentials: { email: {}, password: {} },
-      async authorize(c) {
+      async authorize(c, req) {
+        // Rate-limit por IP: frena fuerza bruta sobre login. Excedido = denegado
+        // (devuelve null, indistinguible de credenciales malas).
+        if (!(await permitir(`login:${ipDe(req as Request)}`, 10, 15))) return null;
+
         const email = String(c?.email ?? "").toLowerCase();
         const pass = String(c?.password ?? "");
 
