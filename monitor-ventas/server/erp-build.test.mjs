@@ -96,3 +96,10 @@ test("construirVentas: mismo código en dos líneas de una orden se suma en un m
   assert.equal(r.movimientos[0].cantidad, -5);
   assert.equal(r.movimientos[0].ref, "50");
 });
+
+test("normalizar quita el sufijo de proveedor (-T/-C) y deja el código base", () => {
+  const w = normalizarWeb([{ id: 1, date_created_gmt: "2026-06-20T10:00:00", line_items: [{ sku: "020101002-C", quantity: 1 }] }]);
+  assert.equal(w[0].lineas[0].sku, "020101002");
+  const m = normalizarML([{ id: 2, status: "paid", date_created: "2026-06-20T10:00:00.000-04:00", order_items: [{ item: { seller_sku: "020101003-T" }, quantity: 1 }] }]);
+  assert.equal(m[0].lineas[0].sku, "020101003");
+});

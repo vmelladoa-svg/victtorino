@@ -1,13 +1,18 @@
 // erp-build.mjs — Lógica pura de la ingesta de ventas al núcleo. Sin I/O.
 // Forma común "Orden": { orderId, fecha(ms), confirmada, lineas: [{sku, qty}] }.
 
+// El SKU de los canales es el código interno con sufijo de proveedor (-T Taumm / -C Carlos);
+// el stock es del MISMO producto, así que normalizamos al código base (lo previo al "-").
+// Un código base o calza con uno real del núcleo o no — nunca crea un match equivocado.
+const codigoBase = (sku) => String(sku || "").split("-")[0];
+
 // WooCommerce crudo -> Orden[]. El query ya filtra a confirmadas, así que confirmada=true.
 export function normalizarWeb(rawOrders) {
   return (rawOrders || []).map((o) => ({
     orderId: String(o.id),
     fecha: Date.parse((o.date_created_gmt ? o.date_created_gmt + "Z" : o.date_created)) || 0,
     confirmada: true,
-    lineas: (o.line_items || []).map((li) => ({ sku: String(li.sku || ""), qty: Number(li.quantity || 0) })),
+    lineas: (o.line_items || []).map((li) => ({ sku: codigoBase(li.sku), qty: Number(li.quantity || 0) })),
   }));
 }
 
@@ -17,7 +22,7 @@ export function normalizarML(rawOrders) {
     orderId: String(o.id),
     fecha: Date.parse(o.date_created) || 0,
     confirmada: o.status === "paid",
-    lineas: (o.order_items || []).map((oi) => ({ sku: String(oi.item?.seller_sku || ""), qty: Number(oi.quantity || 0) })),
+    lineas: (o.order_items || []).map((oi) => ({ sku: codigoBase(oi.item?.seller_sku), qty: Number(oi.quantity || 0) })),
   }));
 }
 
