@@ -42,7 +42,7 @@ Por cada producto del mayorista:
 _Para el panel admin "Compras a proveedor → generar OC"._
 - ✅ **Proveedor único = AlilaTop.** NO se compra a 1688 directo. La OC se genera para AlilaTop usando el código Alila (ej. 6002803).
 - ✅ **AlilaTop tiene stock LOCAL en Chile, ~1 día desde la compra** → lead time = 1 día (cumplimiento rápido, no importación). El link 1688 queda solo como referencia de origen.
-- [ ] Datos de contacto/pedido de AlilaTop (cómo se le envía la OC: ¿app, correo, WhatsApp?)
+- ✅ **Contacto AlilaTop para la OC:** correo **alila_top@hotmail.com** · WhatsApp **+56 9 6157 1597**. (Mostrado en el panel admin al generar OC, con link directo a WhatsApp.)
 
 ## 8. Reglas comerciales
 - [ ] Condición de pago: ¿transferencia adelantada o crédito a X días?
