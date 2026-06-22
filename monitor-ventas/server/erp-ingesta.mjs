@@ -38,7 +38,7 @@ async function main() {
 
   const canales = {};
   try { canales.web = await ventasWeb(); } catch (e) { canales.web = null; log("Web falló:", e.message); }
-  Object.assign(canales, await ventasML()); // ml1, ml2, ml3
+  try { Object.assign(canales, await ventasML()); } catch (e) { log("ventasML falló:", e.message); }
 
   let totMov = 0, totSalt = 0;
   for (const [canal, ordenes] of Object.entries(canales)) {
@@ -48,10 +48,14 @@ async function main() {
     if (saltados.length) { totSalt += saltados.length; log(canal, "saltados (SKU sin mapear):", saltados.length, "→", saltados.slice(0, 5).map((s) => s.sku).join(", ")); }
     if (!movimientos.length) { log(canal, "sin ventas nuevas"); continue; }
     if (DRY) { log(canal, "DRY — mandaría", movimientos.length, "movimientos"); totMov += movimientos.length; continue; }
-    const r = await nucleo("POST", "/api/movimientos", movimientos);
-    cursor[canal] = maxTs; guardarCursor(cursor); // avanza el cursor solo si el POST fue OK
-    totMov += movimientos.length;
-    log(canal, "enviado:", JSON.stringify(r), "cursor→", new Date(maxTs).toISOString());
+    try {
+      const r = await nucleo("POST", "/api/movimientos", movimientos);
+      cursor[canal] = maxTs; guardarCursor(cursor); // avanza el cursor solo si el POST fue OK
+      totMov += movimientos.length;
+      log(canal, "enviado:", JSON.stringify(r), "cursor→", new Date(maxTs).toISOString());
+    } catch (e) {
+      log(canal, "POST falló (se reintenta al próximo ciclo):", e.message);
+    }
   }
   log("listo. movimientos:", totMov, "saltados:", totSalt);
   process.exit(0);
