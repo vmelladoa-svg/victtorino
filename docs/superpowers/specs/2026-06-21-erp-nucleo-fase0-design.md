@@ -35,15 +35,23 @@ Roadmap por fases (cada una se especifica e implementa por separado):
 - Fase 4 — Compras / reposición (movimientos de entrada).
 - Fase 5 — Reportes / contabilidad.
 - Fase 6 — Facturación DTE por emisor externo.
+- Fase 7 — **Propagación de stock a los canales** (reemplaza la función central de
+  Defontana). Meta = reemplazo total. Pero se hace por **pilotos acotados, canal
+  por canal**: para cada canal, probar el push de stock con 1-2 SKU controlados,
+  verificar que llega correcto y que NO se dispara el falso "sin stock" (ML
+  cancela ventas), y solo entonces escalar ese canal. Nunca encender los 6 de
+  golpe. Va al final, después de que el libro esté probado y confiable.
 
 Decisión de ingesta (Fase 2): **(A) directo de cada canal** (ML×3, Web Woo,
 Falabella, París, Walmart, POS), reusando el bridge del Monitor KDS. Razón: la
 meta es soltar Defontana, y el Monitor ya tiene casi todo el trabajo hecho.
 
-Aviso permanente de seguridad: el núcleo **lee** ventas y rebaja stock; **no
-escribe stock hacia los canales**. Empujar stock a ML/Web es una fase futura
-opcional y con confirmación explícita (regla "PROHIBIDO tocar stock": ML cancela
-ventas por un falso "sin stock").
+Aviso permanente de seguridad: en Fases 0-6 el núcleo **lee** ventas y rebaja
+stock interno; **no escribe stock hacia los canales** (eso lo sigue haciendo
+Defontana, como hoy). El reemplazo total —el núcleo propagando stock él mismo— es
+la **Fase 7**, por pilotos acotados canal por canal (1-2 SKU antes de escalar
+cada uno), porque ML cancela ventas por un falso "sin stock" (regla "PROHIBIDO
+tocar stock").
 
 ---
 
@@ -210,7 +218,7 @@ desechable (`ERP_DB_URL` apuntando a un esquema temporal).
 - Núcleo = **proyecto/servicio independiente**, no dentro de Inventario On Line.
 - Almacenamiento: **Postgres (Neon)**, no KV.
 - DTE: **emisor externo por API**, no propio.
-- El núcleo **no escribe stock a los canales** (salvo fase futura opt-in).
+- Reemplazo total como meta; el núcleo propaga stock a los canales en la **Fase 7**, por pilotos acotados canal por canal. En Fases 0-6 no escribe stock a canales.
 
 ## Fuera de alcance explícito de la Fase 0
 
