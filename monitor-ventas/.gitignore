@@ -9,3 +9,7 @@ server/.fala-profile/
 
 # Secretos del monitor (NO commitear)
 secrets/
+
+# ERP ingesta — estado y logs
+server/erp-cursor.json
+server/erp_ingesta.log
