@@ -28,6 +28,8 @@ temp_fotos/
 *.png
 *.jpg
 *.jpeg
+# excepción: assets versionados del portal mayorista
+!portal-mayorista/public/banner/*.jpg
 
 # Archivos grandes de datos
 ml_ads_*.json

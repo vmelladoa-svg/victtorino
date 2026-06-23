@@ -96,59 +96,63 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
     setArrastrando(false);
   }
 
-  // ── Gestos del lightbox: pinch-to-zoom (2 dedos) + paneo (1 dedo) ──
+  // ── Gestos del lightbox: 1 dedo (toque) = zoom · 2 dedos = mover/pellizcar ──
   const pointers = useRef<Map<number, { x: number; y: number }>>(new Map());
-  const pinchRef = useRef<{ dist: number; scale: number } | null>(null);
-  const panRef = useRef<{ x: number; y: number; px: number; py: number } | null>(null);
-  const lastTap = useRef(0);
+  // base del gesto de 2 dedos: distancia (zoom) + centroide (paneo) al iniciar
+  const gestoBase = useRef<{ dist: number; scale: number; cx: number; cy: number; px: number; py: number } | null>(null);
+  // detección de toque simple: 1 dedo, sin arrastre y sin 2º dedo → alterna zoom
+  const tapRef = useRef<{ x: number; y: number; multi: boolean } | null>(null);
 
   function distPts() {
     const p = [...pointers.current.values()];
     return p.length < 2 ? 0 : Math.hypot(p[0].x - p[1].x, p[0].y - p[1].y);
   }
+  function centroide() {
+    const p = [...pointers.current.values()];
+    if (!p.length) return { x: 0, y: 0 };
+    return { x: p.reduce((a, b) => a + b.x, 0) / p.length, y: p.reduce((a, b) => a + b.y, 0) / p.length };
+  }
   function lbDown(e: React.PointerEvent<HTMLDivElement>) {
     e.stopPropagation();
     e.currentTarget.setPointerCapture?.(e.pointerId);
     pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
-    if (pointers.current.size === 2) {
-      pinchRef.current = { dist: distPts(), scale: escala };
-      panRef.current = null;
-    } else {
-      panRef.current = { x: e.clientX, y: e.clientY, px: pan.x, py: pan.y };
-      const now = Date.now();
-      if (now - lastTap.current < 300) {
-        // doble toque = zoom rápido
-        setEscala((s) => (s > 1 ? 1 : 2.5));
-        setPan({ x: 0, y: 0 });
-      }
-      lastTap.current = now;
+    const n = pointers.current.size;
+    if (n === 1) {
+      tapRef.current = { x: e.clientX, y: e.clientY, multi: false };
+    } else if (n >= 2) {
+      if (tapRef.current) tapRef.current.multi = true; // dejó de ser toque simple
+      const c = centroide();
+      gestoBase.current = { dist: distPts(), scale: escala, cx: c.x, cy: c.y, px: pan.x, py: pan.y };
     }
   }
   function lbMove(e: React.PointerEvent<HTMLDivElement>) {
     if (!pointers.current.has(e.pointerId)) return;
     pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
-    if (pointers.current.size >= 2 && pinchRef.current) {
+    // 2 dedos: mover (centroide) + pellizcar (distancia). 1 dedo: nada (solo toque).
+    if (pointers.current.size >= 2 && gestoBase.current) {
+      const b = gestoBase.current;
       const nd = distPts();
-      if (nd > 0) {
-        const s = Math.min(5, Math.max(1, pinchRef.current.scale * (nd / pinchRef.current.dist)));
-        setEscala(s);
-        if (s <= 1.01) setPan({ x: 0, y: 0 });
-      }
-    } else if (pointers.current.size === 1 && panRef.current && escala > 1) {
-      setPan({
-        x: panRef.current.px + (e.clientX - panRef.current.x),
-        y: panRef.current.py + (e.clientY - panRef.current.y),
-      });
+      const c = centroide();
+      const s = nd > 0 ? Math.min(5, Math.max(1, b.scale * (nd / b.dist))) : escala;
+      setEscala(s);
+      setPan({ x: b.px + (c.x - b.cx), y: b.py + (c.y - b.cy) });
     }
   }
   function lbUp(e: React.PointerEvent<HTMLDivElement>) {
+    const eraUltimo = pointers.current.size === 1; // este es el último dedo que se levanta
+    const tap = tapRef.current;
     pointers.current.delete(e.pointerId);
-    if (pointers.current.size < 2) pinchRef.current = null;
-    if (pointers.current.size === 1) {
-      const p = [...pointers.current.values()][0];
-      panRef.current = { x: p.x, y: p.y, px: pan.x, py: pan.y };
+    if (pointers.current.size < 2) gestoBase.current = null;
+    if (pointers.current.size === 0) {
+      // toque simple (sin 2º dedo, sin arrastre real) → alterna zoom
+      if (eraUltimo && tap && !tap.multi && Math.abs(e.clientX - tap.x) < 8 && Math.abs(e.clientY - tap.y) < 8) {
+        if (escala > 1) { setEscala(1); setPan({ x: 0, y: 0 }); }
+        else setEscala(2.5);
+      } else if (escala <= 1.01) {
+        setPan({ x: 0, y: 0 });
+      }
+      tapRef.current = null;
     }
-    if (pointers.current.size === 0 && escala <= 1.01) setPan({ x: 0, y: 0 });
   }
 
   const fotoZoom = fotos[indiceActivo];
@@ -293,13 +297,14 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
             ✕
           </button>
 
-          {/* Imagen: pellizca con 2 dedos para zoom, arrastra con 1 para mover, doble toque = zoom rápido */}
+          {/* Imagen: toca con 1 dedo para hacer zoom, mueve con 2 dedos (y pellizca para ajustar) */}
           <div
+            onClick={(e) => e.stopPropagation()}
             onPointerDown={lbDown}
             onPointerMove={lbMove}
             onPointerUp={lbUp}
             onPointerCancel={lbUp}
-            style={{ position: "relative", width: "92vw", height: "82vh", touchAction: "none", cursor: escala > 1 ? "grab" : "zoom-in" }}
+            style={{ position: "relative", width: "92vw", height: "82vh", touchAction: "none", cursor: escala > 1 ? "move" : "zoom-in" }}
           >
             <Image
               src={fotoZoom}

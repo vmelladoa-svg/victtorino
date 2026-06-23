@@ -74,7 +74,6 @@ export default async function CatalogoPage({
             {[
               { val: "16", label: "regiones con despacho" },
               { val: "24h", label: "validación de pago" },
-              { val: "1 día", label: "reposición desde bodega" },
             ].map(({ val, label }) => (
               <div key={label} style={{ display: "flex", flexDirection: "column" }}>
                 <strong className="mono" style={{ fontSize: 22, fontWeight: 800, color: "var(--brand-deep)" }}>

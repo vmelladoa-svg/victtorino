@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 /* ─────────────────────────────────────────────────────────────
    Carrusel promocional del catálogo — estética marketplace (3 láminas).
@@ -49,7 +50,7 @@ type Slide = {
   para: ReactNode;
   cta: { label: string; bg: string; color: string; glow: string; href: string };
   aside?: ReactNode; // texto/chip al lado del CTA
-  card: { bg: string; rotate: number; icon?: ReactNode };
+  card: { bg: string; rotate: number; icon?: ReactNode; foto?: string };
   badges: ReactNode; // badges/chips flotantes sobre la tarjeta (z-index alto)
 };
 
@@ -77,7 +78,7 @@ const SLIDES: Slide[] = [
         <Box c="#cfe0ff" s={18} /> +5.000 productos importados
       </span>
     ),
-    card: { bg: "linear-gradient(160deg,#fff,#e7eefc)", rotate: -4 },
+    card: { bg: "linear-gradient(160deg,#fff,#e7eefc)", rotate: -4, foto: "/banner/slide1.jpg" },
     badges: (
       <>
         <div style={{
@@ -118,7 +119,7 @@ const SLIDES: Slide[] = [
       </>
     ),
     cta: { label: "Calcular mi despacho", bg: "#143a72", color: "#fff", glow: "rgba(20,58,114,.3)", href: "/catalogo" },
-    card: { bg: "linear-gradient(160deg,#143a72,#1f539c)", rotate: 4, icon: <Truck c="#FFD400" s={120} /> },
+    card: { bg: "linear-gradient(160deg,#fff,#eaf0fb)", rotate: 4, foto: "/banner/slide2.jpg" },
     badges: (
       <div style={{
         position: "absolute", top: -22, right: -10, width: 104, height: 104, borderRadius: "50%",
@@ -152,7 +153,7 @@ const SLIDES: Slide[] = [
         <span className="pc-pulse" /> Stock actualizado hoy
       </span>
     ),
-    card: { bg: "linear-gradient(160deg,#fff,#e7f6ee)", rotate: 4 },
+    card: { bg: "linear-gradient(160deg,#fff,#e7f6ee)", rotate: 4, foto: "/banner/slide3.jpg" },
     badges: (
       <>
         <div style={{
@@ -290,7 +291,12 @@ export default function PromoCarousel() {
               <div className="pc-viscol">
                 <div className="pc-card" style={{ transform: `rotate(${s.card.rotate}deg)` }}>
                   <div className="pc-card-inner" style={{ background: s.card.bg }}>
-                    {s.card.icon ?? <Box c="rgba(20,58,114,.25)" s={64} />}
+                    {s.card.foto ? (
+                      <Image src={s.card.foto} alt="" fill sizes="300px"
+                        style={{ objectFit: "contain", padding: 10 }} unoptimized priority={idx === 0} />
+                    ) : (
+                      s.card.icon ?? <Box c="rgba(20,58,114,.25)" s={64} />
+                    )}
                   </div>
                   {s.badges}
                 </div>
