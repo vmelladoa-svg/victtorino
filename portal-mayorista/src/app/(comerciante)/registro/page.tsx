@@ -2,6 +2,7 @@
 
 import { useState, FormEvent } from "react";
 import { useRouter } from "next/navigation";
+import { signIn } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 import { REGIONES } from "@/lib/regiones";
@@ -75,7 +76,13 @@ export default function RegistroPage() {
         "track",
         "CompleteRegistration"
       );
-      setTimeout(() => router.push("/login?registrado=1"), 2000);
+      // Auto-login: el registro es el único paso, entra directo al catálogo.
+      await signIn("credentials", {
+        email: form.email,
+        password: form.clave,
+        redirect: false,
+      });
+      setTimeout(() => router.push("/catalogo"), 1200);
     } catch {
       setError("Error de conexión. Intenta nuevamente.");
     } finally {
@@ -136,7 +143,7 @@ export default function RegistroPage() {
           {success ? (
             <div style={styles.successBox}>
               <CheckIcon color="#1f9d57" />
-              <span>Tu cuenta fue creada. Quedará en revisión. Redirigiendo...</span>
+              <span>¡Cuenta creada y validada! Entrando al catálogo...</span>
             </div>
           ) : (
             <form onSubmit={handleSubmit} noValidate>

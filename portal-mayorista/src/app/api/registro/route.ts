@@ -34,10 +34,11 @@ export async function POST(req: Request) {
       region: texto(b.region, 60),
       comuna: texto(b.comuna, 60),
       telefono: texto(b.telefono, 30),
+      estado: "aprobado", // validación automática: el registro es el único formulario
     },
   });
 
-  await avisarWhatsApp(`Nuevo comerciante ${nombre} por aprobar.`);
+  await avisarWhatsApp(`Nuevo comerciante registrado: ${nombre} (acceso inmediato).`);
 
   return NextResponse.json({ ok: true });
 }
