@@ -97,6 +97,7 @@ function ProductCard({ prod }: { prod: ProductoRow }) {
                 position: "relative",
                 borderRadius: "var(--rs)",
                 overflow: "hidden",
+                background: "#fff",
               }}
             >
               <Image
@@ -104,7 +105,7 @@ function ProductCard({ prod }: { prod: ProductoRow }) {
                 alt={prod.nombre}
                 fill
                 sizes="(max-width: 720px) 50vw, (max-width: 1080px) 33vw, 25vw"
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "contain" }}
                 unoptimized
                 onError={() => setImgError(true)}
               />

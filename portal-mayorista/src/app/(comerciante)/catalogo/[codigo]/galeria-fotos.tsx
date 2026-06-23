@@ -25,7 +25,7 @@ export default function GaleriaFotos({ fotos, nombre }: GaleriaFotosProps) {
           borderRadius: "var(--radius)",
           overflow: "hidden",
           border: "1px solid var(--line)",
-          background: "#0e7cc414",
+          background: "#fff",
         }}
       >
         {fotoActiva && !tieneError ? (
@@ -100,7 +100,7 @@ export default function GaleriaFotos({ fotos, nombre }: GaleriaFotosProps) {
                   position: "relative",
                   borderRadius: 6,
                   overflow: "hidden",
-                  background: "#0e7cc414",
+                  background: "#fff",
                 }}
               >
                 {!imgError[i] ? (
@@ -109,7 +109,7 @@ export default function GaleriaFotos({ fotos, nombre }: GaleriaFotosProps) {
                     alt={`${nombre} — miniatura ${i + 1}`}
                     fill
                     sizes="80px"
-                    style={{ objectFit: "cover" }}
+                    style={{ objectFit: "contain" }}
                     unoptimized
                     onError={() =>
                       setImgError((prev) => ({ ...prev, [i]: true }))
