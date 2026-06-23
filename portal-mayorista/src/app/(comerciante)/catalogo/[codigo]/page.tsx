@@ -64,8 +64,8 @@ function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
           gap: 20,
         }}
       >
-        {/* Logo */}
-        <div style={{ display: "flex", alignItems: "center", gap: 11 }}>
+        {/* Logo (al inicio) */}
+        <Link href="/catalogo" style={{ display: "flex", alignItems: "center", gap: 11, textDecoration: "none" }}>
           <div
             style={{
               width: 42,
@@ -103,7 +103,7 @@ function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
               Portal Mayorista
             </small>
           </div>
-        </div>
+        </Link>
 
         {/* Spacer */}
         <div style={{ flex: 1 }} />
@@ -448,44 +448,6 @@ export default async function ProductoDetallePage(props: Props) {
                   stock: prod.stock,
                 }}
               />
-              <div className="pdp-buy-notes">
-                <span>
-                  <svg
-                    width={15}
-                    height={15}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.8}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    aria-hidden="true"
-                  >
-                    <rect x="1" y="3" width="15" height="13" />
-                    <path d="M16 8h4l3 5v3h-7V8z" />
-                    <circle cx="5.5" cy="18.5" r="2.5" />
-                    <circle cx="18.5" cy="18.5" r="2.5" />
-                  </svg>
-                  Despacho a todo Chile
-                </span>
-                <span>
-                  <svg
-                    width={15}
-                    height={15}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.8}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    aria-hidden="true"
-                  >
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M12 6v6l4 2" />
-                  </svg>
-                  Validación de pago en 24h
-                </span>
-              </div>
             </div>
           </div>
         </div>

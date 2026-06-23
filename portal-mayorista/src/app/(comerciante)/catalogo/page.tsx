@@ -34,8 +34,8 @@ function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
           gap: 20,
         }}
       >
-        {/* Logo */}
-        <div style={{ display: "flex", alignItems: "center", gap: 11 }}>
+        {/* Logo (al inicio) */}
+        <Link href="/catalogo" style={{ display: "flex", alignItems: "center", gap: 11, textDecoration: "none" }}>
           <div
             style={{
               width: 42,
@@ -63,7 +63,7 @@ function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
               Portal Mayorista
             </small>
           </div>
-        </div>
+        </Link>
 
         {/* Spacer */}
         <div style={{ flex: 1 }} />
