@@ -165,11 +165,8 @@ export default function GaleriaFotos({ fotos, nombre }: GaleriaFotosProps) {
               className={`pdp-thumb${i === indiceActivo ? " is-on" : ""}`}
               onClick={() => ir(i)}
               aria-label={`Ver foto ${i + 1}`}
-              style={{ width: 68, position: "relative", background: "none", border: i === indiceActivo ? "2px solid #0e7cc4" : "1px solid var(--line, #ddd)", borderRadius: 8, padding: 0, cursor: "pointer" }}
+              style={{ width: 68, background: "none", border: i === indiceActivo ? "2px solid #0e7cc4" : "1px solid var(--line, #ddd)", borderRadius: 8, padding: 0, cursor: "pointer" }}
             >
-              <span style={{ position: "absolute", top: 2, left: 2, zIndex: 1, background: "rgba(15,27,42,0.7)", color: "#fff", fontSize: 9, fontWeight: 700, lineHeight: 1, padding: "2px 4px", borderRadius: 4 }}>
-                {i + 1}
-              </span>
               <div style={{ width: "100%", height: 64, position: "relative", borderRadius: 6, overflow: "hidden", background: "#fff" }}>
                 {!imgError[i] ? (
                   <Image src={url} alt={`${nombre} — miniatura ${i + 1}`} fill sizes="80px" style={{ objectFit: "contain" }} unoptimized onError={() => setImgError((prev) => ({ ...prev, [i]: true }))} />
