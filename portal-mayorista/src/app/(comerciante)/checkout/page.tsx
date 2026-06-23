@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useCart } from "@/lib/cart-context";
 import { precioPorCantidad } from "@/lib/precios";
 import { folio } from "@/lib/folio";
@@ -124,7 +124,21 @@ export default function CheckoutPage() {
 
   const [step, setStep] = useState(1);
   const [region, setRegion] = useState("Metropolitana");
+  const [comuna, setComuna] = useState("");
   const [direccion, setDireccion] = useState("");
+  const [datosRegistro, setDatosRegistro] = useState(false);
+
+  // Pre-llenar región y comuna desde el registro (no re-pedir datos de envío).
+  useEffect(() => {
+    fetch("/api/perfil")
+      .then((r) => r.json())
+      .then((d: { region?: string; comuna?: string }) => {
+        if (d.region) setRegion(d.region);
+        if (d.comuna) setComuna(d.comuna);
+        if (d.region || d.comuna) setDatosRegistro(true);
+      })
+      .catch(() => {});
+  }, []);
   const [archivo, setArchivo] = useState<File | null>(null);
   const [comprobanteUrl, setComprobanteUrl] = useState<string | null>(null);
   const [subiendo, setSubiendo] = useState(false);
@@ -175,7 +189,7 @@ export default function CheckoutPage() {
     try {
       const body = {
         region,
-        direccion,
+        direccion: [direccion.trim(), comuna.trim()].filter(Boolean).join(", "),
         comprobanteUrl,
         items: items.map((i) => ({ productoId: i.productoId, cantidad: i.cantidad })),
       };
@@ -232,6 +246,11 @@ export default function CheckoutPage() {
               </h3>
 
               <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+                {datosRegistro && (
+                  <div style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 12.5, color: "var(--ink-2)", background: "var(--brand-tint)", border: "1px solid var(--brand-line)", borderRadius: "var(--rs)", padding: "9px 12px" }}>
+                    <CheckIcon size={14} /> Usamos los datos de tu registro. Solo confirma la dirección de entrega.
+                  </div>
+                )}
                 <label style={{ display: "flex", flexDirection: "column", gap: 6 }}>
                   <span style={{ fontSize: 13, fontWeight: 600, color: "var(--ink-2)" }}>Región de destino</span>
                   <select
@@ -243,6 +262,16 @@ export default function CheckoutPage() {
                       <option key={r} value={r}>{r}</option>
                     ))}
                   </select>
+                </label>
+                <label style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                  <span style={{ fontSize: 13, fontWeight: 600, color: "var(--ink-2)" }}>Comuna</span>
+                  <input
+                    type="text"
+                    value={comuna}
+                    onChange={(e) => setComuna(e.target.value)}
+                    placeholder="Ej: La Cisterna"
+                    style={{ padding: "10px 12px", border: "1px solid var(--line)", borderRadius: "var(--rs)", fontSize: 14, color: "var(--ink)", outline: "none" }}
+                  />
                 </label>
 
                 <label style={{ display: "flex", flexDirection: "column", gap: 6 }}>

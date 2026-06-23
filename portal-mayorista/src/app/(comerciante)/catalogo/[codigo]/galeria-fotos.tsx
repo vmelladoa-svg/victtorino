@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Image from "next/image";
 
 interface GaleriaFotosProps {
@@ -11,133 +11,237 @@ interface GaleriaFotosProps {
 export default function GaleriaFotos({ fotos, nombre }: GaleriaFotosProps) {
   const [indiceActivo, setIndiceActivo] = useState(0);
   const [imgError, setImgError] = useState<Record<number, boolean>>({});
+  const [dragPx, setDragPx] = useState(0);
+  const [arrastrando, setArrastrando] = useState(false);
 
-  const fotoActiva = fotos[indiceActivo];
-  const tieneError = imgError[indiceActivo];
+  // Lightbox / zoom
+  const [zoomOpen, setZoomOpen] = useState(false);
+  const [escala, setEscala] = useState(1);
+  const [pan, setPan] = useState({ x: 0, y: 0 });
+
+  const startX = useRef(0);
+  const vpW = useRef(1);
+  const moved = useRef(0);
+  const total = fotos.length;
+
+  function ir(ni: number) {
+    setIndiceActivo(Math.max(0, Math.min(total - 1, ni)));
+    setEscala(1);
+    setPan({ x: 0, y: 0 });
+  }
+
+  // ── Swipe del carrusel principal (sigue el dedo, snap, y tap => zoom) ──
+  function onDown(e: React.PointerEvent<HTMLDivElement>) {
+    startX.current = e.clientX;
+    vpW.current = e.currentTarget.offsetWidth || 1;
+    moved.current = 0;
+    setArrastrando(true);
+    e.currentTarget.setPointerCapture?.(e.pointerId);
+  }
+  function onMove(e: React.PointerEvent<HTMLDivElement>) {
+    if (!arrastrando || total < 2) return;
+    let dx = e.clientX - startX.current;
+    moved.current = Math.abs(dx);
+    if ((indiceActivo === 0 && dx > 0) || (indiceActivo === total - 1 && dx < 0)) dx *= 0.35;
+    setDragPx(dx);
+  }
+  function onUp(e: React.PointerEvent<HTMLDivElement>) {
+    if (!arrastrando) return;
+    const dx = e.clientX - startX.current;
+    // tap (sin arrastre real) => abrir zoom
+    if (Math.abs(dx) < 8) {
+      setZoomOpen(true);
+      setEscala(1);
+      setPan({ x: 0, y: 0 });
+    } else if (total > 1) {
+      const umbral = Math.min(60, vpW.current * 0.18);
+      if (dx < -umbral && indiceActivo < total - 1) setIndiceActivo(indiceActivo + 1);
+      else if (dx > umbral && indiceActivo > 0) setIndiceActivo(indiceActivo - 1);
+    }
+    setDragPx(0);
+    setArrastrando(false);
+  }
+
+  // ── Paneo dentro del lightbox cuando hay zoom ──
+  const panStart = useRef({ x: 0, y: 0, px: 0, py: 0 });
+  function lbDown(e: React.PointerEvent<HTMLDivElement>) {
+    if (escala === 1) return;
+    panStart.current = { x: e.clientX, y: e.clientY, px: pan.x, py: pan.y };
+    e.currentTarget.setPointerCapture?.(e.pointerId);
+  }
+  function lbMove(e: React.PointerEvent<HTMLDivElement>) {
+    if (escala === 1 || !e.buttons) return;
+    setPan({
+      x: panStart.current.px + (e.clientX - panStart.current.x),
+      y: panStart.current.py + (e.clientY - panStart.current.y),
+    });
+  }
+
+  const fotoZoom = fotos[indiceActivo];
 
   return (
     <div className="pdp-media">
-      {/* Foto principal */}
+      {/* Carrusel principal (deslizable + alto auto-ajustable) */}
       <div
+        onPointerDown={onDown}
+        onPointerMove={onMove}
+        onPointerUp={onUp}
+        onPointerCancel={onUp}
         style={{
-          height: 380,
+          height: "clamp(280px, 72vw, 420px)",
           position: "relative",
           borderRadius: "var(--radius)",
           overflow: "hidden",
           border: "1px solid var(--line)",
           background: "#fff",
+          touchAction: "pan-y",
+          cursor: arrastrando ? "grabbing" : "zoom-in",
+          userSelect: "none",
         }}
       >
-        {fotoActiva && !tieneError ? (
-          <Image
-            src={fotoActiva}
-            alt={`${nombre} — foto ${indiceActivo + 1}`}
-            fill
-            sizes="(max-width: 768px) 100vw, 50vw"
-            style={{ objectFit: "contain" }}
-            unoptimized
-            onError={() =>
-              setImgError((prev) => ({ ...prev, [indiceActivo]: true }))
-            }
-          />
-        ) : (
-          <div
+        <div
+          style={{
+            display: "flex",
+            width: "100%",
+            height: "100%",
+            transform: `translateX(calc(${-indiceActivo * 100}% + ${dragPx}px))`,
+            transition: arrastrando ? "none" : "transform 0.22s ease-out",
+          }}
+        >
+          {fotos.map((url, i) => (
+            <div key={i} style={{ flex: "0 0 100%", position: "relative", height: "100%" }}>
+              {!imgError[i] ? (
+                <Image
+                  src={url}
+                  alt={`${nombre} — foto ${i + 1}`}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  style={{ objectFit: "contain", pointerEvents: "none" }}
+                  draggable={false}
+                  unoptimized
+                  onError={() => setImgError((prev) => ({ ...prev, [i]: true }))}
+                />
+              ) : (
+                <div style={{ height: "100%", display: "grid", placeItems: "center" }}>
+                  <span style={{ fontFamily: "var(--mono)", fontSize: 10.5, fontWeight: 700, opacity: 0.55, color: "#0e7cc4" }}>
+                    sin foto
+                  </span>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* Contador numerado (estilo ML) */}
+        {total > 1 && (
+          <span
             style={{
-              height: "100%",
-              display: "grid",
-              placeItems: "center",
+              position: "absolute", top: 10, right: 10,
+              background: "rgba(15,27,42,0.72)", color: "#fff",
+              fontSize: 12, fontWeight: 700, padding: "3px 9px", borderRadius: 999,
+              fontFamily: "var(--mono)", pointerEvents: "none",
             }}
           >
-            <span
-              style={{
-                fontFamily: "var(--mono)",
-                fontSize: "10.5px",
-                fontWeight: 700,
-                opacity: 0.55,
-                letterSpacing: ".02em",
-                color: "#0e7cc4",
-              }}
-            >
-              sin foto
-            </span>
+            {indiceActivo + 1} / {total}
+          </span>
+        )}
+
+        {/* Puntos */}
+        {total > 1 && (
+          <div style={{ position: "absolute", bottom: 10, left: 0, right: 0, display: "flex", justifyContent: "center", gap: 6, pointerEvents: "none" }}>
+            {fotos.map((_, i) => (
+              <span key={i} style={{ width: i === indiceActivo ? 18 : 6, height: 6, borderRadius: 3, background: i === indiceActivo ? "#0e7cc4" : "rgba(15,27,42,0.22)", transition: "width 0.2s ease, background 0.2s ease" }} />
+            ))}
           </div>
         )}
       </div>
 
-      {/* Miniaturas — solo si hay más de 1 foto */}
-      {fotos.length > 1 && (
-        <div
-          className="pdp-thumbs"
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: 8,
-            marginTop: 10,
-          }}
-        >
+      {/* Miniaturas numeradas */}
+      {total > 1 && (
+        <div className="pdp-thumbs" style={{ display: "flex", flexWrap: "wrap", gap: 8, marginTop: 10 }}>
           {fotos.map((url, i) => (
             <button
               key={i}
               className={`pdp-thumb${i === indiceActivo ? " is-on" : ""}`}
-              onClick={() => setIndiceActivo(i)}
+              onClick={() => ir(i)}
               aria-label={`Ver foto ${i + 1}`}
-              style={{
-                width: 68,
-                background: "none",
-                border:
-                  i === indiceActivo
-                    ? "2px solid #0e7cc4"
-                    : "1px solid var(--line, #ddd)",
-                borderRadius: 8,
-                padding: 0,
-                cursor: "pointer",
-              }}
+              style={{ width: 68, position: "relative", background: "none", border: i === indiceActivo ? "2px solid #0e7cc4" : "1px solid var(--line, #ddd)", borderRadius: 8, padding: 0, cursor: "pointer" }}
             >
-              <div
-                style={{
-                  width: "100%",
-                  height: 64,
-                  position: "relative",
-                  borderRadius: 6,
-                  overflow: "hidden",
-                  background: "#fff",
-                }}
-              >
+              <span style={{ position: "absolute", top: 2, left: 2, zIndex: 1, background: "rgba(15,27,42,0.7)", color: "#fff", fontSize: 9, fontWeight: 700, lineHeight: 1, padding: "2px 4px", borderRadius: 4 }}>
+                {i + 1}
+              </span>
+              <div style={{ width: "100%", height: 64, position: "relative", borderRadius: 6, overflow: "hidden", background: "#fff" }}>
                 {!imgError[i] ? (
-                  <Image
-                    src={url}
-                    alt={`${nombre} — miniatura ${i + 1}`}
-                    fill
-                    sizes="80px"
-                    style={{ objectFit: "contain" }}
-                    unoptimized
-                    onError={() =>
-                      setImgError((prev) => ({ ...prev, [i]: true }))
-                    }
-                  />
+                  <Image src={url} alt={`${nombre} — miniatura ${i + 1}`} fill sizes="80px" style={{ objectFit: "contain" }} unoptimized onError={() => setImgError((prev) => ({ ...prev, [i]: true }))} />
                 ) : (
-                  <div
-                    style={{
-                      height: "100%",
-                      display: "grid",
-                      placeItems: "center",
-                    }}
-                  >
-                    <span
-                      style={{
-                        fontSize: 9,
-                        color: "#0e7cc4",
-                        opacity: 0.55,
-                        fontWeight: 700,
-                      }}
-                    >
-                      —
-                    </span>
+                  <div style={{ height: "100%", display: "grid", placeItems: "center" }}>
+                    <span style={{ fontSize: 9, color: "#0e7cc4", opacity: 0.55, fontWeight: 700 }}>—</span>
                   </div>
                 )}
               </div>
             </button>
           ))}
+        </div>
+      )}
+
+      {/* ── Lightbox con zoom ── */}
+      {zoomOpen && fotoZoom && (
+        <div
+          onClick={() => setZoomOpen(false)}
+          style={{ position: "fixed", inset: 0, zIndex: 1000, background: "rgba(8,14,22,0.94)", display: "grid", placeItems: "center", touchAction: "none" }}
+        >
+          {/* Contador */}
+          <span style={{ position: "absolute", top: 14, left: 16, color: "#fff", fontSize: 13, fontWeight: 700, fontFamily: "var(--mono)" }}>
+            {indiceActivo + 1} / {total}
+          </span>
+          {/* Cerrar */}
+          <button
+            onClick={(e) => { e.stopPropagation(); setZoomOpen(false); }}
+            aria-label="Cerrar"
+            style={{ position: "absolute", top: 10, right: 12, width: 38, height: 38, borderRadius: "50%", border: "none", background: "rgba(255,255,255,0.14)", color: "#fff", fontSize: 20, cursor: "pointer", lineHeight: 1 }}
+          >
+            ✕
+          </button>
+
+          {/* Imagen (tap = zoom, arrastre = paneo) */}
+          <div
+            onClick={(e) => { e.stopPropagation(); setEscala((s) => (s === 1 ? 2.4 : 1)); setPan({ x: 0, y: 0 }); }}
+            onPointerDown={lbDown}
+            onPointerMove={lbMove}
+            style={{ position: "relative", width: "92vw", height: "82vh", touchAction: "none", cursor: escala === 1 ? "zoom-in" : "grab" }}
+          >
+            <Image
+              src={fotoZoom}
+              alt={`${nombre} — foto ${indiceActivo + 1} ampliada`}
+              fill
+              sizes="92vw"
+              style={{ objectFit: "contain", transform: `translate(${pan.x}px, ${pan.y}px) scale(${escala})`, transition: "transform 0.18s ease-out", pointerEvents: "none" }}
+              draggable={false}
+              unoptimized
+            />
+          </div>
+
+          {/* Flechas prev/next */}
+          {total > 1 && (
+            <>
+              <button
+                onClick={(e) => { e.stopPropagation(); ir(indiceActivo - 1); }}
+                disabled={indiceActivo === 0}
+                aria-label="Anterior"
+                style={{ position: "absolute", left: 10, top: "50%", transform: "translateY(-50%)", width: 42, height: 42, borderRadius: "50%", border: "none", background: "rgba(255,255,255,0.14)", color: "#fff", fontSize: 22, cursor: "pointer", opacity: indiceActivo === 0 ? 0.3 : 1 }}
+              >
+                ‹
+              </button>
+              <button
+                onClick={(e) => { e.stopPropagation(); ir(indiceActivo + 1); }}
+                disabled={indiceActivo === total - 1}
+                aria-label="Siguiente"
+                style={{ position: "absolute", right: 10, top: "50%", transform: "translateY(-50%)", width: 42, height: 42, borderRadius: "50%", border: "none", background: "rgba(255,255,255,0.14)", color: "#fff", fontSize: 22, cursor: "pointer", opacity: indiceActivo === total - 1 ? 0.3 : 1 }}
+              >
+                ›
+              </button>
+            </>
+          )}
         </div>
       )}
     </div>
