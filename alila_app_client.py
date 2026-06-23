@@ -24,15 +24,24 @@ def sign(body):
     return hmac.new(SECRET.encode(), s.encode(), hashlib.md5).hexdigest()
 
 def call(method, params, with_token=True):
-    body = {"method": method, "params": params, "spaceId": SPACE, "timestamp": int(time.time() * 1000)}
-    if with_token and _token:
-        body["token"] = _token
-    headers = dict(H)
-    if with_token and _token:
-        headers["x-basement-token"] = _token
-    headers["x-serverless-sign"] = sign(body)
-    r = requests.post(URL, headers=headers, data=json.dumps(body, ensure_ascii=False).encode("utf-8"), timeout=30)
-    return r.json()
+    # ponytail: api.bspapp.com es lenta/intermitente; reintenta con backoff.
+    # Recalcula timestamp+firma en cada intento (la API valida la firma del body).
+    last = None
+    for intento in range(4):
+        body = {"method": method, "params": params, "spaceId": SPACE, "timestamp": int(time.time() * 1000)}
+        if with_token and _token:
+            body["token"] = _token
+        headers = dict(H)
+        if with_token and _token:
+            headers["x-basement-token"] = _token
+        headers["x-serverless-sign"] = sign(body)
+        try:
+            r = requests.post(URL, headers=headers, data=json.dumps(body, ensure_ascii=False).encode("utf-8"), timeout=60)
+            return r.json()
+        except requests.exceptions.RequestException as e:
+            last = e
+            time.sleep(2 * (intento + 1))
+    raise last
 
 def auth():
     global _token

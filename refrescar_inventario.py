@@ -14,6 +14,7 @@ AlilaTop viene vacio/parcial, aborta sin apagar el catalogo; (4) deja un respald
 CSV reversible antes del UPDATE masivo."""
 import alila_app_client as A
 import psycopg2, json, re, uuid, csv, os
+from traducir_cn import traducir
 from pathlib import Path
 from datetime import datetime
 
@@ -109,8 +110,8 @@ def campos_ricos(d, sd):
         "stock": stock, "activo": stock > 0,
         "fotos": d.get("tp") or [], "foto1": (d.get("tp") or [None])[0],
         "nombre": sin_chino(d.get("mc")), "cat": clean_cat(d.get("x_lm")),
-        "desc": sin_chino(d.get("sm")), "dim": clean(d.get("sp_cc")),
-        "emb": clean(d.get("bz_ss")), "kw": clean(d.get("ss_cy")), "narti": clean(d.get("hh")),
+        "desc": sin_chino(d.get("sm")), "dim": traducir(clean(d.get("sp_cc"))),
+        "emb": traducir(clean(d.get("bz_ss"))), "kw": clean(d.get("ss_cy")), "narti": clean(d.get("hh")),
         "codprov": clean(d.get("gys_hjh")), "unidcaja": to_int(d.get("zxs")), "linkml": clean(d.get("ml_lj")),
         "costo": costo,
         "t1": r100(costo*MARGEN[0]) if costo else None,
@@ -175,8 +176,8 @@ for pid, cod in prods:
         ' "codigoProveedor"=%s, "unidCaja"=COALESCE(%s,"unidCaja"), "linkML"=%s,'
         ' costo=COALESCE(%s,costo), "precioT1"=COALESCE(%s,"precioT1"),'
         ' "precioT2"=COALESCE(%s,"precioT2"), "precioT3"=COALESCE(%s,"precioT3") WHERE id=%s',
-        (stock, activo, fotos, foto1, nombre, cat, sin_chino(d.get("sm")), clean(d.get("sp_cc")),
-         clean(d.get("bz_ss")), clean(d.get("ss_cy")), clean(d.get("hh")),
+        (stock, activo, fotos, foto1, nombre, cat, sin_chino(d.get("sm")), traducir(clean(d.get("sp_cc"))),
+         traducir(clean(d.get("bz_ss"))), clean(d.get("ss_cy")), clean(d.get("hh")),
          clean(d.get("gys_hjh")), to_int(d.get("zxs")), clean(d.get("ml_lj")),
          costo, t1, t2, t3, pid))
     upd += 1
