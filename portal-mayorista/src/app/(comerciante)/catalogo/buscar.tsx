@@ -236,11 +236,14 @@ function groupOf(categoria: string | null): string {
 export default function BuscarCatalogo({
   productos,
   categorias,
+  initialQuery = "",
 }: {
   productos: ProductoRow[];
   categorias: string[];
+  initialQuery?: string;
 }) {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(initialQuery);
+  useEffect(() => setQuery(initialQuery), [initialQuery]); // búsqueda desde el header (URL ?q)
   const [group, setGroup] = useState("todas"); // nivel 1: grupo
   const [subcat, setSubcat] = useState(""); // nivel 2: categoría principal real ("" = todo el grupo)
   const [pagina, setPagina] = useState(1);
@@ -343,20 +346,6 @@ export default function BuscarCatalogo({
           flexWrap: "wrap",
         }}
       >
-        {/* Input búsqueda */}
-        <div
-          className="hdr-search"
-          style={{ flex: "1 1 260px", maxWidth: 480 }}
-        >
-          <SearchIcon />
-          <input
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Buscar por nombre, SKU o categoría…"
-          />
-        </div>
-
         {/* Select jerárquico: 9 grupos con sus categorías (optgroups) */}
         <div
           className="cat-sort"

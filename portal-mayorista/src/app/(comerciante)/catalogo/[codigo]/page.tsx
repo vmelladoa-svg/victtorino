@@ -4,8 +4,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
-import CartBadge from "../cart-badge";
-import FavoritosLink from "../favoritos-link";
+import PortalHeader from "../portal-header";
 import AgregarDesdeDetalle from "./agregar-desde-detalle";
 import GaleriaFotos from "./galeria-fotos";
 
@@ -37,111 +36,6 @@ function clp(n: number | null | undefined): string {
     currency: "CLP",
     minimumFractionDigits: 0,
   }).format(n);
-}
-
-/* ------------------------------------------------------------------ */
-/*  Header del portal (mismo estilo que catalogo/page.tsx)             */
-/* ------------------------------------------------------------------ */
-function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
-  return (
-    <header
-      style={{
-        position: "sticky",
-        top: 0,
-        zIndex: 40,
-        background: "rgba(255,255,255,0.96)",
-        backdropFilter: "blur(10px)",
-        borderBottom: "1px solid var(--line)",
-      }}
-    >
-      <div
-        style={{
-          maxWidth: 1240,
-          margin: "0 auto",
-          padding: "13px 26px",
-          display: "flex",
-          alignItems: "center",
-          gap: 20,
-        }}
-      >
-        {/* Logo (al inicio) */}
-        <Link href="/catalogo" style={{ display: "flex", alignItems: "center", gap: 11, textDecoration: "none" }}>
-          <div
-            style={{
-              width: 42,
-              height: 42,
-              borderRadius: "50%",
-              overflow: "hidden",
-              flexShrink: 0,
-              display: "grid",
-              placeItems: "center",
-            }}
-          >
-            <Image
-              src="/logo-clean.png"
-              alt="Comercial Solutions"
-              width={42}
-              height={42}
-              style={{ objectFit: "contain" }}
-            />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              lineHeight: 1.05,
-            }}
-          >
-            <strong
-              style={{ fontSize: 16, fontWeight: 800, color: "var(--ink)" }}
-            >
-              Comercial Solutions
-            </strong>
-            <small
-              style={{ fontSize: 11, color: "var(--ink-3)", fontWeight: 600 }}
-            >
-              Portal Mayorista
-            </small>
-          </div>
-        </Link>
-
-        {/* Spacer */}
-        <div style={{ flex: 1 }} />
-
-        {/* Favoritos + Carrito */}
-        <FavoritosLink />
-        <CartBadge />
-
-        {/* Usuario + cerrar sesión */}
-        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          {nombre && (
-            <span
-              style={{ fontSize: 13.5, fontWeight: 600, color: "var(--ink-2)" }}
-            >
-              {nombre}
-            </span>
-          )}
-          <Link
-            href="/api/auth/signout"
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 6,
-              padding: "8px 14px",
-              border: "1px solid var(--line)",
-              borderRadius: "var(--rs)",
-              fontSize: 13,
-              fontWeight: 600,
-              color: "var(--ink-2)",
-              textDecoration: "none",
-            }}
-          >
-            Cerrar sesión
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
 }
 
 /* ------------------------------------------------------------------ */
