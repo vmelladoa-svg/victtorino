@@ -1,6 +1,7 @@
 import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import { imgSrc } from "@/lib/img";
 import type { Metadata } from "next";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
@@ -62,7 +63,7 @@ function FotoPrincipal({
       >
         {fotoUrl ? (
           <Image
-            src={fotoUrl}
+            src={imgSrc(fotoUrl)}
             alt={nombre}
             fill
             sizes="(max-width: 768px) 100vw, 50vw"

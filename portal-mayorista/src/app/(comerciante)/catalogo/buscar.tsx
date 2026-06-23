@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect, useRef } from "react";
 import Image from "next/image";
+import { imgSrc } from "@/lib/img";
 import Link from "next/link";
 import AgregarAlCarrito from "./agregar";
 import { GRUPOS, OTROS, nivel1, grupoDe } from "@/lib/categorias";
@@ -101,7 +102,7 @@ export function ProductCard({ prod }: { prod: ProductoRow }) {
               }}
             >
               <Image
-                src={prod.fotoUrl}
+                src={imgSrc(prod.fotoUrl)}
                 alt={prod.nombre}
                 fill
                 sizes="(max-width: 720px) 50vw, (max-width: 1080px) 33vw, 25vw"

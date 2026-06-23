@@ -2,6 +2,7 @@
 
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
+import { imgSrc } from "@/lib/img";
 
 interface GaleriaFotosProps {
   fotos: string[];
@@ -199,7 +200,7 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
             <div key={i} style={{ flex: "0 0 100%", position: "relative", height: "100%" }}>
               {!imgError[i] ? (
                 <Image
-                  src={url}
+                  src={imgSrc(url)}
                   alt={`${nombre} — foto ${i + 1}`}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -274,7 +275,7 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
             >
               <div style={{ width: "100%", height: 64, position: "relative", borderRadius: 6, overflow: "hidden", background: "#fff" }}>
                 {!imgError[i] ? (
-                  <Image src={url} alt={`${nombre} — miniatura ${i + 1}`} fill sizes="80px" style={{ objectFit: "contain" }} onError={() => setImgError((prev) => ({ ...prev, [i]: true }))} />
+                  <Image src={imgSrc(url)} alt={`${nombre} — miniatura ${i + 1}`} fill sizes="80px" style={{ objectFit: "contain" }} onError={() => setImgError((prev) => ({ ...prev, [i]: true }))} />
                 ) : (
                   <div style={{ height: "100%", display: "grid", placeItems: "center" }}>
                     <span style={{ fontSize: 9, color: "#0e7cc4", opacity: 0.55, fontWeight: 700 }}>—</span>
@@ -315,7 +316,7 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
             style={{ position: "relative", width: "92vw", height: "82vh", touchAction: "none", cursor: escala > 1 ? "move" : "zoom-in" }}
           >
             <Image
-              src={fotoZoom}
+              src={imgSrc(fotoZoom)}
               alt={`${nombre} — foto ${indiceActivo + 1} ampliada`}
               fill
               sizes="92vw"
