@@ -1,14 +1,17 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 
 interface GaleriaFotosProps {
   fotos: string[];
   nombre: string;
+  productoId: string;
+  shareUrl: string;
+  shareText: string;
 }
 
-export default function GaleriaFotos({ fotos, nombre }: GaleriaFotosProps) {
+export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shareText }: GaleriaFotosProps) {
   const [indiceActivo, setIndiceActivo] = useState(0);
   const [imgError, setImgError] = useState<Record<number, boolean>>({});
   const [dragPx, setDragPx] = useState(0);
@@ -23,6 +26,38 @@ export default function GaleriaFotos({ fotos, nombre }: GaleriaFotosProps) {
   const vpW = useRef(1);
   const moved = useRef(0);
   const total = fotos.length;
+
+  // Favoritos (en este dispositivo, localStorage)
+  const [fav, setFav] = useState(false);
+  useEffect(() => {
+    try {
+      const favs: string[] = JSON.parse(localStorage.getItem("favoritos") || "[]");
+      setFav(favs.includes(productoId));
+    } catch {}
+  }, [productoId]);
+  function toggleFav(e: React.MouseEvent) {
+    e.stopPropagation();
+    try {
+      const favs: string[] = JSON.parse(localStorage.getItem("favoritos") || "[]");
+      const next = favs.includes(productoId)
+        ? favs.filter((x) => x !== productoId)
+        : [...favs, productoId];
+      localStorage.setItem("favoritos", JSON.stringify(next));
+      setFav(next.includes(productoId));
+    } catch {}
+  }
+  function compartir(e: React.MouseEvent) {
+    e.stopPropagation();
+    const data = { title: nombre, text: shareText, url: shareUrl };
+    const nav = navigator as Navigator & { share?: (d: ShareData) => Promise<void> };
+    if (nav.share) nav.share(data).catch(() => {});
+    else window.open(`https://wa.me/?text=${encodeURIComponent(shareText + "\n" + shareUrl)}`, "_blank");
+  }
+  const iconBtn: React.CSSProperties = {
+    width: 36, height: 36, borderRadius: "50%", border: "none",
+    background: "rgba(255,255,255,0.92)", boxShadow: "0 2px 6px rgba(0,0,0,0.18)",
+    cursor: "pointer", display: "grid", placeItems: "center", padding: 0,
+  };
 
   function ir(ni: number) {
     setIndiceActivo(Math.max(0, Math.min(total - 1, ni)));
@@ -132,11 +167,11 @@ export default function GaleriaFotos({ fotos, nombre }: GaleriaFotosProps) {
           ))}
         </div>
 
-        {/* Contador numerado (estilo ML) */}
+        {/* Contador de fotos (arriba izquierda) */}
         {total > 1 && (
           <span
             style={{
-              position: "absolute", top: 10, right: 10,
+              position: "absolute", top: 10, left: 10,
               background: "rgba(15,27,42,0.72)", color: "#fff",
               fontSize: 12, fontWeight: 700, padding: "3px 9px", borderRadius: 999,
               fontFamily: "var(--mono)", pointerEvents: "none",
@@ -145,6 +180,25 @@ export default function GaleriaFotos({ fotos, nombre }: GaleriaFotosProps) {
             {indiceActivo + 1} / {total}
           </span>
         )}
+
+        {/* Acciones: compartir + favorito (arriba derecha) */}
+        <div
+          onPointerDown={(e) => e.stopPropagation()}
+          onPointerUp={(e) => e.stopPropagation()}
+          style={{ position: "absolute", top: 8, right: 8, display: "flex", gap: 8, zIndex: 2 }}
+        >
+          <button onClick={compartir} aria-label="Compartir" style={iconBtn}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0f1b2a" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" />
+              <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" /><line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+            </svg>
+          </button>
+          <button onClick={toggleFav} aria-label={fav ? "Quitar de favoritos" : "Agregar a favoritos"} style={iconBtn}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill={fav ? "#e0245e" : "none"} stroke={fav ? "#e0245e" : "#0f1b2a"} strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+            </svg>
+          </button>
+        </div>
 
         {/* Puntos */}
         {total > 1 && (
