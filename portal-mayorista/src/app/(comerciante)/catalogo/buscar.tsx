@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import AgregarAlCarrito from "./agregar";
+import { GRUPOS, OTROS, nivel1, grupoDe } from "@/lib/categorias";
 
 /* ------------------------------------------------------------------ */
 /*  Tipos                                                               */
@@ -191,6 +192,44 @@ function ProductCard({ prod }: { prod: ProductoRow }) {
 }
 
 /* ------------------------------------------------------------------ */
+/*  Agrupación de categorías: 9 grupos -> categorías principales (18)    */
+/* ------------------------------------------------------------------ */
+const CATEGORY_GROUPS: { name: string; cats: string[] }[] = [
+  { name: "Tecnología", cats: ["Computación", "Celulares y Telefonía", "Electrónica, Audio y Video", "Cámaras y Accesorios"] },
+  { name: "Herramientas y Construcción", cats: ["Herramientas", "Construcción"] },
+  { name: "Hogar y Jardín", cats: ["Hogar y Muebles", "Electrodomésticos"] },
+  { name: "Salud y Deporte", cats: ["Salud y Equipamiento Médico", "Deportes y Fitness"] },
+  { name: "Infantil", cats: ["Bebés", "Juegos y Juguetes"] },
+  { name: "Moda y Belleza", cats: ["Vestuario y Calzado", "Belleza y Cuidado Personal"] },
+  { name: "Vehículos", cats: ["Accesorios para Vehículos"] },
+  { name: "Industria y Oficina", cats: ["Industrias y Oficinas", "Instrumentos Musicales"] },
+  { name: "Mascotas", cats: ["Animales y Mascotas"] },
+];
+
+// Normaliza para emparejar a prueba de acentos / comas / espacios.
+function normCat(s: string): string {
+  return s
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+// norm(categoría principal) -> nombre del grupo
+const CAT_TO_GROUP: Record<string, string> = {};
+for (const g of CATEGORY_GROUPS) for (const c of g.cats) CAT_TO_GROUP[normCat(c)] = g.name;
+
+// Categoría principal de un producto: "Principal>Sub" -> "Principal"
+function mainCat(categoria: string | null): string {
+  return (categoria ?? "").split(">")[0].trim();
+}
+// Grupo al que pertenece un producto (vía su categoría principal)
+function groupOf(categoria: string | null): string {
+  return CAT_TO_GROUP[normCat(mainCat(categoria))] ?? "Otras";
+}
+
+/* ------------------------------------------------------------------ */
 /*  Componente principal (client)                                        */
 /* ------------------------------------------------------------------ */
 export default function BuscarCatalogo({
@@ -201,14 +240,42 @@ export default function BuscarCatalogo({
   categorias: string[];
 }) {
   const [query, setQuery] = useState("");
-  const [cat, setCat] = useState("todas");
+  const [group, setGroup] = useState("todas"); // nivel 1: grupo
+  const [subcat, setSubcat] = useState(""); // nivel 2: categoría principal real ("" = todo el grupo)
+
+  // Grupos presentes en los datos, con sus categorías reales (nivel 2), en el orden definido.
+  const grupos = useMemo(() => {
+    const porGrupo = new Map<string, Set<string>>();
+    for (const c of categorias) {
+      const mc = mainCat(c);
+      if (!mc) continue;
+      const g = CAT_TO_GROUP[normCat(mc)] ?? "Otras";
+      if (!porGrupo.has(g)) porGrupo.set(g, new Set());
+      porGrupo.get(g)!.add(mc);
+    }
+    const orden = [...CATEGORY_GROUPS.map((g) => g.name), "Otras"];
+    return orden
+      .filter((name) => porGrupo.has(name))
+      .map((name) => ({
+        name,
+        cats: [...porGrupo.get(name)!].sort((a, b) => a.localeCompare(b, "es")),
+      }));
+  }, [categorias]);
+
+  // Categorías (nivel 2) del grupo seleccionado.
+  const catsDelGrupo = useMemo(() => {
+    if (group === "todas") return [];
+    return grupos.find((g) => g.name === group)?.cats ?? [];
+  }, [grupos, group]);
 
   const lista = useMemo(() => {
     let l = productos;
 
-    // Filtro por categoría
-    if (cat !== "todas") {
-      l = l.filter((p) => p.categoria === cat);
+    // Filtro por categoría: subcategoría (categoría principal real) o grupo completo.
+    if (subcat) {
+      l = l.filter((p) => mainCat(p.categoria) === subcat);
+    } else if (group !== "todas") {
+      l = l.filter((p) => groupOf(p.categoria) === group);
     }
 
     // Filtro por texto
@@ -222,7 +289,23 @@ export default function BuscarCatalogo({
     }
 
     return l;
-  }, [productos, query, cat]);
+  }, [productos, query, group, subcat]);
+
+  // Selección desde el <select> jerárquico (optgroups).
+  function onSelect(value: string) {
+    if (value === "todas") {
+      setGroup("todas");
+      setSubcat("");
+    } else if (value.startsWith("g:")) {
+      setGroup(value.slice(2));
+      setSubcat("");
+    } else if (value.startsWith("c:")) {
+      const c = value.slice(2);
+      setGroup(CAT_TO_GROUP[normCat(c)] ?? "Otras");
+      setSubcat(c);
+    }
+  }
+  const selectValue = subcat ? `c:${subcat}` : group !== "todas" ? `g:${group}` : "todas";
 
   return (
     <div className="catalog">
@@ -249,15 +332,15 @@ export default function BuscarCatalogo({
           />
         </div>
 
-        {/* Select categoría */}
+        {/* Select jerárquico: 9 grupos con sus categorías (optgroups) */}
         <div
           className="cat-sort"
           style={{ display: "flex", alignItems: "center", gap: 8 }}
         >
           <FilterIcon />
           <select
-            value={cat}
-            onChange={(e) => setCat(e.target.value)}
+            value={selectValue}
+            onChange={(e) => onSelect(e.target.value)}
             style={{
               border: "1px solid var(--line)",
               borderRadius: "var(--rs)",
@@ -272,10 +355,16 @@ export default function BuscarCatalogo({
             }}
           >
             <option value="todas">Todas las categorías</option>
-            {categorias.map((c) => (
-              <option key={c} value={c}>
-                {c}
-              </option>
+            {grupos.map((g) => (
+              <optgroup key={g.name} label={g.name}>
+                <option value={`g:${g.name}`}>Todo {g.name}</option>
+                {g.cats.map((c) => (
+                  <option key={c} value={`c:${c}`}>
+                    {"  "}
+                    {c}
+                  </option>
+                ))}
+              </optgroup>
             ))}
           </select>
         </div>
@@ -286,8 +375,10 @@ export default function BuscarCatalogo({
         <h2 style={{ fontSize: 21, fontWeight: 800 }}>
           {query
             ? `Resultados para "${query}"`
-            : cat !== "todas"
-            ? cat
+            : subcat
+            ? subcat
+            : group !== "todas"
+            ? group
             : "Catálogo mayorista"}
         </h2>
         <span className="mono" style={{ color: "var(--ink-3)", fontSize: 13 }}>
@@ -295,26 +386,56 @@ export default function BuscarCatalogo({
         </span>
       </div>
 
-      {/* Chips de categoría */}
-      <div className="cat-bar" style={{ marginBottom: 22 }}>
+      {/* Nivel 1: grupos principales */}
+      <div className="cat-bar" style={{ marginBottom: catsDelGrupo.length ? 10 : 22 }}>
         <div className="cat-chips">
           <button
-            className={`chip${cat === "todas" ? " is-on" : ""}`}
-            onClick={() => setCat("todas")}
+            className={`chip${group === "todas" ? " is-on" : ""}`}
+            onClick={() => {
+              setGroup("todas");
+              setSubcat("");
+            }}
           >
             Todas
           </button>
-          {categorias.map((c) => (
+          {grupos.map((g) => (
             <button
-              key={c}
-              className={`chip${cat === c ? " is-on" : ""}`}
-              onClick={() => setCat(c)}
+              key={g.name}
+              className={`chip${group === g.name ? " is-on" : ""}`}
+              onClick={() => {
+                setGroup(g.name);
+                setSubcat("");
+              }}
             >
-              {c}
+              {g.name}
             </button>
           ))}
         </div>
       </div>
+
+      {/* Nivel 2: categorías del grupo seleccionado */}
+      {group !== "todas" && catsDelGrupo.length > 0 && (
+        <div className="cat-bar" style={{ marginBottom: 22 }}>
+          <div className="cat-chips">
+            <button
+              className={`chip${subcat === "" ? " is-on" : ""}`}
+              onClick={() => setSubcat("")}
+              style={{ fontStyle: "italic" }}
+            >
+              Todo {group}
+            </button>
+            {catsDelGrupo.map((c) => (
+              <button
+                key={c}
+                className={`chip${subcat === c ? " is-on" : ""}`}
+                onClick={() => setSubcat(c)}
+              >
+                {c}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Grilla */}
       {lista.length > 0 ? (
