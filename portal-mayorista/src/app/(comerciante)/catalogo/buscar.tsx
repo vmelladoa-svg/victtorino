@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import AgregarAlCarrito from "./agregar";
@@ -243,6 +243,7 @@ export default function BuscarCatalogo({
   const [query, setQuery] = useState("");
   const [group, setGroup] = useState("todas"); // nivel 1: grupo
   const [subcat, setSubcat] = useState(""); // nivel 2: categoría principal real ("" = todo el grupo)
+  const [pagina, setPagina] = useState(1);
 
   // Grupos presentes en los datos, con sus categorías reales (nivel 2), en el orden definido.
   const grupos = useMemo(() => {
@@ -291,6 +292,29 @@ export default function BuscarCatalogo({
 
     return l;
   }, [productos, query, group, subcat]);
+
+  // Paginación: 24 por página, fácil de navegar.
+  const POR_PAGINA = 24;
+  const totalPaginas = Math.max(1, Math.ceil(lista.length / POR_PAGINA));
+  const paginaSegura = Math.min(pagina, totalPaginas);
+  const visibles = lista.slice((paginaSegura - 1) * POR_PAGINA, paginaSegura * POR_PAGINA);
+  useEffect(() => setPagina(1), [query, group, subcat]); // volver a pág. 1 al filtrar
+  function irPagina(n: number) {
+    setPagina(n);
+    if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+  const numeros: (number | "…")[] = [];
+  if (totalPaginas <= 7) {
+    for (let i = 1; i <= totalPaginas; i++) numeros.push(i);
+  } else {
+    numeros.push(1);
+    const ini = Math.max(2, paginaSegura - 1);
+    const fin = Math.min(totalPaginas - 1, paginaSegura + 1);
+    if (ini > 2) numeros.push("…");
+    for (let i = ini; i <= fin; i++) numeros.push(i);
+    if (fin < totalPaginas - 1) numeros.push("…");
+    numeros.push(totalPaginas);
+  }
 
   // Selección desde el <select> jerárquico (optgroups).
   function onSelect(value: string) {
@@ -441,7 +465,7 @@ export default function BuscarCatalogo({
       {/* Grilla */}
       {lista.length > 0 ? (
         <div className="pgrid">
-          {lista.map((p) => (
+          {visibles.map((p) => (
             <ProductCard key={p.id} prod={p} />
           ))}
         </div>
@@ -449,6 +473,46 @@ export default function BuscarCatalogo({
         <div className="empty">
           <SearchIcon />
           <p>No encontramos productos para tu búsqueda.</p>
+        </div>
+      )}
+
+      {/* Paginación */}
+      {lista.length > 0 && totalPaginas > 1 && (
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10, marginTop: 28 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap", justifyContent: "center" }}>
+            <button
+              className="chip"
+              onClick={() => irPagina(paginaSegura - 1)}
+              disabled={paginaSegura === 1}
+              style={{ opacity: paginaSegura === 1 ? 0.4 : 1, cursor: paginaSegura === 1 ? "default" : "pointer" }}
+            >
+              ‹ Anterior
+            </button>
+            {numeros.map((n, i) =>
+              n === "…" ? (
+                <span key={`e${i}`} style={{ padding: "0 4px", color: "var(--ink-3)" }}>…</span>
+              ) : (
+                <button
+                  key={n}
+                  className={`chip${n === paginaSegura ? " is-on" : ""}`}
+                  onClick={() => irPagina(n)}
+                >
+                  {n}
+                </button>
+              )
+            )}
+            <button
+              className="chip"
+              onClick={() => irPagina(paginaSegura + 1)}
+              disabled={paginaSegura === totalPaginas}
+              style={{ opacity: paginaSegura === totalPaginas ? 0.4 : 1, cursor: paginaSegura === totalPaginas ? "default" : "pointer" }}
+            >
+              Siguiente ›
+            </button>
+          </div>
+          <span className="mono" style={{ fontSize: 12.5, color: "var(--ink-3)" }}>
+            Mostrando {(paginaSegura - 1) * POR_PAGINA + 1}–{Math.min(paginaSegura * POR_PAGINA, lista.length)} de {lista.length}
+          </span>
         </div>
       )}
     </div>
