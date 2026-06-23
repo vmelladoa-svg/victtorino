@@ -84,8 +84,18 @@ export default function RegistroPage() {
   }
 
   return (
-    <div style={styles.page}>
-      <div style={styles.aside}>
+    <div className="reg-page" style={styles.page}>
+      <style>{`
+        @media (max-width: 768px) {
+          .reg-page { grid-template-columns: 1fr !important; min-height: auto !important; }
+          .reg-aside { padding: 22px 22px 16px !important; }
+          .reg-aside-h1 { font-size: 23px !important; margin-bottom: 6px !important; }
+          .reg-aside-p, .reg-feats, .reg-aside-foot { display: none !important; }
+          .reg-formwrap { padding: 26px 20px 40px !important; }
+          .reg-formgrid { grid-template-columns: 1fr !important; }
+        }
+      `}</style>
+      <div className="reg-aside" style={styles.aside}>
         <div style={styles.asideBody}>
           <div style={styles.logoWrap}>
             <Image
@@ -100,22 +110,22 @@ export default function RegistroPage() {
               <small style={styles.logoSmall}>Portal Mayorista</small>
             </div>
           </div>
-          <h1 style={styles.asideH1}>Venta por Mayor para tu negocio</h1>
-          <p style={styles.asideP}>
+          <h1 className="reg-aside-h1" style={styles.asideH1}>Venta por Mayor para tu negocio</h1>
+          <p className="reg-aside-p" style={styles.asideP}>
             Regístrate y accede a precios mayoristas, volumen por caja
             y despacho a todo Chile.
           </p>
-          <ul style={styles.feats}>
+          <ul className="reg-feats" style={styles.feats}>
             <li style={styles.featItem}><CheckIcon /> Precios escalonados por volumen</li>
             <li style={styles.featItem}><CheckIcon /> Stock en tiempo real</li>
             <li style={styles.featItem}><CheckIcon /> Seguimiento de pedido completo</li>
             <li style={styles.featItem}><CheckIcon /> Facturación disponible</li>
           </ul>
         </div>
-        <footer style={styles.asideFoot}>2026 Trade Global Solutions SpA</footer>
+        <footer className="reg-aside-foot" style={styles.asideFoot}>2026 Trade Global Solutions SpA</footer>
       </div>
 
-      <div style={styles.formWrap}>
+      <div className="reg-formwrap" style={styles.formWrap}>
         <div style={styles.formCard}>
           <h2 style={styles.formH2}>Crear cuenta</h2>
           <p style={styles.formSub}>
@@ -132,7 +142,7 @@ export default function RegistroPage() {
             <form onSubmit={handleSubmit} noValidate>
               {error && <div style={styles.errorBox}>{error}</div>}
 
-              <div style={styles.formGrid}>
+              <div className="reg-formgrid" style={styles.formGrid}>
                 <div style={styles.field}>
                   <label style={styles.label} htmlFor="nombre">Nombre completo</label>
                   <input id="nombre" name="nombre" type="text" autoComplete="name" required
