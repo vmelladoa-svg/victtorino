@@ -62,12 +62,12 @@ const SLIDES: Slide[] = [
     pill: { bg: "rgba(255,255,255,.16)", color: "#fff", icon: <Bolt />, text: "PORTAL MAYORISTA B2B" },
     text: (
       <>
-        <span style={{ fontFamily: MANROPE, fontWeight: 600, fontSize: 26, color: "#cfe0ff" }}>
+        <span style={{ fontFamily: MANROPE, fontWeight: 600, fontSize: "clamp(18px, 5.3vw, 26px)", color: "#cfe0ff" }}>
           Compra por caja y ahorra
         </span>
         <span style={{ display: "flex", alignItems: "flex-end", gap: 12, lineHeight: 0.85 }}>
-          <span style={{ fontFamily: SORA, fontWeight: 800, fontSize: 92, color: "#FFD400" }}>40%</span>
-          <span style={{ fontFamily: SORA, fontWeight: 800, fontSize: 46, color: "#fff", paddingBottom: 6 }}>OFF</span>
+          <span style={{ fontFamily: SORA, fontWeight: 800, fontSize: "clamp(54px, 16vw, 92px)", color: "#FFD400" }}>40%</span>
+          <span style={{ fontFamily: SORA, fontWeight: 800, fontSize: "clamp(30px, 9vw, 46px)", color: "#fff", paddingBottom: 6 }}>OFF</span>
         </span>
       </>
     ),
@@ -109,8 +109,8 @@ const SLIDES: Slide[] = [
     pill: { bg: "#143a72", color: "#FFD400", icon: <Truck c="#FFD400" />, text: "LOGÍSTICA" },
     text: (
       <span style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", gap: 12, lineHeight: 0.95 }}>
-        <span style={{ fontFamily: SORA, fontWeight: 800, fontSize: 64, color: "#143a72" }}>Despacho gratis</span>
-        <span style={{ fontFamily: MANROPE, fontWeight: 700, fontSize: 24, color: "#15A05A" }}>a todo Chile</span>
+        <span style={{ fontFamily: SORA, fontWeight: 800, fontSize: "clamp(36px, 11vw, 64px)", color: "#143a72" }}>Despacho gratis</span>
+        <span style={{ fontFamily: MANROPE, fontWeight: 700, fontSize: "clamp(17px, 5vw, 24px)", color: "#15A05A" }}>a todo Chile</span>
       </span>
     ),
     para: (
@@ -139,11 +139,11 @@ const SLIDES: Slide[] = [
     pill: { bg: "rgba(255,255,255,.16)", color: "#fff", icon: <Box c="#fff" />, text: "IMPORTACIÓN DIRECTA" },
     text: (
       <>
-        <span style={{ fontFamily: MANROPE, fontWeight: 600, fontSize: 26, color: "#d6f3e3" }}>
+        <span style={{ fontFamily: MANROPE, fontWeight: 600, fontSize: "clamp(18px, 5.3vw, 26px)", color: "#d6f3e3" }}>
           Productos importados con
         </span>
-        <span style={{ fontFamily: SORA, fontWeight: 800, fontSize: 62, color: "#fff", lineHeight: 0.95 }}>Stock real</span>
-        <span style={{ fontFamily: SORA, fontWeight: 800, fontSize: 62, color: "#FFD400", lineHeight: 0.95 }}>por caja</span>
+        <span style={{ fontFamily: SORA, fontWeight: 800, fontSize: "clamp(34px, 11vw, 62px)", color: "#fff", lineHeight: 0.95 }}>Stock real</span>
+        <span style={{ fontFamily: SORA, fontWeight: 800, fontSize: "clamp(34px, 11vw, 62px)", color: "#FFD400", lineHeight: 0.95 }}>por caja</span>
       </>
     ),
     para: "Inventario en tiempo real. Compra por volumen sin sorpresas de quiebre de stock.",
@@ -235,11 +235,11 @@ export default function PromoCarousel() {
           display: inline-block; box-shadow: 0 0 0 0 rgba(124,255,176,.7); animation: pcPulse 1.6s infinite; }
         @keyframes pcPulse { 0%{box-shadow:0 0 0 0 rgba(124,255,176,.6);} 70%{box-shadow:0 0 0 10px rgba(124,255,176,0);} 100%{box-shadow:0 0 0 0 rgba(124,255,176,0);} }
         @media (max-width: 720px) {
-          .pc-root { height: 380px; }
+          .pc-root { height: 400px; }
           .pc-wrap { padding: 0 20px; }
           .pc-viscol { display: none; }
           .pc-textcol { max-width: 100%; }
-          .pc-slide .pc-bignum { font-size: 64px !important; }
+          .pc-arrow { width: 38px; height: 38px; font-size: 22px; }
         }
       `}</style>
 

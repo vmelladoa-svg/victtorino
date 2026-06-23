@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import AgregarAlCarrito from "./agregar";
@@ -247,6 +247,40 @@ export default function BuscarCatalogo({
   const [group, setGroup] = useState("todas"); // nivel 1: grupo
   const [subcat, setSubcat] = useState(""); // nivel 2: categoría principal real ("" = todo el grupo)
   const [pagina, setPagina] = useState(1);
+  const skipReset = useRef(false);
+
+  // Al volver desde una ficha: restaurar página, filtros y scroll (sessionStorage).
+  useEffect(() => {
+    try {
+      const s = JSON.parse(sessionStorage.getItem("catEstado") || "null");
+      if (s) {
+        skipReset.current = true; // no resetear página mientras restauramos los filtros
+        if (s.group) setGroup(s.group);
+        if (typeof s.subcat === "string") setSubcat(s.subcat);
+        if (s.pagina) setPagina(s.pagina);
+        requestAnimationFrame(() => { skipReset.current = false; });
+      }
+      const y = Number(sessionStorage.getItem("catScroll"));
+      if (y > 0) requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo(0, y)));
+    } catch {}
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Persistir filtros + página.
+  useEffect(() => {
+    try { sessionStorage.setItem("catEstado", JSON.stringify({ group, subcat, pagina })); } catch {}
+  }, [group, subcat, pagina]);
+
+  // Guardar posición de scroll (throttle con rAF) para restaurarla al volver.
+  useEffect(() => {
+    let raf = 0;
+    const onScroll = () => {
+      if (raf) return;
+      raf = requestAnimationFrame(() => { raf = 0; try { sessionStorage.setItem("catScroll", String(window.scrollY)); } catch {} });
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => { window.removeEventListener("scroll", onScroll); if (raf) cancelAnimationFrame(raf); };
+  }, []);
 
   // Grupos presentes en los datos, con sus categorías reales (nivel 2), en el orden definido.
   const grupos = useMemo(() => {
@@ -301,7 +335,10 @@ export default function BuscarCatalogo({
   const totalPaginas = Math.max(1, Math.ceil(lista.length / POR_PAGINA));
   const paginaSegura = Math.min(pagina, totalPaginas);
   const visibles = lista.slice((paginaSegura - 1) * POR_PAGINA, paginaSegura * POR_PAGINA);
-  useEffect(() => setPagina(1), [query, group, subcat]); // volver a pág. 1 al filtrar
+  useEffect(() => {
+    if (skipReset.current) return; // no resetear al restaurar estado
+    setPagina(1);
+  }, [query, group, subcat]); // volver a pág. 1 al filtrar
   function irPagina(n: number) {
     setPagina(n);
     if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
