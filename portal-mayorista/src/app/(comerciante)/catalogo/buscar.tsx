@@ -77,7 +77,7 @@ function FilterIcon() {
 /* ------------------------------------------------------------------ */
 /*  Tarjeta de producto                                                  */
 /* ------------------------------------------------------------------ */
-function ProductCard({ prod }: { prod: ProductoRow }) {
+export function ProductCard({ prod }: { prod: ProductoRow }) {
   // stock null = sin tope (aún sin scraper); solo "sin stock" si es un número <= 0
   const sinStock = prod.stock != null && prod.stock <= 0;
   const [imgError, setImgError] = useState(false);

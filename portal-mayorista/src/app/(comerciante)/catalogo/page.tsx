@@ -3,6 +3,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import BuscarCatalogo, { type ProductoRow } from "./buscar";
 import CartBadge from "./cart-badge";
+import FavoritosLink from "./favoritos-link";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -67,7 +68,8 @@ function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
         {/* Spacer */}
         <div style={{ flex: 1 }} />
 
-        {/* Carrito */}
+        {/* Favoritos + Carrito */}
+        <FavoritosLink />
         <CartBadge />
 
         {/* Usuario + cerrar sesión */}

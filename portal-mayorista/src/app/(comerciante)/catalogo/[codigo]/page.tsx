@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import CartBadge from "../cart-badge";
+import FavoritosLink from "../favoritos-link";
 import AgregarDesdeDetalle from "./agregar-desde-detalle";
 import GaleriaFotos from "./galeria-fotos";
 
@@ -107,7 +108,8 @@ function PortalHeader({ nombre }: { nombre: string | null | undefined }) {
         {/* Spacer */}
         <div style={{ flex: 1 }} />
 
-        {/* Carrito */}
+        {/* Favoritos + Carrito */}
+        <FavoritosLink />
         <CartBadge />
 
         {/* Usuario + cerrar sesión */}

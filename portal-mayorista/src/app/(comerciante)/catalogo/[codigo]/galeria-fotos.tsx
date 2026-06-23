@@ -44,6 +44,7 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
         : [...favs, productoId];
       localStorage.setItem("favoritos", JSON.stringify(next));
       setFav(next.includes(productoId));
+      window.dispatchEvent(new Event("favoritos:cambio"));
     } catch {}
   }
   function compartir(e: React.MouseEvent) {
