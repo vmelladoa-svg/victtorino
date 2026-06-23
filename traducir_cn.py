@@ -67,6 +67,33 @@ def traducir(s):
     return s or None
 
 
+# ── Limpieza de contactos ajenos (proveedor AlilaTop) en descripciones HTML ──
+# Quita WhatsApp/WeChat/+86, frases "ponerse en contacto conmigo", teléfonos
+# sueltos y atributos data-spm de Alibaba. NO toca usos legítimos ("soporte
+# para teléfono", "superficie de contacto", "control por teléfono móvil").
+def _es_contacto(p_html):
+    t = p_html.lower()
+    if re.search(r"whats|wechat|we chat|\+86|微信|qq[:：]", t):
+        return True
+    if "contacto conmigo" in t or "ponerse en contacto" in t:
+        return True
+    solo = re.sub(r"<[^>]+>|\s", "", p_html)  # ¿el párrafo es sólo un teléfono?
+    if re.fullmatch(r"\+?\d{7,}", solo):
+        return True
+    return False
+
+def limpiar_contacto(html):
+    if not html:
+        return html
+    s = re.sub(r'\s*data-spm[a-z-]*="[^"]*"', "", html)         # cruft de Alibaba
+    s = re.sub(r"<p[^>]*>.*?</p>", lambda m: "" if _es_contacto(m.group(0)) else m.group(0), s, flags=re.S)
+    s = re.sub(r"(whats?app?|wechat|we chat)\s*[:+]?\s*\+?\d[\d\s-]{5,}", "", s, flags=re.I)
+    s = re.sub(r"\+86[\d\s-]{6,}", "", s)                        # números chinos sueltos
+    s = re.sub(r"<p[^>]*>\s*(<br\s*/?>)?\s*</p>", "", s)         # párrafos vacíos
+    s = re.sub(r"[ \t]{2,}", " ", s).strip()
+    return s or None
+
+
 if __name__ == "__main__":
     import io, sys
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")

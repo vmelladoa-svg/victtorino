@@ -14,7 +14,7 @@ AlilaTop viene vacio/parcial, aborta sin apagar el catalogo; (4) deja un respald
 CSV reversible antes del UPDATE masivo."""
 import alila_app_client as A
 import psycopg2, json, re, uuid, csv, os
-from traducir_cn import traducir
+from traducir_cn import traducir, limpiar_contacto
 from pathlib import Path
 from datetime import datetime
 
@@ -110,7 +110,7 @@ def campos_ricos(d, sd):
         "stock": stock, "activo": stock > 0,
         "fotos": d.get("tp") or [], "foto1": (d.get("tp") or [None])[0],
         "nombre": sin_chino(d.get("mc")), "cat": clean_cat(d.get("x_lm")),
-        "desc": sin_chino(d.get("sm")), "dim": traducir(clean(d.get("sp_cc"))),
+        "desc": limpiar_contacto(sin_chino(d.get("sm"))), "dim": traducir(clean(d.get("sp_cc"))),
         "emb": traducir(clean(d.get("bz_ss"))), "kw": clean(d.get("ss_cy")), "narti": clean(d.get("hh")),
         "codprov": clean(d.get("gys_hjh")), "unidcaja": to_int(d.get("zxs")), "linkml": clean(d.get("ml_lj")),
         "costo": costo,
@@ -160,26 +160,18 @@ for pid, cod in prods:
         bajo_reserva += 1
         stock = res  # respetar reservas ya tomadas (y el CHECK reservado<=stock)
     activo = stock > 0 or pid in en_curso
-    fotos = d.get("tp") or []
-    foto1 = fotos[0] if fotos else None
     # reprice desde el costo real de AlilaTop (pf)
     costo = costo_alila(d)
     t1 = r100(costo*MARGEN[0]) if costo else None
     t2 = r100(costo*MARGEN[1]) if costo else None
     t3 = r100(costo*MARGEN[2]) if costo else None
-    nombre = sin_chino(d.get("mc"))
-    cat = clean_cat(d.get("x_lm"))
+    # Refresco diario: SOLO stock + precios. El contenido (nombre, descripción,
+    # fotos, categoría, embalaje, etc.) queda curado y NO se re-escribe.
     cur.execute(
-        'UPDATE "Producto" SET stock=%s, activo=%s, "fotos"=%s, "fotoUrl"=COALESCE(%s,"fotoUrl"),'
-        ' nombre=COALESCE(%s,nombre), categoria=COALESCE(%s,categoria),'
-        ' "descripcion"=%s, "dimensiones"=%s, "embalaje"=%s, "keywords"=%s, "nArticulo"=%s,'
-        ' "codigoProveedor"=%s, "unidCaja"=COALESCE(%s,"unidCaja"), "linkML"=%s,'
+        'UPDATE "Producto" SET stock=%s, activo=%s,'
         ' costo=COALESCE(%s,costo), "precioT1"=COALESCE(%s,"precioT1"),'
         ' "precioT2"=COALESCE(%s,"precioT2"), "precioT3"=COALESCE(%s,"precioT3") WHERE id=%s',
-        (stock, activo, fotos, foto1, nombre, cat, sin_chino(d.get("sm")), traducir(clean(d.get("sp_cc"))),
-         traducir(clean(d.get("bz_ss"))), clean(d.get("ss_cy")), clean(d.get("hh")),
-         clean(d.get("gys_hjh")), to_int(d.get("zxs")), clean(d.get("ml_lj")),
-         costo, t1, t2, t3, pid))
+        (stock, activo, costo, t1, t2, t3, pid))
     upd += 1
     if activo: act += 1
     else: inact += 1
