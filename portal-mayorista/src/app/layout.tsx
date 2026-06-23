@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Sora, Manrope } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { CartProvider } from "@/lib/cart-context";
@@ -16,6 +16,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// Carrusel promocional del catálogo (estética marketplace): Sora para números/display, Manrope para UI.
+const sora = Sora({ variable: "--font-sora", subsets: ["latin"], weight: ["700", "800"] });
+const manrope = Manrope({
+  variable: "--font-manrope",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+});
+
 export const metadata: Metadata = {
   title: "Portal Mayorista | Comercial Solutions",
   description: "Portal de compras mayoristas B2B",
@@ -27,7 +35,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html
+      lang="es"
+      className={`${geistSans.variable} ${geistMono.variable} ${sora.variable} ${manrope.variable}`}
+    >
       <body>
         <Script id="fb-pixel" strategy="afterInteractive">
           {`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
