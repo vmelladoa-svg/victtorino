@@ -98,19 +98,59 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
     setArrastrando(false);
   }
 
-  // ── Paneo dentro del lightbox cuando hay zoom ──
-  const panStart = useRef({ x: 0, y: 0, px: 0, py: 0 });
+  // ── Gestos del lightbox: pinch-to-zoom (2 dedos) + paneo (1 dedo) ──
+  const pointers = useRef<Map<number, { x: number; y: number }>>(new Map());
+  const pinchRef = useRef<{ dist: number; scale: number } | null>(null);
+  const panRef = useRef<{ x: number; y: number; px: number; py: number } | null>(null);
+  const lastTap = useRef(0);
+
+  function distPts() {
+    const p = [...pointers.current.values()];
+    return p.length < 2 ? 0 : Math.hypot(p[0].x - p[1].x, p[0].y - p[1].y);
+  }
   function lbDown(e: React.PointerEvent<HTMLDivElement>) {
-    if (escala === 1) return;
-    panStart.current = { x: e.clientX, y: e.clientY, px: pan.x, py: pan.y };
+    e.stopPropagation();
     e.currentTarget.setPointerCapture?.(e.pointerId);
+    pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pointers.current.size === 2) {
+      pinchRef.current = { dist: distPts(), scale: escala };
+      panRef.current = null;
+    } else {
+      panRef.current = { x: e.clientX, y: e.clientY, px: pan.x, py: pan.y };
+      const now = Date.now();
+      if (now - lastTap.current < 300) {
+        // doble toque = zoom rápido
+        setEscala((s) => (s > 1 ? 1 : 2.5));
+        setPan({ x: 0, y: 0 });
+      }
+      lastTap.current = now;
+    }
   }
   function lbMove(e: React.PointerEvent<HTMLDivElement>) {
-    if (escala === 1 || !e.buttons) return;
-    setPan({
-      x: panStart.current.px + (e.clientX - panStart.current.x),
-      y: panStart.current.py + (e.clientY - panStart.current.y),
-    });
+    if (!pointers.current.has(e.pointerId)) return;
+    pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pointers.current.size >= 2 && pinchRef.current) {
+      const nd = distPts();
+      if (nd > 0) {
+        const s = Math.min(5, Math.max(1, pinchRef.current.scale * (nd / pinchRef.current.dist)));
+        setEscala(s);
+        if (s <= 1.01) setPan({ x: 0, y: 0 });
+      }
+    } else if (pointers.current.size === 1 && panRef.current && escala > 1) {
+      setPan({
+        x: panRef.current.px + (e.clientX - panRef.current.x),
+        y: panRef.current.py + (e.clientY - panRef.current.y),
+      });
+    }
+  }
+  function lbUp(e: React.PointerEvent<HTMLDivElement>) {
+    pointers.current.delete(e.pointerId);
+    if (pointers.current.size < 2) pinchRef.current = null;
+    if (pointers.current.size === 1) {
+      const p = [...pointers.current.values()][0];
+      panRef.current = { x: p.x, y: p.y, px: pan.x, py: pan.y };
+    }
+    if (pointers.current.size === 0 && escala <= 1.01) setPan({ x: 0, y: 0 });
   }
 
   const fotoZoom = fotos[indiceActivo];
@@ -255,19 +295,20 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
             ✕
           </button>
 
-          {/* Imagen (tap = zoom, arrastre = paneo) */}
+          {/* Imagen: pellizca con 2 dedos para zoom, arrastra con 1 para mover, doble toque = zoom rápido */}
           <div
-            onClick={(e) => { e.stopPropagation(); setEscala((s) => (s === 1 ? 2.4 : 1)); setPan({ x: 0, y: 0 }); }}
             onPointerDown={lbDown}
             onPointerMove={lbMove}
-            style={{ position: "relative", width: "92vw", height: "82vh", touchAction: "none", cursor: escala === 1 ? "zoom-in" : "grab" }}
+            onPointerUp={lbUp}
+            onPointerCancel={lbUp}
+            style={{ position: "relative", width: "92vw", height: "82vh", touchAction: "none", cursor: escala > 1 ? "grab" : "zoom-in" }}
           >
             <Image
               src={fotoZoom}
               alt={`${nombre} — foto ${indiceActivo + 1} ampliada`}
               fill
               sizes="92vw"
-              style={{ objectFit: "contain", transform: `translate(${pan.x}px, ${pan.y}px) scale(${escala})`, transition: "transform 0.18s ease-out", pointerEvents: "none" }}
+              style={{ objectFit: "contain", transform: `translate(${pan.x}px, ${pan.y}px) scale(${escala})`, transition: pointers.current.size ? "none" : "transform 0.18s ease-out", pointerEvents: "none" }}
               draggable={false}
               unoptimized
             />
