@@ -114,7 +114,8 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
   }
   function lbDown(e: React.PointerEvent<HTMLDivElement>) {
     e.stopPropagation();
-    e.currentTarget.setPointerCapture?.(e.pointerId);
+    // la captura puede fallar (puntero ya liberado); nunca debe abortar el gesto
+    try { e.currentTarget.setPointerCapture?.(e.pointerId); } catch {}
     pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
     const n = pointers.current.size;
     if (n === 1) {
@@ -144,10 +145,18 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
     pointers.current.delete(e.pointerId);
     if (pointers.current.size < 2) gestoBase.current = null;
     if (pointers.current.size === 0) {
-      // toque simple (sin 2º dedo, sin arrastre real) → alterna zoom
-      if (eraUltimo && tap && !tap.multi && Math.abs(e.clientX - tap.x) < 8 && Math.abs(e.clientY - tap.y) < 8) {
-        if (escala > 1) { setEscala(1); setPan({ x: 0, y: 0 }); }
-        else setEscala(2.5);
+      if (eraUltimo && tap && !tap.multi) {
+        const dx = e.clientX - tap.x, dy = e.clientY - tap.y;
+        if (Math.abs(dx) < 8 && Math.abs(dy) < 8) {
+          // toque simple → alterna zoom
+          if (escala > 1) { setEscala(1); setPan({ x: 0, y: 0 }); }
+          else setEscala(2.5);
+        } else if (escala <= 1.01 && Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) {
+          // deslizar horizontal sin zoom → cambiar de foto
+          ir(dx < 0 ? indiceActivo + 1 : indiceActivo - 1);
+        } else if (escala <= 1.01) {
+          setPan({ x: 0, y: 0 });
+        }
       } else if (escala <= 1.01) {
         setPan({ x: 0, y: 0 });
       }
