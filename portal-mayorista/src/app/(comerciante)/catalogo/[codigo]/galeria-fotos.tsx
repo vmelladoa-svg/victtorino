@@ -63,9 +63,6 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
   const _t = encodeURIComponent(`${shareText}\n${shareUrl}`);
   const targets = [
     { label: "WhatsApp", color: "#25D366", href: `https://wa.me/?text=${_t}` },
-    { label: "Telegram", color: "#229ED9", href: `https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}` },
-    { label: "Facebook", color: "#1877F2", href: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}` },
-    { label: "Correo", color: "#6b7280", href: `mailto:?subject=${encodeURIComponent(nombre)}&body=${_t}` },
   ];
   const iconBtn: React.CSSProperties = {
     width: 36, height: 36, borderRadius: "50%", border: "none",
