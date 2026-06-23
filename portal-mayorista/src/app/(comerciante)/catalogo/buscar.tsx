@@ -106,7 +106,6 @@ export function ProductCard({ prod }: { prod: ProductoRow }) {
                 fill
                 sizes="(max-width: 720px) 50vw, (max-width: 1080px) 33vw, 25vw"
                 style={{ objectFit: "contain" }}
-                unoptimized
                 onError={() => setImgError(true)}
               />
             </div>

@@ -120,7 +120,7 @@ export default function CarritoPage() {
                   {/* Foto */}
                   <div style={{ width: 80, height: 80, borderRadius: "var(--rs)", overflow: "hidden", background: "var(--bg)", flexShrink: 0, display: "grid", placeItems: "center" }}>
                     {item.fotoUrl ? (
-                      <Image src={item.fotoUrl} alt={item.nombre} width={80} height={80} style={{ objectFit: "cover" }} unoptimized />
+                      <Image src={item.fotoUrl} alt={item.nombre} width={80} height={80} style={{ objectFit: "cover" }} />
                     ) : (
                       <span style={{ fontSize: 10, fontFamily: "var(--mono)", color: "var(--ink-3)" }}>sin foto</span>
                     )}

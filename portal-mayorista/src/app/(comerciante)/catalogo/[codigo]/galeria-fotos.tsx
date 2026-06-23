@@ -205,7 +205,6 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
                   sizes="(max-width: 768px) 100vw, 50vw"
                   style={{ objectFit: "contain", pointerEvents: "none" }}
                   draggable={false}
-                  unoptimized
                   onError={() => setImgError((prev) => ({ ...prev, [i]: true }))}
                 />
               ) : (
@@ -275,7 +274,7 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
             >
               <div style={{ width: "100%", height: 64, position: "relative", borderRadius: 6, overflow: "hidden", background: "#fff" }}>
                 {!imgError[i] ? (
-                  <Image src={url} alt={`${nombre} — miniatura ${i + 1}`} fill sizes="80px" style={{ objectFit: "contain" }} unoptimized onError={() => setImgError((prev) => ({ ...prev, [i]: true }))} />
+                  <Image src={url} alt={`${nombre} — miniatura ${i + 1}`} fill sizes="80px" style={{ objectFit: "contain" }} onError={() => setImgError((prev) => ({ ...prev, [i]: true }))} />
                 ) : (
                   <div style={{ height: "100%", display: "grid", placeItems: "center" }}>
                     <span style={{ fontSize: 9, color: "#0e7cc4", opacity: 0.55, fontWeight: 700 }}>—</span>
@@ -322,7 +321,6 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
               sizes="92vw"
               style={{ objectFit: "contain", transform: `translate(${pan.x}px, ${pan.y}px) scale(${escala})`, transition: pointers.current.size ? "none" : "transform 0.18s ease-out", pointerEvents: "none" }}
               draggable={false}
-              unoptimized
             />
           </div>
 

@@ -67,7 +67,6 @@ function FotoPrincipal({
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
             style={{ objectFit: "contain" }}
-            unoptimized
           />
         ) : (
           <div

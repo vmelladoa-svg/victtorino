@@ -293,7 +293,7 @@ export default function PromoCarousel() {
                   <div className="pc-card-inner" style={{ background: s.card.bg }}>
                     {s.card.foto ? (
                       <Image src={s.card.foto} alt="" fill sizes="300px"
-                        style={{ objectFit: "contain", padding: 10 }} unoptimized priority={idx === 0} />
+                        style={{ objectFit: "contain", padding: 10 }} priority={idx === 0} />
                     ) : (
                       s.card.icon ?? <Box c="rgba(20,58,114,.25)" s={64} />
                     )}
