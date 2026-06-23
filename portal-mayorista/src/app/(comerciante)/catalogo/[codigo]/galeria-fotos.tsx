@@ -27,14 +27,6 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
   const moved = useRef(0);
   const total = fotos.length;
 
-  const [compAbierto, setCompAbierto] = useState(false); // menú de compartir propio
-  useEffect(() => {
-    if (!compAbierto) return;
-    const cerrar = () => setCompAbierto(false);
-    const id = window.setTimeout(() => document.addEventListener("click", cerrar), 0);
-    return () => { window.clearTimeout(id); document.removeEventListener("click", cerrar); };
-  }, [compAbierto]);
-
   // Favoritos (en este dispositivo, localStorage)
   const [fav, setFav] = useState(false);
   useEffect(() => {
@@ -57,13 +49,9 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
   }
   function compartir(e: React.MouseEvent) {
     e.stopPropagation();
-    setCompAbierto((o) => !o);
+    // Redirige directo a WhatsApp (selector de contacto)
+    window.open(`https://wa.me/?text=${encodeURIComponent(`${shareText}\n${shareUrl}`)}`, "_blank");
   }
-  // Opciones de compartir (sin QR / enviar a dispositivos / copiar)
-  const _t = encodeURIComponent(`${shareText}\n${shareUrl}`);
-  const targets = [
-    { label: "WhatsApp", color: "#25D366", href: `https://wa.me/?text=${_t}` },
-  ];
   const iconBtn: React.CSSProperties = {
     width: 36, height: 36, borderRadius: "50%", border: "none",
     background: "rgba(255,255,255,0.92)", boxShadow: "0 2px 6px rgba(0,0,0,0.18)",
@@ -249,36 +237,6 @@ export default function GaleriaFotos({ fotos, nombre, productoId, shareUrl, shar
               <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
             </svg>
           </button>
-
-          {compAbierto && (
-            <div
-              onClick={(e) => e.stopPropagation()}
-              style={{
-                position: "absolute", top: 44, right: 0, background: "#fff",
-                borderRadius: 8, boxShadow: "0 8px 26px rgba(0,0,0,0.2)",
-                border: "1px solid var(--line)", padding: 6,
-                display: "flex", flexDirection: "column", gap: 2, minWidth: 168, zIndex: 6,
-              }}
-            >
-              <span style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-3)", padding: "4px 8px" }}>Compartir</span>
-              {targets.map((t) => (
-                <a
-                  key={t.label}
-                  href={t.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setCompAbierto(false)}
-                  style={{
-                    display: "flex", alignItems: "center", gap: 10, padding: "9px 8px",
-                    borderRadius: 6, textDecoration: "none", color: "var(--ink)", fontSize: 14, fontWeight: 600,
-                  }}
-                >
-                  <span style={{ width: 18, height: 18, borderRadius: "50%", background: t.color, flexShrink: 0 }} />
-                  {t.label}
-                </a>
-              ))}
-            </div>
-          )}
         </div>
 
         {/* Puntos */}
