@@ -467,7 +467,7 @@ export default async function ProductoDetallePage(props: Props) {
                     <circle cx="12" cy="12" r="10" />
                     <path d="M12 6v6l4 2" />
                   </svg>
-                  Validación de pago en 24–48h
+                  Validación de pago en 24h
                 </span>
               </div>
             </div>

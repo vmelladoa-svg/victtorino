@@ -209,7 +209,7 @@ export default function CarritoPage() {
 
             <div style={{ display: "flex", alignItems: "center", gap: 7, fontSize: 12, color: "var(--ink-3)", justifyContent: "center" }}>
               <ShieldIcon />
-              Pago por transferencia · validación 24–48h
+              Pago por transferencia · validación 24h
             </div>
           </aside>
 

@@ -228,7 +228,7 @@ export default async function CatalogoPage() {
           >
             {[
               { val: "16", label: "regiones con despacho" },
-              { val: "24–48h", label: "validación de pago" },
+              { val: "24h", label: "validación de pago" },
               { val: "1 día", label: "reposición desde bodega" },
             ].map(({ val, label }) => (
               <div

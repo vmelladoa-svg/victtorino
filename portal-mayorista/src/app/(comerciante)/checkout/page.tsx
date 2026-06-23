@@ -281,7 +281,7 @@ export default function CheckoutPage() {
                 <DocIcon /> Pago por transferencia
               </h3>
               <p style={{ fontSize: 13.5, color: "var(--ink-2)", marginBottom: 20, lineHeight: 1.5 }}>
-                Transfiere el total y envía el comprobante. Validamos en 24–48h hábiles y coordinamos el despacho.
+                Transfiere el total y envía el comprobante. Validamos en 24h hábiles y coordinamos el despacho.
               </p>
 
               {/* Datos bancarios */}
@@ -417,7 +417,7 @@ export default function CheckoutPage() {
 
               <div style={{ display: "flex", flexDirection: "column", gap: 12, textAlign: "left", background: "var(--bg)", borderRadius: "var(--rs)", padding: "18px 20px", marginBottom: 28 }}>
                 {[
-                  "Validamos tu comprobante (24–48h hábiles)",
+                  "Validamos tu comprobante (24h hábiles)",
                   "Compramos al importador y preparamos tu pedido",
                   `Despachamos a ${region}`,
                 ].map((txt, i) => (
@@ -461,7 +461,7 @@ export default function CheckoutPage() {
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 12, color: "var(--ink-3)" }}>
                 <ShieldIcon />
-                Validamos tu pago en 24–48h hábiles
+                Validamos tu pago en 24h hábiles
               </div>
             </aside>
           )}

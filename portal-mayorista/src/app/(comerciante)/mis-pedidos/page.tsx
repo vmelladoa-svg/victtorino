@@ -254,7 +254,7 @@ function OrderTimeline({ estado }: { estado: EstadoPedido }) {
                   display: "inline-flex", alignItems: "center", gap: 6,
                   fontSize: 12, fontWeight: 600, color: "var(--brand-deep)", marginTop: 7,
                 }}>
-                  <IconClock size={13} /> Validación estimada: 24–48h hábiles
+                  <IconClock size={13} /> Validación estimada: 24h hábiles
                 </span>
               )}
             </div>
