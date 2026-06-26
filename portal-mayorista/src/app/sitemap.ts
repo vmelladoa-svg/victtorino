@@ -4,7 +4,17 @@ const BASE = "https://comercialsolutions.cl";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
-    { url: `${BASE}/login`, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${BASE}/registro`, changeFrequency: "monthly", priority: 0.9 },
+    {
+      url: `${BASE}/registro`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 1.0,
+    },
+    {
+      url: `${BASE}/login`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
   ];
 }
