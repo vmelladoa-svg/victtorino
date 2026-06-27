@@ -5,6 +5,7 @@ import "./globals.css";
 import { CartProvider } from "@/lib/cart-context";
 
 const FB_PIXEL = "1361965342502798";
+const GA4_ID = "G-MEBFEM1YS5"; // Propiedad GA4 "Comercial Solutions" (vinculada a Google Ads 9591328095)
 
 // Sora/Manrope solo las usa el carrusel del catálogo. preload:false → no se descargan
 // en páginas que no las aplican (p.ej. la landing). Geist/Geist Mono se quitaron (sin uso).
@@ -72,6 +73,10 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`} strategy="afterInteractive" />
+        <Script id="ga4" strategy="afterInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA4_ID}');`}
+        </Script>
         <Script id="fb-pixel" strategy="lazyOnload">
           {`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
