@@ -369,8 +369,8 @@ const CSS = `
 @media(max-width:920px){
   .lp-hero__in{grid-template-columns:1fr;}
   /* En móvil el cluster absoluto no cabe: lo mostramos como grilla 2×2 (sigue flotando). */
-  .lp-cluster{display:grid !important;position:relative;height:auto;grid-template-columns:1fr 1fr;gap:12px;max-width:340px;margin:10px auto 0;}
-  .lp-pcard{position:static !important;width:auto !important;height:auto !important;aspect-ratio:1;}
+  .lp-cluster{display:grid !important;position:relative;height:auto;width:100%;grid-template-columns:1fr 1fr;gap:12px;margin:10px 0 0;}
+  .lp-pcard{position:relative !important;top:auto !important;left:auto !important;right:auto !important;width:100% !important;height:auto !important;aspect-ratio:1 !important;}
   .lp-pcard--4{display:none;}
   .lp-cluster__glow{display:none;}
   .lp-grid4{grid-template-columns:repeat(2,1fr);}.lp-steps{grid-template-columns:1fr;}.lp-steps__line{display:none;}.lp-trust__in{grid-template-columns:1fr;}
