@@ -8,6 +8,14 @@ import { useEffect, useRef, useState } from "react";
 type Featured = { nombre: string; img: string; grupo: string };
 type Cat = { nombre: string; img: string | null };
 
+// ponytail: el optimizador de Vercel puede dar 502 en la 1ª carga (cache frío).
+// Si una foto de catálogo falla, la ocultamos y queda el fondo de marca, sin ícono roto.
+function Pic(props: React.ComponentProps<typeof Image>) {
+  const [bad, setBad] = useState(false);
+  if (bad) return null;
+  return <Image {...props} onError={() => setBad(true)} />;
+}
+
 function Ico({ d }: { d: string }) {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -113,7 +121,7 @@ export default function LandingClient({ productos, categorias }: { productos: Fe
                 <motion.div key={i} className={`lp-pcard lp-pcard--${i}`}
                   animate={reduce ? {} : { y: [0, i % 2 ? 12 : -12, 0] }}
                   transition={{ duration: 4 + i, repeat: Infinity, ease: "easeInOut", delay: i * 0.3 }}>
-                  <Image src={p.img} alt="" fill sizes="220px" className="lp-pcard__img" />
+                  <Pic src={p.img} alt="" fill sizes="220px" className="lp-pcard__img" />
                   <span className="lp-pcard__tag">Precio mayorista</span>
                 </motion.div>
               ))}
@@ -129,14 +137,14 @@ export default function LandingClient({ productos, categorias }: { productos: Fe
           <div className="lp-marquee">
             <div className="lp-marquee__track">
               {loop.map((p, i) => (
-                <div className="lp-mitem" key={i}><Image src={p.img} alt={p.nombre} fill sizes="120px" className="lp-mitem__img" /></div>
+                <div className="lp-mitem" key={i}><Pic src={p.img} alt={p.nombre} fill sizes="120px" className="lp-mitem__img" /></div>
               ))}
             </div>
           </div>
           <div className="lp-marquee lp-marquee--rev">
             <div className="lp-marquee__track">
               {loop.slice().reverse().map((p, i) => (
-                <div className="lp-mitem" key={i}><Image src={p.img} alt={p.nombre} fill sizes="120px" className="lp-mitem__img" /></div>
+                <div className="lp-mitem" key={i}><Pic src={p.img} alt={p.nombre} fill sizes="120px" className="lp-mitem__img" /></div>
               ))}
             </div>
           </div>
@@ -167,7 +175,7 @@ export default function LandingClient({ productos, categorias }: { productos: Fe
             {categorias.map((c, i) => (
               <motion.div key={c.nombre} variants={fadeUp} className={`lp-bento__cellwrap lp-bento__cellwrap--${i}`} whileHover={{ y: -5 }}>
                 <Link href="/registro" className="lp-bcell">
-                  {c.img ? <Image src={c.img} alt="" fill sizes="(max-width:700px) 50vw, 360px" className="lp-bcell__img" /> : <span className="lp-bcell__ph" />}
+                  {c.img ? <Pic src={c.img} alt="" fill sizes="(max-width:700px) 50vw, 360px" className="lp-bcell__img" /> : <span className="lp-bcell__ph" />}
                   <span className="lp-bcell__ov" />
                   <span className="lp-bcell__name">{c.nombre}<Ico d={ICON.arrow} /></span>
                 </Link>
@@ -327,7 +335,7 @@ const CSS = `
 .lp-bento__cellwrap--0{grid-column:span 2;grid-row:span 2;}
 .lp-bento__cellwrap--3{grid-row:span 2;}
 .lp-bento__cellwrap--6{grid-column:span 2;}
-.lp-bcell{position:relative;display:block;width:100%;height:100%;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:#0a2236;}
+.lp-bcell{position:relative;display:block;width:100%;height:100%;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(160deg,#0e3a5e,#06182a);}
 .lp-bcell__img{object-fit:cover;transition:transform .5s ease;}
 .lp-bcell:hover .lp-bcell__img{transform:scale(1.07);}
 .lp-bcell__ph{position:absolute;inset:0;background:linear-gradient(160deg,#0e3a5e,#06182a);}
