@@ -367,7 +367,12 @@ const CSS = `
 .lp-foot__lk{display:flex;gap:20px;}.lp-foot__lk a{color:var(--ink2);}.lp-foot__lk a:hover{color:var(--brand);}
 /* RESPONSIVE */
 @media(max-width:920px){
-  .lp-hero__in{grid-template-columns:1fr;}.lp-cluster{display:none;}
+  .lp-hero__in{grid-template-columns:1fr;}
+  /* En móvil el cluster absoluto no cabe: lo mostramos como grilla 2×2 (sigue flotando). */
+  .lp-cluster{display:grid !important;position:relative;height:auto;grid-template-columns:1fr 1fr;gap:12px;max-width:340px;margin:10px auto 0;}
+  .lp-pcard{position:static !important;width:auto !important;height:auto !important;aspect-ratio:1;}
+  .lp-pcard--4{display:none;}
+  .lp-cluster__glow{display:none;}
   .lp-grid4{grid-template-columns:repeat(2,1fr);}.lp-steps{grid-template-columns:1fr;}.lp-steps__line{display:none;}.lp-trust__in{grid-template-columns:1fr;}
   .lp-bento{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px;}
   .lp-bento__cellwrap--0,.lp-bento__cellwrap--6{grid-column:span 2;}.lp-bento__cellwrap--0{grid-row:span 1;}.lp-bento__cellwrap--3{grid-row:span 1;}
