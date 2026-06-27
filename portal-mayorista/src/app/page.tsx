@@ -7,8 +7,9 @@ import { GRUPOS, grupoDe, nivel1 } from "@/lib/categorias";
 
 const SITE = "https://comercialsolutions.cl";
 
-const lexend = Lexend({ subsets: ["latin"], variable: "--font-lexend", weight: ["400", "500", "600", "700", "800"], display: "swap" });
-const sourceSans = Source_Sans_3({ subsets: ["latin"], variable: "--font-source", weight: ["400", "500", "600", "700"], display: "swap" });
+// Solo los pesos que la landing realmente usa: Lexend 600/700/800 (títulos/botones), Source 400/600 (texto).
+const lexend = Lexend({ subsets: ["latin"], variable: "--font-lexend", weight: ["600", "700", "800"], display: "swap" });
+const sourceSans = Source_Sans_3({ subsets: ["latin"], variable: "--font-source", weight: ["400", "600"], display: "swap" });
 
 export const metadata: Metadata = {
   title: "Comercial Solutions — Portal Mayorista B2B | Venta por mayor en Chile",
