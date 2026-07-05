@@ -76,13 +76,14 @@ export default function RegistroPage() {
         "track",
         "CompleteRegistration"
       );
-      // Auto-login: el registro es el único paso, entra directo al catálogo.
+      // La cuenta queda pendiente de aprobación: inicia sesión y va a /revision,
+      // donde verá el estado de su solicitud.
       await signIn("credentials", {
         email: form.email,
         password: form.clave,
         redirect: false,
       });
-      setTimeout(() => router.push("/catalogo"), 1200);
+      setTimeout(() => router.push("/revision"), 1200);
     } catch {
       setError("Error de conexión. Intenta nuevamente.");
     } finally {
@@ -143,7 +144,7 @@ export default function RegistroPage() {
           {success ? (
             <div style={styles.successBox}>
               <CheckIcon color="#1f9d57" />
-              <span>¡Cuenta creada y validada! Entrando al catálogo...</span>
+              <span>¡Cuenta creada! Tu registro quedó en revisión. Te redirigimos...</span>
             </div>
           ) : (
             <form onSubmit={handleSubmit} noValidate>

@@ -35,6 +35,12 @@ model Comerciante {
   estado     EstadoComerciante @default(pendiente)
   pedidos    Pedido[]
   createdAt  DateTime          @default(now())
+
+  // Evaluación de cliente (híbrida: score automático + ajuste manual del admin)
+  scoreAjuste Int       @default(0) // ajuste manual del admin sobre el score automático (-100..100)
+  tierManual  String?               // tier fijado a mano por el admin (A/B/C); null = usar el derivado del score
+  notaEval    String?               // notas de evaluación del admin
+  evaluadoAt  DateTime?             // última vez que el admin evaluó/ajustó
 }
 
 model Producto {

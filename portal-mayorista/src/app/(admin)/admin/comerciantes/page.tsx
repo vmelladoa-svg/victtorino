@@ -1,8 +1,15 @@
-﻿import { redirect } from "next/navigation";
+import { redirect } from "next/navigation";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import Link from "next/link";
 import AccionesComerciante from "./acciones";
+import EvaluacionComerciante from "./evaluacion";
+import {
+  calcularScoreAuto,
+  scoreFinal,
+  tierEfectivo,
+  type Tier,
+} from "@/lib/evaluacion";
 
 export const metadata = {
   title: "Comerciantes | Admin · Comercial Solutions",
@@ -16,6 +23,11 @@ const FILTROS = [
 ] as const;
 
 type EstadoFiltro = "todos" | "pendiente" | "aprobado" | "rechazado";
+
+// Estados de pedido que cuentan como pago aceptado (para el score de cliente).
+const PEDIDOS_BUENOS = ["validado", "oc_generada", "despachado", "entregado"];
+
+const TIER_COLOR: Record<Tier, string> = { A: "#1f9d57", B: "#c98a12", C: "#c4423f" };
 
 function EstadoPill({ estado }: { estado: string }) {
   const mapa: Record<string, { cls: string; label: string }> = {
@@ -64,6 +76,43 @@ export default async function ComerciantesAdminPage({ searchParams }: PageProps)
 
   const pendientesCount = conteoMap["pendiente"] ?? 0;
 
+  // Agregados de pedidos por comerciante, para el score automático en vivo.
+  const agg = await prisma.pedido.groupBy({
+    by: ["comercianteId", "estado"],
+    _count: { _all: true },
+    _sum: { total: true },
+  });
+  const porCom: Record<
+    string,
+    { totalComprado: number; nPedidos: number; nBuenos: number; nRechazados: number }
+  > = {};
+  for (const g of agg) {
+    const m = (porCom[g.comercianteId] ??= {
+      totalComprado: 0,
+      nPedidos: 0,
+      nBuenos: 0,
+      nRechazados: 0,
+    });
+    const cnt = g._count._all;
+    m.nPedidos += cnt;
+    if (PEDIDOS_BUENOS.includes(g.estado)) {
+      m.nBuenos += cnt;
+      m.totalComprado += g._sum.total ?? 0;
+    }
+    if (g.estado === "rechazado") m.nRechazados += cnt;
+  }
+
+  const ahora = Date.now();
+  function evaluar(c: (typeof comerciantes)[number]) {
+    const d =
+      porCom[c.id] ?? { totalComprado: 0, nPedidos: 0, nBuenos: 0, nRechazados: 0 };
+    const antiguedadDias = Math.max(0, (ahora - c.createdAt.getTime()) / 86_400_000);
+    const { scoreAuto, componentes } = calcularScoreAuto({ ...d, antiguedadDias });
+    const finalVal = scoreFinal(scoreAuto, c.scoreAjuste);
+    const tier = tierEfectivo(finalVal, c.tierManual);
+    return { scoreAuto, componentes, finalVal, tier };
+  }
+
   return (
     <div className="adm-page">
       <div
@@ -78,7 +127,7 @@ export default async function ComerciantesAdminPage({ searchParams }: PageProps)
         <div>
           <h2 style={{ fontSize: "20px", fontWeight: 800, display: "flex", alignItems: "center", gap: "9px" }}>
             <PeopleIcon />
-            Validación de comerciantes
+            Validación y evaluación de comerciantes
           </h2>
           <p style={{ fontSize: "13.5px", color: "var(--ink-2)", marginTop: "4px" }}>
             {pendientesCount > 0
@@ -137,60 +186,107 @@ export default async function ComerciantesAdminPage({ searchParams }: PageProps)
             <p>Cuando alguien se registre aparecerá aquí para su revisión.</p>
           </div>
         ) : (
-          <>
-            <div
-              className="adm-tr adm-thd"
-              style={{ gridTemplateColumns: "1fr 180px 130px 120px 210px", padding: "11px 16px" }}
-            >
-              <span>Comerciante</span>
-              <span>RUT empresa</span>
-              <span>Teléfono</span>
-              <span>Estado</span>
-              <span>Acciones</span>
-            </div>
-            {comerciantes.map((c) => (
+          comerciantes.map((c, i) => {
+            const ev = evaluar(c);
+            return (
               <div
                 key={c.id}
-                className="adm-tr"
                 style={{
-                  gridTemplateColumns: "1fr 180px 130px 120px 210px",
-                  padding: "14px 16px",
-                  cursor: "default",
+                  padding: "16px",
+                  borderTop: i === 0 ? "none" : "1px solid var(--line-2)",
                 }}
               >
-                <div style={{ display: "flex", flexDirection: "column", gap: "2px", minWidth: 0 }}>
-                  <span style={{ fontWeight: 700, fontSize: "14px", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-                    {c.nombre}
-                  </span>
-                  <span style={{ fontSize: "12px", color: "var(--ink-2)" }}>{c.email}</span>
-                  <span style={{ fontSize: "11px", color: "var(--ink-3)" }}>
-                    {c.giro} · Registrado {formatFecha(c.createdAt)}
-                  </span>
-                  {(c.comuna || c.region) && (
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    gap: "16px",
+                    flexWrap: "wrap",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "column", gap: "2px", minWidth: 0 }}>
+                    <span style={{ fontWeight: 700, fontSize: "14px" }}>{c.nombre}</span>
+                    <span style={{ fontSize: "12px", color: "var(--ink-2)" }}>{c.email}</span>
                     <span style={{ fontSize: "11px", color: "var(--ink-3)" }}>
-                      {[c.comuna, c.region].filter(Boolean).join(", ")}
+                      {c.giro} · Registrado {formatFecha(c.createdAt)}
                     </span>
-                  )}
+                    {(c.comuna || c.region) && (
+                      <span style={{ fontSize: "11px", color: "var(--ink-3)" }}>
+                        {[c.comuna, c.region].filter(Boolean).join(", ")}
+                      </span>
+                    )}
+                  </div>
+
+                  <div style={{ display: "flex", gap: "18px", alignItems: "center", flexWrap: "wrap" }}>
+                    <MetaDato label="RUT empresa" valor={c.rutEmpresa} mono />
+                    <MetaDato label="Teléfono" valor={c.telefono || "-"} />
+                    <div style={{ display: "flex", flexDirection: "column", gap: "5px", alignItems: "flex-start" }}>
+                      <EstadoPill estado={c.estado} />
+                      <ScoreTier score={ev.finalVal} tier={ev.tier} />
+                    </div>
+                  </div>
                 </div>
-                <span style={{ fontSize: "13px", color: "var(--ink-2)", fontFamily: "var(--mono)", fontWeight: 600 }}>
-                  {c.rutEmpresa}
-                </span>
-                <span style={{ fontSize: "13px", color: "var(--ink-2)" }}>
-                  {c.telefono || <em style={{ color: "var(--ink-3)", fontStyle: "normal" }}>-</em>}
-                </span>
-                <EstadoPill estado={c.estado} />
-                {c.estado === "pendiente" ? (
-                  <AccionesComerciante id={c.id} nombre={c.nombre} />
-                ) : (
-                  <span style={{ fontSize: "12.5px", color: "var(--ink-3)" }}>
-                    {c.estado === "aprobado" ? "✓ Acceso habilitado" : "✗ Acceso denegado"}
-                  </span>
-                )}
+
+                <div style={{ display: "flex", flexDirection: "column", gap: "6px", marginTop: "12px" }}>
+                  {c.estado === "pendiente" && (
+                    <AccionesComerciante id={c.id} nombre={c.nombre} />
+                  )}
+                  <EvaluacionComerciante
+                    id={c.id}
+                    scoreAuto={ev.scoreAuto}
+                    componentes={ev.componentes}
+                    scoreAjuste={c.scoreAjuste}
+                    tierManual={c.tierManual}
+                    notaEval={c.notaEval}
+                  />
+                </div>
               </div>
-            ))}
-          </>
+            );
+          })
         )}
       </div>
+    </div>
+  );
+}
+
+function MetaDato({ label, valor, mono }: { label: string; valor: string; mono?: boolean }) {
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+      <span style={{ fontSize: "10.5px", fontWeight: 700, color: "var(--ink-3)", textTransform: "uppercase", letterSpacing: "0.03em" }}>
+        {label}
+      </span>
+      <span
+        style={{
+          fontSize: "13px",
+          color: "var(--ink-2)",
+          fontWeight: 600,
+          fontFamily: mono ? "var(--mono)" : "inherit",
+        }}
+      >
+        {valor}
+      </span>
+    </div>
+  );
+}
+
+function ScoreTier({ score, tier }: { score: number; tier: Tier }) {
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: "7px" }}>
+      <span style={{ fontSize: "12px", fontWeight: 700, color: "var(--ink-2)" }}>{score}/100</span>
+      <span
+        style={{
+          display: "inline-block",
+          padding: "2px 9px",
+          borderRadius: "100px",
+          background: TIER_COLOR[tier] + "22",
+          color: TIER_COLOR[tier],
+          fontWeight: 800,
+          fontSize: "12px",
+        }}
+      >
+        Tier {tier}
+      </span>
     </div>
   );
 }

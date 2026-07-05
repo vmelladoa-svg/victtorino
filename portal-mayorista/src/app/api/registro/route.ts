@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/db";
 import { avisarWhatsApp } from "@/lib/whatsapp";
+import { sincronizarLeadHubSpot } from "@/lib/hubspot";
 import { esEmail, esRut, texto } from "@/lib/validar";
 import { permitir, ipDe } from "@/lib/rate-limit";
 
@@ -24,21 +25,31 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Ese email ya está registrado" }, { status: 409 });
 
   const nombre = texto(b.nombre, 120);
+  const rutEmpresa = texto(b.rutEmpresa, 20);
+  const giro = texto(b.giro, 120);
+  const region = texto(b.region, 60);
+  const comuna = texto(b.comuna, 60);
+  const telefono = texto(b.telefono, 30);
+
   await prisma.comerciante.create({
     data: {
       nombre,
       email,
       clave: await bcrypt.hash(String(b.clave), 10),
-      rutEmpresa: texto(b.rutEmpresa, 20),
-      giro: texto(b.giro, 120),
-      region: texto(b.region, 60),
-      comuna: texto(b.comuna, 60),
-      telefono: texto(b.telefono, 30),
-      estado: "aprobado", // validación automática: el registro es el único formulario
+      rutEmpresa,
+      giro,
+      region,
+      comuna,
+      telefono,
+      estado: "pendiente", // requiere aprobación manual del admin (con evaluación)
     },
   });
 
-  await avisarWhatsApp(`Nuevo comerciante registrado: ${nombre} (acceso inmediato).`);
+  // Avisos externos en paralelo; ninguno bloquea ni falla el registro.
+  await Promise.allSettled([
+    avisarWhatsApp(`Nuevo comerciante registrado: ${nombre} — pendiente de aprobación. Revísalo en el panel.`),
+    sincronizarLeadHubSpot({ email, nombre, telefono, giro, comuna, region, rutEmpresa }),
+  ]);
 
   return NextResponse.json({ ok: true });
 }
