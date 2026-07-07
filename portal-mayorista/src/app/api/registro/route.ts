@@ -3,6 +3,7 @@ import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/db";
 import { avisarWhatsApp } from "@/lib/whatsapp";
 import { sincronizarLeadHubSpot } from "@/lib/hubspot";
+import { enviarBienvenida } from "@/lib/email";
 import { esEmail, esRut, texto } from "@/lib/validar";
 import { permitir, ipDe } from "@/lib/rate-limit";
 
@@ -49,6 +50,7 @@ export async function POST(req: Request) {
   await Promise.allSettled([
     avisarWhatsApp(`Nuevo comerciante registrado: ${nombre} — pendiente de aprobación. Revísalo en el panel.`),
     sincronizarLeadHubSpot({ email, nombre, telefono, giro, comuna, region, rutEmpresa }),
+    enviarBienvenida({ email, nombre }),
   ]);
 
   return NextResponse.json({ ok: true });
