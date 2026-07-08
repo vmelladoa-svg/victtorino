@@ -27,7 +27,10 @@ const nextConfig: NextConfig = {
   turbopack: { root: __dirname },
   images: {
     // Fotos de producto viven en el CDN de uniCloud/bspapp (host único por app).
-    remotePatterns: [{ protocol: "https", hostname: "**.cdn.bspapp.com" }],
+    remotePatterns: [
+      { protocol: "https", hostname: "**.cdn.bspapp.com" },
+      { protocol: "https", hostname: "res.cloudinary.com" },
+      ],
     formats: ["image/avif", "image/webp"],
   },
   async headers() {
