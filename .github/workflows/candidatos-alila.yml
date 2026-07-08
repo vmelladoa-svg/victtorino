@@ -28,7 +28,7 @@ jobs:
           python-version: '3.12'
 
       - name: Instalar dependencias
-        run: pip install psycopg2-binary requests
+        run: pip install psycopg2-binary requests cloudinary
 
       # Si viene con codigos (boton manual) -> agregar esos productos aprobados
       - name: Agregar aprobados
@@ -36,6 +36,9 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           APROBADOS: ${{ github.event.inputs.codigos }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
         run: python agregar_aprobados.py
 
       # Siempre: (re)generar la lista de candidatos + WhatsApp
