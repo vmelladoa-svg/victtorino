@@ -1,0 +1,37 @@
+name: Migrar catalogo a Cloudinary (fotos propias + descripcion limpia)
+
+# Independiza el catalogo de Alila: sube fotos a Cloudinary, limpia descripcion,
+# borra linkML. Manual (Run workflow). Prueba con pocos primero usando "codigos".
+
+on:
+  workflow_dispatch:
+    inputs:
+      codigos:
+        description: 'Codigos a migrar (coma). Vacio = TODO el catalogo.'
+        required: false
+        default: ''
+      limite:
+        description: 'Maximo de productos a migrar (0 = sin limite).'
+        required: false
+        default: '0'
+
+jobs:
+  migrar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar dependencias
+        run: pip install psycopg2-binary requests cloudinary
+      - name: Migrar
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          MIGRAR_CODIGOS: ${{ github.event.inputs.codigos }}
+          MIGRAR_LIMIT: ${{ github.event.inputs.limite }}
+        run: python migrar_catalogo.py
