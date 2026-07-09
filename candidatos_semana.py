@@ -116,11 +116,13 @@ data_dir = ROOT / "data"; data_dir.mkdir(exist_ok=True)
 (data_dir / "candidatos.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
 print(f"Candidatos NUEVOS: {total} (guardados top {len(cands)} por demanda)")
 
-# ---- 5) aviso por WhatsApp ----
+# ---- 5) aviso por WhatsApp (con link a la pagina de curacion de 1 clic) ----
 phone = os.environ.get("CALLMEBOT_PHONE"); apikey = os.environ.get("CALLMEBOT_APIKEY")
+curar = os.environ.get("CURAR_URL", "").strip()
 if phone and apikey and total:
-    msg = (f"🆕 Comercial Solutions: {total} productos NUEVOS de Alila para revisar esta semana "
-           f"(top {len(cands)} por demanda). Revisa la pagina y elige cuales agregar.")
+    msg = (f"🆕 Comercial Solutions: {total} productos NUEVOS para revisar esta semana "
+           f"(top {len(cands)} por demanda).")
+    msg += f" Abre, marca y agrega en 1 clic: {curar}" if curar else " Revisa la lista y elige cuales agregar."
     url = "https://api.callmebot.com/whatsapp.php?phone=%s&text=%s&apikey=%s" % (
         phone, urllib.parse.quote(msg), apikey)
     try:
