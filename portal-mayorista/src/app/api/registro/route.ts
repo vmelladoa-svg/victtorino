@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/db";
-import { avisarWhatsApp } from "@/lib/whatsapp";
+import { avisarWhatsApp, waLink } from "@/lib/whatsapp";
 import { sincronizarLeadHubSpot } from "@/lib/hubspot";
 import { enviarBienvenida } from "@/lib/email";
 import { esEmail, esRut, texto } from "@/lib/validar";
@@ -48,7 +48,7 @@ export async function POST(req: Request) {
 
   // Avisos externos en paralelo; ninguno bloquea ni falla el registro.
   await Promise.allSettled([
-    avisarWhatsApp(`Nuevo comerciante registrado: ${nombre} — auto-aprobado (ya tiene acceso). Valídalo cuando puedas en el panel.`),
+    avisarWhatsApp(`🆕 Nuevo comerciante: ${nombre} (auto-aprobado). Tel: ${telefono}. Escríbele ahora: ${waLink(telefono)}`),
     sincronizarLeadHubSpot({ email, nombre, telefono, giro, comuna, region, rutEmpresa }),
     enviarBienvenida({ email, nombre }),
   ]);

@@ -3,6 +3,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { precioPorCantidad, subtotalLinea } from "@/lib/precios";
 import { avisarWhatsApp } from "@/lib/whatsapp";
+import { enviarConfirmacionPedido } from "@/lib/email";
 import { folio } from "@/lib/folio";
 import { texto, cantidadValida } from "@/lib/validar";
 
@@ -47,6 +48,23 @@ export async function POST(req: Request) {
     region: texto(b.region, 60), direccion: texto(b.direccion, 300), comprobanteUrl: String(b.comprobanteUrl),
     items: { create: items },
   }});
-  await avisarWhatsApp(`Nuevo pedido mayorista #${folio(pedido.id)} por ${u.name}. Total $${total.toLocaleString("es-CL")}. Revisar comprobante en el panel.`);
+  // Datos para el comprobante del cliente.
+  const cliente = await prisma.comerciante.findUnique({ where: { id: u.id }, select: { email: true, nombre: true } });
+  const itemsEmail = items.map((it) => ({
+    nombre: map.get(it.productoId)?.nombre ?? "Producto",
+    cantidad: it.cantidad, precio: it.precioAplicado, subtotal: it.subtotal,
+  }));
+
+  // Avisos externos en paralelo; ninguno bloquea ni falla el pedido.
+  await Promise.allSettled([
+    avisarWhatsApp(`Nuevo pedido mayorista #${folio(pedido.id)} por ${u.name}. Total $${total.toLocaleString("es-CL")}. Revisar comprobante en el panel.`),
+    cliente?.email
+      ? enviarConfirmacionPedido({
+          email: cliente.email, nombre: cliente.nombre, folio: folio(pedido.id),
+          fecha: pedido.createdAt, total, direccion: pedido.direccion, region: pedido.region,
+          items: itemsEmail,
+        })
+      : Promise.resolve(),
+  ]);
   return NextResponse.json({ ok: true, pedidoId: pedido.id });
 }
