@@ -42,13 +42,13 @@ export async function POST(req: Request) {
       region,
       comuna,
       telefono,
-      estado: "pendiente", // requiere aprobación manual del admin (con evaluación)
+      estado: "aprobado", // auto-aprobado: acceso inmediato al catálogo; el admin valida a posteriori (puede pasar a "rechazado")
     },
   });
 
   // Avisos externos en paralelo; ninguno bloquea ni falla el registro.
   await Promise.allSettled([
-    avisarWhatsApp(`Nuevo comerciante registrado: ${nombre} — pendiente de aprobación. Revísalo en el panel.`),
+    avisarWhatsApp(`Nuevo comerciante registrado: ${nombre} — auto-aprobado (ya tiene acceso). Valídalo cuando puedas en el panel.`),
     sincronizarLeadHubSpot({ email, nombre, telefono, giro, comuna, region, rutEmpresa }),
     enviarBienvenida({ email, nombre }),
   ]);
