@@ -35,18 +35,20 @@ function htmlBienvenida(nombre: string): string {
     </div>
     <div style="background:#fff;border:1px solid #e4ebf2;border-top:none;padding:28px 32px;border-radius:0 0 12px 12px;">
       <p style="font-size:15px;">Hola ${esc(nombre)},</p>
-      <p style="font-size:15px;line-height:1.6;">¡Gracias por registrarte! Recibimos tu solicitud para acceder a nuestro Portal Mayorista B2B.</p>
-      <p style="font-size:15px;line-height:1.6;"><strong>Tu cuenta está en revisión.</strong> Verificamos cada registro para reservar los precios mayoristas solo para negocios. El proceso toma entre 24 y 48 horas hábiles.</p>
-      <div style="background:#f3f8fc;border-radius:10px;padding:16px 20px;margin:20px 0;">
-        <p style="font-size:13px;font-weight:700;color:#54657a;margin:0 0 10px;">Lo que te espera al ser aprobado:</p>
-        <ul style="font-size:14px;line-height:1.8;margin:0;padding-left:18px;">
-          <li>Precios escalonados por volumen</li>
-          <li>+5.000 productos importados con stock real</li>
-          <li>Despacho a todo Chile (gratis sobre $400.000)</li>
-          <li>Seguimiento completo de tus pedidos</li>
-        </ul>
+      <p style="font-size:15px;line-height:1.6;"><strong>¡Tu cuenta ya está activa! 🎉</strong> Puedes entrar ahora mismo y ver todos los precios mayoristas.</p>
+      <div style="text-align:center;margin:22px 0;">
+        <a href="https://comercialsolutions.cl/login" style="display:inline-block;background:#0a3d62;color:#fff;text-decoration:none;font-size:15px;font-weight:700;padding:13px 28px;border-radius:8px;">Entrar al portal &rarr;</a>
       </div>
-      <p style="font-size:14px;line-height:1.6;color:#54657a;">Te avisaremos apenas tu cuenta esté activa. ¿Dudas? Escríbenos a <a href="mailto:contacto@comercialsolutions.cl" style="color:#0e7cc4;">contacto@comercialsolutions.cl</a>.</p>
+      <div style="background:#f3f8fc;border-radius:10px;padding:18px 22px;margin:20px 0;">
+        <p style="font-size:13px;font-weight:700;color:#54657a;margin:0 0 12px;">Cómo comprar, paso a paso:</p>
+        <ol style="font-size:14px;line-height:1.9;margin:0;padding-left:20px;">
+          <li><strong>Explora el catálogo</strong> — +5.000 productos importados con stock real.</li>
+          <li><strong>Arma tu pedido</strong> — el precio baja según la cantidad (precios escalonados por volumen).</li>
+          <li><strong>Paga por transferencia</strong> y sube tu comprobante desde "Mis pedidos".</li>
+          <li><strong>Validamos y despachamos</strong> a todo Chile (envío gratis sobre $400.000).</li>
+        </ol>
+      </div>
+      <p style="font-size:14px;line-height:1.6;color:#54657a;">¿Dudas? Escríbenos por WhatsApp al <strong>+56 9 2178 9322</strong> o a <a href="mailto:contacto@comercialsolutions.cl" style="color:#0e7cc4;">contacto@comercialsolutions.cl</a>.</p>
       <p style="font-size:14px;margin-top:24px;">Un saludo,<br><strong>Equipo Comercial Solutions</strong></p>
     </div>
     <p style="text-align:center;font-size:11px;color:#8696a8;margin-top:16px;">comercialsolutions.cl</p>
@@ -68,7 +70,7 @@ export async function enviarBienvenida(datos: BienvenidaDatos): Promise<void> {
       body: JSON.stringify({
         from,
         to: [datos.email],
-        subject: "Recibimos tu solicitud — Comercial Solutions Portal Mayorista",
+        subject: "¡Bienvenido! Tu cuenta ya está activa — Comercial Solutions",
         html: htmlBienvenida(datos.nombre),
       }),
       signal: AbortSignal.timeout(TIMEOUT_MS),
