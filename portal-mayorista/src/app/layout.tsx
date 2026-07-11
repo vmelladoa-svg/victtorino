@@ -94,6 +94,13 @@ fbq('init','${FB_PIXEL}');fbq('track','PageView');`}
             src={`https://www.facebook.com/tr?id=${FB_PIXEL}&ev=PageView&noscript=1`}
           />
         </noscript>
+        {/* Victoria — agente IA de Comercial Solutions (motor multi-tenant en okai.cl) */}
+        <Script
+          src="https://okai.cl/assets/victoria-widget.js"
+          data-client="comercial-solutions"
+          data-endpoint="https://okai.cl/api/chat"
+          strategy="lazyOnload"
+        />
         <CartProvider>{children}</CartProvider>
       </body>
     </html>
